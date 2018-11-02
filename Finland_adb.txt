@@ -361,8 +361,6 @@ ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 izumrud-d.ru
 iro.fi/Surveys/
 itviikko.fi##DIV#articleMiddleAd
-jhl.fi/jasenyys/
-jhl.fi/toiminta/
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
 kaksplus.fi##DIV[class="section funbox"]
 kansalainen.fi##div[id^="ads"]
