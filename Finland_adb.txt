@@ -276,14 +276,6 @@ huoltovalikko.com##A[href="http://www.satshop.fi"]
 huuto.net###front-page-elements
 huuto.net###display-window-container
 huuto.net###huutoluotto-container
-
-! hintaseuranta elementit (
-huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-! oikotie navigaatiopalkki
-huuto.net###oikotie-nav
-! mainos container haun alaosassa
-huuto.net##div.search-grid-ad-container.ad
-
 elisaviihde.fi##SECTION#cookie-warning[class="cookie-notification warning"]
 elisa.fi/img/content/*.mp4
 nexus.ensighten.com/*/serverComponent.php
@@ -893,3 +885,11 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||adlibris.com/pixel.gif
 @@/pixel.gif$domain=xhamster.com
 @@||uusi.op.fi/$document
+
+! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
+! hintaseuranta elementit
+huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
+! oikotie navigaatiopalkki
+huuto.net###oikotie-nav
+! mainos container haun alaosassa
+huuto.net##div.search-grid-ad-container.ad
