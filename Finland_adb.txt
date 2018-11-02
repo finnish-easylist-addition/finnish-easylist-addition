@@ -4,11 +4,11 @@
 ! Description: Finnish adblock list
 ! Last modified: 2nd of November 2018
 ! Expires: 7 days (update frequency)
-! Homepage: https://github.com/theel0ja/finnish-easylist-addition
+! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: http://unlicense.org/
 !
 ! Please report any issues at:
-! https://github.com/theel0ja/finnish-easylist-addition/issues
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~www.unisport.fi|~unisport.fi|~f9.fi
 /pixel.gif$domain=~www.damnlol.com
