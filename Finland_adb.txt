@@ -896,3 +896,6 @@ huuto.net##div.search-grid-ad-container.ad
 
 ! Iltasanomat videomainokset
 ads-manual*.nelonenmedia.fi/ads/
+
+! MTV evästebanneri
+mtvuutiset.fi##.mtvcookienotification
