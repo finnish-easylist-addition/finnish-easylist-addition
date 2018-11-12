@@ -902,6 +902,7 @@ ads-manual*.nelonenmedia.fi/ads/
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 
 ! hide huge ad containers on mtvuutiset.fi
+www.mtvuutiset.fi##div.ad-container.component
 www.mtvuutiset.fi###leaderboard-2
 
 
