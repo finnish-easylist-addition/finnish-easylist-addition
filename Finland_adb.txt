@@ -906,6 +906,7 @@ www.mtvuutiset.fi##div.ad-container.component
 www.mtvuutiset.fi###leaderboard-2
 www.mtvuutiset.fi##.component-adincontent.component
 www.mtvuutiset.fi##.component-ad-leiki.component > .component-adincontent.component > .ad-container.banner
+www.mtvuutiset.fi##.leaderboard-1.leaderboard
 
 ! iotech banners
 ||www.io-tech.fi/bnr/$image
