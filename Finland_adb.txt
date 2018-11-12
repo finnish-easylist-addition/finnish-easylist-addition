@@ -905,7 +905,7 @@ ads-manual*.nelonenmedia.fi/ads/
 www.mtvuutiset.fi##div.ad-container.component
 www.mtvuutiset.fi###leaderboard-2
 www.mtvuutiset.fi##.component-adincontent.component
-
+www.mtvuutiset.fi##.component-ad-leiki.component > .component-adincontent.component > .ad-container.banner
 
 ! iotech banners
 ||www.io-tech.fi/bnr/$image
