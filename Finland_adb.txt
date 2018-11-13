@@ -1,9 +1,9 @@
 [Adblock]
-! Version: 201811131
+! Version: 201811132
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 13th of November 2018
-! Expires: 7 days
+! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 !
@@ -785,7 +785,6 @@ spring-tns.net$third-party
 ||celtra.com$third-party
 ||madsone.com$third-party
 ||yabidos.com
-||platform.linkedin.com
 ||adten.eu
 ||w55c.net
 ||media.vuokraovi.com$third-party
@@ -806,7 +805,6 @@ spring-tns.net$third-party
 ||euroads.fi
 ||vihreat.fi/?q=node/*/stats/impression
 
-
 ! kaleva.fi
 carousel-prod-kaleva-fi.s3.amazonaws.com
 kaleva.fi##div[id^="mainokset-"]
@@ -817,29 +815,6 @@ kaleva.fi/static/common/js/spring
 kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
 kaleva.fi##DIV[id="kaleva-cookie-consent"]
-
-! To enable iltasanomat.fi etc. videos
-@@||adserver.adtech.de/?adrawdata/$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|is.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi|liiga.fi
-! @@||adserver.adtech.de/?advideo/$domain=groovefm.fi|hs.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi|liiga.fi|viasatsport.fi
-@@adserver.adtech.de/crossdomain.xml$domain=groovefm.fi|hs.fi|iltasanomat.fi|is.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi|liiga.fi
-@@||ads-pmd.nelonenmedia.fi/ads/*.mp4
-@@fwmrm.net$domain=hs.fi|iltasanomat.fi|is.fi
-
-
-@@adserver.adtech.de$domain=hs.fi|iltasanomat.fi|is.fi
-@@ad.360yield.com$domain=hs.fi|iltasanomat.fi|is.fi
-@@doubleclick.net$domain=hs.fi|iltasanomat.fi|is.fi
-@@adform.net$domain=hs.fi|iltasanomat.fi|is.fi
-
-@@nexus.ensighten.com/*/servercomponent.php$domain=tallinksilja.fi
-
-@@||ko.snstatic.fi/static/is-paivan-lehti/*
-@@||ko.snstatic.fi/static/urheilusanomat/*
-@@||iltasanomat.fi/kampanjat/promo/nostot/etusivu-sarjakuvat/*
-@@||iltasanomat.fi/kampanjat/promo/nostot/extra/*
-@@||is.fi/kampanjat/promo/nostot/etusivu-sarjakuvat/*
-@@||is.fi/kampanjat/promo/nostot/extra/*
-@@||is.fi/kampanjat/suomi100/is-logo-*
 
 ! mtv videoihin toimintavarmuutta
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
@@ -883,3 +858,10 @@ www.mtvuutiset.fi##.leaderboard-1.leaderboard
 
 ! iotech banners
 ||www.io-tech.fi/bnr/$image
+
+! Media unbreakers
+@@||fwmrm.net/ad/$script,domain=ruutu.fi|dplay.fi
+@@||www.foxplay.fi/compiled/js/ads.js$script
+||nelonenmedia.fi/ads/$media,domain=ruutu.fi
+||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
+||ads-spotgate02.nelonenmedia.fi^$media,domain=www.is.fi
