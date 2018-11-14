@@ -854,3 +854,6 @@ mtvuutiset.fi##.ad_fadein
 ||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
 ||ads-spotgate02.nelonenmedia.fi^$media,domain=www.is.fi
 @@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
+
+! Prevent clicking video ads on mtvuutiset.fi
+mtvuutiset.fi##.mtv-player-ad-container
