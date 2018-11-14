@@ -500,17 +500,6 @@ talouselama.fi##DIV#footer-inner-wrapper
 talouselama.fi##DIV#right
 talouselama.fi##DIV[class="knavi_holder"]
 talouselama.fi##DIV#bottom
-taloussanomat.fi##DIV#articleNavigation
-taloussanomat.fi##DIV#articleMiddleAd[class="googleArticleAd"]
-taloussanomat.fi##div[class="toolBox"]
-taloussanomat.fi##IFRAME[src*="advertorial"]
-taloussanomat.fi/inc/inc/advertorials/
-taloussanomat.fi##div[class*="centeredAd"]
-taloussanomat.fi##div[id*="PromoContainer"]
-taloussanomat.fi##div[id="iltasanomatPromo"]
-taloussanomat.fi##div[id="hsframeContainer"]
-taloussanomat.fi##div[id*="adTop"]
-itviikko.fi,taloussanomat.fi##DIV[class="readAlso"]
 talouselama.fi##DIV[class="adDisclaimer beforeAd"]
 talouselama.fi##DIV[class="adDisclaimer afterAd"]
 talouselama.fi##DIV[class="SamBanner"]
