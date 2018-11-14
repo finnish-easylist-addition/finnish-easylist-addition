@@ -209,9 +209,6 @@ demokraatti.fi##div[class="ad-item"]
 demokraatti.fi##div[class^="at-share-dock-outer"]
 demokraatti.fi##div[class="offer"]
 demokraatti.fi##div[class*="proads"]
-digitoday.fi##iframe
-digitoday.fi##DIV[id="adsOnRight"]
-digitoday.fi##div[class="article-tools"]
 elama-ilman-kipua.eu##a[id="adrek"]
 eramebel.com
 etuovi.com##SECTION[class*="advertising"]
