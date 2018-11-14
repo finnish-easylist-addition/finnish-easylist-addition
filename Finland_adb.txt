@@ -179,7 +179,6 @@ autotie.fi##div.vaihtuvat-tekstit
 secure.afnix.net
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
-artparquet.ru
 bomber.fi##a[onclick^="countAdClick"]
 network.bazaarvoice.com/st.gif
 x.bidswitch.net/*?ssp=teads
@@ -193,7 +192,6 @@ bodylehti.fi##div[class="bannerit"]
 bodylehti.fi##div[class="perus"]
 bodylehti.fi##div[id="slideshow"]
 bodylehti.fi##a[href*="ticketmaster"]
-bolshe.ru
 boxing.fi##DIV[class^="ad-"]
 boxing.fi##DIV[class="block-body"]
 buttons-for-website.com
@@ -330,7 +328,6 @@ is.fi##DIV[class="supersaa-widget-container"]
 is.fi##article[class*="is-advertorial"]
 is.fi##DIV[class*="article-ad-block"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
-izumrud-d.ru
 iro.fi/Surveys/
 itviikko.fi##DIV#articleMiddleAd
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
@@ -355,7 +352,6 @@ keltainenporssi.fi##table[id="master_container"]>tbody>tr>td>table>tbody>tr:firs
 kelkkalehti.com/bannerit/
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
-knowed.ru
 krasivoe-kino.com
 kuopionkirppari.fi##DIV[class*="banner"]
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
@@ -461,7 +457,6 @@ radiopori.fi##div[id*="mainospaikka"]
 nuuh.alma.iltalehti.fi
 pku.fi##ASIDE[class*="adrotate"]
 nyt.fi##DIV#javascript-disabled-error
-otdih-na-more.ru
 log.optimizely.com
 rakentaja.fi##div[id="mast_liity_modal"]
 rakentaja.fi##img[id="js_ad"]
@@ -487,7 +482,6 @@ sfnix.net/api/
 sitestat.com/
 snoobi.com/snoop
 ! snstatic.fi/webstatic/*/desktop-all.js
-sporg.ru
 spy-sts.com
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
@@ -502,7 +496,6 @@ suomi24.fi##li[class="ad"]
 suomi24.fi##div[class*="ad-frontpage"]
 supersaa.fi/*/spring.js
 supersaa.fi##div[class^="supers-app-promo-container"]
-taihouse.ru
 talentum.com/uratie/spring.js
 talentum.com/x.gif
 talouselama.fi##DIV#topMost
@@ -588,7 +581,6 @@ analytics-sdk.yle.fi
 yle.fi##DIV[class*="yle__newsletter"]
 ylilauta.org##a[href="/kultatili"]
 ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
-yzdorov.ru
 xiti.com
 xracing.fi##DIV[id="inner_commerce_container"]
 xracing.fi##DIV[class="menu_commerce_container"]
@@ -598,7 +590,6 @@ xracing.fi##DIV[class="right_commerce_special"]
 xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
-zakreativ.ru
 
 horizonsunlimited.com##a[href*="9mmff.com"]
 
