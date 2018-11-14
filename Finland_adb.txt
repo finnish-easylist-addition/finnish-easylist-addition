@@ -186,7 +186,6 @@ bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
 blogit.fi##DIV[id="city_top"]
 blogit.fi##DIV[id="city_bot"]
-! blogit.fi##DIV[id="city_wall"]+DIV
 bodylehti.fi##div[class="bannerit"]
 bodylehti.fi##div[class="perus"]
 bodylehti.fi##div[id="slideshow"]
@@ -476,7 +475,6 @@ scorecardresearch.com/
 sfnix.net/api/
 sitestat.com/
 snoobi.com/snoop
-! snstatic.fi/webstatic/*/desktop-all.js
 spy-sts.com
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
@@ -643,8 +641,6 @@ horizonsunlimited.com##a[href*="9mmff.com"]
 ||doubleclick.net
 ||googleadservices.com
 ||pagead2.googlesyndication.com
-! ||googletagmanager.com/gtm.js
-||googletagservices.com/tag/js/gpt$third-party
 ||api.innomdc.com
 ||lp4.io
 ||adap.io
@@ -734,8 +730,6 @@ spring-tns.net$third-party
 ||cdn.mxpnl.com
 ||ads.rohea.com
 ||nix.telkku.com$third-party
-! poistettu pyynnöstä 10.4.2017
-! ||embed.tapkal.fi$third-party
 ||widget.specsify.net
 ||widespace.com$third-party
 ||wpdigital.net
@@ -777,7 +771,7 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 ! mtv videoihin toimintavarmuutta
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
 
-! Sallii chatin näkymisen Telia Omilla sivuilla
+! Allows chat to work on Oma Telia -page
 @@-tracking.js?$domain=telia.fi
 
 ! Exceptions
@@ -794,11 +788,11 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||uusi.op.fi/$document
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
-! hintaseuranta elementit
+! hintaseuranta elements
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-! oikotie navigaatiopalkki
+! oikotie navigation bar
 huuto.net###oikotie-nav
-! mainos container haun alaosassa
+! ad container in the bottom part of search
 huuto.net##div.search-grid-ad-container.ad
 
 ! Iltasanomat videomainokset
