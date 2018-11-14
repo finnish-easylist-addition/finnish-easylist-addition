@@ -176,10 +176,6 @@ audiovideo.fi##DIV[class*="mainospaikka"]
 autotie.fi##div.facebook-wrapper
 autotie.fi##div[class^="headerbanner"]
 autotie.fi##div.vaihtuvat-tekstit
-asialehti.net##div[id="ads-content-after-title"]
-asialehti.net##a[href*="affmore.com"]
-asialehti.net##a[href*="asialehti.net/go/"]
-asialehti.net##div[id="sidebar"]
 secure.afnix.net
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
