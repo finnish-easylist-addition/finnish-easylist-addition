@@ -852,3 +852,4 @@ www.mtvuutiset.fi##.leaderboard-1.leaderboard
 ||nelonenmedia.fi/ads/$media,domain=ruutu.fi
 ||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
 ||ads-spotgate02.nelonenmedia.fi^$media,domain=www.is.fi
+@@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
