@@ -801,8 +801,8 @@ huuto.net###oikotie-nav
 ! mainos container haun alaosassa
 huuto.net##div.search-grid-ad-container.ad
 
-! Iltasanomat videomainokset
-ads-manual*.nelonenmedia.fi/ads/
+! Nelonen Media video ads
+||nelonenmedia.fi/ads/$media
 
 ! unbreak "Suosituimmat" ("most popular") on mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
