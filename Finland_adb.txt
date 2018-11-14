@@ -857,3 +857,9 @@ mtvuutiset.fi##.ad_fadein
 
 ! Prevent clicking video ads on mtvuutiset.fi
 mtvuutiset.fi##.mtv-player-ad-container
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi
+||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
+
+! Video ads (uBO only, so disabled)
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/14#issuecomment-438683057
+! ||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi
