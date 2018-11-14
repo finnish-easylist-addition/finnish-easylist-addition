@@ -847,7 +847,7 @@ www.mtvuutiset.fi##.leaderboard-1.leaderboard
 ||www.io-tech.fi/bnr/$image
 
 ! Media unbreakers
-@@||fwmrm.net/ad/$script,domain=ruutu.fi|dplay.fi
+@@||fwmrm.net/ad/$script,domain=ruutu.fi|dplay.fi|nelonen.fi
 @@||www.foxplay.fi/compiled/js/ads.js$script
 ||nelonenmedia.fi/ads/$media,domain=ruutu.fi
 ||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
