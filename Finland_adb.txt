@@ -144,6 +144,7 @@ tyda.se#@#DIV[class*="advert"]
 ##DIV[id="cookieprivacy"]
 ##DIV[class*="pea_cook_wrapper"]
 
+7xps9a2w77.execute-api.eu-central-1.amazonaws.com/production/spring.js
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
@@ -180,14 +181,11 @@ secure.afnix.net
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
 bomber.fi##a[onclick^="countAdClick"]
-network.bazaarvoice.com/st.gif
-x.bidswitch.net/*?ssp=teads
 bike.fi##DIV#newsletter-dialog[class="open"]
 bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
 blogit.fi##DIV[id="city_top"]
 blogit.fi##DIV[id="city_bot"]
-! blogit.fi##DIV[id="city_wall"]+DIV
 bodylehti.fi##div[class="bannerit"]
 bodylehti.fi##div[class="perus"]
 bodylehti.fi##div[id="slideshow"]
@@ -248,7 +246,6 @@ hs.fi##div[id="oikotie_asunnot_box_iframe"]
 hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
-hs.fi/stats
 is.fi##iframe[data-original*="vg.is.fi"]
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
@@ -259,24 +256,14 @@ huuto.net###display-window-container
 huuto.net###huutoluotto-container
 elisaviihde.fi##SECTION#cookie-warning[class="cookie-notification warning"]
 elisa.fi/img/content/*.mp4
-nexus.ensighten.com/*/serverComponent.php
-nexus. ensighten.com/error/e.gif
 f1-forum.fi##img[src*="banneri"]
 f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##a[href*="mainostilastot"]
-files.snstatic.fi/*ls.html
-files.snstatic.fi/*/zig.js
-files.snstatic.fi/VMM/
-files.snstatic.fi/weba/
-files.snstatic.fi/*/lomakuumetta/*
 foreca.fi##DIV[class="top-banners"]
-affiliate.guts.com/processing/clickthrgh.asp?btag=
 hameenkaiku.fi##DIV[class="bannergroup"]
 high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
-emediate.$third-party
-ilkka.fi/logger
 io-tech.fi##aside[class*="jimms"]
 io-tech.fi##aside[class*="hintafi"]
 io-tech.fi##DIV[id="premium"]
@@ -303,8 +290,6 @@ iltalehti.fi##DIV[id="almad-parade-1"][class="ad"]
 isup.me##div[class="smile-container"]
 admp-tc.kauppalehti.fi/
 admp-tc.iltalehti.fi/
-static.iltalehti.fi/*/spring
-static.iltalehti.fi/js/v2/alma_init_cjs.js
 iltapulu.fi##div[class="footer-ylempi"]
 is.fi##ARTICLE[class*="sponsored"]
 is.fi##div[class="html-pelikone"]
@@ -324,16 +309,12 @@ is.fi##DIV[class="supersaa-widget-container"]
 is.fi##article[class*="is-advertorial"]
 is.fi##DIV[class*="article-ad-block"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
-iro.fi/Surveys/
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
 kaksplus.fi##DIV[class="section funbox"]
 kansalainen.fi##div[id^="ads"]
 kansalainen.fi##div[id="text-html-widget-5"]
 kansanuutiset.fi##A[href="http://www.autonvaraosastore.fi/"]
 kansanuutiset.fi##div[class*="intextad"]
-kansi.a-lehdet.fi/spring.js
-adslm.a-lehdet.fi/www/delivery/ 
-kauppalehti.fi/blank.gif
 kauppalehti.fi/*/kl.gif
 kauppalehti.fi/*/spring.js
 kauppalehti.fi/api/news/online/
@@ -342,12 +323,9 @@ kauppalehti.fi##iframe[class*="adcontainer"]
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
 monster.almamedia.fi/nostobannerit/
-keltainenporssi.fi##div[id="dBannerTop"]
-keltainenporssi.fi##table[id="master_container"]>tbody>tr>td>table>tbody>tr:first-child
-kelkkalehti.com/bannerit/
+kelkkasivut.kelkkalehti.com/bannerit/
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
-krasivoe-kino.com
 kuopionkirppari.fi##DIV[class*="banner"]
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
 loimaanlehti.fi##div[class*="art-sidebar2"]>div[id*="black-studio-tinymce"]
@@ -413,7 +391,6 @@ mtv.fi##DIV[class="banner banner-jattiboksi"]
 mtv.fi##section[class="ad"]
 mtv.fi##IFRAME#hz-unit-etusivu
 mtv.fi/static/javascripts/external-js/*.js
-st.mtv.fi/static/html/cookie-notification
 mtv.fi##div[class="leaderboard"]
 mtv.fi##DIV[class*="ad-container"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##LI#left_part
@@ -422,7 +399,6 @@ www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,w
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class="inh_banner"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="spare_parts_highlights"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##div[id="google_bottom_adsense"]
-nayadaya.com$third-party
 offroadpro.fi,mpmaailma.fi##div[class*="pane-ad"]
 offroadpro.fi,mpmaailma.fi##div[class*="bgBanner"]
 offroadpro.fi,mpmaailma.fi##div[class*="blockads"]
@@ -431,7 +407,6 @@ offroadpro.fi,mpmaailma.fi##div[id="googlePlusOne"]
 offroadpro.fi,mpmaailma.fi##div[id="logo-area"]
 offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
 offroadpro.fi/*/ad/serve.php
-api.pinterest.com/*/count.json
 mpmaailma.fi/*/ad/serve.php
 pakkotoisto.com##IFRAME[src="http://www.pakkotoisto.com/fast/index.html"]
 pastebin.com##div#abrpm
@@ -441,47 +416,26 @@ pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
 petri.com##DIV#simplemodal-container[class="simplemodal-container"]
 petri.com##DIV#simplemodal-overlay[class="simplemodal-overlay"]
-pingdom.net/
 pohjalainen.fi##div[class="ads__wrapper--pinnedtop"]
 pohjalainen.fi##div[class*="pohjanmaan-palvelut__wrapper"]
 puskaradio.net##div[id="banner"]
-puskaradio.net##a[href="mainosta.php"]
 puskaradio.net##img[class="banner"]
 radiopori.fi##div[class*="simpleads"]
 radiopori.fi##div[id*="mainospaikka"]
-nuuh.alma.iltalehti.fi
 pku.fi##ASIDE[class*="adrotate"]
-nyt.fi##DIV#javascript-disabled-error
-log.optimizely.com
 rakentaja.fi##div[id="mast_liity_modal"]
 rakentaja.fi##img[id="js_ad"]
 rakentaja.fi##div[id="kauppa_hot"]
 rakentaja.fi##div[id^="banner"]
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 rantapallo.fi$third-party
-ratas.sanoma.fi/
-sammysatv.com##center
-sammysatv.com##a[href*="banner"]
-static.sanoma.fi/weba/js/ls/zig.js
-dco-de.sanoma.fi/ussr-ts/sputnik
-ridemedia.fi/aspbanner
+keskustelu.sammysatv.com##center
+keskustelu.sammysatv.com##a[href*="banner"]
 riemurasia.net##div[id*="MTQyM"]
-sat.sanoma.fi/js
-sat.sanoma.fi/sat
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
-scorecardresearch.com/
-sfnix.net/api/
-sitestat.com/
-snoobi.com/snoop
-! snstatic.fi/webstatic/*/desktop-all.js
-spy-sts.com
-stream.almamedia.fi/mp/salsabanner
-meta.almamedia.io/v1/text?
-survey.interquest.fi/
-suomensanomat.fi##div[class="static-info"]
 suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
 suomif1.com##div[class*="-ad"]
@@ -491,8 +445,6 @@ suomi24.fi##li[class="ad"]
 suomi24.fi##div[class*="ad-frontpage"]
 supersaa.fi/*/spring.js
 supersaa.fi##div[class^="supers-app-promo-container"]
-talentum.com/uratie/spring.js
-talentum.com/x.gif
 talouselama.fi##DIV#topMost
 talouselama.fi##DIV#footer-inner-wrapper
 talouselama.fi##DIV#right
@@ -509,17 +461,13 @@ tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#footer_container
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="ad"]
 tekniikkatalous.fi,marmai.fi,tivi.fi##div[class*="adDisclaimer"]
 tekniikkatalous.fi,marmai.fi,tivi.fi##div[class*="articlead"]
-telsu.fi##a[href*="duunitori.fi"]
-telsu.fi##div[class="duunibox"]
 telsu.fi##.as.city_top
-/images/Zero_EN.gif$domain=tracking.dpd.de,image
-thenextweb.com##div[class^="modal"]
-thenextweb.com##ul[class="articleShare-buttons"]
-thenextweb.com##ul[class="ica"]
-timeinc.com/trending
-tinypass.com/*/track
-tinypass.com/*/meter/
-tivi.fi/Logger
+telsu.fi###ad-dynamic
+telsu.fi###page > .box_dt
+telsu.fi###page > div:nth-of-type(17)
+telsu.fi##.box_a1
+telsu.fi###page > div:nth-of-type(11)
+telsu.fi##div.as:nth-of-type(9)
 tori.fi##DIV[class="ad_body_campaign"]
 tori.fi##DIV[id="banner_view_top"]
 tori.fi##DIV[id*="prisjakt"]
@@ -531,18 +479,13 @@ tori.fi##DIV[id="banner_panorama_topmost"]
 tori.fi##DIV[id="panorama_top"]
 tori.fi##a[onclick*="Hintaopas"]
 tori.fi/1x1
-tori.fi/img/none.gif
 tori.fi##DIV[class="ds-box"]
 tori.fi##A[class="hide-with-wallpaper"]
-pixel.tori.net/1x1
 ts.fi##OBJECT#ot_ts_ap[name="myDynamicContent"]
 ts.fi##DIV[id="EAS_fif_3768"]
 ts.fi##DIV[class="tsv3-c-common-emediate tsv3-c"]
 ts.fi##article[class$="-nativead"]
 ts.fi/Content/layout/Common/lib/emediate/
-ts.fi/Statistics/Log
-tradetracker.net
-uratie.fi/external/json/?service=jsonSidebar&
 uusisuomi.fi##DIV[id="block-views-car-ad-view-block"]
 uusisuomi.fi/wp-content/rtm/nosto/cache/us1b.js
 uusisuomi.fi##div[class*="addthis"]
@@ -553,19 +496,10 @@ uusisuomi.fi##div[class*="ad-view"]
 uusisuomi.fi##div[class*="ad_sidebar"]
 uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
-vaalikone.fi/*/preheat
 voice.fi##div[class*="cxense-ad-container"]
-vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
-vilagnomad.com
-wallpapers.red
-pls.webtype.com/v.gif
-yle.fi/.*yle-analytics
-metrics.api.yle.fi
-analytics-sdk.yle.fi
 yle.fi##DIV[class*="yle__newsletter"]
 ylilauta.org##a[href="/kultatili"]
 ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
-xiti.com
 xracing.fi##DIV[id="inner_commerce_container"]
 xracing.fi##DIV[class="menu_commerce_container"]
 xracing.fi##DIV[class="top_commerce_container"]
@@ -575,11 +509,7 @@ xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 
-horizonsunlimited.com##a[href*="9mmff.com"]
-
-@@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
-spring-tns.net$third-party
 ||24counter.com
 ||360yield.com$third-party
 ||ad-bucket.appspot.com
@@ -655,13 +585,11 @@ spring-tns.net$third-party
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
 ||honestpartners.com$third-party
-||hs-analytics.net$third-party
 ||improveads.fi
 ||imrworldwide.com
 ||insight.fonecta.fi
 ||justpremium.com$third-party
 ||kake.fi$third-party
-||ko.snstatic.fi
 ||krxd.net
 ||log.olark.com
 ||lp4.io
@@ -671,14 +599,9 @@ spring-tns.net$third-party
 ||markkinointikuuri.fi
 ||media.swordfishdc.com
 ||media.vuokraovi.com$third-party
-||meetrics.net
-||metrics.brightcove.com
-||metrics.gigantti.fi
-||metrics.time.com
 ||mktoresp.com
 ||moatads.com
 ||msads.net
-||myroitracking.com
 ||nativeads.com$third-party
 ||netshelter.net
 ||newrelic.com$third-party
@@ -728,9 +651,6 @@ spring-tns.net$third-party
 ||sn.sanoma.fi/js/sccm/sccm.js
 ||spotxchange.com
 ||stabx.net
-||stat.iltalehti.fi
-||statistics.talentum.com
-||stats.fonecta.fi
 ||taboola.com
 ||tag.researchnow.com
 ||tags.tiqcdn.com/utag/*.js$domain=cnet.com|weather.com|greenmangaming.com,script
@@ -741,10 +661,7 @@ spring-tns.net$third-party
 ||ultimategracelessness.info
 ||vibrant.co/
 ||viglink.com
-||vihreat.fi/?q=node/*/stats/impression
-||visitanalytics.userreport.com
 ||visualrevenue.com$third-party
-||visualwebsiteoptimizer.com/v.gif
 ||w55c.net
 ||whitewall.fi$third-party
 ||widespace.com$third-party
@@ -765,9 +682,6 @@ kaleva.fi/static/common/js/spring
 kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
 kaleva.fi##DIV[id="kaleva-cookie-consent"]
-
-! mtv videoihin toimintavarmuutta
-@@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
 
 ! Sallii chatin näkymisen Telia Omilla sivuilla
 @@-tracking.js?$domain=telia.fi
