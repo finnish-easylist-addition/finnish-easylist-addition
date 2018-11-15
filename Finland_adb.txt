@@ -792,6 +792,10 @@ huuto.net###oikotie-nav
 ! mainos container haun alaosassa
 huuto.net##div.search-grid-ad-container.ad
 
+! vr.fi info messages incorrectly blocked by fanboy's cookiemonster
+vr.fi#@#.infoMessages
+www.vr.fi##.headerContents > .infoMessages
+
 ! Nelonen Media video ads
 ||nelonenmedia.fi/ads/$media
 
