@@ -836,3 +836,4 @@ mtv.fi##.mtv-player-ad-container
 ! block "sponsored articles" on some sites
 ##.spklw-post-attr[data-type="ad"]
 ##a[href^="https://app.readpeak.com/ads"]
+www.verkkouutiset.fi##article.rp-lift.featured-post
