@@ -834,3 +834,10 @@ mtv.fi##.mtv-player-ad-container
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/14#issuecomment-438683057
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/12#issuecomment-438682037
 ! ||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi|mtv.fi
+
+! To make viafree.fi videos to work withoud ads
+@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
+@@||fwmrm.net/ad/$xmlhttprequest,domain=www.viafree.fi
+@@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
+@@||fwmrm.net/ad/$script,domain=www.viafree.fi
+||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
