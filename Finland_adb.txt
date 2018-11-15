@@ -832,3 +832,6 @@ mtv.fi##.mtv-player-ad-container
 @@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
 @@||fwmrm.net/ad/$script,domain=www.viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
+
+! block "sponsored articles" on some sites
+##.spklw-post-attr[data-type="ad"]
