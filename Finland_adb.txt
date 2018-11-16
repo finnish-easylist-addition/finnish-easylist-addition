@@ -683,8 +683,8 @@ kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
 kaleva.fi##DIV[id="kaleva-cookie-consent"]
 
-! Sallii chatin näkymisen Telia Omilla sivuilla
-@@-tracking.js?$domain=telia.fi
+! Unbreaks chat function
+@@-tracking.js?$domain=telia.fi|moi.fi
 
 ! Exceptions
 @@||veho.fi/huolto/huollon-palvelut/huollon-ajanvaraus/$document
