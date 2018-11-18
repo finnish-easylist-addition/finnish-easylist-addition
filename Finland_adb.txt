@@ -163,7 +163,6 @@ abounderrattelser.fi,åu.fi##div[id*="popmake"]
 adformdsp.net/
 adzerk.net/ados
 aijaa.com##a[href*="tradetracker"]
-almamedia.fi/alma-logo-pieni.png
 ampparit.com##div[class="header"]>div:first-child
 ampparit.com##div[class="ampparit-ticker"]
 ampparit.com##DIV[class*="ad-"]
