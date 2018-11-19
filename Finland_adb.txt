@@ -307,6 +307,7 @@ admp-tc.iltalehti.fi/
 static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
 iltapulu.fi##div[class="footer-ylempi"]
+io-tech.fi###premiumi
 is.fi##ARTICLE[class*="sponsored"]
 is.fi##div[class="html-pelikone"]
 is.fi##div[class="html-alypaa"]
