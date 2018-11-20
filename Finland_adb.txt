@@ -814,7 +814,7 @@ mtvuutiset.fi##.leaderboard-1.leaderboard
 mtvuutiset.fi##.ad_fadein
 
 ! iotech banners
-||www.io-tech.fi/bnr/$image
+||www.io-tech.fi/bnr$image
 
 ! Media unbreakers
 @@||fwmrm.net/ad/$script,domain=dplay.fi
