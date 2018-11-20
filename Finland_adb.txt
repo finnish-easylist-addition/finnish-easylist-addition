@@ -553,6 +553,7 @@ uusisuomi.fi##div[id*="AdSpace"]
 uusisuomi.fi##div[class*="google_ad"]
 uusisuomi.fi##div[class*="ad-view"]
 uusisuomi.fi##div[class*="ad_sidebar"]
+uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
 uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
