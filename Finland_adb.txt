@@ -375,6 +375,8 @@ mobiili.fi##p:nth-of-type(8)
 mobiili.fi##.maincontent.blogpost > p:nth-of-type(1)
 mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
+mobiili.fi##p:nth-of-type(7)
+mobiili.fi##p:nth-of-type(9)
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
