@@ -364,7 +364,6 @@ metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
 mikrobitti.fi##DIV[id="rosmo"]
-mobiili.fi##div[class="tops-bar"]
 mobiili.fi##div[class="blogcontent"]>p:first-of-type
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(2)
