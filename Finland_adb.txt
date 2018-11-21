@@ -785,6 +785,8 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||adlibris.com/pixel.gif
 @@/pixel.gif$domain=xhamster.com
 @@||uusi.op.fi/$document
+www.hs.fi#@#.mainos
+www.hs.fi#@#.mainokset
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
