@@ -363,11 +363,12 @@ metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
 mikrobitti.fi##DIV[id="rosmo"]
-mobiili.fi##div[class="tops-bar"]
 mobiili.fi##div[class="blogcontent"]>p:first-of-type
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
-mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(2)
 mobiili.fi##div[id="fullcolumn"]>p:first-of-type
+mobiili.fi###text-67 > .textwidget
+mobiili.fi##.article_ad_1
+mobiili.fi##.article_ad_2
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
@@ -597,6 +598,7 @@ spring-tns.net$third-party
 ||adsafeprotected.com
 ||adsby.webtraffic.se
 ||adservicemedia.dk$third-party
+||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
 ||adservinginternational.com
 ||adspeed.net
 ||adsrvr.org$third-party
@@ -784,6 +786,8 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||adlibris.com/pixel.gif
 @@/pixel.gif$domain=xhamster.com
 @@||uusi.op.fi/$document
+mobiili.fi#@#.header_ad
+@@||adservicemedia.dk/$image,domain=mobiili.fi
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
