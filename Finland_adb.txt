@@ -371,13 +371,9 @@ mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(2)
 mobiili.fi##div[id="fullcolumn"]>p:first-of-type
 mobiili.fi###text-67 > .textwidget
 mobiili.fi##.single-content-all > p:nth-of-type(1)
-mobiili.fi##p:nth-of-type(8)
 mobiili.fi##.maincontent.blogpost > p:nth-of-type(1)
 mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
-mobiili.fi##p:nth-of-type(7)
-mobiili.fi##p:nth-of-type(9)
-mobiili.fi##p:nth-of-type(13)
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
