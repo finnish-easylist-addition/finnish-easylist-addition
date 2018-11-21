@@ -695,7 +695,6 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||/api/*/visitor?$domain=elisa.fi
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 @@||adlibris.com/pixel.gif
-@@/pixel.gif$domain=xhamster.com
 @@||uusi.op.fi/$document
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
