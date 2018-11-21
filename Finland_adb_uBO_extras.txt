@@ -5,3 +5,6 @@
 
 ! mobiili.fi small sponsored text
 mobiili.fi##.single-content-all > p:has(small):has-text(Mainos:)
+
+! mobiili.fi sponsored articles on frontpage
+mobiili.fi##div.fullarticle:has(img[src="https://mobiili.fi/aaa.png"])
