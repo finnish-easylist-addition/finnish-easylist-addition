@@ -830,6 +830,7 @@ mtvuutiset.fi##.ad_fadein
 ||www.io-tech.fi/bnr$image
 ||www.io-tech.fi/dnr$image
 www.io-tech.fi###premiumi
+io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/klik.php"]
 
 ! Media unbreakers
 @@||fwmrm.net/ad/$script,domain=dplay.fi
