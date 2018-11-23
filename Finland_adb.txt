@@ -279,7 +279,6 @@ emediate.$third-party
 ilkka.fi/logger
 io-tech.fi##aside[class*="jimms"]
 io-tech.fi##aside[class*="hintafi"]
-io-tech.fi##DIV[id="premium"]
 io-tech.fi##DIV[id*="hintafi-"]
 bbs.io-tech.fi/images/*banneri*.png
 bbs.io-tech.fi/images/komplett-*.jpg
@@ -825,6 +824,7 @@ mtvuutiset.fi##.ad_fadein
 ! (hei vaan, iotech ylläpitäjä c:)
 ||www.io-tech.fi/bnr$image
 ||www.io-tech.fi/dnr$image
+www.io-tech.fi###premiumi
 
 ! Media unbreakers
 @@||fwmrm.net/ad/$script,domain=dplay.fi
