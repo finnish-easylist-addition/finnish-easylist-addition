@@ -810,6 +810,8 @@ www.vr.fi##.headerContents > .infoMessages
 
 ! Some image ads
 ||io-tech.fi/images/*_290x290px.png$image
+||hinta.fi/*black-friday$image,domain=hinta.fi
+hinta.fi###hv-wrapper-top > [href^="/KGhjGRHj.php"]
 
 ! Nelonen Media video ads
 ||nelonenmedia.fi/ads/$media
