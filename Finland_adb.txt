@@ -793,6 +793,8 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 
+
+
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
@@ -805,6 +807,9 @@ huuto.net##div.search-grid-ad-container.ad
 ! https://github.com/ryanbr/fanboy-adblock/issues/666
 vr.fi#@#.infoMessages
 www.vr.fi##.headerContents > .infoMessages
+
+! Some image ads
+||io-tech.fi/images/*_290x290px.png$image
 
 ! Nelonen Media video ads
 ||nelonenmedia.fi/ads/$media
