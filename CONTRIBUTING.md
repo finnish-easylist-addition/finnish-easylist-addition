@@ -7,4 +7,12 @@
 
 ## What should be blocked?
 
-TODO
+at least:
+
+* ads
+* "native ads" on news sites. Means advertisements spoofed to look like an article in your feed. ([example](https://storage.theel0ja.info/misc/native-ads.png))
+
+
+## What should be unblocked?
+
+* stuff that break due to the filters (see [#38](https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/38))
