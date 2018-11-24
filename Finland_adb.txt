@@ -32,7 +32,6 @@
 /mainoskaruselli.
 /mainoskaruselli/*
 /mainoskaruselli_yli
-/pagestat?
 /sivulaskuri
 smartbanner
 /sponsorit.
@@ -48,9 +47,6 @@ _mainos.
 _mainosnappi.
 /scripts/eneo/eneo.dll
 /scripts/edoris/edoris.dll?tem=
-/trackPage.php?
-/analysis-logger/Logger?
-/statisticsentry-
 /js/spring.js
 /js/common/spring
 /js/common/init-tns
@@ -193,7 +189,6 @@ boxing.fi##DIV[class="block-body"]
 buttons-for-website.com
 brbikers.com##a[href*="tema.fi"]
 brbikers.com##div[class="sponsors"]
-careers.sstatic.net/careers/gethired/
 careers.stackoverflow.com/ad/
 chcu.net
 chimiver.info
@@ -231,11 +226,9 @@ helsinginuutiset.fi,vihdinuutiset.fi##DIV[id="ensNotifyBanner"][class="ensNotify
 hs.fi##DIV[class*="ad-container"]
 hs.fi##DIV[class*="-ad-block"]
 hs.fi##DIV#story-package-container[class="story-package"]
-hs.fi/webstatic/images/clear1x1.gif
 hs.fi##DIV[class="corporate-footer"]
 hs.fi##DIV[class="embedded-ad ad-small pull-back"]
 hs.fi##DIV[id="javascript-disabled-error"]
-hs.fi##DIV[class="tracking-pixel"]
 hs.fi##DIV[id="outside-ads"]
 hs.fi##div[id="order-campaign-element"]
 hs.fi##div[class="for-no-subscription"]
@@ -244,7 +237,6 @@ hs.fi##div[id="oikotie_asunnot_box_iframe"]
 hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
-hs.fi/stats
 is.fi##iframe[data-original*="vg.is.fi"]
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
@@ -260,11 +252,6 @@ nexus. ensighten.com/error/e.gif
 f1-forum.fi##img[src*="banneri"]
 f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##a[href*="mainostilastot"]
-files.snstatic.fi/*ls.html
-files.snstatic.fi/*/zig.js
-files.snstatic.fi/VMM/
-files.snstatic.fi/weba/
-files.snstatic.fi/*/lomakuumetta/*
 foreca.fi##DIV[class="top-banners"]
 affiliate.guts.com/processing/clickthrgh.asp?btag=
 hameenkaiku.fi##DIV[class="bannergroup"]
@@ -272,7 +259,6 @@ high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 emediate.$third-party
-ilkka.fi/logger
 io-tech.fi##aside[class*="jimms"]
 io-tech.fi##aside[class*="hintafi"]
 io-tech.fi##DIV[id*="hintafi-"]
@@ -298,8 +284,6 @@ iltalehti.fi##DIV[id="almad-parade-1"][class="ad"]
 isup.me##div[class="smile-container"]
 admp-tc.kauppalehti.fi/
 admp-tc.iltalehti.fi/
-static.iltalehti.fi/*/spring
-static.iltalehti.fi/js/v2/alma_init_cjs.js
 iltapulu.fi##div[class="footer-ylempi"]
 is.fi##ARTICLE[class*="sponsored"]
 is.fi##div[class="html-pelikone"]
@@ -413,7 +397,6 @@ mtv.fi##DIV[class="component sponsor-logo"]
 mtv.fi##DIV[class="banner banner-jattiboksi"]
 mtv.fi##section[class="ad"]
 mtv.fi##IFRAME#hz-unit-etusivu
-mtv.fi/static/javascripts/external-js/*.js
 st.mtv.fi/static/html/cookie-notification
 mtv.fi##div[class="leaderboard"]
 mtv.fi##DIV[class*="ad-container"]
@@ -453,7 +436,6 @@ radiopori.fi##div[id*="mainospaikka"]
 nuuh.alma.iltalehti.fi
 pku.fi##ASIDE[class*="adrotate"]
 nyt.fi##DIV#javascript-disabled-error
-log.optimizely.com
 rakentaja.fi##div[id="mast_liity_modal"]
 rakentaja.fi##img[id="js_ad"]
 rakentaja.fi##div[id="kauppa_hot"]
@@ -463,7 +445,6 @@ rantapallo.fi$third-party
 ratas.sanoma.fi/
 sammysatv.com##center
 sammysatv.com##a[href*="banner"]
-static.sanoma.fi/weba/js/ls/zig.js
 dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
@@ -475,14 +456,11 @@ savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
 scorecardresearch.com/
 sfnix.net/api/
-sitestat.com/
 snoobi.com/snoop
-! snstatic.fi/webstatic/*/desktop-all.js
 spy-sts.com
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
 survey.interquest.fi/
-suomensanomat.fi##div[class="static-info"]
 suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
 suomif1.com##div[class*="-ad"]
@@ -513,14 +491,10 @@ tekniikkatalous.fi,marmai.fi,tivi.fi##div[class*="articlead"]
 telsu.fi##a[href*="duunitori.fi"]
 telsu.fi##div[class="duunibox"]
 telsu.fi##.as.city_top
-/images/Zero_EN.gif$domain=tracking.dpd.de,image
 thenextweb.com##div[class^="modal"]
 thenextweb.com##ul[class="articleShare-buttons"]
 thenextweb.com##ul[class="ica"]
 timeinc.com/trending
-tinypass.com/*/track
-tinypass.com/*/meter/
-tivi.fi/Logger
 tori.fi##DIV[class="ad_body_campaign"]
 tori.fi##DIV[id="banner_view_top"]
 tori.fi##DIV[id*="prisjakt"]
@@ -541,7 +515,6 @@ ts.fi##DIV[id="EAS_fif_3768"]
 ts.fi##DIV[class="tsv3-c-common-emediate tsv3-c"]
 ts.fi##article[class$="-nativead"]
 ts.fi/Content/layout/Common/lib/emediate/
-ts.fi/Statistics/Log
 tradetracker.net
 uratie.fi/external/json/?service=jsonSidebar&
 uusisuomi.fi##DIV[id="block-views-car-ad-view-block"]
@@ -561,9 +534,6 @@ vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 vilagnomad.com
 wallpapers.red
 pls.webtype.com/v.gif
-yle.fi/.*yle-analytics
-metrics.api.yle.fi
-analytics-sdk.yle.fi
 yle.fi##DIV[class*="yle__newsletter"]
 ylilauta.org##a[href="/kultatili"]
 ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
@@ -579,7 +549,6 @@ wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 
 horizonsunlimited.com##a[href*="9mmff.com"]
 
-@@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
 spring-tns.net$third-party
 ||24counter.com
@@ -608,10 +577,6 @@ spring-tns.net$third-party
 ||ah-me.com
 ||amazon-adsystem.com
 ||amung.us
-||analytics.clickdimensions.com
-||analytics.sanoma.fi
-||analytics.shareaholic.com
-||ap2.sestatic.net
 ||api.innomdc.com
 ||api.mixpanel.com
 ||asset.pagefair.
@@ -658,13 +623,11 @@ spring-tns.net$third-party
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
 ||honestpartners.com$third-party
-||hs-analytics.net$third-party
 ||improveads.fi
 ||imrworldwide.com
 ||insight.fonecta.fi
 ||justpremium.com$third-party
 ||kake.fi$third-party
-||ko.snstatic.fi
 ||krxd.net
 ||log.olark.com
 ||lp4.io
@@ -674,10 +637,6 @@ spring-tns.net$third-party
 ||markkinointikuuri.fi
 ||media.swordfishdc.com
 ||media.vuokraovi.com$third-party
-||meetrics.net
-||metrics.brightcove.com
-||metrics.gigantti.fi
-||metrics.time.com
 ||mktoresp.com
 ||moatads.com
 ||msads.net
@@ -686,7 +645,6 @@ spring-tns.net$third-party
 ||netshelter.net
 ||newrelic.com$third-party
 ||nix.telkku.com$third-party
-||nova.collect.igodigital.com/*/track_page
 ||nr-data.net$third-party
 ||nugg.ad
 ||nuggad.net
@@ -714,9 +672,7 @@ spring-tns.net$third-party
 ||px.owneriq.net
 ||quantserve.com
 ||quantserve.net
-||reactandshare.com/track.gif
 ||recs.shareaholic.com
-||rem-track.bild.de
 ||revsci.net
 ||rubiconproject.com$third-party
 ||s3.pji.nu$domain=~pricespy.co.uk|~pricespy.ie|~pricespy.no.nz|~hintaopas.fi|~prisjakt.no
@@ -725,15 +681,11 @@ spring-tns.net$third-party
 ||serving-sys.com
 ||sh.st
 ||simplereach.com
-||sitestat.com
 ||skimresources.com
 ||smartadserver.com
 ||sn.sanoma.fi/js/sccm/sccm.js
 ||spotxchange.com
 ||stabx.net
-||stat.iltalehti.fi
-||statistics.talentum.com
-||stats.fonecta.fi
 ||taboola.com
 ||tag.researchnow.com
 ||tags.tiqcdn.com/utag/*.js$domain=cnet.com|weather.com|greenmangaming.com,script
@@ -744,8 +696,6 @@ spring-tns.net$third-party
 ||ultimategracelessness.info
 ||vibrant.co/
 ||viglink.com
-||vihreat.fi/?q=node/*/stats/impression
-||visitanalytics.userreport.com
 ||visualrevenue.com$third-party
 ||visualwebsiteoptimizer.com/v.gif
 ||w55c.net
@@ -762,10 +712,7 @@ spring-tns.net$third-party
 carousel-prod-kaleva-fi.s3.amazonaws.com
 kaleva.fi##div[id^="mainokset-"]
 kaleva.fi##div.ad__title
-kaleva.fi/static/rkfi/assets/js/vendor/emediate/EAS
 kaleva.fi##DIV[id="EAS_*"]
-kaleva.fi/static/common/js/spring
-kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
 kaleva.fi##DIV[id="kaleva-cookie-consent"]
 
