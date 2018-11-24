@@ -110,7 +110,6 @@ _mainosnappi.
 ##DIV[class*="ad-item-wrapper"]
 ##DIV[class*="ad-element"]
 ##a[href*="adtraction.com"]
-##DIV[class^="advert"]
 !Causes exception
 !##DIV[class*="advert"]$domain=~tyda.se
 tyda.se#@#DIV[class*="advert"]
@@ -150,6 +149,7 @@ aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
 aamulehti.fi/*/spring.js
 aamulehti.fi/*/alma_init_cjs.js
+aamulehti.fi##.huCagr.sc-fFTYTi
 aamuset.fi##DIV#block-views-etusivukaruselli-block
 aamuset.fi##DIV#block-views-mainoskaruselli-block
 aamuset.fi##DIV[class="adslist"]
@@ -185,10 +185,7 @@ bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
 blogit.fi##DIV[id="city_top"]
 blogit.fi##DIV[id="city_bot"]
-bodylehti.fi##div[class="bannerit"]
-bodylehti.fi##div[class="perus"]
-bodylehti.fi##div[id="slideshow"]
-bodylehti.fi##a[href*="ticketmaster"]
+! blogit.fi##DIV[id="city_wall"]+DIV
 boxing.fi##DIV[class^="ad-"]
 boxing.fi##DIV[class="block-body"]
 buttons-for-website.com
@@ -265,7 +262,6 @@ hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 io-tech.fi##aside[class*="jimms"]
 io-tech.fi##aside[class*="hintafi"]
-io-tech.fi##DIV[id="premium"]
 io-tech.fi##DIV[id*="hintafi-"]
 bbs.io-tech.fi/images/*banneri*.png
 bbs.io-tech.fi/images/komplett-*.jpg
@@ -340,11 +336,16 @@ metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
 mikrobitti.fi##DIV[id="rosmo"]
-mobiili.fi##div[class="tops-bar"]
 mobiili.fi##div[class="blogcontent"]>p:first-of-type
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
-mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(2)
 mobiili.fi##div[id="fullcolumn"]>p:first-of-type
+mobiili.fi###text-67 > .textwidget
+mobiili.fi##.article_ad_1
+mobiili.fi##.article_ad_2
+mobiili.fi###header_ad33
+mobiili.fi##.headermob_ad
+mobiili.fi##.singlehinta.header_ad
+mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
@@ -494,6 +495,7 @@ uusisuomi.fi##div[id*="AdSpace"]
 uusisuomi.fi##div[class*="google_ad"]
 uusisuomi.fi##div[class*="ad-view"]
 uusisuomi.fi##div[class*="ad_sidebar"]
+uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
 uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
 voice.fi##div[class*="cxense-ad-container"]
@@ -526,6 +528,7 @@ giosg.com$domain=etuovi.com
 ||adsafeprotected.com
 ||adsby.webtraffic.se
 ||adservicemedia.dk$third-party
+||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
 ||adservinginternational.com
 ||adspeed.net
 ||adsrvr.org$third-party
@@ -696,6 +699,10 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 @@||adlibris.com/pixel.gif
 @@||uusi.op.fi/$document
+mobiili.fi#@#.header_ad
+@@||adservicemedia.dk/$image,domain=mobiili.fi
+
+
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
@@ -709,6 +716,11 @@ huuto.net##div.search-grid-ad-container.ad
 ! https://github.com/ryanbr/fanboy-adblock/issues/666
 vr.fi#@#.infoMessages
 www.vr.fi##.headerContents > .infoMessages
+
+! Some image ads
+||io-tech.fi/images/*_290x290px.png$image
+||hinta.fi/*black-friday$image,domain=hinta.fi
+hinta.fi###hv-wrapper-top > [href^="/KGhjGRHj.php"]
 
 ! Nelonen Media video ads
 ||nelonenmedia.fi/ads/$media
@@ -725,7 +737,11 @@ mtvuutiset.fi##.leaderboard-1.leaderboard
 mtvuutiset.fi##.ad_fadein
 
 ! iotech banners
-||www.io-tech.fi/bnr/$image
+! (hei vaan, iotech ylläpitäjä c:)
+||www.io-tech.fi/bnr$image
+||www.io-tech.fi/dnr$image
+www.io-tech.fi###premiumi
+io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/klik.php"]
 
 ! Media unbreakers
 @@||fwmrm.net/ad/$script,domain=dplay.fi
@@ -735,8 +751,8 @@ mtvuutiset.fi##.ad_fadein
 @@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
 
 ! Prevent clicking video ads on MTV Oy
-mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi##.mtv-player-ad-container
-||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi
+mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 
 ! To make viafree.fi videos to work without ads
@@ -746,7 +762,21 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi##.mtv-player-a
 @@||fwmrm.net/ad/$script,domain=www.viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
 
-! block "sponsored articles" on some sites
+! block "sponsored articles"/"native ads" on some sites
 ##.spklw-post-attr[data-type="ad"]
 ##a[href^="https://app.readpeak.com/ads"]
 www.verkkouutiset.fi##article.rp-lift.featured-post
+www.hs.fi##.hs-advertorial
+
+! unbreak "sponsored articles" from viewing on hs.fi
+! if someone gets idea how to block only from /mainos/, please tell me
+hs.fi#@#.mainos
+! hs.fi#@#DIV[class^="advert"]
+! https://www.hs.fi/aihe/mainokset/
+www.hs.fi#@#.mainokset
+
+! unbreak apotek1.no
+apotek1.no#@#DIV[class*="ad-element"]
+
+! MuroBBS - Hintaopas
+murobbs.muropaketti.com###hintaopas_top_product_block
