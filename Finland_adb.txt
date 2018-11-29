@@ -248,6 +248,7 @@ hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
 hs.fi/stats
+is.fi/stats
 is.fi##iframe[data-original*="vg.is.fi"]
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
