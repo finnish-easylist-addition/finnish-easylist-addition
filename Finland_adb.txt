@@ -50,6 +50,7 @@ _mainosnappi.
 /scripts/edoris/edoris.dll?tem=
 /trackPage.php?
 /analysis-logger/Logger?
+/www/dlvr/loki.php?
 /statisticsentry-
 /js/spring.js
 /js/common/spring
