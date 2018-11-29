@@ -516,6 +516,7 @@ telsu.fi##a[href*="duunitori.fi"]
 telsu.fi##div[class="duunibox"]
 telsu.fi##.as.city_top
 telsu.fi###prebid_top > .box_dt
+telsu.fi###prebid_bottom > .box_dt
 /images/Zero_EN.gif$domain=tracking.dpd.de,image
 thenextweb.com##div[class^="modal"]
 thenextweb.com##ul[class="articleShare-buttons"]
