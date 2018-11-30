@@ -14,3 +14,6 @@ bbs.io-tech.fi##.sidebar > div:has(a:has(img[src^="https://bbs.io-tech.fi/images
 
 ! aamulehti.fi - sponsored articles
 www.aamulehti.fi##DIV[id*="pipe"] > div > div:has-text(Kaupallinen yhteistyö)
+
+! aamulehti.fi - anti adblock
+aamulehti.fi##+js(setTimeout-defuser.js, adblockDetected, 0)
