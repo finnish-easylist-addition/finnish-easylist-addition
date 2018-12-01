@@ -1,6 +1,6 @@
 # finnish-easylist-addition
 
-Fork of Juvander's Adblock list
+Finnish Easylist addition, a fork of Juvander's Adblock list
 
 [Add list to your Adblocker](https://finnish-easylist-addition.github.io/)
 
