@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 201812031
+! Version: 201812061
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 3th of December 2018
+! Last modified: 6th of December 2018
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -869,12 +869,11 @@ apotek1.no#@#DIV[class*="ad-element"]
 ! MuroBBS - Hintaopas
 murobbs.muropaketti.com###hintaopas_top_product_block
 
-! Unbreak stuff broken by Fanboy's Annoyance List
-@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
-
-! tori.fi ads
+! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
 ||cloudfront.net/banners/$domain=tori.fi
 
+! Unbreak stuff broken by Fanboy's Annoyance List
+@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
