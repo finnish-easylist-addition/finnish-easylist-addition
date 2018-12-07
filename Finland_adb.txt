@@ -876,6 +876,9 @@ murobbs.muropaketti.com###hintaopas_top_product_block
 ! Kotikokki.net ad containers
 kotikokki.net##.partners
 
+! Ylilauta.org ad containers
+ylilauta.org##DIV[class^="center"]
+
 ! utag
 */utag/sanoma-fi/$script
 
