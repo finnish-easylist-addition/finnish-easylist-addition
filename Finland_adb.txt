@@ -876,14 +876,10 @@ murobbs.muropaketti.com###hintaopas_top_product_block
 ! Kotikokki.net ad containers
 kotikokki.net##.partners
 
-! Ylilauta.org ad containers
-ylilauta.org##:xpath(//div[@id="adform-outstream"]/parent::*)
-
 ! utag
 */utag/sanoma-fi/$script
 
-! anti adblock killer and ad containers
-satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##script:inject(setTimeout-defuser.js, adblockDetected, 0)
+! ad containers
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
 
 ! Alypaa.com unbreak and block ads in a better way
