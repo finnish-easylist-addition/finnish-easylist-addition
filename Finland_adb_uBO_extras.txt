@@ -18,6 +18,10 @@ www.aamulehti.fi##DIV[id*="pipe"] > div > div:has-text(Kaupallinen yhteistyö)
 ! aamulehti.fi - anti adblock
 aamulehti.fi##+js(setTimeout-defuser.js, adblockDetected, 0)
 
+! Tori.fi
+www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
+www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
+
 ! Lapinkansa.fi - Commercial cooperation ("Kaupallinen yhteistyö") articles
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
