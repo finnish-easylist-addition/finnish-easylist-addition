@@ -21,9 +21,6 @@ aamulehti.fi##+js(setTimeout-defuser.js, adblockDetected, 0)
 ! anti adblock killer
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##script:inject(setTimeout-defuser.js, adblockDetected, 0)
 
-! Ylilauta.org ad containers
-ylilauta.org##:xpath(//div[@id="adform-outstream"]/parent::*)
-
 ! Lapinkansa.fi - Commercial cooperation ("Kaupallinen yhteistyö") articles
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
