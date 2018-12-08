@@ -872,6 +872,7 @@ murobbs.muropaketti.com###hintaopas_top_product_block
 ! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
 ||cloudfront.net/banners/$domain=tori.fi
+www.tori.fi###footer_partner_links
 
 ! Kotikokki.net ad containers
 kotikokki.net##.partners
