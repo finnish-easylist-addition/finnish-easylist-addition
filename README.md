@@ -16,4 +16,4 @@ Required lists for usage:
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 
-URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/`
+URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/Finland_annoyances.txt`
