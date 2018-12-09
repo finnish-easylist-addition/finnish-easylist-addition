@@ -891,7 +891,7 @@ satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
 
-! Annoyances
+! Moved to Annoyances list:
 @@is.fi/kampanjat/alypaa
 @@is.fi/kampanjat/pelikone
 @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
