@@ -13,3 +13,7 @@
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
+is.fi##DIV[class="html-supersaa"]
+is.fi##DIV[class="supersaa-widget-container"]
+is.fi##div[class="html-pelikone"]
+is.fi##div[class="html-alypaa"]
