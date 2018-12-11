@@ -571,10 +571,14 @@ telsu.fi##.box_dt
 uusisuomi.fi##[class*="block-us-ads"]
 uusisuomi.fi###block-views-ticker-block-2
 
-! mobiili.fi
+! mobiili.fi ads
 mobiili.fi###text-67
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##.headermob_ad
+
+! pakkotoisto.com ad containers
+pakkotoisto.com##.td-a-rec
+pakkotoisto.com##.aboveTopBreadcrumb
 
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
