@@ -549,6 +549,38 @@ satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,
 @@||sestatic.net^$image,domain=alypaa.com
 ||nelonenmedia.fi$domain=alypaa.com
 
+! fillaritori.fi ads
+fillaritori.com##.ipsImage
+fillaritori.com###ipsLayout_sidebar
+
+! hardware.fi ad containers
+hardware.fi##.advertisement
+
+! bomber.fi ads
+bomber.fi###rt-sidebar-b
+
+! high.fi leftovers
+high.fi###googlejs
+
+! io-tech.fi ads
+io-tech.fi###bremiumi
+
+! kuljetusnet.fi ad containers
+kuljetusnet.fi###middle
+
+! mpmaailma.fi ad containers and leftovers
+mpmaailma.fi###ads_column
+
+! puskaradio.net ad containers
+puskaradio.net##.all-adds
+
+! telsu.fi ads
+telsu.fi##.box_dt
+
+! uusisuomi.fi ad containers
+uusisuomi.fi##[class*="block-us-ads"]
+uusisuomi.fi###block-views-ticker-block-2
+
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
