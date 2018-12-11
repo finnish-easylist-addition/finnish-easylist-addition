@@ -886,6 +886,7 @@ ylilauta.org##DIV[class^="center"]
 ! ad containers
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
 www.is.fi##div.sadblob-loading
+lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 
 ! Alypaa.com unbreak and block ads in a better way
 @@||sestatic.net^$image,domain=alypaa.com
