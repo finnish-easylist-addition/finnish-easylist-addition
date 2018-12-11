@@ -15,5 +15,6 @@ Required lists for usage:
 * uBlock - Annoyances
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
+* Fanboy's Cookie List
 
 URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/Finland_annoyances.txt`
