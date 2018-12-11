@@ -584,6 +584,7 @@ suomi24.fi##.editorial-slots
 
 ! nettimoto.com,nettivaraosa.com ads
 nettimoto.com,nettivaraosa.com###desktopBanner
+nettimoto.com,nettivaraosa.com##div[id="huge_banner"]
 
 ! tracking
 yle.fi/.*yle-analytics
