@@ -190,16 +190,6 @@ metropoli.net##DIV[id="ad-1000"]
 metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
-mobiili.fi##div[class="blogcontent"]>p:first-of-type
-mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
-mobiili.fi##div[id="fullcolumn"]>p:first-of-type
-mobiili.fi###text-67 > .textwidget
-mobiili.fi##.article_ad_1
-mobiili.fi##.article_ad_2
-mobiili.fi###header_ad33
-mobiili.fi##.headermob_ad
-mobiili.fi##.singlehinta.header_ad
-mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 leiki.com/
 mediagraph.com/*/log.gif
 mediagraph.com/*1x1.png
@@ -580,6 +570,11 @@ telsu.fi##.box_dt
 ! uusisuomi.fi ad containers
 uusisuomi.fi##[class*="block-us-ads"]
 uusisuomi.fi###block-views-ticker-block-2
+
+! mobiili.fi
+mobiili.fi###text-67
+mobiili.fi##.singlehinta.header_ad
+mobiili.fi##.headermob_ad
 
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
