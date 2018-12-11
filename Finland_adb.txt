@@ -145,6 +145,7 @@ tyda.se#@#DIV[class*="advert"]
 ##DIV[class*="pea_cook_wrapper"]
 
 adzerk.net/ados
+almamedia.fi/alma-logo-pieni.png
 ampparit.com##div[class*="ad-"]
 arcticinsider.com##a[href*="bannerTrack"]
 audiovideo.fi##div[class*="mainospaikka"]
@@ -236,6 +237,7 @@ xracing.fi##DIV[class="right_commerce_undersocial"]
 xracing.fi##DIV[class="right_commerce_special"]
 xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
+yle.fi##DIV[class*="yle__newsletter"]
 
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
@@ -529,9 +531,6 @@ kotikokki.net##.partners
 ! Ylilauta.org ad containers
 ylilauta.org##DIV[class^="center"]
 
-! utag
-*/utag/sanoma-fi/$script
-
 ! ad containers
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
 
@@ -582,6 +581,26 @@ pakkotoisto.com##.aboveTopBreadcrumb
 
 ! suomi24.fi
 suomi24.fi##.editorial-slots
+
+! tracking
+yle.fi/.*yle-analytics
+metrics.api.yle.fi
+analytics-sdk.yle.fi
+*/utag/sanoma-fi/$script
+ts.fi/Statistics/Log
+tinypass.com/*/track
+tinypass.com/*/meter/
+tivi.fi/Logger
+ilkka.fi/logger
+is.fi/stats
+hs.fi/webstatic/images/clear1x1.gif
+hs.fi##DIV[class="tracking-pixel"]
+hs.fi/stats
+/pagestat?
+/trackPage.php?
+/analysis-logger/Logger?
+! /www/dlvr/loki.php?
+/statisticsentry-
 
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
