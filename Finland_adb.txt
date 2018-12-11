@@ -582,6 +582,9 @@ pakkotoisto.com##.aboveTopBreadcrumb
 ! suomi24.fi
 suomi24.fi##.editorial-slots
 
+! nettimoto.com,nettivaraosa.com ads
+nettimoto.com,nettivaraosa.com###desktopBanner
+
 ! tracking
 yle.fi/.*yle-analytics
 metrics.api.yle.fi
