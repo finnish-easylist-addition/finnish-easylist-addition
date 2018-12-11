@@ -580,6 +580,9 @@ mobiili.fi##.headermob_ad
 pakkotoisto.com##.td-a-rec
 pakkotoisto.com##.aboveTopBreadcrumb
 
+! suomi24.fi
+suomi24.fi##.editorial-slots
+
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
