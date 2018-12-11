@@ -29,3 +29,6 @@ www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-page-news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
+
+! Anna.fi
+anna.fi##:xpath(//span[@class="list-tag_commercial"]/parent::*/parent::*/parent::*/parent::*)
