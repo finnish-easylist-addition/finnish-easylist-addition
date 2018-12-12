@@ -15,4 +15,4 @@ at least:
 
 ## What should be unblocked?
 
-* stuff that break due to the filters (see [#38](https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/38))
+* stuff that break due to the filters (examples: [#38](https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/38))
