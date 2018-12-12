@@ -541,7 +541,7 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 @@||sestatic.net^$image,domain=alypaa.com
 ||nelonenmedia.fi$domain=alypaa.com
 
-! fillaritori.fi ads
+! fillaritori.com ads
 fillaritori.com##.ipsImage
 fillaritori.com###ipsLayout_sidebar
 
