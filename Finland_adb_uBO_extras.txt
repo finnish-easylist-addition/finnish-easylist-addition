@@ -24,6 +24,8 @@ satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,
 ! Iltalehti.fi - Kaupallinen yhteistyö
 www.iltalehti.fi##[href^="/omaguru/"]:has(.article-container:has-text(Kaupallinen yhteistyö: ))
 www.iltalehti.fi##[href^="/hintaopas/"]:has(.article-container:has-text(Kaupallinen yhteistyö Hintaopas: ))
+www.iltalehti.fi##.default.drfront-full-article:has([href^="/hintaopas/"]):has(img[src*="assets.ilcdn.fi/mainosnauhta_digi_hintaopas.jpg"])
+www.iltalehti.fi##div.article-container:has-text(Kaupallinen yhteistyö: ):has([href^="/omaguru/"])
 
 ! Tori.fi
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
