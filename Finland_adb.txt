@@ -609,11 +609,6 @@ is.fi/stats
 hs.fi/webstatic/images/clear1x1.gif
 hs.fi##DIV[class="tracking-pixel"]
 hs.fi/stats
-/pagestat?
-/trackPage.php?
-/analysis-logger/Logger?
-! /www/dlvr/loki.php?
-/statisticsentry-
 
 ! Unbreak stuff broken by Fanboy's Annoyance List
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
