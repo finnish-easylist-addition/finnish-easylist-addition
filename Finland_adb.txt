@@ -139,11 +139,6 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 
-
-! eu cookie stuff
-##DIV[id="cookieprivacy"]
-##DIV[class*="pea_cook_wrapper"]
-
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
@@ -402,7 +397,6 @@ mtv.fi##DIV[class="banner banner-jattiboksi"]
 mtv.fi##section[class="ad"]
 mtv.fi##IFRAME#hz-unit-etusivu
 mtv.fi/static/javascripts/external-js/*.js
-st.mtv.fi/static/html/cookie-notification
 mtv.fi##div[class="leaderboard"]
 mtv.fi##DIV[class*="ad-container"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##LI#left_part
@@ -557,7 +551,6 @@ pls.webtype.com/v.gif
 yle.fi/.*yle-analytics
 metrics.api.yle.fi
 analytics-sdk.yle.fi
-yle.fi##DIV[class*="yle__newsletter"]
 ylilauta.org##a[href="/kultatili"]
 ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
 xiti.com
@@ -874,7 +867,4 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 @@||sestatic.net^$image,domain=alypaa.com
 ||nelonenmedia.fi$domain=alypaa.com
 
-! Unbreak stuff broken by Fanboy's Annoyance List
-@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
-! ville.utu.fi unbreak
-@@||*/icons/google$image,domain=utu.fi
+
