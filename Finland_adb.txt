@@ -301,6 +301,8 @@ iltapulu.fi##div[class="footer-ylempi"]
 is.fi/*spring*.js
 is.fi##article[class*="is-advertorial"]
 is.fi##div[class^="block adRow"]
+is.fi##iframe[data-original*="://vg.is.fi"]
+is.fi##iframe[data-original*="adserve.io"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
