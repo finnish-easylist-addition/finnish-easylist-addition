@@ -26,3 +26,15 @@ is.fi##iframe[data-original*="://vg.is.fi"]
 huuto.net###display-window-container
 huuto.net###oikotie-nav
 
+! eu cookie stuff
+##DIV[id="cookieprivacy"]
+##DIV[class*="pea_cook_wrapper"]
+
+st.mtv.fi/static/html/cookie-notification
+
+yle.fi##DIV[class*="yle__newsletter"]
+
+! Unbreak stuff broken by Fanboy's Annoyance List
+@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
+! ville.utu.fi unbreak
+@@||*/icons/google$image,domain=utu.fi
