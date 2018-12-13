@@ -277,6 +277,7 @@ bbs.io-tech.fi/images/*banneri*.png
 bbs.io-tech.fi/images/komplett-*.jpg
 iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##.slider-content
+iltalehti.fi##div[class="iframe-container"]
 isup.me##div[class="smile-container"]
 admp-tc.kauppalehti.fi/
 admp-tc.iltalehti.fi/
