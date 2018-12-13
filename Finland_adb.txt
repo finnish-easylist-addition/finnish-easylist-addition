@@ -251,14 +251,10 @@ hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
 hs.fi/stats
 is.fi/stats
-is.fi##iframe[data-original*="vg.is.fi"]
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
 hinta.fi##a[href^="/ohjaus.php"]
 huoltovalikko.com##A[href="http://www.satshop.fi"]
-huuto.net###front-page-elements
-huuto.net###display-window-container
-huuto.net###huutoluotto-container
 elisaviihde.fi##SECTION#cookie-warning[class="cookie-notification warning"]
 elisa.fi/img/content/*.mp4
 nexus.ensighten.com/*/serverComponent.php
@@ -307,19 +303,9 @@ admp-tc.iltalehti.fi/
 static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
 iltapulu.fi##div[class="footer-ylempi"]
-is.fi##ARTICLE[class*="sponsored"]
-is.fi##div[class="multiBoxAd"]
-is.fi##div[class="html-tarjoukset-tanaan"]
 is.fi/*spring*.js
-! is.fi/kampanjat/
-is.fi##DIV[data-html-asset-id="78"]
-is.fi##DIV[data-html-asset-id="82"]
-is.fi##DIV[data-html-asset-id="943"]
-is.fi##DIV[data-html-asset-id="109"]
-is.fi##table[id="kumppaneiden-tarjoukset"]
-is.fi##iframe[data-original*="kampanjat/promo/nostot"]
 is.fi##article[class*="is-advertorial"]
-is.fi##DIV[class*="article-ad-block"]
+is.fi##div[class^="block adRow"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
@@ -801,8 +787,6 @@ mobiili.fi#@#.header_ad
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-! oikotie navigaatiopalkki
-huuto.net###oikotie-nav
 ! mainos container haun alaosassa
 huuto.net##div.search-grid-ad-container.ad
 
@@ -894,8 +878,3 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
-
-! Moved to Annoyances list:
-! @@is.fi/kampanjat/alypaa
-! @@is.fi/kampanjat/pelikone
-! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
