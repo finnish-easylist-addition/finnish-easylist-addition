@@ -304,6 +304,8 @@ is.fi##div[class^="block adRow"]
 is.fi##iframe[data-original*="://vg.is.fi"]
 is.fi##iframe[data-original*="adserve.io"]
 is.fi##iframe[data-original*="://www.is.fi/kampanjat/promo/nostot"]
+is.fi##div[class="multiBoxAd"]
+is.fi##table[id="kumppaneiden-tarjoukset"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kaksplus.fi##DIV[id="kp-ad-top2-inner"]
