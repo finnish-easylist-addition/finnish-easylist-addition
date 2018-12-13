@@ -20,7 +20,6 @@ is.fi##div[class="html-pelikone"]
 is.fi##div[class="html-alypaa"]
 
 is.fi##iframe[data-original*="://www.is.fi/kampanjat/promo/nostot"]
-is.fi##iframe[data-original*="://vg.is.fi"]
 ||nelonenmedia.fi/xb/styles/logo/public/is_trans_35x35px.png
 
 huuto.net###display-window-container
