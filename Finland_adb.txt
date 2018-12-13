@@ -275,23 +275,8 @@ io-tech.fi##aside[class*="hintafi"]
 io-tech.fi##DIV[id*="hintafi-"]
 bbs.io-tech.fi/images/*banneri*.png
 bbs.io-tech.fi/images/komplett-*.jpg
-iltalehti.fi##DIV[class="TelkkuWidget"]
-iltalehti.fi##DIV[class="widget widget--plusnosto"]
-iltalehti.fi##DIV#monsterWrapper
-iltalehti.fi##DIV[id="google_side"]
-iltalehti.fi##DIV[class="widget widget--edukas"]
-iltalehti.fi##DIV[class="plus-promo-bottom"]
-iltalehti.fi##h2[class="vinjetti"]+div
-iltalehti.fi##div[class*="kp-share-area"]
-iltalehti.fi##div[id="content"]>a[id="header"]
-iltalehti.fi##iframe[src*="/ads/"]
-iltalehti.fi##a[href*="rantapallo.fi"]
-iltalehti.fi##div[class="banner-container"]
-iltalehti.fi##a[href*="alekoodit"]
-iltalehti.fi##div[class="autotalli__article-links"]
-iltalehti.fi##A[href="/parassaa"]
-iltalehti.fi##div[class*="sponsnosto"]
-iltalehti.fi##DIV[id="almad-parade-1"][class="ad"]
+iltalehti.fi##div[class*="parade-ad-container"]
+iltalehti.fi##.slider-content
 isup.me##div[class="smile-container"]
 admp-tc.kauppalehti.fi/
 admp-tc.iltalehti.fi/
