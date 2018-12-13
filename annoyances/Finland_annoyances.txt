@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 201812091
+! Version: 201812131
 ! Title: Annoyance List for Finland
 ! Description: Finnish adblock list
-! Last modified: 9th of December 2018
+! Last modified: 13th of December 2018
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
+!#include Finland_annoyances_uBO_extras.txt
 !
 ! Designed to be used with Fanboy's Annoyance List and Adguard's Annoyance List
 ! UBLOCK ORIGIN RECOMMENDED!
