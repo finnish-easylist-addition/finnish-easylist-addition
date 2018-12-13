@@ -311,7 +311,7 @@ is.fi##ARTICLE[class*="sponsored"]
 is.fi##div[class="multiBoxAd"]
 is.fi##div[class="html-tarjoukset-tanaan"]
 is.fi/*spring*.js
-is.fi/kampanjat/
+! is.fi/kampanjat/
 is.fi##DIV[data-html-asset-id="78"]
 is.fi##DIV[data-html-asset-id="82"]
 is.fi##DIV[data-html-asset-id="943"]
@@ -896,6 +896,6 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 @@||*/icons/google$image,domain=utu.fi
 
 ! Moved to Annoyances list:
-@@is.fi/kampanjat/alypaa
-@@is.fi/kampanjat/pelikone
-@@is.fi/kampanjat/promo/nostot/*-sarjakuvat
+! @@is.fi/kampanjat/alypaa
+! @@is.fi/kampanjat/pelikone
+! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
