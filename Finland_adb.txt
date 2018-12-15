@@ -185,7 +185,6 @@ aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
 bomber.fi##a[onclick^="countAdClick"]
 network.bazaarvoice.com/st.gif
-x.bidswitch.net/*?ssp=teads
 bike.fi##DIV#newsletter-dialog[class="open"]
 bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
