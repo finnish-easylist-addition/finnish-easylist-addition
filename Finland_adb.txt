@@ -220,7 +220,6 @@ feissarimokat.com##DIV[class="adbox-large"]
 feissarimokat.com##DIV[class="adbox-smaller nextpal"]
 feissarimokat.com##LI[class*="shopster"]
 fillaritori.com##.ipsAdvertisement
-google.com/adsense/search/async-ads.js
 gamereactor.fi##div[id="eventad"]
 hardware.fi##DIV[class="top-ad-space"]
 hbl.fi##ksf-adblockers
