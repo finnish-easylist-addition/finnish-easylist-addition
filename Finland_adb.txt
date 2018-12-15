@@ -57,8 +57,6 @@ _mainosnappi.
 /js/common/init-tns
 /eu_cookie_compliance.js
 
-/adServe/*
-
 
 ###atwAdFrame
 ###keskimainos
