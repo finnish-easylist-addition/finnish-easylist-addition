@@ -24,19 +24,12 @@ is.fi##div[class="html-alypaa"]
 huuto.net###display-window-container
 huuto.net###oikotie-nav
 
-! eu cookie stuff
-##DIV[id="cookieprivacy"]
-##DIV[class*="pea_cook_wrapper"]
-
-st.mtv.fi/static/html/cookie-notification
-
 yle.fi##DIV[class*="yle__newsletter"]
 
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
 iltalehti.fi##.jw-logo
 
-hbl.fi###ksf-gdpr-notice
 monster.fi###interMsgsW
 rantapallo.fi##.wpoi-show.inc_optin
 stockmann.com##.section-notification
@@ -44,7 +37,3 @@ power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
-! Unbreak stuff broken by Fanboy's Annoyance List
-@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
-! ville.utu.fi unbreak
-@@||*/icons/google$image,domain=utu.fi

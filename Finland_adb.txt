@@ -139,6 +139,13 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 
+! eu cookie stuff
+##DIV[id="cookieprivacy"]
+##DIV[class*="pea_cook_wrapper"]
+
+st.mtv.fi/static/html/cookie-notification
+hbl.fi###ksf-gdpr-notice
+
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
@@ -859,4 +866,14 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 @@||sestatic.net^$image,domain=alypaa.com
 ||nelonenmedia.fi$domain=alypaa.com
 
+! Moved to Annoyances list:
+! @@is.fi/kampanjat/alypaa
+! @@is.fi/kampanjat/pelikone
+! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
 
+! -----UNBREAK-----
+
+! Fanboy's Annoyance List
+@@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
+! ville.utu.fi unbreak
+@@||*/icons/google$image,domain=utu.fi
