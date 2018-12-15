@@ -874,6 +874,13 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! -----UNBREAK-----
 
 ! Fanboy's Annoyance List
+
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
+
+
+! Adguard's Annoyance List
+
+xxl.fi#@#.cookiewarning:not(body)
+xxl.fi#@#.cookiewarning:not(body):not(html)
