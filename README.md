@@ -12,7 +12,7 @@ Annoyances list is recommended to be only used with **uBlock Origin/Adguard**
 
 Required lists for usage:
 
-* uBlock - Annoyances
+* uBlock - Annoyances (if uBlock Origin in use)
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 * Fanboy's Cookie List
