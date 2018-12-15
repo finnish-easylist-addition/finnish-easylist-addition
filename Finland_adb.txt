@@ -424,7 +424,6 @@ satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
 sfnix.net/api/
-snoobi.com/snoop
 ! snstatic.fi/webstatic/*/desktop-all.js
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
