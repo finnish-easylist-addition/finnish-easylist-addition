@@ -252,8 +252,6 @@ hinta.fi##a[href^="/ohjaus.php"]
 huoltovalikko.com##A[href="http://www.satshop.fi"]
 elisaviihde.fi##SECTION#cookie-warning[class="cookie-notification warning"]
 elisa.fi/img/content/*.mp4
-nexus.ensighten.com/*/serverComponent.php
-nexus. ensighten.com/error/e.gif
 f1-forum.fi##img[src*="banneri"]
 f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##a[href*="mainostilastot"]
