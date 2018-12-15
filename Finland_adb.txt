@@ -307,7 +307,6 @@ monster.almamedia.fi/nostobannerit/
 kelkkalehti.com/bannerit/
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
-krasivoe-kino.com$third-party
 kuopionkirppari.fi##DIV[class*="banner"]
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
 loimaanlehti.fi##div[class*="art-sidebar2"]>div[id*="black-studio-tinymce"]
@@ -657,6 +656,7 @@ nayadaya.com$third-party
 chimiver.info$third-party
 live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
+krasivoe-kino.com$third-party
 
 ! kaleva.fi
 carousel-prod-kaleva-fi.s3.amazonaws.com
