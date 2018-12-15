@@ -596,7 +596,7 @@ spring-tns.net$third-party
 ||p.typekit.net
 ||parkingcrew.net
 ||partner.shareaholic.com
-! perfectmarket.com redirects to tabloola.com.
+! perfectmarket.com redirects to taboola.com.
 ||perfectmarket.com
 ||pix.rvcdn.com
 ||pix.tagcdn.com
