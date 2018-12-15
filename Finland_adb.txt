@@ -424,8 +424,6 @@ static.sanoma.fi/weba/js/ls/zig.js
 dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
-sat.sanoma.fi/js
-sat.sanoma.fi/sat
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
