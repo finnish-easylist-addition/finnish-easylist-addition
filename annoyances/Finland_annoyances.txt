@@ -37,3 +37,4 @@ power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
+iltalehti.fi##[href="/sovellus"]
