@@ -1,2 +1,5 @@
 ! is.fi - Sarjakuvat/Comics
 www.is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
+
+! uutiskirje
+www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
