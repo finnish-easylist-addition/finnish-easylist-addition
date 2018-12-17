@@ -15,6 +15,6 @@ Required lists for usage:
 * uBlock - Annoyances (if uBlock Origin in use)
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
-* Fanboy's Cookie List
+* <a href="https://subscribe.adblockplus.org/?location=https://secure.fanboy.co.nz/fanboy-cookiemonster.txt&title=Fanboy's Cookie List">Fanboy's Cookie List</a>
 
 URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/Finland_annoyances.txt`
