@@ -528,7 +528,6 @@ spring-tns.net$third-party
 ||24counter.com
 ||ad.ilcdn.fi
 ||adap.io
-||adf.ly
 ||adfly.ly
 ||adservicemedia.dk$third-party
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
