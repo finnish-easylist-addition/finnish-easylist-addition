@@ -45,6 +45,7 @@ www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
 
 ! Tivi.fi - Kaupallinen yhteistyö
 www.tivi.fi##.teaser-partner-blog:has-text(KAUPALLINEN YHTEISTYÖ: )
+www.tivi.fi##.section-partner:has-text(Kaupallinen yhteistyö)
 
 ! Lapinkansa.fi - Commercial cooperation ("Kaupallinen yhteistyö") articles
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
