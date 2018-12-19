@@ -45,3 +45,7 @@ www.foreca.fi###share
 tivi.fi##.header-some.link-group
 tivi.fi##.sidebar-some.custom__sidebar-box
 www.is.fi##[id^="DefaultShareButtons-"]
+
+yle.fi##footer > .default.some
+yle.fi##div.ydd-share-buttons
+yle.fi##.hgroup > .default.some
