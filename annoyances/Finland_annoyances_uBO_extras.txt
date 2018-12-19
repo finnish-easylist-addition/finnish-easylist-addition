@@ -6,3 +6,6 @@ www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutis
 
 ! foreca.fi - annoying moving thing advertising their Twitter
 www.foreca.fi###ticker:has-text(liity seuraajaksi)
+
+! linkedin tivi
+www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
