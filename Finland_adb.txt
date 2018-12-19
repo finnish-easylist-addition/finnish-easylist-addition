@@ -845,6 +845,9 @@ apotek1.no#@#DIV[class*="ad-element"]
 ! unbreak loading of a subcategory
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
 
+! unbreak images inside embedded tweets
+@@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
+
 ! MuroBBS - Hintaopas
 murobbs.muropaketti.com###hintaopas_top_product_block
 
