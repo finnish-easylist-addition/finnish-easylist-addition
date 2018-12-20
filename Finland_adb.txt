@@ -448,7 +448,6 @@ static.sanoma.fi/weba/js/ls/zig.js
 dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
-riemurasia.net##[href^="https://clk.tradedoubler.com/click"]
 riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
 www.riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
 ||www.riemurasia.net/images/tt/helppohinta.jpg$image
@@ -883,6 +882,11 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! Alypaa.com unbreak and block ads in a better way
 @@||sestatic.net^$image,domain=alypaa.com
 ||nelonenmedia.fi$domain=alypaa.com
+
+! links to ad servers
+##[href^="https://clk.tradedoubler.com/click"]
+##[href^="https://tc.tradetracker.net/"]
+
 
 ! Moved to Annoyances list:
 ! @@is.fi/kampanjat/alypaa
