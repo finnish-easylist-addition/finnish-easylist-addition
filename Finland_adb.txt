@@ -847,6 +847,12 @@ apotek1.no#@#DIV[class*="ad-element"]
 ! unbreak loading of a subcategory
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
 
+
+! unbreak "lue seuraavaksi" (read next) section
+! broken by Easyprivacy & Fanboy's Annoyance List
+@@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
+@@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
+
 ! unbreak images inside embedded tweets
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 
