@@ -37,8 +37,15 @@ www.foreca.fi###betafeedback
 ! WEATHER
 is.fi##DIV[class="html-supersaa"]
 
-! SHARE BUTTONS
+! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
+tivi.fi##.header-some.link-group
+tivi.fi##.sidebar-some.custom__sidebar-box
+www.is.fi##[id^="DefaultShareButtons-"]
+
+yle.fi##footer > .default.some
+yle.fi##div.ydd-share-buttons
+yle.fi##.hgroup > .default.some
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container

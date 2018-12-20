@@ -5,6 +5,9 @@ www.is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
 ! foreca.fi - annoying moving thing advertising their Twitter
 www.foreca.fi###ticker:has-text(liity seuraajaksi)
 
+! HS kysely
+www.hs.fi##.hs-ticker-hstv.ticker:has([href^="https://response.questback.com/"])
+
 ! SOCIAL MEDIA
 www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
 
