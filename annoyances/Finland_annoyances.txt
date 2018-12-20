@@ -59,6 +59,7 @@ iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
 yle.fi##DIV[class*="yle__newsletter"]
 www.ess.fi###uutiskirjeentilaus
+www.hs.fi##.hsnl-container
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
