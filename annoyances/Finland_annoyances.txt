@@ -14,20 +14,13 @@
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
-is.fi##DIV[class="html-supersaa"]
-is.fi##DIV[class="supersaa-widget-container"]
-is.fi##div[class="html-pelikone"]
-is.fi##div[class="html-alypaa"]
+! RANDOM
 
 ||nelonenmedia.fi/xb/styles/logo/public/is_trans_35x35px.png
 
 huuto.net###display-window-container
 huuto.net###oikotie-nav
 
-yle.fi##DIV[class*="yle__newsletter"]
-
-iltalehti.fi###newsletter_container
-iltalehti.fi##.content-newsletter
 iltalehti.fi##.jw-logo
 
 monster.fi###interMsgsW
@@ -37,10 +30,28 @@ power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
-iltalehti.fi##[href="/sovellus"]
+
 
 www.foreca.fi###betafeedback
+
+! WEATHER
+is.fi##DIV[class="html-supersaa"]
+
+! SHARE BUTTONS
 www.foreca.fi###share
 
-! "lue seuraavaksi"
+! NEWSLETTERS
+iltalehti.fi###newsletter_container
+iltalehti.fi##.content-newsletter
+yle.fi##DIV[class*="yle__newsletter"]
+
+! DOWNLOAD OUR APP
+iltalehti.fi##[href="/sovellus"]
+
+! GAMES
+is.fi##DIV[class="supersaa-widget-container"]
+is.fi##div[class="html-pelikone"]
+is.fi##div[class="html-alypaa"]
+
+! "READ NEXT"
 www.ess.fi###article-floater-cx

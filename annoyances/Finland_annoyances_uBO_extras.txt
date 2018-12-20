@@ -1,11 +1,12 @@
 ! is.fi - Sarjakuvat/Comics
 www.is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
 
-! uutiskirje
-www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
 
 ! foreca.fi - annoying moving thing advertising their Twitter
 www.foreca.fi###ticker:has-text(liity seuraajaksi)
 
-! linkedin tivi
+! SOCIAL MEDIA
 www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
+
+! NEWSLETTERS
+www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
