@@ -10,7 +10,7 @@ Direct URL to the list: `https://raw.githubusercontent.com/finnish-easylist-addi
 
 Annoyances list is recommended to be only used with **uBlock Origin/Adguard**
 
-Lists required/recommended for usage:
+### Lists required/recommended for usage
 
 * uBlock - Annoyances (if uBlock Origin in use)
 * AdGuard's Annoyance List
