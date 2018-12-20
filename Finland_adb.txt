@@ -448,6 +448,8 @@ static.sanoma.fi/weba/js/ls/zig.js
 dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
+riemurasia.net##[href^="https://clk.tradedoubler.com/click"]
+riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
 sat.sanoma.fi/js
 sat.sanoma.fi/sat
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
