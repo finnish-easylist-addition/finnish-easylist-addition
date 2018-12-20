@@ -73,3 +73,6 @@ is.fi##div[class="html-alypaa"]
 
 ! "READ NEXT"
 www.ess.fi###article-floater-cx
+
+! OTHER
+is.fi/kampanjat/vinkkinapit
