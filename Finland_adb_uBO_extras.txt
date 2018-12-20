@@ -51,3 +51,6 @@ www.tivi.fi##.section-partner:has-text(Kaupallinen yhteistyö)
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-page-news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
+
+! hs.fi - "Markkinapaikka" ad container
+www.hs.fi##.embedded:has-text(Markkinapaikka)

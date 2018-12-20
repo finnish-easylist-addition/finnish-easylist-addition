@@ -31,7 +31,6 @@ puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
 
-
 www.foreca.fi###betafeedback
 
 ! Oikotie
@@ -43,6 +42,7 @@ www.foreca.fi###betafeedback
 
 ! WEATHER
 is.fi##DIV[class="html-supersaa"]
+www.hs.fi##.supersaa-widget-container
 
 ! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
