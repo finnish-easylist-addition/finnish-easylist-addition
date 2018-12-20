@@ -8,7 +8,9 @@
 ! License: https://unlicense.org/
 !#include Finland_annoyances_uBO_extras.txt
 !
-! Designed to be used with Fanboy's Annoyance List and Adguard's Annoyance List
+! Designed to be used with following lists:
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/blob/master/README.md#lists-requiredrecommended-for-usage
+!
 ! UBLOCK ORIGIN RECOMMENDED!
 !
 ! Please report any issues at:
