@@ -450,7 +450,8 @@ ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
 riemurasia.net##[href^="https://clk.tradedoubler.com/click"]
 riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
-riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
+www.riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
+||www.riemurasia.net/images/tt/helppohinta.jpg$image
 sat.sanoma.fi/js
 sat.sanoma.fi/sat
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
