@@ -41,3 +41,6 @@ iltalehti.fi##[href="/sovellus"]
 
 www.foreca.fi###betafeedback
 www.foreca.fi###share
+
+! "lue seuraavaksi"
+www.ess.fi###article-floater-cx
