@@ -846,8 +846,9 @@ apotek1.no#@#DIV[class*="ad-element"]
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
 
 ! unbreak "lue seuraavaksi" (read next) section
-! broken by Easyprivacy
+! broken by Easyprivacy & Fanboy's Annoyance List
 @@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
+@@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
 
 ! MuroBBS - Hintaopas
 murobbs.muropaketti.com###hintaopas_top_product_block
