@@ -34,6 +34,13 @@ telia.fi##.notification--blue
 
 www.foreca.fi###betafeedback
 
+! Oikotie
+###oikotie_tyopaikat_box_iframe
+###oikotie_asunnot_box_iframe
+
+! Iltapulu
+###iltapulu_fp_box_iframe
+
 ! WEATHER
 is.fi##DIV[class="html-supersaa"]
 
@@ -51,6 +58,7 @@ yle.fi##.hgroup > .default.some
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
 yle.fi##DIV[class*="yle__newsletter"]
+www.ess.fi###uutiskirjeentilaus
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
