@@ -8,26 +8,21 @@
 ! License: https://unlicense.org/
 !#include Finland_annoyances_uBO_extras.txt
 !
-! Designed to be used with Fanboy's Annoyance List and Adguard's Annoyance List
+! Designed to be used with following lists:
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/blob/master/README.md#lists-requiredrecommended-for-usage
+!
 ! UBLOCK ORIGIN RECOMMENDED!
 !
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
-is.fi##DIV[class="html-supersaa"]
-is.fi##DIV[class="supersaa-widget-container"]
-is.fi##div[class="html-pelikone"]
-is.fi##div[class="html-alypaa"]
+! RANDOM
 
 ||nelonenmedia.fi/xb/styles/logo/public/is_trans_35x35px.png
 
 huuto.net###display-window-container
 huuto.net###oikotie-nav
 
-yle.fi##DIV[class*="yle__newsletter"]
-
-iltalehti.fi###newsletter_container
-iltalehti.fi##.content-newsletter
 iltalehti.fi##.jw-logo
 
 monster.fi###interMsgsW
@@ -37,7 +32,47 @@ power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
-iltalehti.fi##[href="/sovellus"]
 
 www.foreca.fi###betafeedback
+
+! Oikotie
+###oikotie_tyopaikat_box_iframe
+###oikotie_asunnot_box_iframe
+
+! Iltapulu
+###iltapulu_fp_box_iframe
+
+! WEATHER
+is.fi##DIV[class="html-supersaa"]
+www.hs.fi##.supersaa-widget-container
+
+! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
+tivi.fi##.header-some.link-group
+tivi.fi##.sidebar-some.custom__sidebar-box
+www.is.fi##[id^="DefaultShareButtons-"]
+
+yle.fi##footer > .default.some
+yle.fi##div.ydd-share-buttons
+yle.fi##.hgroup > .default.some
+
+! NEWSLETTERS
+iltalehti.fi###newsletter_container
+iltalehti.fi##.content-newsletter
+yle.fi##DIV[class*="yle__newsletter"]
+www.ess.fi###uutiskirjeentilaus
+www.hs.fi##.hsnl-container
+
+! DOWNLOAD OUR APP
+iltalehti.fi##[href="/sovellus"]
+
+! GAMES
+is.fi##DIV[class="supersaa-widget-container"]
+is.fi##div[class="html-pelikone"]
+is.fi##div[class="html-alypaa"]
+
+! "READ NEXT"
+www.ess.fi###article-floater-cx
+
+! OTHER
+is.fi/kampanjat/vinkkinapit

@@ -10,11 +10,12 @@ Direct URL to the list: `https://raw.githubusercontent.com/finnish-easylist-addi
 
 Annoyances list is recommended to be only used with **uBlock Origin/Adguard**
 
-Required lists for usage:
+### Lists required/recommended for usage
 
 * uBlock - Annoyances (if uBlock Origin in use)
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
+* <a href="https://subscribe.adblockplus.org/?location=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann&title=CrapBlock Annoyances&requiresLocation=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann">CrapBlock Annoyances</a>
 * <a href="https://subscribe.adblockplus.org/?location=https://secure.fanboy.co.nz/fanboy-cookiemonster.txt&title=Fanboy's Cookie List">Fanboy's Cookie List</a>
 
 URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/Finland_annoyances.txt`
