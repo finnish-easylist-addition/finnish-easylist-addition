@@ -780,6 +780,9 @@ mobiili.fi#@#.header_ad
 ! Unbreak radiot.fi
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
 
+! Unbreak embedded tweets on some cases
+@@||cdn.krxd.net/*$script,domain=www.hs.fi
+
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
