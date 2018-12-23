@@ -181,7 +181,6 @@ autotie.fi##div[class^="headerbanner"]
 autotie.fi##div.vaihtuvat-tekstit
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
-bomber.fi##a[onclick^="countAdClick"]
 network.bazaarvoice.com/st.gif
 bike.fi##DIV#newsletter-dialog[class="open"]
 bike.fi##DIV[class="banner panorama"]
@@ -207,7 +206,6 @@ etuovi.com##SECTION[class*="advertising"]
 etuovi.com##article[class="loanCalculator"]
 etuovi.com##article[class="renovatingCalculator"]
 etuovi.com##article[class="movingCalculator"]
-emc24.fi##table[id="belowStoreLogo"]
 feissarimokat.com##DIV[id="billboard"]
 feissarimokat.com##DIV[id="logopal"]
 feissarimokat.com##DIV[class="flexibox"]
@@ -263,11 +261,6 @@ high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 ilkka.fi/logger
-io-tech.fi##aside[class*="jimms"]
-io-tech.fi##aside[class*="hintafi"]
-io-tech.fi##DIV[id*="hintafi-"]
-bbs.io-tech.fi/images/*banneri*.png
-bbs.io-tech.fi/images/komplett-*.jpg
 iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##.slider-content
 iltalehti.fi##div[class="iframe-container"]
@@ -286,8 +279,6 @@ is.fi##div[class="multiBoxAd"]
 is.fi##table[id="kumppaneiden-tarjoukset"]
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
-kaksplus.fi##DIV[id="kp-ad-top2-inner"]
-kaksplus.fi##DIV[class="section funbox"]
 kansalainen.fi##div[id^="ads"]
 kansalainen.fi##div[id="text-html-widget-5"]
 kansanuutiset.fi##A[href="http://www.autonvaraosastore.fi/"]
@@ -391,7 +382,6 @@ offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
 offroadpro.fi/*/ad/serve.php
 api.pinterest.com/*/count.json
 mpmaailma.fi/*/ad/serve.php
-pakkotoisto.com##IFRAME[src="http://www.pakkotoisto.com/fast/index.html"]
 pastebin.com##div#abrpm
 pelaajalehti.com###wallpaper
 pelit.fi##.eaf_wrap
@@ -401,9 +391,6 @@ petri.com##DIV#simplemodal-container[class="simplemodal-container"]
 petri.com##DIV#simplemodal-overlay[class="simplemodal-overlay"]
 pohjalainen.fi##div[class="ads__wrapper--pinnedtop"]
 pohjalainen.fi##div[class*="pohjanmaan-palvelut__wrapper"]
-puskaradio.net##div[id="banner"]
-puskaradio.net##a[href="mainosta.php"]
-puskaradio.net##img[class="banner"]
 radiopori.fi##div[class*="simpleads"]
 radiopori.fi##div[id*="mainospaikka"]
 pku.fi##ASIDE[class*="adrotate"]
@@ -435,9 +422,6 @@ suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
 suomif1.com##div[class*="-ad"]
 suomif1.com##div[class*="minilanding"]
-suomi24.fi##div[class^="ad"]
-suomi24.fi##li[class="ad"]
-suomi24.fi##div[class*="ad-frontpage"]
 supersaa.fi/*/spring.js
 supersaa.fi##div[class^="supers-app-promo-container"]
 talentum.com/uratie/spring.js
@@ -800,6 +784,28 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ##[href^="https://clk.tradedoubler.com/click"]
 ##[href^="https://tc.tradetracker.net/"]
 
+! io-tech.fi
+bbs.io-tech.fi###premiumi
+io-tech.fi###bremiumi
+
+! bomber.fi
+bomber.fi###rt-sidebar-b
+
+! emc24.fi
+emc24.fi##div.vc_align_center
+
+! kaksplus.fi
+kaksplus.fi###adscarousel-feed
+kaksplus.fi##.advertisement
+
+! puskaradio.net
+puskaradio.net##.all-adds
+
+! suomi24.fi
+suomi24.fi##.editorial-slots
+
+! pakkotoisto.com
+pakkotoisto.com##.samCodeUnit
 
 ! Moved to Annoyances list:
 ! @@is.fi/kampanjat/alypaa
@@ -807,6 +813,9 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
 
 ! -----UNBREAK-----
+
+@@||leiki.com$domain=kaksplus.fi
+io-tech.fi#@#.sidebar-widgets
 
 ! Fanboy's Annoyance List
 
