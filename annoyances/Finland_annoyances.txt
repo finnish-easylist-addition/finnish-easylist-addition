@@ -31,7 +31,7 @@ stockmann.com##.section-notification
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
-
+dplay.fi##div[class*="notificationArea"]
 
 www.foreca.fi###betafeedback
 
