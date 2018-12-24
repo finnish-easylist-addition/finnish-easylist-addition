@@ -819,3 +819,10 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 
 xxl.fi#@#.cookiewarning:not(body)
 xxl.fi#@#.cookiewarning:not(body):not(html)
+
+! Ad container
+uutisvirta.fi##aside > div.spacer
+
+! Popup ad container
+uutisvirta.fi###fancybox-overlay
+||uutisvirta.fi/js/fancybox/
