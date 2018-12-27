@@ -52,6 +52,7 @@ _mainosnappi.
 /analysis-logger/Logger?
 ! /www/dlvr/loki.php?
 ab.is.fi/?ref=
+rac.ruutu.fi/sat/sat.gif
 /statisticsentry-
 /js/spring.js
 /js/common/spring
