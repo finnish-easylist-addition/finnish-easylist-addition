@@ -51,6 +51,7 @@ _mainosnappi.
 /trackPage.php?
 /analysis-logger/Logger?
 ! /www/dlvr/loki.php?
+ab.is.fi/?ref=
 /statisticsentry-
 /js/spring.js
 /js/common/spring
