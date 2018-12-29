@@ -813,6 +813,13 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 
 ! -----UNBREAK-----
 
+@@||onyourmap.com$image,domain=finder.fi
+! s-kanava.fi
+@@||sipa.s-palvelut.fi$image
+@@||leiki.com$domain=etuovi.com
+etuovi.com#@#.rss-feed
+tjareborg.fi#@#.push-container
+
 ! Fanboy's Annoyance List
 
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
