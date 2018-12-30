@@ -363,6 +363,7 @@ murobbs.muropaketti.com##a[href*="emediate"]
 murobbs.muropaketti.com##DIV[class="funboxWrapper"]
 muropaketti.com##SECTION[id*="yhteistyossa"]
 muropaketti.com##SECTION[id*="hintaopaspopular"]
+muropaketti.com##.hintavertailu--widget.hintavertailu
 murobbs.muropaketti.com##IFRAME[src="https://murobbs.muropaketti.com/aulis/muro-monster-feed.html"]
 murobbs.muropaketti.com##IFRAME[id="hintaopas_box"]
 mtv.fi##DIV[class="banner-aside"]
