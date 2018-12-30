@@ -828,6 +828,7 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! s-kanava.fi
 @@||sipa.s-palvelut.fi$image
 @@||leiki.com$domain=etuovi.com
+@@||turku.fi/sites/default/files/styles/current/public/images/$image
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
 
