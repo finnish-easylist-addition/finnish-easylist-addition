@@ -56,6 +56,7 @@ www.foreca.fi###share
 tivi.fi##.header-some.link-group
 tivi.fi##.sidebar-some.custom__sidebar-box
 www.is.fi##[id^="DefaultShareButtons-"]
+www.is.fi##[id^="ShareButtons-"]
 
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
@@ -80,6 +81,9 @@ is.fi##div[class="html-alypaa"]
 
 ! "READ NEXT"
 www.ess.fi###article-floater-cx
+
+! SURVEY WIDGET
+www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! OTHER
 is.fi/kampanjat/vinkkinapit
