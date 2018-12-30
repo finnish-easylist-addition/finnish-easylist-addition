@@ -86,5 +86,7 @@ www.ess.fi###article-floater-cx
 www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! OTHER
+www.is.fi##.date-box
+
 is.fi/kampanjat/vinkkinapit
 www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
