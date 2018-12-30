@@ -55,6 +55,7 @@ _mainosnappi.
 ! /www/dlvr/loki.php?
 ab.is.fi/?ref=
 rac.ruutu.fi/sat/sat.gif
+nelonenmedia.fi/hitcounter
 /statisticsentry-
 /js/spring.js
 /js/common/spring
