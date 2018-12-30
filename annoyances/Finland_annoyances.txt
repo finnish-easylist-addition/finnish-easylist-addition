@@ -35,6 +35,11 @@ telia.fi##.notification--blue
 
 www.foreca.fi###betafeedback
 
+! Telsu.fi
+||www.testeri.fi/ext_telsu$subdocument
+||www.blogit.fi/nosto_gen$subdocument
+||www.nauris.fi/nosto_gen$subdocument
+
 ! Oikotie
 ###oikotie_tyopaikat_box_iframe
 ###oikotie_asunnot_box_iframe
@@ -51,10 +56,13 @@ www.foreca.fi###share
 tivi.fi##.header-some.link-group
 tivi.fi##.sidebar-some.custom__sidebar-box
 www.is.fi##[id^="DefaultShareButtons-"]
+www.is.fi##[id^="ShareButtons-"]
 
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
 yle.fi##.hgroup > .default.some
+www.hermanit.fi##.some-valikko
+www.ts.fi##.tsv3-c-common-article__socialmedia--textend
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -73,6 +81,9 @@ is.fi##div[class="html-alypaa"]
 
 ! "READ NEXT"
 www.ess.fi###article-floater-cx
+
+! SURVEY WIDGET
+www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! OTHER
 is.fi/kampanjat/vinkkinapit

@@ -12,3 +12,6 @@ www.tivi.fi##.section-most-important > .container-inner > section > article.teas
 
 ! NEWSLETTERS
 www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
+
+! "GALLUP"
+uutisvirta.fi##div.box:has(h2:has-text(Gallup))

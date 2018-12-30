@@ -11,6 +11,8 @@
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
+! -----GENERAL-----
+
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~www.unisport.fi|~unisport.fi|~f9.fi
 /markkinoinnin_nostot/*
 /cgi-sys/Count.cgi
@@ -51,6 +53,8 @@ _mainosnappi.
 /trackPage.php?
 /analysis-logger/Logger?
 ! /www/dlvr/loki.php?
+ab.is.fi/?ref=
+rac.ruutu.fi/sat/sat.gif
 /statisticsentry-
 /js/spring.js
 /js/common/spring
@@ -136,6 +140,9 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
+
+! -----GENERAL END-----
+! -----EXTENDED FILTERS-----
 
 ! eu cookie stuff
 ##DIV[id="cookieprivacy"]
@@ -352,6 +359,7 @@ murobbs.muropaketti.com##a[href*="emediate"]
 murobbs.muropaketti.com##DIV[class="funboxWrapper"]
 muropaketti.com##SECTION[id*="yhteistyossa"]
 muropaketti.com##SECTION[id*="hintaopaspopular"]
+muropaketti.com##.hintavertailu--widget.hintavertailu
 murobbs.muropaketti.com##IFRAME[src="https://murobbs.muropaketti.com/aulis/muro-monster-feed.html"]
 murobbs.muropaketti.com##IFRAME[id="hintaopas_box"]
 mtv.fi##DIV[class="banner-aside"]
@@ -508,6 +516,8 @@ xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
 
+! -----EXTENDED FILTERS END-----
+! -----NETWORK FILTERS-----
 
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
@@ -643,6 +653,9 @@ live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
 
+! -----NETWORK FILTERS END-----
+! -----UNSORTED-----
+
 ! kaleva.fi
 carousel-prod-kaleva-fi.s3.amazonaws.com
 kaleva.fi##div[id^="mainokset-"]
@@ -682,6 +695,9 @@ mobiili.fi#@#.header_ad
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 ! mainos container haun alaosassa
 huuto.net##div.search-grid-ad-container.ad
+
+! adcontainer
+www.napsu.fi###banneriwrapper
 
 ! vr.fi info messages incorrectly blocked by fanboy's cookiemonster
 ! https://github.com/ryanbr/fanboy-adblock/issues/666
@@ -812,10 +828,18 @@ pakkotoisto.com##.samCodeUnit
 ! @@is.fi/kampanjat/pelikone
 ! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
 
+! -----UNSORTED END-----
 ! -----UNBREAK-----
 
 @@||leiki.com$domain=kaksplus.fi
 io-tech.fi#@#.sidebar-widgets
+@@||onyourmap.com$image,domain=finder.fi
+! s-kanava.fi
+@@||sipa.s-palvelut.fi$image
+@@||leiki.com$domain=etuovi.com
+@@||turku.fi/sites/default/files/styles/current/public/images/
+etuovi.com#@#.rss-feed
+tjareborg.fi#@#.push-container
 
 ! Fanboy's Annoyance List
 
@@ -828,3 +852,12 @@ io-tech.fi#@#.sidebar-widgets
 
 xxl.fi#@#.cookiewarning:not(body)
 xxl.fi#@#.cookiewarning:not(body):not(html)
+
+! -----UNBREAK END-----
+
+! Ad container
+uutisvirta.fi##aside > div.spacer
+
+! Popup ad container
+uutisvirta.fi###fancybox-overlay
+||uutisvirta.fi/js/fancybox/
