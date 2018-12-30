@@ -1,6 +1,6 @@
 # Finnish Easylist Addition
 
-Finnish Easylist addition, a fork of Juvander's Adblock list. Works with all blockers, however uBlock Origin/AdGuard is recommended.
+Finnish Easylist addition, a fork of Juvander's Adblock list. Works with all blockers, however uBlock Origin/Nano/AdGuard is recommended.
 
 [Add list to your Adblocker](https://finnish-easylist-addition.github.io/)
 
@@ -8,7 +8,7 @@ Direct URL to the list: `https://raw.githubusercontent.com/finnish-easylist-addi
 
 ## Annoyances list
 
-Annoyances list is recommended to be only used with **uBlock Origin/Adguard**
+Annoyances list is recommended to be only used with **uBlock Origin/Nano/Adguard**
 
 ### Lists required/recommended for usage
 
