@@ -87,3 +87,4 @@ www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! OTHER
 is.fi/kampanjat/vinkkinapit
+www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
