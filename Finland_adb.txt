@@ -653,6 +653,7 @@ chimiver.info$third-party
 live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
+verkkokauppa.com/api/richrelevance/customer
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
