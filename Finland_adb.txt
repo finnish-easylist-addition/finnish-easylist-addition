@@ -11,6 +11,8 @@
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
+! -----GENERAL-----
+
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~www.unisport.fi|~unisport.fi|~f9.fi
 /markkinoinnin_nostot/*
 /cgi-sys/Count.cgi
@@ -138,6 +140,9 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
+
+! -----GENERAL END-----
+! -----EXTENDED FILTERS-----
 
 ! eu cookie stuff
 ##DIV[id="cookieprivacy"]
@@ -527,6 +532,8 @@ xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
 
+! -----EXTENDED FILTERS END-----
+! -----NETWORK FILTERS-----
 
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
@@ -661,6 +668,9 @@ chimiver.info$third-party
 live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
+
+! -----NETWORK FILTERS END-----
+! -----UNSORTED-----
 
 ! kaleva.fi
 carousel-prod-kaleva-fi.s3.amazonaws.com
@@ -812,7 +822,16 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! @@is.fi/kampanjat/pelikone
 ! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
 
+! -----UNSORTED END-----
 ! -----UNBREAK-----
+
+@@||onyourmap.com$image,domain=finder.fi
+! s-kanava.fi
+@@||sipa.s-palvelut.fi$image
+@@||leiki.com$domain=etuovi.com
+@@||turku.fi/sites/default/files/styles/current/public/images/
+etuovi.com#@#.rss-feed
+tjareborg.fi#@#.push-container
 
 ! Fanboy's Annoyance List
 
@@ -825,6 +844,8 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 
 xxl.fi#@#.cookiewarning:not(body)
 xxl.fi#@#.cookiewarning:not(body):not(html)
+
+! -----UNBREAK END-----
 
 ! Ad container
 uutisvirta.fi##aside > div.spacer
