@@ -543,6 +543,7 @@ spring-tns.net$third-party
 ||bidtheatre.com$third-party
 ||cdn.mxpnl.com
 ||cdn.userreport.com
+||cdn.verk.net/files/5b276/53eaa/71dd4/79762/9b20.jpg$image
 ||celtra.com$third-party
 ||cjar.a-lehdet.fi
 ||cloudfront.net/images/backgroundimages/backgroundimage$third-party
@@ -641,7 +642,7 @@ revimages.motouutiset.fi
 buttons-for-website.com
 survey.interquest.fi/
 ratas.sanoma.fi/
-leiki.com/
+||leiki.com$third-party
 pingdom.net/
 admp-tc.kauppalehti.fi/
 admp-tc.iltalehti.fi/
