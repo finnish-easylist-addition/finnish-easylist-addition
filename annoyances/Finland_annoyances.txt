@@ -60,6 +60,8 @@ www.is.fi##[id^="DefaultShareButtons-"]
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
 yle.fi##.hgroup > .default.some
+www.hermanit.fi##.some-valikko
+www.ts.fi##.tsv3-c-common-article__socialmedia--textend
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
