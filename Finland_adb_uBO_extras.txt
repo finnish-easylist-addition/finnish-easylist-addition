@@ -55,3 +55,6 @@ www.lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-
 
 ! hs.fi - "Markkinapaikka" ad container
 www.hs.fi##.embedded:has-text(Markkinapaikka)
+
+lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
+
