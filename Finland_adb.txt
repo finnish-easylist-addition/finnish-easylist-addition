@@ -276,7 +276,6 @@ ilkka.fi/logger
 iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##.slider-content
 iltalehti.fi##div[class="iframe-container"]
-@@||leiki.com$domain=iltalehti.fi
 isup.me##div[class="smile-container"]
 static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
@@ -521,8 +520,6 @@ xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
 hbl.fi###ksf-gdpr-notice
-
-! kaleva.fi
 kaleva.fi##div[id^="mainokset-"]
 kaleva.fi##div.ad__title
 kaleva.fi/static/rkfi/assets/js/vendor/emediate/EAS
@@ -531,32 +528,18 @@ kaleva.fi/static/common/js/spring
 kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
 kaleva.fi##DIV[id="kaleva-cookie-consent"]
-! io-tech.fi
 bbs.io-tech.fi###premiumi
 io-tech.fi###bremiumi
-
-! bomber.fi
 bomber.fi###rt-sidebar-b
-
-! emc24.fi
 emc24.fi##div.vc_align_center
-
-! kaksplus.fi
 kaksplus.fi###adscarousel-feed
 kaksplus.fi##.advertisement
-
-! puskaradio.net
 puskaradio.net##.all-adds
-
-! suomi24.fi
 suomi24.fi##.editorial-slots
-
-! pakkotoisto.com
 pakkotoisto.com##.samCodeUnit
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
 www.is.fi##div.sadblob-loading
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-! mainos container haun alaosassa
 huuto.net##div.search-grid-ad-container.ad
 www.napsu.fi###banneriwrapper
 www.vr.fi##.headerContents > .infoMessages
@@ -572,6 +555,8 @@ www.hs.fi##.hs-advertorial
 kotikokki.net##.partners
 www.tori.fi###footer_partner_links
 murobbs.muropaketti.com###hintaopas_top_product_block
+uutisvirta.fi##aside > div.spacer
+uutisvirta.fi###fancybox-overlay
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -590,7 +575,6 @@ spring-tns.net$third-party
 ||ap2.sestatic.net
 ||api.innomdc.com
 ||api.mixpanel.com
-! pagefair.net is blocked but page pagefair.com isn't
 ||asset.pagefair.
 ||atlassolutions.com
 ||atticwicket.com
@@ -609,7 +593,6 @@ spring-tns.net$third-party
 ||dmp.datomik.com
 ||eclkmpbn.com
 ||eloqua.com$third-party
-! not sure if this domain exists anymore en25.com
 ||en25.com$third-party
 ||euroads.fi
 ||flite.com
@@ -624,13 +607,11 @@ spring-tns.net$third-party
 ||justpremium.com$third-party
 ||kake.fi$third-party
 ||ko.snstatic.fi
-! not sure if this domain exists anymore krxd.net
 ||krxd.net
 ||lp4.io
 ||madsone.com$third-party
 ||mailerlite.com
 ||mailerlite2.com
-! not sure if this domain exists anymore markkinointikuuri.fi
 ||markkinointikuuri.fi
 ||media.vuokraovi.com$third-party
 ||meetrics.net
@@ -642,7 +623,6 @@ spring-tns.net$third-party
 ||newrelic.com$third-party
 ||nix.telkku.com$third-party
 ||nova.collect.igodigital.com/*/track_page
-! not sure if this domain exists anymore nr-data.net
 ||nr-data.net$third-party
 ||nugg.ad
 ||outbrain.com$third-party
@@ -655,7 +635,6 @@ spring-tns.net$third-party
 ||pix.tagcdn.com
 ||pliing.com
 ||polarmobile.com
-! not sure if this domain exists anymore quantserve.net
 ||quantserve.net
 ||reactandshare.com/track.gif
 ||recs.shareaholic.com
@@ -673,7 +652,6 @@ spring-tns.net$third-party
 ||tagsrvcs.com
 ||telsu.fi$third-party
 ||ultimategracelessness.info
-! not sure if this domain exists anymore vibrant.co
 ||vibrant.co/
 ||viglink.com
 ||vihreat.fi/?q=node/*/stats/impression
@@ -722,6 +700,7 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 ||cloudfront.net/banners/$domain=tori.fi
 ||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
+||uutisvirta.fi/js/fancybox/
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
@@ -731,34 +710,34 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
+mobiili.fi#@#.header_ad
+apotek1.no#@#DIV[class*="ad-element"]
+www.hs.fi#@#.mainokset
+hs.fi#@#.mainos
+vr.fi#@#.infoMessages
+io-tech.fi#@#.sidebar-widgets
+etuovi.com#@#.rss-feed
+tjareborg.fi#@#.push-container
+
+@@||leiki.com$domain=iltalehti.fi
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
 @@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
-apotek1.no#@#DIV[class*="ad-element"]
-www.hs.fi#@#.mainokset
-hs.fi#@#.mainos
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
 @@||fwmrm.net/ad/$xmlhttprequest,domain=www.viafree.fi
 @@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
 @@||fwmrm.net/ad/$script,domain=www.viafree.fi
 @@||fwmrm.net/ad/$script,domain=dplay.fi
 @@||www.foxplay.fi/compiled/js/ads.js$script
-
 @@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
 @@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
-vr.fi#@#.infoMessages
 @@||sestatic.net^$image,domain=alypaa.com
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
-
-! mtv videoihin toimintavarmuutta
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
-
-! Unbreaks chat function
 @@-tracking.js?$domain=telia.fi|moi.fi
-! Exceptions
 @@||veho.fi/huolto/huollon-palvelut/huollon-ajanvaraus/$document
 @@||eu1.snoobi.com/snoop.php?tili=fortum_fi_irene&rqjsbust=
 @@||photour.net^$elemhide
@@ -769,18 +748,13 @@ vr.fi#@#.infoMessages
 @@||adlibris.com/pixel.gif
 @@/pixel.gif$domain=xhamster.com
 @@||uusi.op.fi/$document
-mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 @@||leiki.com$domain=kaksplus.fi
-io-tech.fi#@#.sidebar-widgets
 @@||onyourmap.com$image,domain=finder.fi
-! s-kanava.fi
 @@||sipa.s-palvelut.fi$image
 @@||leiki.com$domain=etuovi.com
 @@||turku.fi/sites/default/files/styles/current/public/images/
-etuovi.com#@#.rss-feed
-tjareborg.fi#@#.push-container
 
 ! Fanboy's Annoyance List
 
@@ -796,9 +770,3 @@ xxl.fi#@#.cookiewarning:not(body):not(html)
 
 ! -----UNBREAK END-----
 
-! Ad container
-uutisvirta.fi##aside > div.spacer
-
-! Popup ad container
-uutisvirta.fi###fancybox-overlay
-||uutisvirta.fi/js/fancybox/
