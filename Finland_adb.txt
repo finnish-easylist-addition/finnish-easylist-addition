@@ -531,7 +531,6 @@ dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 ||www.riemurasia.net/images/tt/helppohinta.jpg$image
 sfnix.net/api/
-! snstatic.fi/webstatic/*/desktop-all.js
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
 supersaa.fi/*/spring.js
