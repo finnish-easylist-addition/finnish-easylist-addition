@@ -141,16 +141,25 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
-
-! -----GENERAL END-----
-! -----EXTENDED FILTERS-----
+##.spklw-post-attr[data-type="ad"]
 
 ! eu cookie stuff
 ##DIV[id="cookieprivacy"]
 ##DIV[class*="pea_cook_wrapper"]
 
+! links to ad servers
+##[href^="https://clk.tradedoubler.com/click"]
+##[href^="https://tc.tradetracker.net/"]
+##a[href^="https://app.readpeak.com/ads"]
+##[src*="://ad.doubleclick.net/"]
+
+! -----GENERAL END-----
+! -----EXTENDED FILTERS-----
+
+
+
 st.mtv.fi/static/html/cookie-notification
-hbl.fi###ksf-gdpr-notice
+
 
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
@@ -516,11 +525,62 @@ xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
+hbl.fi###ksf-gdpr-notice
+
+! kaleva.fi
+kaleva.fi##div[id^="mainokset-"]
+kaleva.fi##div.ad__title
+kaleva.fi/static/rkfi/assets/js/vendor/emediate/EAS
+kaleva.fi##DIV[id="EAS_*"]
+kaleva.fi/static/common/js/spring
+kaleva.fi/static/rkfi/assets/js-min/ads
+kaleva.fi##div[class*="--juttusivu-markkinointi"]
+kaleva.fi##DIV[id="kaleva-cookie-consent"]
+! io-tech.fi
+bbs.io-tech.fi###premiumi
+io-tech.fi###bremiumi
+
+! bomber.fi
+bomber.fi###rt-sidebar-b
+
+! emc24.fi
+emc24.fi##div.vc_align_center
+
+! kaksplus.fi
+kaksplus.fi###adscarousel-feed
+kaksplus.fi##.advertisement
+
+! puskaradio.net
+puskaradio.net##.all-adds
+
+! suomi24.fi
+suomi24.fi##.editorial-slots
+
+! pakkotoisto.com
+pakkotoisto.com##.samCodeUnit
+satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
+www.is.fi##div.sadblob-loading
+huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
+! mainos container haun alaosassa
+huuto.net##div.search-grid-ad-container.ad
+www.napsu.fi###banneriwrapper
+www.vr.fi##.headerContents > .infoMessages
+mtvuutiset.fi##div.ad-container.component
+mtvuutiset.fi###leaderboard-2
+mtvuutiset.fi##.component-adincontent.component
+mtvuutiset.fi##.leaderboard-1.leaderboard
+mtvuutiset.fi##.ad_fadein
+mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
+ylilauta.org##DIV[class^="center"]
+www.verkkouutiset.fi##article.rp-lift.featured-post
+www.hs.fi##.hs-advertorial
+kotikokki.net##.partners
+www.tori.fi###footer_partner_links
+murobbs.muropaketti.com###hintaopas_top_product_block
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
 
-@@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 giosg.com$domain=etuovi.com
 spring-tns.net$third-party
 ||24counter.com
@@ -655,27 +715,151 @@ live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
 verkkokauppa.com/api/richrelevance/customer
+carousel-prod-kaleva-fi.s3.amazonaws.com
+||nelonenmedia.fi$domain=alypaa.com
+||io-tech.fi/images/*_290x290px.png$image
+||hinta.fi/*black-friday$image,domain=hinta.fi
+||urbaanisanakirja.com/static/img/portsaad.png$image
+||nelonenmedia.fi/ads/$media
+*/utag/sanoma-fi/$script
+||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
+||cloudfront.net/banners/$domain=tori.fi
+||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
 
-! kaleva.fi
-carousel-prod-kaleva-fi.s3.amazonaws.com
-kaleva.fi##div[id^="mainokset-"]
-kaleva.fi##div.ad__title
-kaleva.fi/static/rkfi/assets/js/vendor/emediate/EAS
-kaleva.fi##DIV[id="EAS_*"]
-kaleva.fi/static/common/js/spring
-kaleva.fi/static/rkfi/assets/js-min/ads
-kaleva.fi##div[class*="--juttusivu-markkinointi"]
-kaleva.fi##DIV[id="kaleva-cookie-consent"]
+
+
+
+
+
+! Unbreak radiot.fi
+
+! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
+! hintaseuranta elementit
+
+
+! adcontainer
+
+! vr.fi info messages incorrectly blocked by fanboy's cookiemonster
+! https://github.com/ryanbr/fanboy-adblock/issues/666
+
+
+
+! Some image ads
+
+
+! Nelonen Media video ads
+
+
+! unbreak "Suosituimmat" ("most popular") on mtvuutiset.fi
+
+
+! hide ad containers on mtvuutiset.fi
+
+
+! Media unbreakers
+
+
+! Prevent clicking video ads on MTV Oy
+
+
+
+! To make viafree.fi videos to work without ads
+
+
+
+! block "sponsored articles"/"native ads" on some sites
+
+
+
+
+! unbreak "sponsored articles" from viewing on hs.fi
+! if someone gets idea how to block only from /mainos/, please tell me
+
+! hs.fi#@#DIV[class^="advert"]
+! https://www.hs.fi/aihe/mainokset/
+
+
+! unbreak apotek1.no
+
+
+! unbreak loading of a subcategory
+
+
+
+! unbreak "lue seuraavaksi" (read next) section
+! broken by Easyprivacy & Fanboy's Annoyance List
+
+
+! unbreak images inside embedded tweets
+
+! MuroBBS - Hintaopas
+
+
+! Tori.fi ads
+
+
+
+! Kotikokki.net ad containers
+
+
+! Ylilauta.org ad containers
+
+
+! utag
+
+
+! ad containers
+
+lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
+
+! Alypaa.com unbreak and block ads in a better way
+
+
+
+
+
+
+
+! Moved to Annoyances list:
+! @@is.fi/kampanjat/alypaa
+! @@is.fi/kampanjat/pelikone
+! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
+
+! -----UNSORTED END-----
+! -----UNBREAK-----
+
+@@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
+@@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
+@@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
+apotek1.no#@#DIV[class*="ad-element"]
+www.hs.fi#@#.mainokset
+hs.fi#@#.mainos
+@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
+@@||fwmrm.net/ad/$xmlhttprequest,domain=www.viafree.fi
+@@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
+@@||fwmrm.net/ad/$script,domain=www.viafree.fi
+@@||fwmrm.net/ad/$script,domain=dplay.fi
+@@||www.foxplay.fi/compiled/js/ads.js$script
+
+@@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
+@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
+@@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
+@@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
+vr.fi#@#.infoMessages
+@@||sestatic.net^$image,domain=alypaa.com
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
 
 ! mtv videoihin toimintavarmuutta
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
 
 ! Unbreaks chat function
 @@-tracking.js?$domain=telia.fi|moi.fi
-
 ! Exceptions
 @@||veho.fi/huolto/huollon-palvelut/huollon-ajanvaraus/$document
 @@||eu1.snoobi.com/snoop.php?tili=fortum_fi_irene&rqjsbust=
@@ -689,151 +873,7 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 @@||uusi.op.fi/$document
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
-
-! Unbreak radiot.fi
-@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
-
-! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
-! hintaseuranta elementit
-huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-! mainos container haun alaosassa
-huuto.net##div.search-grid-ad-container.ad
-
-! adcontainer
-www.napsu.fi###banneriwrapper
-
-! vr.fi info messages incorrectly blocked by fanboy's cookiemonster
-! https://github.com/ryanbr/fanboy-adblock/issues/666
-vr.fi#@#.infoMessages
-www.vr.fi##.headerContents > .infoMessages
-
-! Some image ads
-||io-tech.fi/images/*_290x290px.png$image
-||hinta.fi/*black-friday$image,domain=hinta.fi
-||urbaanisanakirja.com/static/img/portsaad.png$image
-
-! Nelonen Media video ads
-||nelonenmedia.fi/ads/$media
-
-! unbreak "Suosituimmat" ("most popular") on mtvuutiset.fi
-@@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
-@@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
-
-! hide ad containers on mtvuutiset.fi
-mtvuutiset.fi##div.ad-container.component
-mtvuutiset.fi###leaderboard-2
-mtvuutiset.fi##.component-adincontent.component
-mtvuutiset.fi##.leaderboard-1.leaderboard
-mtvuutiset.fi##.ad_fadein
-
-! Media unbreakers
-@@||fwmrm.net/ad/$script,domain=dplay.fi
-@@||www.foxplay.fi/compiled/js/ads.js$script
-||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
-@@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
-@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
-
-! Prevent clicking video ads on MTV Oy
-mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
-||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
-||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
-
-! To make viafree.fi videos to work without ads
-@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
-@@||fwmrm.net/ad/$xmlhttprequest,domain=www.viafree.fi
-@@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
-@@||fwmrm.net/ad/$script,domain=www.viafree.fi
-||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
-
-! block "sponsored articles"/"native ads" on some sites
-##.spklw-post-attr[data-type="ad"]
-##a[href^="https://app.readpeak.com/ads"]
-www.verkkouutiset.fi##article.rp-lift.featured-post
-www.hs.fi##.hs-advertorial
-
-! unbreak "sponsored articles" from viewing on hs.fi
-! if someone gets idea how to block only from /mainos/, please tell me
-hs.fi#@#.mainos
-! hs.fi#@#DIV[class^="advert"]
-! https://www.hs.fi/aihe/mainokset/
-www.hs.fi#@#.mainokset
-
-! unbreak apotek1.no
-apotek1.no#@#DIV[class*="ad-element"]
-
-! unbreak loading of a subcategory
-@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
-
-
-! unbreak "lue seuraavaksi" (read next) section
-! broken by Easyprivacy & Fanboy's Annoyance List
-@@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
-@@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
-
-! unbreak images inside embedded tweets
-@@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
-
-! MuroBBS - Hintaopas
-murobbs.muropaketti.com###hintaopas_top_product_block
-
-! Tori.fi ads
-##[src*="://ad.doubleclick.net/"]
-||cloudfront.net/banners/$domain=tori.fi
-www.tori.fi###footer_partner_links
-
-! Kotikokki.net ad containers
-kotikokki.net##.partners
-
-! Ylilauta.org ad containers
-ylilauta.org##DIV[class^="center"]
-
-! utag
-*/utag/sanoma-fi/$script
-
-! ad containers
-satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
-www.is.fi##div.sadblob-loading
-lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
-
-! Alypaa.com unbreak and block ads in a better way
-@@||sestatic.net^$image,domain=alypaa.com
-||nelonenmedia.fi$domain=alypaa.com
-
-! links to ad servers
-##[href^="https://clk.tradedoubler.com/click"]
-##[href^="https://tc.tradetracker.net/"]
-
-! io-tech.fi
-bbs.io-tech.fi###premiumi
-io-tech.fi###bremiumi
-
-! bomber.fi
-bomber.fi###rt-sidebar-b
-
-! emc24.fi
-emc24.fi##div.vc_align_center
-
-! kaksplus.fi
-kaksplus.fi###adscarousel-feed
-kaksplus.fi##.advertisement
-
-! puskaradio.net
-puskaradio.net##.all-adds
-
-! suomi24.fi
-suomi24.fi##.editorial-slots
-
-! pakkotoisto.com
-pakkotoisto.com##.samCodeUnit
-
-! Moved to Annoyances list:
-! @@is.fi/kampanjat/alypaa
-! @@is.fi/kampanjat/pelikone
-! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
-
-! -----UNSORTED END-----
-! -----UNBREAK-----
-
+@@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
 @@||leiki.com$domain=kaksplus.fi
 io-tech.fi#@#.sidebar-widgets
 @@||onyourmap.com$image,domain=finder.fi
