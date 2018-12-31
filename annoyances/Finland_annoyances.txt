@@ -32,7 +32,7 @@ power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 telia.fi##.notification--blue
 
-www.is.fi##.r-loading-indicator
+www.is.fi,www.hs.fi##.r-loading-indicator
 
 
 www.foreca.fi###betafeedback
@@ -49,6 +49,7 @@ www.foreca.fi###betafeedback
 ! Iltalehti/Iltasanomat box
 www.aamulehti.fi###iltalehtiBox-1
 www.aamulehti.fi###iltalehtiBox-2
+www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 
 ||is.fi/is-promo/$subdocument,third-party
 ||uutisboksi.il.fi/$subdocument,third-party
@@ -96,7 +97,7 @@ www.ess.fi###article-floater-cx
 www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! FLOATING VIDEO
-www.is.fi##.in-right-lane-position.video-container
+www.is.fi,www.hs.fi##.in-right-lane-position.video-container
 
 ! OTHER
 www.is.fi##.date-box
