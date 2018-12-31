@@ -447,7 +447,6 @@ xracing.fi##DIV[class="top_commerce_container"]
 xracing.fi##DIV[class="right_commerce_undersocial"]
 xracing.fi##DIV[class="right_commerce_special"]
 xracing.fi##DIV[class="bigimg_commerce_container"]
-wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
 hbl.fi###ksf-gdpr-notice
 kaleva.fi##div[id^="mainokset-"]
@@ -488,6 +487,7 @@ uutisvirta.fi###fancybox-overlay
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
 
+wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 aamulehti.fi/*/spring.js
 aamulehti.fi/*/alma_init_cjs.js
 almamedia.fi/alma-logo-pieni.png
