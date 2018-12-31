@@ -156,11 +156,6 @@ tyda.se#@#DIV[class*="advert"]
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
 
-
-
-st.mtv.fi/static/html/cookie-notification
-
-
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
