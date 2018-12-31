@@ -710,7 +710,7 @@ io-tech.fi#@#.sidebar-widgets
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
 
-@@||leiki.com$domain=iltalehti.fi
+@@||leiki.com$domain=iltalehti.fi|mtvuutiset.fi|kaksplus.fi|etuovi.com
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
 @@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
@@ -723,8 +723,6 @@ tjareborg.fi#@#.push-container
 @@||www.foxplay.fi/compiled/js/ads.js$script
 @@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
 @@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
-@@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
-@@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@||sestatic.net^$image,domain=alypaa.com
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
@@ -741,10 +739,8 @@ tjareborg.fi#@#.push-container
 @@||uusi.op.fi/$document
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
-@@||leiki.com$domain=kaksplus.fi
 @@||onyourmap.com$image,domain=finder.fi
 @@||sipa.s-palvelut.fi$image
-@@||leiki.com$domain=etuovi.com
 @@||turku.fi/sites/default/files/styles/current/public/images/
 
 ! Fanboy's Annoyance List
