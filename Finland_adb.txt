@@ -61,7 +61,7 @@ nelonenmedia.fi/hitcounter
 /js/common/spring
 /js/common/init-tns
 /eu_cookie_compliance.js
-
+*/utag/sanoma-fi/$script
 
 ###atwAdFrame
 ###keskimainos
@@ -694,7 +694,6 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||nelonenmedia.fi/ads/$media
-*/utag/sanoma-fi/$script
 ||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
 ||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
