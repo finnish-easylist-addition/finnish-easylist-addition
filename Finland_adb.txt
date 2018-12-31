@@ -482,6 +482,7 @@ www.tori.fi###footer_partner_links
 murobbs.muropaketti.com###hintaopas_top_product_block
 uutisvirta.fi##aside > div.spacer
 uutisvirta.fi###fancybox-overlay
+www.finder.fi##.Advertisement__Box.Profile__Advertisement
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
