@@ -395,7 +395,6 @@ talouselama.fi##DIV[class="adDisclaimer afterAd"]
 talouselama.fi##DIV[class="SamBanner"]
 tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.commercial-bottom.commercial
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#uratie-box-header
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samBanner"]
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samContent"]
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#sidebar
@@ -536,7 +535,6 @@ sfnix.net/api/
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
 supersaa.fi/*/spring.js
-talentum.com/uratie/spring.js
 talentum.com/x.gif
 ||www.testeri.fi/inc/museokortti.png$image
 /images/Zero_EN.gif$domain=tracking.dpd.de,image
@@ -554,7 +552,6 @@ kaleva.fi/static/common/js/spring
 kaleva.fi/static/rkfi/assets/js-min/ads
 ts.fi/Content/layout/Common/lib/emediate/
 ts.fi/Statistics/Log
-uratie.fi/external/json/?service=jsonSidebar&
 xracing.fi/tiedostot/
 pls.webtype.com/v.gif
 yle.fi/.*yle-analytics
