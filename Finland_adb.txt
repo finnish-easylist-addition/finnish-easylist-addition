@@ -766,6 +766,4 @@ xxl.fi#@#.cookiewarning:not(body):not(html)
 ! -----UNBREAK END-----
 ! -----UNSORTED-----
 
-lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 
-! -----UNSORTED END-----
