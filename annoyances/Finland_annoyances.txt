@@ -74,6 +74,7 @@ yle.fi##.hgroup > .default.some
 www.hermanit.fi##.some-valikko
 www.ts.fi##.tsv3-c-common-article__socialmedia--textend
 seiska.fi##.somebar
+seiska.fi##.some-middle-black
 evira.fi##.some-shares
 rekrytointi.com##.essb_mailform
 hintaseuranta.fi###some-buttons
