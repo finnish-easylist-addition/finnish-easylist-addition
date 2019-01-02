@@ -516,6 +516,7 @@ xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
+seiska.fi##.tilaa-banner
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
