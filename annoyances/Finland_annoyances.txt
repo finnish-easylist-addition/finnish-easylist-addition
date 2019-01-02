@@ -30,7 +30,6 @@ rantapallo.fi##.wpoi-show.inc_optin
 stockmann.com##.section-notification
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
-telia.fi##.notification--blue
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
