@@ -655,6 +655,7 @@ live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
 verkkokauppa.com/api/richrelevance/customer
+||seiska.fi*/js/ads.js$important
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
