@@ -30,7 +30,6 @@ rantapallo.fi##.wpoi-show.inc_optin
 stockmann.com##.section-notification
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
-telia.fi##.notification--blue
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
@@ -74,6 +73,10 @@ yle.fi##div.ydd-share-buttons
 yle.fi##.hgroup > .default.some
 www.hermanit.fi##.some-valikko
 www.ts.fi##.tsv3-c-common-article__socialmedia--textend
+seiska.fi##.somebar
+evira.fi##.some-shares
+rekrytointi.com##.essb_mailform
+hintaseuranta.fi###some-buttons
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -81,6 +84,7 @@ iltalehti.fi##.content-newsletter
 yle.fi##DIV[class*="yle__newsletter"]
 www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
+seiska.fi##.newsletter
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
@@ -104,3 +108,4 @@ www.is.fi##.date-box
 
 is.fi/kampanjat/vinkkinapit
 www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
+seiska.fi##.klubi-banner
