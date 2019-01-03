@@ -59,6 +59,7 @@ www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 ! WEATHER
 is.fi##DIV[class="html-supersaa"]
 www.hs.fi##.supersaa-widget-container
+www.mtvuutiset.fi##.navigation-weather-wrapper
 
 ! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
@@ -102,6 +103,9 @@ www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! FLOATING VIDEO
 www.is.fi,www.hs.fi##.in-right-lane-position.video-container
+
+! BACK TO TOP
+www.mtvuutiset.fi##.backtotopbutton
 
 ! OTHER
 www.is.fi##.date-box
