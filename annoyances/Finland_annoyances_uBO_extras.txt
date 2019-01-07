@@ -9,6 +9,7 @@ www.hs.fi##.hs-ticker-hstv.ticker:has([href^="https://response.questback.com/"])
 
 ! SOCIAL MEDIA
 www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
+mobiili.fi###text-15:has-text(Seuraa Mobiili.fitä sosiaalisessa mediassa)
 
 www.aamulehti.fi##div.janCBC:has([href^="mailto:"])
 www.aamulehti.fi##div.janCBC:has([href^="whatsapp://send?"])
@@ -17,6 +18,7 @@ www.aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
 
 ! NEWSLETTERS
 www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
+mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
 
 ! "GALLUP"
 uutisvirta.fi##div.box:has(h2:has-text(Gallup))

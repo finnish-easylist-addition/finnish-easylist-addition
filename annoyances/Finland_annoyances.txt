@@ -75,9 +75,11 @@ yle.fi##.hgroup > .default.some
 www.hermanit.fi##.some-valikko
 www.ts.fi##.tsv3-c-common-article__socialmedia--textend
 seiska.fi##.somebar
+seiska.fi##.some-middle-black
 evira.fi##.some-shares
 rekrytointi.com##.essb_mailform
 hintaseuranta.fi###some-buttons
+||mobiili.fi/images/some_icons/$image
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -86,6 +88,7 @@ yle.fi##DIV[class*="yle__newsletter"]
 www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
 seiska.fi##.newsletter
+mobiili.fi##.mobuutiskirje_link
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]

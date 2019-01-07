@@ -299,7 +299,6 @@ mobiili.fi###text-67 > .textwidget
 mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
 mobiili.fi###header_ad33
-mobiili.fi##.headermob_ad
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 mvlehti.net##a[href*="affmore.com"]
@@ -486,6 +485,9 @@ murobbs.muropaketti.com###hintaopas_top_product_block
 uutisvirta.fi##aside > div.spacer
 uutisvirta.fi###fancybox-overlay
 finder.fi##.Advertisement__Box
+seiska.fi##.tilaa-banner
+seiska.fi##.ad-inhouse-desktop
+
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -702,6 +704,7 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||uutisvirta.fi/js/fancybox/
 ||fillaritori.com/kuvat/*.gif
 */fillaritori/javascript_nbenhadverts/
+||seiska.fi*/js/ads.js$important
 
 ! -----NETWORK FILTERS END-----
 ! -----UNBREAK-----
