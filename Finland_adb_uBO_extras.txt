@@ -8,6 +8,7 @@ mobiili.fi##p:has(small:has-text(Mainos:))
 
 ! mobiili.fi sponsored articles on frontpage
 mobiili.fi##div.fullarticle:has(img[src="https://mobiili.fi/aaa.png"])
+mobiili.fi##a.isobrick.half.one_col > .featuredinner:has(.bubble:has-text(Sponsoroitu))
 
 ! io-tech.fi sidebar ads
 bbs.io-tech.fi##.sidebar > div:has(a:has(img[src^="https://bbs.io-tech.fi/images/"]))
