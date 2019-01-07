@@ -329,7 +329,6 @@ mobiili.fi###text-67 > .textwidget
 mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
 mobiili.fi###header_ad33
-mobiili.fi##.headermob_ad
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 mvlehti.net##a[href*="affmore.com"]
@@ -520,6 +519,8 @@ xracing.fi##DIV[class="bigimg_commerce_container"]
 xracing.fi/tiedostot/
 wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
+seiska.fi##.tilaa-banner
+seiska.fi##.ad-inhouse-desktop
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -659,6 +660,7 @@ live.community.bmw-motorrad.com$third-party
 eramebel.com$third-party
 krasivoe-kino.com$third-party
 verkkokauppa.com/api/richrelevance/customer
+||seiska.fi*/js/ads.js$important
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
