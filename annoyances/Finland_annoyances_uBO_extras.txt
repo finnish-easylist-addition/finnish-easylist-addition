@@ -10,6 +10,11 @@ www.hs.fi##.hs-ticker-hstv.ticker:has([href^="https://response.questback.com/"])
 ! SOCIAL MEDIA
 www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
 
+www.aamulehti.fi##div.janCBC:has([href^="mailto:"])
+www.aamulehti.fi##div.janCBC:has([href^="whatsapp://send?"])
+www.aamulehti.fi##div.janCBC:has([href^="https://www.facebook.com/sharer/sharer.php?"])
+www.aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
+
 ! NEWSLETTERS
 www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
 
