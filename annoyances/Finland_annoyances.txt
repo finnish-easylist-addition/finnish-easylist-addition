@@ -68,6 +68,7 @@ tivi.fi##.sidebar-some.custom__sidebar-box
 www.is.fi##[id^="DefaultShareButtons-"]
 www.is.fi##[id^="ShareButtons-"]
 www.aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
+bbs.io-tech.fi##[href="https://www.facebook.com/iotechfi/"]
 
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
@@ -78,6 +79,7 @@ seiska.fi##.somebar
 evira.fi##.some-shares
 rekrytointi.com##.essb_mailform
 hintaseuranta.fi###some-buttons
+mobiili.fi##.likes-top
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
