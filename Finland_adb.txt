@@ -220,7 +220,6 @@ feissarimokat.com##DIV[class="adbox-smaller"]
 feissarimokat.com##DIV[class="adbox-large"]
 feissarimokat.com##DIV[class="adbox-smaller nextpal"]
 feissarimokat.com##LI[class*="shopster"]
-fillaritori.com##.ipsAdvertisement
 gamereactor.fi##div[id="eventad"]
 hardware.fi##DIV[class="top-ad-space"]
 hbl.fi##ksf-adblockers
@@ -697,6 +696,8 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||cloudfront.net/banners/$domain=tori.fi
 ||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
 ||uutisvirta.fi/js/fancybox/
+||fillaritori.com/kuvat/*.gif
+*/fillaritori/javascript_nbenhadverts/
 
 ! -----NETWORK FILTERS END-----
 ! -----UNBREAK-----
