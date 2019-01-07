@@ -332,6 +332,7 @@ mobiili.fi###header_ad33
 mobiili.fi##.headermob_ad
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
+mobiili.fi##.blogcontent > .banner-ad
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
