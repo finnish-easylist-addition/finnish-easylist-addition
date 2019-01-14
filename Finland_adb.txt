@@ -838,6 +838,9 @@ pakkotoisto.com##.samCodeUnit
 ! @@is.fi/kampanjat/pelikone
 ! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
 
+! hintaseuranta ads
+||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
+
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
