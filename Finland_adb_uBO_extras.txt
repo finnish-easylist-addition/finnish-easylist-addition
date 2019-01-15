@@ -60,3 +60,6 @@ www.lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-
 
 ! hs.fi - "Markkinapaikka" ad container
 www.hs.fi##.embedded:has-text(Markkinapaikka)
+
+! iltalehti.fi - ad container
+www.iltalehti.fi##div.card:has-text(Mainos: )

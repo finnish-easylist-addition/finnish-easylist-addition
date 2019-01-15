@@ -60,6 +60,7 @@ www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 is.fi##DIV[class="html-supersaa"]
 www.hs.fi##.supersaa-widget-container
 www.mtvuutiset.fi##.navigation-weather-wrapper
+www.iltalehti.fi##.header-weather-container
 
 ! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
@@ -116,5 +117,6 @@ www.mtvuutiset.fi##.backtotopbutton
 www.is.fi##.date-box
 
 is.fi/kampanjat/vinkkinapit
+www.iltalehti.fi##.block:has([href="/uutisvihje"])
 www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
 seiska.fi##.klubi-banner
