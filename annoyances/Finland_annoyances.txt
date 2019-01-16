@@ -70,7 +70,7 @@ www.is.fi##[id^="DefaultShareButtons-"]
 www.is.fi##[id^="ShareButtons-"]
 www.aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
 bbs.io-tech.fi##[href="https://www.facebook.com/iotechfi/"]
-
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT_keski
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
 yle.fi##.hgroup > .default.some
@@ -83,6 +83,8 @@ rekrytointi.com##.essb_mailform
 hintaseuranta.fi###some-buttons
 mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
+mikroaitta.fi###facebook_block
+jatkoaika.com##.somelinks
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -92,6 +94,11 @@ www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
 seiska.fi##.newsletter
 mobiili.fi##.mobuutiskirje_link
+netrauta.fi##.email-collector
+verkkokauppa.com##.footer__catalog-newsletter-container
+verkkokauppa.com##.promo-item-container
+omataloyhtio.fi##.scrakentajafi_share_uutiskirje
+hobbyhall.fi##.newsletter
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
@@ -120,3 +127,7 @@ is.fi/kampanjat/vinkkinapit
 www.iltalehti.fi##.block:has([href="/uutisvihje"])
 www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
 seiska.fi##.klubi-banner
+||osterbottenstidning.fi/Scripts/StickyNotification
+lehtodigital.fi###_kmg_cookie_accept
+||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
+||knaitek.fi/magebirdpopup.php
