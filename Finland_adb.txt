@@ -693,6 +693,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
 ||omataloyhtio.fi/ffsw-pushcrew.js
+||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
 
 ! -----NETWORK FILTERS END-----
