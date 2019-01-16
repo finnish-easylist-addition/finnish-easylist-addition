@@ -679,8 +679,8 @@ krasivoe-kino.com$third-party
 verkkokauppa.com/api/richrelevance/customer
 ||seiska.fi*/js/ads.js$important
 ||seksitreffit.*popunder.js
-||seksitreffit.*/banners/$image
-||hippos.fi/banner/$image
+||seksitreffit.*/banners/
+||hippos.fi/banner/
 ||hobbyhall.fi*/pikkubanneri_
 /fillaritori/javascript_nbenhadverts/
 ||fillaritori.com/kuvat/*.gif
