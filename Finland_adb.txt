@@ -17,7 +17,7 @@
 /markkinoinnin_nostot/*
 /cgi-sys/Count.cgi
 /bannerCounter.php
-
+/daxda-collector/
 /karuselli/js/AgAdCarousel
 /mainokset.
 /mainokset/*
@@ -34,6 +34,7 @@
 /mainoskaruselli.
 /mainoskaruselli/*
 /mainoskaruselli_yli
+/mainosmokkula/
 /pagestat?
 /sivulaskuri
 smartbanner
@@ -141,6 +142,7 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
+##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
@@ -524,6 +526,16 @@ wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 horizonsunlimited.com##a[href*="9mmff.com"]
 seiska.fi##.tilaa-banner
 seiska.fi##.ad-inhouse-desktop
+alastonsuomi.com##.jb
+finnkino.fi##.advertising
+jatkoaika.com##div[class="block block-block"]
+high.fi###googlejs
+motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
+basso.fi##div[id^="BannerBlock"]
+basso.fi##.ad-paraati
+nettikone.com###homeTopBoxBanner
+ticketmaster.fi##div[id^="ad-slot-"]
+tori.fi###delivery_methods .gray-text
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -667,6 +679,21 @@ eramebel.com$third-party
 krasivoe-kino.com$third-party
 verkkokauppa.com/api/richrelevance/customer
 ||seiska.fi*/js/ads.js$important
+||seksitreffit.*popunder.js
+||seksitreffit.*/banners/$image
+||hippos.fi/banner/$image
+||hobbyhall.fi*/pikkubanneri_
+/fillaritori/javascript_nbenhadverts/
+||fillaritori.com/kuvat/*.gif
+||is.fi/hs-promo/$subdocument
+||hs.fi/promo/$subdocument
+||is.fi/is-promo/$subdocument
+||soppa365.fi$third-party
+||snoobi.fi
+||rakentaja.fi/kuvat/pi.gif
+||omataloyhtio.fi/kuvat/pi.gif
+||omataloyhtio.fi/ffsw-pushcrew.js
+||lehtodigital.fi*/tracking.json
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
