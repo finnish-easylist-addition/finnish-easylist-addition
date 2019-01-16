@@ -32,3 +32,6 @@ www.iltalehti.fi##.jw-related-shelf-container
 
 omataloyhtio.fi,puutarha.net##+js(setTimeout-defuser.js,,1)
 maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !important)
+
+lehtodigital.fi##.fade
+lehtodigital.fi##html:style(overflow-y: auto !important)
