@@ -18,7 +18,7 @@
 
 ! RANDOM
 
-||nelonenmedia.fi/xb/styles/logo/public/is_trans_35x35px.png
+||nelonenmedia.fi/xb/styles/logo/public/
 
 huuto.net###display-window-container
 huuto.net###oikotie-nav
@@ -51,6 +51,9 @@ www.aamulehti.fi###iltalehtiBox-2
 www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 
 ||is.fi/is-promo/$subdocument,third-party
+||is.fi/hs-promo/$subdocument
+||hs.fi/promo/$subdocument
+||soppa365.fi$third-party
 ||uutisboksi.il.fi/$subdocument,third-party
 
 ! Iltapulu
