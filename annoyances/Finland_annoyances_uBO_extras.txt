@@ -30,5 +30,5 @@ www.iltalehti.fi##.jw-reset-text.jw-related-title
 www.iltalehti.fi##.jw-overlay.jw-related.jw-reset
 www.iltalehti.fi##.jw-related-shelf-container
 
-omataloyhtio.fi##+js(setTimeout-defuser.js,,1)
+omataloyhtio.fi,puutarha.net##+js(setTimeout-defuser.js,,1)
 maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !important)
