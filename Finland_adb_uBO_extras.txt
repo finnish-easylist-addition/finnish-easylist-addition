@@ -63,3 +63,6 @@ www.hs.fi##.embedded:has-text(Markkinapaikka)
 
 ! iltalehti.fi - ad container
 www.iltalehti.fi##div.card:has-text(Mainos: )
+
+basso.fi###header:style(min-height: auto !important)
+basso.fi###header-main:style(margin-top: 0px !important)
