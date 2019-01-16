@@ -685,10 +685,6 @@ verkkokauppa.com/api/richrelevance/customer
 ||hobbyhall.fi*/pikkubanneri_
 /fillaritori/javascript_nbenhadverts/
 ||fillaritori.com/kuvat/*.gif
-||is.fi/hs-promo/$subdocument
-||hs.fi/promo/$subdocument
-||is.fi/is-promo/$subdocument
-||soppa365.fi$third-party
 ||snoobi.fi
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
