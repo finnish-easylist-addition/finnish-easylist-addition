@@ -720,7 +720,7 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
 ||uutisvirta.fi/js/fancybox/
 ||fillaritori.com/kuvat/*.gif
-*/fillaritori/javascript_nbenhadverts/
+/fillaritori/javascript_nbenhadverts/
 ||seiska.fi*/js/ads.js$important
 ||seksitreffit.*popunder.js
 ||seksitreffit.*/banners/
