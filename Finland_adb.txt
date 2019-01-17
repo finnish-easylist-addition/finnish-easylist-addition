@@ -62,7 +62,7 @@ nelonenmedia.fi/hitcounter
 /js/common/spring
 /js/common/init-tns
 /eu_cookie_compliance.js
-*/utag/sanoma-fi/$script
+/utag/sanoma-fi/
 
 ###atwAdFrame
 ###keskimainos
