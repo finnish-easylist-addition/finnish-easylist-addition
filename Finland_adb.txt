@@ -726,8 +726,6 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||seksitreffit.*/banners/
 ||hippos.fi/banner/
 ||hobbyhall.fi*/pikkubanneri_
-/fillaritori/javascript_nbenhadverts/
-||fillaritori.com/kuvat/*.gif
 ||snoobi.fi
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
