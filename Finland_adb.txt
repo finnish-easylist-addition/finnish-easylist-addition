@@ -17,7 +17,7 @@
 /markkinoinnin_nostot/*
 /cgi-sys/Count.cgi
 /bannerCounter.php
-
+/daxda-collector/
 /karuselli/js/AgAdCarousel
 /mainokset.
 /mainokset/*
@@ -34,6 +34,7 @@
 /mainoskaruselli.
 /mainoskaruselli/*
 /mainoskaruselli_yli
+/mainosmokkula/
 /pagestat?
 /sivulaskuri
 smartbanner
@@ -112,7 +113,7 @@ nelonenmedia.fi/hitcounter
 ##DIV[class="ad partners box"]
 ##DIV[id="commercial-carousel"]
 ##DIV[class*="ad-item-wrapper"]
-##DIV[class*="ad-element"]
+##DIV[class*="ad-element"]:not(.spread-elements)
 ##a[href*="adtraction.com"]
 !Causes exception
 !##DIV[class*="advert"]$domain=~tyda.se
@@ -140,12 +141,8 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad__content"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
-##div[class="block-ad"]
 ##.spklw-post-attr[data-type="ad"]
-
-! eu cookie stuff
-##DIV[id="cookieprivacy"]
-##DIV[class*="pea_cook_wrapper"]
+##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 
 ! links to ad servers
 ##[href^="https://clk.tradedoubler.com/click"]
@@ -339,6 +336,9 @@ mtv.fi##section[class="ad"]
 mtv.fi##IFRAME#hz-unit-etusivu
 mtv.fi##div[class="leaderboard"]
 mtv.fi##DIV[class*="ad-container"]
+mvlehti.net##.ad
+mvlehti.net##.entry-content > .premium_container
+mvlehti.net##.comments-container > .premium_container
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##LI#left_part
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="huge_banner"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class*="emediate_ad"]
@@ -487,7 +487,16 @@ uutisvirta.fi###fancybox-overlay
 finder.fi##.Advertisement__Box
 seiska.fi##.tilaa-banner
 seiska.fi##.ad-inhouse-desktop
-
+alastonsuomi.com##.jb
+finnkino.fi##.advertising
+jatkoaika.com##div[class="block block-block"]
+high.fi###googlejs
+motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
+basso.fi##div[id^="BannerBlock"]
+basso.fi##.ad-paraati
+nettikone.com###homeTopBoxBanner
+ticketmaster.fi##div[id^="ad-slot-"]
+tori.fi###delivery_methods .gray-text
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -567,6 +576,8 @@ giosg.com$domain=etuovi.com
 spring-tns.net$third-party
 ||24counter.com
 ||ad.ilcdn.fi
+||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
+||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||adap.io
 ||adfly.ly
 ||adservicemedia.dk$third-party
@@ -642,6 +653,7 @@ spring-tns.net$third-party
 ||recs.shareaholic.com
 ||s3.pji.nu$domain=~pricespy.co.uk|~pricespy.ie|~pricespy.no.nz|~hintaopas.fi|~prisjakt.no
 ||sh.st
+||static.mvlehti.net/uploads/*/mvpremium-*.png$image
 ||simplereach.com
 ||sn.sanoma.fi/js/sccm/sccm.js
 ||stabx.net
@@ -705,6 +717,18 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||fillaritori.com/kuvat/*.gif
 */fillaritori/javascript_nbenhadverts/
 ||seiska.fi*/js/ads.js$important
+||seksitreffit.*popunder.js
+||seksitreffit.*/banners/
+||hippos.fi/banner/
+||hobbyhall.fi*/pikkubanneri_
+/fillaritori/javascript_nbenhadverts/
+||fillaritori.com/kuvat/*.gif
+||snoobi.fi
+||rakentaja.fi/kuvat/pi.gif
+||omataloyhtio.fi/kuvat/pi.gif
+||omataloyhtio.fi/ffsw-pushcrew.js
+||puutarha.net/ffsw-pushcrew.js
+||lehtodigital.fi*/tracking.json
 
 ! -----NETWORK FILTERS END-----
 ! -----UNBREAK-----

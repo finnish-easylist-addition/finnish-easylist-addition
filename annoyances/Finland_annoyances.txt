@@ -18,7 +18,7 @@
 
 ! RANDOM
 
-||nelonenmedia.fi/xb/styles/logo/public/is_trans_35x35px.png
+||nelonenmedia.fi/xb/styles/logo/public/
 
 huuto.net###display-window-container
 huuto.net###oikotie-nav
@@ -51,6 +51,9 @@ www.aamulehti.fi###iltalehtiBox-2
 www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 
 ||is.fi/is-promo/$subdocument,third-party
+||is.fi/hs-promo/$subdocument
+||hs.fi/promo/$subdocument
+||soppa365.fi$third-party
 ||uutisboksi.il.fi/$subdocument,third-party
 
 ! Iltapulu
@@ -60,6 +63,7 @@ www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
 is.fi##DIV[class="html-supersaa"]
 www.hs.fi##.supersaa-widget-container
 www.mtvuutiset.fi##.navigation-weather-wrapper
+www.iltalehti.fi##.header-weather-container
 
 ! SHARE BUTTONS & SOCIAL MEDIA
 www.foreca.fi###share
@@ -68,7 +72,8 @@ tivi.fi##.sidebar-some.custom__sidebar-box
 www.is.fi##[id^="DefaultShareButtons-"]
 www.is.fi##[id^="ShareButtons-"]
 www.aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
-
+bbs.io-tech.fi##[href="https://www.facebook.com/iotechfi/"]
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT_keski
 yle.fi##footer > .default.some
 yle.fi##div.ydd-share-buttons
 yle.fi##.hgroup > .default.some
@@ -79,7 +84,10 @@ seiska.fi##.some-middle-black
 evira.fi##.some-shares
 rekrytointi.com##.essb_mailform
 hintaseuranta.fi###some-buttons
+mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
+mikroaitta.fi###facebook_block
+jatkoaika.com##.somelinks
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -89,6 +97,11 @@ www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
 seiska.fi##.newsletter
 mobiili.fi##.mobuutiskirje_link
+netrauta.fi##.email-collector
+verkkokauppa.com##.footer__catalog-newsletter-container
+verkkokauppa.com##.promo-item-container
+omataloyhtio.fi##.scrakentajafi_share_uutiskirje
+hobbyhall.fi##.newsletter
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
@@ -114,5 +127,10 @@ www.mtvuutiset.fi##.backtotopbutton
 www.is.fi##.date-box
 
 is.fi/kampanjat/vinkkinapit
+www.iltalehti.fi##.block:has([href="/uutisvihje"])
 www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
 seiska.fi##.klubi-banner
+||osterbottenstidning.fi/Scripts/StickyNotification
+lehtodigital.fi###_kmg_cookie_accept
+||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
+||knaitek.fi/magebirdpopup.php
