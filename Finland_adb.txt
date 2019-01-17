@@ -141,8 +141,13 @@ tyda.se#@#DIV[class*="advert"]
 ##div[class="ad__content"]
 ##div[class="ad-banner"]
 ##div.ALMACR-container
+##div[class="block-ad"]
 ##.spklw-post-attr[data-type="ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
+
+! eu cookie stuff
+##DIV[id="cookieprivacy"]
+##DIV[class*="pea_cook_wrapper"]
 
 ! links to ad servers
 ##[href^="https://clk.tradedoubler.com/click"]
