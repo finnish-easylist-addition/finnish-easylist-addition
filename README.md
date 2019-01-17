@@ -12,7 +12,7 @@ Annoyances list is recommended to be only used with **uBlock Origin/Nano/Adguard
 
 ### Lists required/recommended for usage
 
-* uBlock - Annoyances (if uBlock Origin in use)
+* uBlock - Annoyances (if uBlock Origin or Nano in use)
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 * <a href="https://subscribe.adblockplus.org/?location=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann&title=CrapBlock Annoyances&requiresLocation=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann">CrapBlock Annoyances</a>
