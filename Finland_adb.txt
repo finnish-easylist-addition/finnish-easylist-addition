@@ -690,6 +690,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||omataloyhtio.fi/ffsw-pushcrew.js
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
+||dax.yle.fi
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
@@ -726,7 +727,7 @@ mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 
 ! Unbreak radiot.fi
-@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=www.radiot.fi
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=radiot.fi|tunnus.yle.fi
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
@@ -882,6 +883,7 @@ io-tech.fi#@#.sidebar-widgets
 @@||turku.fi/sites/default/files/styles/current/public/images/
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
+
 
 ! Fanboy's Annoyance List
 
