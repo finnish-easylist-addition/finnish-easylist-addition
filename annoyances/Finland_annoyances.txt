@@ -103,6 +103,8 @@ verkkokauppa.com##.footer__catalog-newsletter-container
 verkkokauppa.com##.promo-item-container
 omataloyhtio.fi##.scrakentajafi_share_uutiskirje
 hobbyhall.fi##.newsletter
+anna.fi##.contactus__newsletter
+||emaileri.fi$third-party
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
