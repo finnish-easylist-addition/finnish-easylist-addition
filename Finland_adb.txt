@@ -691,6 +691,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
 ||dax.yle.fi
+/poppartners/finnkino.fi
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
