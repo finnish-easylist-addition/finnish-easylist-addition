@@ -35,6 +35,7 @@
 /mainoskaruselli/*
 /mainoskaruselli_yli
 /mainosmokkula/
+/om-mainosputki/
 /pagestat?
 /sivulaskuri
 smartbanner
@@ -535,6 +536,9 @@ basso.fi##.ad-paraati
 nettikone.com###homeTopBoxBanner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
+anna.fi##.kaupalliset
+anna.fi##.readpeak_ad
+anna.fi##.widget_ads_carousel
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
