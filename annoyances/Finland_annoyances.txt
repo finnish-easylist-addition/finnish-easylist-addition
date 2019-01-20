@@ -105,6 +105,7 @@ omataloyhtio.fi##.scrakentajafi_share_uutiskirje
 hobbyhall.fi##.newsletter
 anna.fi##.contactus__newsletter
 ||emaileri.fi$third-party
+kotiliesi.fi##.newsletter
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
