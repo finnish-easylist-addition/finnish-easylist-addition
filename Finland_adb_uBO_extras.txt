@@ -68,3 +68,6 @@ basso.fi###header:style(min-height: auto !important)
 basso.fi###header-main:style(margin-top: 0px !important)
 
 anna.fi##article.grid__item_1:has(.list-tag_commercial)
+
+kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
+
