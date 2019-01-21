@@ -89,6 +89,12 @@ mobiili.fi##.likes-top
 mikroaitta.fi###facebook_block
 jatkoaika.com##.somelinks
 areena.yle.fi##a[aria-label="Jaa ohjelma"]
+venelehti.fi##.instafeed-container
+tekniikanmaailma.fi##.NavigationBar_social-links
+kipparilehti.fi##.instafeed-container
+eralehti.fi##.mail-sharing
+eralehti.fi##.some
+dekolehti.fi##.some
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -106,6 +112,10 @@ hobbyhall.fi##.newsletter
 anna.fi##.contactus__newsletter
 ||emaileri.fi$third-party
 kotiliesi.fi##.newsletter
+kipparilehti.fi##.newsletter
+seura.fi##.widget_seuranewsletter
+suomenkuvalehti.fi##.widget_sknewsletter
+tekniikanmaailma.fi##.Newsletter_container
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
