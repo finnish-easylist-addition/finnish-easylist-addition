@@ -67,7 +67,8 @@ www.iltalehti.fi##div.card:has-text(Mainos: )
 basso.fi###header:style(min-height: auto !important)
 basso.fi###header-main:style(margin-top: 0px !important)
 
-anna.fi##article.grid__item_1:has(.list-tag_commercial)
-
+anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
 kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
+kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
+venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
 
