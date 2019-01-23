@@ -139,6 +139,8 @@ www.is.fi,www.hs.fi##.in-right-lane-position.video-container
 www.mtvuutiset.fi##.backtotopbutton
 
 ! OTHER
+##[href="https://vastuullistajournalismia.fi/"]
+
 www.is.fi##.date-box
 
 is.fi/kampanjat/vinkkinapit
