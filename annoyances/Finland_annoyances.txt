@@ -95,6 +95,7 @@ kipparilehti.fi##.instafeed-container
 eralehti.fi##.mail-sharing
 eralehti.fi##.some
 dekolehti.fi##.some
+ess.fi##.some-wrapper
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
