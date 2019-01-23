@@ -36,4 +36,5 @@ maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !imp
 lehtodigital.fi##.fade
 lehtodigital.fi##html:style(overflow-y: auto !important)
 
-savonsanomat.fi##div.box:has([action*="://savo.uutiskirje"])
+savonsanomat.fi,ksml.fi##div.box:has([action*="uutiskirje.keskisuomalainen.fi"])
+
