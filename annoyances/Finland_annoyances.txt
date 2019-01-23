@@ -140,6 +140,7 @@ www.mtvuutiset.fi##.backtotopbutton
 
 ! OTHER
 ##[href="https://vastuullistajournalismia.fi/"]
+##[href="http://vastuullistajournalismia.fi/"]
 
 www.is.fi##.date-box
 
