@@ -63,7 +63,7 @@ nelonenmedia.fi/hitcounter
 /js/common/spring
 /js/common/init-tns
 /eu_cookie_compliance.js
-
+/utag/sanoma-fi/
 
 ###atwAdFrame
 ###keskimainos
@@ -828,9 +828,6 @@ kotikokki.net##.partners
 
 ! Ylilauta.org ad containers
 ylilauta.org##DIV[class^="center"]
-
-! utag
-*/utag/sanoma-fi/$script
 
 ! ad containers
 satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
