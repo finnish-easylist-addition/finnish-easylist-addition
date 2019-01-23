@@ -809,8 +809,8 @@ apotek1.no#@#DIV[class*="ad-element"]
 
 ! unbreak "lue seuraavaksi" (read next) section
 ! broken by Easyprivacy & Fanboy's Annoyance List
-@@||scdn.cxense.com/cx.js$script,domain=www.ess.fi
-@@||content-thumbnail.cxpublic.com$image,domain=www.ess.fi
+@@||scdn.cxense.com/cx.js$domain=ess.fi|savonsanomat.fi|itahame.fi
+@@||content-thumbnail.cxpublic.com$domain=ess.fi|savonsanomat.fi|itahame.fi
 
 ! unbreak images inside embedded tweets
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
