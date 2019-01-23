@@ -96,6 +96,7 @@ eralehti.fi##.mail-sharing
 eralehti.fi##.some
 dekolehti.fi##.some
 ess.fi##.some-wrapper
+##.some-box.sidebar-box
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
