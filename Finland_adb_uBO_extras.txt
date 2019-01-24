@@ -72,4 +72,4 @@ kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
 kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
 venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
 
-savonsanomat.fi,ess.fi,itahame.fi##+js(setTimeout-defuser.js,linkEl)
+savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
