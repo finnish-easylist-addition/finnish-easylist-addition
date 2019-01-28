@@ -97,6 +97,7 @@ eralehti.fi##.some
 dekolehti.fi##.some
 ess.fi##.some-wrapper
 ##.some-box.sidebar-box
+docendo.fi##.social-custom-sidebar
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
