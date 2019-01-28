@@ -73,3 +73,5 @@ kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
 venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
 
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
+
+uusisuomi.fi##+js(abort-current-inline-script.js, NREUM)
