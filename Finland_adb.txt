@@ -542,6 +542,8 @@ anna.fi##.kaupalliset
 anna.fi##.readpeak_ad
 anna.fi##.widget_ads_carousel
 irc-galleria.net##div[id^="open_"]
+koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
+
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
