@@ -698,6 +698,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||lehtodigital.fi*/tracking.json
 ||dax.yle.fi
 /poppartners/finnkino.fi
+tridea.fi$third-party
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
