@@ -100,22 +100,20 @@ ess.fi##.some-wrapper
 docendo.fi##.social-custom-sidebar
 
 ! NEWSLETTERS
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
+
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
 yle.fi##DIV[class*="yle__newsletter"]
 www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
-seiska.fi##.newsletter
 mobiili.fi##.mobuutiskirje_link
 netrauta.fi##.email-collector
 verkkokauppa.com##.footer__catalog-newsletter-container
 verkkokauppa.com##.promo-item-container
 omataloyhtio.fi##.scrakentajafi_share_uutiskirje
-hobbyhall.fi##.newsletter
 anna.fi##.contactus__newsletter
 ||emaileri.fi$third-party
-kotiliesi.fi##.newsletter
-kipparilehti.fi##.newsletter
 seura.fi##.widget_seuranewsletter
 suomenkuvalehti.fi##.widget_sknewsletter
 tekniikanmaailma.fi##.Newsletter_container
