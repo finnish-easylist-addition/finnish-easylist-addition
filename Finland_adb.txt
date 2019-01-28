@@ -540,6 +540,7 @@ tori.fi###delivery_methods .gray-text
 anna.fi##.kaupalliset
 anna.fi##.readpeak_ad
 anna.fi##.widget_ads_carousel
+irc-galleria.net##div[id^="open_"]
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
