@@ -535,7 +535,6 @@ basso.fi##div[id^="BannerBlock"]
 basso.fi##.ad-paraati
 nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
 nettiauto.com###homeBottomBoxBanner
-nettimoto.com##.banner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
 anna.fi##.kaupalliset
@@ -702,6 +701,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||dax.yle.fi
 /poppartners/finnkino.fi
 tridea.fi$third-party
+||nettix.fi^*_banner.gif
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
