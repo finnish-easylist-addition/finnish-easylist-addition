@@ -533,8 +533,9 @@ high.fi###googlejs
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
 basso.fi##div[id^="BannerBlock"]
 basso.fi##.ad-paraati
-nettikone.com,nettiauto.com###homeTopBoxBanner
+nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
 nettiauto.com###homeBottomBoxBanner
+nettimoto.com##.banner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
 anna.fi##.kaupalliset
