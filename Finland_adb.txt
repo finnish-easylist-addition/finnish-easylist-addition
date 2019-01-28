@@ -542,7 +542,7 @@ anna.fi##.readpeak_ad
 anna.fi##.widget_ads_carousel
 irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
-
+uusisuomi.fi###block-views-ticker-block-2
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
