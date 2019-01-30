@@ -90,6 +90,8 @@ mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
 mikroaitta.fi###facebook_block
 jatkoaika.com##.somelinks
+www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
+www.telia.fi##.share-follow--small.share-follow--share.share-follow
 
 ! NEWSLETTERS
 iltalehti.fi###newsletter_container
@@ -121,6 +123,7 @@ www.is.fi##DIV[id^="QuickSurveyWidget-"]
 
 ! FLOATING VIDEO
 www.is.fi,www.hs.fi##.in-right-lane-position.video-container
+www.mtvuutiset.fi##.katsomo-player-fixed.sticky-player-initialised.katsomo-player-container
 
 ! BACK TO TOP
 www.mtvuutiset.fi##.backtotopbutton
@@ -136,3 +139,7 @@ seiska.fi##.klubi-banner
 lehtodigital.fi###_kmg_cookie_accept
 ||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
 ||knaitek.fi/magebirdpopup.php
+
+! SIDEBAR WIDGETS
+www.io-tech.fi##.sidebar-widgets.jimmz
+www.io-tech.fi##.sidebar-widgets.hintafu
