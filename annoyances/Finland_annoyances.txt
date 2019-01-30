@@ -34,6 +34,8 @@ puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 www.is.fi,www.hs.fi##.r-loading-indicator
 
 
+www.ksml.fi##.campaign
+
 www.foreca.fi###betafeedback
 
 ! Telsu.fi

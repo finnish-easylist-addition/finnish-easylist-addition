@@ -20,6 +20,7 @@ www.aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
 www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
 mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
 yle.fi##div[class^="Newsletter__container"]
+www.ksml.fi##.box:has(.box__heading:has-text(KSML.fi:n uutiskirje))
 
 ! "GALLUP"
 uutisvirta.fi##div.box:has(h2:has-text(Gallup))
