@@ -20,7 +20,7 @@ www.aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
 www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
 mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
 yle.fi##div[class^="Newsletter__container"]
-www.ksml.fi##.box:has(.box__heading:has-text(KSML.fi:n uutiskirje))
+savonsanomat.fi,ksml.fi##div.box:has([action*="uutiskirje.keskisuomalainen.fi"])
 
 ! "GALLUP"
 uutisvirta.fi##div.box:has(h2:has-text(Gallup))
@@ -37,5 +37,5 @@ maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !imp
 lehtodigital.fi##.fade
 lehtodigital.fi##html:style(overflow-y: auto !important)
 
-savonsanomat.fi,ksml.fi##div.box:has([action*="uutiskirje.keskisuomalainen.fi"])
+
 
