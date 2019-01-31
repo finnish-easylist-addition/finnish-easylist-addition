@@ -704,6 +704,7 @@ verkkokauppa.com/api/richrelevance/customer
 /poppartners/finnkino.fi
 tridea.fi$third-party
 ||nettix.fi^*_banner.gif
+||puutarha.net/statb.asp
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
