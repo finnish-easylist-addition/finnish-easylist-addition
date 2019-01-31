@@ -145,9 +145,6 @@ www.mtvuutiset.fi##.katsomo-player-fixed.sticky-player-initialised.katsomo-playe
 www.mtvuutiset.fi##.backtotopbutton
 
 ! OTHER
-##[href="https://vastuullistajournalismia.fi/"]
-##[href="http://vastuullistajournalismia.fi/"]
-
 www.is.fi##.date-box
 
 is.fi/kampanjat/vinkkinapit
