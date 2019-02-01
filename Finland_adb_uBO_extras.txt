@@ -80,3 +80,4 @@ uusisuomi.fi##+js(abort-current-inline-script.js, NREUM)
 taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 
+piratebays.fi##+js(window.open-defuser.js)
