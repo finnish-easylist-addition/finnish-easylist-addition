@@ -21,6 +21,7 @@ www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutis
 mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
 yle.fi##div[class^="Newsletter__container"]
 savonsanomat.fi,ksml.fi##div.box:has([action*="uutiskirje.keskisuomalainen.fi"])
+kiinteistolehti.fi##.mpc-row:has([href$="/tilaa-uutiskirje/"])
 
 ! "GALLUP"
 uutisvirta.fi##div.box:has(h2:has-text(Gallup))
@@ -37,5 +38,5 @@ maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !imp
 lehtodigital.fi##.fade
 lehtodigital.fi##html:style(overflow-y: auto !important)
 
-kiinteistolehti.fi##.mpc-row:has([href$="/tilaa-uutiskirje/"])
+
 
