@@ -104,7 +104,7 @@ www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
 oikotie.fi##.some-links
 mtvuutiset.fi##.mtv-player-share-open-button
-
+kauppalehti.fi##a[href^="mailto:?"]
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
