@@ -528,7 +528,8 @@ horizonsunlimited.com##a[href*="9mmff.com"]
 seiska.fi##.tilaa-banner
 seiska.fi##.ad-inhouse-desktop
 alastonsuomi.com##.jb
-finnkino.fi##.advertising
+finnkino.fi,fum.fi,tilt.fi##.advertising
+rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 jatkoaika.com##div[class="block block-block"]
 high.fi###googlejs
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
@@ -701,11 +702,11 @@ verkkokauppa.com/api/richrelevance/customer
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
 ||dax.yle.fi
-/poppartners/finnkino.fi
-tridea.fi$third-party
+||tridea.fi$third-party
 ||nettix.fi^*_banner.gif
 ||puutarha.net/statb.asp
 ||omataloyhtio.fi/statb.asp
+||cloudfront.net/poppartners/$script
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
