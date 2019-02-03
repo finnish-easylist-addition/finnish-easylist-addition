@@ -108,6 +108,7 @@ mtvuutiset.fi##.mtv-player-share-open-button
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
+tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
