@@ -67,6 +67,17 @@ www.iltalehti.fi##div.card:has-text(Mainos: )
 basso.fi###header:style(min-height: auto !important)
 basso.fi###header-main:style(margin-top: 0px !important)
 
+anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
+kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
+kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
+venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
+
+savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
+
+uusisuomi.fi##+js(abort-current-inline-script.js, NREUM)
+
 ! Taisto.org - ad containers
 taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
+
+proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)

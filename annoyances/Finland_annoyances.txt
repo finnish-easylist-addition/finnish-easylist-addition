@@ -90,22 +90,42 @@ mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
 mikroaitta.fi###facebook_block
 jatkoaika.com##.somelinks
+areena.yle.fi##a[aria-label="Jaa ohjelma"]
+venelehti.fi##.instafeed-container
+tekniikanmaailma.fi##.NavigationBar_social-links
+kipparilehti.fi##.instafeed-container
+eralehti.fi##.mail-sharing
+eralehti.fi##.some
+dekolehti.fi##.some
+ess.fi##.some-wrapper
+##.some-box.sidebar-box
+docendo.fi##.social-custom-sidebar
 www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
+oikotie.fi##.some-links
+mtvuutiset.fi##.mtv-player-share-open-button
+
 
 ! NEWSLETTERS
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
+
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
 yle.fi##DIV[class*="yle__newsletter"]
 www.ess.fi###uutiskirjeentilaus
 www.hs.fi##.hsnl-container
-seiska.fi##.newsletter
 mobiili.fi##.mobuutiskirje_link
 netrauta.fi##.email-collector
 verkkokauppa.com##.footer__catalog-newsletter-container
 verkkokauppa.com##.promo-item-container
 omataloyhtio.fi##.scrakentajafi_share_uutiskirje
-hobbyhall.fi##.newsletter
+anna.fi##.contactus__newsletter
+||emaileri.fi$third-party
+seura.fi##.widget_seuranewsletter
+suomenkuvalehti.fi##.widget_sknewsletter
+tekniikanmaailma.fi##.Newsletter_container
+oikotie.fi##.subscription-form
+oikotie.fi##.pane-newsletter-form
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
