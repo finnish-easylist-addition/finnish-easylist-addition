@@ -144,6 +144,7 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
+##[href*="cmore.fi/kampanja/"]
 
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
@@ -545,6 +546,7 @@ anna.fi##.widget_ads_carousel
 irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
+luukku.com##.ad-container
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
