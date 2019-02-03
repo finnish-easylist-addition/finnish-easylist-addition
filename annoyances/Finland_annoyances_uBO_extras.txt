@@ -37,5 +37,5 @@ maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !imp
 lehtodigital.fi##.fade
 lehtodigital.fi##html:style(overflow-y: auto !important)
 
-
+kiinteistolehti.fi##.mpc-row:has([href$="/tilaa-uutiskirje/"])
 
