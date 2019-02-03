@@ -709,6 +709,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||puutarha.net/statb.asp
 ||omataloyhtio.fi/statb.asp
 ||cloudfront.net/poppartners/$script
+||readpeak.com$third-party
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
