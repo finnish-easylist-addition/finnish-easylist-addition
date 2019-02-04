@@ -356,7 +356,6 @@ motouutiset.fi##DIV[class*="ad-panorama"]
 motouutiset.fi##DIV[class*="ad-giant"]
 motouutiset.fi##a[href*="revads"]
 motouutiset.fi##DIV[class*="cc-window cc-banner cc-type-info "]
-app.readpeak.com/js/mcn_ad_iframe.js
 revads.motouutiset.fi/www/delivery/lg.php
 revads.motouutiset.fi/www/delivery/spc.php
 revads.motouutiset.fi/www/delivery/spcjs.php
