@@ -545,6 +545,7 @@ irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
 luukku.com##.ad-container
+luukku.com###infocontainer a[target="_new"]
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
