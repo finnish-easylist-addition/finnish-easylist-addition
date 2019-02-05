@@ -104,7 +104,7 @@ www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
 oikotie.fi##.some-links
 mtvuutiset.fi##.mtv-player-share-open-button
-kauppalehti.fi##a[href^="mailto:?"]
+kauppalehti.fi##a[href^="mailto:"]
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
 
@@ -129,6 +129,7 @@ suomenkuvalehti.fi##.widget_sknewsletter
 tekniikanmaailma.fi##.Newsletter_container
 oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
+pelaajalehti.com##[href="/tilaa-uutiskirje"]
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
