@@ -35,6 +35,7 @@
 /mainoskaruselli/*
 /mainoskaruselli_yli
 /mainosmokkula/
+/om-mainosputki/
 /pagestat?
 /sivulaskuri
 smartbanner
@@ -56,6 +57,7 @@ _mainosnappi.
 ! /www/dlvr/loki.php?
 ab.is.fi/?ref=
 rac.ruutu.fi/sat/sat.gif
+rac.ruutu.fi/rac.gif
 nelonenmedia.fi/hitcounter
 /statisticsentry-
 /js/spring.js
@@ -500,9 +502,16 @@ high.fi###googlejs
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
 basso.fi##div[id^="BannerBlock"]
 basso.fi##.ad-paraati
-nettikone.com###homeTopBoxBanner
+nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
+nettiauto.com###homeBottomBoxBanner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
+anna.fi##.kaupalliset
+anna.fi##.readpeak_ad
+anna.fi##.widget_ads_carousel
+irc-galleria.net##div[id^="open_"]
+koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
+uusisuomi.fi###block-views-ticker-block-2
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -734,6 +743,12 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||omataloyhtio.fi/ffsw-pushcrew.js
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
+||dax.yle.fi
+/poppartners/finnkino.fi
+tridea.fi$third-party
+||nettix.fi^*_banner.gif
+||puutarha.net/statb.asp
+||omataloyhtio.fi/statb.asp
 
 ! -----NETWORK FILTERS END-----
 ! -----UNBREAK-----
@@ -779,6 +794,7 @@ tjareborg.fi#@#.push-container
 @@||onyourmap.com$image,domain=finder.fi
 @@||sipa.s-palvelut.fi$image
 @@||turku.fi/sites/default/files/styles/current/public/images/
+
 
 ! Fanboy's Annoyance List
 
