@@ -144,7 +144,6 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
-##[href*="cmore.fi/kampanja/"]
 
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
