@@ -107,6 +107,7 @@ mtvuutiset.fi##.mtv-player-share-open-button
 kauppalehti.fi##a[href^="mailto:"]
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
+||kirjastot.fi/modules/kifisome/
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
