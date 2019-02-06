@@ -131,6 +131,7 @@ tekniikanmaailma.fi##.Newsletter_container
 oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
 pelaajalehti.com##[href="/tilaa-uutiskirje"]
+kirkkojakaupunki.fi##.banner-category-d
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
