@@ -27,7 +27,6 @@ iltalehti.fi##.jw-logo
 
 monster.fi###interMsgsW
 rantapallo.fi##.wpoi-show.inc_optin
-stockmann.com##.section-notification
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 
