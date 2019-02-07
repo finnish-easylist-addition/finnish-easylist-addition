@@ -23,7 +23,7 @@ www.aamulehti.fi##DIV[id^="morearticles_"]:has(h2:has(span:has-text(Kaupallinen 
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##script:inject(setTimeout-defuser.js, adblockDetected, 0)
 
 ! Mikrobitti anti adblock
-mikrobitti.fi##+js(setTimeout-defuser.js,,loadAd)
+mikrobitti.fi##+js(setTimeout-defuser.js)
 
 ! Iltalehti.fi - Kaupallinen yhteistyö
 www.iltalehti.fi##[href^="/omaguru/"]:has(.article-container:has-text(Kaupallinen yhteistyö: ))
