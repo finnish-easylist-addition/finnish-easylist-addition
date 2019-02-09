@@ -821,6 +821,9 @@ www.hs.fi#@#.mainokset
 ! unbreak images inside embedded tweets
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 
+! unbreak sponsored articles on kaksplus.fi
+www.kaksplus.fi#@#.sponsored-content
+
 ! MuroBBS - Hintaopas
 murobbs.muropaketti.com###hintaopas_top_product_block
 
