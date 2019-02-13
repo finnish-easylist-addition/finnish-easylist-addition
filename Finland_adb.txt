@@ -892,6 +892,7 @@ io-tech.fi#@#.sidebar-widgets
 @@||turku.fi/sites/default/files/styles/current/public/images/
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
+@@||tags.tiqcdn.com/utag/sanoma-fi/lifestyle/prod/utag.js$script,domain=www.vauva.fi
 
 
 ! Fanboy's Annoyance List
