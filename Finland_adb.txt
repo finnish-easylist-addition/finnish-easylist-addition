@@ -766,6 +766,8 @@ www.vr.fi##.headerContents > .infoMessages
 
 ! Nelonen Media video ads
 ||nelonenmedia.fi/ads/$media
+||nelonenmedia-pmd-ads-manual.nm-stream.nelonenmedia.fi/$media
+||nelonenmedia-pmd-ads-spotgate.nm-stream.nelonenmedia.fi/$media
 
 ! unbreak "Suosituimmat" ("most popular") on mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
