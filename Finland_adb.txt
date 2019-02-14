@@ -892,6 +892,7 @@ io-tech.fi#@#.sidebar-widgets
 @@||turku.fi/sites/default/files/styles/current/public/images/
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
+@@||www.power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=www.power.fi
 
 
 ! Fanboy's Annoyance List
