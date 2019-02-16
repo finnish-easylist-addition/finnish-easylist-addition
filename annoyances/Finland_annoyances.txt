@@ -114,6 +114,7 @@ smartbuyglasses.fi##.footer_bar
 smartbuyglasses.fi##.pro-right-share
 thebodyshop.fi##.links-wrapper-separators
 spartoo.fi###shareProdcard
+fitnesstukku.fi##.pre-footer
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
