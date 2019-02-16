@@ -89,7 +89,7 @@ mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
 mikroaitta.fi###facebook_block
 jatkoaika.com##.somelinks
-areena.yle.fi##a[aria-label="Jaa ohjelma"]
+yle.fi##a[aria-label="Jaa ohjelma"]
 venelehti.fi##.instafeed-container
 tekniikanmaailma.fi##.NavigationBar_social-links
 kipparilehti.fi##.instafeed-container
