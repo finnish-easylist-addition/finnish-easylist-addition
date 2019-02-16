@@ -109,7 +109,7 @@ demokraatti.fi##div[class*="ShareStyles__Container"]
 ||kirjastot.fi/modules/kifisome/
 
 ! NEWSLETTERS
-akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
 tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
 iltalehti.fi###newsletter_container
