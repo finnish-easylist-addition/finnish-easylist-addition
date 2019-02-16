@@ -708,6 +708,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||omataloyhtio.fi/statb.asp
 ||cloudfront.net/poppartners/$script
 ||readpeak.com$third-party
+||yle.fi/initAdobeAnalytics
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
