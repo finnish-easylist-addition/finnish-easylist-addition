@@ -30,6 +30,7 @@ rantapallo.fi##.wpoi-show.inc_optin
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
 akkukauppa.com###enhanced-privacy-popup
+qliro.com###notification
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
@@ -108,6 +109,11 @@ kauppalehti.fi##a[href^="mailto:"]
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
 ||kirjastot.fi/modules/kifisome/
+smartbuyglasses.fi###Fixed_navigation_bar
+smartbuyglasses.fi##.footer_bar
+smartbuyglasses.fi##.pro-right-share
+thebodyshop.fi##.links-wrapper-separators
+spartoo.fi###shareProdcard
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
@@ -134,6 +140,15 @@ pelaajalehti.com##[href="/tilaa-uutiskirje"]
 kirkkojakaupunki.fi##.banner-category-d
 yle.fi##div[class^="TextBanner__textBanner"]
 naturelle.fi###newsletter
+coolshop.fi##.campaign-footer-newsletter
+iltalehti.fi##.sidebar_newsletter_container
+smartbuyglasses.fi###EDM-popUp
+lehtikuningas.fi###newsmailbar
+hersecret.fi##.footer-top-ads
+||artiksdesign.fi*/Plumrocket_Newsletterpopup/
+kahvikaveri.fi##.subscription-field
+oletkaunis.fi##.Uutiskirje
+petenkoiratarvike.com###footer-newsletter-wrapper
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
