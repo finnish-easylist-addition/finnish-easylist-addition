@@ -545,6 +545,7 @@ irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
 luukku.com##.ad-container
+tulikulma.fi##.slideshow
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -885,6 +886,7 @@ pakkotoisto.com##.samCodeUnit
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
+@@||*/zooplus.fi/scripts/resonance.js
 @@||leiki.com$domain=kaksplus.fi
 io-tech.fi#@#.sidebar-widgets
 @@||onyourmap.com$image,domain=finder.fi
