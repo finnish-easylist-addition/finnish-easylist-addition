@@ -131,6 +131,7 @@ oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
 pelaajalehti.com##[href="/tilaa-uutiskirje"]
 kirkkojakaupunki.fi##.banner-category-d
+yle.fi##div[class^="TextBanner__textBanner"]
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
