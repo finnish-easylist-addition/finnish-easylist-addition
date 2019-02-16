@@ -29,6 +29,7 @@ monster.fi###interMsgsW
 rantapallo.fi##.wpoi-show.inc_optin
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
+akkukauppa.com###enhanced-privacy-popup
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
@@ -132,6 +133,7 @@ oikotie.fi##.pane-newsletter-form
 pelaajalehti.com##[href="/tilaa-uutiskirje"]
 kirkkojakaupunki.fi##.banner-category-d
 yle.fi##div[class^="TextBanner__textBanner"]
+naturelle.fi###newsletter
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
