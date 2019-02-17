@@ -64,6 +64,7 @@ nelonenmedia.fi/hitcounter
 /js/common/init-tns
 /eu_cookie_compliance.js
 /utag/sanoma-fi/
+/finnair-analytics/
 
 ###atwAdFrame
 ###keskimainos
