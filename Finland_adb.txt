@@ -696,6 +696,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||hobbyhall.fi*/pikkubanneri_
 /fillaritori/javascript_nbenhadverts/
 ||fillaritori.com/kuvat/*.gif
+||fillarikeskustelu.com/kuvat/*.gif
 ||snoobi.fi
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
