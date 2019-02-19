@@ -29,7 +29,6 @@ monster.fi###interMsgsW
 rantapallo.fi##.wpoi-show.inc_optin
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
-akkukauppa.com###enhanced-privacy-popup
 qliro.com###notification
 
 www.is.fi,www.hs.fi##.r-loading-indicator
