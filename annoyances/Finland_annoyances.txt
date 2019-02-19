@@ -27,9 +27,9 @@ iltalehti.fi##.jw-logo
 
 monster.fi###interMsgsW
 rantapallo.fi##.wpoi-show.inc_optin
-stockmann.com##.section-notification
 power.fi###sleeky
 puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
+qliro.com###notification
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
@@ -90,7 +90,7 @@ mobiili.fi##.likes-top
 ||mobiili.fi/images/some_icons/$image
 mikroaitta.fi###facebook_block
 jatkoaika.com##.somelinks
-areena.yle.fi##a[aria-label="Jaa ohjelma"]
+yle.fi##a[aria-label="Jaa ohjelma"]
 venelehti.fi##.instafeed-container
 tekniikanmaailma.fi##.NavigationBar_social-links
 kipparilehti.fi##.instafeed-container
@@ -104,10 +104,20 @@ www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
 oikotie.fi##.some-links
 mtvuutiset.fi##.mtv-player-share-open-button
-
+kauppalehti.fi##a[href^="mailto:"]
+demokraatti.fi##div[class*="ShareStripeStyles__Container"]
+demokraatti.fi##div[class*="ShareStyles__Container"]
+||kirjastot.fi/modules/kifisome/
+smartbuyglasses.fi###Fixed_navigation_bar
+smartbuyglasses.fi##.footer_bar
+smartbuyglasses.fi##.pro-right-share
+thebodyshop.fi##.links-wrapper-separators
+spartoo.fi###shareProdcard
+fitnesstukku.fi##.pre-footer
 
 ! NEWSLETTERS
-akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi##.newsletter
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
+tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
 iltalehti.fi###newsletter_container
 iltalehti.fi##.content-newsletter
@@ -126,6 +136,19 @@ suomenkuvalehti.fi##.widget_sknewsletter
 tekniikanmaailma.fi##.Newsletter_container
 oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
+pelaajalehti.com##[href="/tilaa-uutiskirje"]
+kirkkojakaupunki.fi##.banner-category-d
+yle.fi##div[class^="TextBanner__textBanner"]
+naturelle.fi###newsletter
+coolshop.fi##.campaign-footer-newsletter
+iltalehti.fi##.sidebar_newsletter_container
+smartbuyglasses.fi###EDM-popUp
+lehtikuningas.fi###newsmailbar
+hersecret.fi##.footer-top-ads
+||artiksdesign.fi*/Plumrocket_Newsletterpopup/
+kahvikaveri.fi##.subscription-field
+oletkaunis.fi##.Uutiskirje
+petenkoiratarvike.com###footer-newsletter-wrapper
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
