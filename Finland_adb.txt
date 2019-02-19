@@ -65,6 +65,7 @@ nelonenmedia.fi/hitcounter
 /js/common/init-tns
 /eu_cookie_compliance.js
 /utag/sanoma-fi/
+/finnair-analytics/
 
 ###atwAdFrame
 ###keskimainos
@@ -356,7 +357,6 @@ motouutiset.fi##DIV[class*="ad-panorama"]
 motouutiset.fi##DIV[class*="ad-giant"]
 motouutiset.fi##a[href*="revads"]
 motouutiset.fi##DIV[class*="cc-window cc-banner cc-type-info "]
-app.readpeak.com/js/mcn_ad_iframe.js
 revads.motouutiset.fi/www/delivery/lg.php
 revads.motouutiset.fi/www/delivery/spc.php
 revads.motouutiset.fi/www/delivery/spcjs.php
@@ -529,14 +529,15 @@ horizonsunlimited.com##a[href*="9mmff.com"]
 seiska.fi##.tilaa-banner
 seiska.fi##.ad-inhouse-desktop
 alastonsuomi.com##.jb
-finnkino.fi##.advertising
+finnkino.fi,fum.fi,tilt.fi##.advertising
+rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 jatkoaika.com##div[class="block block-block"]
 high.fi###googlejs
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
 basso.fi##div[id^="BannerBlock"]
 basso.fi##.ad-paraati
 nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
-nettiauto.com###homeBottomBoxBanner
+nettiauto.com,nettimoto.com###homeBottomBoxBanner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
 anna.fi##.kaupalliset
@@ -545,6 +546,8 @@ anna.fi##.widget_ads_carousel
 irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
+luukku.com##.ad-container
+tulikulma.fi##.slideshow
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -695,6 +698,7 @@ verkkokauppa.com/api/richrelevance/customer
 ||hobbyhall.fi*/pikkubanneri_
 /fillaritori/javascript_nbenhadverts/
 ||fillaritori.com/kuvat/*.gif
+||fillarikeskustelu.com/kuvat/*.gif
 ||snoobi.fi
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
@@ -702,11 +706,13 @@ verkkokauppa.com/api/richrelevance/customer
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
 ||dax.yle.fi
-/poppartners/finnkino.fi
-tridea.fi$third-party
+||tridea.fi$third-party
 ||nettix.fi^*_banner.gif
 ||puutarha.net/statb.asp
 ||omataloyhtio.fi/statb.asp
+||cloudfront.net/poppartners/$script
+||readpeak.com$third-party
+||yle.fi/initAdobeAnalytics
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
@@ -883,6 +889,7 @@ pakkotoisto.com##.samCodeUnit
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
+@@||*/zooplus.fi/scripts/resonance.js
 @@||leiki.com$domain=kaksplus.fi
 io-tech.fi#@#.sidebar-widgets
 @@||onyourmap.com$image,domain=finder.fi
