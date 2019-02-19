@@ -65,6 +65,7 @@ nelonenmedia.fi/hitcounter
 /js/common/init-tns
 /eu_cookie_compliance.js
 /utag/sanoma-fi/
+/finnair-analytics/
 
 ###atwAdFrame
 ###keskimainos
@@ -496,14 +497,15 @@ finder.fi##.Advertisement__Box
 seiska.fi##.tilaa-banner
 seiska.fi##.ad-inhouse-desktop
 alastonsuomi.com##.jb
-finnkino.fi##.advertising
+finnkino.fi,fum.fi,tilt.fi##.advertising
+rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 jatkoaika.com##div[class="block block-block"]
 high.fi###googlejs
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
 basso.fi##div[id^="BannerBlock"]
 basso.fi##.ad-paraati
 nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
-nettiauto.com###homeBottomBoxBanner
+nettiauto.com,nettimoto.com###homeBottomBoxBanner
 ticketmaster.fi##div[id^="ad-slot-"]
 tori.fi###delivery_methods .gray-text
 anna.fi##.kaupalliset
@@ -512,6 +514,8 @@ anna.fi##.widget_ads_carousel
 irc-galleria.net##div[id^="open_"]
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
+luukku.com##.ad-container
+tulikulma.fi##.slideshow
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -737,6 +741,9 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||seksitreffit.*/banners/
 ||hippos.fi/banner/
 ||hobbyhall.fi*/pikkubanneri_
+/fillaritori/javascript_nbenhadverts/
+||fillaritori.com/kuvat/*.gif
+||fillarikeskustelu.com/kuvat/*.gif
 ||snoobi.fi
 ||rakentaja.fi/kuvat/pi.gif
 ||omataloyhtio.fi/kuvat/pi.gif
@@ -744,11 +751,16 @@ carousel-prod-kaleva-fi.s3.amazonaws.com
 ||puutarha.net/ffsw-pushcrew.js
 ||lehtodigital.fi*/tracking.json
 ||dax.yle.fi
-/poppartners/finnkino.fi
-tridea.fi$third-party
+||tridea.fi$third-party
 ||nettix.fi^*_banner.gif
 ||puutarha.net/statb.asp
 ||omataloyhtio.fi/statb.asp
+||cloudfront.net/poppartners/$script
+||readpeak.com$third-party
+||yle.fi/initAdobeAnalytics
+revads.motouutiset.fi/www/delivery/lg.php
+revads.motouutiset.fi/www/delivery/spc.php
+revads.motouutiset.fi/www/delivery/spcjs.php
 
 ! -----NETWORK FILTERS END-----
 ! -----UNBREAK-----
@@ -791,10 +803,14 @@ tjareborg.fi#@#.push-container
 @@||uusi.op.fi/$document
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 @@ko.snstatic.fi/static/is-paivan-lehti/small.jpg
+@@||*/zooplus.fi/scripts/resonance.js
+@@||leiki.com$domain=kaksplus.fi
+io-tech.fi#@#.sidebar-widgets
 @@||onyourmap.com$image,domain=finder.fi
 @@||sipa.s-palvelut.fi$image
 @@||turku.fi/sites/default/files/styles/current/public/images/
-
+@@||tags.tiqcdn.com/utag/sanoma-fi/lifestyle/prod/utag.js$script,domain=www.vauva.fi
+@@||www.power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=www.power.fi
 
 ! Fanboy's Annoyance List
 
