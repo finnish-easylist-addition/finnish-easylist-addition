@@ -547,6 +547,7 @@ koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
 luukku.com##.ad-container
 tulikulma.fi##.slideshow
+maaseuduntulevaisuus.fi##.promo--header
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -712,6 +713,9 @@ verkkokauppa.com/api/richrelevance/customer
 ||cloudfront.net/poppartners/$script
 ||readpeak.com$third-party
 ||yle.fi/initAdobeAnalytics
+||karuselli.opiferum.com
+||kaleva.fi*/smart_ads
+||viestilehdet.fi/api/ip_check/
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
