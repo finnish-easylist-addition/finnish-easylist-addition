@@ -114,6 +114,13 @@ smartbuyglasses.fi##.pro-right-share
 thebodyshop.fi##.links-wrapper-separators
 spartoo.fi###shareProdcard
 fitnesstukku.fi##.pre-footer
+uusisuomi.fi##.facebook
+uusisuomi.fi##.twitter
+maaseuduntulevaisuus.fi##.clearfix.footer-links
+voice.fi##.follow-on-fb
+mtv.fi##.footer__social-media-buttons-container
+mtv.fi##.actions__share
+golf.fi##.topbar
 
 ! NEWSLETTERS
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
@@ -149,6 +156,8 @@ hersecret.fi##.footer-top-ads
 kahvikaveri.fi##.subscription-field
 oletkaunis.fi##.Uutiskirje
 petenkoiratarvike.com###footer-newsletter-wrapper
+##[href*="emaileri.fi/forms/"]
+lapinkansa.fi##[href$="://uutiskirje.lapinkansa.fi/"]
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
