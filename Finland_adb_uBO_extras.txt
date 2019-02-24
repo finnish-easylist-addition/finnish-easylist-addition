@@ -74,7 +74,7 @@ venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
 
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
 
-uusisuomi.fi##+js(abort-current-inline-script.js, NREUM)
+uusisuomi.fi,xxl.fi##+js(abort-current-inline-script.js, NREUM)
 
 ! Taisto.org - ad containers
 taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
