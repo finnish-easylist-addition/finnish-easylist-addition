@@ -68,6 +68,8 @@ www.mtvuutiset.fi##.navigation-weather-wrapper
 www.iltalehti.fi##.header-weather-container
 
 ! SHARE BUTTONS & SOCIAL MEDIA
+arvopaperi.fi,kauppalehti.fi##a[href^="mailto:"]
+
 www.foreca.fi###share
 tivi.fi##.header-some.link-group
 tivi.fi##.sidebar-some.custom__sidebar-box
@@ -104,7 +106,6 @@ www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
 oikotie.fi##.some-links
 mtvuutiset.fi##.mtv-player-share-open-button
-kauppalehti.fi##a[href^="mailto:"]
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
 ||kirjastot.fi/modules/kifisome/
