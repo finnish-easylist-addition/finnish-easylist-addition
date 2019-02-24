@@ -122,8 +122,13 @@ voice.fi##.follow-on-fb
 mtv.fi##.footer__social-media-buttons-container
 mtv.fi##.actions__share
 golf.fi##.topbar
+marmai.fi##.social-share-wide
+marmai.fi##.btn-some
 
 ! NEWSLETTERS
+##a[href^="http://uutiskirje."]
+##a[href^="https://uutiskirje."]
+
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
 tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
@@ -158,7 +163,6 @@ kahvikaveri.fi##.subscription-field
 oletkaunis.fi##.Uutiskirje
 petenkoiratarvike.com###footer-newsletter-wrapper
 ##[href*="emaileri.fi/forms/"]
-lapinkansa.fi##[href$="://uutiskirje.lapinkansa.fi/"]
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
