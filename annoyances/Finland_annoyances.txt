@@ -124,6 +124,7 @@ mtv.fi##.actions__share
 golf.fi##.topbar
 marmai.fi##.social-share-wide
 marmai.fi##.btn-some
+tekniikkatalous.fi##.header-some
 
 ! NEWSLETTERS
 ##a[href^="http://uutiskirje."]
