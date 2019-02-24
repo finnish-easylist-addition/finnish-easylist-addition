@@ -130,6 +130,7 @@ tekniikkatalous.fi##.header-some
 ##[href*="emaileri.fi/forms/"]
 ##a[href^="http://uutiskirje."]
 ##a[href^="https://uutiskirje."]
+##a[href="/tilaa-uutiskirje"]
 
 akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
 tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
@@ -151,7 +152,7 @@ suomenkuvalehti.fi##.widget_sknewsletter
 tekniikanmaailma.fi##.Newsletter_container
 oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
-pelaajalehti.com##[href="/tilaa-uutiskirje"]
+pelaajalehti.com##.webform-client-form
 kirkkojakaupunki.fi##.banner-category-d
 yle.fi##div[class^="TextBanner__textBanner"]
 naturelle.fi###newsletter
