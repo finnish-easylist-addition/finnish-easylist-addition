@@ -127,6 +127,7 @@ marmai.fi##.btn-some
 tekniikkatalous.fi##.header-some
 
 ! NEWSLETTERS
+##[href*="emaileri.fi/forms/"]
 ##a[href^="http://uutiskirje."]
 ##a[href^="https://uutiskirje."]
 
@@ -163,7 +164,6 @@ hersecret.fi##.footer-top-ads
 kahvikaveri.fi##.subscription-field
 oletkaunis.fi##.Uutiskirje
 petenkoiratarvike.com###footer-newsletter-wrapper
-##[href*="emaileri.fi/forms/"]
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
