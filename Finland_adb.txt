@@ -548,7 +548,6 @@ uusisuomi.fi###block-views-ticker-block-2
 luukku.com##.ad-container
 tulikulma.fi##.slideshow
 maaseuduntulevaisuus.fi##.promo--header
-tori.fi###km_front_tape
 pelaajalehti.com##.views-injected-row
 
 ! -----EXTENDED FILTERS END-----
