@@ -132,7 +132,7 @@ tekniikkatalous.fi##.header-some
 ##a[href^="https://uutiskirje."]
 ##a[href="/tilaa-uutiskirje"]
 
-akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media,mustekasetti.com##.newsletter
 tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
 iltalehti.fi###newsletter_container
