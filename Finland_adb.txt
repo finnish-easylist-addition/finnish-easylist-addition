@@ -718,6 +718,9 @@ verkkokauppa.com/api/richrelevance/customer
 ||karuselli.opiferum.com
 ||kaleva.fi*/smart_ads
 ||viestilehdet.fi/api/ip_check/
+||ad.citycdn.fi
+||cuponation.fi/cn-track
+||kuvake.net/js/ad-
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
