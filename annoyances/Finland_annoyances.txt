@@ -131,6 +131,7 @@ ruokatieto.fi##.frontpage-some
 syke.fi##.share
 ||viinilehti.fi/viini-somessa/
 jyu.fi##.portlet-static-jyu-somessa
+kauppalehti.fi##.sidebar-some
 
 ! NEWSLETTERS
 ##[href*="emaileri.fi/forms/"]
