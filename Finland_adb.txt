@@ -714,10 +714,10 @@ verkkokauppa.com/api/richrelevance/customer
 ||cloudfront.net/poppartners/$script
 ||readpeak.com$third-party
 ||yle.fi/initAdobeAnalytics
-||karuselli.opiferum.com
+||karuselli.opiferum.com^
 ||kaleva.fi*/smart_ads
 ||viestilehdet.fi/api/ip_check/
-||ad.citycdn.fi
+||ad.citycdn.fi^
 ||cuponation.fi/cn-track
 ||kuvake.net/js/ad-
 
