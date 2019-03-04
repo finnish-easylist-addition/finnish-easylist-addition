@@ -145,6 +145,7 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
+##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
@@ -549,6 +550,7 @@ luukku.com##.ad-container
 tulikulma.fi##.slideshow
 maaseuduntulevaisuus.fi##.promo--header
 pelaajalehti.com##.views-injected-row
+kulutusluottovertailu.fi##.fusion-carousel
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
