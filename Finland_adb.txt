@@ -914,6 +914,7 @@ etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
 @@||tags.tiqcdn.com/utag/sanoma-fi/lifestyle/prod/utag.js$script,domain=www.vauva.fi
 @@||www.power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=www.power.fi
+@@||uk.cdn-net.com/cc.js$script,domain=www.power.fi
 
 
 ! Fanboy's Annoyance List
