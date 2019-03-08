@@ -145,6 +145,7 @@ tyda.se#@#DIV[class*="advert"]
 ##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
+##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
@@ -547,6 +548,9 @@ koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 uusisuomi.fi###block-views-ticker-block-2
 luukku.com##.ad-container
 tulikulma.fi##.slideshow
+maaseuduntulevaisuus.fi##.promo--header
+pelaajalehti.com##.views-injected-row
+kulutusluottovertailu.fi##.fusion-carousel
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
@@ -712,6 +716,12 @@ spring-tns.net$third-party
 ||cloudfront.net/poppartners/$script
 ||readpeak.com$third-party
 ||yle.fi/initAdobeAnalytics
+||karuselli.opiferum.com^
+||kaleva.fi*/smart_ads
+||viestilehdet.fi/api/ip_check/
+||ad.citycdn.fi^
+||cuponation.fi/cn-track
+||kuvake.net/js/ad-
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----

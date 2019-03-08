@@ -68,6 +68,8 @@ www.mtvuutiset.fi##.navigation-weather-wrapper
 www.iltalehti.fi##.header-weather-container
 
 ! SHARE BUTTONS & SOCIAL MEDIA
+arvopaperi.fi,kauppalehti.fi,oppiportti.fi##a[href^="mailto:"]
+
 www.foreca.fi###share
 tivi.fi##.header-some.link-group
 tivi.fi##.sidebar-some.custom__sidebar-box
@@ -104,7 +106,6 @@ www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 www.telia.fi##.share-follow--small.share-follow--share.share-follow
 oikotie.fi##.some-links
 mtvuutiset.fi##.mtv-player-share-open-button
-kauppalehti.fi##a[href^="mailto:"]
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
 ||kirjastot.fi/modules/kifisome/
@@ -114,9 +115,31 @@ smartbuyglasses.fi##.pro-right-share
 thebodyshop.fi##.links-wrapper-separators
 spartoo.fi###shareProdcard
 fitnesstukku.fi##.pre-footer
+uusisuomi.fi##.facebook
+uusisuomi.fi##.twitter
+maaseuduntulevaisuus.fi##.clearfix.footer-links
+voice.fi##.follow-on-fb
+mtv.fi##.footer__social-media-buttons-container
+mtv.fi##.actions__share
+golf.fi##.topbar
+marmai.fi##.social-share-wide
+marmai.fi##.btn-some
+tekniikkatalous.fi##.header-some
+eat.fi##restaurant-share
+ruokatieto.fi##.some-links-header
+ruokatieto.fi##.frontpage-some
+syke.fi##.share
+||viinilehti.fi/viini-somessa/
+jyu.fi##.portlet-static-jyu-somessa
+kauppalehti.fi##.sidebar-some
 
 ! NEWSLETTERS
-akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media##.newsletter
+##[href*="emaileri.fi/forms/"]
+##a[href^="http://uutiskirje."]
+##a[href^="https://uutiskirje."]
+##a[href^="/tilaa-uutiskirje"]
+
+akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media,mustekasetti.com,pirkka.fi##.newsletter
 tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
 
 iltalehti.fi###newsletter_container
@@ -136,7 +159,7 @@ suomenkuvalehti.fi##.widget_sknewsletter
 tekniikanmaailma.fi##.Newsletter_container
 oikotie.fi##.subscription-form
 oikotie.fi##.pane-newsletter-form
-pelaajalehti.com##[href="/tilaa-uutiskirje"]
+pelaajalehti.com##.webform-client-form
 kirkkojakaupunki.fi##.banner-category-d
 yle.fi##div[class^="TextBanner__textBanner"]
 naturelle.fi###newsletter
@@ -149,6 +172,7 @@ hersecret.fi##.footer-top-ads
 kahvikaveri.fi##.subscription-field
 oletkaunis.fi##.Uutiskirje
 petenkoiratarvike.com###footer-newsletter-wrapper
+karkkainen.com###emailListWidget
 
 ! DOWNLOAD OUR APP
 iltalehti.fi##[href="/sovellus"]
