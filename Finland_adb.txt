@@ -787,7 +787,6 @@ mtvuutiset.fi##.ad_fadein
 
 ! Media unbreakers
 @@||fwmrm.net/ad/$script,domain=dplay.fi
-@@||www.foxplay.fi/compiled/js/ads.js$script
 ||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
 @@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
 @@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
