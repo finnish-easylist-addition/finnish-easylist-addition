@@ -132,6 +132,7 @@ syke.fi##.share
 ||viinilehti.fi/viini-somessa/
 jyu.fi##.portlet-static-jyu-somessa
 kauppalehti.fi##.sidebar-some
+yle.fi##.ydd-social-media-links__icon
 
 ! NEWSLETTERS
 ##[href*="emaileri.fi/forms/"]
