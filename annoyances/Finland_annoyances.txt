@@ -134,6 +134,7 @@ jyu.fi##.portlet-static-jyu-somessa
 kauppalehti.fi##.sidebar-some
 yle.fi##.ydd-social-media-links__icon
 kaleva.fi##.share-description
+moontv.fi##.widejako
 
 ! NEWSLETTERS
 ##[href*="emaileri.fi/forms/"]
