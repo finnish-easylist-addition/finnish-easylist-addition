@@ -81,6 +81,3 @@ taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 
 proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)
-
-maaseuduntulevaisuus.fi###advert-overlay
-maaseuduntulevaisuus.fi##html:style(overflow-y: auto !important)
