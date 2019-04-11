@@ -721,7 +721,6 @@ spring-tns.net$third-party
 ||readpeak.com$third-party
 ||yle.fi/initAdobeAnalytics
 ||karuselli.opiferum.com^
-||kaleva.fi*/smart_ads
 ||viestilehdet.fi/api/ip_check/
 ||ad.citycdn.fi^
 ||cuponation.fi/cn-track
