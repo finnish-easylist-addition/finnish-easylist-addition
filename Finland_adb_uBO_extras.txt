@@ -86,3 +86,4 @@ proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window
 ||fwmrm.net^*/admanager.js$domain=viafree.fi,important
 viafree.fi##+js(setTimeout-defuser.js, r, 0)
 viafree.fi##+js(addEventListener-defuser.js, error, (t,n))
+||cdn.ravenjs.com^$script,domain=viafree.fi
