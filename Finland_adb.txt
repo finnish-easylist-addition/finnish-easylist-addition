@@ -765,6 +765,7 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
+@@||tags.tiqcdn.com/utag/sanoma-fi/lifestyle/prod/utag.js$script,domain=www.meidanperhe.fi
 
 ! Unbreak radiot.fi
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=radiot.fi|tunnus.yle.fi
