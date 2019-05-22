@@ -518,6 +518,8 @@ uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
 uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
+vauva.fi###aldente-contentfeedhigh_0
+vauva.fi###aldente-native01_0
 voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
