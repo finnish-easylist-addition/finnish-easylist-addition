@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 201812171
+! Version: 201906201
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 17th of December 2018
+! Last modified: 20th of June 2019
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
