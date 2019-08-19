@@ -823,9 +823,10 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.
 
 ! To make viafree.fi videos to work without ads
 @@||fwmrm.net/ad/*$xmlhttprequest,domain=www.viafree.fi
+@@||fwmrm.net/ad/*$script,domain=www.viafree.fi
+@@||fwmrm.net/ad/*$image,domain=www.viafree.fi
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=www.viafree.fi
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
-@@||fwmrm.net/ad/*$script,domain=www.viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=www.viafree.fi
 
 ! block "sponsored articles"/"native ads" on some sites
