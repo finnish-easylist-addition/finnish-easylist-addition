@@ -650,7 +650,6 @@ spring-tns.net$third-party
 ||nr-data.net$third-party
 ||nugg.ad^
 ||outbrain.com$third-party
-||p.typekit.net^
 ||parkingcrew.net^
 ||partner.shareaholic.com^
 ! perfectmarket.com redirects to taboola.com.
