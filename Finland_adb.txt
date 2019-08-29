@@ -797,7 +797,8 @@ www.vr.fi##.headerContents > .infoMessages
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 
-! Nelonen Media video ads
+! Sanoma Oyj video ads
+||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4$media
 ||nelonenmedia.fi/ads/$media
 ||nelonenmedia-pmd-ads-manual.nm-stream.nelonenmedia.fi/$media
 ||nelonenmedia-pmd-ads-spotgate.nm-stream.nelonenmedia.fi/$media
