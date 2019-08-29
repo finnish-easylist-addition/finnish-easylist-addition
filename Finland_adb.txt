@@ -447,6 +447,7 @@ sfnix.net/api/
 ! snstatic.fi/webstatic/*/desktop-all.js
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
+studio55.fi##.ad-container.banner
 suomensanomat.fi##div[class="static-info"]
 suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
