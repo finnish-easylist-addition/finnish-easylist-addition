@@ -81,9 +81,3 @@ taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 
 proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)
-
-! Viafree - anti-adblock
-||fwmrm.net^*/admanager.js$domain=viafree.fi,important
-viafree.fi##+js(setTimeout-defuser.js, r, 0)
-viafree.fi##+js(addEventListener-defuser.js, error, (t,n))
-||cdn.ravenjs.com^$script,domain=viafree.fi
