@@ -529,7 +529,6 @@ vauva.fi###aldente-native01_0
 voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
-yle.fi/.*yle-analytics
 ylilauta.org##a[href="/kultatili"]
 ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
 xracing.fi##DIV[id="inner_commerce_container"]
@@ -697,7 +696,6 @@ spring-tns.net$third-party
 ||tradetracker.net^
 ||metrics.api.yle.fi^
 ||chcu.net^
-||analytics-sdk.yle.fi^
 ||nuuh.alma.iltalehti.fi^
 ||revimages.motouutiset.fi^
 ||buttons-for-website.com^
@@ -778,9 +776,6 @@ mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 
-! Unbreak radiot.fi
-@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=radiot.fi|tunnus.yle.fi
-
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
@@ -840,9 +835,6 @@ hs.fi#@#.mainos
 ! hs.fi#@#DIV[class^="advert"]
 ! https://www.hs.fi/aihe/mainokset/
 www.hs.fi#@#.mainokset
-
-! unbreak loading of a subcategory
-@@||analytics-sdk.yle.fi/yle-analytics.min.js$script,domain=areena.yle.fi
 
 ! unbreak "lue seuraavaksi" (read next) section
 ! broken by Easyprivacy & Fanboy's Annoyance List
