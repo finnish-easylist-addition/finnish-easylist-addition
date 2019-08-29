@@ -820,6 +820,7 @@ www.vr.fi##.headerContents > .infoMessages
 mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
 ||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
+@@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$script
 
 ! To make viafree.fi videos to work without ads
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
