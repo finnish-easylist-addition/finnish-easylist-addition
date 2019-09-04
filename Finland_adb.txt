@@ -280,6 +280,7 @@ hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 ilkka.fi/logger
 iltalehti.fi##div[class*="parade-ad-container"]
+iltalehti.fi##.jw-reset.jw-video
 iltalehti.fi##.slider-content
 iltalehti.fi##div[class="iframe-container"]
 @@||leiki.com$domain=iltalehti.fi
