@@ -280,7 +280,6 @@ hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 ilkka.fi/logger
 iltalehti.fi##div[class*="parade-ad-container"]
-iltalehti.fi##.jw-reset.jw-video
 iltalehti.fi##.slider-content
 iltalehti.fi##div[class="iframe-container"]
 @@||leiki.com$domain=iltalehti.fi
@@ -778,6 +777,7 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
+iltalehti.fi#@#.afs_ads
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
