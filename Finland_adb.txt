@@ -262,7 +262,6 @@ hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
 hinta.fi##a[href^="/ohjaus.php"]
 huoltovalikko.com##A[href="http://www.satshop.fi"]
-elisaviihde.fi##SECTION#cookie-warning[class="cookie-notification warning"]
 elisa.fi/img/content/*.mp4
 f1-forum.fi##img[src*="banneri"]
 f1-forum.fi##a[href*="netb11.com"]
@@ -878,7 +877,6 @@ www.finder.fi##.Advertisement__Box
 
 ! Alypaa.com unbreak and block ads in a better way
 @@||sestatic.net^$image,domain=alypaa.com
-||nelonenmedia.fi$domain=alypaa.com
 
 ! links to ad servers
 ##[href^="https://clk.tradedoubler.com/click"]
