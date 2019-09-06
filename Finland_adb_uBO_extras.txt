@@ -1,7 +1,7 @@
 ! Video ads
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/14#issuecomment-438683057
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/12#issuecomment-438682037
-||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+||damoh.katsomo.fi/*$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
 
 ! mobiili.fi small sponsored text
 mobiili.fi##p:has(small:has-text(Mainos:))
