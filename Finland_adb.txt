@@ -176,9 +176,11 @@ abounderrattelser.fi,åu.fi##DIV[class="jetpack-image-container"]
 abounderrattelser.fi,åu.fi##DIV[class="PasPopupCont"]
 abounderrattelser.fi,åu.fi##DIV[id="backgroundPasPopup"]
 abounderrattelser.fi,åu.fi##div[id*="popmake"]
-aijaa.com##a[href*="tradetracker"]
-aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
+aijaa.com##[href*="tradetracker"]
 aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
+aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
+aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
+aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
 almamedia.fi/alma-logo-pieni.png
 ampparit.com##div[class="header"]>div:first-child
 ampparit.com##div[class="ampparit-ticker"]
