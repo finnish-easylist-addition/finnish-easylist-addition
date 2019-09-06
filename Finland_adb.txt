@@ -777,6 +777,7 @@ kaleva.fi##DIV[id="kaleva-cookie-consent"]
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
+iltalehti.fi#@#.afs_ads
 
 ! https://bbs.io-tech.fi/threads/keskustelua-selainten-mainos-ja-yksityisyysestoista.692/page-10#post-3842308
 ! hintaseuranta elementit
