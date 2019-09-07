@@ -176,6 +176,7 @@ abounderrattelser.fi,åu.fi##DIV[class="jetpack-image-container"]
 abounderrattelser.fi,åu.fi##DIV[class="PasPopupCont"]
 abounderrattelser.fi,åu.fi##DIV[id="backgroundPasPopup"]
 abounderrattelser.fi,åu.fi##div[id*="popmake"]
+affiliate.guts.com/processing/clickthrgh.asp?btag=
 aijaa.com##a[href*="tradetracker"]
 aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
@@ -272,7 +273,7 @@ files.snstatic.fi/VMM/
 files.snstatic.fi/weba/
 files.snstatic.fi/*/lomakuumetta/*
 foreca.fi##DIV[class="top-banners"]
-affiliate.guts.com/processing/clickthrgh.asp?btag=
+google.fi##div#main > div.ZINbbc.xpd.O9g5cc.uUPGi
 hameenkaiku.fi##DIV[class="bannergroup"]
 high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
