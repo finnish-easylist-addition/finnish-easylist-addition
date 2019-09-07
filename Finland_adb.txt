@@ -148,9 +148,6 @@ tyda.se#@#DIV[class*="advert"]
 ! -----GENERAL END-----
 ! -----EXTENDED FILTERS-----
 
-! eu cookie stuff
-##DIV[class*="pea_cook_wrapper"]
-
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
