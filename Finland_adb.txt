@@ -63,7 +63,6 @@ nelonenmedia.fi/hitcounter
 /js/spring.js
 /js/common/spring
 /js/common/init-tns
-/eu_cookie_compliance.js
 /finnair-analytics/
 
 ###atwAdFrame
@@ -150,11 +149,7 @@ tyda.se#@#DIV[class*="advert"]
 ! -----EXTENDED FILTERS-----
 
 ! eu cookie stuff
-##DIV[id="cookieprivacy"]
 ##DIV[class*="pea_cook_wrapper"]
-
-st.mtv.fi/static/html/cookie-notification
-hbl.fi###ksf-gdpr-notice
 
 aamulehti.fi##div.adContainer
 aamulehti.fi##div[class="sidebar frontpageBottom"]
@@ -233,9 +228,7 @@ feissarimokat.com##LI[class*="shopster"]
 gamereactor.fi##div[id="eventad"]
 hardware.fi##DIV[class="top-ad-space"]
 hbl.fi##ksf-adblockers
-hastens.com##div[class="footer-cookies"]
 helsinginuutiset.fi,vihdinuutiset.fi##DIV[class*="lyads"]
-helsinginuutiset.fi,vihdinuutiset.fi##DIV[id="ensNotifyBanner"][class="ensNotifyBanner"]
 hs.fi###aldente-mobibanner01_0
 hs.fi###aldente-mobibanner02_0
 hs.fi###aldente-mobicontentfeedhigh_0
@@ -668,7 +661,6 @@ spring-tns.net$third-party
 ||sh.st^
 ||static.mvlehti.net/uploads/*/mvpremium-*.png$image
 ||simplereach.com^
-||sn.sanoma.fi/js/sccm/sccm.js
 ||stabx.net^
 ||stat.iltalehti.fi^
 ||statistics.talentum.com^
@@ -755,7 +747,6 @@ kaleva.fi##DIV[id="EAS_*"]
 kaleva.fi/static/common/js/spring
 kaleva.fi/static/rkfi/assets/js-min/ads
 kaleva.fi##div[class*="--juttusivu-markkinointi"]
-kaleva.fi##DIV[id="kaleva-cookie-consent"]
 
 ! mtv videoihin toimintavarmuutta
 @@||st.mtv.fi/static/javascripts/external-js/detectmobilebrowser.js?
