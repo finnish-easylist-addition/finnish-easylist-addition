@@ -442,8 +442,9 @@ dco-de.sanoma.fi/ussr-ts/sputnik
 ridemedia.fi/aspbanner
 riemurasia.net##div[id*="MTQyM"]
 riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
-www.riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
+riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
 ||www.riemurasia.net/images/tt/helppohinta.jpg$image
+riemurasia.net###PowerRectangle
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
