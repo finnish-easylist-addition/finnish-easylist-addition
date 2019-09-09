@@ -301,6 +301,7 @@ ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kansalainen.fi##div[id^="ads"]
 kansalainen.fi##div[id="text-html-widget-5"]
+kansanuutiset.fi##.intextad.clearfix.cb-module-block.cb-box.cb-a-large
 kansanuutiset.fi##A[href="http://www.autonvaraosastore.fi/"]
 kansanuutiset.fi##div[class*="intextad"]
 karjalainen.fi##center
