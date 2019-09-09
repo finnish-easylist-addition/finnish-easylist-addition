@@ -273,7 +273,7 @@ files.snstatic.fi/VMM/
 files.snstatic.fi/weba/
 files.snstatic.fi/*/lomakuumetta/*
 foreca.fi##DIV[class="top-banners"]
-google.fi##div#main > div.ZINbbc.xpd.O9g5cc.uUPGi
+google.fi,google.com##div#main > div.ZINbbc.xpd.O9g5cc.uUPGi
 hameenkaiku.fi##DIV[class="bannergroup"]
 high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
