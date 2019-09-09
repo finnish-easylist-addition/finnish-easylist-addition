@@ -335,6 +335,7 @@ mobiili.fi##div[id="fullcolumn"]>p:first-of-type
 mobiili.fi###text-67 > .textwidget
 mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
+mobiili.fi###header_ad22
 mobiili.fi###header_ad33
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
