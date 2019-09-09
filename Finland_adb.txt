@@ -161,8 +161,6 @@ aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
 aamulehti.fi/*/spring.js
 aamulehti.fi/*/alma_init_cjs.js
-aamulehti.fi##.huCagr.sc-fFTYTi
-aamulehti.fi##.fKjNmg.sc-kDhYZr
 aamulehti.fi##.parade-ad.ad
 www.aamulehti.fi###promo-1
 www.aamulehti.fi###promo-2
