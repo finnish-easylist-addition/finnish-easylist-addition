@@ -338,6 +338,7 @@ mobiili.fi##.article_ad_2
 mobiili.fi###header_ad33
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
+||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
 mvlehti.net##a[href*="affmore.com"]
 mvlehti.net##a[href*="redirect"]
 mvlehti.net##a[href*="honestpartners.com"]
