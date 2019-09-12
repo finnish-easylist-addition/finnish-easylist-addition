@@ -747,7 +747,7 @@ spring-tns.net$third-party
 ||ad.citycdn.fi^
 ||cuponation.fi/cn-track
 ||kuvake.net/js/ad-
-||www.is.fi/kampanjat/$image
+||www.is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
