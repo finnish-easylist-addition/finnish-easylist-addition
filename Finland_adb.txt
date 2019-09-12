@@ -453,6 +453,7 @@ suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
 suomif1.com##div[class*="-ad"]
 suomif1.com##div[class*="minilanding"]
+superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi/*/spring.js
 supersaa.fi##div[class^="supers-app-promo-container"]
 talentum.com/uratie/spring.js
