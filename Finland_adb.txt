@@ -742,6 +742,7 @@ spring-tns.net$third-party
 ||ad.citycdn.fi^
 ||cuponation.fi/cn-track
 ||kuvake.net/js/ad-
+||www.is.fi/kampanjat/$image
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
