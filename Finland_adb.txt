@@ -623,6 +623,7 @@ spring-tns.net$third-party
 ||herokuapp.com$third-party,domain=cultofmac.com
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
+||www.hs.fi/kampanjat/menokone/mikameno.gif$image
 ||honestpartners.com$third-party
 ||improveads.fi^
 ||justpremium.com$third-party
