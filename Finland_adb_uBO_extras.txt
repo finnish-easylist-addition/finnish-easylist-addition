@@ -42,6 +42,7 @@ www.iltalehti.fi##[href^="/thaimaaextra"]:has([src*="assets.ilcdn.fi/Nauha_Ranta
 www.iltalehti.fi##[href^="/unikulma/"]:has-text(Kaupallinen yhteistyö)
 www.iltalehti.fi##.block > .article-list-api-wrapper > .article-list > div > a > .article-container:has-text(Kaupallinen yhteistyö )
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/mainosnauha"])
+www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/mainosnauha"])
 
 ! suomi.fi kaupallinen yhteistyö
 www.iltalehti.fi##.drfront-full-article:has([src="https://assets.ilcdn.fi/f6d9bb889ba0d9fde55f3e67169fcbb61802a5597e5eb7e0765d262c6733dda6.jpg"])
