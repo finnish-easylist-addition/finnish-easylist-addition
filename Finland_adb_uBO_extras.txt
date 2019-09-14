@@ -47,6 +47,9 @@ www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat
 ! suomi.fi kaupallinen yhteistyö
 www.iltalehti.fi##.drfront-full-article:has([src="https://assets.ilcdn.fi/f6d9bb889ba0d9fde55f3e67169fcbb61802a5597e5eb7e0765d262c6733dda6.jpg"])
 
+! talouselama.fi kaupallinen yhteistyö
+www.talouselama.fi##div#skyscraper-height-div > div > aside > div > div:has-text(KAUPALLINEN YHTEISTYÖ)
+
 ! Tori.fi
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
