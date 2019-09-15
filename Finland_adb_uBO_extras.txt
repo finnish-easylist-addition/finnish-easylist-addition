@@ -58,6 +58,12 @@ www.kauppalehti.fi##div#skyscraper-height-div > main > aside > div > a:has-text(
 www.kauppalehti.fi##div#skyscraper-height-div > div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
 www.kauppalehti.fi##div#skyscraper-height-div > div > main > a:has-text(Kaupallinen yhteistyö)
 
+! marmai.fi - Commercial cooperation
+www.marmai.fi##div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
+www.marmai.fi##div#skyscraper-height-div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
+www.marmai.fi##div#skyscraper-height-div > div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
+www.marmai.fi##div#skyscraper-height-div > div > section > div > a:has-text(Kaupallinen yhteistyö)
+
 ! suomi.fi kaupallinen yhteistyö
 www.iltalehti.fi##.drfront-full-article:has([src="https://assets.ilcdn.fi/f6d9bb889ba0d9fde55f3e67169fcbb61802a5597e5eb7e0765d262c6733dda6.jpg"])
 
