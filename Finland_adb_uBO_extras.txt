@@ -52,6 +52,11 @@ www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
 ! Tivi.fi - Kaupallinen yhteistyö
 www.tivi.fi##.teaser-partner-blog:has-text(KAUPALLINEN YHTEISTYÖ: )
 www.tivi.fi##.section-partner:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > aside > a:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > section > div:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > div > aside > a:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > div > section > div:has-text(Kaupallinen yhteistyö)
 
 ! uusisuomi.fi - Kaupallinen yhteistyö
 www.uusisuomi.fi##div#skyscraper-height-div > div > main > div > a:has-text(Kaupallinen yhteistyö)
