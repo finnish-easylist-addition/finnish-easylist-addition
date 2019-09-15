@@ -250,7 +250,7 @@ hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
 hs.fi/stats
 hymy.fi##[href="http://www.finswingers.com/"]
-hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
+hymy.fi,alibi.fi##[href="https://www.paratiisi.fi/netchat.php"]
 is.fi/stats
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
@@ -582,6 +582,7 @@ giosg.com$domain=etuovi.com
 spring-tns.net$third-party
 ||24counter.com^
 ||ad.ilcdn.fi^
+||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
 ||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||adap.io^
