@@ -63,6 +63,13 @@ www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-t
 www.lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 www.lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-page-news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 
+! mediuutiset.fi - Commercial cooperation
+www.mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div:has-text(Kaupallinen yhteistyö)
+www.mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a:has-text(Kaupallinen yhteistyö)
+www.mediuutiset.fi##div#skyscraper-height-div > div > section > a:has-text(Kaupallinen yhteistyö)
+www.mediuutiset.fi##div#skyscraper-height-div > div > div:has-text(Kaupallinen Yhteistyö)
+www.mediuutiset.fi##div#root > div > div > div > div > div > div:has-text(Kaupallinen Yhteistyö)
+
 ! hs.fi - "Markkinapaikka" ad container
 www.hs.fi##.embedded:has-text(Markkinapaikka)
 
