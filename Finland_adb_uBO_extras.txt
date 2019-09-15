@@ -3,6 +3,11 @@
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/12#issuecomment-438682037
 ||damoh.katsomo.fi/*$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
 
+! arvopaperi.fi - Commercial cooperation
+www.arvopaperi.fi##div#skyscraper-height-div > div > aside > div > a:has-text(Kaupallinen yhteistyö)
+www.arvopaperi.fi##div#skyscraper-height-div > div > div > div > div > div > a:has-text(Kaupallinen yhteistyö)
+www.arvopaperi.fi##div#skyscraper-height-div > aside > div > a:has-text(Kaupallinen yhteistyö)
+
 ! mobiili.fi small sponsored text
 mobiili.fi##p:has(small:has-text(Mainos:))
 
