@@ -248,6 +248,7 @@ hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
 hs.fi/stats
+hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 is.fi/stats
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
