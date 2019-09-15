@@ -180,6 +180,7 @@ aijaa.com##a[href*="tradetracker"]
 aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
 almamedia.fi/alma-logo-pieni.png
+ampparit.com##.ticker_ad.ticker
 ampparit.com##div[class="header"]>div:first-child
 ampparit.com##div[class="ampparit-ticker"]
 ampparit.com##DIV[class*="ad-"]
