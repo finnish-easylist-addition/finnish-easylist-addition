@@ -248,6 +248,7 @@ hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
 hs.fi/tilasto/artikkeli
 hs.fi/stats
+hymy.fi##[href="http://www.finswingers.com/"]
 hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 is.fi/stats
 hifimaailma.fi##div[id="secondary"]
@@ -624,6 +625,7 @@ spring-tns.net$third-party
 ||hintaopas.fi$third-party
 ||hs.fi/kampanjat/menokone/mikameno.gif$image
 ||honestpartners.com$third-party
+||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
 ||justpremium.com$third-party
 ||kake.fi$third-party
