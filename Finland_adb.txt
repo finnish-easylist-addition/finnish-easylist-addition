@@ -640,6 +640,8 @@ spring-tns.net$third-party
 ||mailerlite2.com^
 ! not sure if this domain exists anymore markkinointikuuri.fi
 ||markkinointikuuri.fi^
+||www.superskills.fi/fi/search?isIframe=true$subdocument
+||www.superskills.fi/fi?isIframe=true$subdocument
 ||media.vuokraovi.com$third-party
 ||meetrics.net^
 ||metrics.gigantti.fi^
