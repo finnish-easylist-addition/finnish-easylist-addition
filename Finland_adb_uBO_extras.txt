@@ -55,6 +55,10 @@ www.iltalehti.fi##.drfront-full-article:has([src="https://assets.ilcdn.fi/f6d9bb
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
 
+! tekniikkatalous.fi Commercial cooperation
+www.tekniikkatalous.fi##div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
+www.tekniikkatalous.fi##div#skyscraper-height-div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
+
 ! Tivi.fi - Kaupallinen yhteistyö
 www.tivi.fi##.teaser-partner-blog:has-text(KAUPALLINEN YHTEISTYÖ: )
 www.tivi.fi##.section-partner:has-text(Kaupallinen yhteistyö)
