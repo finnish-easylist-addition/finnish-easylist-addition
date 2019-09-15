@@ -56,6 +56,7 @@ www.tivi.fi##div#skyscraper-height-div > aside > a:has-text(Kaupallinen yhteisty
 www.tivi.fi##div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 www.tivi.fi##div#skyscraper-height-div > section > div:has-text(Kaupallinen yhteistyö)
 www.tivi.fi##div#skyscraper-height-div > div > aside > a:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##div#skyscraper-height-div > div > section > div:has-text(Kaupallinen yhteistyö)
 
 ! Lapinkansa.fi - Commercial cooperation ("Kaupallinen yhteistyö") articles
 www.lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
