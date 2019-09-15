@@ -305,6 +305,7 @@ kauppalehti.fi/*/spring.js
 kauppalehti.fi/api/news/online/
 kauppalehti.fi##div[class="adcontainer"]
 kauppalehti.fi##iframe[class*="adcontainer"]
+kotiliesi.fi##.article-continues
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
 monster.almamedia.fi/nostobannerit/
