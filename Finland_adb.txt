@@ -140,7 +140,6 @@ tyda.se#@#DIV[class*="advert"]
 ##div[id="bottomads"]
 ##div[class="ad__content"]
 ##div[class="ad-banner"]
-##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
