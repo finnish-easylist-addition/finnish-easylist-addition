@@ -306,7 +306,6 @@ kauppalehti.fi##div[class="adcontainer"]
 kauppalehti.fi##iframe[class*="adcontainer"]
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
-monster.almamedia.fi/nostobannerit/
 kelkkalehti.com/bannerit/
 keskustelu.suomi24.fi##div.center-block.no-padding.lt-res-below-2.ad-fluid.ad-container.ad.keskustelu-column3-ad
 kuljetusnet.fi##div[id*="banner"]
@@ -646,6 +645,7 @@ spring-tns.net$third-party
 ||metrics.time.com^
 ||mktoresp.com^
 ||msads.net^
+||monster.almamedia.fi^nostobannerit/
 ||myroitracking.com^
 ||newrelic.com$third-party
 ||nix.telkku.com$third-party
