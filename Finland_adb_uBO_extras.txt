@@ -75,6 +75,8 @@ www.tivi.fi##div#skyscraper-height-div > aside > a:has-text(Kaupallinen yhteisty
 www.tivi.fi##div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 www.tivi.fi##div#skyscraper-height-div > div > aside > a:has-text(Kaupallinen yhteistyö)
 www.tivi.fi##div#skyscraper-height-div > div > section > div:has-text(Kaupallinen yhteistyö)
+www.tivi.fi##:xpath(//span[contains(text(),"Kaupallinen yhteistyö")]/../../../..)
+www.tivi.fi##:xpath(//h2[contains(text(),"Kaupallinen yhteistyö")]/../..)
 
 ! uusisuomi.fi - Kaupallinen yhteistyö
 www.uusisuomi.fi##div#skyscraper-height-div > div > main > div > a:has-text(Kaupallinen yhteistyö)
