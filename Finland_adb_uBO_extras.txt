@@ -34,8 +34,8 @@ www.iltalehti.fi##[href^="/rahoitufi/"]:has(.article-image-content):has([src*="s
 www.iltalehti.fi##[href^="/asumisartikkelit/"]:has(.article-banner):has([src*="assets.ilcdn.fi/asuminen_vattenfall_palkki.jpg"])
 www.iltalehti.fi##[href^="/kodin-turvallisuus/"]:has(img[src*="assets.ilcdn.fi/mainosnauha-asuminen-verisure.jpg"])
 www.iltalehti.fi##[href^="/matkajutut/"]:has(img[src*="assets.ilcdn.fi/Nauha_Rantapallo"])
-iltalehti.fi##[href^="https://www.rantapallo.fi/"]:has([src*="assets.ilcdn.fi/Nauha_Rantapallo_"])
-iltalehti.fi##[href^="/ruoka-artikkelit/a/"]:has([src*="static.ilcdn.fi/kuvat/nauhat/nauha_ky_pippuri_citymarket.jpg"])
+www.iltalehti.fi##[href^="https://www.rantapallo.fi/"]:has([src*="assets.ilcdn.fi/Nauha_Rantapallo_"])
+www.iltalehti.fi##[href^="/ruoka-artikkelit/a/"]:has([src*="static.ilcdn.fi/kuvat/nauhat/nauha_ky_pippuri_citymarket.jpg"])
 www.iltalehti.fi##.drfront-full-article:has-text(Kaupallinen yhteistyö Urakkamaailma: )
 www.iltalehti.fi##[href^="/thaimaaextra"]:has([src*="assets.ilcdn.fi/Nauha_Rantapallo_"])
 www.iltalehti.fi##[href^="/unikulma/"]:has-text(Kaupallinen yhteistyö)
@@ -48,6 +48,7 @@ www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/terve
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/ky_asuminen_unikulma.jpg"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/kaupallinenyhteistyo"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers_uusi.jpg"])
+www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/ky-matkailu-bestcaravan.jpg"])
 
 ! kauppalehti.fi - Commercial cooperation
 www.kauppalehti.fi##div#skyscraper-height-div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
