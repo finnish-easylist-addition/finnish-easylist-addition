@@ -63,6 +63,7 @@ www.iltalehti.fi##.drfront-full-article:has([src="https://assets.ilcdn.fi/f6d9bb
 
 ! talouselama.fi kaupallinen yhteistyö
 www.talouselama.fi##div#skyscraper-height-div > div > aside > div > div:has-text(KAUPALLINEN YHTEISTYÖ)
+www.talouselama.fi##div#skyscraper-height-div > section > div > div:has([src*="assets.almatalent.fi/static/podcasts/te/Privanet/privanet-podcast.jpg"]):has-text(Kaupallinen Yhteistyö)
 
 ! Tori.fi
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
