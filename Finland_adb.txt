@@ -232,23 +232,24 @@ hs.fi###aldente-mobibanner01_0
 hs.fi###aldente-mobibanner02_0
 hs.fi###aldente-mobicontentfeedhigh_0
 hs.fi##.aldente-wrapper
-hs.fi##DIV[class*="ad-container"]
-hs.fi##DIV[class*="-ad-block"]
+hs.fi##div#page-main-content.lane.main-position > div.block > article.teaser.full-width > a.teaser-main-article.block-link[href^="https://www.hs.fi/menokone/"]
 hs.fi##DIV#story-package-container[class="story-package"]
-hs.fi/webstatic/images/clear1x1.gif
+hs.fi##DIV[class*="-ad-block"]
+hs.fi##DIV[class*="ad-container"]
 hs.fi##DIV[class="corporate-footer"]
 hs.fi##DIV[class="embedded-ad ad-small pull-back"]
-hs.fi##DIV[id="javascript-disabled-error"]
-hs.fi##DIV[class="tracking-pixel"]
-hs.fi##DIV[id="outside-ads"]
-hs.fi##div[id="order-campaign-element"]
 hs.fi##div[class="for-no-subscription"]
+hs.fi##DIV[class="tracking-pixel"]
 hs.fi##div[id="christmas-campaign-element"]
-hs.fi##div[id="oikotie_asunnot_box_iframe"]
-hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
-hs.fi/tilasto/artikkeli
+hs.fi##DIV[id="javascript-disabled-error"]
+hs.fi##div[id="multi-ad-area"]
+hs.fi##div[id="oikotie_asunnot_box_iframe"]
+hs.fi##div[id="order-campaign-element"]
+hs.fi##DIV[id="outside-ads"]
 hs.fi/stats
+hs.fi/tilasto/artikkeli
+hs.fi/webstatic/images/clear1x1.gif
 hymy.fi##[href="http://www.finswingers.com/"]
 hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 is.fi/stats
