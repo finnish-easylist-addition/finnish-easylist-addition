@@ -434,6 +434,8 @@ rakentaja.fi##div[id="mast_liity_modal"]
 rakentaja.fi##img[id="js_ad"]
 rakentaja.fi##div[id="kauppa_hot"]
 rakentaja.fi##div[id^="banner"]
+rantapallo.fi###lomakone-results-horizontal-ads-3
+rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 sammysatv.com##center
 sammysatv.com##a[href*="banner"]
