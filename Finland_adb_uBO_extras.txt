@@ -47,6 +47,7 @@ www.iltalehti.fi##div.mc-half-article:has-text(Kaupallinen yhteistyö)
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/terveys_palkki_vitaelab_kaupallinenyht.jpg"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/ky_asuminen_unikulma.jpg"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/kaupallinenyhteistyo"])
+www.iltalehti.fi##[href^="https://plus.iltalehti.fi/nakoislehti/?utm_source=www.iltalehti.fi&utm_medium=referral&utm_campaign=PromoOikea&utm_content=nakoislehti"]:has-text(Näköislehti ja teemalehdet arkistoineen sekä paljon muuta monipuolista sisältöä)
 
 ! kauppalehti.fi - Commercial cooperation
 www.kauppalehti.fi##div#skyscraper-height-div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
