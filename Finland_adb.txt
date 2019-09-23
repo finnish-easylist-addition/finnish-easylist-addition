@@ -346,6 +346,8 @@ lansivayla.fi##DIV[class="region region-sidebar-first-bottom column sidebar"]
 mediagraph.com/*/log.gif
 mediagraph.com/*1x1.png
 moottori.fi##div[class*="torifi_banner"]
+moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
+moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottoripyora.org###mainoskuva
 moottoripyora.org##DIV#topbanners
 moottoripyora.org##DIV#ad-top
