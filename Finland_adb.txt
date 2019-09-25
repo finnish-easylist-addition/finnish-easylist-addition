@@ -446,6 +446,8 @@ satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
 seiska.fi##div.article-ad-container
+sketsi.net##.tdt-minilanding.tdt-manager-element
+sketsi.net##footer > .container.tdt-ad-wrap
 sfnix.net/api/
 ! snstatic.fi/webstatic/*/desktop-all.js
 stream.almamedia.fi/mp/salsabanner
