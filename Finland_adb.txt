@@ -624,7 +624,8 @@ spring-tns.net$third-party
 ||herokuapp.com$third-party,domain=cultofmac.com
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
-||hs.fi/kampanjat/menokone/mikameno.gif$image
+||hs.fi/kampanjat/menokone/*.jpg
+||hs.fi/kampanjat/menokone/*.gif
 ||honestpartners.com$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
