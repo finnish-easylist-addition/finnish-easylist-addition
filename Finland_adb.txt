@@ -324,6 +324,9 @@ metropoli.net##DIV[id="ad-1000"]
 metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
+metropoli.net###tdt_widget_minilanding-7
+metropoli.net##.tdt-desktop-ad.tdt-floating.tdt-manager-element
+metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
 mikrobitti.fi##DIV[id="rosmo"]
 mobiili.fi##div[class="blogcontent"]>p:first-of-type
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
