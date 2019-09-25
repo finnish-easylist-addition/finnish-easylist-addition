@@ -22,6 +22,9 @@ www.aamulehti.fi##DIV[id^="morearticles_"]:has(h2:has(span:has-text(Kaupallinen 
 ! anti adblock killer
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##script:inject(setTimeout-defuser.js, adblockDetected, 0)
 
+! metropoli.net
+metropoli.net##.single-post-content.clearfix.entry-content > h4:has([href*="https://www.metropoli.net/rahapelit/rahapeliuutiset/"])
+
 ! Mikrobitti anti adblock
 mikrobitti.fi##+js(setTimeout-defuser.js)
 
