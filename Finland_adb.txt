@@ -140,7 +140,6 @@ tyda.se#@#DIV[class*="advert"]
 ##div[id="bottomads"]
 ##div[class="ad__content"]
 ##div[class="ad-banner"]
-##div.ALMACR-container
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
@@ -233,25 +232,26 @@ hs.fi###aldente-mobibanner01_0
 hs.fi###aldente-mobibanner02_0
 hs.fi###aldente-mobicontentfeedhigh_0
 hs.fi##.aldente-wrapper
-hs.fi##DIV[class*="ad-container"]
-hs.fi##DIV[class*="-ad-block"]
+hs.fi##div#page-main-content.lane.main-position > div.block > article.teaser.full-width > a.teaser-main-article.block-link[href^="https://www.hs.fi/menokone/"]
 hs.fi##DIV#story-package-container[class="story-package"]
-hs.fi/webstatic/images/clear1x1.gif
+hs.fi##DIV[class*="-ad-block"]
+hs.fi##DIV[class*="ad-container"]
 hs.fi##DIV[class="corporate-footer"]
 hs.fi##DIV[class="embedded-ad ad-small pull-back"]
-hs.fi##DIV[id="javascript-disabled-error"]
-hs.fi##DIV[class="tracking-pixel"]
-hs.fi##DIV[id="outside-ads"]
-hs.fi##div[id="order-campaign-element"]
 hs.fi##div[class="for-no-subscription"]
+hs.fi##DIV[class="tracking-pixel"]
 hs.fi##div[id="christmas-campaign-element"]
-hs.fi##div[id="oikotie_asunnot_box_iframe"]
-hs.fi##div[id="multi-ad-area"]
 hs.fi##div[id="hsonfb-links"]
-hs.fi/tilasto/artikkeli
+hs.fi##DIV[id="javascript-disabled-error"]
+hs.fi##div[id="multi-ad-area"]
+hs.fi##div[id="oikotie_asunnot_box_iframe"]
+hs.fi##div[id="order-campaign-element"]
+hs.fi##DIV[id="outside-ads"]
 hs.fi/stats
+hs.fi/tilasto/artikkeli
+hs.fi/webstatic/images/clear1x1.gif
 hymy.fi##[href="http://www.finswingers.com/"]
-hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
+hymy.fi,alibi.fi##[href="https://www.paratiisi.fi/netchat.php"]
 is.fi/stats
 hifimaailma.fi##div[id="secondary"]
 hifimaailma.fi##div[class="kake"]
@@ -305,6 +305,7 @@ kauppalehti.fi/*/spring.js
 kauppalehti.fi/api/news/online/
 kauppalehti.fi##div[class="adcontainer"]
 kauppalehti.fi##iframe[class*="adcontainer"]
+kotiliesi.fi##.article-continues
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
 monster.almamedia.fi/nostobannerit/
@@ -433,6 +434,8 @@ rakentaja.fi##div[id="mast_liity_modal"]
 rakentaja.fi##img[id="js_ad"]
 rakentaja.fi##div[id="kauppa_hot"]
 rakentaja.fi##div[id^="banner"]
+rantapallo.fi###lomakone-results-horizontal-ads-3
+rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 sammysatv.com##center
 sammysatv.com##a[href*="banner"]
@@ -448,6 +451,7 @@ satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
+seiska.fi##.category-container--commercial.category-container.container-fluid
 seiska.fi##div.article-ad-container
 sketsi.net##.tdt-minilanding.tdt-manager-element
 sketsi.net##footer > .container.tdt-ad-wrap
@@ -476,6 +480,7 @@ talouselama.fi##DIV[class="adDisclaimer afterAd"]
 talouselama.fi##DIV[class="SamBanner"]
 tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.commercial-bottom.commercial
+tekniikanmaailma.fi##.NoAdBlocker_main
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#uratie-box-header
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samBanner"]
 tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samContent"]
@@ -590,6 +595,7 @@ giosg.com$domain=etuovi.com
 spring-tns.net$third-party
 ||24counter.com^
 ||ad.ilcdn.fi^
+||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
 ||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||adap.io^
@@ -649,6 +655,8 @@ spring-tns.net$third-party
 ||mailerlite2.com^
 ! not sure if this domain exists anymore markkinointikuuri.fi
 ||markkinointikuuri.fi^
+||www.superskills.fi/fi/search?isIframe=true$subdocument
+||www.superskills.fi/fi?isIframe=true$subdocument
 ||media.vuokraovi.com$third-party
 ||meetrics.net^
 ||metrics.gigantti.fi^
