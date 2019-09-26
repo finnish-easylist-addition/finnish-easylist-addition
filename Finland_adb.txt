@@ -719,7 +719,6 @@ spring-tns.net$third-party
 ||stats.fonecta.fi^
 ||taboola.com^
 ||tag.researchnow.com^
-||tags.tiqcdn.com/utag/*.js$domain=cnet.com|weather.com|greenmangaming.com,script
 ||tagsrvcs.com^
 ||telsu.fi$third-party
 ||ultimategracelessness.info^
