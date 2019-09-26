@@ -172,6 +172,7 @@ aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/Media
 aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
 aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
+alibi.fi##.magazineorderwidget__content
 almamedia.fi/alma-logo-pieni.png
 ampparit.com##.ticker_ad.ticker
 ampparit.com##div[class="header"]>div:first-child
@@ -324,6 +325,9 @@ metropoli.net##DIV[id="ad-1000"]
 metropoli.net##LI[id*="_ad"]
 metropoli.net##a[href*="nordicbet"]
 metropoli.net##LI[class*="-ad"]
+metropoli.net###tdt_widget_minilanding-7
+metropoli.net,sketsi.net##.tdt-desktop-ad.tdt-floating.tdt-manager-element
+metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
 mikrobitti.fi##DIV[id="rosmo"]
 mobiili.fi##div[class="blogcontent"]>p:first-of-type
 mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
@@ -346,6 +350,8 @@ lansivayla.fi##DIV[class="region region-sidebar-first-bottom column sidebar"]
 mediagraph.com/*/log.gif
 mediagraph.com/*1x1.png
 moottori.fi##div[class*="torifi_banner"]
+moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
+moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottoripyora.org###mainoskuva
 moottoripyora.org##DIV#topbanners
 moottoripyora.org##DIV#ad-top
@@ -443,6 +449,8 @@ satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
 savonsanomat.fi##DIV[class*="customAd"]
 seiska.fi##div.article-ad-container
+sketsi.net##.tdt-minilanding.tdt-manager-element
+sketsi.net##footer > .container.tdt-ad-wrap
 sfnix.net/api/
 ! snstatic.fi/webstatic/*/desktop-all.js
 stream.almamedia.fi/mp/salsabanner
@@ -624,7 +632,8 @@ spring-tns.net$third-party
 ||herokuapp.com$third-party,domain=cultofmac.com
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
-||hs.fi/kampanjat/menokone/mikameno.gif$image
+||hs.fi/kampanjat/menokone/*.jpg
+||hs.fi/kampanjat/menokone/*.gif
 ||honestpartners.com$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
