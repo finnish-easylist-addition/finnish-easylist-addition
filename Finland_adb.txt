@@ -153,7 +153,7 @@ aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
 aamulehti.fi/*/spring.js
 aamulehti.fi/*/alma_init_cjs.js
 aamulehti.fi##.parade-ad.ad
-aamulehti.fi###bottomBanner
+aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
 aamulehti.fi###promo-1
 aamulehti.fi###promo-2
 aamuset.fi##DIV#block-views-etusivukaruselli-block
