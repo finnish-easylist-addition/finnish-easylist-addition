@@ -545,7 +545,6 @@ voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
 ylilauta.org##a[href="/kultatili"]
-ylilauta.org##div[id="right"]>div[class="center"]>a[target="_blank"]
 xracing.fi##DIV[id="inner_commerce_container"]
 xracing.fi##DIV[class="menu_commerce_container"]
 xracing.fi##DIV[class="top_commerce_container"]
