@@ -348,6 +348,8 @@ mvlehti.net##div[id="_hj_poll_container"]
 mvlehti.net##div[id*="ads-"]
 lansivayla.fi##DIV[class="region region-sidebar-karuselli-ad column sidebar"]
 lansivayla.fi##DIV[class="region region-sidebar-first-bottom column sidebar"]
+maaseutumedia.fi##.header_banner
+maaseutumedia.fi##.textwidget
 mediagraph.com/*/log.gif
 mediagraph.com/*1x1.png
 moottori.fi##div[class*="torifi_banner"]
