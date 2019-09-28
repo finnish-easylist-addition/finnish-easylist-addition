@@ -311,6 +311,7 @@ kukasoitti.com##DIV[class="main-bottom"]
 monster.almamedia.fi/nostobannerit/
 kelkkalehti.com/bannerit/
 keskustelu.suomi24.fi##div.center-block.no-padding.lt-res-below-2.ad-fluid.ad-container.ad.keskustelu-column3-ad
+keskustelu.suomi24.fi##.KJPUp.SeiskaRSSNews-sc-1l1e73s-4
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
 kuopionkirppari.fi##DIV[class*="banner"]
