@@ -430,6 +430,9 @@ pt-media.org##.wpcnt-header.wpcnt
 pt-media.org##.theiaStickySidebar > .wpcnt
 pt-media.org###main > .wpcnt > .wpa
 pt-media.org##.entry-content > .wpcnt
+puheenvuoro.uusisuomi.fi##a.single-commercial-blog-card
+puheenvuoro.uusisuomi.fi##.side-list.commercial-blog-studio
+puheenvuoro.uusisuomi.fi##.gray.commercial-blog-card
 radiopori.fi##div[class*="simpleads"]
 radiopori.fi##div[id*="mainospaikka"]
 pku.fi##ASIDE[class*="adrotate"]
