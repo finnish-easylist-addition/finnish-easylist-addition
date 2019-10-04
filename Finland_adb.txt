@@ -454,6 +454,7 @@ riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
 riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
 ||www.riemurasia.net/images/tt/helppohinta.jpg$image
 riemurasia.net###PowerRectangle
+||m.riemurasia.net/reklaami.php$subdocument
 satakunnankansa.fi##DIV[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##DIV[class^="adContainer"]
 savonsanomat.fi##DIV[class="uutiskirje"]
