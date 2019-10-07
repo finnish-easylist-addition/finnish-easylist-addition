@@ -541,6 +541,14 @@ uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
 vauva.fi###aldente-contentfeedhigh_0
 vauva.fi###aldente-native01_0
+viikonloppu.com###text-10 > .textwidget
+viikonloppu.com###text-8
+viikonloppu.com###text-9
+viikonloppu.com##.tag-kasino.category-uutiset.sticky
+viikonloppu.com##.tag-rizk.category-uutiset.sticky
+viikonloppu.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
+viikonloppu.com##[href="https://www.lainaovi.fi/lainalaskuri/"]
+viikonloppu.com##[href^="http://wlrizk.adsrv.eacdn.com/C.ashx"]
 voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
