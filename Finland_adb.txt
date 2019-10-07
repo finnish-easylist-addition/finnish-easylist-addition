@@ -316,6 +316,7 @@ keskustelu.suomi24.fi##div.center-block.no-padding.lt-res-below-2.ad-fluid.ad-co
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
 kuopionkirppari.fi##DIV[class*="banner"]
+lapinkansa.fi###outstream-container
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
 loimaanlehti.fi##div[class*="art-sidebar2"]>div[id*="black-studio-tinymce"]
 maalampofoorumi.fi##DIV[id="sponsor"]
