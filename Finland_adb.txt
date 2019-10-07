@@ -548,7 +548,8 @@ viikonloppu.com##.tag-kasino.category-uutiset.sticky
 viikonloppu.com##.tag-rizk.category-uutiset.sticky
 viikonloppu.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 viikonloppu.com##[href="https://www.lainaovi.fi/lainalaskuri/"]
-viikonloppu.com##[href^="http://wlrizk.adsrv.eacdn.com/C.ashx"]
+viikonloppu.com##[href*="http://wlrizk.adsrv.eacdn.com/"]
+viikonloppu.com##[href*="https://record.twinaffiliates.com/"]
 voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
