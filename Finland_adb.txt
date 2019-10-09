@@ -544,6 +544,7 @@ vauva.fi###aldente-native01_0
 viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
+viikonloppu.com###ticker
 viikonloppu.com##.tag-kasino.category-uutiset.sticky
 viikonloppu.com##.tag-rizk.category-uutiset.sticky
 viikonloppu.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
