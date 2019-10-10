@@ -177,6 +177,7 @@ ampparit.com##.ticker_ad.ticker
 ampparit.com##div[class="header"]>div:first-child
 ampparit.com##div[class="ampparit-ticker"]
 ampparit.com##DIV[class*="ad-"]
+ampparit.com##.ticker2--bottom.ticker2
 anna.fi##div[class*="sisaltoyhteistyo"]
 arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##DIV[class="interstitial"]
