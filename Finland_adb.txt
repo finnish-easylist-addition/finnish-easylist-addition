@@ -541,6 +541,7 @@ uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
 vauva.fi###aldente-contentfeedhigh_0
 vauva.fi###aldente-native01_0
+vauva.fi##div.cts-row-wrapper
 voice.fi##div[class*="cxense-ad-container"]
 vihreat.fi##DIV[id="block-simpleads-sidebar-ads"][class="block block-simpleads"]
 pls.webtype.com/v.gif
