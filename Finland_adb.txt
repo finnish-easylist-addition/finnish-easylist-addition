@@ -177,6 +177,7 @@ ampparit.com##.ticker_ad.ticker
 ampparit.com##div[class="header"]>div:first-child
 ampparit.com##div[class="ampparit-ticker"]
 ampparit.com##DIV[class*="ad-"]
+ampparit.com##.ticker2--bottom.ticker2
 anna.fi##div[class*="sisaltoyhteistyo"]
 arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##DIV[class="interstitial"]
@@ -306,6 +307,7 @@ kauppalehti.fi/api/news/online/
 kauppalehti.fi##div[class="adcontainer"]
 kauppalehti.fi##iframe[class*="adcontainer"]
 kotiliesi.fi##.article-continues
+kotimikro.fi##.campaign-teaser-show
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
 monster.almamedia.fi/nostobannerit/
@@ -541,6 +543,7 @@ uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
 vauva.fi###aldente-contentfeedhigh_0
 vauva.fi###aldente-native01_0
+vauva.fi##div.cts-row-wrapper
 viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
