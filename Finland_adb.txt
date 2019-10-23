@@ -546,6 +546,9 @@ uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
 uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
+vapaavuoro.uusisuomi.fi##a.single-commercial-blog-card
+vapaavuoro.uusisuomi.fi##.gray.commercial-blog-card
+vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 vauva.fi###aldente-contentfeedhigh_0
 vauva.fi###aldente-native01_0
 vauva.fi##div.cts-row-wrapper
