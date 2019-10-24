@@ -395,6 +395,7 @@ mtv.fi/static/javascripts/external-js/*.js
 mtv.fi##div[class="leaderboard"]
 mtv.fi##DIV[class*="ad-container"]
 mtvuutiset.fi###leaderboard-2
+mtvuutiset.fi##.ad-container.banner
 mtvuutiset.fi##.ad_fadein
 mtvuutiset.fi##.component-adincontent.component
 mtvuutiset.fi##.leaderboard-1.leaderboard
