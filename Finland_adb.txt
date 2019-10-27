@@ -560,9 +560,9 @@ viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
 viikonloppu.com###ticker
-viikonloppu.com##.tag-kasino.category-uutiset.sticky
-viikonloppu.com##.tag-rizk.category-uutiset.sticky
-viikonloppu.com##.tag-eurojackpot.category-uutiset.sticky
+viikonloppu.com##.tag-kasino.category-uutiset
+viikonloppu.com##.tag-rizk.category-uutiset
+viikonloppu.com##.tag-eurojackpot.category-uutiset
 viikonloppu.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 viikonloppu.com##[href="https://www.lainaovi.fi/lainalaskuri/"]
 viikonloppu.com##[href*="http://wlrizk.adsrv.eacdn.com/"]
