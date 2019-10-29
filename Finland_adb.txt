@@ -173,11 +173,8 @@ aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
 alibi.fi##.magazineorderwidget__content
 almamedia.fi/alma-logo-pieni.png
-ampparit.com##.ticker_ad.ticker
-ampparit.com##div[class="header"]>div:first-child
-ampparit.com##div[class="ampparit-ticker"]
 ampparit.com##DIV[class*="ad-"]
-ampparit.com##.ticker2--bottom.ticker2
+ampparit.com##div[class*="ticker"]
 anna.fi##div[class*="sisaltoyhteistyo"]
 arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##DIV[class="interstitial"]
