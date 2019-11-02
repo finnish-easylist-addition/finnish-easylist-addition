@@ -420,6 +420,7 @@ api.pinterest.com/*/count.json
 mpmaailma.fi/*/ad/serve.php
 pastebin.com##div#abrpm
 pelaajalehti.com###wallpaper
+pelikone.fi##.preroll-text
 pelit.fi##.eaf_wrap
 pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
