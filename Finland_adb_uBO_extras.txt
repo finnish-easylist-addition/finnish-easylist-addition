@@ -130,6 +130,7 @@ anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
 kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
 kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
 venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
+vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
 
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
 
