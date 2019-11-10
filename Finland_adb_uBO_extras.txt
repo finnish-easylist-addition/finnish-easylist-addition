@@ -61,6 +61,7 @@ www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/ky-ma
 www.iltalehti.fi##[href^="https://plus.iltalehti.fi/nakoislehti/?utm_source=www.iltalehti.fi&utm_medium=referral&utm_campaign=PromoOikea&utm_content=nakoislehti"]:has-text(Näköislehti ja teemalehdet arkistoineen sekä paljon muuta monipuolista sisältöä)
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/ky_terveys"])
 www.iltalehti.fi##.default.drfront-full-article:has([href*="clark-taloutesi-tukena"])
+www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_asuminen"])
 
 ! kauppalehti.fi - Commercial cooperation
 www.kauppalehti.fi##div#skyscraper-height-div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
@@ -129,6 +130,7 @@ anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
 kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
 kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
 venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
+vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
 
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
 
@@ -139,3 +141,8 @@ taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 
 proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)
+
+voice.fi
+www.voice.fi##div.item:has-text(Sponsoroitu)
+www.voice.fi##.articles-container:has-text(SPONSOROITU)
+www.voice.fi##section.full-size-list.sbs-articleitems:has-text(Kaupalliset yhteistyöt)
