@@ -56,11 +56,11 @@ www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/terve
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/ky_asuminen"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/kaupallinenyhteistyo"])
 www.iltalehti.fi##.title:xpath(//div[contains(text(), 'Kaupallinen yhteistyö')]):xpath(../../..)
-
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers_uusi.jpg"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/ky-matkailu-bestcaravan.jpg"])
 www.iltalehti.fi##[href^="https://plus.iltalehti.fi/nakoislehti/?utm_source=www.iltalehti.fi&utm_medium=referral&utm_campaign=PromoOikea&utm_content=nakoislehti"]:has-text(Näköislehti ja teemalehdet arkistoineen sekä paljon muuta monipuolista sisältöä)
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/ky_terveys"])
+www.iltalehti.fi##.default.drfront-full-article:has([href*="clark-taloutesi-tukena"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_asuminen"])
 
 ! kauppalehti.fi - Commercial cooperation
