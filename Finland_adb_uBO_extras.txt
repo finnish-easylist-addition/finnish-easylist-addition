@@ -144,7 +144,7 @@ taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.
 
 proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)
 
-voice.fi
+! voice.fi
 www.voice.fi##div.item:has-text(Sponsoroitu)
 www.voice.fi##.articles-container:has-text(SPONSOROITU)
 www.voice.fi##section.full-size-list.sbs-articleitems:has-text(Kaupalliset yhteistyöt)
