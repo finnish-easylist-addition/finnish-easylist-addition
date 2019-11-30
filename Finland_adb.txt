@@ -271,6 +271,7 @@ high.fi##div[class*="sub-container"]
 hinta.fi##div[class="hv-wrapper-right-item"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 ilkka.fi/logger
+iltalehti.fi##.center.category-list-embed.is-visible.LazyLoad
 iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##.slider-content
 iltalehti.fi##div[class="iframe-container"]
