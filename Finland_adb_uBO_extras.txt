@@ -34,10 +34,8 @@ metropoli.net##.single-post-content.clearfix.entry-content > h4:has([href*="http
 mikrobitti.fi##+js(setTimeout-defuser.js)
 
 ! Iltalehti.fi - Kaupallinen yhteistyö
-www.iltalehti.fi##[href^="/omaguru/"]:has(.article-container:has-text(Kaupallinen yhteistyö: ))
-www.iltalehti.fi##[href^="/hintaopas/"]:has(.article-container:has-text(Kaupallinen yhteistyö Hintaopas: ))
 www.iltalehti.fi##.default.drfront-full-article:has([href^="/hintaopas/"]):has(img[src*="assets.ilcdn.fi/mainosnauhta_digi_hintaopas.jpg"])
-www.iltalehti.fi##div.article-container:has-text(Kaupallinen yhteistyö: ):has([href^="/omaguru/"])
+www.iltalehti.fi##.article-container:has-text(Kaupallinen yhteistyö)
 www.iltalehti.fi##[href^="/rahoitufi/"]:has(.article-image-content):has([src*="static.ilcdn.fi/kuvat/nauhat/mainosnauha-asuminen-rahoitufi.jpg"])
 www.iltalehti.fi##[href^="/asumisartikkelit/"]:has(.article-banner):has([src*="assets.ilcdn.fi/asuminen_vattenfall_palkki.jpg"])
 www.iltalehti.fi##[href^="/kodin-turvallisuus/"]:has(img[src*="assets.ilcdn.fi/mainosnauha-asuminen-verisure.jpg"])
@@ -47,7 +45,6 @@ www.iltalehti.fi##[href^="/ruoka-artikkelit/a/"]:has([src*="static.ilcdn.fi/kuva
 www.iltalehti.fi##.drfront-full-article:has-text(Kaupallinen yhteistyö Urakkamaailma: )
 www.iltalehti.fi##[href^="/thaimaaextra"]:has([src*="assets.ilcdn.fi/Nauha_Rantapallo_"])
 www.iltalehti.fi##[href^="/unikulma/"]:has-text(Kaupallinen yhteistyö)
-www.iltalehti.fi##.block > .article-list-api-wrapper > .article-list > div > a > .article-container:has-text(Kaupallinen yhteistyö )
 www.iltalehti.fi##.default.drfront-full-article:has([src*="assets.ilcdn.fi/mainosnauha"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="static.ilcdn.fi/kuvat/nauhat/mainosnauha"])
 www.iltalehti.fi##.mc-full-article:has-text(Kaupallinen yhteistyö)
