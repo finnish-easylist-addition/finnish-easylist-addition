@@ -64,6 +64,9 @@ www.iltalehti.fi##.default.drfront-full-article:has([href*="clark-taloutesi-tuke
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_asuminen"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_uutiset_suomenmoneta"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_terveys_specsavers"])
+www.iltalehti.fi##.default.drfront-full-article:has-text(Kaupallinen yhteistyö)
+www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_autot_delta"])
+www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_hyvaolo_harmonia"])
 
 ! kauppalehti.fi - Commercial cooperation
 www.kauppalehti.fi##div#skyscraper-height-div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
