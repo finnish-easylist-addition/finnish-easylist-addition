@@ -307,6 +307,7 @@ kotiliesi.fi##.article-continues
 kotimikro.fi##.campaign-teaser-show
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##DIV[class="main-bottom"]
+kuvake.net###ticker
 monster.almamedia.fi/nostobannerit/
 kelkkalehti.com/bannerit/
 keskustelu.suomi24.fi##div.center-block.no-padding.lt-res-below-2.ad-fluid.ad-container.ad.keskustelu-column3-ad
