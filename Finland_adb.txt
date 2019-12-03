@@ -732,6 +732,7 @@ spring-tns.net$third-party
 ||vihreat.fi/?q=node/*/stats/impression
 ||visitanalytics.userreport.com^
 ||visualwebsiteoptimizer.com/v.gif
+||vg.is.fi/autotie-is-etusivu/$subdocument
 ||w55c.net^
 ||whitewall.fi$third-party
 ||widget.specsify.net$third-party
