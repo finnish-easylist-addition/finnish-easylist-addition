@@ -287,6 +287,7 @@ is.fi##iframe[data-original*="adserve.io"]
 is.fi##iframe[data-original*="://www.is.fi/kampanjat/promo/nostot"]
 is.fi##div[class="multiBoxAd"]
 is.fi##table[id="kumppaneiden-tarjoukset"]
+is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kansalainen.fi##div[id^="ads"]
