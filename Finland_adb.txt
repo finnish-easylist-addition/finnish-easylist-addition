@@ -987,12 +987,6 @@ tjareborg.fi#@#.push-container
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
 
-
-! Adguard's Annoyance List
-
-xxl.fi#@#.cookiewarning:not(body)
-xxl.fi#@#.cookiewarning:not(body):not(html)
-
 ! -----UNBREAK END-----
 
 ! Ad container
