@@ -281,6 +281,7 @@ static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
 iltapulu.fi##div[class="footer-ylempi"]
 is.fi/*spring*.js
+is.fi###kumppaneiden-tarjoukset
 is.fi##article[class*="is-advertorial"]
 is.fi##div[class^="block adRow"]
 is.fi##iframe[data-original*="://vg.is.fi"]
