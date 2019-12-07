@@ -569,6 +569,7 @@ viikonloppu.com###ticker
 viikonloppu.com##.tag-kasino.category-uutiset
 viikonloppu.com##.tag-rizk.category-uutiset
 viikonloppu.com##.tag-eurojackpot.category-uutiset
+viikonloppu.com##.tag-nettikasino.category-uutiset
 viikonloppu.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 viikonloppu.com##[href="https://www.lainaovi.fi/lainalaskuri/"]
 viikonloppu.com##[href*="http://wlrizk.adsrv.eacdn.com/"]
