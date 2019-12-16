@@ -51,6 +51,7 @@ www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/kuvat/nauhat
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/kuvat/nauhat/ky_"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky-"])
 www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/ky_"])
+www.iltalehti.fi##.default.drfront-full-article:has([src*="ilcdn.fi/mainosnauhta"])
 www.iltalehti.fi##.default.drfront-full-article:has([href*="clark-taloutesi-tukena"])
 
 ! kauppalehti.fi - Commercial cooperation
