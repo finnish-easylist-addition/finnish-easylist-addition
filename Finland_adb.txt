@@ -677,6 +677,7 @@ spring-tns.net$third-party
 ||hs.fi/kampanjat/menokone/*.jpg
 ||hs.fi/kampanjat/menokone/*.gif
 ||hs.fi/menokone/menokonenosto.*
+||kampanjat.hs.fi/Nostokuvat/
 ||honestpartners.com$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
