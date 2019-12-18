@@ -422,6 +422,7 @@ offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
 offroadpro.fi/*/ad/serve.php
 api.pinterest.com/*/count.json
 mpmaailma.fi/*/ad/serve.php
+pakkotoisto.com##.samBannerUnit
 pastebin.com##div#abrpm
 pelaajalehti.com###wallpaper
 pelikone.fi##.preroll-text
