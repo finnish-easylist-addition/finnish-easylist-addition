@@ -666,6 +666,7 @@ spring-tns.net$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
 ||justpremium.com$third-party
+||karjalainen.fi/images/banners/kiinnostuitko-pun800x180.png
 ||kake.fi$third-party
 ||ko.snstatic.fi^
 ! not sure if this domain exists anymore krxd.net
