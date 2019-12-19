@@ -265,6 +265,7 @@ files.snstatic.fi/VMM/
 files.snstatic.fi/weba/
 files.snstatic.fi/*/lomakuumetta/*
 foreca.fi##DIV[class="top-banners"]
+funtampere.fi##.banner_container
 affiliate.guts.com/processing/clickthrgh.asp?btag=
 hameenkaiku.fi##DIV[class="bannergroup"]
 high.fi##div[class*="sub-container"]
