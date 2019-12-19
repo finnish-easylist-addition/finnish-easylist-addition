@@ -205,6 +205,7 @@ gamereactor.fi##div[id="eventad"]
 hardware.fi##DIV[class="top-ad-space"]
 hbl.fi##ksf-adblockers
 helsinginuutiset.fi,vihdinuutiset.fi##DIV[class*="lyads"]
+hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi###aldente-mobibanner01_0
 hs.fi###aldente-mobibanner02_0
 hs.fi###aldente-mobicontentfeedhigh_0
