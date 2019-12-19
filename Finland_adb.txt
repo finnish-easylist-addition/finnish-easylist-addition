@@ -357,18 +357,7 @@ muropaketti.com##SECTION[id*="hintaopaspopular"]
 muropaketti.com##.hintavertailu--widget.hintavertailu
 murobbs.muropaketti.com##IFRAME[src="https://murobbs.muropaketti.com/aulis/muro-monster-feed.html"]
 murobbs.muropaketti.com##IFRAME[id="hintaopas_box"]
-mtv.fi##DIV[class="banner-aside"]
-mtv.fi##DIV#ylabanneri[class="banner banner-panorama"]
-mtv.fi##DIV#tvnav-wrap[class="fixed top"]
-mtv.fi##DIV[class="promo-group bi3dPos promo-group-coolbright"]
-mtv.fi##DIV[class="fb-like-box fb_iframe_widget"]
-mtv.fi##DIV[class="component sponsor-logo"]
-mtv.fi##DIV[class="banner banner-jattiboksi"]
-mtv.fi##section[class="ad"]
-mtv.fi##IFRAME#hz-unit-etusivu
 mtv.fi/static/javascripts/external-js/*.js
-mtv.fi##div[class="leaderboard"]
-mtv.fi##DIV[class*="ad-container"]
 mtvuutiset.fi###leaderboard-2
 mtvuutiset.fi##.ad-container.banner
 mtvuutiset.fi##.ad_fadein
