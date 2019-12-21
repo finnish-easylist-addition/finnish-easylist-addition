@@ -638,8 +638,6 @@ spring-tns.net$third-party
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
 ||adtlgc.com^
 ||ah-me.com$third-party
-||alastonsuomi.com/js/site
-||madmen.alastonsuomi.com^
 ||analytics.clickdimensions.com^
 ||ap2.sestatic.net^
 ||api.innomdc.com^
