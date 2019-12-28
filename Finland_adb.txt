@@ -290,7 +290,7 @@ is.fi##iframe[data-original*="://www.is.fi/kampanjat/promo/nostot"]
 is.fi##div[class="multiBoxAd"]
 is.fi##table[id="kumppaneiden-tarjoukset"]
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
-is.fi##.bg-white.lg\:w-main-lane.mb-16
+is.fi##.overflow-hidden.relative.aspect-ratio-container.jsx-3817070661
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
 kansalainen.fi##div[id^="ads"]
