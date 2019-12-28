@@ -385,6 +385,10 @@ mvlehti.net##.ad
 mvlehti.net##.entry-content > .premium_container
 mvlehti.net##.comments-container > .premium_container
 ||static.mvlehti.net/uploads/2018/03/brave-3*.jpg$image
+nainen.com###text-3 > .textwidget
+nainen.com###ticker
+nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
+nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##LI#left_part
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="huge_banner"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class*="emediate_ad"]
