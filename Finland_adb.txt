@@ -155,6 +155,8 @@ aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/Media
 aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
 aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
+akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
+akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##.om-one.omamainos-products
 alibi.fi##.magazineorderwidget__content
 almamedia.fi/alma-logo-pieni.png
 ampparit.com##DIV[class*="ad-"]
@@ -397,6 +399,7 @@ offroadpro.fi,mpmaailma.fi##div[id="googlePlusOne"]
 offroadpro.fi,mpmaailma.fi##div[id="logo-area"]
 offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
 offroadpro.fi/*/ad/serve.php
+orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 api.pinterest.com/*/count.json
 mpmaailma.fi/*/ad/serve.php
 pastebin.com##div#abrpm
