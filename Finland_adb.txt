@@ -150,13 +150,6 @@ aamulehti.fi###promo-2
 aamuset.fi##DIV#block-views-etusivukaruselli-block
 aamuset.fi##DIV#block-views-mainoskaruselli-block
 aamuset.fi##DIV[class="adslist"]
-abounderrattelser.fi,åu.fi##DIV[class^="paszone"]
-abounderrattelser.fi,åu.fi##DIV[class*="proadszone"]
-abounderrattelser.fi,åu.fi##SECTION[class*="flexslider"]
-abounderrattelser.fi,åu.fi##DIV[class="jetpack-image-container"]
-abounderrattelser.fi,åu.fi##DIV[class="PasPopupCont"]
-abounderrattelser.fi,åu.fi##DIV[id="backgroundPasPopup"]
-abounderrattelser.fi,åu.fi##div[id*="popmake"]
 aijaa.com##[href*="tradetracker"]
 aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
 aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
