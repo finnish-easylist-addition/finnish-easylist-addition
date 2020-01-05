@@ -172,7 +172,6 @@ aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
 aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
 aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
 alibi.fi##.magazineorderwidget__content
-almamedia.fi/alma-logo-pieni.png
 ampparit.com##DIV[class*="ad-"]
 ampparit.com##div[class*="ticker"]
 anna.fi##div[class*="sisaltoyhteistyo"]
@@ -180,18 +179,10 @@ arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##DIV[class="interstitial"]
 arvopaperi.fi##DIV[class="samTop"]
 arvopaperi.fi##DIV[class="topMostBanners"]
-audiovideo.fi##DIV[id*="mainospaikka"]
-audiovideo.fi##DIV[class*="mainospaikka"]
-autotie.fi##div.facebook-wrapper
-autotie.fi##div[class^="headerbanner"]
-autotie.fi##div.vaihtuvat-tekstit
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
 network.bazaarvoice.com/st.gif
-bike.fi##DIV#newsletter-dialog[class="open"]
-bike.fi##DIV[class="banner panorama"]
-bike.fi##DIV[class="banner banner"]
 blogit.fi##DIV[id="city_top"]
 blogit.fi##DIV[id="city_bot"]
 ! blogit.fi##DIV[id="city_wall"]+DIV
