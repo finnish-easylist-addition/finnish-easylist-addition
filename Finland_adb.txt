@@ -85,7 +85,6 @@ nelonenmedia.fi/hitcounter
 ###yhteistyossa
 ###ylamainokset
 ###ylamainos
-###ad_banner
 ##.keskimainos
 ##.mainokset
 ##.mainokset_oikea
@@ -124,21 +123,14 @@ tyda.se#@#DIV[class*="advert"]
 ##DIV[class="footer-popup eezy-premium-popup show-pop"]
 ##DIV[class="banner-top"]
 ##a[href*="/clickthrgh.asp?"]
-##LI[class="ads-ad"]
-##div[class="ads-ad"]
 ##DIV[id="top-ad"]
 ##DIV[id="ads-top"]
-##DIV[id="ads-bottom"]
-##DIV[id="ads-sidebar-top"]
-##DIV[id="ads-left-top"]
 ##DIV[id^="ads-content-bottom"]
 ##div[class="ad-wrapper"]
 ##td[class="adbanner"]
-##div[id="adCarousel"]
 ##div[id="adbox_content"]
 ##div[id="adbox_bottom"]
 ##div[id="bottomads"]
-##div[class="ad__content"]
 ##div[class="ad-banner"]
 ##div[class="block-ad"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
@@ -201,7 +193,6 @@ brbikers.com##a[href*="tema.fi"]
 brbikers.com##div[class="sponsors"]
 careers.sstatic.net/careers/gethired/
 careers.stackoverflow.com/ad/
-cloudfront.net/js/advertisements/
 cultofmac.com##div[class="stackCommerceItemWrap"]
 cultofmac.com##div[id*="-ad"]
 demokraatti.fi##div[class="topads"]
