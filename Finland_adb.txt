@@ -183,13 +183,7 @@ network.bazaarvoice.com/st.gif
 bike.fi##DIV#newsletter-dialog[class="open"]
 bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
-blogit.fi##DIV[id="city_top"]
-blogit.fi##DIV[id="city_bot"]
-! blogit.fi##DIV[id="city_wall"]+DIV
-boxing.fi##DIV[class^="ad-"]
-boxing.fi##DIV[class="block-body"]
 brbikers.com##a[href*="tema.fi"]
-brbikers.com##div[class="sponsors"]
 careers.sstatic.net/careers/gethired/
 careers.stackoverflow.com/ad/
 cultofmac.com##div[class="stackCommerceItemWrap"]
