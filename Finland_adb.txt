@@ -38,7 +38,6 @@
 /om-mainosputki/
 /pagestat?
 /sivulaskuri
-smartbanner
 /sponsorit.
 /sponsorit/*
 /sponsorit_
