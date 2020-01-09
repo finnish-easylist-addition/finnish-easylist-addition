@@ -169,11 +169,6 @@ asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 aksa.fi##div[class*="g-single a-"]
 aksa.fi##div[class*="adverts"]
 network.bazaarvoice.com/st.gif
-blogit.fi##DIV[id="city_top"]
-blogit.fi##DIV[id="city_bot"]
-! blogit.fi##DIV[id="city_wall"]+DIV
-boxing.fi##DIV[class^="ad-"]
-boxing.fi##DIV[class="block-body"]
 bike.fi##DIV#newsletter-dialog[class="open"]
 bike.fi##DIV[class="banner panorama"]
 bike.fi##DIV[class="banner banner"]
