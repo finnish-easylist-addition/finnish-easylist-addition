@@ -13,7 +13,7 @@
 
 ! -----GENERAL-----
 
-/bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~www.unisport.fi|~unisport.fi|~f9.fi
+/bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi|~f9.fi
 /markkinoinnin_nostot/*
 /cgi-sys/Count.cgi
 /bannerCounter.php
@@ -266,7 +266,6 @@ is.fi##iframe[data-original*="://vg.is.fi"]
 is.fi##iframe[data-original*="adserve.io"]
 is.fi##iframe[data-original*="://www.is.fi/kampanjat/promo/nostot"]
 is.fi##div[class="multiBoxAd"]
-is.fi##table[id="kumppaneiden-tarjoukset"]
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 iro.fi/Surveys/
@@ -808,7 +807,6 @@ kaleva.fi##div[class*="--juttusivu-markkinointi"]
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 @@||adlibris.com/pixel.gif
 @@/pixel.gif$domain=xhamster.com
-@@||uusi.op.fi/$document
 mobiili.fi#@#.header_ad
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
