@@ -166,6 +166,8 @@ arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##DIV[class="interstitial"]
 arvopaperi.fi##DIV[class="samTop"]
 arvopaperi.fi##DIV[class="topMostBanners"]
+audiovideo.fi##.head.the-wrap
+audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##DIV[id*="mainospaikka"]
 audiovideo.fi##DIV[class*="mainospaikka"]
 autotie.fi##div.facebook-wrapper
