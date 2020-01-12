@@ -300,6 +300,7 @@ keskustelu.suomi24.fi##[class*="SeiskaRSSNews"]
 kuljetusnet.fi##div[id*="banner"]
 kuljetusnet.fi##div[class*="banner"]
 kuopionkirppari.fi##DIV[class*="banner"]
+lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
