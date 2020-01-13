@@ -978,6 +978,7 @@ tjareborg.fi#@#.push-container
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
+@@||cookieinformation.com/$script,domain=kotimikro.fi
 
 ! -----UNBREAK END-----
 
