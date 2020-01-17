@@ -31,7 +31,7 @@ aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkal
 metropoli.net##.single-post-content.clearfix.entry-content > h4:has([href*="https://www.metropoli.net/rahapelit/rahapeliuutiset/"])
 
 ! mikrobitti.fi anti adblock
-mikrobitti.fi##+js(setTimeout-defuser.js)
+mikrobitti.fi##+js(nostif, bait)
 
 ! iltalehti.fi - Kaupallinen yhteistyö
 www.iltalehti.fi##.article-container:has-text(Kaupallinen yhteistyö)
