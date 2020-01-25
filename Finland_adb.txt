@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202001251
+! Version: 202001252
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 25th of January 2020
+! Last modified: 26th of January 2020
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -436,7 +436,6 @@ sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
 studio55.fi##.ad-container.banner
-suomensanomat.fi##div[class="static-info"]
 suomela.fi##div[class*="simplemodal"]
 suomela.fi##div[class*="banner"]
 suomi24.fi##div[class*="Ad__AdWrapper"]
