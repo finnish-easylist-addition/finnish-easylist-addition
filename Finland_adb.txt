@@ -475,8 +475,6 @@ telsu.fi###prebid_bottom > .box_dt
 thenextweb.com##div[class^="modal"]
 thenextweb.com##ul[class="articleShare-buttons"]
 thenextweb.com##ul[class="ica"]
-tinypass.com/*/track
-tinypass.com/*/meter/
 tivi.fi/Logger
 tori.fi##DIV[class="ad_body_campaign"]
 tori.fi##DIV[id="banner_view_top"]
@@ -501,7 +499,6 @@ ts.fi##DIV[class="tsv3-c-common-emediate tsv3-c"]
 ts.fi##article[class$="-nativead"]
 ts.fi/Content/layout/Common/lib/emediate/
 ts.fi/Statistics/Log
-uratie.fi/external/json/?service=jsonSidebar&
 uusisuomi.fi##DIV[id="block-views-car-ad-view-block"]
 uusisuomi.fi/wp-content/rtm/nosto/cache/us1b.js
 uusisuomi.fi##div[class*="addthis"]
@@ -511,7 +508,6 @@ uusisuomi.fi##div[class*="google_ad"]
 uusisuomi.fi##div[class*="ad-view"]
 uusisuomi.fi##div[class*="ad_sidebar"]
 uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
-uutismaailma.com##DIV[class="top_banner"]
 uutissuora.fi##div[class="td-all-devices"]
 vaalikone.fi/*/preheat
 vapaasana.swedishforum.net###p0
