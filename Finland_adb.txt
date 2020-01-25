@@ -475,7 +475,6 @@ telsu.fi###prebid_bottom > .box_dt
 thenextweb.com##div[class^="modal"]
 thenextweb.com##ul[class="articleShare-buttons"]
 thenextweb.com##ul[class="ica"]
-timeinc.com/trending
 tinypass.com/*/track
 tinypass.com/*/meter/
 tivi.fi/Logger
