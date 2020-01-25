@@ -33,7 +33,6 @@ qliro.com###notification
 
 www.is.fi,www.hs.fi##.r-loading-indicator
 
-
 www.ksml.fi##.campaign
 
 www.foreca.fi###betafeedback
