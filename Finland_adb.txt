@@ -431,6 +431,8 @@ sketsi.net##.tdt-minilanding.tdt-manager-element
 sketsi.net##footer > .container.tdt-ad-wrap
 sfnix.net/api/
 ! snstatic.fi/webstatic/*/desktop-all.js
+sportti.com##[href^="http://www.primeslots.com/FI/"]
+sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
 stream.almamedia.fi/mp/salsabanner
 meta.almamedia.io/v1/text?
 studio55.fi##.ad-container.banner
