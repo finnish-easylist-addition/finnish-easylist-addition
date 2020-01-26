@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001264
+! Version: 202001265
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 26th of January 2020
@@ -341,7 +341,6 @@ moottoripyora.org/img/cooperation-nebula.png
 motot.net##div.centered.motot-well-inverse.well[style^="padding-"]
 motouutiset.fi##DIV[class*="ad-giant"]
 motouutiset.fi##DIV[class*="ad-panorama"]
-motouutiset.fi##DIV[class*="cc-window cc-banner cc-type-info "]
 motouutiset.fi##a[href*="revads"]
 mtv.fi/static/javascripts/external-js/*.js
 mtvuutiset.fi###leaderboard-2
