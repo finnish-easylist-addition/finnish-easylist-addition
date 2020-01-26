@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001263
+! Version: 202001264
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 26th of January 2020
@@ -13,10 +13,8 @@
 
 ! -----GENERAL-----
 
-/analysis-logger/Logger?
 /bannerCounter.php
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi|~f9.fi
-/cgi-sys/Count.cgi
 /daxda-collector/
 /fillaritori/javascript_nbenhadverts/
 /finnair-analytics/
@@ -42,7 +40,6 @@
 /mainosmokkula/
 /markkinoinnin_nostot/*
 /om-mainosputki/
-/pagestat?
 /scripts/edoris/edoris.dll?tem=
 /scripts/eneo/eneo.dll
 /sivulaskuri
@@ -200,7 +197,6 @@ feissarimokat.com##DIV[id="billboard"]
 feissarimokat.com##DIV[id="logopal"]
 feissarimokat.com##LI[class*="shopster"]
 files.snstatic.fi/*/lomakuumetta/*
-files.snstatic.fi/*/zig.js
 files.snstatic.fi/*ls.html
 files.snstatic.fi/VMM/
 files.snstatic.fi/weba/
@@ -449,7 +445,6 @@ sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
 sportti.com##[href^="http://www.primeslots.com/FI/"]
 static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
-static.sanoma.fi/weba/js/ls/zig.js
 stream.almamedia.fi/mp/salsabanner
 studio55.fi##.ad-container.banner
 suomela.fi##div[class*="banner"]
@@ -574,16 +569,13 @@ ylilauta.org##a[href="/kultatili"]
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
 
-||24counter.com^
 ||ad.citycdn.fi^
 ||ad.ilcdn.fi^
 ||adap.io^
 ||adfly.ly^
 ||admp-tc.iltalehti.fi^
 ||admp-tc.kauppalehti.fi^
-||adservicemedia.dk$third-party
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
-||adtlgc.com^
 ||ah-me.com$third-party
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||analytics.clickdimensions.com^
@@ -594,7 +586,6 @@ ylilauta.org##a[href="/kultatili"]
 ||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
 ||atlassolutions.com^
-||atticwicket.com^
 ||auto1.fi$third-party
 ||buttons-for-website.com^
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^
@@ -615,14 +606,12 @@ ylilauta.org##a[href="/kultatili"]
 ||dealsandprices.com$third-party
 ||dmp.datomik.com^
 ||eclkmpbn.com^
-||eloqua.com$third-party
 ||en25.com$third-party
 ||eramebel.com$third-party
 ||euroads.fi^
 ||fillarikeskustelu.com/kuvat/*.gif
 ||fillaritori.com/kuvat/*.gif
 ||go.shareaholic.com^
-||gravity.com^
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
@@ -644,32 +633,24 @@ ylilauta.org##a[href="/kultatili"]
 ||krasivoe-kino.com$third-party
 ||kuvake.net/js/ad-
 ||lehtodigital.fi*/tracking.json
-||leiki.com$third-party
 ||live.community.bmw-motorrad.com$third-party
-||lp4.io^
 ||m.riemurasia.net/reklaami.php$subdocument
-||mailerlite.com^
 ||mailerlite2.com^
 ||media.vuokraovi.com$third-party
-||meetrics.net^
 ||metrics.api.yle.fi^
 ||metrics.gigantti.fi^
 ||metrics.time.com^
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
-||myroitracking.com^
 ||nayadaya.com$third-party
 ||nettix.fi^*_banner.gif
 ||newrelic.com$third-party
 ||nix.telkku.com$third-party
-||nova.collect.igodigital.com/*/track_page
 ||nugg.ad^
 ||omataloyhtio.fi/ffsw-pushcrew.js
 ||omataloyhtio.fi/kuvat/pi.gif
 ||omataloyhtio.fi/statb.asp
-||outbrain.com$third-party
 ||p.typekit.net^
 ||partner.shareaholic.com^
-||pingdom.net^
 ||pix.rvcdn.com^
 ||pix.tagcdn.com^
 ||pliing.com^
@@ -687,10 +668,7 @@ ylilauta.org##a[href="/kultatili"]
 ||seiska.fi*/js/ads.js$important
 ||seksitreffit.*/banners/
 ||seksitreffit.*popunder.js
-||sh.st^
-||simplereach.com^
 ||snoobi.fi^
-||spring-tns.net$third-party
 ||spy-sts.com$third-party
 ||stabx.net^
 ||stat.iltalehti.fi^
@@ -699,9 +677,7 @@ ylilauta.org##a[href="/kultatili"]
 ||statistics.talentum.com^
 ||stats.fonecta.fi^
 ||survey.interquest.fi^
-||taboola.com^
 ||tag.researchnow.com^
-||tagsrvcs.com^
 ||telsu.fi$third-party
 ||tridea.fi$third-party
 ||ultimategracelessness.info^
@@ -710,15 +686,12 @@ ylilauta.org##a[href="/kultatili"]
 ||verkkokauppa.com/api/richrelevance/customer
 ||vg.is.fi/autotie-is-etusivu/$subdocument
 ||viestilehdet.fi/api/ip_check/
-||vihreat.fi/?q=node/*/stats/impression
 ||vilagnomad.com^
 ||visitanalytics.userreport.com^
 ||visualwebsiteoptimizer.com/v.gif
-||w55c.net^
 ||wallpapers.red^
 ||whitewall.fi$third-party
 ||widget.specsify.net$third-party
-||wpdigital.net^
 ||www.is.fi/*spring*.js
 ||www.is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 ||www.is.fi/stats
@@ -727,7 +700,6 @@ ylilauta.org##a[href="/kultatili"]
 ||www.testeri.fi/inc/museokortti.png$image
 ||yabidos.com$third-party
 ||yle.fi/initAdobeAnalytics
-||zdbb.net^
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
