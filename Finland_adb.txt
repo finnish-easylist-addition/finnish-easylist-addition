@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001262
+! Version: 202001263
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 26th of January 2020
@@ -648,7 +648,6 @@ ylilauta.org##a[href="/kultatili"]
 ||live.community.bmw-motorrad.com$third-party
 ||lp4.io^
 ||m.riemurasia.net/reklaami.php$subdocument
-||madsone.com$third-party
 ||mailerlite.com^
 ||mailerlite2.com^
 ||media.vuokraovi.com$third-party
@@ -657,7 +656,6 @@ ylilauta.org##a[href="/kultatili"]
 ||metrics.gigantti.fi^
 ||metrics.time.com^
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
-||msads.net^
 ||myroitracking.com^
 ||nayadaya.com$third-party
 ||nettix.fi^*_banner.gif
@@ -670,13 +668,11 @@ ylilauta.org##a[href="/kultatili"]
 ||omataloyhtio.fi/statb.asp
 ||outbrain.com$third-party
 ||p.typekit.net^
-||parkingcrew.net^
 ||partner.shareaholic.com^
 ||pingdom.net^
 ||pix.rvcdn.com^
 ||pix.tagcdn.com^
 ||pliing.com^
-||polarmobile.com^
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
 ||rakentaja.fi/kuvat/pi.gif
@@ -707,7 +703,6 @@ ylilauta.org##a[href="/kultatili"]
 ||tag.researchnow.com^
 ||tagsrvcs.com^
 ||telsu.fi$third-party
-||tradetracker.net^
 ||tridea.fi$third-party
 ||ultimategracelessness.info^
 ||urbaanisanakirja.com/static/img/portsaad.png$image
@@ -715,7 +710,6 @@ ylilauta.org##a[href="/kultatili"]
 ||verkkokauppa.com/api/richrelevance/customer
 ||vg.is.fi/autotie-is-etusivu/$subdocument
 ||viestilehdet.fi/api/ip_check/
-||viglink.com^
 ||vihreat.fi/?q=node/*/stats/impression
 ||vilagnomad.com^
 ||visitanalytics.userreport.com^
