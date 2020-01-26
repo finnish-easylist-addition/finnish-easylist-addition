@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001254
+! Version: 202001255
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 26th of January 2020
@@ -525,7 +525,6 @@ viikonloppu.com##[href*="https://tracker-pm2.fortunelegends.com/"]
 viikonloppu.com##[href*="https://www.kasinokaverit.com/"]
 viikonloppu.com##[href*="https://www.lainaovi.fi/"]
 voice.fi##div[class*="cxense-ad-container"]
-wpengine.netdna-ssl.com/*/moottori/*/popup*.js
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class*="emediate_ad"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class="inh_banner"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="huge_banner"]
