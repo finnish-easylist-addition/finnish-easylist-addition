@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001261
+! Version: 202001262
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 26th of January 2020
@@ -388,7 +388,6 @@ offroadpro.fi,mpmaailma.fi##div[class*="pane-ad"]
 offroadpro.fi,mpmaailma.fi##div[id="googlePlusOne"]
 offroadpro.fi,mpmaailma.fi##div[id="logo-area"]
 offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
-offroadpro.fi/*/ad/serve.php
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
@@ -597,8 +596,6 @@ ylilauta.org##a[href="/kultatili"]
 ||atlassolutions.com^
 ||atticwicket.com^
 ||auto1.fi$third-party
-||betrad.com^
-||bidtheatre.com$third-party
 ||buttons-for-website.com^
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^
 ||cdn.asunnot.oikotie.fi/lib/images/logo/sahkovertailu-logo-sininen-360.png$image
@@ -624,9 +621,7 @@ ylilauta.org##a[href="/kultatili"]
 ||euroads.fi^
 ||fillarikeskustelu.com/kuvat/*.gif
 ||fillaritori.com/kuvat/*.gif
-||flite.com^
 ||go.shareaholic.com^
-||googletagservices.com/tag/js/gpt$third-party
 ||gravity.com^
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||hinta.fi/a/img/$image
@@ -641,7 +636,6 @@ ylilauta.org##a[href="/kultatili"]
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^
 ||io-tech.fi/images/*_290x290px.png$image
-||justpremium.com$third-party
 ||kake.fi$third-party
 ||kampanjat.hs.fi/
 ||karjalainen.fi/images/banners/kiinnostuitko-pun800x180.png
