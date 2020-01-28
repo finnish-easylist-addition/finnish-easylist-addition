@@ -538,7 +538,6 @@ ylilauta.org##a[href="/kultatili"]
 ||api.mixpanel.com^
 ||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
-||atlassolutions.com^
 ||auto1.fi$third-party
 ||buttons-for-website.com^
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^
@@ -547,7 +546,6 @@ ylilauta.org##a[href="/kultatili"]
 ||cdn.userreport.com^
 ||cdn.verk.net/files/5b276/53eaa/71dd4/79762/9b20.jpg$image
 ||celtra.com$third-party
-||chcu.net^
 ||chimiver.info$third-party
 ||cjar.a-lehdet.fi^
 ||cloudfront.net/images/backgroundimages/backgroundimage$third-party
@@ -561,7 +559,6 @@ ylilauta.org##a[href="/kultatili"]
 ||en25.com$third-party
 ||eramebel.com$third-party
 ||euroads.fi^
-||go.shareaholic.com^
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||hinta.fi/a/img/$image
 ||hintaopas.fi$third-party
@@ -583,7 +580,6 @@ ylilauta.org##a[href="/kultatili"]
 ||krasivoe-kino.com$third-party
 ||kuvake.net/js/ad-
 ||lehtodigital.fi*/tracking.json
-||live.community.bmw-motorrad.com$third-party
 ||m.riemurasia.net/reklaami.php$subdocument
 ||mailerlite2.com^
 ||media.vuokraovi.com$third-party
@@ -615,7 +611,6 @@ ylilauta.org##a[href="/kultatili"]
 ||seiska.fi*/js/ads.js$important
 ||seksitreffit.*/banners/
 ||seksitreffit.*popunder.js
-||snoobi.fi^
 ||spy-sts.com$third-party
 ||stabx.net^
 ||stat.iltalehti.fi^
@@ -624,9 +619,7 @@ ylilauta.org##a[href="/kultatili"]
 ||statistics.talentum.com^
 ||stats.fonecta.fi^
 ||survey.interquest.fi^
-||tag.researchnow.com^
 ||telsu.fi$third-party
-||tridea.fi$third-party
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||uutisvirta.fi/js/fancybox/
 ||verkkokauppa.com/api/richrelevance/customer
@@ -636,7 +629,6 @@ ylilauta.org##a[href="/kultatili"]
 ||visualwebsiteoptimizer.com/v.gif
 ||wallpapers.red^
 ||whitewall.fi$third-party
-||widget.specsify.net$third-party
 ||www.is.fi/*spring*.js
 ||www.is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 ||www.is.fi/stats
