@@ -169,6 +169,10 @@ arvopaperi.fi##DIV[class="topMostBanners"]
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##.head.the-wrap
+auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_bottom
+auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_top
+auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
+auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 basso.fi##.ad-paraati
 basso.fi##div[id^="BannerBlock"]
 brbikers.com##a[href*="tema.fi"]
@@ -455,10 +459,6 @@ supersaa.fi##div[class^="supers-app-promo-container"]
 supersaa.fi/*/spring.js
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
-telsu.fi###pb_bottom
-telsu.fi###pb_top
-telsu.fi##.box_dt
-telsu.fi##[href^="/clk"]
 tekniikanmaailma.fi##.NoAdBlocker_main
 ticketmaster.fi##div[id^="ad-slot-"]
 tivi.fi/Logger
