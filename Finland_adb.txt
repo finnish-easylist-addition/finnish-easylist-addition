@@ -580,6 +580,7 @@ ylilauta.org##a[href="/kultatili"]
 ||krasivoe-kino.com$third-party
 ||kuvake.net/js/ad-
 ||lehtodigital.fi*/tracking.json
+||live.community.bmw-motorrad.com$third-party
 ||m.riemurasia.net/reklaami.php$subdocument
 ||mailerlite2.com^
 ||media.vuokraovi.com$third-party
@@ -620,6 +621,7 @@ ylilauta.org##a[href="/kultatili"]
 ||stats.fonecta.fi^
 ||survey.interquest.fi^
 ||telsu.fi$third-party
+||tridea.fi$third-party
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||uutisvirta.fi/js/fancybox/
 ||verkkokauppa.com/api/richrelevance/customer
@@ -629,6 +631,7 @@ ylilauta.org##a[href="/kultatili"]
 ||visualwebsiteoptimizer.com/v.gif
 ||wallpapers.red^
 ||whitewall.fi$third-party
+||widget.specsify.net$third-party
 ||www.is.fi/*spring*.js
 ||www.is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 ||www.is.fi/stats
