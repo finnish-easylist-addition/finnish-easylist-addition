@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001287
+! Version: 202001288
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 28th of January 2020
@@ -177,12 +177,6 @@ basso.fi##div[id^="BannerBlock"]
 brbikers.com##a[href*="tema.fi"]
 careers.sstatic.net/careers/gethired/
 careers.stackoverflow.com/ad/
-cultofmac.com##div[class="stackCommerceItemWrap"]
-cultofmac.com##div[id*="-ad"]
-demokraatti.fi##div[class*="proads"]
-demokraatti.fi##div[class="offer"]
-demokraatti.fi##div[class^="at-share-dock-outer"]
-elisa.fi/img/content/*.mp4
 etuovi.com##SECTION[class*="advertising"]
 etuovi.com##article[class="loanCalculator"]
 etuovi.com##article[class="movingCalculator"]
@@ -204,14 +198,10 @@ files.snstatic.fi/*ls.html
 files.snstatic.fi/VMM/
 files.snstatic.fi/weba/
 finnkino.fi,fum.fi,tilt.fi##.advertising
-foreca.fi##DIV[class="top-banners"]
 funtampere.fi##.banner_container
 gamereactor.fi##div[id="eventad"]
-hameenkaiku.fi##DIV[class="bannergroup"]
 hbl.fi##ksf-adblockers
 helsinginuutiset.fi,vihdinuutiset.fi##DIV[class*="lyads"]
-hifimaailma.fi##div[class="kake"]
-hifimaailma.fi##div[id="secondary"]
 high.fi###googlejs
 high.fi##div[class*="sub-container"]
 hinta.fi##a[href^="/ohjaus.php"]
@@ -244,7 +234,6 @@ huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 huuto.net##div.search-grid-ad-container.ad
 hymy.fi##[href="http://www.finswingers.com/"]
 hymy.fi,alibi.fi##[href="https://www.paratiisi.fi/netchat.php"]
-ibtimes.co.uk##IFRAME[id="newsletter_popup"]
 ilkka.fi/logger
 iltalehti.fi##.center.category-list-embed.is-visible.LazyLoad
 iltalehti.fi##.slider-content
@@ -290,8 +279,6 @@ kuljetusnet.fi##div[id*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuopionkirppari.fi##DIV[class*="banner"]
 kuvake.net###ticker
-lansivayla.fi##DIV[class="region region-sidebar-first-bottom column sidebar"]
-lansivayla.fi##DIV[class="region region-sidebar-karuselli-ad column sidebar"]
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
