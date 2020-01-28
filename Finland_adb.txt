@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001285
+! Version: 202001286
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 28th of January 2020
@@ -549,17 +549,12 @@ ylilauta.org##a[href="/kultatili"]
 ||ad.citycdn.fi^
 ||ad.ilcdn.fi^
 ||adap.io^
-||adfly.ly^
-||admp-tc.iltalehti.fi^
-||admp-tc.kauppalehti.fi^
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
 ||ah-me.com$third-party
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||analytics.clickdimensions.com^
 ||ap2.sestatic.net^
-||api.innomdc.com^
 ||api.mixpanel.com^
-||asset.pagefair^
 ||assets.ilcdn.fi/891762d853d7700e83390696d1ad4cc1e29925ccb842717a4e0cd3994dbb4d9d.jpg$image
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
 ||atlassolutions.com^
@@ -581,7 +576,6 @@ ylilauta.org##a[href="/kultatili"]
 ||da.yle.fi^
 ||dax.yle.fi^
 ||dealsandprices.com$third-party
-||dmp.datomik.com^
 ||eclkmpbn.com^
 ||en25.com$third-party
 ||eramebel.com$third-party
@@ -621,8 +615,6 @@ ylilauta.org##a[href="/kultatili"]
 ||nayadaya.com$third-party
 ||nettix.fi^*_banner.gif
 ||newrelic.com$third-party
-||nix.telkku.com$third-party
-||nugg.ad^
 ||omataloyhtio.fi/ffsw-pushcrew.js
 ||omataloyhtio.fi/kuvat/pi.gif
 ||omataloyhtio.fi/statb.asp
@@ -641,7 +633,6 @@ ylilauta.org##a[href="/kultatili"]
 ||recs.shareaholic.com^
 ||revimages.motouutiset.fi^
 ||s3.pji.nu$domain=~pricespy.co.uk|~pricespy.ie|~pricespy.no.nz|~hintaopas.fi|~prisjakt.no
-||secure.afnix.net^
 ||seiska.fi*/js/ads.js$important
 ||seksitreffit.*/banners/
 ||seksitreffit.*popunder.js
@@ -657,13 +648,11 @@ ylilauta.org##a[href="/kultatili"]
 ||tag.researchnow.com^
 ||telsu.fi$third-party
 ||tridea.fi$third-party
-||ultimategracelessness.info^
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||uutisvirta.fi/js/fancybox/
 ||verkkokauppa.com/api/richrelevance/customer
 ||vg.is.fi/autotie-is-etusivu/$subdocument
 ||viestilehdet.fi/api/ip_check/
-||vilagnomad.com^
 ||visitanalytics.userreport.com^
 ||visualwebsiteoptimizer.com/v.gif
 ||wallpapers.red^
