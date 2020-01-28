@@ -580,8 +580,6 @@ ylilauta.org##a[href="/kultatili"]
 ||en25.com$third-party
 ||eramebel.com$third-party
 ||euroads.fi^
-||fillarikeskustelu.com/kuvat/*.gif
-||fillaritori.com/kuvat/*.gif
 ||go.shareaholic.com^
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||hinta.fi/a/img/$image
