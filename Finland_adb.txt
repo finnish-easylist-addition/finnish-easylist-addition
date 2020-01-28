@@ -249,7 +249,6 @@ iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##div[class="iframe-container"]
 iltapulu.fi##div[class="footer-ylempi"]
 irc-galleria.net##div[id^="open_"]
-iro.fi/Surveys/
 jatkoaika.com##div[class="block block-block"]
 kaleva.fi##.js-myyntiruudut
 kaleva.fi##.video-list--advertisement
@@ -454,36 +453,11 @@ suomif1.com##div[class*="minilanding"]
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
 supersaa.fi/*/spring.js
-talouselama.fi##DIV#bottom
-talouselama.fi##DIV#footer-inner-wrapper
-talouselama.fi##DIV#right
-talouselama.fi##DIV#topMost
-talouselama.fi##DIV[class="SamBanner"]
-talouselama.fi##DIV[class="adDisclaimer afterAd"]
-talouselama.fi##DIV[class="adDisclaimer beforeAd"]
-talouselama.fi##DIV[class="knavi_holder"]
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tekniikanmaailma.fi##.NoAdBlocker_main
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#footer_container
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#sidebar
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV#uratie-box-header
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="ad"]
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samBanner"]
-tekniikkatalous.fi,marmai.fi,tivi.fi##DIV[class="samContent"]
-tekniikkatalous.fi,marmai.fi,tivi.fi##div[class*="adDisclaimer"]
-tekniikkatalous.fi,marmai.fi,tivi.fi##div[class*="articlead"]
-telsu.fi###prebid_bottom > .box_dt
-telsu.fi###prebid_top > .box_dt
-telsu.fi##.as.city_top
-telsu.fi##a[href*="duunitori.fi"]
-telsu.fi##div[class="duunibox"]
 ticketmaster.fi##div[id^="ad-slot-"]
 tivi.fi/Logger
-ts.fi##DIV[class="tsv3-c-common-emediate tsv3-c"]
-ts.fi##DIV[id="EAS_fif_3768"]
-ts.fi##OBJECT#ot_ts_ap[name="myDynamicContent"]
-ts.fi##article[class$="-nativead"]
 ts.fi/Content/layout/Common/lib/emediate/
 ts.fi/Statistics/Log
 tulikulma.fi##.slideshow
