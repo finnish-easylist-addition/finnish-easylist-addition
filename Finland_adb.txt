@@ -526,6 +526,7 @@ voice.fi##div[class*="cxense-ad-container"]
 www.finder.fi##.Advertisement__Box
 www.is.fi###kumppaneiden-tarjoukset
 www.is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
+www.is.fi##.overflow-hidden.relative.aspect-ratio-container.jsx-3817070661
 www.is.fi##article[class*="is-advertorial"]
 www.is.fi##div.sadblob-loading
 www.is.fi##div[class="multiBoxAd"]
