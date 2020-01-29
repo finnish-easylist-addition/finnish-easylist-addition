@@ -33,6 +33,7 @@ iltalehti.fi##div.is-visible.LazyLoad:has-text(kaupallinen yhteistyö)
 ! io-tech.fi sidebar ads
 bbs.io-tech.fi##.sidebar > div:has(a:has(img[src^="https://bbs.io-tech.fi/images/"]))
 kauppalehti.fi##div#skyscraper-height-div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
+kauppalehti.fi##div#skyscraper-height-div > aside > section > a:has-text(Kaupallinen yhteistyö)
 kauppalehti.fi##div#skyscraper-height-div > div > aside > aside > section > a:has-text(Kaupallinen yhteistyö)
 kauppalehti.fi##div#skyscraper-height-div > div > main > a:has-text(Kaupallinen yhteistyö)
 kauppalehti.fi##div#skyscraper-height-div > main > aside > div > a:has-text(Kaupallinen yhteistyö)
