@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202001291
+! Version: 202001292
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 29th of January 2020
@@ -133,13 +133,9 @@ aamulehti.fi###promo-1
 aamulehti.fi###promo-2
 aamulehti.fi##.parade-ad.ad
 aamulehti.fi##div.adContainer
-aamulehti.fi##div[class="mainColRight is_stuck"]>div>div>iframe
-aamulehti.fi##div[class="sidebar frontpageBottom"]
 aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
 aamulehti.fi/*/alma_init_cjs.js
 aamulehti.fi/*/spring.js
-aamuset.fi##DIV#block-views-etusivukaruselli-block
-aamuset.fi##DIV#block-views-mainoskaruselli-block
 affiliate.guts.com/processing/clickthrgh.asp?btag=
 aijaa.com##[href*="tradetracker"]
 aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
@@ -153,7 +149,6 @@ aksa.fi##div[class*="adverts"]
 aksa.fi##div[class*="g-single a-"]
 alastonsuomi.com##.jb
 alibi.fi##.magazineorderwidget__content
-amazonaws.com/production/spring.js
 ampparit.com##DIV[class*="ad-"]
 ampparit.com##div[class*="ticker"]
 anna.fi##.kaupalliset
@@ -162,9 +157,6 @@ anna.fi##.widget_ads_carousel
 anna.fi##div[class*="sisaltoyhteistyo"]
 api.pinterest.com/*/count.json
 arcticinsider.com##a[href*="bannerTrack"]
-arvopaperi.fi##DIV[class="interstitial"]
-arvopaperi.fi##DIV[class="samTop"]
-arvopaperi.fi##DIV[class="topMostBanners"]
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##.head.the-wrap
