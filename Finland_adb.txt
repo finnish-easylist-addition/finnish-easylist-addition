@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202001301
+! Version: 202002011
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 30th of January 2020
+! Last modified: 1st of February 2020
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -423,6 +423,7 @@ sketsi.net##footer > .container.tdt-ad-wrap
 ! snstatic.fi/webstatic/*/desktop-all.js
 sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
 sportti.com##[href^="http://www.primeslots.com/FI/"]
+sportti.com##div.grid_4
 static.iltalehti.fi/*/spring
 static.iltalehti.fi/js/v2/alma_init_cjs.js
 stream.almamedia.fi/mp/salsabanner
@@ -551,6 +552,7 @@ ylilauta.org##a[href="/kultatili"]
 ||en25.com^$third-party
 ||eramebel.com^$third-party
 ||euroads.fi^$third-party
+||fi.expekt.com^$third-party
 ||hinta.fi/*black-friday$image,domain=hinta.fi
 ||hinta.fi/a/img/$image
 ||hintaopas.fi^$third-party
@@ -624,6 +626,7 @@ ylilauta.org##a[href="/kultatili"]
 ||wallpapers.red^$third-party
 ||whitewall.fi^$third-party
 ||widget.specsify.net^$third-party
+||wlbetclic.adsrv.eacdn.com^$third-party
 ||www.is.fi/*spring*.js
 ||www.is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 ||www.is.fi/stats
