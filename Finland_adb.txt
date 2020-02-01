@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002011
+! Version: 202002012
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 1st of February 2020
