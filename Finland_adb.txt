@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002041
+! Version: 202002043
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 4th of February 2020
@@ -219,6 +219,7 @@ iltalehti.fi##div[class="iframe-container"]
 iltapulu.fi##div[class="footer-ylempi"]
 irc-galleria.net##div[id^="open_"]
 jatkoaika.com##div[class="block block-block"]
+juoksufoorumi.fi##li.ipsResponsive_block.ipsBox.ipsWidget_vertical.ipsWidget
 kaleva.fi##.js-myyntiruudut
 kaleva.fi##.video-list--advertisement
 kaleva.fi##.widget--kaupallinen-yhteistyo
@@ -492,6 +493,7 @@ ylilauta.org##a[href="/kultatili"]
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
+||collagemaker.s3.amazonaws.com^$third-party
 ||cts.sanoma.fi/service/js
 ||cuponation.fi/cn-track
 ||da.yle.fi^$third-party
