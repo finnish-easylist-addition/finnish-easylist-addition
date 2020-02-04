@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202002033
+! Version: 202002041
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 3rd of February 2020
+! Last modified: 4th of February 2020
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -16,8 +16,6 @@
 /bannerCounter.php
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi|~f9.fi
 /daxda-collector/
-/fillaritori/javascript_nbenhadverts/
-/finnair-analytics/
 /js/common/init-tns
 /js/common/spring
 /js/spring.js
@@ -709,6 +707,7 @@ mobiili.fi#@#.header_ad
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
+download.fi#@##ad-top-banner-placeholder
 
 ! Fanboy's Annoyance List
 
