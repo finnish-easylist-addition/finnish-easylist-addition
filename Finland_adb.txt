@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002063
+! Version: 202002064
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 6th of February 2020
@@ -468,7 +468,6 @@ www.tori.fi##DIV[id='sis_links']
 www.tori.fi##a[onclick*="Hintaopas"]
 www.tori.fi##fieldset[id="sis_links"]
 ylilauta.org###right > .center
-ylilauta.org##a[href="/kultatili"]
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
