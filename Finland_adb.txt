@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002077
+! Version: 202002078
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 7th of February 2020
@@ -502,7 +502,6 @@ ylilauta.org###right > .center
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
 ||collagemaker.s3.amazonaws.com^$third-party
-||cts.sanoma.fi/service/js
 ||cuponation.fi/cn-track
 ||da.yle.fi^$third-party
 ||dax.yle.fi^$third-party
@@ -550,7 +549,6 @@ ylilauta.org###right > .center
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
 ||monster.almamedia.fi/nostobannerit/
 ||nayadaya.com^$third-party
-||nettix.fi^*_banner.gif
 ||network.bazaarvoice.com/st.gif
 ||newrelic.com^$third-party
 ||omataloyhtio.fi/ffsw-pushcrew.js
@@ -572,9 +570,8 @@ ylilauta.org###right > .center
 ||revimages.motouutiset.fi^$third-party
 ||ridemedia.fi/aspbanner
 ||s3.pji.nu$domain=~pricespy.co.uk|~pricespy.ie|~pricespy.no.nz|~hintaopas.fi|~prisjakt.no
-||seiska.fi*/js/ads.js$important
-||seksitreffit.*/banners/
-||seksitreffit.*popunder.js
+||seksitreffit.fi/banners/*$domain=seksitreffit.fi
+||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||spy-sts.com^$third-party
 ||stabx.net^$third-party
 ||stat.iltalehti.fi^$third-party
