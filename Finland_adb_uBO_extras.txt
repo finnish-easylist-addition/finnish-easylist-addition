@@ -58,6 +58,8 @@ mobiili.fi##div.fullarticle:has(img[src="https://mobiili.fi/aaa.png"])
 mobiili.fi##p:has(small:has-text(Mainos:))
 ! appears when blocking ^^:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif$image
+murha.info##.widget_text.widget:has-text(/Mainos|Autonosatkauppa.fi|Jurinet/)
+murha.info###custom_html-4 > .custom-html-widget.textwidget > table > tbody > tr > td
 sportti.com##.grid_12 > div:nth-of-type(1) > div:nth-of-type(3):has([href*="ilmaiskierroksia"])
 sportti.com##.grid_12 > div:nth-of-type(5):has([href*="nettikasinovertailu"])
 sportti.com##.grid_12 > div:nth-of-type(6):has([href*="casinot"])
