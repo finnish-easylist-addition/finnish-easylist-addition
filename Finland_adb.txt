@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2020020774
+! Version: 2020020775
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 7th of February 2020
@@ -673,14 +673,12 @@ www.tori.fi###footer_partner_links
 ! Alypaa.com unbreak and block ads in a better way
 @@||sestatic.net^$image,domain=alypaa.com
 
+! Makes adblocking undetectable (script blocking hides them already)
+murha.info#@#.adsbygoogle
+murha.info#@#.adsbox
+
 ! links to ad servers
 ##[href^="https://clk.tradedoubler.com/click"]
-
-! Moved to Annoyances list:
-! @@is.fi/kampanjat/alypaa
-! @@is.fi/kampanjat/pelikone
-! @@is.fi/kampanjat/promo/nostot/*-sarjakuvat
-
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
