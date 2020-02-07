@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002073
+! Version: 2020020774
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 7th of February 2020
@@ -423,6 +423,7 @@ vapaavuoro.uusisuomi.fi##a.single-commercial-blog-card
 vauva.fi###aldente-contentfeedhigh_0
 vauva.fi###aldente-native01_0
 vauva.fi##div.cts-row-wrapper
+venelehti.fi##.ads_carousel-2.widget
 viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
