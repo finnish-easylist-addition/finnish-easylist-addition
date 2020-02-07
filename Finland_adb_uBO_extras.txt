@@ -62,6 +62,7 @@ sportti.com##.grid_12 > div:nth-of-type(1) > div:nth-of-type(3):has([href*="ilma
 sportti.com##.grid_12 > div:nth-of-type(5):has([href*="nettikasinovertailu"])
 sportti.com##.grid_12 > div:nth-of-type(6):has([href*="casinot"])
 sportti.com##.grid_12 > div:nth-of-type(7):has([href*="casinot"])
+sss.fi##.textwidget:has-text(MAINOS)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 talouselama.fi##div#skyscraper-height-div > div > aside > div > div:has-text(KAUPALLINEN YHTEISTYÖ)
