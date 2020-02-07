@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2020020775
+! Version: 2020020776
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 7th of February 2020
@@ -184,6 +184,7 @@ hbl.fi##ksf-adblockers
 helsinginuutiset.fi,vihdinuutiset.fi##DIV[class*="lyads"]
 high.fi###googlejs
 high.fi##div[class*="sub-container"]
+hinta.fi###hv-wrapper-top
 hinta.fi##a[href^="/ohjaus.php"]
 hinta.fi##div[class="hv-wrapper-left-item"]
 hinta.fi##div[class="hv-wrapper-right-item"]
@@ -489,6 +490,7 @@ ylilauta.org###right > .center
 ||assets.ilcdn.fi/Monster_IL_banneri_612x78.jpg$image
 ||auto1.fi^$third-party
 ||buttons-for-website.com^$third-party
+||c1.hinta.fi^$third-party,script
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||cdn.asunnot.oikotie.fi/lib/images/logo/sahkovertailu-logo-sininen-360.png$image
 ||cdn.mxpnl.com^$third-party
