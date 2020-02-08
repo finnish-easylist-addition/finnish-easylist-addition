@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002084
+! Version: 202002085
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 8th of February 2020
@@ -613,6 +613,9 @@ www.hs.fi#@#.mainokset
 ! broken by Easyprivacy & Fanboy's Annoyance List
 @@||scdn.cxense.com/cx.js$domain=ess.fi|savonsanomat.fi|itahame.fi|ksml.fi
 @@||content-thumbnail.cxpublic.com$domain=ess.fi|savonsanomat.fi|itahame.fi|ksml.fi
+
+! broken by Easyprivacy, products on the main page
+@@||*/zooplus.fi/scripts/resonance.js
 
 ! unbreak sponsored articles on kaksplus.fi
 www.kaksplus.fi#@#.sponsored-content
