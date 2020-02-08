@@ -2,7 +2,7 @@
 
 ## Reference browser
 
-* Mozilla Firefox with [tracking protection](https://images2.imgbox.com/e4/d7/vJvJQm5h_o.png)) disabled and cookies allowed
+* Mozilla Firefox with [tracking protection](https://images2.imgbox.com/e4/d7/vJvJQm5h_o.png) disabled and cookies allowed
 * Adblock Plus with default settings, except "allow non-intrusive advertising" disabled and Adblock List for Finland added.
 
 ## What should be blocked?
