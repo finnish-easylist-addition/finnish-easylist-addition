@@ -2,17 +2,17 @@
 
 ## Reference browser
 
-* Firefox with tracker&cookie blocking disabled
+* Mozilla Firefox with ([tracking protection](https://images2.imgbox.com/e4/d7/vJvJQm5h_o.png)) disabled and cookies allowed
 * Adblock Plus with default settings, except "allow non-intrusive advertising" disabled and Adblock List for Finland added.
 
 ## What should be blocked?
 
-at least:
+At least:
 
-* ads
-* "native ads" on news sites. Means advertisements spoofed to look like an article in your feed. ([example](https://storage.theel0ja.info/misc/native-ads.png))
+* Ads
+* Native ads on news sites. It means advertisements that are spoofed to look like an article in your feed. ([example](https://images2.imgbox.com/8d/49/NYUEjxKo_o.png))
 
 
 ## What should be unblocked?
 
-* stuff that break due to the filters (examples: [#38](https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/38))
+* Breakages that are caused by filters (example: [#38](https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/38))
