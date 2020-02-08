@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002085
+! Version: 202002086
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 8th of February 2020
@@ -33,16 +33,11 @@
 /mainoskaruselli/*
 /mainoskaruselli_yli
 /mainosmokkula/*$image
-/markkinoinnin_nostot/*
-/om-mainosputki/
-/scripts/edoris/edoris.dll?tem=
 /scripts/eneo/eneo.dll
 /sivulaskuri
 /sponsorit.
 /sponsorit/*
 /sponsorit_
-/statisticsentry-
-/trackPage.php?
 /yhteistyokumppanit.
 /yhteistyokumppanit/*
 /yhteistyokumppanit_
@@ -51,7 +46,6 @@
 /yhteistyossa_
 _mainos.
 _mainosnappi.
-ab.is.fi/?ref=
 nelonenmedia.fi/hitcounter
 rac.ruutu.fi/rac.gif
 rac.ruutu.fi/sat/sat.gif
@@ -102,8 +96,6 @@ rac.ruutu.fi/sat/sat.gif
 ##DIV[class="ad partners box"]
 ##DIV[id*="AdContainer"]
 ##DIV[id="commercial-carousel"]
-! blocks elements with class name containing "head-element"
-! ##DIV[class*="ad-element"]:not(.spread-elements)
 ##DIV[class="banner-top"]
 ##DIV[class="bannercontent"]
 ##DIV[class="footer-popup eezy-premium-popup show-pop"]
@@ -433,7 +425,7 @@ ylilauta.org###right > .center
 ||ad.ilcdn.fi^$third-party
 ||adap.io^$third-party
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
-||affiliate.guts.com/processing/clickthrgh.asp?btag=
+||affiliate.guts.com^$third-party
 ||ah-me.com^$third-party
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||analytics.clickdimensions.com^$third-party
@@ -514,7 +506,6 @@ ylilauta.org###right > .center
 ||puutarha.net/statb.asp
 ||rakentaja.fi/kuvat/pi.gif
 ||rantapallo.fi^$third-party
-||ratas.sanoma.fi^$third-party
 ||reactandshare.com/track.gif
 ||readpeak.com^$third-party
 ||recs.shareaholic.com^$third-party
