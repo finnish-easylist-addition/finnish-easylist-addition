@@ -15,9 +15,6 @@
 
 /bannerCounter.php
 /bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi|~f9.fi
-/daxda-collector/
-/js/common/init-tns
-/js/common/spring
 /js/spring.js
 /karuselli/js/AgAdCarousel
 /mainokset.
@@ -35,7 +32,7 @@
 /mainoskaruselli.
 /mainoskaruselli/*
 /mainoskaruselli_yli
-/mainosmokkula/
+/mainosmokkula/*$image
 /markkinoinnin_nostot/*
 /om-mainosputki/
 /scripts/edoris/edoris.dll?tem=
