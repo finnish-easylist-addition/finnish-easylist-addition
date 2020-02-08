@@ -10,7 +10,7 @@
 At least:
 
 * Ads
-* Native ads on news sites. It means advertisements that are spoofed to look like an article in your feed. ([example](https://images2.imgbox.com/8d/49/NYUEjxKo_o.png))
+* Native ads on news sites. They are advertisements that are spoofed to look like an article in your feed. ([example](https://images2.imgbox.com/8d/49/NYUEjxKo_o.png))
 
 
 ## What should be unblocked?
