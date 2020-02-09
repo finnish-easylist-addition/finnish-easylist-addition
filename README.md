@@ -16,6 +16,6 @@ Annoyances list is recommended to be only used with **uBlock Origin/Nano/Adguard
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 * <a href="https://subscribe.adblockplus.org/?location=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann&title=CrapBlock Annoyances&requiresLocation=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann">CrapBlock Annoyances</a>
-* <a href="abp:subscribe?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt&title=EasyList%20Cookie%20List">Easylist Cookie List</a>
+* <a href="https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann&title=Easylist Cookie&requiresLocation=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann">Easylist Cookie List</a>
 
 URL: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/annoyances/Finland_annoyances.txt`
