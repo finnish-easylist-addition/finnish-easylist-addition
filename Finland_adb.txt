@@ -149,6 +149,7 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 basso.fi##.ad-paraati
 basso.fi##div[id^="BannerBlock"]
+bbs.io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/glig.php"]
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 ! These etuovi rules are only being used on old.etuvi.com
