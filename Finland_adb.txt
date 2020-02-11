@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 202002115
+! Version: 202002116
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Last modified: 11th of February 2020
@@ -45,9 +45,6 @@
 /yhteistyossa_
 _mainos.
 _mainosnappi.
-nelonenmedia.fi/hitcounter
-rac.ruutu.fi/rac.gif
-rac.ruutu.fi/sat/sat.gif
 
 ###atwAdFrame
 ###keskimainos
@@ -492,6 +489,7 @@ ylilauta.org###right > .center
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
 ||monster.almamedia.fi/nostobannerit/
 ||nayadaya.com^$third-party
+||nelonenmedia.fi/hitcounter$image
 ||network.bazaarvoice.com/st.gif
 ||newrelic.com^$third-party
 ||omataloyhtio.fi/ffsw-pushcrew.js
@@ -504,6 +502,7 @@ ylilauta.org###right > .center
 ||pliing.com^$third-party
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
+||rac.ruutu.fi/sat/sat.gif$image
 ||rakentaja.fi/kuvat/pi.gif
 ||rantapallo.fi^$third-party
 ||reactandshare.com/track.gif
