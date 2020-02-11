@@ -621,22 +621,17 @@ murha.info#@#.adsbox
 ! -----UNBREAK-----
 
 @@||leiki.com$domain=kaksplus.fi
-io-tech.fi#@#.sidebar-widgets
-@@||onyourmap.com$image,domain=finder.fi
 ! s-kanava.fi
 @@||leiki.com$domain=etuovi.com
-@@||turku.fi/sites/default/files/styles/current/public/images/
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
 @@||www.power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=www.power.fi
 @@||uk.cdn-net.com/cc.js$script,domain=www.power.fi
 ! Unbreaks chat function
 @@-tracking.js?$domain=telia.fi|moi.fi
-@@/pixel.gif$domain=xhamster.com
 @@||/api/*/visitor?$domain=elisa.fi
 @@||adlibris.com/pixel.gif
 @@||adservicemedia.dk/$image,domain=mobiili.fi
-@@||eu1.snoobi.com/snoop.php?tili=fortum_fi_irene&rqjsbust=
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 @@||leiki.com$domain=iltalehti.fi
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
