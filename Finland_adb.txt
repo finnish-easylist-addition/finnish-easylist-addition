@@ -14,7 +14,7 @@
 ! -----GENERAL-----
 
 /bannerCounter.php
-/bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi|~f9.fi
+/bannerit/*$domain=~www.jhl.fi|~www.karkkainen.com|~unisport.fi
 /js/spring.js
 /karuselli/js/AgAdCarousel
 /mainokset.
