@@ -1,8 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202002131
+! Version: 13February2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
-! Last modified: 13th of February 2020
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
