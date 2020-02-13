@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 13February2020v1
+! Version: 13February2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -386,6 +386,7 @@ viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
 viikonloppu.com###ticker
+viikonloppu.com##.category-uutiset.category-pelit
 viikonloppu.com##.tag-eurojackpot.category-uutiset
 viikonloppu.com##.tag-kasino.category-uutiset
 viikonloppu.com##.tag-nettikasino.category-uutiset
