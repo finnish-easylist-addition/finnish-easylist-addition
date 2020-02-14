@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 13February2020v3
+! Version: 14February2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -616,7 +616,7 @@ www.kaksplus.fi#@#.sponsored-content
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
 
-! Unbreak product sort according to function (Easyprivacy)
+! Unbreak product sorting according to criteria (Easyprivacy) https://github.com/easylist/easylist/pull/4905
 @@||dynamicyield.com/api/*/api_dynamic.js$script,domain=www.gigantti.fi
 
 ! -----UNSORTED END-----
