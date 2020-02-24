@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 19February2020v1
+! Version: 24February2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -301,8 +301,9 @@ nainen.com###ticker
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
+nettiauto.com,nettikaravaani.com,nettikone.com,nettimoto.com,nettimoto.com,nettivaraosa.com,nettivene.com##.inh_banner_nl
 nettiauto.com,nettimoto.com###homeBottomBoxBanner
-nettikone.com,nettiauto.com,nettivene.com,nettimarkkina.com,nettimoto.com,nettikaravaani.com,nettivaraosa.com,nettimokki.com###homeTopBoxBanner
+nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com###homeTopBoxBanner
 nyt.fi##DIV#javascript-disabled-error
 offroadpro.fi,mpmaailma.fi##div[class*="advertisement"]
 offroadpro.fi,mpmaailma.fi##div[class*="bgBanner"]
