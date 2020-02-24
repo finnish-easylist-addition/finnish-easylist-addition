@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 24February2020v1
+! Version: 24February2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -338,9 +338,6 @@ rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 riemurasia.net###PowerRectangle
-riemurasia.net##.Älä ole mulkku‚vaan tue sivua！♥
-riemurasia.net##[href^="http://pizza-online.fi/tt/index.php"]
-riemurasia.net##div[id*="MTQyM"]
 rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 sammysatv.com##a[href*="banner"]
 sammysatv.com##center
@@ -407,12 +404,9 @@ www.finder.fi##.Advertisement__Box
 www.is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 www.is.fi##.overflow-hidden.relative.aspect-ratio-container.jsx-3817070661
 www.is.fi##div.sadblob-loading
-www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class*="emediate_ad"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[class="inh_banner"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="huge_banner"]
-www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##DIV[id="spare_parts_highlights"]
 www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##LI#left_part
-www.nettiauto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettimarkkina.com,www.nettikone.com##div[id="google_bottom_adsense"]
 www.tori.fi###footer_partner_links
 www.tori.fi##DIV[id="banner_panorama_topmost"]
 www.tori.fi##DIV[id="panorama_top"]
