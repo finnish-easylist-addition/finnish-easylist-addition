@@ -367,6 +367,9 @@ suomif1.com##div[class*="-ad"]
 suomif1.com##div[class*="minilanding"]
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
+talouselama.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppaniblogit/"]
+talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppaniblogit/"]
+talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.talouselama.fi/"] > div
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tekniikanmaailma.fi##.NoAdBlocker_main
