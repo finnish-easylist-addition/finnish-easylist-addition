@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 27February2020v2
+! Version: 27February2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -250,6 +250,10 @@ maalampofoorumi.fi##DIV[id="sponsor"]
 maaseuduntulevaisuus.fi##.promo--header
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
+marmai.fi##div#skyscraper-height-div > aside > div > div > a[href^="/kumppaniblogit/"]
+marmai.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
+marmai.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
+marmai.fi##div#skyscraper-height-div > section > div > a[href^="/kumppaniblogit/"]
 matkaendurot.net##DIV[id="logodesc"]>table>tbody>tr>td:first-of-type
 matkaendurot.net##SPAN[id="banneripaikka"]
 mbnet.fi##DIV#topbanner
