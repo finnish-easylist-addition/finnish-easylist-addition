@@ -49,6 +49,8 @@ lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 marmai.fi##div#skyscraper-height-div > aside > a[href^="https://studio.marmai.fi/"]:has-text(Kaupallinen yhteistyö)
 marmai.fi##div#skyscraper-height-div > div > aside > a[href^="https://studio.marmai.fi/"]:has-text(Kaupallinen yhteistyö)
 marmai.fi##div#skyscraper-height-div > div > section > div > div > div:has-text(Kaupallinen yhteistyö)
+! Bad rule, don't add, can remove legit articles. Just as a reminder...
+! mediuutiset.fi##div#skyscraper-height-div > div:has-text(Kaupallinen Yhteistyö)
 mediuutiset.fi##div#root > div > div > div > div > div > div:has-text(Kaupallinen Yhteistyö)
 metropoli.net##.single-post-content.clearfix.entry-content > h4:has([href*="https://www.metropoli.net/rahapelit/rahapeliuutiset/"])
 mobiili.fi##a.isobrick.half.one_col > .featuredinner:has(.bubble:has-text(Sponsoroitu))
