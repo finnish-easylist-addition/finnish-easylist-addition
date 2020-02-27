@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 27February2020v6
+! Version: 27February2020v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -117,11 +117,12 @@ aamulehti.fi###promo-2
 aamulehti.fi##.parade-ad.ad
 aamulehti.fi##div.adContainer
 aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
-aijaa.com##[href*="tradetracker"]
-aijaa.com##[href^="http://www.apteekkituotteet.fi/WebRoot/Euran/Shops/Eura/MediaGallery/"]
-aijaa.com##[href^="http://www.hiusverkko.fi/tt/hiusverkko/"]
-aijaa.com##[href^="http://www.kumiukko.fi/ostos/"]
-aijaa.com##[href^="https://store.iittala.fi/_ui/tt/index.html"]
+aijaa.com##[href^="http://www.apteekkituotteet.fi/"]
+aijaa.com##[href^="http://www.e-ville.com/fi/tradetracker/"]
+aijaa.com##[href^="http://www.hiusverkko.fi/"]
+aijaa.com##[href^="http://www.kumiukko.fi/"]
+aijaa.com##[href^="https://store.iittala.fi/"]
+aijaa.com##[href^="https://tc.tradetracker.net/"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##.om-one.omamainos-products
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##.om-row.om-three.omamainos-products
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
