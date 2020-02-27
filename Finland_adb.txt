@@ -258,9 +258,13 @@ matkaendurot.net##DIV[id="logodesc"]>table>tbody>tr>td:first-of-type
 matkaendurot.net##SPAN[id="banneripaikka"]
 mbnet.fi##DIV#topbanner
 mbnet.fi##DIV#tyopaikat-joblift--avainpaikat
+mediuutiset.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi##div#skyscraper-height-div > aside > div > div > a[href^="https://studio.mediuutiset.fi/"]
 mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.mediuutiset.fi/"]
+mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.mediuutiset.fi/"]
+mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisisaltoa/"]
+mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
 metropoli.net###tdt_widget_minilanding-7
 metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
 mikrobitti.fi##DIV[id="rosmo"]
