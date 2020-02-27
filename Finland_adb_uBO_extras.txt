@@ -40,6 +40,7 @@ kauppalehti.fi##div#skyscraper-height-div > div > aside > aside > section > a:ha
 kauppalehti.fi##div#skyscraper-height-div > div > main > a:has-text(Kaupallinen yhteistyö)
 kauppalehti.fi##div#skyscraper-height-div > main > aside > div > a:has-text(Kaupallinen yhteistyö)
 kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
+kotikokki.net###frame > div:nth-of-type(11):has([src^="https://media-sisustus.etuovi.com/"])
 kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
 lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
