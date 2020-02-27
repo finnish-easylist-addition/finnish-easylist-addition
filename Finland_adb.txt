@@ -145,6 +145,7 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_bottom
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_top
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
+autotalli.com###topBanner
 basso.fi##.ad-paraati
 basso.fi##div[id^="BannerBlock"]
 bbs.io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/glig.php"]
