@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 26February2020v2
+! Version: 27February2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -136,6 +136,8 @@ anna.fi##.readpeak_ad
 anna.fi##.widget_ads_carousel
 anna.fi##div[class*="sisaltoyhteistyo"]
 arcticinsider.com##a[href*="bannerTrack"]
+arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
+arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.arvopaperi.fi/"]
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##.head.the-wrap
