@@ -42,6 +42,8 @@ kauppalehti.fi##div#skyscraper-height-div > main > aside > div > a:has-text(Kaup
 kipparilehti.fi##article[class^="grid__item_"]:has(.js-native-link)
 kotikokki.net###frame > div:nth-of-type(11):has([src^="https://media-sisustus.etuovi.com/"])
 kotiliesi.fi##article[class^="grid__item_"]:has(.template-item_nativead)
+laliiga.com,leijonat.com,nhlsuomi.com,suomifutis.com,suomikiekko.com,valioliiga.com##.td-post-content > h4:has-text(talletusbonus)
+laliiga.com,leijonat.com,nhlsuomi.com,suomifutis.com,suomikiekko.com,valioliiga.com##.td-post-content > ol:has-text(pelitili)
 lapinkansa.fi##article.narrow.news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 lapinkansa.fi##article.news-item.front-page-news-item.featured:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
 lapinkansa.fi##div.small-news-item.content > .border-bottom.news-item.front-page-news-item:has(.topic-link-nat.topic-link:has-text(Kaupallinen yhteistyö))
