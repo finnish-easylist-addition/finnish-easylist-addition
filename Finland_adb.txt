@@ -242,6 +242,7 @@ kuljetusnet.fi##div[id*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuopionkirppari.fi##DIV[class*="banner"]
 kuvake.net###ticker
+leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 laliiga.com,leijonat.com,nhlsuomi.com,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com##.tdt-minilanding.tdt-manager-element
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
@@ -383,6 +384,7 @@ studio55.fi##.ad-container.banner
 suomela.fi##div[class*="banner"]
 suomi24.fi##.editorial-slots
 suomi24.fi##div[class*="Ad__AdWrapper"]
+suomifutis.com##[href$="/nettikasinot/"]
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
 talouselama.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppaniblogit/"]
@@ -401,6 +403,7 @@ uusisuomi.fi##div#skyscraper-height-div > div > aside > section > a[href^="https
 uutissuora.fi##div[class="td-all-devices"]
 uutisvirta.fi###fancybox-overlay
 uutisvirta.fi##aside > div.spacer
+valioliiga.com##[href$="/vedonlyonti/"]
 vapaasana.swedishforum.net###p0
 vapaavuoro.uusisuomi.fi##.gray.commercial-blog-card
 vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
