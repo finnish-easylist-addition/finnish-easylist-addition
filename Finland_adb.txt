@@ -242,6 +242,7 @@ kuljetusnet.fi##div[id*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuopionkirppari.fi##DIV[class*="banner"]
 kuvake.net###ticker
+laliiga.com,leijonat.com,nhlsuomi.com,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com##.tdt-minilanding.tdt-manager-element
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
