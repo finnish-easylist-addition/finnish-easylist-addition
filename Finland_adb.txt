@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 05March2020v1
+! Version: 05March2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -79,6 +79,7 @@ _mainosnappi.
 ##.mainostila
 ##.sponsori
 ##.sponsorit
+##.tdt-desktop-ad
 ##.yhteistyokaruselli
 ##.yhteistyokumppanit
 ##.yhteistyossa
@@ -373,7 +374,6 @@ seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
 seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
-sketsi.net##.tdt-desktop-ad.tdt-floating.tdt-manager-element
 sketsi.net##.tdt-minilanding.tdt-manager-element
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
