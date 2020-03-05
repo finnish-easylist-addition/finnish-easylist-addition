@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 05March2020v2
+! Version: 05March2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -80,6 +80,7 @@ _mainosnappi.
 ##.sponsori
 ##.sponsorit
 ##.tdt-desktop-ad
+##.tdt-minilanding.tdt-manager-element
 ##.yhteistyokaruselli
 ##.yhteistyokumppanit
 ##.yhteistyossa
@@ -244,7 +245,6 @@ kulutusluottovertailu.fi##.fusion-carousel
 kuopionkirppari.fi##DIV[class*="banner"]
 kuvake.net###ticker
 leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
-laliiga.com,leijonat.com,nhlsuomi.com,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com##.tdt-minilanding.tdt-manager-element
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
@@ -374,7 +374,6 @@ seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
 seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
-sketsi.net##.tdt-minilanding.tdt-manager-element
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
