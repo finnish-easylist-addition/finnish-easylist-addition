@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 05March2020v6
+! Version: 05March2020v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -213,6 +213,7 @@ kaksplus.fi###adscarousel-feed
 kaksplus.fi##.advertisement
 kaleva.fi##.js-myyntiruudut
 kaleva.fi##.news--native-ad
+kaleva.fi##.smartblock--juttusivu-markkinointi
 kaleva.fi##.video-list--advertisement
 kaleva.fi##.widget--kaupallinen-yhteistyo
 kaleva.fi##.widget__ad__text
