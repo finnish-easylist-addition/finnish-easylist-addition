@@ -26,6 +26,7 @@ iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/kuvat/nauhat/nauha_ky_"]
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers"])
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/ky-"])
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/ky_"])
+iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/KY_"])
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/mainosnauha"])
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/mainosnauhta"])
 iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/terveys_palkki_vitaelab_kaupallinenyht"])
