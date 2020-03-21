@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 19March2020v1
+! Version: 21March2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -428,6 +428,7 @@ viikonloppu.com##[href^="https://www.lainaovi.fi/"]
 viikonloppu.com##li > a[href*="-jackpot-"]
 voice.fi##div[class*="cxense-ad-container"]
 www.finder.fi##.Advertisement__Box
+www.helsinkitimes.fi##.banneritem
 www.is.fi###kumppaneiden-tarjoukset
 www.is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 www.is.fi##.overflow-hidden.relative.aspect-ratio-container.jsx-3817070661
