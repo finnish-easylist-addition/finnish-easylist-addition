@@ -499,7 +499,7 @@ ylilauta.org###right > .center
 ||io-tech.fi/images/*_290x290px.png$image
 ||kake.fi^$third-party
 ||kampanjat.hs.fi/
-||karjalainen.fi/images/banners/kiinnostuitko$image
+||karjalainen.fi/images/banners/kiinnostuitko-$image
 ||karuselli.opiferum.com^$third-party
 ||kelkkalehti.com/bannerit/
 ||ko.snstatic.fi^$third-party
