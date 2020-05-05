@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 06May2020v2
+! Version: 06May2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -156,7 +156,6 @@ basso.fi##div[id^="BannerBlock"]
 bbs.io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/glig.php"]
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
-cellmapper.net###ads
 deitti.net##.ad-article
 ! These etuovi rules are only being used on old.etuvi.com
 etuovi.com##SECTION[class*="advertising"]
