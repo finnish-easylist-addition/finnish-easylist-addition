@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 20May2020v1
+! Version: 20May2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -379,9 +379,12 @@ seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
-sportti.com##[href^="http://ads.leovegas.com/redirect.aspx"]
-sportti.com##[href^="http://www.primeslots.com/FI/"]
-sportti.com##div.grid_4
+sportti.com##[href^="http://ads.leovegas.com/"]
+sportti.com##[href^="http://www.primeslots.com/"]
+sportti.com##div[style="font-size:14px;line-height:21px;padding-top:6px;"]
+sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + [type="text/javascript"] + div
+sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + table[width="468"] + div
+sportti.com##table[width="468"]
 studio55.fi##.ad-container.banner
 suomela.fi##.banner-boksi1
 suomi24.fi##.editorial-slots
