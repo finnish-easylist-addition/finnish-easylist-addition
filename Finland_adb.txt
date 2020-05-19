@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 14May2020v1
+! Version: 20May2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -121,12 +121,7 @@ aamulehti.fi###promo-2
 aamulehti.fi##.parade-ad.ad
 aamulehti.fi##div.adContainer
 aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
-aijaa.com##[href^="http://www.apteekkituotteet.fi/"]
-aijaa.com##[href^="http://www.e-ville.com/fi/tradetracker/"]
-aijaa.com##[href^="http://www.hiusverkko.fi/"]
-aijaa.com##[href^="http://www.kumiukko.fi/"]
-aijaa.com##[href^="https://store.iittala.fi/"]
-aijaa.com##[href^="https://tc.tradetracker.net/"]
+aijaa.com##div.text-center.col-sm-6 > a[rel$="nofollow"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##.om-one.omamainos-products
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##.om-row.om-three.omamainos-products
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
