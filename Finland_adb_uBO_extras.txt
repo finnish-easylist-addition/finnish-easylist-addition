@@ -1,4 +1,3 @@
-aijaa.com##div.text-center.col-sm-6:nth-of-type(2):has([href^="http"])
 aamulehti.fi##DIV[id*="pipe"] > div > div:has-text(Kaupallinen yhteistyö)
 aamulehti.fi##DIV[id^="morearticles_"]:has(h2:has(span:has-text(Kaupallinen yhteistyö)))
 anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
