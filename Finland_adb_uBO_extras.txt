@@ -1,6 +1,5 @@
 aamulehti.fi##DIV[id*="pipe"] > div > div:has-text(Kaupallinen yhteistyö)
 aamulehti.fi##DIV[id^="morearticles_"]:has(h2:has(span:has-text(Kaupallinen yhteistyö)))
-anna.fi##article[class^="grid__item_"]:has(.list-tag_commercial)
 arvopaperi.fi##div#skyscraper-height-div > aside > div > a:has-text(Kaupallinen yhteistyö)
 arvopaperi.fi##div#skyscraper-height-div > aside > div > div:has-text(Kaupallinen yhteistyö)
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > a:has-text(Kaupallinen yhteistyö)
