@@ -88,7 +88,6 @@ uusisuomi.fi##div#skyscraper-height-div > aside > section > a:has-text(Kaupallin
 uusisuomi.fi##div#skyscraper-height-div > div > aside > section > a:has-text(Kaupallinen yhteistyö)
 uusisuomi.fi##div#skyscraper-height-div > div > main > div > a:has-text(Kaupallinen yhteistyö)
 vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
-venelehti.fi##article[class^="grid__item_"]:has(.bg-category_mainos)
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/veikkaus"])
 www.tori.fi##.item_row.ds-box:has(img[src*="cloudfront.net/img/vepsalainen"])
 
