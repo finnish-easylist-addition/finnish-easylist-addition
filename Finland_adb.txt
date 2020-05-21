@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 21May2020v7
+! Version: 21May2020v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -626,10 +626,10 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.
 @@||*/zooplus.fi/scripts/resonance.js
 
 ! unbreak opening of sponsored articles
+anna.fi#@#.sponsored-content
 hs.fi#@#.mainos
 hs.fi#@#.mainokset
 www.kaksplus.fi#@#.sponsored-content
-www.anna.fi#@#.sponsored-content
 
 ! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
