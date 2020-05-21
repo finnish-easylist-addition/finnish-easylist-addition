@@ -446,7 +446,6 @@ www.tori.fi###footer_partner_links
 www.tori.fi##DIV[id="banner_panorama_topmost"]
 www.tori.fi##DIV[id="panorama_top"]
 www.tori.fi##DIV[id="panorama_topmost"]
-www.tori.fi##DIV[id='sis_links']
 ylilauta.org###right > .center
 
 ! -----EXTENDED FILTERS END-----
