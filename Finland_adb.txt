@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 23May2020v1
+! Version: 23May2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -662,6 +662,7 @@ tjareborg.fi#@#.push-container
 @@||veho.fi/huolto/huollon-palvelut/huollon-ajanvaraus/$document
 iltalehti.fi#@#.afs_ads
 mobiili.fi#@#.header_ad
+mobiili.fi#@##header_ad22
 www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
