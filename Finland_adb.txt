@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 23May2020v3
+! Version: 23May2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -130,6 +130,7 @@ aksa.fi##div[class*="adverts"]
 aksa.fi##div[class*="g-single a-"]
 alastonsuomi.com##.jb
 alibi.fi##.magazineorderwidget__content
+alypaa.com##.banner-slot-preroll-info
 ampparit.com##DIV[class*="ad-"]
 ampparit.com##div[class*="ticker"]
 anna.fi###native_text_wrapper
