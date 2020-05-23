@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 21May2020v8
+! Version: 23May2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -284,9 +284,6 @@ mobiili.fi##.article_ad_1
 mobiili.fi##.article_ad_2
 mobiili.fi##.execphpwidget
 mobiili.fi##.singlehinta.header_ad
-mobiili.fi##div[class="blogcontent"]>p:first-of-type
-mobiili.fi##div[class="blogcontent"]>p:nth-last-of-type(1)
-mobiili.fi##div[id="fullcolumn"]>p:first-of-type
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
