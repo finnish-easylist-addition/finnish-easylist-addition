@@ -211,8 +211,13 @@ io-tech.fi###text-7
 io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/tick.php"]
 irc-galleria.net##div[id^="open_"]
 jatkoaika.com##div[class="block block-block"]
-juoksufoorumi.fi##.noAdsCell
-juoksufoorumi.fi##li.ipsResponsive_block.ipsBox.ipsWidget_vertical.ipsWidget
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_3p8fros91"]
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_mkpb5gdld"]
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_qvthg3vk3"]
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_shlnwpath"]
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vw7mvdpp7"]
+juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vwzewx71s"]
+juoksufoorumi.fi##[data-role="sidebarAd"] ~ br
 kaksplus.fi###adscarousel-feed
 kaksplus.fi##.advertisement
 kaleva.fi##.js-myyntiruudut
