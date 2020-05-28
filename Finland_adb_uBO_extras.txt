@@ -59,7 +59,6 @@ mobiili.fi##p:has(small:has-text(Mainos:))
 murha.info##.widget_text.widget:has-text(/Mainos|Autonosatkauppa.fi|Jurinet/)
 murha.info###custom_html-4 > .custom-html-widget.textwidget > table > tbody > tr > td
 muropaketti.com##article.grid__item_md-1-5.grid__item_1:has-text(Mainos)
-sss.fi##.textwidget:has-text(MAINOS)
 taisto.org###mw-data-after-content > div:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 taisto.org###siteNotice:has-text(Mainos / Advertisement:):has(.adsbygoogle)
 talouselama.fi##div#skyscraper-height-div > div > aside > div > div:has-text(KAUPALLINEN YHTEISTYÖ)
