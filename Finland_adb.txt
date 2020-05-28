@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 28May2020v5
+! Version: 28May2020v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -284,8 +284,12 @@ mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="h
 mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
 menaiset.fi##.tagged-kaupallinen-yhteistyö.is-commercial.node-article-mini_teaser.node-mini_teaser.view-mode-mini_teaser.node-promoted
+metropoli.net###menu-item-46797 > [href="https://www.metropoli.net/rahapelit/"]
 metropoli.net###tdt_widget_minilanding-7
+metropoli.net##.rp-holder-419.main-term-1.listing-item-grid
+metropoli.net##.tdt-desktop-ad
 metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
+metropoli.net##p ~ hr ~ h3, h3 ~ p, h3 ~ p ~ ul
 mikrobitti.fi##DIV[id="rosmo"]
 mobiili.fi###header_ad33
 mobiili.fi###text-67 > .textwidget
