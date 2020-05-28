@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 29May2020v1
+! Version: 29May2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -190,7 +190,8 @@ hs.fi##.hs-advertorial
 hs.fi##.lg\:w-main-lane.bg-hs-frost.mb-16
 hs.fi##DIV[class*="-ad-block"]
 hs.fi##DIV[class*="ad-container"]
-hs.fi##[data-id="447485"], [data-id="444772"]
+hs.fi##[data-id="444772"]
+hs.fi##[data-id="447485"]
 hs.fi##a.block[href*="/mainos/"]
 hs.fi,web.archive.org##.bottomsticky-body.fixed.bottomsticky-mounted.metered-softwall-shadow.xl\:pr-sideAdOffset
 huoltovalikko.com##A[href="http://www.satshop.fi"]
