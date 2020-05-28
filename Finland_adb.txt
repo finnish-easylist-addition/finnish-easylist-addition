@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 28May2020v4
+! Version: 28May2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -241,6 +241,8 @@ keskipohjanmaa.fi##div.hidden-xs.news-n.newslink-ad.col-xs-12
 keskustelu.suomi24.fi##[class*="SeiskaRSSNews"]
 keskustelu.suomi24.fi##[class*="StaraRSSNews"]
 keskustelu.suomi24.fi##div.center-block.no-padding.lt-res-below-2.ad-fluid.ad-container.ad.keskustelu-column3-ad
+kipparilehti.fi##[data-template-type="nativead"]
+kipparilehti.fi##[id="dfp__rectangle-1_1"][class="grid__item_1 grid__item_md-1-3"]
 kirkkojakaupunki.fi##div.ad-container
 koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 kotikokki.net###partners-container-big
