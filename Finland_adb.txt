@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 30May2020v6
+! Version: 30May2020v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -408,11 +408,12 @@ suomi24.fi##div[class*="Ad__AdWrapper"]
 suomifutis.com##[href$="/nettikasinot/"]
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
+talouselama.fi##[id="skyscraper-height-div"] > div > main > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^="sc-"]
 talouselama.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppaniblogit/"]
 talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppaniblogit/"]
-talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.talouselama.fi/"] > div
-talouselama.fi##div[class^="article-body"] > p[class^="paragraph"] ~ [class^="sc"]
-talouselama.fi##div[id="skyscraper-height-div"] > div[class="LazyLoad is-visible"] > section > div:first-of-type + div
+talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.talouselama.fi/"] > div[class^="sc-"]
+talouselama.fi##div[class^="article-body"] > p[class^="paragraph"] ~ [class^="sc-"]
+talouselama.fi##div[id="skyscraper-height-div"] > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^="sc-"]
 taisto.org###mw-data-after-content > div
 taisto.org##a[id="top"] ~ [id="siteNotice"][class="mw-body-content"]
 tehylehti.fi##.commercial-bottom.commercial
