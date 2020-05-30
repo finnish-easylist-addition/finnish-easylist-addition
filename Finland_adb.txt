@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 30May2020v5
+! Version: 30May2020v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -412,6 +412,7 @@ talouselama.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppaniblog
 talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppaniblogit/"]
 talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.talouselama.fi/"] > div
 talouselama.fi##div[class^="article-body"] > p[class^="paragraph"] ~ [class^="sc"]
+talouselama.fi##div[id="skyscraper-height-div"] > div[class="LazyLoad is-visible"] > section > div:first-of-type + div
 taisto.org###mw-data-after-content > div
 taisto.org##a[id="top"] ~ [id="siteNotice"][class="mw-body-content"]
 tehylehti.fi##.commercial-bottom.commercial
