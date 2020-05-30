@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30May2020v8
+! Version: 31May2020v9
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -688,6 +688,10 @@ www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 download.fi#@##ad-top-banner-placeholder
+
+! https://github.com/easylist/easylist/pull/5444
+@@||www.googletagmanager.com/gtm.js$script,domain=www.soundi.fi
+@@||kiwi45.leiki.com/focus/$script,domain=soundi.fi
 
 ! Fanboy's Annoyance List
 
