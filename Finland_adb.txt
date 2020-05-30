@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 30May2020v4
+! Version: 30May2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -427,8 +427,6 @@ tulikulma.fi##.slideshow
 uudenkaupunginsanomat.fi###auto-grid-container-5c40764673d19
 uusisuomi.fi##div#skyscraper-height-div > div > aside > section > a[href^="https://kumppaniblogit.uusisuomi.fi/"]
 uutissuora.fi##div[class="td-all-devices"]
-uutisvirta.fi###fancybox-overlay
-uutisvirta.fi##aside > div.spacer
 valioliiga.com##[href$="/vedonlyonti/"]
 vapaasana.swedishforum.net###p0
 vapaavuoro.uusisuomi.fi##.gray.commercial-blog-card
@@ -602,11 +600,6 @@ ylilauta.org###right > .center
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
 
-! vr.fi info messages incorrectly blocked by fanboy's cookiemonster
-! https://github.com/ryanbr/fanboy-adblock/issues/666
-vr.fi#@#.infoMessages
-www.vr.fi##.headerContents > .infoMessages
-
 ! Sanoma Oyj video ads
 ||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4$media
 ||nelonenmedia.fi/ads/$media
@@ -628,7 +621,7 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$script
 
-! To make viafree.fi videos to work without ads
+! viafree.fi video adblock
 @@||fwmrm.net/ad/*$xmlhttprequest,domain=www.viafree.fi
 @@||fwmrm.net/ad/*$script,domain=www.viafree.fi
 @@||fwmrm.net/ad/*$image,domain=www.viafree.fi
@@ -657,7 +650,7 @@ www.kaksplus.fi#@#.sponsored-content
 ##[src*="://ad.doubleclick.net/"]
 ||cloudfront.net/banners/$domain=tori.fi
 
-! Makes adblocking undetectable (script blocking hides them already)
+! Makes adblocking undetectable (adscript blocking hides them already)
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
 
@@ -698,9 +691,5 @@ download.fi#@##ad-top-banner-placeholder
 @@/wp-content/*twitter.jpg$domain=tekniikanmaailma.fi
 ! ville.utu.fi unbreak
 @@||*/icons/google$image,domain=utu.fi
-
-! Easylist cookie causes header to display incorrectly when scrolling
-staypro.fi#@#.cookie-inner
-staypro.fi#@#.cookie-bar:not(body):not(html)
 
 ! -----UNBREAK END-----
