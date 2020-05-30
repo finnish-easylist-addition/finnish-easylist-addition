@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2020v1
+! Version: 31May2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -692,6 +692,11 @@ download.fi#@##ad-top-banner-placeholder
 ! https://github.com/easylist/easylist/pull/5444
 @@||www.googletagmanager.com/gtm.js$script,domain=www.soundi.fi
 @@||kiwi45.leiki.com/focus/$script,domain=soundi.fi
+
+https://github.com/easylist/easylist/pull/5445
+@@||proxy.strossle.it/proxy.html$subdocument,domain=soundi.fi
+@@||sprinklecontent.com^$domain=soundi.fi
+@@||widgets.spklw.com/v1/data/*$xmlhttprequest,domain=soundi.fi
 
 ! Fanboy's Annoyance List
 
