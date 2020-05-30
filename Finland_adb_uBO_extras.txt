@@ -89,7 +89,7 @@ mikrobitti.fi##+js(nostif, bait)
 gamereactor.fi##+js(aopr, adblockEnabled)
 
 ! Pirmediat Oy anti adblock
-aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##script:inject(setTimeout-defuser.js, adblockDetected, 0)
+aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(setTimeout-defuser.js, adblockDetected, 0)
 
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
 
