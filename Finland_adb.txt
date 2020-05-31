@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 1June2020v1
+! Version: 1June2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -431,6 +431,11 @@ tulikulma.fi##.slideshow
 uudenkaupunginsanomat.fi###auto-grid-container-5c40764673d19
 uusisuomi.fi##div#skyscraper-height-div > div > aside > section > a[href^="https://kumppaniblogit.uusisuomi.fi/"]
 uutissuora.fi##div[class="td-all-devices"]
+uutisvuoksi.fi##.box.ads
+uutisvuoksi.fi##article[class="article-preview content-marketing box"]
+uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
+uutisvuoksi.fi##div[class^="ad"]
+uutisvuoksi.fi##div[class="ads"]
 valioliiga.com##[href$="/vedonlyonti/"]
 vapaasana.swedishforum.net###p0
 vapaavuoro.uusisuomi.fi##.gray.commercial-blog-card
