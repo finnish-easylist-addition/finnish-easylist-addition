@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2020v12
+! Version: 1June2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -477,6 +477,7 @@ ylilauta.org###right > .center
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
 
+||*suomi24.fi/js/adTargeting.js$script,domain=suomi24.fi
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
 ||adap.io^$third-party
