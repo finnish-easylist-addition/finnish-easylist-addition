@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2020v3
+! Version: 31May2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -420,6 +420,7 @@ taisto.org###mw-data-after-content > div
 taisto.org##a[id="top"] ~ [id="siteNotice"][class="mw-body-content"]
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
+tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##.NoAdBlocker_main
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
