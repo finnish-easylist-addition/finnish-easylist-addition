@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 1June2020v6
+! Version: 1June2020v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -154,6 +154,10 @@ bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
 deitti.net##.ad-article
+esaimaa.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
+esaimaa.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
+esaimaa.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
+esaimaa.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^="ad"]
 ! These etuovi rules are only being used on old.etuvi.com
 etuovi.com##SECTION[class*="advertising"]
 etuovi.com##article[class="loanCalculator"]
@@ -256,10 +260,6 @@ kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuvake.net###ticker
-lansi-savo.fi,uutisvuoksi.fi##.box.ads
-lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
-lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
-lansi-savo.fi,uutisvuoksi.fi##div[class^="ad"]
 lansivayla.fi###natiivit
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
