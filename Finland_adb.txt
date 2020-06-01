@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 1June2020v3
+! Version: 1June2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -256,11 +256,12 @@ kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuvake.net###ticker
-leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
+lansivayla.fi###natiivit
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
 lbaanijakuva.fi##.adremark
+leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 loimaanlehti.fi##div[class*="art-sidebar2"]>div[id*="black-studio-tinymce"]
 loimaanlehti.fi##div[class*="pro_ad_adzone"]
 luukku.com###banneri_yla
@@ -526,15 +527,12 @@ ylilauta.org###right > .center
 ||hippos.fi/banner/
 ||hobbyhall.fi*/pikkubanneri_
 ||honestpartners.com^$third-party
-||hs.fi/kampanjat/menokone/$image
-||hs.fi/menokone/menokonenosto.*
 ||hs.fi/stats
 ||hs.fi/webstatic/images/clear1x1.gif
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
 ||kake.fi^$third-party
-||kampanjat.hs.fi/
 ||karjalainen.fi/images/banners/kiinnostuitko-$image
 ||karuselli.opiferum.com^$third-party
 ||kelkkalehti.com/bannerit/
