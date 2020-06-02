@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 2June2020v1
+! Version: 2June2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -685,6 +685,9 @@ https://github.com/easylist/easylist/pull/5445
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||sprinklecontent.com^$domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.spklw.com/v1/data/*$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
+
+https://github.com/easylist/easylist/pull/5460
+ @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 
 ! Fanboy's Annoyance List
 
