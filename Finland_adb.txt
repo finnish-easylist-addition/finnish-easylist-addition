@@ -687,7 +687,11 @@ https://github.com/easylist/easylist/pull/5445
 @@||widgets.spklw.com/v1/data/*$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 
 https://github.com/easylist/easylist/pull/5460
- @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
+@@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
+
+https://github.com/easylist/easylist/pull/5461
+@@||leffatykki.com/media/banners/tykkibanneri-728x90.png$image,domain=leffatykki.com
+leffatykki.com#@#.ad728x90
 
 ! Fanboy's Annoyance List
 
