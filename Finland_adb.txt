@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 4June2020v1
+! Version: 5June2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -688,7 +688,8 @@ studio55.fi#@#.column-ad
 
 ! https://github.com/easylist/easylist/pull/5445
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
-@@||sprinklecontent.com^$domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
+@@||images.sprinklecontent.com/270/170/$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
+@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.spklw.com/v1/data/*$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 
 ! https://github.com/easylist/easylist/pull/5460
