@@ -688,7 +688,7 @@ studio55.fi#@#.column-ad
 ! Will be removed after PR's accepted
 
 ! https://github.com/easylist/easylist/pull/5448
- @@||*/zooplus.fi/scripts/resonance.js$script,domain=zooplus.fi
+@@||*/zooplus.fi/scripts/resonance.js$script,domain=zooplus.fi
 
 ! https://github.com/easylist/easylist/pull/5445
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
