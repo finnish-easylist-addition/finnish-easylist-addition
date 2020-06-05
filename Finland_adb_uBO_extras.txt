@@ -8,6 +8,7 @@ arvopaperi.fi##div#skyscraper-height-div > div > aside > div > a:has-text(Kaupal
 arvopaperi.fi##div#skyscraper-height-div > div > div > div > div > div > a:has-text(Kaupallinen yhteistyö)
 basso.fi###header-main:style(margin-top: 0px !important)
 basso.fi###header:style(min-height: auto !important)
+hardelli.com##a[class="td-post-category"][href="https://hardelli.com/category/pelit/"]:upward(3)
 hs.fi##.embedded:has-text(Markkinapaikka)
 iltalehti.fi##.article-container:has-text(Kaupallinen yhteistyö)
 iltalehti.fi##.card:has(.block > a[class="nakoislehti"][href^="https://plus.iltalehti.fi/nakoislehti/"])
