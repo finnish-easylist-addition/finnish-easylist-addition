@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 5June2020v4
+! Version: 5June2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -215,6 +215,7 @@ io-tech.fi###text-7
 io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/tick.php"]
 irc-galleria.net##div[id^="open_"]
 inssinosingot.fi##.block-mainos
+inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi##div[class="row align-center"]:has([class$="lazy-load-active"])
 jatkoaika.com##div[class="block block-block"]
@@ -427,6 +428,7 @@ tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 ticketmaster.fi##div[id^="ad-slot-"]
+tilt.fi##.lazyloading
 tivi.fi##a[href^="/kumppaniblogit/"]
 tivi.fi##a[href^="https://studio.tivi.fi/tivi-studiovieras/"]
 tulikulma.fi##.slideshow
