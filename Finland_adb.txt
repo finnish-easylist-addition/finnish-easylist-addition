@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 5June2020v1
+! Version: 5June2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -223,6 +223,8 @@ juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vw7mvdpp7"]
 juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vwzewx71s"]
 juoksufoorumi.fi##[data-role="sidebarAd"] ~ br
 kaksplus.fi###adscarousel-feed
+kaleva.fi###outstream-container
+kaleva.fi###paraati-ad-grid
 kaleva.fi##.js-myyntiruudut
 kaleva.fi##.news--native-ad
 kaleva.fi##.smartblock--juttusivu-markkinointi
@@ -676,15 +678,11 @@ www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 download.fi#@##ad-top-banner-placeholder
 studio55.fi#@#.column-ad
 
-! https://github.com/easylist/easylist/pull/5450
-@@||googletagmanager.com/gtm.js$script,domain=veho.fi
+
+! Will be removed after PR's accepted
 
 ! https://github.com/easylist/easylist/pull/5448
  @@||*/zooplus.fi/scripts/resonance.js$script,domain=zooplus.fi
-
-! https://github.com/easylist/easylist/pull/5444
-@@||www.googletagmanager.com/gtm.js$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
-@@||kiwi45.leiki.com/focus/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 
 ! https://github.com/easylist/easylist/pull/5445
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
@@ -701,6 +699,10 @@ leffatykki.com#@#.ad728x90
 
 ! https://github.com/easylist/easylist/pull/5468
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
+
+! https://github.com/easylist/easylist/pull/5480
+@@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
+@@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 
 ! Fanboy's Annoyance List
 
