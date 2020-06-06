@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 6June2020v2
+! Version: 6June2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -598,6 +598,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||www.superskills.fi/fi?isIframe=true$subdocument
 ||www.testeri.fi/inc/museokortti.png$image
 ||www.tori.fi/img/none.gif$image
+||www.ts.fi/adframe.js$script,domain=www.ts.fi
 ||yle.fi/initAdobeAnalytics
 ||ylilauta.org/fcdn/
 
