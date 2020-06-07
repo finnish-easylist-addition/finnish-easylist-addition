@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 6June2020v5
+! Version: 6June2020v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -707,6 +707,9 @@ leffatykki.com#@#.ad728x90
 ! https://github.com/easylist/easylist/pull/5480
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
+
+! https://github.com/easylist/easylist/pull/5500
+power.fi#@##cookie-notification
 
 ! Fanboy's Annoyance List
 
