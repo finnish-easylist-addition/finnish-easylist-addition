@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 7June2020v1
+! Version: 8June2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -104,7 +104,6 @@ _mainosnappi.
 ##[href^="https://media.suomikasino.com/"]
 ##[href^="https://tc.tradetracker.net/"]
 ##a[href*="/clickthrgh.asp?"]
-##a[href*="adtraction.com"]
 ##a[href^="https://app.readpeak.com/ads"]
 ##div[class="ad-banner"]
 ##div[class="ad-wrapper"]
