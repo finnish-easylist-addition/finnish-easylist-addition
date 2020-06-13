@@ -5,7 +5,7 @@
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
-! Raportoi ongelmista tai estämättömistä mainoksista täällä / Please report any issues or unblocked ads at:
+! Raportoi ongelmista tai estämättömistä mainoksista täällä / Please report issues or unblocked ads at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 !#include Finland_adb_uBO_extras.txt
 !
