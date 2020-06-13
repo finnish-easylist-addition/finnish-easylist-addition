@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 13June2020v1
+! Version: 13June2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -387,6 +387,7 @@ rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 riemurasia.net###PowerRectangle
+riemurasia.net###PowerSkyscraper
 rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
