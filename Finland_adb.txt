@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14June2020v3
+! Version: 14June2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -177,6 +177,7 @@ finder.fi##.Advertisement__Box
 finnkino.fi,fum.fi,tilt.fi##.advertising
 funtampere.fi##.banner_container
 gamereactor.fi###adContainer
+gamereactor.fi###bigVideoAd_content
 gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##div[id="eventad"]
