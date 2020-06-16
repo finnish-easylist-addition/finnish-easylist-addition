@@ -7,10 +7,10 @@ Finnish Easylist addition, originally a fork of Juvander's Adblock list. Works w
 Direct URL to the list: `https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt`
 
 
-### Lists required/recommended for usage
+### Other recommended lists:
 
 * <a href="https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann&title=Easylist Cookie&requiresLocation=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann">Easylist Cookie List</a>
-* uBlock - Annoyances (if uBlock Origin or Nano in use)
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
+* uBlock - Annoyances (if uBlock Origin or Nano in use)
 * <a href="https://subscribe.adblockplus.org/?location=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann&title=CrapBlock Annoyances&requiresLocation=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann">CrapBlock Annoyances</a>
