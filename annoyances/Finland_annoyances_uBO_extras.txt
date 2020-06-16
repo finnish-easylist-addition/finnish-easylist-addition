@@ -1,3 +1,5 @@
+! LIST CURRENTLY NOT MAINTAINED
+
 ! is.fi - Sarjakuvat/Comics
 www.is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
 
