@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14June2020v5
+! Version: 16June2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -702,6 +702,9 @@ www.rauhanpuolustajat.org#@#div[data-nconvert-cookie]
 @@||images.sprinklecontent.com/270/170/$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.spklw.com/v1/data/*$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
+
+! https://github.com/easylist/easylist/pull/5555
+mehilainen.fi#@#div[class*="CookieConsent"]
 
 ! Fanboy's Annoyance List
 
