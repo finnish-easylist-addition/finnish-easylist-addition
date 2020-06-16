@@ -1,4 +1,5 @@
 [Adblock Plus 2.0]
+! LIST CURRENTLY NOT MAINTAINED
 ! Version: 201812131
 ! Title: Annoyance List for Finland
 ! Description: Finnish adblock list
