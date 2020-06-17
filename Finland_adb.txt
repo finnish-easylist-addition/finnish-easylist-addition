@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16June2020v7
+! Version: 16June2020v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -481,6 +481,7 @@ www.is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 www.is.fi##.is-advertorial.external.full-width.teaser
 www.is.fi##.ml-16.lg\:block.w-right.hidden > .border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 www.is.fi##a[href="https://www.startel.fi/?infront"]
+www.is.fi##article[class*="native-ad"]
 www.is.fi##div.sadblob-loading
 www.tori.fi###banner_panorama_bottom
 www.tori.fi###footer_partner_links
