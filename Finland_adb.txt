@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16June2020v5
+! Version: 16June2020v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
