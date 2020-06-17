@@ -91,14 +91,10 @@ _mainosnappi.
 ##DIV[class="AgAdCarousel_LightBox"]
 ##DIV[class="ad container-right"]
 ##DIV[class="ad partners box"]
-##DIV[class="banner-top"]
-##DIV[class="bannercontent"]
-##DIV[class="footer-popup eezy-premium-popup show-pop"]
 ##DIV[id*="AdContainer"]
 ##DIV[id="commercial-carousel"]
 ##DIV[id="top-ad"]
 ##DIV[id^="ads-content-bottom"]
-##SPAN#banneripaikka2
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://media.suomikasino.com/"]
 ##[href^="https://tc.tradetracker.net/"]
@@ -224,7 +220,6 @@ irc-galleria.net##div[id^="open_"]
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
-inssinosingot.fi##div[class="row align-center"]:has([class$="lazy-load-active"])
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##[data-blockid="app_cms_Blocks_3p8fros91"]
 juoksufoorumi.fi##[data-blockid="app_cms_Blocks_mkpb5gdld"]
