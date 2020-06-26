@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26June2020v3
+! Version: 27June2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -358,7 +358,7 @@ nettiauto.com,nettikaravaani.com,nettikone.com,nettimoto.com,nettivaraosa.com,ne
 nettiauto.com,nettimoto.com###homeBottomBoxBanner
 nettiauto.com,nettimoto.com,nettivaraosa.com,nettimarkkina.com,nettikone.com##DIV[id="huge_banner"]
 nettiauto.com,nettimoto.com,nettivaraosa.com,nettimarkkina.com,nettikone.com##LI#left_part
-nettikaravaani.com,nettikone.com,nettimoto.com,nettivaraosa.com##.listing
+nettiauto.com,nettikaravaani.com,nettikone.com,nettimoto.com,nettivaraosa.com,nettivene##.listing
 nyt.fi##DIV#javascript-disabled-error
 offroadpro.fi,mpmaailma.fi##div[class*="advertisement"]
 offroadpro.fi,mpmaailma.fi##div[class*="bgBanner"]
