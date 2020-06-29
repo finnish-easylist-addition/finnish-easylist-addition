@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29June2020v3
+! Version: 29June2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -232,7 +232,8 @@ juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vwzewx71s"]
 juoksufoorumi.fi##[data-role="sidebarAd"] ~ br
 kaksplus.fi###adscarousel-feed
 kaksplus.fi##article[data-template-type="nativead"]
-kalajokilaakso.fi##.ad-list.col-xs-12
+kalajokilaakso.fi##.ad-list
+kalajokilaakso.fi##.newslink-ad
 kaleva.fi###outstream-container
 kaleva.fi###paraati-ad-grid
 kaleva.fi##.js-myyntiruudut
