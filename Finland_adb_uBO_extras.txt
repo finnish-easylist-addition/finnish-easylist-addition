@@ -94,13 +94,13 @@ mikrobitti.fi##+js(nostif, bait)
 gamereactor.fi##+js(aopr, adblockEnabled)
 
 ! Pirmediat Oy anti adblock
-aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(setTimeout-defuser.js, adblockDetected, 0)
+aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(nostif, adblockDetected, 0)
 
-savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(setTimeout-defuser.js,linkEl)
+savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
 
 ! The Pirate bay proxies ad windows
-proxyproxy.fi,pirateproxy.fi,piratesbay.fi,tpbproxy.fi,piratebays.fi##+js(window.open-defuser.js)
+proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 
-uusisuomi.fi,xxl.fi,kaleva.fi##+js(abort-current-inline-script.js, NREUM)
+uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
 
 ! -----SCRIPTS END-----
