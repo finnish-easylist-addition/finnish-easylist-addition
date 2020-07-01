@@ -16,7 +16,7 @@ www.ts.fi##div[class$="nativead"]:upward(6)
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
 
-||damoh.katsomo.fi/*$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+||damoh.katsomo.fi/*$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
 
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
