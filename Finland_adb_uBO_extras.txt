@@ -37,4 +37,4 @@ proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 
 uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
 
-! -----SCRIPTS END----
+! -----SCRIPTS END-----
