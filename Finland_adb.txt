@@ -217,6 +217,7 @@ hymy.fi,alibi.fi##[href="https://www.paratiisi.fi/netchat.php"]
 ilkkapohjalainen.fi##div[id="ad-jattiboksi2"]
 iltalehti.fi###il-alekoodit-right-column-box
 iltalehti.fi##.center.category-list-embed
+iltalehti.fi##.commercial-list-item
 iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
 iltalehti.fi##.slider-content
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
@@ -380,7 +381,7 @@ motouutiset.fi##DIV[class*="ad-giant"]
 motouutiset.fi##DIV[class*="ad-panorama"]
 mtvuutiset.fi##.component-adincontent.component
 mtvuutiset.fi##.leaderboard-1.leaderboard
-murha.info#?##custom_html-4 > .custom-html-widget.textwidget > table > tbody > tr > td
+murha.info###custom_html-4 > .custom-html-widget.textwidget > table > tbody > tr > td
 murha.info#?#.widget_text.widget:-abp-contains(/Mainos|Autonosatkauppa.fi|Jurinet/)
 murobbs.muropaketti.com###hintaopas_top_product_block
 murobbs.muropaketti.com##a[href*="emediate"]
@@ -551,7 +552,7 @@ www.tori.fi##DIV[id="panorama_topmost"]
 www.ts.fi##[class$="nativead"]
 www.ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
 www.ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
-www.uusisuomi.fi##div[id="skyscraper-height-div"] > main[class] > div[id="article-content"] > article[class^="article-body"] > div[class^="sc-"]
+uusisuomi.fi##div[id="skyscraper-height-div"] > main[class] > div[id="article-content"] > article[class^="article-body"] > div[class^="sc-"]
 www.vau.fi##.sdaelem.td-block-span12
 www.vau.fi##.vausda
 ylilauta.org##.h.fcdn
@@ -596,7 +597,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||karjalainen.fi/images/banners/kiinnostuitko-$image
 ||kelkkalehti.com/bannerit/
 ||kuvake.net/js/ad-
-||lbaanijakuva.fi/test/*?template=prisjakt$domain=www.lbaanijakuva.fi
+||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
 ||m.riemurasia.net/reklaami.php$subdocument
 ||matkaendurot.net/images/*banner
 ||media.vuokraovi.com^$third-party
@@ -662,25 +663,25 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
 ! Dplay.fi video ads
 @@||fwmrm.net/ad/$script,domain=dplay.fi
-||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
-||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com/*.mp4$media,domain=www.dplay.fi
+||dniadops-a.akamaihd.net/video-assets/$media,domain=dplay.fi
+||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com/*.mp4$media,domain=dplay.fi
 
 ! Prevent clicking video ads on MTV Oy
-mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
-||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,lumijapyry.fi,msn.com##.mtv-player-ad-container
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$script
 
 ! viafree.fi video adblock
-@@||fwmrm.net/ad/*$xmlhttprequest,domain=www.viafree.fi
-@@||fwmrm.net/ad/*$script,domain=www.viafree.fi
-@@||fwmrm.net/ad/*$image,domain=www.viafree.fi
-@@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=www.viafree.fi
-@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
-||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=www.viafree.fi
+@@||fwmrm.net/ad/*$xmlhttprequest,domain=viafree.fi
+@@||fwmrm.net/ad/*$script,domain=viafree.fi
+@@||fwmrm.net/ad/*$image,domain=viafree.fi
+@@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=viafree.fi
+@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.fi
+||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=viafree.fi
 
 ! unbreak Telia password change (maybe other functions as well), endless loading
-@@||www.telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=www.telia.fi
+@@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
 
 ! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
@@ -693,7 +694,7 @@ murha.info#@#.adsbox
 ! ABP-only version of uBO/AdGuard-formatted "$redirect" entries
 !#if !ext_ublock
 !#if !adguard
-||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
 !#endif
 !#endif
 ! appears when blocking ^^:
@@ -706,8 +707,8 @@ murha.info#@#.adsbox
 @@||leiki.com$domain=etuovi.com
 etuovi.com#@#.rss-feed
 tjareborg.fi#@#.push-container
-@@||www.power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=www.power.fi
-@@||uk.cdn-net.com/cc.js$script,domain=www.power.fi
+@@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
+@@||uk.cdn-net.com/cc.js$script,domain=power.fi
 ! Unbreaks chat function
 @@-tracking.js?$domain=telia.fi|moi.fi
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
@@ -746,8 +747,6 @@ studio55.fi#@#.column-ad
 ! https://github.com/easylist/easylist/pull/5581
 mehilainen.fi#@#div[class*="CookieConsent"]
 
-! https://github.com/easylist/easylist/pull/5612
-@@||script.nettix.fi^*analytics.js$script,domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 
 ! Fanboy's Annoyance List
 
