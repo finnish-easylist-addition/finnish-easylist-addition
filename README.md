@@ -1,6 +1,6 @@
 # Finnish Easylist Addition
 
-Finnish Easylist addition, originally a fork of Juvander's Adblock list. Works with all blockers. This list contains some additional rules for Ublock Origin/Nano/AdGuard. If you use AdBlock, AdGuard or Adblock Plus, we recommended disabling "Acceptable ads" or similar function, so that all the ads will get blocked.
+Finnish Easylist addition, originally a fork of Juvander's Adblock list. Works with all blockers. This list contains some additional rules for Ublock Origin/Nano/AdGuard. If you use AdBlock, AdGuard or Adblock Plus, we recommended disabling "Acceptable ads" or any similar option, so that all the ads will get blocked.
 
 [Add list to your Adblocker](https://finnish-easylist-addition.github.io/)
 
