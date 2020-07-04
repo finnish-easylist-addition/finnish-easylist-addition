@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05July2020v1
+! Version: 05July2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -291,6 +291,7 @@ kauppalehti.fi#?#div#skyscraper-height-div > div > main > a:-abp-contains(Kaupal
 kauppalehti.fi#?#div#skyscraper-height-div > main > aside > div > a:-abp-contains(Kaupallinen yhteistyö)
 keskipohjanmaa.fi##.ad-list.col-xs-12
 keskipohjanmaa.fi##div.hidden-xs.news-n.newslink-ad.col-xs-12
+keskustelu.suomi24.fi##div[class*="FooterAdWrapper"]
 keskustelu.suomi24.fi##div[class^="RightSidePanel__AdContainer"]
 keskustelu.suomi24.fi##div[class^="SeiskaRSSNews"]
 keskustelu.suomi24.fi##div[class^="StaraRSSNews"]
