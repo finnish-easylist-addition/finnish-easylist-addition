@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05July2020v3
+! Version: 05July2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -421,6 +421,7 @@ offroadpro.fi,mpmaailma.fi##div[class*="pane-ad"]
 offroadpro.fi,mpmaailma.fi##div[id="googlePlusOne"]
 offroadpro.fi,mpmaailma.fi##div[id="logo-area"]
 offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
+opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
