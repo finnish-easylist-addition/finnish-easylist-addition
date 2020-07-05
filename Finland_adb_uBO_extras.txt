@@ -10,7 +10,6 @@ lapinkansa.fi##[class="m-contentListItem__advertisement -ctx-index -medium -leve
 lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
 shakerlehti.fi##a[href="/artikkelit/kaupallinen-yhteistyo/"]:upward(3)
 vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
-www.ts.fi##div[class$="nativead"]:upward(6)
 
 ! -----EXTENDED FILTERS END-----
 ! -----NETWORK FILTERS-----
