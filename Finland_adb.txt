@@ -729,10 +729,4 @@ studio55.fi#@#.column-ad
 ! https://github.com/easylist/easylist/pull/5581
 mehilainen.fi#@#div[class*="CookieConsent"]
 
-
-! Fanboy's Annoyance List
-
-! ville.utu.fi unbreak
-@@||*/icons/google$image,domain=utu.fi
-
 ! -----UNBREAK END-----
