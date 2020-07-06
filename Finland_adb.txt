@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06July2020v1
+! Version: 06July2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -298,6 +298,7 @@ keskustelu.suomi24.fi##div[class*="FooterAdWrapper"]
 keskustelu.suomi24.fi##div[class^="RightSidePanel__AdContainer"]
 keskustelu.suomi24.fi##div[class^="SeiskaRSSNews"]
 keskustelu.suomi24.fi##div[class^="StaraRSSNews"]
+keskustelu.suomi24.fi##div[class^="TopicViewPage__HeaderAdWrapper"]
 keskustelu.suomi24.fi,kirkkojakaupunki.fi,luukku.com,mtvuutiset.fi,seiska.fi,studio55.fi##.ad-container
 kipparilehti.fi##[id="dfp__rectangle-1_1"][class="grid__item_1 grid__item_md-1-3"]
 kipparilehti.fi,kotiliesi.fi##[data-template-type="nativead"]
