@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06July2020v3
+! Version: 08July2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -10,7 +10,7 @@
 !#include Finland_adb_uBO_extras.txt
 !
 
-! -----GENERAL-----
+! -----GENERAL FILTERS-----
 
 /bannerCounter.php
 /js/spring.js
@@ -108,8 +108,8 @@ _mainosnappi.
 ##div[id="bottomads"]
 ##td[class="adbanner"]
 
-! -----GENERAL END-----
-! -----EXTENDED FILTERS-----
+! -----GENERAL FILTERS END-----
+! -----SPECIFIC FILTERS-----
 
 aamulehti.fi###promo-1
 aamulehti.fi###promo-2
@@ -188,6 +188,7 @@ gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##div[id="eventad"]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
+hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-block-uid]:-abp-contains(PELIT)
 hardware.fi,kaksplus.fi##.advertisement
 hbl.fi##ksf-adblockers
 helsinginuutiset.fi,vihdinuutiset.fi##DIV[class*="lyads"]
@@ -569,7 +570,7 @@ www.vau.fi##.vausda
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
-! -----EXTENDED FILTERS END-----
+! -----SPECIFIC FILTERS END-----
 ! -----NETWORK FILTERS-----
 
 ||*suomi24.fi/js/adTargeting.js$script,domain=suomi24.fi
