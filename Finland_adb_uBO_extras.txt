@@ -35,3 +35,6 @@ proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
 
 ! -----SCRIPTS END-----
+
+! https://github.com/easylist/easylist/issues/5740 (remove on 22.07.2020)
+|$badfilter
