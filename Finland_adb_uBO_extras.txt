@@ -7,7 +7,6 @@ kaleva.fi##span[class^="m-contentListItemThumb__advertisementLabel"]:upward(4)
 lapinkansa.fi##[class="m-contentListItemThumb__advertisement -medium -ctx-frontpage-now -level-1"]:upward(3)
 lapinkansa.fi##[class="m-contentListItem__advertisement -ctx-index -medium -level-1"]:upward(4)
 lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
-shakerlehti.fi##a[href="/artikkelit/kaupallinen-yhteistyo/"]:upward(3)
 vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
 
 ! -----SPECIFIC FILTERS END-----
