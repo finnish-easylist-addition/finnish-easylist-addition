@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19July2020v2
+! Version: 19July2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -189,6 +189,10 @@ gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##div[id="eventad"]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
+haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.ad-list
+haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi#?#div[class="col-xs-12 col-sm-12 col-md-12 pad-0 hidden-xs"]:-abp-has( > #lunch-widget)
+haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.autotalli.com/"])
+haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.etuovi.com/"])
 hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-block-uid]:-abp-contains(PELIT)
 hardware.fi,kaksplus.fi##.advertisement
 hbl.fi##ksf-adblockers
@@ -444,10 +448,6 @@ pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pelaajalehti.com##.views-injected-row
 pelikone.fi##.preroll-text
-pietarsaarensanomat.fi##.ad-list
-pietarsaarensanomat.fi#?#div[class="col-xs-12 col-sm-12 col-md-12 pad-0 hidden-xs"]:-abp-has( > #lunch-widget)
-pietarsaarensanomat.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.autotalli.com/"])
-pietarsaarensanomat.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.etuovi.com/"])
 pelit.fi##.eaf_wrap
 pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
