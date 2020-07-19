@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18July2020v1
+! Version: 19July2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -443,6 +443,10 @@ pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pelaajalehti.com##.views-injected-row
 pelikone.fi##.preroll-text
+pietarsaarensanomat.fi##.ad-list
+pietarsaarensanomat.fi#?#div[class="col-xs-12 col-sm-12 col-md-12 pad-0 hidden-xs"]:-abp-has( > #lunch-widget)
+pietarsaarensanomat.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.autotalli.com/"])
+pietarsaarensanomat.fi#?#div[class="col-xs-12 hidden-xs text-center"]:-abp-has( > iframe[src^="https://feed.etuovi.com/"])
 pelit.fi##.eaf_wrap
 pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
