@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21July2020v2
+! Version: 21July2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -325,6 +325,7 @@ koneporssi.com,urakointiuutiset.fi,ammattiautot.fi,konekuriiri.fi##.banners
 kotikokki.net###partners-container-big
 kotikokki.net##[id="content"][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
 kotiliesi.fi##.article-continues
+kotiliesi.fi##.nativecarousel.widget
 kotimikro.fi##.campaign-teaser-show
 kotimikro.fi##b > [href^="https://tilaus.kotimikro.fi/brand/kotimikro/"]
 kotimikro.fi#?#div.themebox.widget:-abp-has( > div > div > div > div#cx_4217c66c223ecb55cb7b1d49afa884837bfccda9)
