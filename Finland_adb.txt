@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21July2020v1
+! Version: 21July2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -131,6 +131,7 @@ alueviesti.fi##.soliloquy-link
 alypaa.com##[class^="banner-slot-preroll"]
 ampparit.com##DIV[class*="ad-"]
 ampparit.com##div[class*="ticker"]
+anna.fi###dfp__desk-1_1
 anna.fi###native_text_wrapper
 anna.fi##.kaupalliset
 anna.fi##.widget_nativearticles
