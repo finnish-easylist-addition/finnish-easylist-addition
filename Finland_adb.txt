@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23July2020v1
+! Version: 23July2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -296,6 +296,8 @@ kaleva.fi##.widget__ad__text
 kaleva.fi##div.ad__title
 kaleva.fi##div[class="lyta-lazy-load"]
 kaleva.fi##div[id^="mainokset-"]
+kaleva.fi#?#.m-contentListItemThumb:-abp-has( > div > div > div[class^="m-contentListItemThumb__advertisement"])
+kaleva.fi#?#.m-managedListing__column:-abp-has( > div > div > div > div[class^="m-contentListItem__advertisement"])
 kansalainen.fi##div[id="text-html-widget-5"]
 kansalainen.fi##div[id^="ads"]
 kansanuutiset.fi##.intextad.clearfix.cb-module-block.cb-box.cb-a-large
