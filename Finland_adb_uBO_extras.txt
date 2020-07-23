@@ -2,8 +2,6 @@
 
 basso.fi###header-main:style(margin-top: 0px !important)
 basso.fi###header:style(min-height: auto !important)
-kaleva.fi##div[class^="m-contentListItem__advertisement"]:upward(4)
-kaleva.fi##span[class^="m-contentListItemThumb__advertisementLabel"]:upward(4)
 lapinkansa.fi##[class="m-contentListItemThumb__advertisement -medium -ctx-frontpage-now -level-1"]:upward(3)
 lapinkansa.fi##[class="m-contentListItem__advertisement -ctx-index -medium -level-1"]:upward(4)
 lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
