@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25August2020v2
+! Version: 25August2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -481,6 +481,8 @@ puheenaiheet.fi##div[id="text-7"][class="widget widget_text"]
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*="commercial-blog-card"]
 puskaradio.net##.all-adds
+raahenseutu.fi##[id="paraati-ad-grid"]
+raahenseutu.fi##div[id="outstream"]
 radiopori.fi##div[class*="simpleads"]
 radiopori.fi##div[id*="mainospaikka"]
 radiovoima.fi##.block-radiovoima-advertisements
@@ -526,6 +528,7 @@ suomela.fi#?#p:-abp-has(a[href="https://www.autonvaraosat24.fi/"])
 suomela.fi#?#p:-abp-has(a[href="https://www.lainanvälittäjä.fi/"])
 suomenkuvalehti.fi##.ad_class
 suomenkuvalehti.fi##.om-adcoin-ad
+suomenmaa.fi##div[class="site-header__top-container header-top-banner"]
 suomi24.fi##.editorial-slots
 suomi24.fi##div[class*="Ad__AdWrapper"]
 suomi24.fi##div[class^="HomePage__HeaderAd"]
