@@ -1,12 +1,9 @@
 ! -----SPECIFIC FILTERS-----
-
-lbaanijakuva.fi##.background-ad:style(min-height: 0 !important;)
-vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
-
 ! -----SPECIFIC FILTERS END-----
+
 ! -----NETWORK FILTERS-----
 
-||damoh.katsomo.fi/*$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
+||damoh.katsomo.fi/$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
 
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
@@ -14,7 +11,7 @@ vapaasana.swedishforum.net###main-content:style(margin-top: -100px !important;)
 ! Mikrobitti anti adblock
 mikrobitti.fi##+js(nostif, bait)
 
-! Gamereactor antiadblock nag
+! Gamereactor anti adblock nag
 gamereactor.fi##+js(aopr, adblockEnabled)
 
 ! Pirmediat Oy anti adblock
