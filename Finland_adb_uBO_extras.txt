@@ -1,4 +1,7 @@
 ! -----SPECIFIC FILTERS-----
+
+tekniikanmaailma.fi##.NoAdBlocker_main
+
 ! -----SPECIFIC FILTERS END-----
 
 ! -----NETWORK FILTERS-----
@@ -11,7 +14,7 @@
 ! Mikrobitti anti adblock
 mikrobitti.fi##+js(nostif, bait)
 
-! Gamereactor anti adblock nag
+! Gamereactor anti adblock
 gamereactor.fi##+js(aopr, adblockEnabled)
 
 ! Pirmediat Oy anti adblock
