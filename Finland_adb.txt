@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 02September2020v2
+! Version: 02September2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -776,5 +776,6 @@ mehilainen.fi#@#div[class*="CookieConsent"]
 
 ! https://github.com/easylist/easylist/pull/5791
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=api.screen9.com
+@@||cfcdn.screen9.com/players/amber-v1.5.38/alt/amber-advertising-ima.esm.js$script,domain=api.screen9.com
 
 ! -----UNBREAK END-----
