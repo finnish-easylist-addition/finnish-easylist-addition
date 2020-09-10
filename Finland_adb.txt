@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10September2020v3
+! Version: 10September2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -526,6 +526,7 @@ suomela.fi#?#hr:-abp-has( + p:-abp-has(a[href="https://www.autonvaraosat24.fi/"]
 suomela.fi#?#p:-abp-has(a[href="https://www.autodoc.fi/"])
 suomela.fi#?#p:-abp-has(a[href="https://www.autonvaraosat24.fi/"])
 suomela.fi#?#p:-abp-has(a[href="https://www.lainanvälittäjä.fi/"])
+suomen118.fi###layout-banner-right
 suomenkuvalehti.fi##.ad_class
 suomenkuvalehti.fi##.om-adcoin-ad
 suomenkuvalehti.fi#?#.clearfloats.content__body > p:-abp-contains(/^\xA0$/)
@@ -534,9 +535,9 @@ suomi24.fi##.editorial-slots
 suomi24.fi##div[class*="Ad__AdWrapper"]
 suomi24.fi##div[class^="HomePage__HeaderAd"]
 suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"]:-abp-has([class^="AdLivewrapped__AdWrapper"])
+suomifutis.com##[href$="/nettikasinot/"]
 suomimobiili.fi##.sbmainos
 suomimobiili.fi##div:-abp-has( > div.strike)
-suomifutis.com##[href$="/nettikasinot/"]
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
 taisto.org###mw-data-after-content > div
@@ -549,6 +550,7 @@ talouselama.fi##div[class^="article-body"] > div[class^="sc-"]:not(:nth-last-chi
 talouselama.fi##div[id="skyscraper-height-div"] > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^="sc-"]
 talouselama.fi#?#div#skyscraper-height-div > div > aside > div > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 talouselama.fi#?#div#skyscraper-height-div > section > div > div:-abp-has([src*="assets.almatalent.fi/static/podcasts/te/Privanet/privanet-podcast.jpg"]):-abp-contains(Kaupallinen Yhteistyö)
+talviopas.fi,turisti-info.fi##.sidebar-banners
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
