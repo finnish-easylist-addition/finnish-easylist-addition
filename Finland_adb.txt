@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10September2020v4
+! Version: 10September2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -775,7 +775,7 @@ mobiili.fi#@#.header_ad
 studio55.fi#@#.column-ad
 
 
-! Will be removed after PR's accepted
+! Will be removed after PR's accepted (whitelistings for issues caused by other lists)
 
 ! https://github.com/easylist/easylist/pull/5738
 @@||images.sprinklecontent.com/270/170/$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
@@ -785,9 +785,5 @@ studio55.fi#@#.column-ad
 
 ! https://github.com/easylist/easylist/pull/5581
 mehilainen.fi#@#div[class*="CookieConsent"]
-
-! https://github.com/easylist/easylist/pull/5791
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=api.screen9.com
-@@||cfcdn.screen9.com/players/amber-v1.5.38/alt/amber-advertising-ima.esm.js$script,domain=api.screen9.com
 
 ! -----UNBREAK END-----
