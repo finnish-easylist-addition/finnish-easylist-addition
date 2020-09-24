@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23September2020v1
+! Version: 24September2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -83,7 +83,7 @@ _mainosnappi.
 ##.sponsorit
 ##.tdt-desktop-ad
 ##.tdt-minilanding-button
-##.tdt-minilanding.tdt-manager-element
+##.tdt-manager-element
 ##.yhteistyokaruselli
 ##.yhteistyokumppanit
 ##.yhteistyossa
