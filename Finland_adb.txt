@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24September2020v2
+! Version: 26September2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -133,8 +133,9 @@ alibi.fi##.magazineorderwidget__content
 alibi.fi,hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 alueviesti.fi##.soliloquy-link
 alypaa.com##[class^="banner-slot-preroll"]
-ampparit.com##DIV[class*="ad-"]
+ampparit.com##.ad-container
 ampparit.com##div[class*="ticker"]
+ampparit.com##div[class="nettiauto-newslist-banner"]
 anna.fi###dfp__desk-1_1
 anna.fi###native_text_wrapper
 anna.fi##.kaupalliset
@@ -704,8 +705,8 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com/*.mp4$media,domain=dplay.fi
 
 ! Prevent clicking video ads on MTV Oy
-mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,lumijapyry.fi,msn.com##.mtv-player-ad-container
-||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
+mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-container
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$script
 
