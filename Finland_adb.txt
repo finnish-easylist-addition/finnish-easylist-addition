@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2020v1
+! Version: 26September2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -89,15 +89,15 @@ _mainosnappi.
 ##.yhteistyossa
 ##.ylamainokset
 ##.ylamainos
-##DIV[class*="newsFrontAd"]
-##DIV[class="AgAdCarousel_Container"]
-##DIV[class="AgAdCarousel_LightBox"]
-##DIV[class="ad container-right"]
-##DIV[class="ad partners box"]
-##DIV[id*="AdContainer"]
-##DIV[id="commercial-carousel"]
-##DIV[id="top-ad"]
-##DIV[id^="ads-content-bottom"]
+##div[class*="newsFrontAd"]
+##div[class="AgAdCarousel_Container"]
+##div[class="AgAdCarousel_LightBox"]
+##div[class="ad container-right"]
+##div[class="ad partners box"]
+##div[id*="AdContainer"]
+##div[id="commercial-carousel"]
+##div[id="top-ad"]
+##div[id^="ads-content-bottom"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://media.suomikasino.com/"]
 ##[href^="https://tc.tradetracker.net/"]
