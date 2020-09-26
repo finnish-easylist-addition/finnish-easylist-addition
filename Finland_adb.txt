@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2020v3
+! Version: 26September2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -659,7 +659,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||io-tech.fi/images/*_290x290px.png$image
 ||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image
 ||kake.fi^$third-party
-||kaksplus.fi/wp-json/feeds/ad-feed$xhr,domain=keskustelu.kaksplus.fi
+||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image
 ||kelkkalehti.com/bannerit/
 ||kuvake.net/js/ad-
@@ -714,9 +714,9 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$script
 
 ! viafree.fi video adblock
-@@||fwmrm.net/ad/*$xmlhttprequest,domain=viafree.fi
-@@||fwmrm.net/ad/*$script,domain=viafree.fi
-@@||fwmrm.net/ad/*$image,domain=viafree.fi
+@@||fwmrm.net/ad/$xmlhttprequest,domain=viafree.fi
+@@||fwmrm.net/ad/$script,domain=viafree.fi
+@@||fwmrm.net/ad/$image,domain=viafree.fi
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=viafree.fi
 @@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=viafree.fi
@@ -734,7 +734,7 @@ murha.info#@#.adsbox
 
 !#if !ext_ublock
 !#if !adguard
-||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|lumijapyry.fi|msn.com
+||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|msn.com
 !#endif
 !#endif
 
