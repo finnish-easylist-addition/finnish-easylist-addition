@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2020v4
+! Version: 26September2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -164,6 +164,7 @@ como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##div[d
 deitti.net##.ad-article
 demi.fi##div[class*="ad__component"]
 demokraatti.fi##div[class^="AdStyles__Wrapper"]
+demokraatti.fi##div[class^="OrderMagazinestyles__Container"]
 download.fi#?#b[style="font-size:bigger;"] > a[class="download_link"][href$=".exe"]
 download.fi#?#div:-abp-has( > h3[style="font-size:20px;"])
 download.fi#?#div[class="splash_title"] + p + p:-abp-has( > a[href$=".exe"])
