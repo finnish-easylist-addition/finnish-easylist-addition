@@ -8,7 +8,7 @@ tekniikanmaailma.fi##.NoAdBlocker_main
 
 ! -----NETWORK FILTERS-----
 
-||damoh.katsomo.fi/$media,redirect=noop-0.1s.mp3,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi||msn.com
+||damoh.katsomo.fi/$media,redirect=noop-0.1s.mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
 
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
