@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11October2020v3
+! Version: 11October2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -631,6 +631,7 @@ voice.fi##section[class^="sbsads"] + section[class^="sbs-articleitems full-size-
 voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuokraovi.com##.advertising
+warkaudenlehti.fi##div[class~="card--native"]
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
@@ -794,9 +795,6 @@ tjareborg.fi#@#.push-container
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.spklw.com/v1/data/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
-
-! https://github.com/easylist/easylist/pull/6065
-##div[class~="card--native"]
 
 ! https://github.com/easylist/easylist/pull/6132
 @@||leiki.com/focus/$script,domain=seura.fi
