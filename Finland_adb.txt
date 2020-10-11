@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11October2020v4
+! Version: 11October2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -267,7 +267,6 @@ inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:-abp-has([class$="lazy-load-active"])
-io-tech.fi###text-3
 io-tech.fi###text-7
 io-tech.fi##body > div + div > div > div > a[target="_blank"]
 io-tech.fi##body > div > div + div > div > a[target="_blank"]
