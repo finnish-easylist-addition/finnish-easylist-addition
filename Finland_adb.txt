@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11October2020v9
+! Version: 11October2020v10
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -563,6 +563,7 @@ talviopas.fi,turisti-info.fi##.sidebar-banners
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
+tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
