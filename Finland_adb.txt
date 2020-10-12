@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12October2020v2
+! Version: 12October2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -761,7 +761,8 @@ murha.info#@#.adsbox
 ! appears when blocking:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif$image
 
-! To fix the opening of cdon.com product links on hinta.fi
+! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
+@@||adform.net^$first-party
 @@||tradedoubler.com^$first-party
 
 ! -----UNSORTED END-----
@@ -805,5 +806,8 @@ tjareborg.fi#@#.push-container
 @@||leiki.com/focus/$script,domain=seura.fi
 seura.fi#@#.nativead
 seura.fi##.nativead:not(.list)
+
+! https://github.com/easylist/easylist/pull/6156
+@@||tracking.lengow.com^$first-party
 
 ! -----UNBREAK END-----
