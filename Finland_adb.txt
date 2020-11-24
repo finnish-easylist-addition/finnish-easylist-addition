@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24November2020v1
+! Version: 24November2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -688,7 +688,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||ig.fi/bannerit/koronabanneri.png
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
-||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image
+||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg
 ||kake.fi^$third-party
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image
@@ -697,12 +697,12 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
 ||m.riemurasia.net/reklaami.php$subdocument
 ||matkaendurot.net/images/*banner
+||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg
 ||media.vuokraovi.com^$third-party
-||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
+||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg
 ||monster.almamedia.fi/nostobannerit/
 ||nayadaya.com^$third-party
-||nettiauto.com/en/ampparitBanner.php$subdocument
-||otavamedia.fi/ad/$script
+||nettiauto.com/en/ampparitBanner.php$subdocument||otavamedia.fi/ad/$script
 ||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xmlhttprequest,domain=pkank.fi
 ||puheenaiheet.fi/wp-content/uploads/*/Autohuolto*$image
 ||puheenaiheet.fi/wp-content/uploads/*/Saunamaailma*$image
