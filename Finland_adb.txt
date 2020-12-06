@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06December2020v2
+! Version: 06December2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -189,6 +189,7 @@ feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*="adbox"]
 findance.com##div[id^="adslot_content"]
+findance.com##div[id^="adslot_sidebar"]
 findance.com#?#p:-abp-has( > [rel="sponsored"])
 finder.fi##.Advertisement__Box
 finnkino.fi,fum.fi,tilt.fi##.advertising
