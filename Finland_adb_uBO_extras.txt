@@ -13,20 +13,12 @@ tekniikanmaailma.fi##.NoAdBlocker_main
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
 
-! Mikrobitti anti adblock
-mikrobitti.fi##+js(nostif, bait)
-
-! Gamereactor anti adblock
-gamereactor.fi##+js(aopr, adblockEnabled)
-
-! Pirmediat Oy anti adblock
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(nostif, adblockDetected, 0)
-
-savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
-
-! The Pirate bay proxies ad windows
+gamereactor.fi##+js(aopr, adblockEnabled)
+happypancake.fi##+js(aopr, Object.prototype.adUnits)
+mikrobitti.fi##+js(nostif, bait)
 proxyproxy.fi,pirateproxy.fi##+js(nowoif)
-
+savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
 uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
 
 ! -----SCRIPTS END-----
