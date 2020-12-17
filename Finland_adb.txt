@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 17December2020v1
+! Version: 17December2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -711,7 +711,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||monster.almamedia.fi/nostobannerit/
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
-||nettiauto.com/en/ampparitBanner.php$subdocument||otavamedia.fi/ad/$script
+||otavamedia.fi/ad/$script
 ||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xmlhttprequest,domain=pkank.fi
 ||puheenaiheet.fi/wp-content/uploads/*/Autohuolto*$image
 ||puheenaiheet.fi/wp-content/uploads/*/Saunamaailma*$image
