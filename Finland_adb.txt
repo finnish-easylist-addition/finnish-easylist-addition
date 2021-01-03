@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30December2020v1
+! Version: 01January2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -824,6 +824,8 @@ kaksplus.fi#@#.sponsored-content
 studio55.fi#@#.column-ad
 tjareborg.fi#@#.push-container
 
+! -----UNBREAK END-----
+
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
 
@@ -839,4 +841,5 @@ tjareborg.fi#@#.push-container
 ! https://github.com/easylist/easylist/pull/6316
 taloon.com#@##gdprpopup
 
-! -----UNBREAK END-----
+! https://github.com/easylist/easylist/pull/6887
+##[data-template-type="nativead"]
