@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06January2020v1
+! Version: 08January2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -603,7 +603,7 @@ tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > section > div > div > aside:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
-tivi.fi#?#div#skyscraper-height-div section > div:has( > a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
+tivi.fi#?#div#skyscraper-height-div section > div:-abp-has(> a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div[id="banner_panorama_topmost"]
@@ -789,8 +789,8 @@ murha.info#@#.adsbox
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif$image
 
 ! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
-@@||adform.net^$first-party
-@@||tradedoubler.com^$first-party
+@@||adform.net^$~third-party
+@@||tradedoubler.com^$~third-party
 
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
@@ -830,7 +830,7 @@ tjareborg.fi#@#.push-container
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 
 ! https://github.com/easylist/easylist/pull/6156
-@@||tracking.lengow.com^$first-party
+@@||tracking.lengow.com^$~third-party
 
 ! https://github.com/easylist/easylist/pull/6316
 taloon.com#@##gdprpopup
