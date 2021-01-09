@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 08January2020v1
+! Version: 10January2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -278,6 +278,7 @@ iltalehti.fi#?#div[class="card "]:-abp-has(.full-article:-abp-contains(Kaupallin
 iltalehti.fi#?#div[class="card "]:-abp-has(.half-article:-abp-contains(Kaupallinen yhteistyö)):not(:-abp-has(.half-article:not(:-abp-contains(Kaupallinen yhteistyö))))
 iltalehti.fi#?#div[class="card "]:-abp-has([class="alennuskoodi-column-embed"])
 iltapulu.fi##div[class="footer-ylempi"]
+iltapulu.fi#?#.newsbox:-abp-has( > [id^="div-gpt-ad"])
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
@@ -603,7 +604,7 @@ tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > section > div > div > aside:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
-tivi.fi#?#div#skyscraper-height-div section > div:-abp-has(> a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
+tivi.fi#?#div#skyscraper-height-div section > div:-abp-has( > a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div[id="banner_panorama_topmost"]
