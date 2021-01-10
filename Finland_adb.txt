@@ -195,8 +195,8 @@ feissarimokat.com##.shopster
 feissarimokat.com##div[class*="adbox"]
 findance.com##div[id^="adslot_content"]
 findance.com##div[id^="adslot_sidebar"]
-findance.com#?#p:-abp-has(a[rel="nofollow no-referrer sponsored"])
 findance.com#?#p:-abp-has( > [rel="sponsored"])
+findance.com#?#p:-abp-has(a[rel="nofollow no-referrer sponsored"])
 finder.fi##.Advertisement__Box
 finnkino.fi,fum.fi,tilt.fi##.advertising
 fonecta.fi##div[class^="AdBlock_adContainer"]
@@ -624,6 +624,7 @@ uusisuomi.fi#?#a[href^="https://kumppaniblogit.uusisuomi.fi/"]:-abp-contains(Kau
 uusisuomi.fi#?#div#skyscraper-height-div > aside > section > a:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Kaupallinen yhteistyö)
+uusisuomi.fi#?#p + div:-abp-has( > .LazyLoad.is-visible > [id|="almad"])
 uutissuora.fi##div[class="td-all-devices"]
 valioliiga.com##[href$="/vedonlyonti/"]
 vantaansanomat.fi##div.display-ad
