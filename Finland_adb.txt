@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10January2020v2
+! Version: 10January2020v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -439,7 +439,9 @@ mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/Impression
 mobiili.fi#?#a.isobrick.half.one_col > .featuredinner:-abp-has(.bubble:-abp-contains(Sponsoroitu))
 mobiili.fi#?#div.fullarticle:-abp-has(img[src="https://mobiili.fi/aaa.png"])
 mobiili.fi#?#p:-abp-has(small:-abp-contains(Mainos:))
+moottori.fi##.ai-track.ai-viewport-2.ai-viewport-1.code-block-1.code-block
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
+moottori.fi##.container.g-bg.ads.sidebar.item
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
 moottori.fi##div[class*="torifi_banner"]
 moottoripyora.org##a[href*="mst-yhtiot"]
