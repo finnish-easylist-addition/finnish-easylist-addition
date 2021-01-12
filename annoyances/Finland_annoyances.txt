@@ -1,9 +1,8 @@
 [Adblock Plus 2.0]
-! LIST CURRENTLY NOT MAINTAINED
-! Version: 201812131
+! LIST NOT ACTIVELY MAINTAINED
+! Version: 13January2020v1
 ! Title: Annoyance List for Finland
-! Description: Finnish adblock list
-! Last modified: 13th of December 2018
+! Description: Finnish annoyance list
 ! Expires: 4 days
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -12,204 +11,167 @@
 ! Designed to be used with following lists:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/blob/master/README.md#lists-requiredrecommended-for-usage
 !
-! UBLOCK ORIGIN RECOMMENDED!
-!
 ! Please report any issues at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 
-! RANDOM
+! -----GENERAL FILTERS-----
 
-||nelonenmedia.fi/xb/styles/logo/public/
-
-huuto.net###display-window-container
-huuto.net###oikotie-nav
-
-iltalehti.fi##.jw-logo
-
-monster.fi###interMsgsW
-rantapallo.fi##.wpoi-show.inc_optin
-power.fi###sleeky
-puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
-qliro.com###notification
-
-www.is.fi,www.hs.fi##.r-loading-indicator
-
-www.ksml.fi##.campaign
-
-www.foreca.fi###betafeedback
-
-! Telsu.fi
-||www.testeri.fi/ext_telsu$subdocument
-||www.blogit.fi/nosto_gen$subdocument
-||www.nauris.fi/nosto_gen$subdocument
-
-! Oikotie
-###oikotie_tyopaikat_box_iframe
+###_kmg_cookie_accept
 ###oikotie_asunnot_box_iframe
+###oikotie_tyopaikat_box_iframe
+###some-buttons
+###uutiskirjeentilaus
+##.js-newsletter-popup
+##.newsletter
+##.some-box
+##.some-shares
+##.some-valikko
+##.some-wrapper
+##[href*="emaileri.fi/forms/"]
+##a[href^="/tilaa-uutiskirje"]
+##a[href^="http://uutiskirje."]
+##a[href^="https://uutiskirje."]
 
-! Iltalehti/Iltasanomat box
-www.aamulehti.fi###iltalehtiBox-1
-www.aamulehti.fi###iltalehtiBox-2
-www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
+! -----GENERAL FILTERS END-----
+! -----SPECIFIC FILTERS-----
 
-||is.fi/is-promo/$subdocument,third-party
-||is.fi/hs-promo/$subdocument
-||hs.fi/promo/$subdocument
-||soppa365.fi$third-party
-||uutisboksi.il.fi/$subdocument,third-party
-
-! Iltapulu
-###iltapulu_fp_box_iframe
-
-! WEATHER
-is.fi##DIV[class="html-supersaa"]
-www.hs.fi##.supersaa-widget-container
-www.mtvuutiset.fi##.navigation-weather-wrapper
-www.iltalehti.fi##.header-weather-container
-
-! SHARE BUTTONS & SOCIAL MEDIA
+aamulehti.fi###iltalehtiBox-1
+aamulehti.fi###iltalehtiBox-2
+aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
+anna.fi##.contactus__newsletter
 arvopaperi.fi,kauppalehti.fi,oppiportti.fi##a[href^="mailto:"]
-
-www.foreca.fi###share
-tivi.fi##.header-some.link-group
-tivi.fi##.sidebar-some.custom__sidebar-box
-www.is.fi##[id^="DefaultShareButtons-"]
-www.is.fi##[id^="ShareButtons-"]
-www.aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
 bbs.io-tech.fi##[href="https://www.facebook.com/iotechfi/"]
-puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT_keski
-yle.fi##footer > .default.some
-yle.fi##div.ydd-share-buttons
-yle.fi##.hgroup > .default.some
-www.hermanit.fi##.some-valikko
-www.ts.fi##.tsv3-c-common-article__socialmedia--textend
-seiska.fi##.somebar
-seiska.fi##.some-middle-black
-evira.fi##.some-shares
-rekrytointi.com##.essb_mailform
-hintaseuranta.fi###some-buttons
-mobiili.fi##.likes-top
-||mobiili.fi/images/some_icons/$image
-mikroaitta.fi###facebook_block
-jatkoaika.com##.somelinks
-yle.fi##a[aria-label="Jaa ohjelma"]
-venelehti.fi##.instafeed-container
-tekniikanmaailma.fi##.NavigationBar_social-links
-kipparilehti.fi##.instafeed-container
-eralehti.fi##.mail-sharing
-eralehti.fi##.some
+coolshop.fi##.campaign-footer-newsletter
 dekolehti.fi##.some
-ess.fi##.some-wrapper
-##.some-box.sidebar-box
-docendo.fi##.social-custom-sidebar
-www.mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
-www.telia.fi##.share-follow--small.share-follow--share.share-follow
-oikotie.fi##.some-links
-mtvuutiset.fi##.mtv-player-share-open-button
 demokraatti.fi##div[class*="ShareStripeStyles__Container"]
 demokraatti.fi##div[class*="ShareStyles__Container"]
-||kirjastot.fi/modules/kifisome/
+docendo.fi##.social-custom-sidebar
+eat.fi##restaurant-share
+eralehti.fi##.mail-sharing
+eralehti.fi##.some
+ess.fi###article-floater-cx
+fitnesstukku.fi##.pre-footer
+foreca.fi###betafeedback
+foreca.fi###share
+golf.fi##.topbar
+hersecret.fi##.footer-top-ads
+hs,is.fi##.in-right-lane-position.video-container
+hs.fi##.hsnl-container
+hs.fi##.supersaa-widget-container
+hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
+hs.fi,is.fi##.r-loading-indicator
+huuto.net###display-window-container
+huuto.net###oikotie-nav
+iltalehti.fi###il-newsletter-banner
+iltalehti.fi###newsletter_container
+iltalehti.fi##.content-newsletter
+iltalehti.fi##.header-weather-container
+iltalehti.fi##.jw-logo
+iltalehti.fi##.sidebar_newsletter_container
+iltalehti.fi##[href="/sovellus"]
+iltapulu.fi###iltapulu_fp_box_iframe
+is.fi##.date-box
+is.fi##DIV[class="html-supersaa"]
+is.fi##DIV[class="supersaa-widget-container"]
+is.fi##DIV[id^="QuickSurveyWidget-"]
+is.fi##[id^="DefaultShareButtons-"]
+is.fi##[id^="ShareButtons-"]
+is.fi##div[class="html-alypaa"]
+is.fi##div[class="html-pelikone"]
+jatkoaika.com##.somelinks
+jyu.fi##.portlet-static-jyu-somessa
+kahvikaveri.fi##.subscription-field
+kaleva.fi##.share-description
+karkkainen.com###emailListWidget
+kauppalehti.fi##.sidebar-some
+kipparilehti.fi##.instafeed-container
+kirkkojakaupunki.fi##.banner-category-d
+ksml.fi##.campaign
+lehtikuningas.fi###newsmailbar
+maaseuduntulevaisuus.fi##.clearfix.footer-links
+marmai.fi##.btn-some
+marmai.fi##.social-share-wide
+mikroaitta.fi###facebook_block
+mobiili.fi##.likes-top
+mobiili.fi##.mobuutiskirje_link
+monster.fi###interMsgsW
+moontv.fi##.widejako
+mtv.fi##.actions__share
+mtv.fi##.footer__social-media-buttons-container
+mtvuutiset.fi##.backtotopbutton
+mtvuutiset.fi##.katsomo-player-fixed.sticky-player-initialised.katsomo-player-container
+mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
+mtvuutiset.fi##.mtv-player-share-open-button
+mtvuutiset.fi##.navigation-weather-wrapper
+naturelle.fi###newsletter
+netrauta.fi##.email-collector
+oikotie.fi##.pane-newsletter-form
+oikotie.fi##.some-links
+oikotie.fi##.subscription-form
+oletkaunis.fi##.Uutiskirje
+omataloyhtio.fi##.scrakentajafi_share_uutiskirje
+pelaajalehti.com##.webform-client-form
+petenkoiratarvike.com###footer-newsletter-wrapper
+power.fi###sleeky
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT_keski
+qliro.com###notification
+rantapallo.fi##.wpoi-show.inc_optin
+rekrytointi.com##.essb_mailform
+ruokatieto.fi##.frontpage-some
+ruokatieto.fi##.some-links-header
+seiska.fi##.klubi-banner
+seiska.fi##.some-middle-black
+seiska.fi##.somebar
+seura.fi##.widget_seuranewsletter
+smartbuyglasses.fi###EDM-popUp
 smartbuyglasses.fi###Fixed_navigation_bar
 smartbuyglasses.fi##.footer_bar
 smartbuyglasses.fi##.pro-right-share
-thebodyshop.fi##.links-wrapper-separators
 spartoo.fi###shareProdcard
-fitnesstukku.fi##.pre-footer
+suomenkuvalehti.fi##.widget_sknewsletter
+syke.fi##.share
+tekniikanmaailma.fi##.NavigationBar_social-links
+tekniikanmaailma.fi##.Newsletter_container
+tekniikkatalous.fi##.header-some
+telia.fi##.share-follow
+thebodyshop.fi##.links-wrapper-separators
+tivi.fi##.header-some.link-group
+tivi.fi##.sidebar-some.custom__sidebar-box
+ts.fi##.tsv3-c-common-article__socialmedia--textend
 uusisuomi.fi##.facebook
 uusisuomi.fi##.twitter
-maaseuduntulevaisuus.fi##.clearfix.footer-links
-voice.fi##.follow-on-fb
-mtv.fi##.footer__social-media-buttons-container
-mtv.fi##.actions__share
-golf.fi##.topbar
-marmai.fi##.social-share-wide
-marmai.fi##.btn-some
-tekniikkatalous.fi##.header-some
-eat.fi##restaurant-share
-ruokatieto.fi##.some-links-header
-ruokatieto.fi##.frontpage-some
-syke.fi##.share
-||viinilehti.fi/viini-somessa/
-jyu.fi##.portlet-static-jyu-somessa
-kauppalehti.fi##.sidebar-some
-yle.fi##.ydd-social-media-links__icon
-kaleva.fi##.share-description
-moontv.fi##.widejako
-
-! NEWSLETTERS
-##[href*="emaileri.fi/forms/"]
-##a[href^="http://uutiskirje."]
-##a[href^="https://uutiskirje."]
-##a[href^="/tilaa-uutiskirje"]
-
-akateeminen.com,seiska.fi,hobbyhall.fi,kotiliesi.fi,kipparilehti.fi,op.media,mustekasetti.com,pirkka.fi,xxl.fi##.newsletter
-tilt.fi,como.fi,episodi.fi,inferno.fi,rumba.fi,fum.fi,soundi.fi##.js-newsletter-popup
-
-iltalehti.fi###newsletter_container
-iltalehti.fi##.content-newsletter
-yle.fi##DIV[class*="yle__newsletter"]
-www.ess.fi###uutiskirjeentilaus
-www.hs.fi##.hsnl-container
-mobiili.fi##.mobuutiskirje_link
-netrauta.fi##.email-collector
+venelehti.fi##.instafeed-container
 verkkokauppa.com##.footer__catalog-newsletter-container
 verkkokauppa.com##.promo-item-container
-omataloyhtio.fi##.scrakentajafi_share_uutiskirje
-anna.fi##.contactus__newsletter
-||emaileri.fi$third-party
-seura.fi##.widget_seuranewsletter
-suomenkuvalehti.fi##.widget_sknewsletter
-tekniikanmaailma.fi##.Newsletter_container
-oikotie.fi##.subscription-form
-oikotie.fi##.pane-newsletter-form
-pelaajalehti.com##.webform-client-form
-kirkkojakaupunki.fi##.banner-category-d
+voice.fi##.follow-on-fb
+yle.fi##.hgroup > .default.some
+yle.fi##.ydd-social-media-links__icon
+yle.fi##DIV[class*="yle__newsletter"]
+yle.fi##a[aria-label="Jaa ohjelma"]
+yle.fi##div.ydd-share-buttons
 yle.fi##div[class^="TextBanner__textBanner"]
-naturelle.fi###newsletter
-coolshop.fi##.campaign-footer-newsletter
-iltalehti.fi##.sidebar_newsletter_container
-smartbuyglasses.fi###EDM-popUp
-lehtikuningas.fi###newsmailbar
-hersecret.fi##.footer-top-ads
+yle.fi##footer > .default.some
+
+! -----SPECIFIC FILTERS END-----
+! -----NETWORK FILTERS-----
+
 ||artiksdesign.fi*/Plumrocket_Newsletterpopup/
-kahvikaveri.fi##.subscription-field
-oletkaunis.fi##.Uutiskirje
-petenkoiratarvike.com###footer-newsletter-wrapper
-karkkainen.com###emailListWidget
-
-! DOWNLOAD OUR APP
-iltalehti.fi##[href="/sovellus"]
-
-! GAMES
-is.fi##DIV[class="supersaa-widget-container"]
-is.fi##div[class="html-pelikone"]
-is.fi##div[class="html-alypaa"]
-
-! "READ NEXT"
-www.ess.fi###article-floater-cx
-
-! SURVEY WIDGET
-www.is.fi##DIV[id^="QuickSurveyWidget-"]
-
-! FLOATING VIDEO
-www.is.fi,www.hs.fi##.in-right-lane-position.video-container
-www.mtvuutiset.fi##.katsomo-player-fixed.sticky-player-initialised.katsomo-player-container
-
-! BACK TO TOP
-www.mtvuutiset.fi##.backtotopbutton
-
-! OTHER
-www.is.fi##.date-box
-
-is.fi/kampanjat/vinkkinapit
-www.iltalehti.fi##.block:has([href="/uutisvihje"])
-www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
-seiska.fi##.klubi-banner
-||osterbottenstidning.fi/Scripts/StickyNotification
-lehtodigital.fi###_kmg_cookie_accept
-||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
+||blogit.fi/nosto_gen$subdocument
+||emaileri.fi$third-party
+||hs.fi/promo/$subdocument
+||is.fi/hs-promo/$subdocument
+||is.fi/is-promo/$subdocument,third-party
+||kirjastot.fi/modules/kifisome/
 ||knaitek.fi/magebirdpopup.php
+||mobiili.fi/images/some_icons/$image
+||nauris.fi/nosto_gen$subdocument
+||nelonenmedia.fi/xb/styles/logo/public/
+||osterbottenstidning.fi/Scripts/StickyNotification
+||soppa365.fi$third-party
+||testeri.fi/ext_telsu$subdocument
+||uutisboksi.il.fi/$subdocument,third-party
+||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
+||viinilehti.fi/viini-somessa/
 
-! SIDEBAR WIDGETS
-www.io-tech.fi##.sidebar-widgets.jimmz
-www.io-tech.fi##.sidebar-widgets.hintafu
+! -----NETWORK FILTERS END-----
