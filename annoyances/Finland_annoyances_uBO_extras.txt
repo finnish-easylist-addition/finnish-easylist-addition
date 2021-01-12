@@ -1,25 +1,25 @@
-! LIST CURRENTLY NOT MAINTAINED
+! LIST NOT ACTIVELY MAINTAINED
 
 ! is.fi - Sarjakuvat/Comics
-www.is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
+is.fi##.footer-position.lane:has-text(Sarjakuvat):has([href="/sarjakuvat/"])
 
 ! foreca.fi - annoying moving thing advertising their Twitter
-www.foreca.fi###ticker:has-text(liity seuraajaksi)
+foreca.fi###ticker:has-text(liity seuraajaksi)
 
 ! HS kysely
-www.hs.fi##.hs-ticker-hstv.ticker:has([href^="https://response.questback.com/"])
+hs.fi##.hs-ticker-hstv.ticker:has([href^="https://response.questback.com/"])
 
 ! SOCIAL MEDIA
-www.tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
+tivi.fi##.section-most-important > .container-inner > section > article.teaser-container:has([href^="https://www.linkedin.com/company/"]):has-text(Seuraa Tiviä)
 mobiili.fi###text-15:has-text(Seuraa Mobiili.fitä sosiaalisessa mediassa)
 
-www.aamulehti.fi##div.janCBC:has([href^="mailto:"])
-www.aamulehti.fi##div.janCBC:has([href^="whatsapp://send?"])
-www.aamulehti.fi##div.janCBC:has([href^="https://www.facebook.com/sharer/sharer.php?"])
-www.aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
+aamulehti.fi##div.janCBC:has([href^="mailto:"])
+aamulehti.fi##div.janCBC:has([href^="whatsapp://send?"])
+aamulehti.fi##div.janCBC:has([href^="https://www.facebook.com/sharer/sharer.php?"])
+aamulehti.fi##div.janCBC:has([href^="https://twitter.com/intent/tweet?"])
 
 ! NEWSLETTERS
-www.iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
+iltalehti.fi##.default.drfront-full-article:has-text(Tilaa Tyyli.comin uutiskirje)
 mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
 yle.fi##div[class^="Newsletter__container"]
 savonsanomat.fi,ksml.fi##div.box:has([action*="uutiskirje.keskisuomalainen.fi"])
@@ -29,10 +29,10 @@ kiinteistolehti.fi##.mpc-row:has([href$="/tilaa-uutiskirje/"])
 uutisvirta.fi##div.box:has(h2:has-text(Gallup))
 
 ! RELATED VIDEOS
-www.iltalehti.fi##.jw-related-container.jw-reset
-www.iltalehti.fi##.jw-reset-text.jw-related-title
-www.iltalehti.fi##.jw-overlay.jw-related.jw-reset
-www.iltalehti.fi##.jw-related-shelf-container
+iltalehti.fi##.jw-related-container.jw-reset
+iltalehti.fi##.jw-reset-text.jw-related-title
+iltalehti.fi##.jw-overlay.jw-related.jw-reset
+iltalehti.fi##.jw-related-shelf-container
 
 omataloyhtio.fi,puutarha.net##+js(setTimeout-defuser.js,mainosModal)
 maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !important)
