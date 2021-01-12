@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! LIST NOT ACTIVELY MAINTAINED
-! Version: 13January2020v1
+! Version: 13January2020v2
 ! Title: Annoyance List for Finland
 ! Description: Finnish annoyance list
 ! Expires: 4 days
@@ -100,7 +100,6 @@ mtv.fi##.actions__share
 mtv.fi##.footer__social-media-buttons-container
 mtvuutiset.fi##.backtotopbutton
 mtvuutiset.fi##.katsomo-player-fixed.sticky-player-initialised.katsomo-player-container
-mtvuutiset.fi##.mtv-player-button.mtv-player-share-open-button
 mtvuutiset.fi##.mtv-player-share-open-button
 mtvuutiset.fi##.navigation-weather-wrapper
 naturelle.fi###newsletter
