@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12January2020v1
+! Version: 14January2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -531,7 +531,8 @@ seiska.fi##.category-container--commercial.category-container.container-fluid
 seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
 seiska.fi##div[class^="Ad__AdWrapper"]
-seurakuntalainen.fi##div.article-item.column-mainospaikka
+seurakuntalainen.fi##.article-item.column-mainospaikka
+seurakuntalainen.fi##.main-banner-container
 shakerlehti.fi#?#.article:-abp-has( > ul > li > a[href="/artikkelit/kaupallinen-yhteistyo/"])
 sijoitustieto.fi##div[class~="view-banneripaikka-etusivuoikea1"]
 sijoitustieto.fi#?#p > em > strong:-abp-contains(Kaupallinen yhteistyö:)
