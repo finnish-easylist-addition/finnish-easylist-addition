@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14January2020v1
+! Version: 14January2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -685,6 +685,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
+||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||euroads.fi^$third-party
 ||expekt.com^$third-party
@@ -746,11 +747,6 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ! General Media unbreakers
 @@||fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
 @@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
-
-! Dplay.fi video ads
-@@||fwmrm.net/ad/$script,domain=dplay.fi
-||dniadops-a.akamaihd.net/video-assets/$media,domain=dplay.fi
-||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com/*.mp4$media,domain=dplay.fi
 
 ! Prevent clicking video ads on MTV Oy
 mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-container
