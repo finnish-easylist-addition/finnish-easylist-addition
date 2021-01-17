@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 17January2020v1
+! Version: 17January2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -610,6 +610,7 @@ tori.fi##div[id="panorama_top"]
 tori.fi##div[id="panorama_topmost"]
 ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
 ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
+ts.fi#?#div[class="tsv3-c-layout__c js-tsv3-c-layout__c"]:-abp-has( > [class$="tsv3-c-layout tsv3-c-common-twocolumnslayout tsv3-c"] [class*="element--nativead"])
 tulikulma.fi##.slideshow
 tvmatsit.com##.annons
 twitter.com#?#div:-abp-has( > div > div > div > h2 > div > span:-abp-contains(Mainostettu twiitti))
