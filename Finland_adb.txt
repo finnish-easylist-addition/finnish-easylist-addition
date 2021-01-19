@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19January2020v1
+! Version: 19January2020v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -841,4 +841,4 @@ taloon.com#@##gdprpopup
 ##.top-slot.gpt
 
 ! https://github.com/easylist/easylist/pull/7022
-@@||cdn.almamedia.fi/almacmp/*.js$script,domain=kauppalehti.fi
+@@||cdn.almamedia.fi/almacmp/*.js$script,domain=kauppalehti.fi,tekniikkatalous.fi
