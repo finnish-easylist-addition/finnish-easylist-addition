@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18January2020v2
+! Version: 19January2020v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -633,6 +633,7 @@ vau.fi##.sdaelem.td-block-span12
 vau.fi##.vausda
 vauva.fi##div.cts-row-wrapper
 vauva.fi##div[id^="aldente-"]
+vauva.fi#?#.pane-sbase-static-blocks-sbase-static-blocks-1:-abp-has( > h2 > a[href="https://alennuskoodi.is.fi/"])
 venelehti.fi###dfp__rectangle-1_1
 venelehti.fi##.ads_carousel-2.widget
 verkkouutiset.fi##article.rp-lift.featured-post
