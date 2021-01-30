@@ -1,5 +1,6 @@
 ! -----SPECIFIC FILTERS-----
 
+demi.fi##ul[class^="threadListItem__component"]:style(margin-bottom: 0px !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
 suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
 tekniikanmaailma.fi##.NoAdBlocker_main
