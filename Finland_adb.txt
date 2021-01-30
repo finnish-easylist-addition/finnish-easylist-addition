@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30January2020v6
+! Version: 30January2020v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -125,6 +125,7 @@ aamulehti.fi#?#div[id^="morearticles_"]:-abp-has(h2:-abp-has(span:-abp-contains(
 aamulehti.fi,hs.fi,web.archive.org##article[class^="py-12 md:py-16 px-16 bg-ticker-20 mb-2 ticker-container bg-ticker-"]
 aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
+aamuset.fi##div[class$="nativead"]
 afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + ins[class="adsbygoogle"])
 afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + br + ins[class="adsbygoogle"])
 aijaa.com##div.text-center.col-sm-6 > a[rel$="nofollow"]
@@ -659,6 +660,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ! -----SPECIFIC FILTERS END-----
 ! -----NETWORK FILTERS-----
 
+||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
 ||adap.io^$third-party
