@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05February2021v4
+! Version: 06February2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -377,6 +377,7 @@ mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a[href^="https:/
 mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.mediuutiset.fi/"]
 mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
+mediuutiset.fi#?#a[href^="https://studio.mediuutiset.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 mediuutiset.fi#?#div#root > div > div > div > div > div > div:-abp-contains(Kaupallinen Yhteistyö)
 mesta.net##.gofollow
 metropoli.net###bs-text-listing-4-7.widget_bs-text-listing-4
