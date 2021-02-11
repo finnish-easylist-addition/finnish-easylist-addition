@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06February2021v1
+! Version: 11February2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -212,6 +212,8 @@ gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
+glu.fi#?#li:-abp-has(.adsbygoogle)
+glu.fi#?#ul.link:-abp-has(a[href^="http://clk.tradedoubler.com/"])
 golfpiste.com##.native-carousel
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.ad-list
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.newslink-ad
