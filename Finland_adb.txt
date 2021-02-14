@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11February2021v1
+! Version: 14February2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -563,15 +563,13 @@ tekniikkatalous.fi#?#div:-abp-has( > span:-abp-contains(KAUPALLINEN YHTEISTYÖ) 
 telsu.fi###pb_bottom2
 ticketmaster.fi##div[id^="ad-slot-"]
 tilt.fi##.lazyloading
-tivi.fi##a[href="https://studio.tivi.fi/"] + a[href^="https://studio.tivi.fi/"]
 tivi.fi##a[href^="/kumppaniblogit/"]
-tivi.fi##a[href^="https://studio.tivi.fi/"][href*="studiovieras"]
-tivi.fi#?#div#skyscraper-height-div > aside > a[href^="https://studio.tivi.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > section > div > div > aside:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
 tivi.fi#?#div#skyscraper-height-div section > div:-abp-has( > a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
+tivi.fi#?#div:-abp-has( > a[href^="https://www.tivi.fi/kumppanisisallot/"])
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div[id="banner_panorama_topmost"]
