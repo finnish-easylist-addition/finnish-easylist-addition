@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21February2021v1
+! Version: 21February2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -168,6 +168,7 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 autotalli.com###topBanner
 basso.fi##div[id^="BannerBlock"]
+bbs.io-tech.fi##.xb-page-wrapper span > div > a[href^="https://www.io-tech.fi/io/www/dlvr/"]
 bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
@@ -264,9 +265,6 @@ inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:-abp-has([class$="lazy-load-active"])
-io-tech.fi###text-7
-! io-tech.fi##body > div span > a[target="_blank"]
-io-tech.fi#?#div.artikkeli-slide:-abp-has([src*="-nosto"])
 irc-galleria.net##div[id^="open_"]
 is.fi###kumppaneiden-tarjoukset
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
@@ -623,6 +621,8 @@ voice.fi##section[class^="sbsads"] + section[class^="sbs-articleitems full-size-
 voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuokraovi.com##.advertising
+www.io-tech.fi###text-7
+www.io-tech.fi##.box-container > span > div > a[href^="https://www.io-tech.fi/io/www/dlvr/"]
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
