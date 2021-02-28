@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23February2021v1
+! Version: 28February2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -850,3 +850,7 @@ taloon.com#@##gdprpopup
 
 ! https://github.com/easylist/easylist/pull/7040
 ##.sponsored-article
+
+! https://github.com/easylist/easylist/pull/7309
+#@##privacy_policy
+###privacy_policy:not(input)
