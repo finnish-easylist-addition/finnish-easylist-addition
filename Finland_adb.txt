@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28February2021v1
+! Version: 03March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -568,6 +568,7 @@ tivi.fi#?#div#skyscraper-height-div > div > section > div > div > aside:-abp-con
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
 tivi.fi#?#div#skyscraper-height-div section > div:-abp-has( > a[href^="https://studio.tivi.fi/"] > h2:-abp-contains(Kaupallinen yhteistyö))
 tivi.fi#?#div:-abp-has( > a[href^="https://www.tivi.fi/kumppanisisallot/"])
+tokentube.net##.no-top-padding.row
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div[id="banner_panorama_topmost"]
