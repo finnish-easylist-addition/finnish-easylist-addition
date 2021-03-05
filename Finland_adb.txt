@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 03March2021v1
+! Version: 05March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -799,7 +799,7 @@ murha.info#@#.adsbox
 @@||adservicemedia.dk/$image,domain=mobiili.fi
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
-@@||leiki.com$domain=etuovi.com,iltalehti.fi
+@@||leiki.com$domain=etuovi.com|iltalehti.fi
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||photour.net^$elemhide
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
@@ -844,7 +844,7 @@ taloon.com#@##gdprpopup
 ##.top-slot.gpt
 
 ! https://github.com/easylist/easylist/pull/7022
-@@||cdn.almamedia.fi/almacmp/*.js$script,domain=kauppalehti.fi,tekniikkatalous.fi
+@@||cdn.almamedia.fi/almacmp/*.js$script,domain=kauppalehti.fi|tekniikkatalous.fi
 
 ! https://github.com/easylist/easylist/pull/7038
 @@||leiki.com/focus/$script,domain=iltalehti.fi
