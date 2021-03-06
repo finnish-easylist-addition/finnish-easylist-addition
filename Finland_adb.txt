@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05March2021v1
+! Version: 06March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -416,7 +416,7 @@ motouutiset.fi##a[href*="revads"]
 motouutiset.fi##div[class*="ad-giant"]
 motouutiset.fi##div[class*="ad-panorama"]
 mtvuutiset.fi##.component-adincontent.component
-mtvuutiset.fi##.leaderboard-1.leaderboard
+mtvuutiset.fi##.leaderboard
 murha.info###custom_html-4 > .custom-html-widget.textwidget > table > tbody > tr > td
 murha.info#?#.widget_text.widget:-abp-contains(/Mainos|Autonosatkauppa.fi|Jurinet/)
 murobbs.muropaketti.com###hintaopas_top_product_block
@@ -744,10 +744,11 @@ iltalehti.fi#?#div:not(.sub-category-unikulma):not(.sub-category-rahapuhe):not(.
 iltalehti.fi#?#div[class="card "]:-abp-has([class="alennuskoodi-column-embed"])
 
 ! Sanoma Oyj video ads
-||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4$media
-||nelonenmedia.fi/ads/$media
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
+||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4$media
+||freewheel-jitt.sanoma.fi/*.mp4
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
+||nelonenmedia.fi/ads/$media
 
 ! General Media unbreakers
 @@||fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
