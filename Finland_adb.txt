@@ -782,6 +782,7 @@ murha.info#@#.adsbox
 !#if !ext_ublock
 !#if !adguard
 ||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
+||freewheel-jitt.sanoma.fi/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 !#endif
 !#endif
 
@@ -805,7 +806,7 @@ murha.info#@#.adsbox
 @@||photour.net^$elemhide
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||radiosun.fi/wp-content/uploads/2020/09/Ylojarven-keilahalli-300x250-1.jpg
-@@||tags.tiqcdn.com/utag/sanoma-fi/lifestyle/prod/utag.js$script,domain=hyvaterveys.fi
+@@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
 @@||telsu.fi/dyn2?setref=nauris$subdocument,domain=nauris.fi
 @@||uk.cdn-net.com/cc.js$script,domain=power.fi
 anna.fi#@#.sponsored-content
