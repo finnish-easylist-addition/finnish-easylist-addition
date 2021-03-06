@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06March2021v2
+! Version: 06March2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -745,7 +745,7 @@ iltalehti.fi#?#div[class="card "]:-abp-has([class="alennuskoodi-column-embed"])
 
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
-||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4$media
+||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4
 ||freewheel-jitt.sanoma.fi/*.mp4
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
 ||nelonenmedia.fi/ads/$media
@@ -786,8 +786,9 @@ murha.info#@#.adsbox
 !#endif
 !#endif
 
-! appears when blocking:
-||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif$image
+! appears when blocking ads:
+||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
+ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 ! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
 @@||adform.net^$~third-party
