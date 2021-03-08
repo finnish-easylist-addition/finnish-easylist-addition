@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 07March2021v4
+! Version: 08March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -269,6 +269,7 @@ irc-galleria.net##div[id^="open_"]
 is.fi###kumppaneiden-tarjoukset
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 is.fi##.is-advertorial.external.full-width.teaser
+is.fi##.ticker-promo-10
 is.fi##a[href="https://www.startel.fi/?infront"]
 is.fi##article.advertorial-teaser
 is.fi##article[class*="native-ad"]
