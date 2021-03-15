@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 08March2021v5
+! Version: 15March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -784,6 +784,7 @@ murha.info#@#.adsbox
 !#if !adguard
 ||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
 ||freewheel-jitt.sanoma.fi/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 !#endif
 !#endif
 
