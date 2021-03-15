@@ -11,6 +11,7 @@ tekniikanmaailma.fi##.NoAdBlocker_main
 
 ||damoh.katsomo.fi/$media,redirect=noop-0.1s.mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
 ||freewheel-jitt.sanoma.fi/*.mp4$redirect=noop-0.1s.mp3,domain=ruutu.fi
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,redirect=noop-0.1s.mp3,domain=ruutu.fi
 
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
