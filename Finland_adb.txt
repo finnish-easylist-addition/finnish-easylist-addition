@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20March2021v1
+! Version: 21March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -830,9 +830,6 @@ tjareborg.fi#@#.push-container
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 
-! https://github.com/easylist/easylist/pull/7454
-taloon.com#@##gdprpopup
-
 ! https://github.com/easylist/easylist/pull/6885
 ##div[class^="AdSlot__container"]
 
@@ -850,7 +847,3 @@ taloon.com#@##gdprpopup
 
 ! https://github.com/easylist/easylist/pull/7040
 ##.sponsored-article
-
-! https://github.com/easylist/easylist/pull/7447
-datakauppa.fi#@##cliSettingsPopup
-datakauppa.fi#@##cookie-law-info-bar
