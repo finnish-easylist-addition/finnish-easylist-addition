@@ -780,8 +780,9 @@ murha.info#@#.adsbox
 !#if !ext_ublock
 !#if !adguard
 ||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
-||freewheel-jitt.sanoma.fi/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||freewheel-jitt.sanoma.fi^/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||sanoma-prod.integration-x.com^/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 !#endif
 !#endif
 
