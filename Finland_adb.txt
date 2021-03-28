@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27March2021v1
+! Version: 28March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -134,7 +134,6 @@ akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##div[class*="omamainos"]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
-alastonsuomi.com##.jb
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
 alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotilaakari.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikone.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^="dfp__"]
@@ -276,31 +275,18 @@ is.fi##article[class*="native-ad"]
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has( > header > h2 span:-abp-contains(Alennuskoodit))
 jatkoaika.com##div[class="block block-block"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_3p8fros91"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_mkpb5gdld"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_qvthg3vk3"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_shlnwpath"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vw7mvdpp7"]
-juoksufoorumi.fi##[data-blockid="app_cms_Blocks_vwzewx71s"]
-juoksufoorumi.fi##[data-role="sidebarAd"] ~ br
+juoksufoorumi.fi##.noAdsCell
 kaksplus.fi###adscarousel-feed
 kalajokilaakso.fi##.newslink-ad
 kaleva.fi###outstream-container
 kaleva.fi###paraati-ad-grid
 kaleva.fi##.-ad1.-ad.sidebar__column-item
+kaleva.fi##.ad-container
 kaleva.fi##.ad-container--videos.ad-container
-kaleva.fi##.js-myyntiruudut
-kaleva.fi##.news--native-ad
-kaleva.fi##.smartblock--juttusivu-markkinointi
-kaleva.fi##.video-list--advertisement
-kaleva.fi##.widget--kaupallinen-yhteistyo
-kaleva.fi##.widget__ad__text
-kaleva.fi##div.ad__title
 kaleva.fi##div[class="lyta-lazy-load"]
-kaleva.fi##div[id^="mainokset-"]
 kaleva.fi#?#.m-contentListItemThumb:-abp-has( > div > div > div[class^="m-contentListItemThumb__advertisement"])
 kaleva.fi#?#.m-managedListing__column:-abp-has( > div > div > div > div[class^="m-contentListItem__advertisement"])
-kaleva.fi#?#.video-generic-widget__container:-abp-has( > div[class="__widget_MediaWidget"] > div[class="media-widget__container"] > div[class="media-widget__title"]:-abp-contains(Kaupallinen yhteistyö))
+kaleva.fi#?#.media-site__widget-container:-abp-has( * .media-widget__title:-abp-contains(Kaupallinen yhteistyö))
 kansalainen.fi##div[id="text-html-widget-5"]
 kansalainen.fi##div[id^="ads"]
 kansanuutiset.fi##.cb-sidebar-widget.widget_text
