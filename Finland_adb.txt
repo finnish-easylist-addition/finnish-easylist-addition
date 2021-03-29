@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28March2021v1
+! Version: 29March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -475,6 +475,7 @@ rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class="optin-monster-saas-overlay"]
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
+riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
@@ -677,6 +678,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||rantapallo.fi^$third-party
 ||revimages.motouutiset.fi^$third-party
 ||ridemedia.fi/aspbanner
+||riemurasia.net/js/ads.js
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||seksitreffit.fi/banners/*$domain=seksitreffit.fi
