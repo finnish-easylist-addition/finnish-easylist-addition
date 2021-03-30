@@ -665,7 +665,6 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||karjalainen.fi/images/banners/kiinnostuitko$image
 ||kelkkalehti.com/bannerit/
 ||keskustelu.pakkotoisto.com/bannerit/*$image
-||keskustelu.suomi24.fi/js/adTargeting.min.js$script,domain=keskustelu.suomi24.fi
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif
 ||kuvake.net/js/ad-
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
@@ -687,9 +686,8 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||seksitreffit.fi/banners/*$domain=seksitreffit.fi
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
-||suomi24.fi/js/adTargeting.js$script,domain=suomi24.fi
 ||superskills.fi/fi*?isIframe=true$subdocument
-||testeri.fi/inc/museokortti.png$image
+||testeri.fi/inc/museokortti.png
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tokentube.net/f_scripts/shared/videojs/ads.vast.js
 ||tokentube.net/vast?t=vjs&v=*$xmlhttprequest
@@ -841,3 +839,6 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/7040
 ##.sponsored-article
+
+! https://github.com/easylist/easylist/pull/7542
+/adTargeting.
