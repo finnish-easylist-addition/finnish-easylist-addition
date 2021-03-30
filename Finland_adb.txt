@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31March2021v4
+! Version: 31March2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -173,7 +173,6 @@ brbikers.com##a[href*="tema.fi"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 deitti.net##.ad-article
-demi.fi##[class*="feed__adSlot"]
 demokraatti.fi##div[class^="AdStyles__Wrapper"]
 demokraatti.fi##div[class^="OrderMagazinestyles__Container"]
 download.fi##b[style="font-size:bigger;"] > a[class="download_link"][href$=".exe"]
