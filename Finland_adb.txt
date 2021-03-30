@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29March2021v1
+! Version: 31March2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -298,6 +298,7 @@ kauppalehti.fi#?#div:-abp-has( > a[href^="https://www.kauppalehti.fi/kumppanisis
 keskustelu.kaksplus.fi###native_text_wrapper
 keskustelu.kaksplus.fi##.native.feed_box_container
 keskustelu.kauppalehti.fi##.blogi__nosto
+keskustelu.pakkotoisto.com##.js-notices.notices--block.notices
 keskustelu.suomi24.fi##div[class*="FooterAdWrapper"]
 keskustelu.suomi24.fi##div[class*="HeaderAdWrapper"]
 keskustelu.suomi24.fi##div[class*="__AdWrapper"]
@@ -444,6 +445,8 @@ opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
+pakkotoisto.com##.td-header-sp-recs
+palkkavertailu.com###nav + div[style="min-height:250px;text-align:center"]
 pelaaja.fi##div.views-injected-row.views-row
 pelaaja.fi##div[class="main-container header-container container-fluid"]
 pelaajalehti.com##.views-injected-row
@@ -661,6 +664,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image
 ||kelkkalehti.com/bannerit/
+||keskustelu.pakkotoisto.com/bannerit/*$image
 ||keskustelu.suomi24.fi/js/adTargeting.min.js$script,domain=keskustelu.suomi24.fi
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif
 ||kuvake.net/js/ad-
