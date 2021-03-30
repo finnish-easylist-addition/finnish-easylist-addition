@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31March2021v3
+! Version: 31March2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -60,13 +60,11 @@ _mainosnappi.
 ###natiivit
 ###sponsori
 ###sponsorit
-###top-ad
 ###yhteistyokaruselli
 ###yhteistyokumppanit
 ###yhteistyossa
 ###ylamainokset
 ###ylamainos
-##.adbox_bottom
 ##.adbox_content
 ##.bottomads
 ##.card--native
@@ -255,7 +253,6 @@ huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 huuto.net##div.search-grid-ad-container.ad
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
-ilkkapohjalainen.fi##.ad-desktop
 ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilkkapohjalainen.fi###ad-jattiboksi2
 iltapulu.fi##div[class="footer-ylempi"]
@@ -735,7 +732,6 @@ iltalehti.fi#?#div[class="card "]:-abp-has([class="alennuskoodi-column-embed"])
 ||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4
 ||freewheel-jitt.sanoma.fi/*.mp4
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
-||nelonenmedia.fi/ads/$media
 
 ! General Media unbreakers
 @@||fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
@@ -752,7 +748,6 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 @@||fwmrm.net/ad/$script,domain=viafree.fi
 @@||fwmrm.net/ad/$image,domain=viafree.fi
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=viafree.fi
-@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=viafree.fi
 
 ! unbreak Telia password change (maybe other functions as well), endless loading
