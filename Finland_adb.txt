@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31March2021v5
+! Version: 04April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -183,6 +183,7 @@ esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuo
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^="ad"]
+etn.fi###annonsspalt
 etn.fi##.annonspekare
 f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##img[src*="banneri"]
