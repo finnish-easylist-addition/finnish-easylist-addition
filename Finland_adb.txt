@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 04April2021v1
+! Version: 06April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -599,6 +599,7 @@ viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
 viikonloppu.com##[href^="https://www.lainaovi.fi/"]
 viikonloppu.com##[rel="noreferrer noopener"]
 viikonloppu.com##li > a[href*="-jackpot-"]
+viikonloppu.com##p[style="text-align: right;"] + .rp-holder-612
 viisasraha.fi##.d-md-block.d-lg-block.d-none
 viisasraha.fi##.kumppani-artikkelit
 viisasraha.fi##div[class*="native-article"] > div[class="ezrichtext-field"] > p > a[href^="https://danskebank.fi/"]
