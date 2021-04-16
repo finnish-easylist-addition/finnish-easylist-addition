@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12April2021v2
+! Version: 16April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -780,6 +780,9 @@ ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 ! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
 @@||adform.net^$~third-party
 @@||tradedoubler.com^$~third-party
+
+! Lowe's list rule blocks access to Youtube
+@@||doubleclick.net^$~third-party
 
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
