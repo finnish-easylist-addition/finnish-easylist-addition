@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16April2021v1
+! Version: 20April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -219,6 +219,7 @@ haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi#?#div[class="col-xs-12 col-sm-12 col-md-12 pad-0 hidden-xs"]:-abp-has( > #lunch-widget)
 halloota.com##a[href$="koronaavastaan.fi/?ref=metrotuotanto"]
 hameensanomat.fi###herald_posts_widget-5
+hardelli.com##.td-a-rec-id-sidebar
 hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-block-uid]:-abp-contains(PELIT)
 hardware.fi,kaksplus.fi##.advertisement
 hbl.fi##ksf-adblockers
