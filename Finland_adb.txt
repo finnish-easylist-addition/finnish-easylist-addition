@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21April2021v1
+! Version: 22April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -531,6 +531,7 @@ taisto.org###mw-data-after-content > div
 taisto.org##a[id="top"] ~ [id="siteNotice"][class="mw-body-content"]
 talouselama.fi##[id="skyscraper-height-div"] > div > main > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^="sc-"]
 talouselama.fi##a[href^="https://www.talouselama.fi/kumppanisisallot/"]
+talouselama.fi#?##root > div > div > div > div > div:-abp-has([id="almad-parade-1"])
 talouselama.fi#?#[class]:-abp-has( > a[href^="https://www.talouselama.fi/kumppanisisallot/"])
 talouselama.fi#?#[id|="podcasti"]:-abp-contains(Kaupallinen Yhteistyö)
 talouselama.fi#?#div.article-body > div:-abp-has( > div.LazyLoad.is-visible)
