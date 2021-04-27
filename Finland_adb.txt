@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 22April2021v1
+! Version: 27April2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -165,7 +165,7 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 autotalli.com###topBanner
 basso.fi##div[id^="BannerBlock"]
-bbs.io-tech.fi##.xb-page-wrapper span > div > a[href^="https://www.io-tech.fi/io/www/dlvr/"]
+bbs.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
@@ -223,6 +223,7 @@ hardelli.com##.td-a-rec-id-sidebar
 hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-block-uid]:-abp-contains(PELIT)
 hardware.fi,kaksplus.fi##.advertisement
 hbl.fi##ksf-adblockers
+heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*="lyads"]
 helsinkitimes.fi##.banneritem
 high.fi###googlejs
@@ -238,16 +239,16 @@ hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
 historianet.fi##div[id="stickyFooter"]
 hs.fi##.aldente-wrapper
+hs.fi##.bg-ticker-promo-10.ticker-promo-10
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
-hs.fi##.lg\:w-main-lane.bg-hs-frost.mb-16
+hs.fi##.xl\:pr-sideAdOffset.shadow-toast.ease-in-out.transition-all.bottom-0.bg-softwall
 hs.fi##[id^="aldente-mobi"]
 hs.fi##a.block[href*="/mainos"]
 hs.fi##article[class*="bg-native-ad"]
 hs.fi##div[class*="-ad-block"]
 hs.fi##div[class*="ad-container"]
 hs.fi#?#.embedded:-abp-contains(Markkinapaikka)
-hs.fi,web.archive.org##.bottomsticky-body.fixed.bottomsticky-mounted.metered-softwall-shadow.xl\:pr-sideAdOffset
 huoltovalikko.com##A[href="http://www.satshop.fi"]
 huonoaiti.fi#?#.col.article-card.item:-abp-contains(Kaupallinen yhteistyö, yhteistyössä)
 huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
@@ -439,6 +440,7 @@ offroadpro.fi,mpmaailma.fi##div[id="logo-area"]
 offroadpro.fi,mpmaailma.fi##div[id^="block-ad"]
 opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
+outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi#?#.sp-module:-abp-has(.tassaWidget)
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pakkotoisto.com##.td-header-sp-recs
@@ -613,7 +615,7 @@ voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuokraovi.com##.advertising
 www.io-tech.fi###text-7
-www.io-tech.fi##.box-container > span > div > a[href^="https://www.io-tech.fi/io/www/dlvr/"]
+www.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
