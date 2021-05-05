@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 03May2021v2
+! Version: 05May2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -619,6 +619,8 @@ vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto
 vuokraovi.com##.advertising
 www.io-tech.fi###text-7
 www.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
+www.suomi24.fi##.asp
+www.suomi24.fi#?#p:-abp-has(+ p + .asp)
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
