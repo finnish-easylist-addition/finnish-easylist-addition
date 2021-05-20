@@ -2,9 +2,8 @@
 
 etn.fi##tbody > tr > td[style="width:468px"][valign="top"]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
-metsastysjakalastus.fi##.NoAdBlocker_main
+metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
-tekniikanmaailma.fi##.NoAdBlocker_main
 
 ! -----SPECIFIC FILTERS END-----
 
