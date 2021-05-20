@@ -2,6 +2,7 @@
 
 etn.fi##tbody > tr > td[style="width:468px"][valign="top"]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
+metsastysjakalastus.fi##.NoAdBlocker_main
 suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
 tekniikanmaailma.fi##.NoAdBlocker_main
 
@@ -20,6 +21,7 @@ tekniikanmaailma.fi##.NoAdBlocker_main
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(nostif, adblockDetected, 0)
 gamereactor.fi##+js(aopr, adblockEnabled)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
+high.fi##+js(aeld, error, head.removeChild(h),f)
 iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
 mikrobitti.fi##+js(nostif, bait)
 muropaketti.com##+js(aeld, error, function(){0)
