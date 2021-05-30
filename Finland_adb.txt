@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30May2021v2
+! Version: 30May2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -58,6 +58,7 @@ _mainosnappi.
 ###mainospaikka
 ###mainostila
 ###natiivit
+###parade-container
 ###sponsori
 ###sponsorit
 ###yhteistyokaruselli
