@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30May2021v1
+! Version: 30May2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -165,7 +165,6 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 autotalli.com###topBanner
 basso.fi##div[id^="BannerBlock"]
-bbs.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
@@ -631,7 +630,6 @@ vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto
 vuokraovi.com##.advertising
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
-www.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^="Vaalikone__HeaderAdWrapper"]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
