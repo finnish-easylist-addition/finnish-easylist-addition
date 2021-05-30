@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2021v1
+! Version: 31May2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -346,6 +346,8 @@ ls24.fi##div[class^="advertisement"]
 ls24.fi#?#section[class="page-section page-section--no-main-article"]:-abp-contains(Kaupallinen yhteistyö)
 luukku.com###banneri_yla
 m.facebook.com#?#article:-abp-has( > * header > * span:-abp-contains(Sponsoroitu))
+m.jaatama.fi##.c-box-space:not(.c-box)
+m.jaatama.fi##li:-abp-has(div[id|="div-gpt-ad"])
 maalampofoorumi.fi##div[id="sponsor"]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
