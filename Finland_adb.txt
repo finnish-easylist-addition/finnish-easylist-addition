@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2021v4
+! Version: 02June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -556,6 +556,7 @@ talouselama.fi#?##root > div > div > div > div > div:-abp-has([id="almad-parade-
 talouselama.fi#?#[class]:-abp-has( > a[href^="https://www.talouselama.fi/kumppanisisallot/"])
 talouselama.fi#?#[id|="podcasti"]:-abp-contains(Kaupallinen Yhteistyö)
 talouselama.fi#?#div.article-body > div:-abp-has( > div.LazyLoad.is-visible)
+talouselama.fi#?#div[width]:-abp-has(.lazyload-wrapper)
 talviopas.fi,turisti-info.fi##.sidebar-banners
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
