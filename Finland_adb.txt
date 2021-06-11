@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 09June2021v1
+! Version: 11June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -148,7 +148,7 @@ ampparit.com##div[class*="ticker"]
 ampparit.com##div[class="nettiauto-newslist-banner"]
 anna.fi###native_text_wrapper
 anna.fi##.kaupalliset
-anna.fi##.widget_nativearticles
+anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi##div.grid__item_tn-1-2
 arcticinsider.com##a[href*="bannerTrack"]
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
@@ -280,7 +280,8 @@ is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has( > header > h2 span:-abp-contains(Alennuskoodit))
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
-kaksplus.fi###adscarousel-feed
+kaksplus.fi##.placeholder
+kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kaleva.fi###outstream-container
 kaleva.fi###paraati-ad-grid
 kaleva.fi###puff-container
