@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11June2021v3
+! Version: 12June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -227,6 +227,8 @@ halloota.com##a[href$="koronaavastaan.fi/?ref=metrotuotanto"]
 hameensanomat.fi###herald_posts_widget-5
 hardelli.com##.td-a-rec-id-sidebar
 hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-block-uid]:-abp-contains(PELIT)
+hardware.fi##.adsbygoogle + script + br
+hardware.fi#?#br:-abp-has(+ .adsbygoogle)
 hardware.fi,kaksplus.fi##.advertisement
 hbl.fi##ksf-adblockers
 heili.fi###sp-alabanneri
