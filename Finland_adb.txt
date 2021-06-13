@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12June2021v3
+! Version: 13June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -387,13 +387,9 @@ mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisi
 mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi#?#a[href^="https://studio.mediuutiset.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 mesta.net##.gofollow
-metropoli.net###bs-text-listing-4-7.widget_bs-text-listing-4
-metropoli.net###menu-item-46797 > [href="https://www.metropoli.net/rahapelit/"]
-metropoli.net###tdt_widget_minilanding-7
-metropoli.net##.rp-holder-419.main-term-1.listing-item-grid
-metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
-metropoli.net#?#article[class|="post"][class~="listing-item-grid"]:-abp-has( > div.item-inner > div.featured.clearfix > a[href^="https://www.metropoli.net/rahapelit/"])
-metropoli.net,suomif1.com,suomifutis.com,suomikoris.com,suomiurheilu.com,viikonloppu.com##hr + h3 > strong, p + hr + h3, h3 + p, h3 + p + ul
+metropoli.net##.ads-desktop
+metropoli.net##.ads-mobile
+metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
 mikrobitti,talouselama.fi##div[id|="almad"]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
@@ -554,6 +550,7 @@ suomi24.fi##.editorial-slots
 suomi24.fi##div[class*="Ad__AdWrapper"]
 suomi24.fi##div[class^="HomePage__HeaderAd"]
 suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"]:-abp-has([class^="AdLivewrapped__AdWrapper"])
+suomif1.com,suomifutis.com,suomikoris.com,suomiurheilu.com,viikonloppu.com##hr + h3 > strong, p + hr + h3, h3 + p, h3 + p + ul
 suomifutis.com##[href$="/nettikasinot/"]
 suomimobiili.fi##.sbmainos
 suomimobiili.fi#?#div:-abp-has( > div.strike)
