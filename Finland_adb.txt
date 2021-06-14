@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14June2021v1
+! Version: 14June2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -151,6 +151,7 @@ anna.fi##.kaupalliset
 anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi##div.grid__item_tn-1-2
 arcticinsider.com##a[href*="bannerTrack"]
+arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##div[class*="post"] > hr, hr ~ *:not(aside)
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.arvopaperi.fi/"]
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div > a:-abp-contains(Kaupallinen yhteistyö)
@@ -550,7 +551,6 @@ suomi24.fi##.editorial-slots
 suomi24.fi##div[class*="Ad__AdWrapper"]
 suomi24.fi##div[class^="HomePage__HeaderAd"]
 suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"]:-abp-has([class^="AdLivewrapped__AdWrapper"])
-suomif1.com,suomifutis.com,suomikoris.com,suomiurheilu.com,viikonloppu.com##hr + h3 > strong, p + hr + h3, h3 + p, h3 + p + ul
 suomifutis.com##[href$="/nettikasinot/"]
 suomimobiili.fi##.sbmainos
 suomimobiili.fi#?#div:-abp-has( > div.strike)
