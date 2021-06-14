@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14June2021v2
+! Version: 14June2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -338,12 +338,10 @@ kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
 kuvake.net##.addme
-kuvake.net,nainen.com,viikonloppu.com###ticker
+kuvake.net###ticker
 kuvaton.com##.addme
 kuvaton.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com##[href^="https://www.lainaovi.fi/"]
-laliiga.com,leijonat.com,nhlsuomi.com,suomifutis.com,suomikiekko.com,valioliiga.com#?#.td-post-content > h4:-abp-contains(talletusbonus)
-laliiga.com,leijonat.com,nhlsuomi.com,suomifutis.com,suomikiekko.com,valioliiga.com#?#.td-post-content > ol:-abp-contains(pelitili)
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi###paraati-ad-grid
@@ -443,7 +441,6 @@ mvlehti.net##.premium_container
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has( > a[href^="https://vk.com/"]))
-nainen.com###text-3 > .textwidget
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
@@ -622,19 +619,11 @@ verkkouutiset.fi##.page-ad__location
 verkkouutiset.fi##article.rp-lift.featured-post
 vertaa.fi##[id|="gpt-slot-billboard"]
 vertaa.fi#?#li[class^="cg-"][data-role="items-list-item"]:-abp-has( > div > [id^="gpt-slot-results-"][id*="rectangle"])
-viikonloppu.com###text-10 > .textwidget
 viikonloppu.com###text-8
 viikonloppu.com###text-9
-viikonloppu.com##.category-uutiset.category-pelit
-viikonloppu.com##.tag-eurojackpot.category-uutiset
-viikonloppu.com##.tag-kasino.category-uutiset
-viikonloppu.com##.tag-nettikasino.category-uutiset
-viikonloppu.com##.tag-rizk.category-uutiset
 viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
 viikonloppu.com##[href^="https://www.lainaovi.fi/"]
-viikonloppu.com##[rel="noreferrer noopener"]
-viikonloppu.com##li > a[href*="-jackpot-"]
-viikonloppu.com##p[style="text-align: right;"] + .rp-holder-612
+viikonloppu.com#?#.listing-item:-abp-has( > .item-inner > .native-title)
 viisasraha.fi##.d-md-block.d-lg-block.d-none
 viisasraha.fi##.kumppani-artikkelit
 viisasraha.fi##div[class*="native-article"] > div[class="ezrichtext-field"] > p > a[href^="https://danskebank.fi/"]
