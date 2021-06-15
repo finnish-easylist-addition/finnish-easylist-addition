@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15June2021v1
+! Version: 15June2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -153,6 +153,7 @@ anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi##div.grid__item_tn-1-2
 arcticinsider.com##a[href*="bannerTrack"]
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##div[class*="post"] > hr, hr ~ *:not(aside)
+arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
 arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.arvopaperi.fi/"]
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div > a:-abp-contains(Kaupallinen yhteistyö)
