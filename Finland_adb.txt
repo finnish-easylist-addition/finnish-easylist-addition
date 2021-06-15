@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15June2021v3
+! Version: 15June2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -116,7 +116,7 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
-aamulehti.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
+aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
 aamulehti.fi##article.advertorial-teaser.bg-native-ad-1
 aamulehti.fi##div.adContainer
 aamulehti.fi#?#article:-abp-has( > header > h2 > span:-abp-contains(Mainokset))
@@ -253,10 +253,8 @@ hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
 historianet.fi##div[id="stickyFooter"]
 hs.fi##.aldente-wrapper
-hs.fi##.bg-ticker-promo-10.ticker-promo-10
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
-hs.fi##.xl\:pr-sideAdOffset.shadow-toast.ease-in-out.transition-all.bottom-0.bg-softwall
 hs.fi##[id^="aldente-mobi"]
 hs.fi##a.block[href*="/mainos"]
 hs.fi##article[class*="bg-native-ad"]
