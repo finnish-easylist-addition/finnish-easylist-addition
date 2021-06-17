@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15June2021v4
+! Version: 17June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -116,17 +116,18 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
-aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
 aamulehti.fi##article.advertorial-teaser.bg-native-ad-1
 aamulehti.fi##div.adContainer
 aamulehti.fi#?#article:-abp-has( > header > h2 > span:-abp-contains(Mainokset))
 aamulehti.fi#?#div:-abp-has( > a > div > div > div > span:-abp-contains(Kaupallinen yhteistyö))
 aamulehti.fi#?#div[id*="pipe"] > div > div:-abp-contains(Kaupallinen yhteistyö)
 aamulehti.fi#?#div[id^="morearticles_"]:-abp-has(h2:-abp-has(span:-abp-contains(Kaupallinen yhteistyö)))
+aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
 aamulehti.fi,hs.fi,web.archive.org##article.ticker-promo-10
 aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
 aamuset.fi##div[class$="nativead"]
+aarrelehti.fi,koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 afterdawn.com###div-gpt-ad-below-navi + div[style~="background-color:blue;"]
 afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + ins[class="adsbygoogle"])
 afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + br + ins[class="adsbygoogle"])
@@ -324,6 +325,7 @@ kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
 kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
 konekuriiri.fi,koneporssi.com##.banners
+koneviesti.fi,maaseuduntulevaisuus.fi#?#.row > .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
 kotikokki.net###partners-container-big
 kotikokki.net##[id="content"][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
 kotiliesi.fi##.article-continues
@@ -362,8 +364,6 @@ m.jaatama.fi##li:-abp-has(div[id|="div-gpt-ad"])
 maalampofoorumi.fi##div[id="sponsor"]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
-maaseuduntulevaisuus.fi##.promo--header
-maaseuduntulevaisuus.fi##div[class^="promo"]
 maaseuduntulevaisuus.fi#?#div[class="col-large-12 col-medium-12 col-small-12"]:-abp-has( > div > a > div[class="article__sp-aside-list__heading"]):-abp-contains(Mainos)
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
@@ -577,6 +577,7 @@ tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains
 tekniikkatalous.fi#?#div:-abp-has( > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"])
 tekniikkatalous.fi#?#div:-abp-has( > span:-abp-contains(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
 telsu.fi###pb_bottom2
+tennis.fi##.ad-blocks
 ticketmaster.fi##div[id^="ad-slot-"]
 tilt.fi##.lazyloading
 tivi.fi#?#aside:-abp-has( > div > span:-abp-contains(KAUPALLINEN YHTEISTYÖ))
