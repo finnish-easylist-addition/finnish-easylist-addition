@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 17June2021v1
+! Version: 17June2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -364,7 +364,6 @@ m.jaatama.fi##li:-abp-has(div[id|="div-gpt-ad"])
 maalampofoorumi.fi##div[id="sponsor"]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
-maaseuduntulevaisuus.fi#?#div[class="col-large-12 col-medium-12 col-small-12"]:-abp-has( > div > a > div[class="article__sp-aside-list__heading"]):-abp-contains(Mainos)
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 marmai.fi##div#skyscraper-height-div > aside > div > div > a[href^="/kumppaniblogit/"]
