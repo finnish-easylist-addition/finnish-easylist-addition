@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18June2021v2
+! Version: 18June2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -327,6 +327,8 @@ kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
 kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
 konekuriiri.fi,koneporssi.com##.banners
+koneviesti.fi###traktorpool-ad
+koneviesti.fi##.layout__article-area__text-content > p:has-text(/^\xA0$/)
 koneviesti.fi,maaseuduntulevaisuus.fi#?#.row * .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
 kotikokki.net###partners-container-big
 kotikokki.net##[id="content"][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
