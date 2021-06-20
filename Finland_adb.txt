@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20June2021v4
+! Version: 20June2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -511,6 +511,7 @@ rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
 sammysatv.com##a[href*="banner"]
+satakunnankansa.fi##.advertorial-teaser
 satakunnankansa.fi##div[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##div[class^="adContainer"]
 seiska.fi###inhouse_ad
