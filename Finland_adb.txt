@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20June2021v3
+! Version: 20June2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -556,7 +556,7 @@ suomi24.fi##div[class^="HomePage__HeaderAd"]
 suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"]:-abp-has([class^="AdLivewrapped__AdWrapper"])
 suomifutis.com##[href$="/nettikasinot/"]
 suomimobiili.fi##.sbmainos
-suomimobiili.fi#?#.module-square-grid:-abp-contains(Artikkeleita kumppaneilta)
+suomimobiili.fi#?#.content-wrap > .bkmodule:-abp-contains(Sponsoroitu)
 suomimobiili.fi#?#div:-abp-has( > div.strike)
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^="supers-app-promo-container"]
