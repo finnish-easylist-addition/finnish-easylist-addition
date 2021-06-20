@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20June2021v5
+! Version: 20June2021v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -67,6 +67,7 @@ _mainosnappi.
 ###ylamainokset
 ###ylamainos
 ##.adbox_content
+##.advertorial-teaser
 ##.bottomads
 ##.card--native
 ##.dfpBoxBottom
@@ -117,16 +118,15 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
-aamulehti.fi##article.advertorial-teaser.bg-native-ad-1
 aamulehti.fi##div.adContainer
 aamulehti.fi#?#article:-abp-has( > header > h2 > span:-abp-contains(Mainokset))
 aamulehti.fi#?#div:-abp-has( > a > div > div > div > span:-abp-contains(Kaupallinen yhteistyö))
 aamulehti.fi#?#div[id*="pipe"] > div > div:-abp-contains(Kaupallinen yhteistyö)
 aamulehti.fi#?#div[id^="morearticles_"]:-abp-has(h2:-abp-has(span:-abp-contains(Kaupallinen yhteistyö)))
 aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
-aamulehti.fi,hs.fi,web.archive.org##article.ticker-promo-10
-aamulehti.fi,satakunnankansa.fi,janakkalansanomat.fi,sydansatakunta.fi,jamsanseutu.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,suurkeuruu.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
-aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##.parade-ad.ad
+aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##article.ticker-promo-10
+aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
+aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##.parade-ad.ad
 aamuset.fi##div[class$="nativead"]
 aarrelehti.fi,koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 afterdawn.com###div-gpt-ad-below-navi + div[style~="background-color:blue;"]
@@ -286,7 +286,6 @@ is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 is.fi##.is-advertorial.external.full-width.teaser
 is.fi##.ticker-promo-10
 is.fi##a[href="https://www.startel.fi/?infront"]
-is.fi##article.advertorial-teaser
 is.fi##article[class*="native-ad"]
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has( > header > h2 span:-abp-contains(Alennuskoodit))
@@ -511,9 +510,9 @@ rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
 sammysatv.com##a[href*="banner"]
-satakunnankansa.fi##.advertorial-teaser
 satakunnankansa.fi##div[class="s-ryhma-carousel-wrapper"]
 satakunnankansa.fi##div[class^="adContainer"]
+satakunnankansa.fi#?#article.list:-abp-contains(Mainokset)
 seiska.fi###inhouse_ad
 seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
