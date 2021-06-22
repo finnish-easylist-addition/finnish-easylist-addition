@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 22June2021v1
+! Version: 23June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -70,8 +70,6 @@ _mainosnappi.
 ##.advertorial-teaser
 ##.bottomads
 ##.card--native
-##.dfpBoxBottom
-##.dfpListNativeBanner
 ##.keskimainos
 ##.mainokset
 ##.mainokset_oikea
@@ -95,9 +93,12 @@ _mainosnappi.
 ##.yhteistyossa
 ##.ylamainokset
 ##.ylamainos
+##[class^="dfp"]
 ##[href="https://www.nettikasinot.org"]
+##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://media.suomikasino.com/"]
 ##[href^="https://tc.tradetracker.net/"]
+##[id^="dfp"]
 ##a[href*="/clickthrgh.asp?"]
 ##a[href^="https://app.readpeak.com/ads"]
 ##div[class*="element--nativead"]
@@ -113,7 +114,6 @@ _mainosnappi.
 ##div[id="commercial-carousel"]
 ##div[id^="ads-content-bottom"]
 ##td[class="adbanner"]
-#[href^="/artikkeli/kaupallinen-yhteistyo/"]
 
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
@@ -140,7 +140,6 @@ aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
 alibi.fi#?#.article__body > p:-abp-contains(/^\xA0$/)
-alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotilaakari.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikone.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^="dfp__"]
 alibi.fi,hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 alueviesti.fi##.soliloquy-link
 alypaa.com##[class^="banner-slot-preroll"]
@@ -366,6 +365,8 @@ luukku.com##.banner.content
 m.facebook.com#?#article:-abp-has( > * header > * span:-abp-contains(Sponsoroitu))
 m.jaatama.fi##.c-box-space:not(.c-box)
 m.jaatama.fi##li:-abp-has(div[id|="div-gpt-ad"])
+m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com###banner_area
+m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com##.topBannerMinHeight
 maalampofoorumi.fi##div[id="sponsor"]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
@@ -449,13 +450,6 @@ mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has( > a[href^="https://v
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
-nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com###homeTopBoxBanner
-nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com##.listing
-nettiauto.com,nettikaravaani.com,nettikone.com,nettimoto.com,nettivaraosa.com,nettivene.com##.inh_banner_nl
-nettiauto.com,nettimoto.com###homeBottomBoxBanner
-nettiauto.com,nettimoto.com,nettivaraosa.com,nettimarkkina.com,nettikone.com##div[id="huge_banner"]
-nettimarkkina.com##[class="center"][style="padding-top:15px;"]
-nettimokki.com##div.nc_r_banner
 nyt.fi##div#javascript-disabled-error
 offroadpro.fi,mpmaailma.fi##div[class*="advertisement"]
 offroadpro.fi,mpmaailma.fi##div[class*="bgBanner"]
@@ -643,6 +637,14 @@ vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto
 vuokraovi.com##.advertising
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeBottomBoxBanner
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeTopBoxBanner
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.inh_banner_nl
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.leftAdvDiv
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.listing
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##div[id="huge_banner"]
+www.nettimarkkina.com##[class="center"][style="padding-top:15px;"]
+www.nettimokki.com##div.nc_r_banner
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^="Vaalikone__HeaderAdWrapper"]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
