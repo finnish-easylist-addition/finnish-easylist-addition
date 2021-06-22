@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23June2021v3
+! Version: 23June2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -124,7 +124,7 @@ aamulehti.fi#?#div:-abp-has( > a > div > div > div > span:-abp-contains(Kaupalli
 aamulehti.fi#?#div[id*="pipe"] > div > div:-abp-contains(Kaupallinen yhteistyö)
 aamulehti.fi#?#div[id^="morearticles_"]:-abp-has(h2:-abp-has(span:-abp-contains(Kaupallinen yhteistyö)))
 aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
-aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##[class|="ticker-promo"]
+aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##article[class|="ticker-promo"]
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi###bottomBanner
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##.parade-ad.ad
 aamuset.fi##div[class$="nativead"]
