@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23June2021v7
+! Version: 23June2021v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -647,6 +647,7 @@ www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.huge-banner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.inh_banner_nl
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.leftAdvDiv
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.listing:not(.tricky_link_listing)
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.quick-search__banner
 www.nettimarkkina.com##[class="center"][style="padding-top:15px;"]
 www.nettimarkkina.com#?#.right_rpt_block:-abp-has(#vif_right_banner)
