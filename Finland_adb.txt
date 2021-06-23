@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23June2021v6
+! Version: 23June2021v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -651,6 +651,7 @@ www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com
 www.nettimarkkina.com##[class="center"][style="padding-top:15px;"]
 www.nettimarkkina.com#?#.right_rpt_block:-abp-has(#vif_right_banner)
 www.nettimokki.com##div.nc_r_banner
+www.nettimoto.com###smallViewHouseBanner
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^="Vaalikone__HeaderAdWrapper"]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
