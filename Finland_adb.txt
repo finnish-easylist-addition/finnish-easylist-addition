@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29June2021v2
+! Version: 30June2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -418,6 +418,7 @@ mobiili.fi##body.category > div .header_ad
 mobiili.fi##div[class="tops-bar"][style="height:36px!important;"]
 mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 mobiili.fi#?#a.isobrick.half.one_col > .featuredinner:-abp-has(.bubble:-abp-contains(Sponsoroitu))
+mobiili.fi#?#div.fullarticle:-abp-has([data-lazy-src="https://mobiili.fi/aaa.png"])
 mobiili.fi#?#div.fullarticle:-abp-has(img[src="https://mobiili.fi/aaa.png"])
 mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; margin-bottom:17px;"]:-abp-contains(MAINOS)
 mobiili.fi#?#p:-abp-has(small:-abp-contains(Mainos:))
