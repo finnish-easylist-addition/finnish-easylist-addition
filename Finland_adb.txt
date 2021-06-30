@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30June2021v2
+! Version: 30June2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -225,6 +225,7 @@ gamereactor.fi###eventad
 gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##.rwd.colthin > div
+gamereactor.fi##.sponsor
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
 glu.fi#?#li:-abp-has(.adsbygoogle)
 glu.fi#?#ul.link:-abp-has(a[href^="http://clk.tradedoubler.com/"])
@@ -847,6 +848,12 @@ ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
 dawn.fi#?#.ui-body-inherit.ui-li-static:-abp-has(#dawn_mobile-content)
+gamereactor.fi###ad_sticky
+gamereactor.fi###ad_topScroller
+gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
+gamereactor.fi##[class^="ad_mobileLeader"]
+gamereactor.fi##[class^="ad_smartphbig"]
+gamereactor.fi##div[style$="px; text-align: left; color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi##.placeholder
 !#endif
 
