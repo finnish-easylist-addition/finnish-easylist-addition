@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 01July2021v6
+! Version: 02July2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -465,6 +465,7 @@ mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has( > a[href^="https://v
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
+napsu.fi##.mobilead
 nyt.fi##div#javascript-disabled-error
 offroadpro.fi,mpmaailma.fi##div[class*="advertisement"]
 offroadpro.fi,mpmaailma.fi##div[class*="bgBanner"]
