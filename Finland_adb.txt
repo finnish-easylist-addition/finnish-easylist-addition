@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05July2021v1
+! Version: 05July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -277,8 +277,9 @@ huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 huuto.net##div.search-grid-ad-container.ad
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
-ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilkkapohjalainen.fi###ad-jattiboksi2
+ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
+ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class="footer-ylempi"]
 iltapulu.fi#?#.newsbox:-abp-has( > [id^="div-gpt-ad"])
 inssinosingot.fi##.block-mainos
@@ -335,6 +336,7 @@ kiinteistolehti.fi##.mpc-row.vc_custom_1515749959295.vc_row-fluid.wpb_row.vc_row
 kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
 kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
+kodinviilennys.fi#?#.wp-block-image:-abp-contains(mainos)
 konekuriiri.fi,koneporssi.com##.banners
 koneviesti.fi###traktorpool-ad
 koneviesti.fi#?#.layout__article-area__text-content > p:-abp-contains(/^\xA0$/)
@@ -353,8 +355,8 @@ kukasoitti.com##div[class="main-bottom"]
 kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
-kuvake.net##.addme
 kuvake.net###ticker
+kuvake.net##.addme
 kuvaton.com##.addme
 kuvaton.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com##[href^="https://www.lainaovi.fi/"]
