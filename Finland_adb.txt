@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06July2021v1
+! Version: 06July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -278,6 +278,8 @@ huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 huuto.net##div.search-grid-ad-container.ad
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
 ilkkapohjalainen.fi###ad-jattiboksi2
 ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilmastointilaitteet.com##.boxi
@@ -301,10 +303,9 @@ juoksufoorumi.fi##.noAdsCell
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kaleva.fi###outstream-container
-kaleva.fi###paraati-ad-grid
 kaleva.fi###puff-container
-kaleva.fi##.-ad1.-ad.sidebar__column-item
 kaleva.fi##.ad-container
+kaleva.fi##.right-now-widget__item--commercial
 kaleva.fi##div[class="lyta-lazy-load"]
 kaleva.fi#?#.m-contentListItemThumb:-abp-has( > div > div > div[class^="m-contentListItemThumb__advertisement"])
 kaleva.fi#?#.m-managedListing__column:-abp-has( > div > div > div > div[class^="m-contentListItem__advertisement"])
@@ -363,7 +364,6 @@ kuvaton.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com##[href^="https://www.lainaovi.fi/"]
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
-lapinkansa.fi###paraati-ad-grid
 lapinkansa.fi#?#div[class="m-contentListItemThumb -ctx-frontpage-now -level-1"]:-abp-has( > div > div > [class^="m-contentListItemThumb__advertisement"])
 lapinkansa.fi#?#div[class="m-managedListing__column -ctx-index -level-1 -cols-2"]:-abp-has( > div > div > div > div[class^="m-contentListItem__advertisement"])
 lbaanijakuva.fi##.adremark
@@ -506,7 +506,6 @@ puheenaiheet.fi##div[class="wpb_wrapper"]
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*="commercial-blog-card"]
 puskaradio.net##.all-adds
-raahenseutu.fi##[id="paraati-ad-grid"]
 raahenseutu.fi##div[id="outstream"]
 radiopori.fi##div[class*="simpleads"]
 radiopori.fi##div[id*="mainospaikka"]
