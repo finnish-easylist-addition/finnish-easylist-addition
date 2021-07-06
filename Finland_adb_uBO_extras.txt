@@ -27,6 +27,10 @@ gamereactor.fi##^.ad_top
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,redirect=noop-0.1s.mp3,domain=ruutu.fi
 ||sanoma-prod.integration-x.com^/*.mp4$redirect=noop-0.1s.mp3,domain=ruutu.fi
 
+! -----CNAME FILTERS FOR FIREFOX-----
+||cds.*.hwcdn.net^$script,domain=apteekkari.fi
+! -----CNAME FILTERS FOR FIREFOX END-----
+
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
 
