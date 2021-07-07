@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 07July2021v3
+! Version: 07July2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -935,3 +935,6 @@ danskebank.fi#@#.cookie-consent-banner
 
 ! https://github.com/easylist/easylist/pull/8295
 @@||frosmo.com^$xmlhttprequest,domain=terve.fi
+
+! https://github.com/easylist/easylist/pull/8314
+m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
