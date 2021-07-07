@@ -45,7 +45,9 @@ proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
 uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
 
-! to Fix issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
-pelaaja.fi##+js(aopr, ga)
-
 ! -----SCRIPTS END-----
+
+! to fix an issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
+! https://github.com/easylist/easylist/pull/8317
+pelaaja.fi##+js(aopr, ga)
+||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
