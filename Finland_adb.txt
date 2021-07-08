@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 08July2021v1
+! Version: 08July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -205,7 +205,7 @@ f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##img[src*="banneri"]
 facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com#?#div[data-pagelet="RightRail"] > div:-abp-has( div * h3 > span:-abp-contains(Sponsoroitu))
-facebook.com#?#div[data-pagelet^="FeedUnit_"]:-abp-has( > * div[role="article"] > * div[style^="border-radius"] > * span[dir="auto"] > * a[aria-label="Sponsoroitu"])
+facebook.com#?#div[data-pagelet^="FeedUnit_"]:-abp-has(div[role="article"] div[style^="border-radius"] span[dir="auto"] > span:-abp-contains(Sponsoroitu))
 feissarimokat.com###billboard
 feissarimokat.com###logopal
 feissarimokat.com##.flexibox
