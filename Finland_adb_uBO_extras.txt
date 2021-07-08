@@ -23,6 +23,7 @@ gamereactor.fi##^.ad_top
 ! -----NETWORK FILTERS-----
 
 ||damoh.katsomo.fi/$media,redirect=noop-0.1s.mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
+||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=puhekupla.com
 ||freewheel-jitt.sanoma.fi^/*.mp4$redirect=noop-0.1s.mp3,domain=ruutu.fi
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,redirect=noop-0.1s.mp3,domain=ruutu.fi
 ||sanoma-prod.integration-x.com^/*.mp4$redirect=noop-0.1s.mp3,domain=ruutu.fi
