@@ -17,6 +17,7 @@ www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^
 
 ! -----HTML FILTERS FOR FIREFOX-----
 gamereactor.fi##^.ad_top
+tamperelainen.fi##^.display-ad
 ! -----HTML FILTERS FOR FIREFOX END-----
 
 ! -----SPECIFIC FILTERS END-----
