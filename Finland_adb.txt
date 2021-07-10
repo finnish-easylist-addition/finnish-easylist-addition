@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 09July2021v2
+! Version: 09July2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -224,6 +224,7 @@ foreca.fi##div[id|="inline-banner-mobi"]
 foreigner.fi#?#article:-abp-contains(SPONSORED)
 funtampere.fi##.banner_container
 gamereactor.fi###adContainer
+gamereactor.fi###ad_topScroller
 gamereactor.fi###bigVideoAd_content
 gamereactor.fi###eventad
 gamereactor.fi###sky2_1
@@ -860,7 +861,6 @@ ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 !#if env_mobile
 dawn.fi#?#.ui-body-inherit.ui-li-static:-abp-has(#dawn_mobile-content)
 gamereactor.fi###ad_sticky
-gamereactor.fi###ad_topScroller
 gamereactor.fi##.ad_interscroller
 gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
 gamereactor.fi##.wrapper 
