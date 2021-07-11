@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11July2021v1
+! Version: 11July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -931,9 +931,6 @@ timma.fi#@##cookieConsentModal
 
 ! https://github.com/easylist/easylist/pull/8295
 @@||frosmo.com^$xmlhttprequest,domain=terve.fi
-
-! https://github.com/easylist/easylist/pull/8314
-m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
 
 ! https://github.com/easylist/easylist/pull/8317
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
