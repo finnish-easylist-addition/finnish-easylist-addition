@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12July2021v4
+! Version: 12July2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -627,6 +627,8 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:-abp-contai
 uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div:-abp-has( > a[href^="https://www.uusisuomi.fi/kumppanisisallot/"])
 uusisuomi.fi#?#p + div:-abp-has( > .LazyLoad.is-visible > [id|="almad"])
+uusiteknologia.fi###text-97
+uusiteknologia.fi###text-98
 uutissuora.fi##div[class="td-all-devices"]
 valioliiga.com##[href$="/vedonlyonti/"]
 vantaansanomat.fi##div.display-ad
