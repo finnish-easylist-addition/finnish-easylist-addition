@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12July2021v3
+! Version: 12July2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -399,14 +399,9 @@ matkaendurot.net##div[id="logodesc"]>table>tbody>tr>td:first-of-type
 matkaendurot.net##span[id="banneripaikka"]
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
-mediuutiset.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppanisisaltoa/"]
-mediuutiset.fi##div#skyscraper-height-div > aside > div > div > a[href^="https://studio.mediuutiset.fi/"]
-mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppanisisaltoa/"]
-mediuutiset.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.mediuutiset.fi/"]
-mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.mediuutiset.fi/"]
-mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisisaltoa/"]
-mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
-mediuutiset.fi#?#a[href^="https://studio.mediuutiset.fi/"]:-abp-contains(Kaupallinen yhteistyö)
+mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
+mediuutiset.fi#?#div:-abp-has( > a[href="/kumppanisisaltoa"])
+mediuutiset.fi#?#div:-abp-has( > a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^="site-header"]))
 mesta.net##.gofollow
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
