@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 13July2021v1
+! Version: 14July2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -778,7 +778,6 @@ iltalehti.fi##.etua-widget-container
 iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
 iltalehti.fi##.slider-content
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
-iltalehti.fi##div[class*="parade-ad-container"]
 iltalehti.fi##div[class="iframe-container"]
 iltalehti.fi#?#.article-list > div[class=""] > a[href]:-abp-contains(Kaupallinen yhteistyö)
 iltalehti.fi#?#a.small-article:-abp-contains(Kaupallinen yhteistyö)
