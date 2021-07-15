@@ -931,3 +931,7 @@ timma.fi#@##cookieConsentModal
 ! https://github.com/easylist/easylist/pull/8317
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js
+
+! https://github.com/easylist/easylist/pull/8360
+##.ads__container
+##.card-article-ads
