@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18July2021v1
+! Version: 18July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -182,7 +182,8 @@ bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
-como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
+como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
+como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.col-sm-6.col-xs-12:-abp-has( > a[href*="smartadserver.com"])
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 250px;"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 300px;"]
@@ -287,7 +288,6 @@ ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class="footer-ylempi"]
 iltapulu.fi#?#.newsbox:-abp-has( > [id^="div-gpt-ad"])
-inferno.fi#?#.col-sm-6.col-xs-12:-abp-has( > a[href*="smartadserver.com"])
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
