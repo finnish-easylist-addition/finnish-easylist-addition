@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18July2021v3
+! Version: 18July2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -184,6 +184,7 @@ bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.col-sm-6.col-xs-12:-abp-has(> a[href*="smartadserver.com"])
+como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.strossle > div.col-xs-12.col-sm-6:-abp-contains(Mainos)
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 250px;"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 300px;"]
