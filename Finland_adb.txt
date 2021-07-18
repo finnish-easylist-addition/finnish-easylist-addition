@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18July2021v4
+! Version: 19July2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -132,8 +132,9 @@ aamuset.fi##div[class$="nativead"]
 aarrelehti.fi,koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 aasiakas.net##div[style="width:970px;height:250px;margin:0 auto;margin-top:25px;"]
 afterdawn.com###div-gpt-ad-below-navi + div[style~="background-color:blue;"]
-afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + ins[class="adsbygoogle"])
-afterdawn.com,puhelinvertailu.com#?#br:-abp-has( + br + ins[class="adsbygoogle"])
+afterdawn.com#?#.video:-abp-has(+ div#bb-iawr-defaultPlayout-afterdawn_com_)
+afterdawn.com,puhelinvertailu.com#?#br:-abp-has(+ br + ins[class="adsbygoogle"])
+afterdawn.com,puhelinvertailu.com#?#br:-abp-has(+ ins[class="adsbygoogle"])
 aijaa.com##div.text-center.col-sm-6 > a[rel$="nofollow"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##div[class*="omamainos"]
@@ -555,9 +556,9 @@ sportti.com#?#div[style="padding-bottom:10px;border-bottom:1px solid gray;margin
 sss.fi##[class="td_block_wrap td_block_instagram td_block_widget td_uid_24_5ed01647b9b3f_rand td-pb-border-top td_block_template_1"] ~ [class="td_block_template_1 widget widget_text"] > [class="textwidget"]
 suomela.fi##.banner-boksi1
 suomela.fi#?#h2:-abp-contains(Remonttirahoitus)
-suomela.fi#?#hr:-abp-has( + h2:-abp-contains(Remonttirahoitus))
-suomela.fi#?#hr:-abp-has( + p > a[href="https://www.autodoc.fi/"])
-suomela.fi#?#hr:-abp-has( + p:-abp-has(a[href="https://www.autonvaraosat24.fi/"]))
+suomela.fi#?#hr:-abp-has(+ h2:-abp-contains(Remonttirahoitus))
+suomela.fi#?#hr:-abp-has(+ p > a[href="https://www.autodoc.fi/"])
+suomela.fi#?#hr:-abp-has(+ p:-abp-has(a[href="https://www.autonvaraosat24.fi/"]))
 suomela.fi#?#p:-abp-has(a[href="https://www.autodoc.fi/"])
 suomela.fi#?#p:-abp-has(a[href="https://www.autonvaraosat24.fi/"])
 suomela.fi#?#p:-abp-has(a[href="https://www.lainanvälittäjä.fi/"])
