@@ -1,6 +1,6 @@
 ! -----SPECIFIC FILTERS-----
 
-afterdawn.com###ad-top-banner-placeholder:style(min-height: 0px !important)
+afterdawn.com,download.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
 etn.fi##tbody > tr > td[style="width:468px"][valign="top"]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
