@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23July2021v1
+! Version: 23July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -174,6 +174,7 @@ arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##.head.the-wrap
+auto1.fi##.pb[lazied]
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_bottom
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_top
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
@@ -699,13 +700,9 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
-||adap.io^$third-party
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
-||adsrv.eacdn.com^$third-party
-||adswiper.eu^$third-party
 ||affiliate.guts.com^$third-party
-||ah-me.com^$third-party
-||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
+||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg
 ||ap-online.media.fi/scripts/eneo*.dll$script,domain=aamuposti.fi|helsinginuutiset.fi|keski-uusimaa.fi|lansi-uusimaa.fi|lansivayla.fi|lappeenrannanuutiset.fi|loviisansanomat.fi|mantsalanuutiset.fi|nurmijarvenuutiset.fi|seinajoensanomat.fi|sipoonsanomat.fi|tamperelainen.fi|turkulainen.fi|uusimaa.fi|vantaansanomat.fi|vihdinuutiset.fi
 ||auto1.fi^$third-party
 ||bittiraha.fi/app/themes/bittiraha-theme/assets/images/bittiraha_coinmotion_banner$image
@@ -714,13 +711,11 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||c1.hinta.fi^$third-party,script
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||celtra.com^$third-party
-||chimiver.info^$third-party
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
-||euroads.fi^$third-party
 ||expekt.com^$third-party
 ||fcdn.lauta.media^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
@@ -729,7 +724,6 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||hinta.fi/a/img/$image
 ||hintaopas.fi^$third-party
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
-||hippos.fi/banner/
 ||honestpartners.com^$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg
 ||ig.fi/bannerit/koronabanneri.png
