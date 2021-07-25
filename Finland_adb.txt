@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25July2021v1
+! Version: 25July2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -202,6 +202,8 @@ download.fi#?#div:-abp-has(> h3[style="font-size:20px;"])
 download.fi#?#div[class="splash_title"] + p + p:-abp-has(> a[href$=".exe"])
 duunitori.fi##.js-fragment-web-lazy_carousel
 elmotv.com##[class^="mstila"]
+epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.ads__wrapper
+epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.pointti_container
 episodi.fi#?#.main-article > div:-abp-contains(Mainos)
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
