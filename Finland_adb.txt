@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24July2021v1
+! Version: 25July2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -185,6 +185,7 @@ bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
+cdon.fi##[id^="afscontainer"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.col-sm-6.col-xs-12:-abp-has(> a[href*="smartadserver.com"])
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.strossle > div.col-xs-12.col-sm-6:-abp-contains(Mainos)
@@ -504,6 +505,10 @@ pelit.fi##.eaf_wrap
 pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
 pkank.fi##.ad-assigned.panoraamabanneri
+pointti.fi##.after-ad
+pointti.fi##.before-ad
+pointti.fi##.jattiboksi
+pointti.fi##.paraati
 poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widget
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pt-media.org###main > .wpcnt > .wpa
