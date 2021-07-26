@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26July2021v3
+! Version: 26July2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -951,3 +951,6 @@ timma.fi#@##cookieConsentModal
 
 ! https://github.com/easylist/easylist/pull/8404
 vr.fi#@#div[class*="CookieConsent"]
+
+! https://github.com/easylist/easylist/pull/8449
+##[id|="bunyad-widget-ads"]
