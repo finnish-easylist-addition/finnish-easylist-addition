@@ -16,10 +16,9 @@ www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[cl
 www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"] > div:style(padding-left: 15px !important)
 www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 
-! -----HTML FILTERS FOR FIREFOX-----
+! HTML filters for Firefox
 gamereactor.fi##^.ad_top
 tamperelainen.fi##^.display-ad
-! -----HTML FILTERS FOR FIREFOX END-----
 
 ! -----SPECIFIC FILTERS END-----
 
@@ -31,9 +30,8 @@ tamperelainen.fi##^.display-ad
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,redirect=noop-0.1s.mp3,domain=ruutu.fi
 ||sanoma-prod.integration-x.com^/*.mp4$redirect=noop-0.1s.mp3,domain=ruutu.fi
 
-! -----CNAME FILTERS FOR FIREFOX-----
+! CNAME filters for Firefox
 ||cds.*.hwcdn.net^$script,domain=apteekkari.fi
-! -----CNAME FILTERS FOR FIREFOX END-----
 
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
