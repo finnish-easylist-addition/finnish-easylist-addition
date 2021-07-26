@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26July2021v5
+! Version: 26July2021v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -172,7 +172,6 @@ arvopaperi.fi#?#div#skyscraper-height-div > div > aside > div > a:-abp-contains(
 arvopaperi.fi#?#div#skyscraper-height-div > div > div > div > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
-audiovideo.fi###bunyad-widget-ads-3
 audiovideo.fi##.head.the-wrap
 auto1.fi##.pb[lazied]
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_bottom
