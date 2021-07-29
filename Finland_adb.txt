@@ -948,8 +948,5 @@ tjareborg.fi#@#.push-container
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js
 
-! https://github.com/easylist/easylist/pull/8404
-vr.fi#@#div[class*="CookieConsent"]
-
 ! https://github.com/easylist/easylist/pull/8449
 ##[id|="bunyad-widget-ads"]
