@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31July2021v3
+! Version: 31July2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -944,3 +944,4 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/8508
 iltalehti.fi#@#.accept-cookies:not(html)
+@@||cdn.almamedia.fi/almacmp/$script,domain=iltalehti.fi
