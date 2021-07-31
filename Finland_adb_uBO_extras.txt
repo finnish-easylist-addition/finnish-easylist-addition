@@ -47,7 +47,7 @@ iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallin
 mikrobitti.fi##+js(nostif, bait)
 proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
-uusisuomi.fi,xxl.fi,kaleva.fi##+js(acis, NREUM)
+uusisuomi.fi,xxl.fi,kaleva.fi##+js(acs, NREUM)
 
 ! -----SCRIPTS END-----
 
