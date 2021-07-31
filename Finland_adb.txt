@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 1August2021v1
+! Version: 1August2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -418,6 +418,8 @@ mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div:-abp-has(> a[href="/kumppanisisaltoa"])
 mediuutiset.fi#?#div:-abp-has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^="site-header"]))
+meillakotona.fi,terve.fi#?#div[class*="feed__adSlot"]
+meillakotona.fi#?#div[class^="transitionSlot__component"][class*="layout__container"]:-abp-contains(MAINOS)
 mesta.net##.gofollow
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
@@ -621,6 +623,7 @@ tekniikkatalous.fi#?#div:-abp-has(> span:-abp-contains(KAUPALLINEN YHTEISTYÖ) +
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 telsu.fi###pb_bottom2
 tennis.fi##.ad-blocks
+terve.fi##div[class^="transitionSlot__component"][class*="layout__container"]:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 terve.fi#?#div[class^="PageElementFeedItem__Container"]:-abp-contains(Mainos)
 ticketmaster.fi##div[id^="ad-slot-"]
 tiede.fi#?#.views-row:-abp-has(.is-commercial)
