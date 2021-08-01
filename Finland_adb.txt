@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 1August2021v5
+! Version: 1August2021v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -312,6 +312,8 @@ is.fi##a[href="https://www.startel.fi/?infront"]
 is.fi##article[class*="native-ad"]
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:-abp-contains(Alennuskoodit))
+jaatama.fi##.advert
+jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
 kaksplus.fi##.placeholder
@@ -952,3 +954,6 @@ iltalehti.fi#@#.accept-cookies:not(html)
 
 ! https://github.com/easylist/easylist/pull/8510
 @@||inpref.s3.amazonaws.com^$script,domain=kauppahalli24.fi
+
+! https://github.com/easylist/easylist/pull/8511
+@@||static.jaatama.fi/thumbs/images/fb-*$image
