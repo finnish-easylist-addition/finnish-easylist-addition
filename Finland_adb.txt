@@ -927,7 +927,6 @@ kotiliesi.fi##.placeholder
 @@||telsu.fi/dyn2?setref=nauris$subdocument,domain=nauris.fi
 @@||uk.cdn-net.com/cc.js$script,domain=power.fi
 anna.fi#@#.sponsored-content
-download.fi#@##ad-top-banner-placeholder
 etuovi.com#@#.rss-feed
 hs.fi#@#.mainokset
 hs.fi#@#.mainos
@@ -967,4 +966,4 @@ tjareborg.fi#@#.push-container
 @@||static.jaatama.fi/thumbs/images/fb-$image
 
 ! https://github.com/easylist/easylist/pull/8630
-edukas.fi#@##ad-top-banner-placeholder
+download.fi,edukas.fi#@##ad-top-banner-placeholder
