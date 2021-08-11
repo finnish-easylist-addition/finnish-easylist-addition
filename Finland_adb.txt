@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11August2021v3
+! Version: 11August2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -640,6 +640,7 @@ terve.fi##div[class|="ProductRecommendationCarousel__CarouselContainer"]
 terve.fi#?#div[class^="PageElementFeedItem__Container"]:-abp-contains(Mainos)
 terve.fi#?#div[class^="transitionSlot__component"][class*="layout__container"]:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 ticketmaster.fi##div[id^="ad-slot-"]
+ticketmaster.fi#?#div:-abp-has(> [id|="ad-slot"])
 tiede.fi#?#.views-row:-abp-has(.is-commercial)
 tilt.fi##.lazyloading
 tivi.fi#?#aside:-abp-has(> div > span:-abp-contains(KAUPALLINEN YHTEISTYÖ))
