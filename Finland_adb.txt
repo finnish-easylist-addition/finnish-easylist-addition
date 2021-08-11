@@ -965,3 +965,6 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/8511
 @@||static.jaatama.fi/thumbs/images/fb-$image
+
+! https://github.com/easylist/easylist/pull/8630
+edukas.fi#@##ad-top-banner-placeholder
