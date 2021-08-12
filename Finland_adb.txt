@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11August2021v5
+! Version: 13August2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -213,7 +213,6 @@ esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuo
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^="ad"]
-ess.fi##.page-notes > .note--highlight
 etn.fi###annonsspalt
 etn.fi##.annonspekare
 f1-forum.fi##a[href*="netb11.com"]
@@ -387,6 +386,7 @@ kuvake.net##.addme
 kuvaton.com##.addme
 kuvaton.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com##[href^="https://www.lainaovi.fi/"]
+kymensanomat.fi,ess.fi##.page-notes > .note--highlight
 lapinkansa.fi###content1-container
 lapinkansa.fi###outstream-container
 lapinkansa.fi#?#div[class="m-contentListItemThumb -ctx-frontpage-now -level-1"]:-abp-has(> div > div > [class^="m-contentListItemThumb__advertisement"])
