@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 13August2021v1
+! Version: 13August2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -424,6 +424,7 @@ marmai.fi#?#div#skyscraper-height-div > div > aside > a[href^="https://studio.ma
 marmai.fi#?#div#skyscraper-height-div > div > section > div > div > div:-abp-contains(Kaupallinen yhteistyö)
 matkaendurot.net##div[id="logodesc"]>table>tbody>tr>td:first-of-type
 matkaendurot.net##span[id="banneripaikka"]
+matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
