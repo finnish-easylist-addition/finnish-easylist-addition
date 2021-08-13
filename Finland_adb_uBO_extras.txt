@@ -8,6 +8,7 @@ hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 mobiili.fi###headermob:style(position: static !important)
+mobiili.fi###show_merkki:style(margin-top: 10px !important)
 mobiili.fi##.header_ad, important
 mobiili.fi##.mainbody.extended:style(margin-top: 1px !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
