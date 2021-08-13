@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14August2021v1
+! Version: 14August2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -443,10 +443,11 @@ mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobi
 mikrobitti.fi##div[id="rosmo"]
 mikrobitti.fi#?#div[style="margin-bottom:0"]:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 mikrobitti.fi#?#section > div:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
-
 mobiili.fi###header_ad33
+mobiili.fi###ostoHint
 mobiili.fi##.banner-ad
 mobiili.fi##.execphpwidget
+mobiili.fi##.headermob_ad
 mobiili.fi##.single-content-all > div[style^="float:left"][style*="width:100%"][style*="text-align:center"][style*="margin-bottom:17px"]
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##.textwidget > div[style="width:300px; height:600px;"]
@@ -461,7 +462,6 @@ moottori.fi##.container.g-bg.ads.sidebar.item
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
 moottori.fi##div[class*="torifi_banner"]
 moottori.fi##div[class|="ad-rotation"]
-
 moottoripyora.org##a[href*="mst-yhtiot"]
 moottoripyora.org##li[class="first cooperation nebula"]
 moottoripyora.org##li[id*="navbar_notice_"]
