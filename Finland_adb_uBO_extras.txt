@@ -23,6 +23,7 @@ www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^
 
 ! HTML filters for Firefox
 gamereactor.fi##^.ad_top
+kokemaenjokilaakso.fi##^[alt^="Mainos"]
 tamperelainen.fi##^.display-ad
 
 ! -----SPECIFIC FILTERS END-----
