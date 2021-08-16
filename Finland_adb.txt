@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16August2021v1
+! Version: 16August2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -384,6 +384,8 @@ kukasoitti.com##div[class="main-bottom"]
 kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*="banner"]
 kulutusluottovertailu.fi##.fusion-carousel
+kuntalehti.fi#?#.g:-abp-has(.gofollow)
+kuntalehti.fi##.ad-container
 kuvake.net###ticker
 kuvake.net##.addme
 kuvaton.com##.addme
