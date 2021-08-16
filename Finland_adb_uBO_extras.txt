@@ -6,11 +6,13 @@ feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
+kaaoszine.fi##article.post:has-text(Kaupallinen yhteistyö):style(height: 1px !important; width: 1px !important; margin-right: 0px !important)
+kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 mobiili.fi###headermob:style(position: static !important)
-mobiili.fi###show_merkki:style(margin-top: 10px !important)
+mobiili.fi###show_merkki:style(margin-top: 2em !important)
 mobiili.fi##.header_ad, important
-mobiili.fi##.mainbody.extended:style(margin-top: 1px !important)
+mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 telsu.fi##div[style^="font-size:20px;padding:"][style$="px;margin:20px;background:#fff;line-height:25px;"]
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
