@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16August2021v2
+! Version: 17August2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -321,6 +321,10 @@ jaatama.fi##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
+kaaoszine.fi##.emp-ad
+kaaoszine.fi##.improve-media
+kaaoszine.fi#?#.rotate:-abp-has(.gofollow)
+kaaoszine.fi#?#article.post:-abp-contains(Kaupallinen yhteistyö)
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kaleva.fi###outstream-container
@@ -514,6 +518,7 @@ olutposti.fi#?#.aside.widget:-abp-contains(Mainos)
 opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi#?#.sp-module:-abp-has(.tassaWidget)
+paakallo.fi##.gofollow
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pakkotoisto.com##.td-header-sp-recs
