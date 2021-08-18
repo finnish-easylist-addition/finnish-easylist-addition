@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18August2021v6
+! Version: 18August2021v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -266,6 +266,10 @@ hardelli.com#?#div[class="wpb_wrapper"][style^="width: 324px;"] > div[data-td-bl
 hardware.fi##.adsbygoogle + script + br
 hardware.fi#?#br:-abp-has(+ .adsbygoogle)
 hardware.fi,kaksplus.fi##.advertisement
+hattulaan.fi,reska.fi##.content.single-banner
+hattulaan.fi,reska.fi##.top.panorama.banner
+hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
+hattulaan.fi,reska.fi#?#[class|="ml-adverts"]:not(:-abp-has(a[href="https://reska.fi/lounasreska/"]))
 hbl.fi##ksf-adblockers
 heili.fi###sp-alabanneri
 heili.fi##.autoboksi.moduletable
@@ -546,7 +550,7 @@ pt-media.org##.theiaStickySidebar > .wpcnt
 pt-media.org##.wpcnt-header.wpcnt
 puheenaiheet.fi##.gofollow
 puheenaiheet.fi##div[class="wpb_wrapper"]
-puheenvuoro.uusisuomi.fi##.partner-blog-list
+puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.partner-blog-list
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*="commercial-blog-card"]
 puskaradio.net##.all-adds
