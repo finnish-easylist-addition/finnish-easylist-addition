@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18August2021v4
+! Version: 18August2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -764,7 +764,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
-||fcdn.lauta.media^$third-party
+||fcdn.lauta.media^$subdocument,script
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
 ||feed.etuovi.com/etuovi/html/*.html$subdocument
 ||gamereactor.*/lay/dfp_*.js$script
@@ -814,7 +814,6 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
-||ylilauta.org/fcdn/
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
