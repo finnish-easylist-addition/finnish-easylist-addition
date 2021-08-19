@@ -382,6 +382,7 @@ kotikokki.net##[id=content][class="content hrecipe"] ~ [style="float: left; widt
 kotiliesi.fi##.article-continues
 kotiliesi.fi##.nativecarousel.widget
 kotiliesi.fi##.widget_google-ad-manager
+kotiliesi.fi##body.category .placeholder
 kotimikro.fi##.campaign-teaser-show
 kotimikro.fi##b > [href^="https://tilaus.kotimikro.fi/brand/kotimikro/"]
 kotimikro.fi#?#div.themebox.widget:-abp-has(> div > div > div > div#cx_4217c66c223ecb55cb7b1d49afa884837bfccda9)
