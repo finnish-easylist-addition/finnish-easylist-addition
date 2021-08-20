@@ -1,7 +1,7 @@
 ! -----SPECIFIC FILTERS-----
 
 afterdawn.com,download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
-etn.fi##tbody > tr > td[style="width:468px"][valign="top"]:style(width: unset !important)
+etn.fi##tbody > tr > td[style="width:468px"][valign=top]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
@@ -25,7 +25,7 @@ www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^
 
 ! HTML filters for Firefox
 gamereactor.fi##^.ad_top
-kokemaenjokilaakso.fi##^[alt^="Mainos"]
+kokemaenjokilaakso.fi##^[alt^=Mainos]
 mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
 tamperelainen.fi##^.display-ad
 
