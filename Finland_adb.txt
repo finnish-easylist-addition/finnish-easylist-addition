@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24August2021v1
+! Version: 24August2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -940,8 +940,6 @@ hs.fi#@#.mainokset
 hs.fi#@#.mainos
 iltalehti.fi#@#.afs_ads
 kaksplus.fi#@#.sponsored-content
-studio55.fi#@#.column-ad
-tjareborg.fi#@#.push-container
 
 ! -----UNBREAK END-----
 
@@ -972,3 +970,6 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/8831
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
+
+! https://github.com/easylist/easylist/pull/8832
+studio55.fi#@#.column-ad
