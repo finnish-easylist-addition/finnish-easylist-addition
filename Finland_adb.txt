@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21August2021v2
+! Version: 24August2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -930,9 +930,7 @@ kotiliesi.fi##.placeholder
 ! @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
 @@||leiki.com$domain=etuovi.com|iltalehti.fi
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
-@@||photour.net^$elemhide
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
-@@||radiosun.fi/wp-content/uploads/2020/09/Ylojarven-keilahalli-300x250-1.jpg
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
 @@||telsu.fi/dyn2?setref=nauris$subdocument,domain=nauris.fi
 @@||uk.cdn-net.com/cc.js$script,domain=power.fi
@@ -971,3 +969,6 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/8695
 @@||high.auriro.net/http/600x400/$image,domain=dawn.fi
+
+! https://github.com/easylist/easylist/pull/8831
+@@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
