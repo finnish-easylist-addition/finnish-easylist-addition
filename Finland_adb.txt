@@ -968,9 +968,3 @@ kaksplus.fi#@#.sponsored-content
 
 ! https://github.com/easylist/easylist/pull/8695
 @@||high.auriro.net/http/600x400/$image,domain=dawn.fi
-
-! https://github.com/easylist/easylist/pull/8831
-@@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
-
-! https://github.com/easylist/easylist/pull/8832
-studio55.fi#@#.column-ad
