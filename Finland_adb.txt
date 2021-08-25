@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25August2021v2
+! Version: 25August2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -164,20 +164,16 @@ arcticinsider.com##a[href*=bannerTrack]
 aromilehti.fi##.ad-paper-order
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##div[class*=post] > hr, hr ~ *:not(aside)
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
-arvopaperi.fi,marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
-arvopaperi.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.arvopaperi.fi/"]
-arvopaperi.fi#?#div#skyscraper-height-div > aside > div > a:-abp-contains(Kaupallinen yhteistyö)
-arvopaperi.fi#?#div#skyscraper-height-div > aside > div > div:-abp-contains(Kaupallinen yhteistyö)
-arvopaperi.fi#?#div#skyscraper-height-div > div > aside > div > a:-abp-contains(Kaupallinen yhteistyö)
-arvopaperi.fi#?#div#skyscraper-height-div > div > div > div > div > div > a:-abp-contains(Kaupallinen yhteistyö)
+arvopaperi.fi#?#div#skyscraper-height-div > aside > div:-abp-has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi##.head.the-wrap
 auto1.fi##.pb[lazied]
-auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi###pb_bottom
-auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi,blogit.fi###pb_top
-auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
-auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
+auto1.fi#?#[id^=pb_cont].pb:-abp-has(> a[href^="/clk2?"])
+auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi###pb_bottom
+auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi##.box_dt
+auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi##[href^="/clk"]
+auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi,blogit.fi###pb_top
 autotalli.com###topBanner
 basso.fi##div[id^=BannerBlock]
 bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
@@ -219,7 +215,7 @@ f1-forum.fi##a[href*="netb11.com"]
 f1-forum.fi##img[src*=banneri]
 facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com#?#div[data-pagelet=RightRail] > div:-abp-has( div * h3 > span:-abp-contains(Sponsoroitu))
-facebook.com#?#div[data-pagelet^=FeedUnit_]:-abp-has(div[role=article] div[style^=border-radius] span[dir=auto] > span:-abp-contains(Sponsoroitu))
+facebook.com#?#div[data-pagelet^=FeedUnit_]:-abp-has(div[role=article] div[style^=border-radius] span[dir=auto] a[aria-label=Sponsoroitu])
 feissarimokat.com###billboard
 feissarimokat.com###logopal
 feissarimokat.com##.flexibox
@@ -278,8 +274,7 @@ helsinkitimes.fi##.banneritem
 herkkusuut.com,nainen.com,viikonloppu.com##.adcontainer
 high.fi###googlejs
 high.fi##div[class*=sub-container]
-hinta.fi###hv-wrapper-top
-hinta.fi###hv-wrapper-top-tiny
+hinta.fi##[id|=hv-wrapper-top]
 hinta.fi##a[href^="/ohjaus.php"]
 hinta.fi##div[class=hv-wrapper-left-item]
 hinta.fi##div[class=hv-wrapper-right-item]
@@ -299,8 +294,7 @@ hs.fi##div[class*=ad-container]
 hs.fi#?#.embedded:-abp-contains(Markkinapaikka)
 huoltovalikko.com##A[href="http://www.satshop.fi"]
 huonoaiti.fi#?#.col.article-card.item:-abp-contains(Kaupallinen yhteistyö, yhteistyössä)
-huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
-huuto.net##div.search-grid-ad-container.ad
+huuto.net#?#.grid-element-container:-abp-has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
@@ -377,7 +371,7 @@ kokemaenjokilaakso.fi#?#p:-abp-has([alt^=Mainos])
 konekuriiri.fi,koneporssi.com##.banners
 koneviesti.fi###traktorpool-ad
 koneviesti.fi#?#.layout__article-area__text-content > p:-abp-contains(/^\xA0$/)
-koneviesti.fi,maaseuduntulevaisuus.fi#?#.row * .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
+koneviesti.fi,maaseuduntulevaisuus.fi#?#.row .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
 kotikokki.net###partners-container-big
 kotikokki.net##[id=content][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
 kotiliesi.fi##.article-continues
@@ -476,8 +470,8 @@ moottoripyora.org##li[class="first cooperation nebula"]
 moottoripyora.org##li[id*=navbar_notice_]
 motot.net##div.centered.motot-well-inverse.well[style^=padding-]
 motouutiset.fi##a[href*=revads]
-motouutiset.fi##div[class*=ad-giant]
-motouutiset.fi##div[class*=ad-panorama]
+motouutiset.fi##.ad-panorama
+motouutiset.fi##div[class$=ad-giant]
 mtvuutiset.fi##.component-adincontent.component
 mtvuutiset.fi##.leaderboard
 murobbs.muropaketti.com###hintaopas_top_product_block
@@ -506,14 +500,6 @@ nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoill
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
 napsu.fi##.mobilead
-nyt.fi##div#javascript-disabled-error
-offroadpro.fi,mpmaailma.fi##div[class*=advertisement]
-offroadpro.fi,mpmaailma.fi##div[class*=bgBanner]
-offroadpro.fi,mpmaailma.fi##div[class*=blockads]
-offroadpro.fi,mpmaailma.fi##div[class*=pane-ad]
-offroadpro.fi,mpmaailma.fi##div[id=googlePlusOne]
-offroadpro.fi,mpmaailma.fi##div[id=logo-area]
-offroadpro.fi,mpmaailma.fi##div[id^=block-ad]
 olutposti.fi#?#.aside.widget:-abp-contains(Mainos)
 opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
@@ -536,10 +522,8 @@ pointti.fi##.jattiboksi
 pointti.fi##.paraati
 poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widget
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
-pt-media.org###main > .wpcnt > .wpa
-pt-media.org##.entry-content > .wpcnt
-pt-media.org##.theiaStickySidebar > .wpcnt
-pt-media.org##.wpcnt-header.wpcnt
+pt-media.org##[href^="https://kasinopartio.com/"]
+pt-media.org#?#section:-abp-has(> a[href="https://nocompromiseclothing.com/"])
 puheenaiheet.fi##div[class=wpb_wrapper]
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.partner-blog-list
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
@@ -725,6 +709,7 @@ www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
 www.uusisuomi.fi#?#.lazyload-wrapper:-abp-has(.at-embed-container)
 x2.fi##.mobile-top-ad
+xracing.fi##.adBanner
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
@@ -933,7 +918,6 @@ kotiliesi.fi##.placeholder
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
-@@||telsu.fi/dyn2?setref=nauris$subdocument,domain=nauris.fi
 @@||uk.cdn-net.com/cc.js$script,domain=power.fi
 anna.fi#@#.sponsored-content
 etuovi.com#@#.rss-feed
