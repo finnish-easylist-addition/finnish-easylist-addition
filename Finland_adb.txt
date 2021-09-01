@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 01September2021v1
+! Version: 01September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -915,7 +915,6 @@ kotiliesi.fi##.placeholder
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
 @@||uk.cdn-net.com/cc.js$script,domain=power.fi
 anna.fi#@#.sponsored-content
-etuovi.com#@#.rss-feed
 hs.fi#@#.mainokset
 hs.fi#@#.mainos
 iltalehti.fi#@#.afs_ads
