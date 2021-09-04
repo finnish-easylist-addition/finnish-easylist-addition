@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 4September2021v4
+! Version: 5September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -663,6 +663,7 @@ uusiteknologia.fi###text-97
 uusiteknologia.fi###text-98
 uutissuora.fi##div[class=td-all-devices]
 valioliiga.com##[href$="/vedonlyonti/"]
+vanha.kaleva.fi#?#.event-list-item:-abp-has(.list-item-advertisement)
 vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div[id=main-content] > div:first-of-type[style="overflow:visible"]
@@ -901,6 +902,7 @@ gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi##.placeholder
+vanha.kaleva.fi##.event-detail-ad-mobile
 !#endif
 
 ! -----UNSORTED END-----
