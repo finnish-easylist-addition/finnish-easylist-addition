@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 4September2021v3
+! Version: 4September2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -397,6 +397,7 @@ lapinkansa.fi#?#div[class="m-managedListing__column -ctx-index -level-1 -cols-2"
 lbaanijakuva.fi##.adremark
 leffatykki.com##div[class="ad230x90"]
 leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
+lily.fi##[class*=ad__component]
 ls24.fi##.article-block__list-article:-abp-has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
 ls24.fi##.asuntorauma-promo
 ls24.fi##.palvelupankki-banner
