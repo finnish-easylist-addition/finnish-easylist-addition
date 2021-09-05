@@ -13,6 +13,7 @@ mobiili.fi###headermob:style(position: static !important)
 mobiili.fi###show_merkki:style(margin-top: 2em !important)
 mobiili.fi##.header_ad, important
 mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
+outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 telsu.fi##div[style^="font-size:20px;padding:"][style$="px;margin:20px;background:#fff;line-height:25px;"]
 vanha.kaleva.fi##.col-sm-12.col-md-8.col-lg-9:style(width: 100% !important;)
