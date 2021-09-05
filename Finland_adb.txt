@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 5September2021v3
+! Version: 5September2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -870,7 +870,6 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
 
-!#if !ext_ublock
 !#if !adguard
 ||damoh.katsomo.fi/*$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
 ||freewheel-jitt.sanoma.fi^/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
