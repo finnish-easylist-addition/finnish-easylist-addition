@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 5September2021v6
+! Version: 5September2021v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -839,7 +839,7 @@ iltalehti.fi#?#div[class="card "]:-abp-has([class=alennuskoodi-column-embed])
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
 ||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4
-||freewheel-jitt.sanoma.fi/*.mp4
+||freewheel-jitt.sanoma.fi^/*.mp4
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
 
 ! General Media unbreakers
