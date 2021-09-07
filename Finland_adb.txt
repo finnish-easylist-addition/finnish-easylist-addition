@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 7September2021v2
+! Version: 7September2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -8,7 +8,6 @@
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
 !#include Finland_adb_uBO_extras.txt
-!
 
 ! -----GENERAL FILTERS-----
 
@@ -839,8 +838,8 @@ iltalehti.fi#?#div[class="card "]:-abp-has([class=alennuskoodi-column-embed])
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
 ||dwk14raokkwxv.cloudfront.net/sanomafi/media/*.mp4
-||freewheel-jitt.sanoma.fi^/*.mp4
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media
+||freewheel-jitt.sanoma.fi^$media
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media
 
 ! General Media unbreakers
 @@||fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
@@ -871,10 +870,10 @@ murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
 
 ! Redirect resources
-||damoh.katsomo.fi/$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
-||freewheel-jitt.sanoma.fi^/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi/$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
-||sanoma-prod.integration-x.com^/*.mp4$rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||damoh.katsomo.fi^$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
+||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 
 ! appears when blocking ads:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
