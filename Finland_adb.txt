@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 8September2021v1
+! Version: 8September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -182,7 +182,7 @@ brbikers.com##a[href*="tema.fi"]
 cdon.fi##[id^=afscontainer]
 chat.suomi24.fi##.bannerTop.S24_banner
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type=ad]
-como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.col-sm-6.col-xs-12:-abp-has(> a[href*="smartadserver.com"])
+como.fi,episodi.fi,fum.fi,inferno.fi,kaaoszine.fi,rumba.fi,soundi.fi,tilt.fi#?#div[class|=col][class*=post]:has(> a[href*="smartadserver"])
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.strossle > div.col-xs-12.col-sm-6:-abp-contains(Mainos)
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#div.border-bottom.row:-abp-contains(adUnit)
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
@@ -324,7 +324,6 @@ kaaoszine.fi##.emp-ad
 kaaoszine.fi##.g-32.g
 kaaoszine.fi##.improve-media
 kaaoszine.fi##.rotate
-kaaoszine.fi#?#.col-6.col-sm-3:-abp-has([href*="smartadserver"])
 kaaoszine.fi#?#article.post:-abp-contains(Kaupallinen yhteistyö)
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
