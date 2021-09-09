@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 8September2021v3
+! Version: 9September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -324,6 +324,8 @@ kaaoszine.fi##.g-32.g
 kaaoszine.fi##.improve-media
 kaaoszine.fi##.rotate
 kaaoszine.fi#?#article.post:-abp-contains(Kaupallinen yhteistyö)
+kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
+kaasujalka.fi#?#.widget-container:-abp-has([class^=ad_])
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kaleva.fi,lapinkansa.fi###outstream-container
@@ -754,6 +756,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
 ||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image
+||kaasujalka.fi/assets/banners/$image,domain=kaasujalka.fi
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
