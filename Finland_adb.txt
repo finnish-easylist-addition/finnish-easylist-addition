@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11September2021v2
+! Version: 11September2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -901,6 +901,7 @@ vanha.kaleva.fi##.event-detail-ad-mobile
 @@||conductrics.com^$script,domain=elisa.fi
 
 ! Sending a product review won't work, Lowe's list
+! Also EP: https://github.com/easylist/easylist/pull/9058
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
 
 ! Lowe's list and Easyprivacy prevents opening thread replys via email
