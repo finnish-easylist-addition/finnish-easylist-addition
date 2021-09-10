@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10September2021v2
+! Version: 11September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -765,7 +765,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||kelkkalehti.com/bannerit/$image
 ||keskustelu.pakkotoisto.com/bannerit/$image
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image
-||kuvake.net/js/ad-
+||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
 ||m.riemurasia.net/reklaami.php$subdocument
 ||matkaendurot.net/images/*banner
@@ -845,10 +845,6 @@ iltalehti.fi#?#div[class="card "]:-abp-has([class=alennuskoodi-column-embed])
 ||freewheel-jitt.sanoma.fi^$media
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media
 
-! General Media unbreakers
-@@||fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
-@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
-
 ! Prevent clicking video ads on MTV Oy
 mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-container
 ||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|msn.com
@@ -861,9 +857,6 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 @@||fwmrm.net/ad/$image,domain=viafree.fi
 @@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=viafree.fi
 ||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=viafree.fi
-
-! unbreak Telia password change (maybe other functions as well), endless loading
-@@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
 
 ! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
@@ -883,16 +876,6 @@ murha.info#@#.adsbox
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
 ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
-! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
-@@||adform.net^$~third-party
-@@||tradedoubler.com^$~third-party
-
-! Lowe's list and Easyprivacy prevents opening thread replys via email
-@@||click.redditmail.com^$~third-party
-
-! Exception to Lowe's list - it removes some boxes
-@@||conductrics.com^$script,domain=elisa.fi
-
 !#if env_mobile
 dawn.fi#?#.ui-body-inherit.ui-li-static:-abp-has(#dawn_mobile-content)
 gamereactor.fi###ad_sticky
@@ -909,6 +892,26 @@ vanha.kaleva.fi##.event-detail-ad-mobile
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
+! General Media unbreakers
+@@||fwmrm.net/ad/*Supla_Audio_HTML5_Live$script
+@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
+
+! Exception to Lowe's list - it removes some boxes
+@@||conductrics.com^$script,domain=elisa.fi
+
+! Sending a product review won't work, Lowe's list
+@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
+
+! Lowe's list and Easyprivacy prevents opening thread replys via email
+@@||click.redditmail.com^$~third-party
+
+! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
+@@||adform.net^$~third-party
+@@||tradedoubler.com^$~third-party
+
+! Unbreak Telia password change (maybe other functions as well), endless loading
+@@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
+
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||adservicemedia.dk/$image,domain=mobiili.fi
@@ -919,7 +922,6 @@ vanha.kaleva.fi##.event-detail-ad-mobile
 @@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
-@@||uk.cdn-net.com/cc.js$script,domain=power.fi
 anna.fi#@#.sponsored-content
 hs.fi#@#.mainokset
 hs.fi#@#.mainos
