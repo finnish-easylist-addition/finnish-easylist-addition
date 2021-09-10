@@ -562,7 +562,7 @@ seiska.fi##div.article-ad-container
 seiska.fi##div[class*=AdAndCarousel__Wrapper]
 seiska.fi##div[class^=Ad__AdWrapper]
 selanne-lehti.fi##.ad-list-read-all
-seura.fi#?#section[class="entry-body"] > p:-abp-contains(/^\xA0$/)
+seura.fi#?#section[class=entry-body] > p:-abp-contains(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
 seurakuntalainen.fi##.main-banner-container
 shakerlehti.fi#?#.article:-abp-has(> ul > li > a[href="/artikkelit/kaupallinen-yhteistyo/"])
