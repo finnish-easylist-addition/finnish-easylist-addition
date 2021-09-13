@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12September2021v2
+! Version: 13September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -432,8 +432,6 @@ marmai.fi##div#skyscraper-height-div > section > div > a[href^="/kumppaniblogit/
 marmai.fi#?#div#skyscraper-height-div > aside > a[href^="https://studio.marmai.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 marmai.fi#?#div#skyscraper-height-div > div > aside > a[href^="https://studio.marmai.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 marmai.fi#?#div#skyscraper-height-div > div > section > div > div > div:-abp-contains(Kaupallinen yhteistyö)
-matkaendurot.net##div[id=logodesc]>table>tbody>tr>td:first-of-type
-matkaendurot.net##span[id=banneripaikka]
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
@@ -474,8 +472,6 @@ moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
 moottori.fi##div[class*=torifi_banner]
 moottori.fi##div[class|=ad-rotation]
 moottoripyora.org##a[href*=mst-yhtiot]
-moottoripyora.org##li[class="first cooperation nebula"]
-moottoripyora.org##li[id*=navbar_notice_]
 motot.net##div.centered.motot-well-inverse.well[style^=padding-]
 motouutiset.fi##a[href*=revads]
 motouutiset.fi##.ad-panorama
@@ -489,9 +485,7 @@ murobbs.muropaketti.com##a[href*=emediate]
 murobbs.muropaketti.com##div[class=funboxWrapper]
 murobbs.muropaketti.com##div[class=om-container]
 muropaketti.com##.hintavertailu--widget.hintavertailu
-muropaketti.com##.widget_ads_carousel
 muropaketti.com##SECTION[id*=hintaopaspopular]
-muropaketti.com##SECTION[id*=yhteistyossa]
 muropaketti.com#?#article.grid__item_1-2:-abp-has(> div.nativead)
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:-abp-contains(Mainos)
 mvlehti.net##.content-center.header-nav-ad
