@@ -40,9 +40,6 @@ tamperelainen.fi##^.display-ad
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=puhekupla.com
 ||elisa.digital.nuance.com/tagserver/js/ads-blocking-detector.min.js$domain=elisa.fi
 
-! CNAME filters for Firefox
-||cds.*.hwcdn.net^$script,domain=apteekkari.fi
-
 ! -----NETWORK FILTERS END-----
 ! -----SCRIPTS-----
 
