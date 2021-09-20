@@ -32,7 +32,7 @@ www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[wi
 www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 
 ! HTML filters for Firefox
-ampparit.com##^script:has-text(initAlmaAds)
+ampparit.com##^script:has-text(AlmaAd)
 gamereactor.fi##^.ad_top
 kokemaenjokilaakso.fi##^[alt^=Mainos]
 mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
