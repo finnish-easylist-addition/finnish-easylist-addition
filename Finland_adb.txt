@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19September2021v4
+! Version: 20September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -962,3 +962,6 @@ kaksplus.fi#@#.sponsored-content
 ! Quickfix, buying tickets won't work properly with Easylist Cookie...
 vr.fi#@#body:style(overflow: auto !important;)
 vr.fi#@#div[data-testid="modal"]
+
+! https://github.com/easylist/easylist/pull/9179
+iltalehti.fi#@#.ad-placement
