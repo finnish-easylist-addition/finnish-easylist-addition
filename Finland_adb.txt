@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20September2021v1
+! Version: 20September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -929,7 +929,6 @@ vanha.kaleva.fi##.event-detail-ad-mobile
 anna.fi#@#.sponsored-content
 hs.fi#@#.mainokset
 hs.fi#@#.mainos
-iltalehti.fi#@#.afs_ads
 kaksplus.fi#@#.sponsored-content
 
 ! -----UNBREAK END-----
