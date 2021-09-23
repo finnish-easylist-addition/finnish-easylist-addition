@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23September2021v1
+! Version: 24September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -832,6 +832,15 @@ iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi/asuminen_vattenfal
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers"])
 iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi/mainosnauhta"])
 iltalehti.fi#?#div.is-visible.LazyLoad:-abp-contains(kaupallinen yhteistyö)
+
+! Temporal compatibility fixes until new selector engine is in use: https://github.com/AdguardTeam/ExtendedCss/issues/110
+!#if adguard
+iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kaupallinenyht])
+iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky-])
+iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=ky_])
+iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=kyi_])
+iltalehti.fi#?#div.fp-container.card:-abp-has([src*="ilcdn.fi"][src*=mainosnauha])
+!#endif
 
 iltalehti.fi#?#div:not(.sub-category-unikulma):not(.sub-category-rahapuhe):not(.sub-category-santander):not(.sub-category-miehen-terveys):not(.sub-category-kehon-hyvinvointi-ja-vitaepro):not(.sub-category-unijaterveys):not(.sub-category-huippukivaa-seksia):not(.sub-category-puhti):not(.sub-category-hyvinvointivinkit):not(.sub-category-hetki):not(.sub-category-kaalimato):not(.sub-category-oslo-skin-lab):not(.sub-category-kodin-siivousvinkit):not(.sub-category-qled-tv):not(.sub-category-jatevesiratkaisut):not(.sub-category-bluestep):not(.sub-category-sortter-reilua-lainavertailua):not(.sub-category-rahalaitos):not(.sub-category-aitien-keittiosta):not(.sub-category-koko-kansan-autokauppa):not(.sub-category-kuljetusten-kestava-kehitys):not(.sub-category-kestavat-liikkuvuusratkaisut):not(.sub-category-hintaopas):not(.sub-category-boltworks):not(.sub-category-samsung-tv):not(.sub-category-reseptit):not(.sub-category-terveystalo):not(.sub-category-etuafi-lainanottajan-asialla):not(.sub-category-vinkit-yrityslainaan) > div > div > main .article-container:-abp-contains(Kaupallinen yhteistyö)
 
