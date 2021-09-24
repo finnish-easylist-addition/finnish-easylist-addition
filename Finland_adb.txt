@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25September2021v1
+! Version: 25September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -151,11 +151,12 @@ ampparit.com##div.ad-nettixbanner
 ampparit.com##div[class*=ad-mob-]
 ampparit.com##div[class*=ticker]
 ampparit.com##div[class=nettiauto-newslist-banner]
-anna.fi,keskustelu.kaksplus.fi###native_text_wrapper
+ampparit.com,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,studio55.fi##.ad-container
 anna.fi##.kaupalliset
 anna.fi##div.grid__item_tn-1-2
 anna.fi#?#.grid__item_1:-abp-has(> [id^=dfp__native-card])
 anna.fi,kaksplus.fi##.widget_nativearticles
+anna.fi,keskustelu.kaksplus.fi###native_text_wrapper
 apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:-abp-contains(MAINOS (TEKSTI JATKUU ALLA))
 arcticinsider.com##a[href*=bannerTrack]
@@ -182,8 +183,8 @@ bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 cdon.fi##[id^=afscontainer]
 chat.suomi24.fi##.bannerTop.S24_banner
-como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type=ad]
 como.fi,episodi.fi,fum.fi,inferno.fi,kaaoszine.fi,rumba.fi,soundi.fi,tilt.fi#?#div[class|=col][class*=post]:-abp-contains(/mainos/i)
+como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type=ad]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#div.border-bottom.row:-abp-contains(adUnit)
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 250px;"]
@@ -336,13 +337,13 @@ kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
 kaasujalka.fi#?#.widget-container:-abp-has([class^=ad_])
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
-kaleva.fi,lapinkansa.fi###outstream-container
 kaleva.fi###puff-container
 kaleva.fi##.right-now-widget__item--commercial
 kaleva.fi##div[class=lyta-lazy-load]
 kaleva.fi#?#.m-contentListItemThumb:-abp-has(> div > div > div[class^=m-contentListItemThumb__advertisement])
 kaleva.fi#?#.m-managedListing__column:-abp-has(> div > div > div > div[class^=m-contentListItem__advertisement])
 kaleva.fi#?#.media-site__widget-container:-abp-has( * .media-widget__title:-abp-contains(Kaupallinen yhteistyö))
+kaleva.fi,lapinkansa.fi###outstream-container
 kansalainen.fi##div[id="text-html-widget-5"]
 kansalainen.fi##div[id^=ads]
 kansanuutiset.fi##.cb-sidebar-widget.widget_text
@@ -353,7 +354,8 @@ karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dt
 karjalainen.fi#?#a[href*=kiinnostuitko]:-abp-has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
 kauppalehti.fi#?#div:-abp-has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
-mikrobitti.fi#?#div:-abp-has(> div[width] > .ad:not(aside))
+kauppalehti.fi#?#div[class]:not(#article-content):-abp-has( > div[class][width] > .ad)
+kauppalehti.fi#?#div[class][width]:-abp-has(> .ad)
 keskipohjanmaa.fi#?#.col-xs-12.col-sm-6.col-md-12:-abp-contains(mainosartikkelit)
 keskustelu.afterdawn.com###div-ad-below-message
 keskustelu.afterdawn.com##.pageWidth > div[style="min-height:90px;text-align:center;margin:auto;"]
@@ -365,7 +367,6 @@ keskustelu.suomi24.fi##div[class*=FooterAdWrapper]
 keskustelu.suomi24.fi##div[class*=HeaderAdWrapper]
 keskustelu.suomi24.fi##div[class*=__AdWrapper]
 keskustelu.suomi24.fi##div[class^=RightSidePanel__AdContainer]
-ampparit.com,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,studio55.fi##.ad-container
 kestavyysurheilu.fi###precont
 kestavyysurheilu.fi##.middleads
 kestavyysurheilu.fi#?#.moduleBox:-abp-contains(Kaupalliset yhteistyöt)
@@ -430,19 +431,19 @@ maaseuduntulevaisuus.fi##.banners__suomen-parhaat
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 marmai.fi##div#skyscraper-height-div > aside > div > div > a[href^="/kumppaniblogit/"]
-marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 marmai.fi##div#skyscraper-height-div > section > div > a[href^="/kumppaniblogit/"]
 marmai.fi#?#div#skyscraper-height-div > aside > a[href^="https://studio.marmai.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 marmai.fi#?#div#skyscraper-height-div > div > aside > a[href^="https://studio.marmai.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 marmai.fi#?#div#skyscraper-height-div > div > section > div > div > div:-abp-contains(Kaupallinen yhteistyö)
+marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div:-abp-has(> a[href="/kumppanisisaltoa"])
 mediuutiset.fi#?#div:-abp-has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
-meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:-abp-contains(MAINOS)
+meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
 mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
@@ -452,6 +453,7 @@ mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
 mikrobitti.fi##div[id=rosmo]
+mikrobitti.fi#?#div[class]:-abp-has(> div[width] > .ad:not(aside))
 mikrobitti.fi#?#div[style="margin-bottom:0"]:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 mikrobitti.fi#?#section > div:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 mobiili.fi###header_ad33
@@ -476,8 +478,8 @@ moottori.fi##div[class*=torifi_banner]
 moottori.fi##div[class|=ad-rotation]
 moottoripyora.org##a[href*=mst-yhtiot]
 motot.net##div.centered.motot-well-inverse.well[style^=padding-]
-motouutiset.fi##a[href*=revads]
 motouutiset.fi##.ad-panorama
+motouutiset.fi##a[href*=revads]
 motouutiset.fi##div[class$=ad-giant]
 mtvuutiset.fi##.component-adincontent.component
 mtvuutiset.fi##.leaderboard
