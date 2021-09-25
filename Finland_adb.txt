@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2021v1
+! Version: 26September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -95,18 +95,19 @@ _mainosnappi.
 ##.yhteistyossa
 ##.ylamainokset
 ##.ylamainos
-##[href="https://www.nettikasinot.org"]
+##[href="https://pikakasinoja.com"]
 ##[href^="/artikkeli/kaupallinen-yhteistyo/"]
 ##[href^="https://media.suomikasino.com/"]
 ##[href^="https://tc.tradetracker.net/"]
+##[href^="https://www.nettikasinot.org"]
 ##a[href*="/clickthrgh.asp?"]
 ##a[href^="https://app.readpeak.com/ads"]
 ##div[class*=element--nativead]
 ##div[class*=newsFrontAd]
-##div[class=AgAdCarousel_Container]
-##div[class=AgAdCarousel_LightBox]
 ##div[class="ad container-right"]
 ##div[class="ad partners box"]
+##div[class=AgAdCarousel_Container]
+##div[class=AgAdCarousel_LightBox]
 ##div[class=ad-banner]
 ##div[class=ad-wrapper]
 ##div[class=block-ad]
@@ -502,13 +503,13 @@ muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:-abp-contains(Mainos)
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
 mvlehti.net##.wp-block-image:-abp-has(a[href*=kasino])
-mvlehti.net##[href="https://pikakasinoja.com"]
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net##[href^="https://www.kasinot.org/"]
 mvlehti.net#?#.entry-content > h3:-abp-contains(kasino)
 mvlehti.net#?#[class|=featured-post]:-abp-contains(/rahapeli|kasino/i):-abp-has(a[href*="/202"])
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has(> a[href^="https://vk.com/"])):not(:-abp-has(> a[href^="https://uvmedia.org/"]))
+mvlehti.net#?#p[style="text-align: center;"]:-abp-has(> a[href^="https://kasino"])
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
