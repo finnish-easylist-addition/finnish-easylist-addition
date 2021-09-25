@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25September2021v6
+! Version: 25September2021v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -344,6 +344,7 @@ kaleva.fi##div[class=lyta-lazy-load]
 kaleva.fi#?#.m-contentListItemThumb:-abp-has(> div > div > div[class^=m-contentListItemThumb__advertisement])
 kaleva.fi#?#.m-managedListing__column:-abp-has(> div > div > div > div[class^=m-contentListItem__advertisement])
 kaleva.fi#?#.media-site__widget-container:-abp-has( * .media-widget__title:-abp-contains(Kaupallinen yhteistyö))
+kaleva.fi#?#aside.sidebar__column-container:-abp-has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
 kansalainen.fi##div[id="text-html-widget-5"]
 kansalainen.fi##div[id^=ads]
@@ -443,6 +444,7 @@ mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div:-abp-has(> a[href="/kumppanisisaltoa"])
 mediuutiset.fi#?#div:-abp-has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
+mediuutiset.fi#?#div[width]:-abp-has([id|="almad"]:not([id|="almad-mobileParade"]))
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:-abp-contains(MAINOS)
 meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
 mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
