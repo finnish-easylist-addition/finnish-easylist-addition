@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2021v5
+! Version: 26September2021v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -195,9 +195,6 @@ deitti.net##.ad-article
 demokraatti.fi##div[class^=AdStyles__Wrapper]
 demokraatti.fi##div[class^=OrderMagazinestyles__Container]
 download.fi##.ni_holder
-download.fi##b[style="font-size:bigger;"] > a[class=download_link][href$=".exe"]
-download.fi#?#div:-abp-has(> h3[style="font-size:20px;"])
-download.fi#?#div[class=splash_title] + p + p:-abp-has(> a[href$=".exe"])
 duunitori.fi##.js-fragment-web-lazy_carousel
 edukas.fi##.compareGoogleCell
 elmotv.com##[class^=mstila]
