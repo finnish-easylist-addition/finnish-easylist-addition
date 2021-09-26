@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26September2021v3
+! Version: 26September2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -664,8 +664,6 @@ tori.fi##div[id=banner_panorama_topmost]
 tori.fi##div[id=panorama_top]
 tori.fi##div[id=panorama_topmost]
 traktorpool.fi##.billboard
-ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
-ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
 tulikulma.fi##.slideshow
 tvmatsit.com##.annons
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:-abp-contains(Mainostettu twiitti))
@@ -726,6 +724,9 @@ www.nettimoto.com###smallViewHouseBanner
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
+www.ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
+www.ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
+www.ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:-abp-has(.noad-hideaction-self):not(:-abp-has(.tsv3-c-ts-newstip)):not(:-abp-has(.tsv3-c-common-forum-threadlist))
 www.uusisuomi.fi#?#.lazyload-wrapper:-abp-has(.at-embed-container)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
