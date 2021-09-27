@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27September2021v1
+! Version: 27September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -514,6 +514,8 @@ nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa
 napsu.fi###banneriwrapper
 napsu.fi##.mobilead
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
+nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has([src$="adsbygoogle.js"])
+nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner'])
 olutposti.fi#?#.aside.widget:-abp-contains(Mainos)
 opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
