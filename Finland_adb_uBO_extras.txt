@@ -18,6 +18,8 @@ mobiili.fi###show_merkki:style(margin-top: 2em !important)
 mobiili.fi##.header_ad, important
 mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
 mvlehti.net##.featured-row-small:style(background-color: white !important)
+nyan.ax##.widget_adrotate_widgets:remove()
+nyan.ax##.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner']):remove()
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 telsu.fi##div[style^="font-size:20px;padding:"][style$="px;margin:20px;background:#fff;line-height:25px;"]
