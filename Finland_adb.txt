@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v2
+! Version: 28September2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -537,6 +537,7 @@ pelikone.fi##.preroll-text
 pelit.fi##.eaf_wrap
 pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
+pirkkalainen.com#?#.custom:-abp-has(img[src="/images/mainospaikat/3.jpg"])
 pkank.fi##.ad-assigned.panoraamabanneri
 pointti.fi##.after-ad
 pointti.fi##.before-ad
@@ -809,6 +810,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
 ||otavamedia.fi/ad/$script
+||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
 ||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xmlhttprequest,domain=pkank.fi
 ||rantapallo.fi^$third-party
 ||revimages.motouutiset.fi^$third-party
