@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v1
+! Version: 28September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -740,6 +740,9 @@ www.ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
 www.ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
 www.ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:-abp-has(.noad-hideaction-self):not(:-abp-has(.tsv3-c-ts-newstip)):not(:-abp-has(.tsv3-c-common-forum-threadlist))
 www.uusisuomi.fi#?#.lazyload-wrapper:-abp-has(.at-embed-container)
+www.uusisuomi.fi#?#aside > section:-abp-contains(Kaupallinen yhteistyö)
+www.uusisuomi.fi#?#div[width]:-abp-has(> [id|="almad-parade"])
+www.uusisuomi.fi#?#main > div[class]:-abp-contains(Kaupallinen yhteistyö)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
 ylilauta.org##.h.fcdn
