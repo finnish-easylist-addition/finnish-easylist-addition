@@ -70,5 +70,4 @@ pelaaja.fi##+js(aopr, ga)
 
 ! https://github.com/easylist/easylist/pull/9258
 ! https://github.com/abp-filters/abp-filters-anti-cv/pull/688
-! https://github.com/uBlockOrigin/uAssets/pull/10087
-kiuruvesilehti.fi,urjalansanomat.fi##+js(acs, cm_limit)
+kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
