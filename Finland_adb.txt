@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v6
+! Version: 28September2021v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -753,7 +753,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ! -----NETWORK FILTERS-----
 
 /[.]io-tech\.fi/.*/[0-9a-f]{32}\./$image,~third-party
-/neoproxy.dll$xmlhttprequest,image,domain=lapuansanomat.fi|pkank.fi
+/neoproxy.dll$xmlhttprequest,domain=lapuansanomat.fi|pkank.fi
 /prerolls/*.mp4,domain=gamereactor.fi
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
