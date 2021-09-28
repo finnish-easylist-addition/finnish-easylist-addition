@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v9
+! Version: 28September2021v10
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -238,6 +238,8 @@ fonecta.fi##div[class^=AdBlock_adContainer]
 fontanka.fi##.widget_custom_html
 foreca.fi##div[id|=inline-banner-mobi]
 foreigner.fi#?#article:-abp-contains(SPONSORED)
+forssanlehti.fi#?#.herald-sidebar > .widget_text:-abp-has(script)
+forssanlehti.fi#?#.herald_posts_widget:-abp-has(a[href^="https://www.forssanlehti.fi/kaupallinen-yhteistyo/"])
 funtampere.fi##.banner_container
 gamereactor.fi###adContainer
 gamereactor.fi###ad_topScroller
@@ -1020,3 +1022,6 @@ luhta.com#@##cookie-consent
 luhta.com#@#.cookie-consent:not(body):not(html)
 !#endif
 !#endif
+
+! https://github.com/easylist/easylist/pull/9253
+@@||reactandshare.com/plugin/rns.js$domain=forssanlehti.fi
