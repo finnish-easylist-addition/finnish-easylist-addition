@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v3
+! Version: 28September2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -753,6 +753,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ! -----NETWORK FILTERS-----
 
 /[.]io-tech\.fi/.*/[0-9a-f]{32}\./$image,~third-party
+/neoproxy.dll$xmlhttprequest,domain=lapuansanomat.fi,pkank.fi
 /prerolls/*.mp4,domain=gamereactor.fi
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
@@ -811,7 +812,6 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
 ||otavamedia.fi/ad/$script
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
-||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xmlhttprequest,domain=pkank.fi
 ||rantapallo.fi^$third-party
 ||revimages.motouutiset.fi^$third-party
 ||ridemedia.fi/aspbanner
