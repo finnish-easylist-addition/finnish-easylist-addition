@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v12
+! Version: 28September2021v13
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -683,6 +683,10 @@ tvmatsit.com##.annons
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:-abp-contains(Mainostettu twiitti))
 ulvilanseutu.fi###right-sidebar
 ulvilanseutu.fi##.adsanity-single
+urjalansanomat.fi##.cat-kaupallinen-yhteistyo
+urjalansanomat.fi#?#.urjal-widget.main:-abp-has(a[href="https://urjalansanomat.fi/verkkomainonta/"])
+urjalansanomat.fi#?#.urjal-widget.main:-abp-has(a[href="https://ysiauto.fi/"])
+urjalansanomat.fi#?#.widget:-abp-has(> a[href="/lounaat"])
 uudenkaupunginsanomat.fi###auto-grid-container-5c40764673d19
 uusisuomi.fi#?#.lazyload-wrapper + section:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:-abp-contains(Kaupallinen yhteistyö)
