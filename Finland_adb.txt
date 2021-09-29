@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29September2021v3
+! Version: 29September2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -759,6 +759,11 @@ www.uusisuomi.fi#?#div[width]:-abp-has(> [id|="almad-parade"])
 www.uusisuomi.fi#?#main > div[class]:-abp-contains(Kaupallinen yhteistyö)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
+ylasatakunta.fi##.ad[class*=panorama]
+ylasatakunta.fi##.ad[class*=paraati]
+ylasatakunta.fi##.ad[class*=ylaboksi]
+ylasatakunta.fi##a[href^="/artikkeli-kaupallinen-"]
+ylasatakunta.fi#?#.ad:not(:-abp-has(img[src*="doc_id=555723"])):not(:-abp-has(img[src*="doc_id=553464"]))
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
