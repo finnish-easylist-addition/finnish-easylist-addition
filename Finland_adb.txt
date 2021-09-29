@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28September2021v13
+! Version: 29September2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -806,6 +806,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||kelkkalehti.com/bannerit/$image
 ||keskustelu.pakkotoisto.com/bannerit/$image
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image
+||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image
 ||kotikarjala.fi/eneo?tem=ndap_ilmoitus&$xmlhttprequest,domain=kotikarjala.fi
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
