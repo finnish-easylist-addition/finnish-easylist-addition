@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30September2021v4
+! Version: 30September2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -410,6 +410,7 @@ kuvake.net,kuvaton.com##.addme
 kuvaton.com,viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com,viikonloppu.com##[href^="https://www.lainaovi.fi/"]
 kymensanomat.fi,ess.fi##.page-notes > .note--highlight
+laitilansanomat.fi#?#.wpb_wrapper.wpb_text_column.td_block_wrap:-abp-has([auto-grid-data*=mainos])
 lapinkansa.fi###content1-container
 lapinkansa.fi#?#div[class="m-contentListItemThumb -ctx-frontpage-now -level-1"]:-abp-has(> div > div > [class^=m-contentListItemThumb__advertisement])
 lapinkansa.fi#?#div[class="m-managedListing__column -ctx-index -level-1 -cols-2"]:-abp-has(> div > div > div > div[class^=m-contentListItem__advertisement])
@@ -823,6 +824,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image
 ||kotikarjala.fi/eneo?tem=ndap_ilmoitus&$xmlhttprequest,domain=kotikarjala.fi
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
+||laitilansanomat.fi^*/gallery/mainos*/$image,domain=laitilansanomat.fi
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
 ||m.riemurasia.net/reklaami.php$subdocument
 ||matkaendurot.net/images/*banner
