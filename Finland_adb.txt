@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30September2021v1
+! Version: 30September2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -653,7 +653,6 @@ tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href
 tekniikkatalous.fi##section > div > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"]
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
-tekniikkatalous.fi#?#div:-abp-has(> a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"])
 tekniikkatalous.fi#?#div:-abp-has(> span:-abp-contains(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 telsu.fi###pb_bottom2
@@ -676,8 +675,6 @@ tivi.fi#?#aside:-abp-has(> div > span:-abp-contains(KAUPALLINEN YHTEISTYÖ))
 tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
-tivi.fi#?#div:-abp-has(> a[href^="https://tivi.fi/kumppanisisallot/"])
-tivi.fi#?#div:-abp-has(> a[href^="https://www.tivi.fi/kumppanisisallot/"])
 tokentube.net##.no-top-padding.row
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
