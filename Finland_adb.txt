@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30September2021v5
+! Version: 30September2021v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -182,6 +182,9 @@ bbs.io-tech.fi#?#li.block-row:-abp-contains(Mainos)
 bittiraha.fi###cm-banner
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
+caravan-lehti.fi##.ad-wrapper
+caravan-lehti.fi##.widget_caravanlehti-ad
+caravan-lehti.fi##main section.block-notices
 cdon.fi##[id^=afscontainer]
 chat.suomi24.fi##.bannerTop.S24_banner
 como.fi,episodi.fi,fum.fi,inferno.fi,kaaoszine.fi,rumba.fi,soundi.fi,tilt.fi#?#div[class|=col][class*=post]:-abp-contains(/mainos/i)
@@ -792,6 +795,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||bittiraha.fi/app/uploads/*/bittimaatti*_banner$image
 ||blogit.fi/ext/$image,domain=blogit.fi
 ||c1.hinta.fi^$third-party,script
+||caravan-lehti.fi/media/Carado-matkailuauto.$image,domain=caravan-lehti.fi
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||celtra.com^$third-party
 ||cjar.a-lehdet.fi^$third-party
