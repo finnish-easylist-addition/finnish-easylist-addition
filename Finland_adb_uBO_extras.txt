@@ -68,6 +68,5 @@ uusisuomi.fi,xxl.fi,kaleva.fi##+js(acs, NREUM)
 pelaaja.fi##+js(aopr, ga)
 ||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
 
-! https://github.com/easylist/easylist/pull/9258
 ! https://github.com/abp-filters/abp-filters-anti-cv/pull/688
 kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
