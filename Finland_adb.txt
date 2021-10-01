@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 01October2021v1
+! Version: 01October2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -277,6 +277,7 @@ hattulaan.fi,reska.fi##.content.single-banner
 hattulaan.fi,reska.fi##.top.panorama.banner
 hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
 hattulaan.fi,reska.fi#?#[class|=ml-adverts]:not(:-abp-has(a[href="https://reska.fi/lounasreska/"]))
+hbl.fi##.section-advertorialer.type-advertorial
 hbl.fi##ksf-adblockers
 heili.fi###sp-alabanneri
 heili.fi##.autoboksi.moduletable
