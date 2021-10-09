@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 08October2021v1
+! Version: 09October2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -993,6 +993,9 @@ vanha.kaleva.fi##.event-detail-ad-mobile
 ! Lowe's list and Easyprivacy prevents opening thread replys via email
 @@||click.redditmail.com^$~third-party
 
+! Lowe's list exception, cookie dialog won't open
+@@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
+
 ! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
 @@||adform.net^$~third-party
 @@||tradedoubler.com^$~third-party
@@ -1026,9 +1029,6 @@ kaksplus.fi#@#.sponsored-content
 ! https://github.com/easylist/easylist/pull/6887
 ##[data-template-type=nativead]
 
-! https://github.com/easylist/easylist/pull/7022
-@@||cdn.almamedia.fi/almacmp/*.js$script,domain=kauppalehti.fi|tekniikkatalous.fi
-
 ! https://github.com/easylist/easylist/pull/8295
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=lily.fi|meillakotona.fi|terve.fi
 
@@ -1057,3 +1057,6 @@ luhta.com#@#.cookie-consent:not(body):not(html)
 @@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=mtvuutiset.fi
 mtvuutiset.fi#@##onetrust-banner-sdk
 mtvuutiset.fi#@##onetrust-consent-sdk
+
+! https://github.com/easylist/easylist/pull/9343
+@@||almamedia.fi/almacmp/$script
