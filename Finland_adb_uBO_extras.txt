@@ -70,3 +70,6 @@ pelaaja.fi##+js(aopr, ga)
 
 ! https://github.com/abp-filters/abp-filters-anti-cv/pull/688
 kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
+
+! https://github.com/easylist/easylist/pull/9339
+mtvuutiset.fi##.container:has(.consent-blocking-embed-message) ~ #onetrust-consent-sdk:style(display: block !important)
