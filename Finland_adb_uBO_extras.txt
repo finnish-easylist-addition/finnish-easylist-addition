@@ -37,7 +37,7 @@ www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^
 ! HTML filters for Firefox
 ampparit.com##^script:has-text(initAlmaAds)
 gamereactor.fi##^.ad_top
-kansanuutiset.fi#?#^.cb-module-block.cb-box.cb-a-large.clearfix:-abp-has([id|=div-gpt-ad])
+kansanuutiset.fi##^.cb-module-block.cb-box.cb-a-large.clearfix:has([id|=div-gpt-ad])
 kokemaenjokilaakso.fi##^[alt^=Mainos]
 mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
 tamperelainen.fi##^.display-ad
