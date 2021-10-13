@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10October2021v2
+! Version: 14October2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -526,6 +526,7 @@ mvlehti.net##.wp-block-image:-abp-has(a[href*=kasino])
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net##[href^="https://www.kasinot.org/"]
+mvlehti.net##a[href="https://www.kippis.net/"]
 mvlehti.net#?#.entry-content > h3:-abp-contains(kasino)
 mvlehti.net#?#[class|=featured-post]:-abp-contains(/rahapeli|kasino/i):-abp-has(a[href*="/202"])
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has(> a[href^="https://vk.com/"])):not(:-abp-has(> a[href^="https://uvmedia.org/"]))
