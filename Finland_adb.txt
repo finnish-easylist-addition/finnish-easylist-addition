@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15October2021v1
+! Version: 15October2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -767,6 +767,8 @@ www.nettimokki.com##div.nc_r_banner
 www.nettimoto.com###smallViewHouseBanner
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
+www.suomi24.fi#?#div[class^="HomePage__RightColItem"]:-abp-has(> div[class^="AdLivewrapped__AdWrapper"])
+www.suomi24.fi#?#div[class^="HomePage__RightColItem"]:-abp-has(> div[class^="Lainavertailu__Container"])
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
 www.ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
 www.ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
