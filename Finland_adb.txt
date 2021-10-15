@@ -1040,7 +1040,7 @@ kaksplus.fi#@#.sponsored-content
 ! https://github.com/easylist/easylist/pull/8449
 ##[id|=bunyad-widget-ads]
 
-! https://github.com/easylist/easylist/pull/8695
+! https://github.com/easylist/easylist/pull/9403
 @@||high.auriro.net/http/600x400/$image,domain=dawn.fi
 
 ! https://github.com/easylist/easylist/pull/9179
