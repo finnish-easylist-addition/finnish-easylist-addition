@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15October2021v4
+! Version: 16October2021v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1061,9 +1061,3 @@ mtvuutiset.fi#@##onetrust-consent-sdk
 
 ! https://github.com/easylist/easylist/pull/9343
 @@||almamedia.fi/almacmp/$script
-
-! https://github.com/easylist/easylist/pull/9396
-##.advertorial-teaser
-
-! https://github.com/easylist/easylist/pull/9401
-##div[class^=AdSlot__container]
