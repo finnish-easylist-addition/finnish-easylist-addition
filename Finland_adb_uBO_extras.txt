@@ -56,6 +56,7 @@ afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.remo
 gamereactor.fi##+js(aopr, adblockEnabled)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
+kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
 mikrobitti.fi##+js(nostif, bait)
 proxyproxy.fi,pirateproxy.fi##+js(nowoif)
 savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
@@ -67,9 +68,3 @@ uusisuomi.fi,xxl.fi,kaleva.fi##+js(acs, NREUM)
 ! https://github.com/easylist/easylist/pull/8317
 pelaaja.fi##+js(aopr, ga)
 ||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
-
-! https://github.com/abp-filters/abp-filters-anti-cv/pull/688
-kiuruvesilehti.fi,urjalansanomat.fi##+js(aeld, scroll, innerHeight)
-
-! https://github.com/easylist/easylist/pull/9339
-mtvuutiset.fi##.container:has(.consent-blocking-embed-message) ~ #onetrust-consent-sdk:style(display: block !important)
