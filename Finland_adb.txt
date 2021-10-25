@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25October2021v1
+! Version: 25October2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1045,3 +1045,6 @@ iltalehti.fi#@#.ad-placement
 gamemonkey.fi#@#.cookie-consent:not(body):not(html)
 gamemonkey.fi#@#.cookie-consent-header
 gamemonkey.fi#@#.cookie-consent-content
+
+! https://github.com/easylist/easylist/pull/9489
+@@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
