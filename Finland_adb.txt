@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30October2021v2
+! Version: 30October2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -364,6 +364,7 @@ kansanuutiset.fi##A[href="http://www.autonvaraosastore.fi/"]
 kansanuutiset.fi##div[class*=intextad]
 kansanuutiset.fi#?#.cb-module-block.cb-box.cb-a-large.clearfix:-abp-has([id|=div-gpt-ad])
 karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
+karjalainen.fi#?#.breaking-news-container:-abp-contains(mainos:)
 karjalainen.fi#?#a[href*=kiinnostuitko]:-abp-has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
 kauppalehti.fi#?##coral-talk + div[class]:-abp-has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
@@ -718,7 +719,6 @@ uusiteknologia.fi###text-97
 uusiteknologia.fi###text-98
 uutissuora.fi##div[class=td-all-devices]
 valioliiga.com##[href$="/vedonlyonti/"]
-vanha.kaleva.fi#?#.event-list-item:-abp-has(.list-item-advertisement)
 vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div[id=main-content] > div:first-of-type[style="overflow:visible"]
@@ -980,7 +980,6 @@ gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi##.placeholder
-vanha.kaleva.fi##.event-detail-ad-mobile
 !#endif
 
 ! -----UNSORTED END-----
