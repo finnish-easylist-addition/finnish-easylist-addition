@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30October2021v3
+! Version: 30October2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -284,6 +284,7 @@ heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,y
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*=lyads]
 helsinkitimes.fi##.banneritem
 herkkusuut.com,nainen.com,viikonloppu.com##.adcontainer
+hidastaelamaa.fi###banner-top
 high.fi###googlejs
 high.fi##div[class*=sub-container]
 hinta.fi##[id|=hv-wrapper-top]
