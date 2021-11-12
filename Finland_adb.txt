@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12November2021v2
+! Version: 12November2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -308,6 +308,7 @@ hs.fi##div[class*=ad-container]
 hs.fi#?#.embedded:-abp-contains(Markkinapaikka)
 huoltovalikko.com##A[href="http://www.satshop.fi"]
 huonoaiti.fi#?#.col.article-card.item:-abp-contains(Kaupallinen yhteistyö, yhteistyössä)
+huuto.net###hise-items-container
 huuto.net#?#.grid-element-container:-abp-has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
