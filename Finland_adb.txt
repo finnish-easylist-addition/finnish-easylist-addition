@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12November2021v4
+! Version: 12November2021v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -202,6 +202,7 @@ download.fi##.ni_holder
 duunitori.fi##.js-fragment-web-lazy_carousel
 edukas.fi##.compareGoogleCell
 elmotv.com##[class^=mstila]
+elmotv.com##[href^="https://promo.leovegas.com/"]
 elmotv.com##a[href^="https://ads.expekt.se/"]
 elmotv.com##a[href^="https://www.expekt.com/"]
 elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
