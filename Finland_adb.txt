@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16November2021v1
+! Version: 16November2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -374,7 +374,6 @@ karjalainen.fi#?#a[href*=kiinnostuitko]:-abp-has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
 kauppalehti.fi#?##coral-talk + div[class]:-abp-has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#[class][data-test] ~ div[class]:-abp-has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
-kauppalehti.fi#?#div[class]:not(#article-content):-abp-has(> div[class][width] > .ad)
 kauppalehti.fi#?#div[class][width]:-abp-has(> .ad)
 kauppalehti.fi,talouselama.fi#?#div[class]:-abp-has(> .lazyload-wrapper > .etua-react-embed)
 keskipohjanmaa.fi#?#.col-xs-12.col-sm-6.col-md-12:-abp-contains(mainosartikkelit)
