@@ -1,6 +1,7 @@
 ! -----SPECIFIC FILTERS-----
 
 afterdawn.com,download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
+ap-cdn.sanomagames.com##.banner-slot-preroll
 etn.fi##tbody > tr > td[style="width:468px"][valign=top]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
@@ -54,6 +55,7 @@ tamperelainen.fi##^.display-ad
 
 aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(nostif, adblockDetected, 0)
 afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
+ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
 gamereactor.fi##+js(aopr, adblockEnabled)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
