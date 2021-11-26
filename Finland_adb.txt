@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26November2021v3
+! Version: 26November2021v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -102,6 +102,7 @@ _mainosnappi.
 ##a[href*="/clickthrgh.asp?"]
 ##a[href="https://kasinoseta.com/"]
 ##a[href^="https://app.readpeak.com/ads"]
+##a[href^="https://www.kumiukko.fi/ostos?tt="]
 ##div[class*=element--nativead]
 ##div[class*=newsFrontAd]
 ##div[class="ad container-right"]
@@ -692,18 +693,21 @@ tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-cont
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
+tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
+tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
+tekniikkatalous.fi##div[class][width="980"]
 telsu.fi###pb_bottom2
 telsu.fi###pb_bottom3
 telsu.fi##.cmore.ch
 tennis.fi##.ad-blocks
-tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
-tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
-tekniikkatalous.fi##div[class][width="980"]
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
 terve.fi##div[class|=ProductRecommendationCarousel__CarouselContainer]
 terve.fi#?#div[class^=PageElementFeedItem__Container]:-abp-contains(Mainos)
 terve.fi#?#div[class^=transitionSlot__component][class*=layout__container]:-abp-contains(KAUPALLINEN YHTEISTYÖ)
+terveydenasialla.com##a[href^="https://on.vallila.fi/"]
+terveydenasialla.com##p a[href^="https://related.iittala.com/"]
+terveydenasialla.com#?#p:-abp-has(strong):-abp-has(a[href="http://www.curaofsweden.com/fi"])
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:-abp-has(> [id|=ad-slot])
 tiede.fi#?#.views-row:-abp-has(.is-commercial)
