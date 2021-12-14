@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14December2021v1
+! Version: 14December2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -549,7 +549,7 @@ mvlehti.net##a[href*="tarjousproffa.com"]
 mvlehti.net##a[href="https://kasinot.org"]
 mvlehti.net##a[href="https://loistehammasharja.com/"]
 mvlehti.net##a[href="https://www.kippis.net/"]
-mvlehti.net#?#.aligncenter:has(a[href*="tarjousproffa.com"])
+mvlehti.net#?#.aligncenter:-abp-has(a[href*="tarjousproffa.com"])
 mvlehti.net#?#.entry-content > h3:-abp-contains(kasino)
 mvlehti.net#?#.sidebar-element > p[style="text-align: center;"]:-abp-has(a[href="https://mvlehti.net/umv-kasinot/"])
 mvlehti.net#?#[class|=featured-post]:-abp-contains(/rahapeli|kasino/i):-abp-has(a[href*="/202"])
@@ -831,7 +831,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
 /[.]io-tech\.fi/.*/[0-9a-f]{32}\./$image,~third-party
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
-/prerolls/*.mp4,domain=gamereactor.fi
+/prerolls/*.mp4$domain=gamereactor.fi
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
