@@ -120,6 +120,7 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
+2pos.life##.ad2
 aamulehti.fi#?#.lg\:hidden:-abp-contains(Lue myös:):-abp-has(a[href^="/mainos/"])
 aamulehti.fi#?#article:-abp-has(> header > h2 > span:-abp-contains(Mainokset))
 aamulehti.fi#?#article[class]:-abp-has(> a[href^="https://tilaa.sanoma.fi/al-digi"][href$=etusivu_flash])
