@@ -1053,6 +1053,9 @@ kotiliesi.fi##.placeholder
 ! Unbreak Telia password change (maybe other functions as well), endless loading
 @@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
 
+! Unbreak Ylilauta's some pictures, which have a hash starting with "ad"
+@@||t.ylilauta.org/ad/*
+
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||adservicemedia.dk/$image,domain=mobiili.fi
