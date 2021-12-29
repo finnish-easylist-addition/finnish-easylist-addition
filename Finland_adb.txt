@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29December2021v1
+! Version: 29December2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -786,6 +786,7 @@ voice.fi##.article-sponsored
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
 voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 voice.fi#?#div.item:-abp-has(.sponsored)
+voima.fi##.voima-banneri-etusivulla
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
