@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 04January2022v2
+! Version: 04January2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -148,6 +148,7 @@ alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipp
 alibi.fi,hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 alueviesti.fi##.soliloquy-link
 alypaa.com##[class^=banner-slot-preroll]
+alypaa.com#?#.section-inner:-abp-has(> .banner-slot)
 ampparit.com##.ad-nettiauto
 ampparit.com##.time-label_nettixbanner
 ampparit.com##div.ad-nettixbanner
