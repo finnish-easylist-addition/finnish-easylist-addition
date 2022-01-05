@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 04January2022v3
+! Version: 05January2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -155,6 +155,7 @@ ampparit.com##div.ad-nettixbanner
 ampparit.com##div[class*=ad-mob-]
 ampparit.com##div[class*=ticker]
 ampparit.com##div[class=nettiauto-newslist-banner]
+ampparit.com#?#.sidebox:-abp-has(> .nettixbanner-sidebox-container)
 ampparit.com,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,studio55.fi##.ad-container
 anna.fi##.kaupalliset
 anna.fi##div.grid__item_tn-1-2
