@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05January2022v1
+! Version: 06January2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -150,6 +150,7 @@ alueviesti.fi##.soliloquy-link
 alypaa.com##[class^=banner-slot-preroll]
 alypaa.com#?#.section-inner:-abp-has(> .banner-slot)
 ampparit.com##.ad-nettiauto
+ampparit.com##.mobile-leaderboard-container
 ampparit.com##.time-label_nettixbanner
 ampparit.com##div.ad-nettixbanner
 ampparit.com##div[class*=ad-mob-]
