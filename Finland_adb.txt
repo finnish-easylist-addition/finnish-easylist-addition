@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06January2022v1
+! Version: 07January2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -553,6 +553,7 @@ mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net##[href^="https://www.kasinot.org/"]
 mvlehti.net##a[href*="tarjousproffa.com"]
 mvlehti.net##a[href="https://kasinot.org"]
+mvlehti.net##a[href="https://lainaa.com/"]
 mvlehti.net##a[href="https://loistehammasharja.com/"]
 mvlehti.net##a[href="https://www.kippis.net/"]
 mvlehti.net#?#.aligncenter:-abp-has(a[href*="tarjousproffa.com"])
