@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23January2022v1
+! Version: 23January2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -453,7 +453,7 @@ lauttakyla.fi##.mainbanner
 lauttakyla.fi#?#.fullwidth-banner:-abp-has(> a[href="https://www.lauttakyla.fi/tilaa/"])
 lbaanijakuva.fi##.adremark
 leffatykki.com##div[class="ad230x90"]
-leijonat.com,suomikiekko.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
+leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 ls24.fi##.asuntorauma-promo
 ls24.fi##.palvelupankki-banner
@@ -678,6 +678,8 @@ suomi24.fi##div[class^=HomePage__HeaderAd]
 suomi24.fi#?#div[class^=ThreadGridItemWrapper__CardCol]:-abp-has([class^=AdLivewrapped__AdWrapper])
 suomif1.com,suomifutis.com,suomikiekko.com,valioliiga.com##[data-bottom-floater]
 suomifutis.com##[href$="/nettikasinot/"]
+suomifutis.com#?#.menu-item:-abp-has([href*="/veikkausvihjeet"])
+suomikiekko.com#?#.menu-item:-abp-has([href$="/pitkavetovihjeet/"])
 suomimobiili.fi##.artikkelimainos
 suomimobiili.fi##.sbmainos
 suomimobiili.fi#?#.article-content > p:-abp-contains(MAINOS)
@@ -703,15 +705,15 @@ teknavi.fi##.ad
 teknavi.fi##[class|=adform]
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##div.Article_nettix-embed-container
-tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
-tekniikkatalous.fi##section > div > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"]
-tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
-tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
-tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
-tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
 tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
+tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
 tekniikkatalous.fi##div[class][width="980"]
+tekniikkatalous.fi##section > div > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"]
+tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
+tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
+tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
+tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 telsu.fi###pb_bottom2
 telsu.fi###pb_bottom3
 telsu.fi##.cmore.ch
@@ -761,7 +763,7 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Ka
 uusiteknologia.fi##.widget_block
 uutissuora.fi##div[class=td-all-devices]
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
-valioliiga.com##[href$="/vedonlyonti/"]
+valioliiga.com#?#.menu-item:-abp-has([href$="/vedonlyonti/"])
 vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div[id=main-content] > div:first-of-type[style="overflow:visible"]
