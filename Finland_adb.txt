@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23January2022v2
+! Version: 26January2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -387,6 +387,7 @@ kansanuutiset.fi##div[class*=intextad]
 kansanuutiset.fi#?#.cb-module-block.cb-box.cb-a-large.clearfix:-abp-has([id|=div-gpt-ad])
 karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
 karjalainen.fi#?#.breaking-news-container:-abp-contains(mainos:)
+karjalainen.fi#?#.card-container:-abp-contains(Mainos alkaa)
 karjalainen.fi#?#a[href*=kiinnostuitko]:-abp-has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
 kauppalehti.fi##a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
