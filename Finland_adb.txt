@@ -867,6 +867,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
+||es.ylilauta.org/view?placement_id=
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
 ||fcdn.lauta.media^$subdocument,script
