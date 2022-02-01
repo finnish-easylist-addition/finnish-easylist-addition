@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 01February2022v1
+! Version: 01February2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -160,6 +160,7 @@ ampparit.com,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,l
 anna.fi##.kaupalliset
 anna.fi##div.grid__item_tn-1-2
 anna.fi#?#.grid__item_1:-abp-has(> [id^=dfp__native-card])
+anna.fi#?#article[class^="grid__item_"]:-abp-has(> .nativead)
 anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi,keskustelu.kaksplus.fi###native_text_wrapper
 apteekkari.fi##.native-comms
