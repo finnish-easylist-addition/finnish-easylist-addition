@@ -1071,6 +1071,9 @@ kotiliesi.fi##.placeholder
 ! Unbreak Ylilauta's some pictures, which have a hash starting with "ad"
 @@||t.ylilauta.org/ad/*
 
+! Unbreak netstat.ayy.fi
+@@||netstat.ayy.fi^
+
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||adservicemedia.dk/$image,domain=mobiili.fi
