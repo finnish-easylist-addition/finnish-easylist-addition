@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10February2022v1
+! Version: 12February2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -455,9 +455,11 @@ lauttakyla.fi##.mainbanner
 lauttakyla.fi#?#.fullwidth-banner:-abp-has(> a[href="https://www.lauttakyla.fi/tilaa/"])
 lbaanijakuva.fi##.adremark
 leffatykki.com##.ads
+leffatykki.com###ad-300x150
 leffatykki.com##div[class="ad230x90"]
 leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
+listafriikki.com#?#.widget_custom_html:-abp-has([data-ad-unit])
 ls24.fi##.asuntorauma-promo
 ls24.fi##.palvelupankki-banner
 ls24.fi##aside[class=sidebar] > [class^="advertisement ad advertisement"] + [class^="advertisement ad advertisement"] + section[class^=article-list]:last-of-type
