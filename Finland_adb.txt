@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 15February2022v1
+! Version: 16February2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -473,7 +473,7 @@ luukku.com###banneri_yla
 luukku.com##.banner.content
 m.facebook.com#?#article:-abp-has(> * header > * span:-abp-contains(Sponsoroitu))
 m.jaatama.fi##.c-box-space:not(.c-box)
-m.jaatama.fi##li:-abp-has(div[id|=div-gpt-ad])
+m.jaatama.fi#?#li:-abp-has(div[id|=div-gpt-ad])
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com###banner_area
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com##.lazyLoadInhouseBanner
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com##.topBannerMinHeight
@@ -552,7 +552,7 @@ muropaketti.com#?#article.grid__item_1-2:-abp-has(> div.nativead)
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:-abp-contains(Mainos)
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
-mvlehti.net##.wp-block-image:-abp-has(a[href*=kasino])
+mvlehti.net#?#.wp-block-image:-abp-has(a[href*=kasino])
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net##[href^="https://www.kasinot.org/"]
