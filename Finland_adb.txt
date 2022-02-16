@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16February2022v1
+! Version: 16February2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -996,7 +996,7 @@ iltalehti.fi#?#div[class="card "]:-abp-has(.block > a[class=nakoislehti][href^="
 iltalehti.fi#?#div[class="card "]:-abp-has([class=alennuskoodi-column-embed])
 
 ! Temporal compatibility fixes for Vivaldi / Brave: https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/378
-arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class^="p2m385-"]
+arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
 
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
