@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 20February2022v1
+! Version: 21February2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -530,6 +530,7 @@ mobiili.fi#?#p:-abp-has(small:-abp-contains(Mainos:))
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.container.g-bg.ads.sidebar.item
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
+moottori.fi##.narive-ad
 moottori.fi##div[class*=torifi_banner]
 moottori.fi##div[class|=ad-rotation]
 moottoripyora.org##a[href*=mst-yhtiot]
