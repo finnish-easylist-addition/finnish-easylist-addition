@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 01March2022v1
+! Version: 03March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -177,6 +177,7 @@ arvopaperi.fi##.ads-parade-wrapper
 arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:-abp-has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
+assembly.org#?#div[class] > section:not(section[id]):not(section[class]) > div:-abp-contains(Mainos)
 asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi##.head.the-wrap
 auto1.fi##.pb[lazied]
@@ -265,6 +266,8 @@ foreca.fi##div[id|=inline-banner-mobi]
 foreigner.fi#?#article:-abp-contains(SPONSORED)
 forssanlehti.fi#?#.herald-sidebar > .widget_text:-abp-has(script)
 forssanlehti.fi#?#.herald_posts_widget:-abp-has(a[href^="https://www.forssanlehti.fi/kaupallinen-yhteistyo/"])
+fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:-abp-contains(Mainos)
+fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 funtampere.fi##.banner_container
 futisfani.com,kiekkofani.com,penkkiurheilu.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com##.mvp-side-widget.widget_text
@@ -506,7 +509,6 @@ mediuutiset.fi#?#div[class]:-abp-has(> a[href^="https://www.mediuutiset.fi/kumpp
 mediuutiset.fi#?#div[width]:-abp-has([id|="almad"]:not([id|="almad-mobileParade"]))
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:-abp-contains(MAINOS)
 meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
-mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
@@ -941,6 +943,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
+||ylilauta.org/*/11-12^$subdocument
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
