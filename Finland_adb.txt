@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 04March2022v1
+! Version: 05March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -513,6 +513,7 @@ meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
+metropoli.net##.pnad-container
 mielenihmeet.fi##.card-article-ads
 mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
