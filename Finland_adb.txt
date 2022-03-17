@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 09March2022v1
+! Version: 17March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -312,7 +312,7 @@ heili.fi##.autoboksi.moduletable
 heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*=lyads]
 helsinkitimes.fi##.banneritem
-herkkusuut.com,laliiga.com,nainen.com,sketsi.net,viikonloppu.com##.pnad-container
+herkkusuut.com,laliiga.com,nainen.com,sketsi.net,tinderinparhaat.com,viikonloppu.com##.pnad-container
 hidastaelamaa.fi###banner-top
 hidastaelamaa.fi#?#.feature:-abp-has([href$="/mainosyhteistyo/"])
 high.fi###googlejs
@@ -458,6 +458,7 @@ kuvaton.com,viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
 kuvaton.com,viikonloppu.com##[href^="https://www.lainaovi.fi/"]
 kymensanomat.fi,ess.fi##.page-notes > .note--highlight
 laitilansanomat.fi#?#.wpb_wrapper.wpb_text_column.td_block_wrap:-abp-has([auto-grid-data*=mainos])
+laliiga.com##.lead-collector-cta
 lapinkansa.fi###content1-container
 lapinkansa.fi#?#div[class="m-contentListItemThumb -ctx-frontpage-now -level-1"]:-abp-has(> div > div > [class^=m-contentListItemThumb__advertisement])
 lapinkansa.fi#?#div[class="m-managedListing__column -ctx-index -level-1 -cols-2"]:-abp-has(> div > div > div > div[class^=m-contentListItem__advertisement])
@@ -782,6 +783,7 @@ uusisuomi.fi#?#.lazyload-wrapper + section:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:-abp-contains(Kaupallinen yhteistyö)
 uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Kaupallinen yhteistyö)
 uusiteknologia.fi##.widget_block
+uutisankka.com###mvp-leader-wrap
 uutissuora.fi##div[class=td-all-devices]
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
 valioliiga.com#?#.menu-item:-abp-has([href$="/vedonlyonti/"])
