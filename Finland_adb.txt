@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18March2022v2
+! Version: 23March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1137,3 +1137,6 @@ mustijamirri.fi#@#.cookie_check
 
 ! https://github.com/easylist/easylist/pull/10167
 valotehdas.fi#@##cookie-law-info-bar
+
+! https://github.com/easylist/easylist/pull/11412
+vaasa.fi#@#.pum[data-popmake*="cookies"]
