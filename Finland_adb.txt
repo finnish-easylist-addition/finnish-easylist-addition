@@ -1135,7 +1135,7 @@ mustijamirri.fi#@##cookieform
 mustijamirri.fi#@#.cookie_info
 mustijamirri.fi#@#.cookie_check
 
-! https://github.com/easylist/easylist/pull/10167
+! https://github.com/easylist/easylist/pull/11414
 valotehdas.fi#@##cookie-law-info-bar
 
 ! https://github.com/easylist/easylist/pull/11412
