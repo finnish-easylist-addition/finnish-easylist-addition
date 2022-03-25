@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24March2022v1
+! Version: 25March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -312,7 +312,7 @@ heili.fi##.autoboksi.moduletable
 heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*=lyads]
 helsinkitimes.fi##.banneritem
-herkkusuut.com,laliiga.com,nainen.com,sketsi.net,tinderinparhaat.com,viikonloppu.com##.pnad-container
+herkkusuut.com,laliiga.com,nainen.com,sketsi.net,suomif1.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
 hidastaelamaa.fi###banner-top
 hidastaelamaa.fi#?#.feature:-abp-has([href$="/mainosyhteistyo/"])
 high.fi###googlejs
@@ -343,7 +343,7 @@ huuto.net#?#.grid-element-container:-abp-has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
 hyvaterveys.fi##.pane-sbase-cts-native-native-front
-hyvaterveys.fi#?#.views-row:-abp-has(.is-commercial)
+hyvaterveys.fi,soppa365.fi,tiede.fi#?#.views-row:-abp-has(.is-commercial)
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
@@ -703,9 +703,10 @@ suomifutis.com##[href$="/nettikasinot/"]
 suomifutis.com#?#.menu-item:-abp-has([href*="/veikkausvihjeet"])
 suomikiekko.com#?#.menu-item:-abp-has([href$="/pitkavetovihjeet/"])
 suomimobiili.fi##.artikkelimainos
-suomimobiili.fi##.sbmainos
+suomimobiili.fi##.headermainos
 suomimobiili.fi#?#.article-content > p:-abp-contains(MAINOS)
-suomimobiili.fi#?#.content-wrap > .bkmodule:-abp-contains(Sponsoroitu)
+suomimobiili.fi#?#.posts-listing-list-alt-b:-abp-contains(Artikkeleita kumppaneilta)
+suomimobiili.fi#?#.posts-list > .list-item:-abp-has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^=supers-app-promo-container]
 taisto.org###mw-data-after-content > div
@@ -751,7 +752,6 @@ terveydenasialla.com##p a[href^="https://related.iittala.com/"]
 terveydenasialla.com#?#p:-abp-has(strong):-abp-has(a[href="http://www.curaofsweden.com/fi"])
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:-abp-has(> [id|=ad-slot])
-tiede.fi#?#.views-row:-abp-has(.is-commercial)
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
 tilt.fi##.lazyloading
 tinderinparhaat.com##.adf-placement-top
