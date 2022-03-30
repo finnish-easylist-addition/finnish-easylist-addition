@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26March2022v1
+! Version: 31March2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -802,6 +802,7 @@ vauva.fi##div[id^=aldente-]
 vauva.fi#?#.pane-sbase-static-blocks-sbase-static-blocks-1:-abp-has(> h2 > a[href="https://alennuskoodi.is.fi/"])
 venelehti.fi##.ads_carousel-2.widget
 verkkouutiset.fi##.page-ad__location
+verkkouutiset.fi##.vu-adlabel
 verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi#?#article.featured-post:-abp-contains(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
