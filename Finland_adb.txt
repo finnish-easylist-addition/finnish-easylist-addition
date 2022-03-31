@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31March2022v3
+! Version: 31March2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -806,6 +806,7 @@ verkkouutiset.fi#?#.elementor-motion-effects-parent:-abp-has(.strossle-sidebar)
 verkkouutiset.fi#?#.elementor-section-height-default.elementor-section-boxed.elementor-element.elementor-top-section.elementor-section:-abp-has(.elementor-widget-shortcode:-abp-has(.vu-adlabel))
 verkkouutiset.fi##.page-ad__location
 verkkouutiset.fi##.vu-adlabel
+verkkouutiset.fi##.vu-content-injected-middle
 verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi##section[id^="front-page-parade"]
 verkkouutiset.fi##section[id^="front_page_parade"]
