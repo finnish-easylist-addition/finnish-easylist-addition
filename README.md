@@ -9,8 +9,7 @@ Direct URL to the list: `https://raw.githubusercontent.com/finnish-easylist-addi
 
 ### Other recommended lists:
 
-* <a href="https://subscribe.adblockplus.org/?location=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann&title=Easylist Cookie&requiresLocation=https://easylist-downloads.adblockplus.org/easylist-cookie.txt?src=fi-ann">Easylist Cookie List</a>
+* [Easylist Cookie List](https://subscribe.adblockplus.org/?location=https://secure.fanboy.co.nz/fanboy-cookiemonster.txt&title=Easylist%20Cookie&src=fi-ann "Subscribe Easylist Cookie List")
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 * uBlock - Annoyances
-* <a href="https://subscribe.adblockplus.org/?location=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann&title=CrapBlock Annoyances&requiresLocation=https://crapblock.theel0ja.info/crapblock-annoyances.txt?src=fi-ann">CrapBlock Annoyances</a>
