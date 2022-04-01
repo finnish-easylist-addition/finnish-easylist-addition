@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31March2022v5
+! Version: 01April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -913,6 +913,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
 ||honestpartners.com^$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
+||hymy.fi/wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image
 ||ig.fi/bannerit/koronabanneri.png$image
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
