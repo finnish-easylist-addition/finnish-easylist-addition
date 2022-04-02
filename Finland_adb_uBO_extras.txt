@@ -76,3 +76,6 @@ pelaaja.fi##+js(aopr, ga)
 !#if env_mobile
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
 !#endif
+
+! https://github.com/easylist/easylist/pull/11542
+iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min.js"] ~ .alma-cmpv2-container:style(display: block !important)
