@@ -904,7 +904,6 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
-||fcdn.lauta.media^$subdocument,script
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
 ||feed.etuovi.com/etuovi/html/*.html$subdocument
 ||gamereactor.*/lay/dfp_*.js$script
