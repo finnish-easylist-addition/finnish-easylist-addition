@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05April2022v2
+! Version: 05April2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1108,7 +1108,7 @@ kotiliesi.fi##.placeholder
 
 ! Content can't be loaded notification
 @@/AdsLoad.js$script,domain=ylilauta.org
-@@||s1.adform.net/banners/script/adx.js$xhr,domain=ylilauta.org
+@@||s1.adform.net/banners/scripts/adx.js$xhr,domain=ylilauta.org
 
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
