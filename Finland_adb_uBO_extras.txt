@@ -74,3 +74,8 @@ pelaaja.fi##+js(aopr, ga)
 
 ! https://github.com/easylist/easylist/pull/11542
 iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min.js"] ~ .alma-cmpv2-container:style(display: block !important)
+
+! Ylilauta remove empty space
+ylilauta.org##.warning.toast:has-text(Virhe ladattaessa mainoksia)
+ylilauta.org##.warning.toast:has-text(Error loading advertisements)
+||fcdn.lauta.media^$frame
