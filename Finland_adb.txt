@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 05April2022v4
+! Version: 05April2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -958,6 +958,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
 ||ylilauta.org/*/11-12^$subdocument
+||fcdn.lauta.media/adform.js$1p
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
