@@ -80,3 +80,4 @@ ylilauta.org##.warning.toast:has-text(Virhe ladattaessa mainoksia)
 ylilauta.org##.warning.toast:has-text(Error loading advertisements)
 ||fcdn.lauta.media^$frame
 ylilauta.org##+js(set, window.toastAlertShown, true)
+ylilauta.org##+js(alert-buster)
