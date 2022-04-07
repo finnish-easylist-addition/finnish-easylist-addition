@@ -78,6 +78,6 @@ iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min
 ! Ylilauta ads & antiadblock
 ||fcdn.lauta.media^$frame
 ylilauta.org##.warning.toast
-ylilauta.org##.warning.toast:not(:has-text(Virhe ladattaessa mainoksia)):style(display: block !important)
-ylilauta.org##.warning.toast:not(:has-text(Error loading advertisements)):style(display: block !important)
+ylilauta.org##.warning.toast:not(:has-text(Virhe ladattaessa mainoksia)):style(display: flex !important)
+ylilauta.org##.warning.toast:not(:has-text(Error loading advertisements)):style(display: flex !important)
 ylilauta.org##+js(aopr, console.error)
