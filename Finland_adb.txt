@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 8April2022v6
+! Version: 8April2022v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -503,6 +503,7 @@ m.tori.fi##.appnexus-container
 maalampofoorumi.fi##div[id=sponsor]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
+maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 markkinointiuutiset.fi##div[class|="ad-section"]
