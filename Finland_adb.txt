@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 8April2022v3
+! Version: 8April2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -170,7 +170,6 @@ apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:-abp-contains(MAINOS (TEKSTI JATKUU ALLA))
 apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 arcticinsider.com##a[href*=bannerTrack]
-aromilehti.fi##.ad-paper-order
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##div[class*=post] > hr, hr ~ *:not(aside)
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
 arvopaperi.fi##.ads-parade-wrapper
@@ -189,6 +188,7 @@ auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi,blogit.fi###pb_top
 autot.tori.fi##div[class*="adViewPage_maxWidthWrap"]:not(div[class^="adViewPage_adWrap"])
 autot.tori.fi#?#div[class="w-full py-2 px-2"]:-abp-has([class^="bannerAd"])
 autotalli.com###topBanner
+avecmedia.fi##.front-page-ad-padding
 basso.fi##div[id^=BannerBlock]
 bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:-abp-contains(Mainos)
@@ -287,6 +287,7 @@ gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
 glu.fi#?#li:-abp-has(.adsbygoogle)
 glu.fi#?#ul.link:-abp-has(a[href^="http://clk.tradedoubler.com/"])
 golfpiste.com##.carousel-cell--native
+golfpiste.com##.golfliitto-articles__commercial
 golfpiste.com##.section--ad__rectangle
 golfpiste.com##.section-native-list
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.ad-list
@@ -371,6 +372,7 @@ is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:-abp-contains(Alennuskoodit))
 jaatama.fi,maastohiihto.com##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
+jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
 kaaoszine.fi##.emp-ad
@@ -662,7 +664,6 @@ selanne-lehti.fi##.mainospalsta
 seura.fi#?#section[class=entry-body] > p:-abp-contains(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
 seurakuntalainen.fi##.main-banner-container
-shakerlehti.fi#?#.article:-abp-has(> ul > li > a[href="/artikkelit/kaupallinen-yhteistyo/"])
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
 sijoitustieto.fi#?#p > em > strong:-abp-contains(Kaupallinen yhteistyö:)
 sketsi.net##footer > .container.tdt-ad-wrap
@@ -761,6 +762,7 @@ tinderinparhaat.com##.adf-placement-top
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi##section > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi#?#aside:-abp-has(> div > span:-abp-contains(KAUPALLINEN YHTEISTYÖ))
+tilt.fi#?#div[class="w-full bg-black border-gray-200 border-b"]:-abp-has(a[href^="http://pubads.g.doubleclick.net/"])
 tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:-abp-contains(Kaupallinen yhteistyö)
