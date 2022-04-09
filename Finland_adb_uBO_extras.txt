@@ -7,6 +7,7 @@ feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
+iltalehti.fi##:matches-path(/raha/) .card.category-double-article-container:empty
 
 ! Temporary disabling, seems to cause iltalehti to load more slower...
 ! iltalehti.fi##.category-double-article-container:has(.half-article:matches-css(display:none)+ .half-article:matches-css(display:none))
