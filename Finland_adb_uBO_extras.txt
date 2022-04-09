@@ -79,7 +79,7 @@ iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min
 
 ! Ylilauta ads & antiadblock
 ||fcdn.lauta.media^$frame,redirect=noopframe,important
-! ||fcdn.lauta.media^$frame
+ylilauta.org##iframe[class="a h"]:style(position: absolute !important; left: -9999px !important;)
 
 ! For Firefox due to https://bugzilla.mozilla.org/show_bug.cgi?id=1267027
 ! ylilauta.org##[class="toast warning"]:style(background-color: transparent !important; color: transparent !important; pointer-events: none !important)
