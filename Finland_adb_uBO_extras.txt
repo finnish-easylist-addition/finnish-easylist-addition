@@ -78,19 +78,20 @@ pelaaja.fi##+js(aopr, ga)
 iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min.js"] ~ .alma-cmpv2-container:style(display: block !important)
 
 ! Ylilauta ads & antiadblock
-||fcdn.lauta.media^$frame
+||fcdn.lauta.media^$frame,redirect=noopframe,important
+! ||fcdn.lauta.media^$frame
 
 ! For Firefox due to https://bugzilla.mozilla.org/show_bug.cgi?id=1267027
-ylilauta.org##[class="toast warning"]:style(background-color: transparent !important; color: transparent !important; pointer-events: none !important)
-ylilauta.org##[class="toast warning"] h3:style(color: transparent !important; pointer-events: none !important)
+! ylilauta.org##[class="toast warning"]:style(background-color: transparent !important; color: transparent !important; pointer-events: none !important)
+! ylilauta.org##[class="toast warning"] h3:style(color: transparent !important; pointer-events: none !important)
 
-ylilauta.org##html[lang="fi"] .warning.toast:not(:has-text(Virhe ladattaessa mainoksia)):style(background-color: hsla(37, 100%, 55%, 0.8) !important; color: #000 !important; pointer-events: auto !important)
-ylilauta.org##html[lang="fi"] .warning.toast h3:not(:has-text(Virhe ladattaessa mainoksia)):style(color: #000 !important; pointer-events: auto !important)
+! ylilauta.org##html[lang="fi"] .warning.toast:not(:has-text(Virhe ladattaessa mainoksia)):style(background-color: hsla(37, 100%, 55%, 0.8) !important; color: #000 !important; pointer-events: auto !important)
+! ylilauta.org##html[lang="fi"] .warning.toast h3:not(:has-text(Virhe ladattaessa mainoksia)):style(color: #000 !important; pointer-events: auto !important)
 
-ylilauta.org##html[lang="en"] .warning.toast:not(:has-text(Error loading advertisements)):style(background-color: hsla(37, 100%, 55%, 0.8) !important; color: #000 !important; pointer-events: auto !important)
-ylilauta.org##html[lang="en"] .warning.toast h3:not(:has-text(Error loading advertisements)):style(color: #000 !important; pointer-events: auto !important)
+! ylilauta.org##html[lang="en"] .warning.toast:not(:has-text(Error loading advertisements)):style(background-color: hsla(37, 100%, 55%, 0.8) !important; color: #000 !important; pointer-events: auto !important)
+! ylilauta.org##html[lang="en"] .warning.toast h3:not(:has-text(Error loading advertisements)):style(color: #000 !important; pointer-events: auto !important)
 
 ! Only works on Chrome, install https://github.com/JustOff/scriptlet-doctor/releases to get it to work on Firefox.
 ! Add ylilauta.org to domain list in Scriplet Doctor settings
 ! https://bugzilla.mozilla.org/show_bug.cgi?id=1267027
-ylilauta.org##+js(aost, document.createElement, /(?=(content|new))(?!.*(Dropdown|open|Poll).*)/, 2)
+! ylilauta.org##+js(aost, document.createElement, /(?=(content|new))(?!.*(Dropdown|open|Poll).*)/, 2)
