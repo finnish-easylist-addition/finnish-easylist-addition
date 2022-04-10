@@ -79,3 +79,5 @@ iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min
 
 ! Ylilauta ads & antiadblock
 *$script,domain=fcdn.lauta.media,redirect-rule=noopjs
+ylilauta.org##div.h.a
+ylilauta.org##+js(set, ads, '')
