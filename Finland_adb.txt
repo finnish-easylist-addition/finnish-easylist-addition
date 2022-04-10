@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10April2022v1
+! Version: 10April2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -170,7 +170,7 @@ apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:-abp-contains(MAINOS (TEKSTI JATKUU ALLA))
 apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 arcticinsider.com##a[href*=bannerTrack]
-arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##div[class*=post] > hr, hr ~ *:not(aside)
+arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##.td-post-content > .social-share  ~ *
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
 arvopaperi.fi##.ads-parade-wrapper
 arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]
@@ -309,6 +309,8 @@ hattulaan.fi,reska.fi##.content.single-banner
 hattulaan.fi,reska.fi##.top.panorama.banner
 hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
 hattulaan.fi,reska.fi#?#[class|=ml-adverts]:not(:-abp-has(a[href="https://reska.fi/lounasreska/"]))
+hauskimmat.fi##.td-a-rec-id-content_inline
+hauskimmat.fi##.ylapala
 hbl.fi##.section-advertorialer.type-advertorial
 hbl.fi##ksf-adblockers
 heili.fi###sp-alabanneri
@@ -316,7 +318,7 @@ heili.fi##.autoboksi.moduletable
 heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*=lyads]
 helsinkitimes.fi##.banneritem
-herkkusuut.com,laliiga.com,nainen.com,sketsi.net,suomif1.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
+herkkusuut.com,laliiga.com,metropoli.net,nainen.com,sketsi.net,suomif1.com,susijengi.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
 hidastaelamaa.fi###banner-top
 hidastaelamaa.fi#?#.feature:-abp-has([href$="/mainosyhteistyo/"])
 high.fi###googlejs
@@ -525,7 +527,6 @@ meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
-metropoli.net##.pnad-container
 mielenihmeet.fi##.card-article-ads
 mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
