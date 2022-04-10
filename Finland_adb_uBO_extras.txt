@@ -78,6 +78,4 @@ pelaaja.fi##+js(aopr, ga)
 iltalehti.fi##script[src="https://script.ilcdn.fi/il-iltv-player/iltv-player.min.js"] ~ .alma-cmpv2-container:style(display: block !important)
 
 ! Ylilauta ads & antiadblock
-*$script,domain=fcdn.lauta.media,redirect-rule=noopjs
-ylilauta.org##div.h.a
-ylilauta.org##+js(set, ads, '')
+ylilauta.org##^div[class="a h"]
