@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12April2022v1
+! Version: 13April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -880,8 +880,6 @@ ylasatakunta.fi##.ad[class*=ylaboksi]
 ylasatakunta.fi##.tarranurkka
 ylasatakunta.fi##a[href^="/artikkeli-kaupallinen-"]
 ylasatakunta.fi#?#.ad:not(:-abp-has(img[src*="doc_id=555723"])):not(:-abp-has(img[src*="doc_id=553464"]))
-ylilauta.org##.h.fcdn
-ylilauta.org##iframe.thingything
 yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
 ! -----SPECIFIC FILTERS END-----
@@ -970,8 +968,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
-||ylilauta.org/*/11-12^$subdocument
-||fcdn.lauta.media/adform.js$1p
+||fcdn.lauta.media/adform.js$~third-party
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
@@ -1162,6 +1159,3 @@ valotehdas.fi#@##cookie-law-info-bar
 
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/commit/8bf469a005a552a6c6819ed8daa92aa1aa72da42
 ! https://github.com/easylist/easylist/pull/11542
-
-! https://github.com/easylist/easylist/pull/11600
-@@||ylilauta.org/ad/*$image
