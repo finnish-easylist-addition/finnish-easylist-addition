@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10April2022v5
+! Version: 12April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -321,6 +321,9 @@ helsinkitimes.fi##.banneritem
 herkkusuut.com,laliiga.com,metropoli.net,nainen.com,sketsi.net,suomif1.com,susijengi.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
 hidastaelamaa.fi###banner-top
 hidastaelamaa.fi#?#.feature:-abp-has([href$="/mainosyhteistyo/"])
+hifimaailma.fi##.any-commercial
+hifimaailma.fi#?#.bottomlistarticle:-abp-has(.ag-promocolllabel)
+hifimaailma.fi#?#.col-section:-abp-has(.ag-promocolllabel)
 high.fi###googlejs
 high.fi##div[class*=sub-container]
 hinta.fi##[id|=hv-wrapper-top]
@@ -915,6 +918,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
 ||feed.etuovi.com/etuovi/html/*.html$subdocument
 ||gamereactor.*/lay/dfp_*.js$script
+||hifimaailma.fi/neodirect/static/*/karuselli$image
 ||hinta.fi/a/img/$image
 ||hintaopas.fi^$third-party
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
