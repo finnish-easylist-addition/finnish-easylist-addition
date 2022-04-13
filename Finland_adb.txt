@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 13April2022v1
+! Version: 13April2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -205,6 +205,7 @@ chat.suomi24.fi##.bannerTop.S24_banner
 como.fi,episodi.fi,fum.fi,inferno.fi,kaaoszine.fi,rumba.fi,soundi.fi,tilt.fi#?#div[class|=col][class*=post]:-abp-contains(/mainos/i)
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type=ad]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#div.border-bottom.row:-abp-contains(adUnit)
+como.fi,episodi.fi,inferno.fi,rumba.fi##.poppartners
 como.fi,tilt.fi#?#body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:-abp-has(a[href*=".fi/advertoriaali/"])
 como.fi,tilt.fi#?#div[class="w-full bg-white border-gray-200 border-b py-2 px-4"]:-abp-has([id*="_smart_boksi"])
 como.fi,tilt.fi#?#div[style^="min-height:"]:-abp-has([id*="_smart_paraati"])
@@ -233,7 +234,6 @@ epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suup
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#._3GUme._1hdYd:-abp-has(a[href^="https://pointti.fi"])
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#article > div[class]:-abp-contains(Mainos (sisältö jatkuu alla))
 episodi.fi#?#.main-article > div:-abp-contains(Mainos)
-episodi.fi,inferno.fi,rumba.fi,soundi.fi##body:not(.post-type-archive-advertoriaali) .status-publish.type-advertoriaali
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
@@ -364,6 +364,8 @@ ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:-abp-has(> [id^=div-gpt-ad])
+inferno.fi#?#p:-abp-has([href^="https://track.adform.net/"])
+inferno.fi#?#.row.border-bottom:-abp-has(.poppartners)
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
@@ -650,7 +652,8 @@ rantapallo.fi##div[class=optin-monster-saas-overlay]
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
-rumba.fi,episodi.fi,inferno.fi,como.fi##.poppartners
+rumba.fi###tilt-ad-top-stay-away
+rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
 sammysatv.com##a[href*=banner]
