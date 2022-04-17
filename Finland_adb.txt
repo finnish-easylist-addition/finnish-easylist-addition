@@ -992,7 +992,7 @@ iltalehti.fi##[class|="almad-mobile-parade"]
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
 iltalehti.fi##div[class=iframe-container]
 iltalehti.fi#?#.card:-abp-has(#il-rantapallo-right-column-box)
-iltalehti.fi#?#.embed-placeholder:has(> div > .eo-embed-announcements-container.card)
+iltalehti.fi#?#.embed-placeholder:-abp-has(> div > .eo-embed-announcements-container.card)
 iltalehti.fi#?#a.small-article:-abp-contains(Kaupallinen yhteistyö)
 iltalehti.fi#?#div.card:-abp-contains(Mainos:)
 iltalehti.fi#?#div.fp-container.card:-abp-contains(Kaupallinen yhteistyö)
