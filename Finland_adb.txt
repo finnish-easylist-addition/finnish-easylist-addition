@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19April2022v1
+! Version: 21April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1147,9 +1147,6 @@ kaksplus.fi#@#.sponsored-content
 
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
-
-! https://github.com/easylist/easylist/pull/8449
-##[id|=bunyad-widget-ads]
 
 ! https://github.com/easylist/easylist/pull/9179
 iltalehti.fi#@#.ad-placement
