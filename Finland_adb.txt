@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21April2022v1
+! Version: 25April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -286,6 +286,7 @@ gamereactor.fi##.ad_video
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##.sponsor
 gamereactor.fi##.videoAd
+gamereactor.fi#?#article.areview:-abp-contains(Sponsoroitua sisältöä)
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
 gekkonen.net##.tdm-pricing-wrap
 gekkonen.net##.tdm_block_pricing
@@ -461,6 +462,9 @@ kotiliesi.fi##.widget_google-ad-manager
 kotiliesi.fi##body.category .placeholder
 kotiliesi.fi#?#article[class^="grid__item_"]:-abp-has(.template-item_nativead)
 kotimaa.fi#?#div[class=" "] > .rendered_board_widget:-abp-has(.kotimaa-adform-widget)
+kotimaatutuksi.fi###kaikki-tarjoukset
+kotimaatutuksi.fi##.ktbanner
+kotimaatutuksi.fi##.thirstylink
 kotimikro.fi##.campaign-teaser-show
 kotimikro.fi##b > [href^="https://tilaus.kotimikro.fi/brand/kotimikro/"]
 kotimikro.fi#?#div.themebox.widget:-abp-has(> div > div > div > div#cx_4217c66c223ecb55cb7b1d49afa884837bfccda9)
@@ -604,6 +608,7 @@ mvlehti.net#?#[class|=featured-post]:-abp-contains(/rahapeli|kasino/i):-abp-has(
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has(> a[href^="https://vk.com/"])):not(:-abp-has(> a[href^="https://uvmedia.org/"]))
 mvlehti.net#?#li:-abp-has(a[href*="/202"]):-abp-has(a[href*="nettikasino"])
 mvlehti.net#?#p[style="text-align: center;"]:-abp-has(> a[href^="https://kasino"])
+myheritage.fi##.promotional_banner_root
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
