@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 25April2022v1
+! Version: 25April2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -633,6 +633,7 @@ pelikone.fi##.preroll-text
 pelikone.fi##.text-ad-container
 pelit.fi##a[href="/category/mainos/"]
 pelit.fi#?#li[class="wa@s"]:-abp-has([alt^="MAINOS:"])
+pietarsaarensanomat.fi##.ad-list-read-all
 pirkkalainen.com#?#.custom:-abp-has(img[src="/images/mainospaikat/3.jpg"])
 pkank.fi##.ad-assigned.panoraamabanneri
 pointti.fi##.after-ad
