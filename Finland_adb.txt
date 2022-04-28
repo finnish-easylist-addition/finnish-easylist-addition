@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27April2022v2
+! Version: 28April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -145,6 +145,7 @@ alfatvuutiset.fi#?#.widget_text:-abp-contains(Advertisement)
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
 alibi.fi#?#.article__body > p:-abp-contains(/^\xA0$/)
+alibi.fi#?#.sidebar-block:-abp-has(img.awpo-lazy)
 alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotilaakari.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^=dfp__]
 alibi.fi,hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
 alueviesti.fi##.soliloquy-link
@@ -913,6 +914,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
 ||affiliate.guts.com^$third-party
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
+||alibi.fi/wp-content/uploads/2022/04/HymyAlibi_300x300_VAPPU.jpg$image
 ||ap-online.media.fi/scripts/eneo*.dll$script,domain=aamuposti.fi|helsinginuutiset.fi|keski-uusimaa.fi|lansi-uusimaa.fi|lansivayla.fi|lappeenrannanuutiset.fi|loviisansanomat.fi|mantsalanuutiset.fi|nurmijarvenuutiset.fi|seinajoensanomat.fi|sipoonsanomat.fi|tamperelainen.fi|turkulainen.fi|uusimaa.fi|vantaansanomat.fi|vihdinuutiset.fi
 ||apteekkari.fi/media/kuvat/bannerit/$image,domain=apteekkari.fi
 ||asuntorauma.fi/iframe/uusimmat$subdocument,domain=ls24.fi
