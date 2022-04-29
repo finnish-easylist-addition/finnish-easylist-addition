@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 28April2022v1
+! Version: 30April2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -522,6 +522,7 @@ maalampofoorumi.fi##div[id=sponsor]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
 maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
+maaseuduntulevaisuus.fi##div[class^=MainLane_laneItem]:-abp-has(div[class^=ArticleBanner_advertorial])
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 markkinointiuutiset.fi##div[class|="ad-section"]
@@ -1163,13 +1164,6 @@ iltalehti.fi#@#.ad-placement
 
 ! https://github.com/easylist/easylist/pull/9343
 @@||almamedia.fi/almacmp/$script
-
-! https://github.com/easylist/easylist/pull/9918
-mustijamirri.fi#@##cookie_consent
-mustijamirri.fi#@#.cookie_body
-mustijamirri.fi#@##cookieform
-mustijamirri.fi#@#.cookie_info
-mustijamirri.fi#@#.cookie_check
 
 ! https://github.com/easylist/easylist/pull/11414
 valotehdas.fi#@##cookie-law-info-bar
