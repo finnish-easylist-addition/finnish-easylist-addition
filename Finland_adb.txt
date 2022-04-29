@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30April2022v2
+! Version: 30April2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -241,6 +241,7 @@ esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuo
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^=ad]
+etlehti.fi,hyvaterveys.fi,soppa365.fi,tiede.fi#?#.views-row:-abp-has(.is-commercial)
 etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
@@ -360,7 +361,6 @@ huuto.net#?#.grid-element-container:-abp-has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
 hyvaterveys.fi##.pane-sbase-cts-native-native-front
-hyvaterveys.fi,soppa365.fi,tiede.fi#?#.views-row:-abp-has(.is-commercial)
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.ad-separator
@@ -399,6 +399,7 @@ kaaoszine.fi##.rotate
 kaaoszine.fi#?#article.post:-abp-contains(Kaupallinen yhteistyö)
 kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
 kaasujalka.fi#?#.widget-container:-abp-has([class^=ad_])
+kaksplus.fi##.ad-mob_description
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kaleva.fi###puff-container
