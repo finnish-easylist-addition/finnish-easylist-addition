@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30April2022v5
+! Version: 30April2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -233,6 +233,7 @@ elmotv.com##a[href^="https://www.expekt.com/"]
 elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
 elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
+epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:-abp-contains(Mainos päättyy)
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.ads__wrapper
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.pointti_container
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#._3GUme._1hdYd:-abp-has(a[href^="https://pointti.fi"])
@@ -393,7 +394,6 @@ jaatama.fi,maastohiihto.com##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
-jarviseutu-lehti.fi#?#.voice-no-read:-abp-contains(Mainos päättyy)
 juoksufoorumi.fi##.noAdsCell
 kaaoszine.fi##.emp-ad
 kaaoszine.fi##.g-32.g
