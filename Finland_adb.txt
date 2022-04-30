@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 30April2022v3
+! Version: 30April2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -236,6 +236,7 @@ epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suup
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.pointti_container
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#._3GUme._1hdYd:-abp-has(a[href^="https://pointti.fi"])
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#article > div[class]:-abp-contains(Mainos (sisältö jatkuu alla))
+epari.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasalehti.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:-abp-contains(Mainos)
 episodi.fi#?#.main-article > div:-abp-contains(Mainos)
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
@@ -391,6 +392,7 @@ jaatama.fi,maastohiihto.com##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
+jarviseutu-lehti.fi#?#.voice-no-read:-abp-contains(Mainos päättyy)
 juoksufoorumi.fi##.noAdsCell
 kaaoszine.fi##.emp-ad
 kaaoszine.fi##.g-32.g
@@ -819,6 +821,7 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Ka
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
 uutissuora.fi##div[class=td-all-devices]
+vaasalehti.fi#?#h2 > span:-abp-contains(Mainos)
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
 valioliiga.com#?#.menu-item:-abp-has([href$="/vedonlyonti/"])
 vantaansanomat.fi##div.display-ad
