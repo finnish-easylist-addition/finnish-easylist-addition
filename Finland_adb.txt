@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 4May2022v1
+! Version: 7May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -147,7 +147,7 @@ alibi.fi##.magazineorderwidget__content
 alibi.fi#?#.article__body > p:-abp-contains(/^\xA0$/)
 alibi.fi#?#.sidebar-block:-abp-has(img.awpo-lazy)
 alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotilaakari.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^=dfp__]
-alibi.fi,hymy.fi##[href="https://www.paratiisi.fi/netchat.php"]
+alibi.fi,hymy.fi##[href*="paratiisi.fi"]
 alueviesti.fi##.soliloquy-link
 alypaa.com##[class^=banner-slot-preroll]
 alypaa.com#?#.section-inner:-abp-has(> .banner-slot)
