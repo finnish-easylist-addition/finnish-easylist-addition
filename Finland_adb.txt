@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 9May2022v1
+! Version: 9May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -198,8 +198,8 @@ bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:-abp-contains(Mainos)
 bbs.io-tech.fi#?#li.block-row:-abp-contains(Mainos)
 bittiraha.fi###cm-banner
-blogit.fi,ilmainensanakirja.fi##.pb
-blogit.fi,ilmainensanakirja.fi##.pb0
+blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb
+blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb0
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 caravan-lehti.fi##.ad-wrapper
@@ -400,6 +400,7 @@ jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
+jvg.fi##[href="https://www.nettikasinovertailu.info/"]
 kaaoszine.fi##.emp-ad
 kaaoszine.fi##.g-32.g
 kaaoszine.fi##.improve-media
@@ -778,9 +779,7 @@ tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KA
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
-telsu.fi###pb_bottom2
-telsu.fi###pb_bottom3
-telsu.fi##.cmore.ch
+telsu.fi#?#.ch:-abp-contains(SPONSOROITU)
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
