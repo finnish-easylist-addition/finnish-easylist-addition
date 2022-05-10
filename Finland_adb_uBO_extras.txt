@@ -40,7 +40,7 @@ www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^
 
 ! Trick to overcome blinking issues caused by a slow procedural
 ampparit.com##[class="sidebox-header"]
-ampparit.com##.sidebox-header:not(:has-text(/Nettiauto|Nettix/)):style(display: flex !important)
+ampparit.com##.sidebox-header:not(:has-text(/Nettiauto|Nettix|Etuovi.com/)):style(display: flex !important)
 karjalainen.fi#@#.breaking-news-container:has-text(mainos:)
 karjalainen.fi##.breaking-news-container
 karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: flex !important)
