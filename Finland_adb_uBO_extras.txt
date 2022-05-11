@@ -25,7 +25,7 @@ nyan.ax##.widget_adrotate_widgets:remove()
 nyan.ax##.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner']):remove()
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
-telsu.fi##div[id^=gpt-]:upward(1)
+telsu.fi##div[id^=gp-]:upward(1)
 telsu.fi##div[style^="font-size:20px;padding:"][style$="px;margin:20px;background:#fff;line-height:25px;"]
 vanha.kaleva.fi##.col-sm-12.col-md-8.col-lg-9:style(width: 100% !important;)
 vanha.kaleva.fi##.event-detail-ad
