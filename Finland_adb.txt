@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19May2022v1
+! Version: 19May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -707,6 +707,7 @@ seiska.fi##div[class^=Ad__AdWrapper]
 seiska.fi#?#article:-abp-has(a[href=""][rel="no-index,no-follow"])
 selanne-lehti.fi##.ad-list-read-all
 selanne-lehti.fi##.mainospalsta
+seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
 seura.fi#?#section[class=entry-body] > p:-abp-contains(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
 seurakuntalainen.fi##.main-banner-container
@@ -741,6 +742,7 @@ suomela.fi#?#p:-abp-has(a[href="https://www.lainanvälittäjä.fi/"])
 suomen118.fi###layout-banner-right
 suomenkuvalehti.fi##.ad_class
 suomenkuvalehti.fi##.om-adcoin-ad
+suomenkuvalehti.fi##.wp-block-otavamedia-google-ad-slot
 suomenkuvalehti.fi#?#.clearfloats.content__body > p:-abp-contains(/^\xA0$/)
 suomenmaa.fi##div[class="site-header__top-container header-top-banner"]
 suomi24.fi##.ast
@@ -778,6 +780,7 @@ tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##.ad
 teknavi.fi##[class|=adform]
+tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
