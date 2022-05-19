@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 18May2022v2
+! Version: 19May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -793,6 +793,7 @@ telsu.fi###page > div[id^="paa"]
 telsu.fi##.footer > div[id^="paa"]
 telsu.fi##a[href^="/cclk"]
 telsu.fi##div[class*=cmore]
+telsu.fi##img[src^="/getalife/"]
 telsu.fi#?#.ch:-abp-contains(SPON)
 telsu.fi#?#.ch:-abp-has(+ [data-src*=adform])
 tennis.fi##.ad-blocks
