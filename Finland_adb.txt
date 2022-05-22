@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 19May2022v2
+! Version: 22May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -858,6 +858,7 @@ vasabladet.fi##.online-promotion-bar
 vastranyland.fi##.type-advertorial
 vau.fi##.sdaelem.td-block-span12
 vau.fi##.vausda
+vauva.fi##[href^="https://kampanjat.is.fi/"]
 vauva.fi##a[href$="vauvabanneri"]
 vauva.fi##div.cts-row-wrapper
 vauva.fi##div[id^=aldente-]
