@@ -792,12 +792,10 @@ tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KA
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
-telsu.fi###page > a[href^="/c"][target="_blank"]
-telsu.fi###prg > [rel="cmore"]
-telsu.fi###prg > div[style] > a[href^="/c"][target="_blank"]
-telsu.fi##.footer > a[href^="/c"][target="_blank"]
-telsu.fi#?#.ch:-abp-contains(SPON)
-telsu.fi#?#.ch:-abp-has(+ [data-src*=adform])
+telsu.fi###page > a[href^="/"][target="_blank"] > img[src][width][height]
+telsu.fi###prg > div[style] > a[href^="/"][target="_blank"] > img[src][width][height]
+telsu.fi##.footer > a[href^="/"][target="_blank"] > img[src][width][height]
+telsu.fi#?##prg > div[class]:not([rel]):-abp-has(img[data-src*="cmore"])
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
