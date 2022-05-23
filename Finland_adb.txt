@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23May2022v3
+! Version: 23May2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -782,6 +782,7 @@ teknavi.fi##.ad
 teknavi.fi##[class|=adform]
 tekniikanmaailma.fi##.Article_native-ads
 tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
+tekniikanmaailma.fi##.FrontPage_native-ads
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
