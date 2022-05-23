@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 23May2022v2
+! Version: 23May2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -780,6 +780,7 @@ tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##.ad
 teknavi.fi##[class|=adform]
+tekniikanmaailma.fi##.Article_native-ads
 tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##div.Article_nettix-embed-container
@@ -842,10 +843,14 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:-abp-contai
 uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:-abp-contains(Kaupallinen yhteistyö)
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
+uutisankka.com##.clever-core-ads
+uutisankka.com##[href="https://casinogorilla.com/fi/nettikasinot/"]
+uutisankka.com##[href="https://bonuspanda.com/fi/"]
 uutissuora.fi##div[class=td-all-devices]
 vaasalehti.fi#?#h2 > span:-abp-contains(Mainos)
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
 valioliiga.com#?#.menu-item:-abp-has([href$="/vedonlyonti/"])
+vanha.kaleva.fi#?#.event-list-item:-abp-has(.list-item-advertisement)
 vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div[id=main-content] > div:first-of-type[style="overflow:visible"]
