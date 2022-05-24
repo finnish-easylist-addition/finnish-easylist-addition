@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 24May2022v4
+! Version: 24May2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -795,7 +795,7 @@ tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-cont
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 telsu.fi###prg > div:not([class$="ch"])
-telsu.fi##img[width][height]:not(#prg img, .data img)
+telsu.fi##img[width][height]:not(#foot1 img, #foot2 img)
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
