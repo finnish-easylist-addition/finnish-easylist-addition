@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27May2022v3
+! Version: 27May2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -133,7 +133,6 @@ aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#article[class="list bg-positive w-full mb-16"]:-abp-contains(Mainos)
 aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilantienoo.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luoteis-uusimaa.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seinajoensanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
 aamuset.fi##div[class$=nativead]
-aarrelehti.fi,koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 aasiakas.net##div[style="width:970px;height:250px;margin:0 auto;margin-top:25px;"]
 afterdawn.com###div-gpt-ad-below-navi + div[style~="background-color:blue;"]
 afterdawn.com#?#.video:-abp-has(+ div#bb-iawr-defaultPlayout-afterdawn_com_)
@@ -469,6 +468,7 @@ kokemaenjokilaakso.fi#?#p:-abp-has([alt^=Mainos])
 kokemakelainen.net###text-81
 kokemakelainen.net###text-82
 konekuriiri.fi,koneporssi.com##.banners
+koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 koneviesti.fi###traktorpool-ad
 koneviesti.fi#?#.layout__article-area__text-content > p:-abp-contains(/^\xA0$/)
 koneviesti.fi,maaseuduntulevaisuus.fi#?#.row .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
@@ -716,7 +716,6 @@ selanne-lehti.fi##.mainospalsta
 seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
 seura.fi#?#section[class=entry-body] > p:-abp-contains(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
-seurakuntalainen.fi##.main-banner-container
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
 sijoitustieto.fi#?#p > em > strong:-abp-contains(Kaupallinen yhteistyö:)
 sketsi.net##footer > .container.tdt-ad-wrap
