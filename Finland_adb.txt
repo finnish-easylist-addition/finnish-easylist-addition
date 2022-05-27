@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27May2022v4
+! Version: 27May2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -670,6 +670,7 @@ pkank.fi##.ad-assigned.panoraamabanneri
 pointti.fi##.after-ad
 pointti.fi##.before-ad
 pointti.fi##.jattiboksi
+pointti.fi##.natiivimainos
 pointti.fi##.paraati
 poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widget
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
