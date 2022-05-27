@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27May2022v1
+! Version: 27May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -240,6 +240,9 @@ elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
 elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
+enontekionsanomat.fi,kittilalehti.fi,luoteis-lappi.fi##.isosentteri1
+enontekionsanomat.fi,kittilalehti.fi,luoteis-lappi.fi##.paraati1
+enontekionsanomat.fi,kittilalehti.fi,luoteis-lappi.fi##[href^="/uutiset/mainos-"]
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:-abp-contains(Mainos päättyy)
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.ads__wrapper
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.pointti_container
@@ -383,6 +386,8 @@ ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:-abp-has(> [id^=div-gpt-ad])
 inarilainen.fi,sompio.fi##.paraati1
+inarilainen.fi,sompio.fi##.pikkusentteri1
+inarilainen.fi,sompio.fi##[href^="/ilmoitus/mainostajan-artikkeli"]
 inferno.fi,rumba.fi###tilt-ad-top-stay-away
 inferno.fi#?#p:-abp-has([href^="https://track.adform.net/"])
 inssinosingot.fi##.block-mainos
@@ -469,6 +474,7 @@ koneviesti.fi#?#.layout__article-area__text-content > p:-abp-contains(/^\xA0$/)
 koneviesti.fi,maaseuduntulevaisuus.fi#?#.row .col-small-12.col-medium-12.col-large-12:-abp-contains(Mainos:)
 kotikokki.net###partners-container-big
 kotikokki.net##[id=content][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
+kotilappi.fi,kuhmolainen.fi,sotkamolehti.fi,ylakainuu.fi##.banner--top
 kotiliesi.fi##.article-continues
 kotiliesi.fi##.nativecarousel.widget
 kotiliesi.fi##.widget_google-ad-manager
