@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 26May2022v6
+! Version: 27May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -383,6 +383,7 @@ ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:-abp-has(> [id^=div-gpt-ad])
 inarilainen.fi,sompio.fi##.paraati1
+inferno.fi,rumba.fi###tilt-ad-top-stay-away
 inferno.fi#?#p:-abp-has([href^="https://track.adform.net/"])
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
@@ -688,7 +689,6 @@ rantapallo.fi##div[class=optin-monster-saas-overlay]
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
-rumba.fi###tilt-ad-top-stay-away
 rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
