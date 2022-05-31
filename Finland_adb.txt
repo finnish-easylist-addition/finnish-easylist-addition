@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 31May2022v2
+! Version: 31May2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1112,13 +1112,6 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 ||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js
-
-! viafree.fi video adblock
-@@||fwmrm.net/ad/$xmlhttprequest,domain=viafree.fi
-@@||fwmrm.net/ad/$script,domain=viafree.fi
-@@||fwmrm.net/ad/$image,domain=viafree.fi
-@@||fwmrm.net/crossdomain.xml$xmlhttprequest,domain=viafree.fi
-||freewheel-mtgx-tv.akamaized.net/m/1/*.mp4$media,domain=viafree.fi
 
 ! Tori.fi ads
 ##[src*="://ad.doubleclick.net/"]
