@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 3June2022v1
+! Version: 3June2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -650,6 +650,7 @@ navigatormagazine.fi##.panorama
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has([src$="adsbygoogle.js"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner'])
+olutposti.fi##.advertoriaalit
 olutposti.fi#?#.aside.widget:-abp-contains(Mainos)
 opensubtitles.org#?#fieldset:-abp-contains(Poista mainos)
 orimattilansanomat.fi#?#.textwidget:-abp-has(.orimad-adlabel)
@@ -741,14 +742,20 @@ sportti.com#?#tr:-abp-contains(.loadAd)
 sportti.com#?#tr:-abp-has(+ tr:-abp-has(script))
 sss.fi#?#.td_block_wrap:-abp-has([href="https://www.sss.fi/category/mainos/"])
 sss.fi#?#aside.widget_text:-abp-contains(MAINOS)
+suomela.fi#?#.article-container:-abp-contains(MAINOS)
 suomela.fi##.banner-boksi1
+suomela.fi#?#.box:-abp-contains(MAINOS)
+suomela.fi##a[href^="https://www.autonvaraosat24.fi/"]
 suomela.fi#?#h2:-abp-contains(Remonttirahoitus)
+suomela.fi#?#hr:-abp-has(+ .centermobile > [data-adfscript])
 suomela.fi#?#hr:-abp-has(+ h2:-abp-contains(Remonttirahoitus))
 suomela.fi#?#hr:-abp-has(+ p > a[href="https://www.autodoc.fi/"])
-suomela.fi#?#hr:-abp-has(+ p:-abp-has(a[href="https://www.autonvaraosat24.fi/"]))
-suomela.fi#?#p:-abp-has(a[href="https://www.autodoc.fi/"])
-suomela.fi#?#p:-abp-has(a[href="https://www.autonvaraosat24.fi/"])
-suomela.fi#?#p:-abp-has(a[href="https://www.lainanvälittäjä.fi/"])
+suomela.fi#?#hr:-abp-has(+ p > a[href^="https://www.autonvaraosat24.fi/"])
+suomela.fi#?#p:-abp-has(a[href^="https://www.autodoc.fi/"])
+suomela.fi#?#p:-abp-has(a[href^="https://www.autodoc.fi/"]) + hr
+suomela.fi#?#p:-abp-has(a[href^="https://www.autonvaraosat24.fi/"])
+suomela.fi#?#p:-abp-has(a[href^="https://www.autonvaraosat24.fi/"]) + hr
+suomela.fi#?#p:-abp-has(a[href^="https://www.lainanvälittäjä.fi/"])
 suomen118.fi###layout-banner-right
 suomenkuvalehti.fi##.ad_class
 suomenkuvalehti.fi##.om-adcoin-ad
