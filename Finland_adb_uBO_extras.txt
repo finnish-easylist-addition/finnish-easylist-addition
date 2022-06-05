@@ -4,6 +4,7 @@ afterdawn.com,download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height
 ap-cdn.sanomagames.com##.banner-slot-preroll
 etn.fi##tbody > tr > td[style="width:468px"][valign=top]:style(width: unset !important)
 feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
+golfpiste.com##.section-wrapper > .has-ad-right:has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
