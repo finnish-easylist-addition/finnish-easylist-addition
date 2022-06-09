@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 9June2022v7
+! Version: 9June2022v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -17,7 +17,7 @@
 /mainokset.
 /mainokset/*
 /mainokset_
-/mainos.
+/mainos
 /mainos/*
 /mainos_
 /mainosbanneri.
@@ -961,7 +961,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /telsu\.fi\/s\/[\w\d]{30,40}$/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=www.telsu.fi
-/telsu\.fi\/img\/(?!mindmax|cloudcity)/$image,domain=telsu.fi
+/telsu\.fi\/img\/(?!mindmax|cloudcity|navibg|tvohjelmat)/$image,domain=telsu.fi
 /wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image,domain=alibi.fi|hymy.fi
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
