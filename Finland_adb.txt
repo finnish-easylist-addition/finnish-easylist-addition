@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10June2022v1
+! Version: 10June2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -300,10 +300,12 @@ gamereactor.fi###eventad
 gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##.ad_video
+gamereactor.fi##.itsanad
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##.sponsor
 gamereactor.fi##.videoAd
 gamereactor.fi#?#article.areview:-abp-contains(Sponsoroitua sisältöä)
+gamereactor.fi##div[class^=ad_Bumper]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
 gekkonen.net##.tdm-pricing-wrap
 gekkonen.net##.tdm_block_pricing
