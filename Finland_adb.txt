@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10June2022v2
+! Version: 11June2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -908,6 +908,7 @@ viisasraha.fi##div[class*=native-article] > div[class=ezrichtext-field] > p > a[
 viisasraha.fi##div[class^=banner] > a[href="https://www.viisasraha.fi/Taloushaltuun"]
 viranomaisuutiset.fi##[href^="https://track.adtraction.com/"]
 voice.fi##.article-sponsored
+voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
 voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 voice.fi#?#div.item:-abp-has(.sponsored)
