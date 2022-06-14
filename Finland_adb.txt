@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 13June2022v2
+! Version: 14June2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -295,7 +295,8 @@ futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://ca
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://bonuspanda.com/fi/"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://pussit.com"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
-futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever:-abp-contains(CASINOGORILLA.COM)
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever:-abp-contains(/BONUSPANDA.COM|CASINOGORILLA.COM/)
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever ~ div:-abp-contains(/BONUSPANDA.COM|CASINOGORILLA.COM/)
 gamereactor.fi###adContainer
 gamereactor.fi###ad_topScroller
 gamereactor.fi###bigVideoAd_content
