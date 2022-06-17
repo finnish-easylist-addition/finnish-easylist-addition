@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 16June2022v2
+! Version: 17June2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -175,6 +175,8 @@ apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:-abp-contains(MAINOS (TEKSTI JATKUU ALLA))
 apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 arcticinsider.com##a[href*=bannerTrack]
+autobild.fi#?#.red-the-latest-issue:-abp-contains(Kaupallinen yhteistyö)
+autobild.fi##div[class*=advertorial]
 arvokisat.com,herkkusuut.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,susijengi.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##.td-post-content > .social-share  ~ *
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
@@ -324,6 +326,7 @@ golfpiste.com##.main-native
 golfpiste.com##.native-carousel
 golfpiste.com##.section--ad__rectangle
 golfpiste.com##.section-native-list
+gti.fi#?#.wall-item__container:-abp-contains(Mainos)
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.ad-list
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi##.newslink-ad
 haapavesi-lehti.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kokkola-lehti.fi,lestijoki.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,selanne-lehti.fi#?#div[class="col-xs-12 col-sm-12 col-md-12 pad-0 hidden-xs"]:-abp-has(> #lunch-widget)
