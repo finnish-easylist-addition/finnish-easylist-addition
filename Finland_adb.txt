@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27June2022v1
+! Version: 27June2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -195,7 +195,7 @@ auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi,blogit.fi###pb_top
 autobild.fi#?#.red-the-latest-issue:-abp-contains(Kaupallinen yhteistyö)
 autobild.fi##div[class*=advertorial]
 autot.tori.fi##div[class*="adViewPage_maxWidthWrap"]:not(div[class^="adViewPage_adWrap"])
-autot.tori.fi#?#div[class="w-full py-2 px-2"]:-abp-has([class^="bannerAd"])
+autot.tori.fi#?#div[class="w-full py-2 px-2"]:has(> div > div > div[id="banner_top"][class^="bannerAd"]) 
 autotalli.com###topBanner
 avecmedia.fi##.front-page-advertisement
 avecmedia.fi##.front-page-ad-padding
