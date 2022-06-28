@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27June2022v3
+! Version: 28June2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -143,6 +143,7 @@ akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##div[class*=omamainos]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
+alfatvuutiset.fi##.ugaam-archive-ad-wrapper
 alfatvuutiset.fi#?#.widget_text:-abp-contains(Advertisement)
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
@@ -360,6 +361,7 @@ hifimaailma.fi##.any-commercial
 hifimaailma.fi#?#.bottomlistarticle:-abp-has(.ag-promocolllabel)
 hifimaailma.fi#?#.col-section:-abp-has(.ag-promocolllabel)
 high.fi###googlejs
+high.fi#?#article > .main-link:-abp-has(.source:-abp-contains(sponsoroitu))
 high.fi##div[class*=sub-container]
 hinta.fi##[id|=hv-wrapper-top]
 hinta.fi##a[href^="/ohjaus.php"]
@@ -402,6 +404,7 @@ inarilainen.fi,sompio.fi##.paraati1
 inarilainen.fi,sompio.fi##.pikkusentteri1
 inarilainen.fi,sompio.fi##[href^="/ilmoitus/mainostajan-artikkeli"]
 inferno.fi,rumba.fi###tilt-ad-top-stay-away
+inferno.fi#?#.px-4.py-2.bg-white.w-full:-abp-has(.poppartners)
 inferno.fi#?#p:-abp-has([href^="https://track.adform.net/"])
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
