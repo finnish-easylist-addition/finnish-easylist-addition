@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 3July2022v1
+! Version: 4July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -747,10 +747,11 @@ sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 sportti.com##[href^="http://ads.leovegas.com/"]
 sportti.com##[href^="http://www.primeslots.com/"]
-sportti.com##div[id=panorama_container][style="text-align:center;background:#efefef;"]
+sportti.com##div[id=panorama_container]
 sportti.com##div[style="font-size:14px;line-height:21px;padding-top:6px;"]
 sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + [type="text/javascript"] + div
 sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + table[width="468"] + div
+sportti.com##script[src^="http://adserving.unibet.com/ad.aspx"] + div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"]
 sportti.com##table[width="468"]
 sportti.com#?#div[style="padding-bottom:10px;border-bottom:1px solid gray;margin-bottom:6px;"]:has-text(Mainos:)
 sportti.com#?#div[style="padding-bottom:10px;border-bottom:1px solid gray;margin-bottom:6px;"]:has(script[type="text/javascript"])
