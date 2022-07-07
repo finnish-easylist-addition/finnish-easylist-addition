@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 7July2022v1
+! Version: 7July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -426,6 +426,7 @@ jaatama.fi,maastohiihto.com##.advert
 jaatama.fi#?#.box--transparent:has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
+jp-kunnallissanomat.fi#?#a[href^="/artikkeli-"]:has-text(MAINOS)
 juoksufoorumi.fi##.noAdsCell
 jvg.fi##[href="https://www.nettikasinovertailu.info/"]
 kaaoszine.fi##.collab
