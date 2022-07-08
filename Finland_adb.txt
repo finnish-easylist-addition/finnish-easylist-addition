@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 7July2022v3
+! Version: 8July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1257,4 +1257,4 @@ iltalehti.fi#@#.ad-placement
 ! https://github.com/easylist/easylist/pull/11542
 
 ! https://github.com/easylist/easylist/issues/12507
-@@||userneeds.com^$domain=foreca.fi
+@@||survey.userneeds.com^$subdocument,domain=foreca.fi
