@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 9July2022v2
+! Version: 12July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -237,6 +237,8 @@ elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
 elmotv.com##[href^="https://promo.leovegas.com/"]
+elmotv.com##[href^="https://www.leovegas.com/"]
+elmotv.com#?#[href]:has-text(LeoVegas)
 elmotv.com##a[href^="https://ads.expekt.se/"]
 elmotv.com##a[href^="https://www.expekt.com/"]
 elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
@@ -673,8 +675,8 @@ nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has([src$="adsbygoogle.js"
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner'])
 olutposti.fi##.advertoriaalit
 olutposti.fi#?#.aside.widget:has-text(Mainos)
-opensubtitles.org#?#fieldset:has-text(Poista mainos)
 omalahio.fi##.mainos-top
+opensubtitles.org#?#fieldset:has-text(Poista mainos)
 orimattilansanomat.fi#?#.textwidget:has(.orimad-adlabel)
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi#?#.sp-module:has(.tassaWidget)
