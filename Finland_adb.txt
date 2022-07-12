@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 12July2022v1
+! Version: 12July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -185,7 +185,6 @@ arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
-asunnot.oikotie.fi##.customer-color-link.sahkovertailu-campaign__link
 audiovideo.fi##.head.the-wrap
 auto1.fi##.pb[lazied]
 auto1.fi#?#[id^=pb_cont].pb:has(> a[href^="/clk2?"])
@@ -264,8 +263,7 @@ etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
 etusuora.com#?#.pb30:has(.adsbygoogle)
-f1-forum.fi##a[href*="netb11.com"]
-f1-forum.fi##img[src*=banneri]
+f1-forum.fi##.sponsoredrow
 facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com##a[aria-label=Mainostaja]
 facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] > [role="article"]:has(b[class]:has-text(Sponsoroitu))
@@ -296,7 +294,6 @@ forssanlehti.fi#?#.herald-sidebar > .widget_text:has(script)
 forssanlehti.fi#?#.herald_posts_widget:has(a[href^="https://www.forssanlehti.fi/kaupallinen-yhteistyo/"])
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
-funtampere.fi##.banner_container
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://casinogorilla.com/fi/nettikasinot/"]
@@ -353,8 +350,8 @@ hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
 hattulaan.fi,reska.fi#?#[class|=ml-adverts]:not(:has(a[href="https://reska.fi/lounasreska/"]))
 hauskimmat.fi##.td-a-rec-id-content_inline
 hauskimmat.fi##.ylapala
-hbl.fi##.section-advertorialer.type-advertorial
-hbl.fi##ksf-adblockers
+hbl.fi##.bg-advertorial
+hbl.fi##.dre-item--feature-advertorial
 heili.fi###sp-alabanneri
 heili.fi##.autoboksi.moduletable
 heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
@@ -392,7 +389,6 @@ huonoaiti.fi#?#.col.article-card.item:has-text(Kaupallinen yhteistyö, yhteisty�
 huuto.net###hise-items-container
 huuto.net#?#.grid-element-container:has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
-hymy.fi##[href="http://www.finswingers.com/"]
 hyvaterveys.fi##.pane-sbase-cts-native-native-front
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
@@ -450,12 +446,12 @@ kaleva.fi#?#aside.sidebar__column-container:has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
 kangasalansanomat.fi##.kaupallinen-general
 kangasalansanomat.fi#?#.td-pb-span6:has-text(Kaupallinen yhteistyö)
-kansalainen.fi##div[id="text-html-widget-5"]
+kansalainen.fi##.herald-module:has(.adsbygoogle)
+kansalainen.fi#?#.herald-module:has([href^="https://revoltnoir.fi/"])
+kansalainen.fi##a[href^="https://revoltnoir.com"]
+kansalainen.fi##a[href="https://www.kielletytkirjat.com/"]
 kansalainen.fi##div[id^=ads]
 kansanuutiset.fi##.cb-sidebar-widget.widget_text
-kansanuutiset.fi##.intextad.clearfix.cb-module-block.cb-box.cb-a-large
-kansanuutiset.fi##A[href="http://www.autonvaraosastore.fi/"]
-kansanuutiset.fi##div[class*=intextad]
 kansanuutiset.fi#?#.cb-module-block.cb-box.cb-a-large.clearfix:has([id|=div-gpt-ad])
 karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
 karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
@@ -611,7 +607,6 @@ mobiili.fi##.textwidget > div[style="width:300px; height:600px;"]
 mobiili.fi##.tops-bar
 mobiili.fi##body.category > div .header_ad
 mobiili.fi##div[class^=article_ad]
-mobiili.fi##img[src^="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl"]
 mobiili.fi#?#.fullarticle:has-text(src="https://mobiili.fi/aaa.png")
 mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; margin-bottom:17px;"]:has-text(MAINOS)
 mobiili.fi#?#p:has(small:has-text(Mainos:))
