@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v8
+! Version: 14July2022v9
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -908,7 +908,6 @@ uutissuora.fi##div[class=td-all-devices]
 vaasalehti.fi#?#h2 > span:has-text(Mainos)
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
 valioliiga.com#?#.menu-item:has([href$="/vedonlyonti/"])
-vanha.kaleva.fi#?#.event-list-item:has(.list-item-advertisement)
 vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div[id=main-content] > div:first-of-type[style="overflow:visible"]
