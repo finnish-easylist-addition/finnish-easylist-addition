@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v9
+! Version: 14July2022v10
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -953,7 +953,9 @@ voima.fi#?#.voima-jutun-sisalla:has(.voima-adlabel)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
-www.io-tech.fi#?#.artikkeli-slide:has(a[href="https://www.io-tech.fi/artikkelit/paras-kannettava-tietokone-luovan-tyon-tekijoille/"])
+www.io-tech.fi#?#.artikkeli-slide:has(img[src*="-nostokuva"])
+www.io-tech.fi#?#.artikkeli-slide:has(img[src*="Ad-otsikko"])
+www.io-tech.fi#?#.artikkeli-slide:has(img[src*="natiivi-otsikko"])
 www.io-tech.fi#?#.view-full.uutinen:has(a[href="https://www.io-tech.fi/category/mainos/"])
 www.is.fi##.advertorial-teaser
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeBottomBoxBanner
