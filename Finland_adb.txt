@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v2
+! Version: 14July2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -801,7 +801,7 @@ suomimobiili.fi##.headermainos
 suomimobiili.fi#?#.article-content > p:has-text(MAINOS)
 suomimobiili.fi#?#.posts-listing-list-alt-b:has-text(Artikkeleita kumppaneilta)
 suomimobiili.fi#?#.posts-list > .list-item:has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
-superlehti.fi##.ad-banner-lift__article.ad-banner-lift
+superlehti.fi##.ad-banner-lift
 supersaa.fi##div[class^=supers-app-promo-container]
 svl.fi##.mainos_banner1
 svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
