@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v4
+! Version: 14July2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -143,6 +143,18 @@ akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##div[class*=omamainos]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
+aland.com###block-local-offers-widget-front
+aland.com##.optionset-imported-ads
+aland.com##.revive-block
+aland.com##.view-imported-ad-ams
+alandstidningen.ax###block-annonsblockx6
+alandstidningen.ax###block-googleaddesktopinsider
+alandstidningen.ax###block-stickyannons
+alandstidningen.ax###block-views-block-company-ads-block-1
+alandstidningen.ax###block-views-block-bilwebben-block-1
+alandstidningen.ax#?#.views-element-container:has(a[href^="https://www.marknaden.ax/annons"])
+alandstidningen.ax#?#.views-element-container:has-text(Annonsnytt)
+alandstidningen.ax##div[id|=block-googleadmaincontent]
 alfatvuutiset.fi##.ugaam-archive-ad-wrapper
 alfatvuutiset.fi#?#.widget_text:has-text(Advertisement)
 alibi.fi##.box--full.grid__container.clearfix
@@ -1018,7 +1030,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
-||deals.innocode.no/api/public/v1/widgets$domain=enontekionsanomat.fi|inarilainen.fi|kainuunsanomat.fi|kittilalehti.fi|kotilappi.fi|kuhmolainen.fi|luoteis-lappi.fi|saariselansanomat.fi|sompio.fi|sotkamolehti.fi|ylakainuu.fi
+||deals.innocode.no/api/public/v1/widgets$domain=aland.com|alandstidningen.ax|enontekionsanomat.fi|inarilainen.fi|kainuunsanomat.fi|kittilalehti.fi|kotilappi.fi|kuhmolainen.fi|luoteis-lappi.fi|saariselansanomat.fi|sompio.fi|sotkamolehti.fi|ylakainuu.fi
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
