@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v5
+! Version: 14July2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -721,7 +721,6 @@ puskaradio.net##.all-adds
 raahenseutu.fi##div[id=outstream]
 radiopori.fi##div[class*=simpleads]
 radiopori.fi##div[id*=mainospaikka]
-radiosun.fi##.omamainos-SUN
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
 rakentaja.fi##div[id=kauppa_hot]
@@ -1065,6 +1064,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||matkaendurot.net/images/*banner
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
 ||media.vuokraovi.com^$third-party
+||menyt.azurewebsites.net/public/js/omamainos-widget4.js$script,domain=radiosun.fi
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
 ||mvlehti.net/image/adv.jpg$image
 ||mvlehti.net/uploads/2021/06/Halvinlaina-Otsikko.jpg$image
