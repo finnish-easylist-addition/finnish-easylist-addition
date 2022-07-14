@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v7
+! Version: 14July2022v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -140,7 +140,6 @@ afterdawn.com,puhelinvertailu.com#?#br:has(+ br + ins[class=adsbygoogle])
 afterdawn.com,puhelinvertailu.com#?#br:has(+ ins[class=adsbygoogle])
 aijaa.com##div.text-center.col-sm-6 > a[rel$=nofollow]
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
-akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##div[class*=omamainos]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
 aland.com###block-local-offers-widget-front
@@ -1065,7 +1064,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||matkaendurot.net/images/*banner
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
 ||media.vuokraovi.com^$third-party
-||menyt.azurewebsites.net/public/js/omamainos-widget4.js$script,domain=radiosun.fi
+||menyt.azurewebsites.net/public/js/omamainos-widget$script,domain=akaanseutu.fi|lvs.fi|orivedensanomat.fi|radiosun.fi|shl.fi|ylojarvenuutiset.fi
 ||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
 ||mvlehti.net/image/adv.jpg$image
 ||mvlehti.net/uploads/2021/06/Halvinlaina-Otsikko.jpg$image
