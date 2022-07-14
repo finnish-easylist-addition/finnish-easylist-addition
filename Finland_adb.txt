@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14July2022v1
+! Version: 14July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -258,6 +258,7 @@ esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuo
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^=ad]
+esports.pallomeri.net##.cb-banneri-uusi
 etlehti.fi,hyvaterveys.fi,soppa365.fi,tiede.fi#?#.views-row:has(.is-commercial)
 etn.fi###annonsspalt
 etn.fi###leaderboard
@@ -446,7 +447,7 @@ kaleva.fi#?#aside.sidebar__column-container:has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
 kangasalansanomat.fi##.kaupallinen-general
 kangasalansanomat.fi#?#.td-pb-span6:has-text(Kaupallinen yhteistyö)
-kansalainen.fi##.herald-module:has(.adsbygoogle)
+kansalainen.fi#?#.herald-module:has(.adsbygoogle)
 kansalainen.fi#?#.herald-module:has([href^="https://revoltnoir.fi/"])
 kansalainen.fi##a[href^="https://revoltnoir.com"]
 kansalainen.fi##a[href="https://www.kielletytkirjat.com/"]
@@ -723,6 +724,7 @@ ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
+ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:has(.poppartners)
 rytmi.com##.jattiboksi-container
 rytmi.com##.sisalto-ilmoitus-mainos
@@ -801,6 +803,8 @@ suomimobiili.fi#?#.posts-listing-list-alt-b:has-text(Artikkeleita kumppaneilta)
 suomimobiili.fi#?#.posts-list > .list-item:has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
 superlehti.fi##.ad-banner-lift__article.ad-banner-lift
 supersaa.fi##div[class^=supers-app-promo-container]
+svl.fi##.mainos_banner1
+svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
 taisto.org###mw-data-after-content > div
 taisto.org##a[id=top] ~ [id=siteNotice][class=mw-body-content]
 talouselama.fi##[id=skyscraper-height-div] > div > main > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^=sc-]
