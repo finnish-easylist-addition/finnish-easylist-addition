@@ -10,11 +10,6 @@ golfpiste.com##.section-wrapper > .has-ad-right:has(+ .section--ad:matches-css(d
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
-iltalehti.fi##:matches-path(/raha/) .card.category-double-article-container:empty
-
-! Temporary disabling, seems to cause iltalehti to load more slower...
-! iltalehti.fi##.category-double-article-container:has(.half-article:matches-css(display:none)+ .half-article:matches-css(display:none))
-
 kaaoszine.fi##article.post:has-text(Kaupallinen yhteistyö):style(height: 1px !important; width: 1px !important; margin-right: 0px !important)
 kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
@@ -28,8 +23,6 @@ nyan.ax##.widget_adrotate_widgets:remove()
 nyan.ax##.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner']):remove()
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
-telsu.fi##div[id^=gp-]:upward(1)
-telsu.fi##div[style^="font-size:20px;padding:"][style$="px;margin:20px;background:#fff;line-height:25px;"]
 verkkouutiset.fi##article.featured-post:has-text(Mainos):remove()
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"]:style(padding-left: 0px !important)
