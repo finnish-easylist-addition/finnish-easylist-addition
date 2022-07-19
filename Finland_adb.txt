@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17July2022v1
+! Version: 19July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -424,7 +424,7 @@ inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:has([class$=lazy-load-active])
-irc-galleria.net##div[id^=Nostemedia_Desktop]
+irc-galleria.net,tilannehuone.fi##div[id^=Nostemedia_Desktop]
 irc-galleria.net##div[id^=open_]
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
 is.fi###kumppaneiden-tarjoukset
@@ -467,8 +467,6 @@ kansalainen.fi#?#.herald-module:has([href^="https://revoltnoir.fi/"])
 kansalainen.fi##a[href^="https://revoltnoir.com"]
 kansalainen.fi##a[href="https://www.kielletytkirjat.com/"]
 kansalainen.fi##div[id^=ads]
-kansanuutiset.fi##.cb-sidebar-widget.widget_text
-kansanuutiset.fi#?#.cb-module-block.cb-box.cb-a-large.clearfix:has([id|=div-gpt-ad])
 karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
 karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
@@ -874,6 +872,9 @@ terveydenasialla.com#?#p:has(strong):has(a[href="http://www.curaofsweden.com/fi"
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:has(> [id|=ad-slot])
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
+tilannehuone.fi#?##cnt_lista tr:has(.mainosinline) + tr:has(> .divid)
+tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
+tilannehuone.fi##[class^=mainos]
 tilt.fi##.lazyloading
 tinderinparhaat.com##.adf-placement-top
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
