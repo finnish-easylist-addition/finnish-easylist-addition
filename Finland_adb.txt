@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21July2022v1
+! Version: 22July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -563,6 +563,8 @@ ls24.fi##aside[class=sidebar] > [class^="advertisement ad advertisement"] + [cla
 ls24.fi##div[class^=advertisement]
 ls24.fi#?#.article-block__list-article:has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
 ls24.fi#?#.article-list--article:has-text(Kaupallinen yhteistyö)
+ls24.fi#?#.js-article-block:has(span[class$=commercial-label])
+ls24.fi#?#.js-article-block:has(span[class$=commercial-label]) + .article-blocks-2022-divider
 ls24.fi#?#article[class].article-block:has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
 ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(Kaupallinen yhteistyö)
 luukku.com###banneri_yla
@@ -734,6 +736,7 @@ rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.ad-empty
 rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class=optin-monster-saas-overlay]
+rantapallo.fi##div[id|=almad]
 ratkojat.fi###adslot_bottom
 ratkojat.fi###adslot_search
 ratkojat.fi###topslot
