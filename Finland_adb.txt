@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 23July2022v1
+! Version: 23July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -957,9 +957,9 @@ verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
-viikkopk.fi##.artikkeliad
 viikkopk.fi##.banner-mainos
 viikkopk.fi##.mobiiliylabanner
+viikkopk.fi##div[class*=artikkeliad]
 viikonloppu.com###text-8
 viikonloppu.com###text-9
 viikonloppu.com#?#.listing-item:has(> .item-inner > .native-title)
