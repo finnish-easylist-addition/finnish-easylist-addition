@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 22July2022v1
+! Version: 23July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -469,6 +469,13 @@ kansalainen.fi#?#.herald-module:has([href^="https://revoltnoir.fi/"])
 kansalainen.fi##a[href^="https://revoltnoir.com"]
 kansalainen.fi##a[href="https://www.kielletytkirjat.com/"]
 kansalainen.fi##div[id^=ads]
+kansantahto.fi##.elementor-element-2770b68
+kansantahto.fi##.elementor-element-3e26be8
+kansantahto.fi##.elementor-element-44ffbd5
+kansantahto.fi##.elementor-element-54b7f6f
+kansantahto.fi##.elementor-element-abfd7ba
+kansantahto.fi#?#.elementor-widget-divider:has-text(Mainos)
+kansantahto.fi#?#.strike:has-text(Mainos)
 karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
 karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
@@ -551,10 +558,12 @@ leffatykki.com###ad-300x150
 leffatykki.com###ad-300x300
 leffatykki.com##div[class="ad230x90"]
 leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
+lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net#?#li:has([href^="https://track.adtraction.com/"])
 liberolehti.fi#?#[id|=etusivu-bottom-full]:has(.mainos)
 listafriikki.com#?#.widget_custom_html:has([data-ad-unit])
 livetaajuus.fi##.middle-ad-container
+lounaspori.fi##.type-banner
 ls24.fi##.article-blocks-2022-divider:not(.article-block--2022 + .article-blocks-2022-divider)
 ls24.fi##.asuntorauma-promo
 ls24.fi##.page-section--commercial
@@ -752,6 +761,7 @@ sammysatv.com##a[href*=banner]
 satakunnankansa.fi##div[class=s-ryhma-carousel-wrapper]
 satakunnankansa.fi##div[class^=adContainer]
 satakunnankansa.fi#?#article.list:has-text(Mainokset)
+satakunnanviikko.fi##.panoraama_etus
 seiska.fi###inhouse_ad
 seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
@@ -902,6 +912,8 @@ tvmatsit.com##.annons
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 ulvilanseutu.fi###right-sidebar
 ulvilanseutu.fi##.adsanity-single
+ulvilanseutu.fi#?#.elementor-widget-container:has-text(MAINOS)
+ulvilanseutu.fi##.top-bar
 urjalansanomat.fi##.cat-kaupallinen-yhteistyo
 urjalansanomat.fi#?#.urjal-widget.main:has(a[href="https://urjalansanomat.fi/verkkomainonta/"])
 urjalansanomat.fi#?#.urjal-widget.main:has(a[href="https://ysiauto.fi/"])
@@ -945,6 +957,9 @@ verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
+viikkopk.fi##.artikkeliad
+viikkopk.fi##.banner-mainos
+viikkopk.fi##.mobiiliylabanner
 viikonloppu.com###text-8
 viikonloppu.com###text-9
 viikonloppu.com#?#.listing-item:has(> .item-inner > .native-title)
@@ -999,6 +1014,23 @@ www.uusisuomi.fi#?#div[width]:has(> [id|="almad-parade"])
 www.uusisuomi.fi#?#main > div[class]:has-text(Kaupallinen yhteistyö)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
+ykkoslohja.fi#?##sidebar-widgets-area-1 > .widget:has-text(Mainos)
+ykkoslohja.fi##.bfastmag-a-d-v
+ykkoslohja.fi#?#.widget:has([href^="https://c.trackmytarget.com?"])
+ykkoslohja.fi#?#.widget:has([href^="https://kauppa.latvala.com"])
+ykkoslohja.fi#?#.widget:has([href^="https://med.etoro.com/"])
+ykkoslohja.fi#?#.widget:has([href^="http://pizza-online.fi/tt/"])
+ykkoslohja.fi#?#.widget:has([href^="https://tc.tradetracker.net/"])
+ykkoslohja.fi#?#.widget:has([href^="https://track.adtraction.com/"])
+ykkoslohja.fi#?#.widget:has([href^="https://www.awin1.com/"])
+ykkoslohja.fi#?#.widget:has([src^="https://track.adtraction.com/"])
+ykkoslohja.fi#?#.widget:has(h2:only-child):has(+ .widget [href^="https://c.trackmytarget.com?"])
+ykkoslohja.fi#?#.widget:has(h2:only-child):has(+ .widget [href^="https://www.awin1.com/"])
+ykkoslohja.fi#?#.widget:has(h2:only-child):has(+ .widget [src^="https://track.adtraction.com/"])
+ykkoslohja.fi#?#.widget:has-text(tradedoubler.com)
+ykkoslohja.fi#?#.wp-block-columns:has([href^="https://c.trackmytarget.com?"])
+ykkoslohja.fi##a[href="https://ostalohjalta.fi"]
+ykkoslohja.fi##a[href="https://ostavihdista.fi"]
 ylasatakunta.fi##.ad[class*=panorama]
 ylasatakunta.fi##.ad[class*=paraati]
 ylasatakunta.fi##.ad[class*=ylaboksi]
