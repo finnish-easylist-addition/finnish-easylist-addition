@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 24July2022v4
+! Version: 24July2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1217,7 +1217,6 @@ arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniik
 
 ! Prevent clicking video ads on MTV Oy
 mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-container
-||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|studio55.fi|msn.com
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js
 
@@ -1231,7 +1230,6 @@ murha.info#@#.adsbox
 @@||adform.net/banners/scripts/adx.js$xmlhttprequest,domain=fcdn.lauta.media
 
 ! Redirect resources
-||damoh.katsomo.fi^$media,rewrite=abp-resource:blank-mp3,domain=msn.com|mtv.fi|mtvuutiset.fi|studio55.fi|suomiareena.fi
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
