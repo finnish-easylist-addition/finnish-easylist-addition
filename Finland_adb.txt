@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 24July2022v5
+! Version: 24July2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1290,7 +1290,6 @@ kotiliesi.fi##.placeholder
 ! Redundant? Videos seem to work on gamereactor.fi
 ! @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
 @@||leiki.com$domain=etuovi.com|iltalehti.fi
-@@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
 anna.fi#@#.sponsored-content
