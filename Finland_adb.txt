@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v3
+! Version: 25July2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1305,10 +1305,6 @@ kaksplus.fi#@#.sponsored-content
 
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/commit/8bf469a005a552a6c6819ed8daa92aa1aa72da42
 ! https://github.com/easylist/easylist/pull/11542
-
-! https://github.com/easylist/easylist/issues/12507
-! https://github.com/easylist/easylist/issues/12685
-@@||survey.userneeds.com^$subdocument,domain=foreca.fi
 
 ! https://github.com/easylist/easylist/issues/12681
 @@||v.fwmrm.net/ad/g/*Nelonen*_HTML5_Live$script
