@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v1
+! Version: 25July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1253,10 +1253,6 @@ kotiliesi.fi##.placeholder
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
-! General Media unbreakers
-@@||fwmrm.net/ad/*Supla_Audio_HTML5_Live$script
-@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
-
 ! Exception to Lowe's list - it removes some boxes
 @@||conductrics.com^$script,domain=elisa.fi
 
@@ -1314,3 +1310,6 @@ iltalehti.fi#@#.ad-placement
 ! https://github.com/easylist/easylist/issues/12507
 ! https://github.com/easylist/easylist/issues/12685
 @@||survey.userneeds.com^$subdocument,domain=foreca.fi
+
+! https://github.com/easylist/easylist/issues/12681
+@@||v.fwmrm.net/ad/g/*Nelonen*_HTML5_Live$script
