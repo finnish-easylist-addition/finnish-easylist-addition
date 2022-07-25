@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v5
+! Version: 25July2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -166,8 +166,9 @@ alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipp
 alibi.fi,hymy.fi##[href*="paratiisi.fi"]
 alueviesti.fi###front_after_menu
 alueviesti.fi##.soliloquy-link
-alypaa.com##[class^=banner-slot-preroll]
+alypaa.com##.ad.right-col-box
 alypaa.com#?#.section-inner:has(> .banner-slot)
+alypaa.com##[class^=banner-slot-preroll]
 ampparit.com##.ad-nettiauto
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
@@ -606,7 +607,7 @@ mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div[class]:has(> a[href="/kumppanisisaltoa"])
-mediuutiset.fi#?#div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
+mediuutiset.fi#?#body:not(.is-style-kumppanisisallot) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 mediuutiset.fi#?#div[width]:has([id|="almad"]:not([id|="almad-mobileParade"]))
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
 meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
@@ -637,6 +638,8 @@ mobiili.fi##div[class^=article_ad]
 mobiili.fi#?#.fullarticle:has-text(src="https://mobiili.fi/aaa.png")
 mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; margin-bottom:17px;"]:has-text(MAINOS)
 mobiili.fi#?#p:has(small:has-text(Mainos:))
+monster.fi##.block--monsterfi-ads
+monster.fi##.epiq-landing-row--frontpage-leaderboard-ad
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.container.g-bg.ads.sidebar.item
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
@@ -907,6 +910,7 @@ tori.fi##div[id=panorama_top]
 tori.fi##div[id=panorama_topmost]
 traktorpool.fi##.billboard
 tulikulma.fi##.slideshow
+tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
 tvmatsit.com##.annons
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 ulvilanseutu.fi###right-sidebar
@@ -1009,7 +1013,7 @@ www.ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:has(.noad-hideaction-sel
 www.uusisuomi.fi#?#.lazyload-wrapper:has(.at-embed-container)
 www.uusisuomi.fi#?#aside > section:has-text(Kaupallinen yhteistyö)
 www.uusisuomi.fi#?#div[width]:has(> [id|="almad-parade"])
-www.uusisuomi.fi#?#main > div[class]:has-text(Kaupallinen yhteistyö)
+www.uusisuomi.fi#?#body:not(.is-style-kumppanisisallot) main > div[class]:has-text(Kaupallinen yhteistyö)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
 ykkoslohja.fi#?##sidebar-widgets-area-1 > .widget:has-text(Mainos)
@@ -1290,10 +1294,10 @@ kotiliesi.fi##.placeholder
 @@||leiki.com$domain=etuovi.com|iltalehti.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
-anna.fi#@#.sponsored-content
+anna.fi,kaksplus.fi#@#.sponsored-content
 hs.fi#@#.mainokset
 hs.fi,tilannehuone.fi#@#.mainos
-kaksplus.fi#@#.sponsored-content
+tuntopalvelu.fi#@#.list-ads
 
 ! -----UNBREAK END-----
 
