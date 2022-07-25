@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v6
+! Version: 25July2022v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -605,9 +605,9 @@ marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > 
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
-mediuutiset.fi##section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
+mediuutiset.fi#?#body:not(nav:has(li[selected] > a[href="/kumppanisisaltoa"])) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div[class]:has(> a[href="/kumppanisisaltoa"])
-mediuutiset.fi#?#body:not(.is-style-kumppanisisallot) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
+mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(nav:has(li[selected] > a[href="/kumppanisisaltoa"])) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 mediuutiset.fi#?#div[width]:has([id|="almad"]:not([id|="almad-mobileParade"]))
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
 meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
@@ -840,9 +840,9 @@ svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
 taisto.org###mw-data-after-content > div
 taisto.org##a[id=top] ~ [id=siteNotice][class=mw-body-content]
 talouselama.fi##[id=skyscraper-height-div] > div > main > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^=sc-]
-talouselama.fi##a[href^="https://www.talouselama.fi/kumppanisisallot/"]
+talouselama.fi##a[href^="https://www.talouselama.fi/kumppanisisallot/"]:not(section > a)
 talouselama.fi#?#.lazyload-wrapper:has([id|=almad])
-talouselama.fi#?#[class]:has(> a[href^="https://www.talouselama.fi/kumppanisisallot/"])
+talouselama.fi#?#[class]:has(> a[href^="https://www.talouselama.fi/kumppanisisallot/"]):not(section)
 talouselama.fi#?#[id|=podcasti]:has-text(Kaupallinen Yhteistyö)
 talouselama.fi#?#div.article-body > div:has(> div.LazyLoad.is-visible)
 talouselama.fi#?#div[width]:has(.lazyload-wrapper)
