@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v8
+! Version: 25July2022v9
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -195,7 +195,7 @@ arvokisat.com,herkkusuut.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,n
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##.td-post-content > .social-share  ~ *
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:has(.tdt-ad-wrap)
 arvopaperi.fi##.ads-parade-wrapper
-arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]
+arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]:not(section > a)
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
@@ -481,9 +481,9 @@ karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
 karjalainen.fi#?#a[href*=kiinnostuitko]:has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
-kauppalehti.fi##a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
+kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
 kauppalehti.fi#?##coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
-kauppalehti.fi#?#[class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
+kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#div[class][width]:has(> .ad)
 kauppalehti.fi,talouselama.fi#?#div[class]:has(> .lazyload-wrapper > .etua-react-embed)
 keskipohjanmaa.fi#?#.col-xs-12.col-sm-6.col-md-12:has-text(mainosartikkelit)
