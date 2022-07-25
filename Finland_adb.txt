@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v10
+! Version: 25July2022v11
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -606,9 +606,9 @@ matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
 mediuutiset.fi#?#aside div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"])
-mediuutiset.fi#?#body:not(nav:has(li[selected] > a[href="/kumppanisisaltoa"])):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
+mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div[class]:has(> a[href="/kumppanisisaltoa"])
-mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(nav:has(li[selected] > a[href="/kumppanisisaltoa"])):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
+mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 mediuutiset.fi#?#div[width]:has([id|="almad"]:not([id|="almad-mobileParade"]))
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
 meillakotona.fi,terve.fi#?#div[class*=feed__adSlot]
