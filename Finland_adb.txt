@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25July2022v11
+! Version: 28July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -892,7 +892,7 @@ ticketmaster.fi#?#div:has(> [id|=ad-slot])
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
 tilannehuone.fi#?##cnt_lista tr:has(.mainosinline) + tr:has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
-tilannehuone.fi##[class^=mainos]:not(> [action="/halytys_login.php"])
+tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilt.fi##.lazyloading
 tinderinparhaat.com##.adf-placement-top
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
