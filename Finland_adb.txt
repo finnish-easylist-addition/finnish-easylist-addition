@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 28July2022v3
+! Version: 28July2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1086,9 +1086,8 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
 ||feed.etuovi.com/etuovi/html/*.html$subdocument
-||gamereactor.*/lay/dfp_*.js$script
+||gamereactor.fi^*/videojs.ads.js$script,domain=gamereactor.fi
 ||hifimaailma.fi/neodirect/static/*/karuselli$image
-||hinta.fi/a/img/$image
 ||hintaopas.fi^$third-party
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
 ||honestpartners.com^$third-party
@@ -1096,29 +1095,29 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||ig.fi/bannerit/koronabanneri.png$image
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
-||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image
+||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image,domain=is.fi
 ||kaasujalka.fi/assets/banners/$image,domain=kaasujalka.fi
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
-||karjalainen.fi/images/banners/kiinnostuitko$image
-||kelkkalehti.com/bannerit/$image
-||keskustelu.pakkotoisto.com/bannerit/$image
-||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image
-||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image
+||karjalainen.fi/images/banners/kiinnostuitko$image,domain=karjalainen.fi
+||kelkkalehti.com/bannerit/$image,domain=kelkkalehti.com
+||keskustelu.pakkotoisto.com/bannerit/$image,domain=keskustelu.pakkotoisto.com
+||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image,domain=kinuskikissa.fi
+||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image,domain=kiuruvesilehti.fi
 ||kotikarjala.fi/eneo?tem=ndap_ilmoitus&$xmlhttprequest,domain=kotikarjala.fi
 ||kotiliesi.fi/upotukset/hintaopas/*$domain=tekniikanmaailma.fi
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||laitilansanomat.fi^*/gallery/mainos*/$image,domain=laitilansanomat.fi
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
-||m.riemurasia.net/reklaami.php$subdocument
-||matkaendurot.net/images/*banner
+||m.riemurasia.net/reklaami.php$subdocument,domain=m.riemurasia.net
+||matkaendurot.net/images/*banner,domain=matkaendurot.net
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
 ||media.vuokraovi.com^$third-party
 ||menyt.azurewebsites.net/public/js/omamainos-widget$script,domain=akaanseutu.fi|lvs.fi|orivedensanomat.fi|radiosun.fi|shl.fi|ylojarvenuutiset.fi
-||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image
-||mvlehti.net/image/adv.jpg$image
-||mvlehti.net/uploads/2021/06/Halvinlaina-Otsikko.jpg$image
+||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image,domain=mobiili.fi
+||mvlehti.net/image/adv.jpg$image,domain=mvlehti.net
+||mvlehti.net/uploads/2021/06/Halvinlaina-Otsikko.jpg$image,domain=mvlehti.net
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
 ||no-cache.hubspot.com/cta/$image,domain=sijoittaja.fi
@@ -1127,7 +1126,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
 ||rantapallo.fi^$third-party
 ||revimages.motouutiset.fi^$third-party
-||ridemedia.fi/aspbanner
+||ridemedia.fi/aspbanner$domain=ridemedia.fi
 ||riemurasia.net/js/ads.js$script
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
