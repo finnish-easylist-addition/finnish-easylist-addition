@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 28July2022v4
+! Version: 29July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -198,6 +198,7 @@ arvopaperi.fi##.ads-parade-wrapper
 arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]:not(section > a)
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
+askelterveyteen.com##.ads__article__header
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 audiovideo.fi##.head.the-wrap
