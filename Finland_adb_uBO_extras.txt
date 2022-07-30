@@ -63,6 +63,7 @@ afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.remo
 ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
 finder.fi##+js(rc, Profile__TopCard--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList--advertisement, , stay)
+findit.fi##+js(acs, testPrebid)
 gamereactor.fi##+js(aopr, adblockEnabled)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
