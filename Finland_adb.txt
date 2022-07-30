@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 30July2022v1
+! Version: 30July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -302,6 +302,7 @@ finder.fi##.Advertisement__Box
 finder.fi##.Advertisement__Box--with-padding
 finder.fi##.Advertisement__Top
 finder.fi##.FrontPageSpots__Ad
+findit.fi##.banner_middle
 findit.fi##.banner-wrapper
 finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
 finnkino.fi#?#.content-article.h-container:has(#FKM-paraati)
