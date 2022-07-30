@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 29July2022v3
+! Version: 30July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -291,6 +291,9 @@ feissarimokat.com###logopal
 feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
+fillaritori.com###fillaritori_mobileheader
+fillaritori.com###ipsLayout_mainArea > center:first-child
+fillaritori.com##.ipsLayout_sidebarright
 findance.com##div[id^=adslot_content]
 findance.com##div[id^=adslot_sidebar]
 findance.com#?#p:has(> [rel=sponsored])
@@ -299,6 +302,7 @@ finder.fi##.Advertisement__Box
 finder.fi##.Advertisement__Box--with-padding
 finder.fi##.Advertisement__Top
 finder.fi##.FrontPageSpots__Ad
+findit.fi##.banner-wrapper
 finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
 finnkino.fi#?#.content-article.h-container:has(#FKM-paraati)
 finnkino.fi##.in-list-ad-containers
@@ -321,6 +325,9 @@ futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://ww
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever ~ div:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
+futisforum2.org###div-ff2-top
+futisforum2.org#?#.windowbg3:has(#div-ff2-bottom)
+futissuomi.fi#?#.elementor-widget:has(img[data-image-title^="MAINOS"])
 gamereactor.fi###adContainer
 gamereactor.fi###ad_topScroller
 gamereactor.fi###bigVideoAd_content
@@ -340,6 +347,10 @@ gekkonen.net##.tdm_block_pricing
 gekkonen.net#?#.code-block:has(ins[class="adsbygoogle"])
 gekkonen.net#?#.td_block_wrap.td-pb-border-top.td_flex_block:has(a[href="https://gekkonen.net/nettikasinot/"])
 gekkonen.net#?#.td_block_wrap.td_block_text_with_title:has-text(/kasino/i)
+gekkonen.net##.wpforo-ad
+gekkonen.net#?#.widget:has(.adsbygoogle)
+gekkonen.net#?#.widget:has([rel^="https://affmore.com/"])
+gekkonen.net##a[href^="https://record.njordaffiliates.com/"]
 glu.fi#?#li:has(.adsbygoogle)
 glu.fi#?#ul.link:has(a[href^="http://clk.tradedoubler.com/"])
 golfpiste.com##.carousel-cell--native
@@ -418,6 +429,7 @@ ilkkapohjalainen.fi##div[data-lazy-ad-unit-id]
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:has(> [id^=div-gpt-ad])
+impe.fi##[class^=mainospaikka]
 inarilainen.fi,sompio.fi##.paraati1
 inarilainen.fi,sompio.fi##.pikkusentteri1
 inarilainen.fi,sompio.fi##[href^="/ilmoitus/mainostajan-artikkeli"]
@@ -732,6 +744,8 @@ pointti.fi##.natiivimainos
 pointti.fi##.paraati
 poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widget
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
+pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
+pottupellossa.fi#?#.widget_text:has-text(Mainos)
 pt-media.org##[href^="https://kasinopartio.com/"]
 pt-media.org#?#section:has(> a[href="https://nocompromiseclothing.com/"])
 puheenaiheet.fi##div[class=wpb_wrapper]
