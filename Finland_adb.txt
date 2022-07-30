@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 30July2022v7
+! Version: 31July2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1178,6 +1178,7 @@ iltalehti.fi##.etua-widget-container
 iltalehti.fi##.etuovi-embed-placeholder
 iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
 iltalehti.fi##.parade-ad-container
+iltalehti.fi##.recommendation-carousel-svod.recommendation-carousel
 iltalehti.fi##.slider-content
 iltalehti.fi##.telkku-ads
 iltalehti.fi##[class|="almad-mobile-parade"]
@@ -1188,9 +1189,9 @@ iltalehti.fi#?#.card:has(.etua-widget-container)
 iltalehti.fi#?#.category-double-article-container:has(.half-article:nth-child(1):has-text(Kaupallinen yhteistyö) + .half-article:nth-child(2):has-text(Kaupallinen yhteistyö))
 iltalehti.fi#?#.embed-placeholder:has(> div > .eo-embed-announcements-container.card)
 iltalehti.fi#?#.side-column-content .card:has(.nettiauto-sponsored-content-text)
+iltalehti.fi#?#a.articles__list-item[href^="/telkku/"]:has(p.articles__sponsored-banner)
 iltalehti.fi#?#a.small-article:has-text(Kaupallinen yhteistyö)
 iltalehti.fi#?#div.card:has-text(Mainos:)
-iltalehti.fi#?#div.fp-container.card:has-text(Kaupallinen yhteistyö)
 iltalehti.fi#?#div.fp-container.card:has([href*=clark-taloutesi-tukena])
 iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi"][src*=KAUPALLINEN][src*=YHTEISTY])
 iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi"][src*=kaupallinenyht i])
@@ -1202,6 +1203,7 @@ iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi/Nauha_Rantapallo"])
 iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi/asuminen_vattenfall_palkki"])
 iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers"])
 iltalehti.fi#?#div.fp-container.card:has([src*="ilcdn.fi/mainosnauhta"])
+iltalehti.fi#?#div.fp-container.card:has-text(Kaupallinen yhteistyö)
 iltalehti.fi#?#div.is-visible.LazyLoad:has-text(kaupallinen yhteistyö)
 
 ! Temporal compatibility fixes until new selector engine is in use: https://github.com/AdguardTeam/ExtendedCss/issues/110
