@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 30July2022v5
+! Version: 30July2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1154,6 +1154,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||telsu.fi/telsu_top
 ||testeri.fi/ext_telsu$subdocument
 ||testeri.fi/inc/museokortti.png$image
+||tiketti.fi/tiedostot/*/Tiketti*_Paraati_$image,domain=tiketti.fi
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tokentube.net/f_scripts/shared/videojs/ads.vast.js$script
 ||tokentube.net/vast?t=vjs&v=*$xmlhttprequest
