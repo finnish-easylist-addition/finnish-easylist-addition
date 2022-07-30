@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 30July2022v3
+! Version: 30July2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -904,6 +904,7 @@ terve.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-t
 terveydenasialla.com##a[href^="https://on.vallila.fi/"]
 terveydenasialla.com##p a[href^="https://related.iittala.com/"]
 terveydenasialla.com#?#p:has(strong):has(a[href="http://www.curaofsweden.com/fi"])
+tiketti.fi###front_big_event > span
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:has(> [id|=ad-slot])
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
