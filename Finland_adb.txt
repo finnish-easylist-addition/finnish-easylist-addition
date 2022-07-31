@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 31July2022v3
+! Version: 01August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -445,6 +445,7 @@ irc-galleria.net,tilannehuone.fi##div[id^=Nostemedia_Desktop]
 irc-galleria.net##div[id^=open_]
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
 is.fi###kumppaneiden-tarjoukset
+is.fi##.advertorial-teaser
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
 is.fi##.is-advertorial.external.full-width.teaser
 is.fi##.ticker-promo-10
@@ -1006,7 +1007,6 @@ www.io-tech.fi#?#.artikkeli-slide:has(img[src*="-nostokuva"])
 www.io-tech.fi#?#.artikkeli-slide:has(img[src*="Ad-otsikko"])
 www.io-tech.fi#?#.artikkeli-slide:has(img[src*="natiivi-otsikko"])
 www.io-tech.fi#?#.view-full.uutinen:has(a[href="https://www.io-tech.fi/category/mainos/"])
-www.is.fi##.advertorial-teaser
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeBottomBoxBanner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeTopBoxBanner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###huge_banner
