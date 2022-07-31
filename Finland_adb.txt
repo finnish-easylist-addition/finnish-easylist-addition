@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 31July2022v1
+! Version: 31July2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1295,9 +1295,8 @@ kotiliesi.fi##.placeholder
 ! Lowe's list exception, cookie dialog won't open
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 
-! To fix the opening of dna.fi / cdon.fi product links on hinta.fi
-@@||adform.net^$~third-party
-@@||tradedoubler.com^$~third-party
+! To fix the opening of dna.fi product links on hinta.fi
+@@||track.adform.net/*dna.fi/*$document,domain=track.adform.net
 
 ! Unbreak Telia password change (maybe other functions as well), endless loading
 @@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
