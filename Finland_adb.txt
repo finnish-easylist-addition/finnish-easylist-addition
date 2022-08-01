@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 01August2022v1
+! Version: 01August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -249,6 +249,7 @@ duunitori.fi##.js-fragment-web-lazy_carousel
 edukas.fi##.compareGoogleCell
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
+elmotv.com##.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
 elmotv.com##[class^=mstila]
 elmotv.com##[href^="https://promo.leovegas.com/"]
 elmotv.com##[href^="https://www.leovegas.com/"]
@@ -354,10 +355,12 @@ gekkonen.net#?#.widget:has([rel^="https://affmore.com/"])
 gekkonen.net##a[href^="https://record.njordaffiliates.com/"]
 glu.fi#?#li:has(.adsbygoogle)
 glu.fi#?#ul.link:has(a[href^="http://clk.tradedoubler.com/"])
+golfpiste.com###gp-natives
 golfpiste.com##.carousel-cell--native
 golfpiste.com##.golfliitto-articles__commercial
 golfpiste.com##.main-native
 golfpiste.com##.native-carousel
+golfpiste.com##.section--ad__panorama
 golfpiste.com##.section--ad__rectangle
 golfpiste.com##.section-native-list
 gti.fi#?#.wall-item__container:has-text(Mainos)
@@ -798,6 +801,8 @@ selanne-lehti.fi##.mainospalsta
 seura.fi#?#.grid__item_lg-1.grid__item_1:has(.dfp-advertisement)
 seura.fi#?#section[class=entry-body] > p:has-text(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
+sijoittaja.fi##.a-281.g-single
+sijoittaja.fi#?#.frontpage#content:has(.hs-cta-wrapper)
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
 sijoitustieto.fi#?#p > em > strong:has-text(Kaupallinen yhteistyö:)
 sketsi.net##footer > .container.tdt-ad-wrap
@@ -907,6 +912,7 @@ terveydenasialla.com##a[href^="https://on.vallila.fi/"]
 terveydenasialla.com##p a[href^="https://related.iittala.com/"]
 terveydenasialla.com#?#p:has(strong):has(a[href="http://www.curaofsweden.com/fi"])
 tiketti.fi###front_big_event > span
+tiketti.fi#?#.itemwide:has([href="https://www.nextory.fi/partner-collaboration/tiketti/"])
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:has(> [id|=ad-slot])
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
@@ -934,6 +940,7 @@ traktorpool.fi##.billboard
 tulikulma.fi##.slideshow
 tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
 tvmatsit.com##.annons
+tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 ulvilanseutu.fi###right-sidebar
 ulvilanseutu.fi##.adsanity-single
