@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 01August2022v3
+! Version: 01August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -249,16 +249,16 @@ duunitori.fi##.js-fragment-web-lazy_carousel
 edukas.fi##.compareGoogleCell
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
-elmotv.com##.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
 elmotv.com##[class^=mstila]
 elmotv.com##[href^="https://promo.leovegas.com/"]
 elmotv.com##[href^="https://www.leovegas.com/"]
-elmotv.com#?#[href]:has-text(LeoVegas)
 elmotv.com##a[href^="https://ads.expekt.se/"]
 elmotv.com##a[href^="https://www.expekt.com/"]
 elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
 elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
+elmotv.com#?#.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
+elmotv.com#?#[href]:has-text(LeoVegas)
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
 enontekionsanomat.fi,kittilalehti.fi,luoteis-lappi.fi##.isosentteri1
 enontekionsanomat.fi,kittilalehti.fi,luoteis-lappi.fi##.paraati1
