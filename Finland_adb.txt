@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 02August2022v1
+! Version: 03August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -628,6 +628,11 @@ marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > 
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
 mbnet.fi##div#tyopaikat-joblift--avainpaikat
+mediaviikko.fi##amp-layout[amp-access^="popups."][role=button]
+mediaviikko.fi##a[href="https://mailapro.fi/"]
+mediaviikko.fi##a[href="https://urheilutuet.fi/"]
+mediaviikko.fi##a[href="https://vesikourut.fi/"]
+mediaviikko.fi#?#.wp-block-column:has(aside figure > a[href="https://www.hopealanka.fi"])
 mediuutiset.fi#?#aside div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"])
 mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#div[class]:has(> a[href="/kumppanisisaltoa"])
