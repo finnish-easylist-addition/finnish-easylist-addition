@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 04August2022v3
+! Version: 04August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -491,6 +491,7 @@ kaleva.fi#?#.media-site__widget-container:has( * .media-widget__title:has-text(K
 kaleva.fi#?#aside.sidebar__column-container:has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
 kangasalansanomat.fi##.kaupallinen-general
+kangasalansanomat.fi##.ksnote
 kangasalansanomat.fi#?#.td-pb-span6:has-text(Kaupallinen yhteistyö)
 kansalainen.fi#?#.herald-module:has(.adsbygoogle)
 kansalainen.fi#?#.herald-module:has([href^="https://revoltnoir.fi/"])
