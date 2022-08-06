@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 06August2022v4
+! Version: 06August2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -134,6 +134,7 @@ afterdawn.com#?#.video:has(+ div#bb-iawr-defaultPlayout-afterdawn_com_)
 afterdawn.com,puhelinvertailu.com#?#br:has(+ br + ins[class=adsbygoogle])
 afterdawn.com,puhelinvertailu.com#?#br:has(+ ins[class=adsbygoogle])
 aijaa.com##div.text-center.col-sm-6 > a[rel$=nofollow]
+aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com##.bc--grey-neutral-50
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
@@ -193,9 +194,6 @@ arvopaperi.fi##.ads-parade-wrapper
 arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]:not(section > a)
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
-aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com##.card-article-ads
-aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com##.ads__article__header
-aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com#?#.bc--grey-neutral-50:has(.ad-slot)
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 audiovideo.fi##.head.the-wrap
