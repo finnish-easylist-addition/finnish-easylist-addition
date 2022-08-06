@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 06August2022v3
+! Version: 06August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -193,8 +193,9 @@ arvopaperi.fi##.ads-parade-wrapper
 arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_self"]:not(section > a)
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
-askelterveyteen.com##.ads__article__header
-askelterveyteen.com#?#.bc--grey-neutral-50:has(.ad-slot)
+aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com##.card-article-ads
+aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com##.ads__article__header
+aitiydenihme.fi,askelterveyteen.fi,mielenihmeet.fi,myanimals.com#?#.bc--grey-neutral-50:has(.ad-slot)
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 audiovideo.fi##.head.the-wrap
@@ -646,7 +647,6 @@ meillakotona.fi,terve.fi##div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:has(a[href^="https://www.metropoli.net/rahapelit/"])
-mielenihmeet.fi##.card-article-ads
 mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
