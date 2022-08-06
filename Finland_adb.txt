@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 06August2022v2
+! Version: 06August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -194,6 +194,7 @@ arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_s
 arvopaperi.fi#?#div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,uusisuomi.fi#?#[width]:has(.lazyload-wrapper):not(aside)
 askelterveyteen.com##.ads__article__header
+askelterveyteen.com#?#.bc--grey-neutral-50:has(.ad-slot)
 assembly.org#?#div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 audiovideo.fi##.head.the-wrap
@@ -528,7 +529,7 @@ kiinteistolehti.fi##.mpc-row.vc_custom_1515749959295.vc_row-fluid.wpb_row.vc_row
 kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
 kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
-klangi.fi##.banner
+klangi.fi,paakallo.fi##.banner
 kodinviilennys.fi#?#.wp-block-image:has-text(mainos)
 kokemaenjokilaakso.fi#?#.ai-attributes:has-text(Mainos)
 kokemaenjokilaakso.fi#?#p:has([alt^=Mainos])
@@ -1009,6 +1010,7 @@ viisasraha.fi##.d-md-block.d-lg-block.d-none
 viisasraha.fi##.kumppani-artikkelit
 viisasraha.fi##div[class*=native-article] > div[class=ezrichtext-field] > p > a[href^="https://danskebank.fi/"]
 viisasraha.fi##div[class^=banner] > a[href="https://www.viisasraha.fi/Taloushaltuun"]
+viranomaisuutiset.fi##.td-a-rec
 viranomaisuutiset.fi##[href^="https://track.adtraction.com/"]
 voice.fi##.article-sponsored
 voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
