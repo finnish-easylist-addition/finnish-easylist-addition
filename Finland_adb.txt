@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 06August2022v8
+! Version: 07August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -486,6 +486,8 @@ kaleva.fi#?#.m-managedListing__column:has(> div > div > div > div[class^=m-conte
 kaleva.fi#?#.media-site__widget-container:has( * .media-widget__title:has-text(Kaupallinen yhteistyö))
 kaleva.fi#?#aside.sidebar__column-container:has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
+kamera-lehti.fi###sidebar .simple-image > [href]:not([href^="https://kamera-lehti.fi"])
+kamera-lehti.fi#?#.etusivu-mainos:not(:has([href^="https://kamera-lehti.fi"]))
 kangasalansanomat.fi##.kaupallinen-general
 kangasalansanomat.fi##.ksnote
 kangasalansanomat.fi#?#.td-pb-span6:has-text(Kaupallinen yhteistyö)
