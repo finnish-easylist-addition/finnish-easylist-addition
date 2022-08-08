@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 08August2022v1
+! Version: 08August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1320,9 +1320,6 @@ kotiliesi.fi##.placeholder
 
 ! To fix the opening of dna.fi product links on hinta.fi
 @@||track.adform.net/*dna.fi/*$document,domain=track.adform.net
-
-! Unbreak Telia password change (maybe other functions as well), endless loading
-@@||telia.fi/fi/B2B_Portal/resources/js/b2b.portal.eventTracking.js$script,domain=telia.fi
 
 ! Unbreak netstat.ayy.fi
 @@||netstat.ayy.fi^
