@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 10August2022v2
+! Version: 10August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -164,7 +164,9 @@ alibi.fi,hymy.fi##[href*="paratiisi.fi"]
 alueviesti.fi###front_after_menu
 alueviesti.fi##.soliloquy-link
 alypaa.com##.ad.right-col-box
+alypaa.com##.banner-slot-box
 alypaa.com#?#.section-inner:has(> .banner-slot)
+alypaa.com#?#.section-inner:has(> div[style] > .sanoma-ad-banner)
 alypaa.com##[class^=banner-slot-preroll]
 ampparit.com##.ad-nettiauto
 ampparit.com##.mobile-leaderboard-container
@@ -517,6 +519,7 @@ keskipohjanmaa.fi#?#.col-xs-12.col-sm-6.col-md-12:has-text(mainosartikkelit)
 keskustelu.afterdawn.com###div-ad-below-message
 keskustelu.afterdawn.com##.pageWidth > div[style="min-height:90px;text-align:center;margin:auto;"]
 keskustelu.afterdawn.com##.sidebar > div[style="min-height:250px;text-align:center;margin:auto;"]
+keskustelu.kaksplus.fi###native-list-wrapper
 keskustelu.kaksplus.fi##.native.feed_box_container
 keskustelu.kauppalehti.fi##.blogi__nosto
 keskustelu.pakkotoisto.com##.js-notices.notices--block.notices
