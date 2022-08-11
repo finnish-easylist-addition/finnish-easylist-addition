@@ -63,20 +63,14 @@ tamperelainen.fi##^.display-ad
 
 ! -----SCRIPTS-----
 
-aamulehti.fi,satakunnankansa.fi,valkeakoskensanomat.fi,nokianuutiset.fi,janakkalansanomat.fi,kmvlehti.fi,jamsanseutu.fi,suurkeuruu.fi,kankaanpaanseutu.fi,rannikkoseutu.fi,tyrvaansanomat.fi,merikarvialehti.fi,sydansatakunta.fi##+js(nostif, adblockDetected, 0)
 afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
 ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
 finder.fi##+js(rc, Profile__TopCard--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList__Row--advertisement, , stay)
 findit.fi##+js(acs, testPrebid)
-gamereactor.fi##+js(aopr, adblockEnabled)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 iltalehti.fi##.double-column > a[href]:has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
-mikrobitti.fi##+js(nostif, bait)
-proxyproxy.fi,pirateproxy.fi##+js(nowoif)
-savonsanomat.fi,ess.fi,itahame.fi,ksml.fi##+js(nostif, linkEl)
-uusisuomi.fi,xxl.fi,kaleva.fi##+js(acs, NREUM)
 
 ! -----SCRIPTS END-----
 
