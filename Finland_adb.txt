@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 12August2022v3
+! Version: 12August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -213,6 +213,7 @@ autot.tori.fi#?#div[class="w-full py-2 px-2"]:has(> div > div > div[id="banner_t
 autotalli.com###topBanner
 avecmedia.fi##.front-page-advertisement
 avecmedia.fi##.front-page-ad-padding
+avplus.fi#?#.widget:has(.widget_advads_ad_widget)
 bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
@@ -817,6 +818,7 @@ seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
 seiska.fi##div[class*=AdAndCarousel__Wrapper]
 seiska.fi##div[class^=Ad__AdWrapper]
+seiska.fi#?##article-body > div[class]:has(.ad-container)
 seiska.fi#?#article:has(a[href=""][rel="no-index,no-follow"])
 selanne-lehti.fi##.ad-list-read-all
 selanne-lehti.fi##.mainospalsta
