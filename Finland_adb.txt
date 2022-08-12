@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 10August2022v6
+! Version: 12August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -537,6 +537,9 @@ kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
 klangi.fi,paakallo.fi##.banner
 kodinviilennys.fi#?#.wp-block-image:has-text(mainos)
+koeajolle.com##.block-mainos
+koeajolle.com##.blog-wrapper .code-block
+koeajolle.com#?#.post p:has-text(Mainos:)
 kokemaenjokilaakso.fi#?#.ai-attributes:has-text(Mainos)
 kokemaenjokilaakso.fi#?#p:has([alt^=Mainos])
 kokemakelainen.net###text-81
@@ -903,6 +906,7 @@ tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
 tekniikanmaailma.fi##.FrontPage_native-ads
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
+tekniikanmaailma.fi##.PriceGuide_price-guide
 tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
 tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
@@ -1152,6 +1156,8 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||keskustelu.pakkotoisto.com/bannerit/$image,domain=keskustelu.pakkotoisto.com
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image,domain=kinuskikissa.fi
 ||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image,domain=kiuruvesilehti.fi
+||koeajolle.com/wp-content/uploads/*/blue-billboard-*.jpg$image,domain=koeajolle.com
+||koeajolle.com/wp-content/uploads/*/pop-vakuutus-alennuskoodi.png$image,domain=koeajolle.com
 ||kotikarjala.fi/eneo?tem=ndap_ilmoitus&$xmlhttprequest,domain=kotikarjala.fi
 ||kotiliesi.fi/upotukset/hintaopas/*$domain=tekniikanmaailma.fi
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
