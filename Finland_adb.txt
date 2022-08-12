@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 12August2022v2
+! Version: 12August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -348,9 +348,11 @@ gekkonen.net##.tdm_block_pricing
 gekkonen.net#?#.code-block:has(ins[class="adsbygoogle"])
 gekkonen.net#?#.td_block_wrap.td-pb-border-top.td_flex_block:has(a[href="https://gekkonen.net/nettikasinot/"])
 gekkonen.net#?#.td_block_wrap.td_block_text_with_title:has-text(/kasino/i)
+gekkonen.net#?#.td_block_wrap.td_block_text_with_title:has(a[href^="https://affmore.com/"])
 gekkonen.net##.wpforo-ad
 gekkonen.net#?#.widget:has(.adsbygoogle)
 gekkonen.net#?#.widget:has([rel^="https://affmore.com/"])
+gekkonen.net##a[href^="https://affmore.com/"]
 gekkonen.net##a[href^="https://record.njordaffiliates.com/"]
 glu.fi#?#li:has(.adsbygoogle)
 glu.fi#?#ul.link:has(a[href^="http://clk.tradedoubler.com/"])
