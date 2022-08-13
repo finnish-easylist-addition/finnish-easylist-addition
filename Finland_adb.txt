@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 12August2022v4
+! Version: 13August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -513,6 +513,7 @@ karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
 karjalainen.fi#?#a[href*=kiinnostuitko]:has([alt=banneri])
 karjalainen.fi,sammysatv.com##center
+kauppalehti.fi,mediuutiset.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
 kauppalehti.fi#?##coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
@@ -648,7 +649,6 @@ mediaviikko.fi##a[href="https://urheilutuet.fi/"]
 mediaviikko.fi##a[href="https://vesikourut.fi/"]
 mediaviikko.fi#?#.wp-block-column:has(aside figure > a[href="https://www.hopealanka.fi"])
 mediuutiset.fi##aside > div[class] > a[href="/kumppanisisaltoa"]
-mediuutiset.fi##aside > div[class] > a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]
 mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
 mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 mediuutiset.fi#?#div[class]:has(> a[href="/kumppanisisaltoa"])
