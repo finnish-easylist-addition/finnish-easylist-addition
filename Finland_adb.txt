@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 16August2022v1
+! Version: 16August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -286,6 +286,7 @@ facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] > [role
 facebook.com#?#div[role="feed"] > div:has(a[class][href][role][tabindex]:has-text(Sponsoroitu))
 facebook.com#?#div[role="feed"] > span:has(a[class][href][role][tabindex]:has-text(Sponsoroitu))
 facebook.com#?#div[role=complementary] > div > div > div > div > div:not([class], [data-visualcompletion]) > span:has([aria-label=Mainostaja])
+feedi.fi,tanssiin.fi##.alp-advert
 feissarimokat.com###billboard
 feissarimokat.com###logopal
 feissarimokat.com##.flexibox
@@ -897,7 +898,6 @@ talouselama.fi#?#div.article-body > div:has(> div.LazyLoad.is-visible)
 talouselama.fi#?#div[width]:has(.lazyload-wrapper)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
-tanssiin.fi##.alp-advert
 tanssiin.fi##a[href="https://sinitaivas.com/kauppa/"]
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
