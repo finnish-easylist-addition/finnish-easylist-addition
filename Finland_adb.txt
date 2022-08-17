@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 16August2022v2
+! Version: 17August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -362,6 +362,7 @@ gogolf.fi##.is-advertorial
 gogolf.fi##div[id|="div-gpt-ad"]
 gogolf.fi#?#.is-sidebar > .has-background:has(a[href*="utm_medium=banner"])
 gogolf.fi#?#.is-sidebar > .has-background:has(.is-advertorial)
+gogolf.fi#?#.js-tabpanel > ol > li:has(.is-advertorial)
 gogolf.fi#?#.wp-block-column > .has-background:has-text(MAINOS)
 golfpiste.com###gp-natives
 golfpiste.com##.carousel-cell--native
@@ -736,7 +737,7 @@ nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa
 napsu.fi###banneriwrapper
 napsu.fi##.mobilead
 navigatormagazine.fi##.mob_panorama
-navigatormagazine.fi##.panorama
+navigatormagazine.fi,promaintlehti.fi##.panorama
 nettiauto.com#?##art_right_banner:has(> [id|="almad"])
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
