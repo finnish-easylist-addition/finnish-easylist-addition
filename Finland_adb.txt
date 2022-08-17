@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17August2022v3
+! Version: 17August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -808,8 +808,6 @@ riemurasia.net##a[rel^="sponsored"]
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:has(.poppartners)
-rytmi.com##.jattiboksi-container
-rytmi.com##.sisalto-ilmoitus-mainos
 sammysatv.com##a[href*=banner]
 satakunnankansa.fi##div[class=s-ryhma-carousel-wrapper]
 satakunnankansa.fi##div[class^=adContainer]
@@ -888,7 +886,6 @@ suomimobiili.fi#?#.article-content > p:has-text(MAINOS)
 suomimobiili.fi#?#.posts-listing-list-alt-b:has-text(Artikkeleita kumppaneilta)
 suomimobiili.fi#?#.posts-list > .list-item:has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
 superlehti.fi##.ad-banner-lift
-supersaa.fi##div[class^=supers-app-promo-container]
 svl.fi##.mainos_banner1
 svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
 taisto.org###mw-data-after-content > div
