@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17August2022v1
+! Version: 17August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -785,6 +785,7 @@ puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*=commercial-blog-card]
 puskaradio.net##.all-adds
 raahenseutu.fi##div[id=outstream]
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
+radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:has(span.sponsored)
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
 rakentaja.fi##div[id=kauppa_hot]
@@ -1032,7 +1033,6 @@ viranomaisuutiset.fi#?#div[id|=polii]:has(br + br + div[id|=nm-300x300] + br + b
 voice.fi##.article-sponsored
 voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
-voice.fi#?#.sbs-articleitems.list-right-column:has(span.sponsored)
 voice.fi#?#div.item:has(.sponsored)
 voima.fi##.voima-banneri-etusivulla
 voima.fi##.voima-jutun-sisalla-mobiili
