@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17August2022v2
+! Version: 17August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -459,6 +459,9 @@ inssinosingot.fi#?#div[class="row align-center"]:has([class$=lazy-load-active])
 irc-galleria.net,tilannehuone.fi##div[id^=Nostemedia_Desktop]
 irc-galleria.net##div[id^=open_]
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
+iskelma.fi#?#a.article-item:has(.sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:has(span.sponsored)
+iskelma.fi,voice.fi#?#div.item:has(.sponsored)
 is.fi###kumppaneiden-tarjoukset
 is.fi##.advertorial-teaser
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
@@ -785,7 +788,6 @@ puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*=commercial-blog-card]
 puskaradio.net##.all-adds
 raahenseutu.fi##div[id=outstream]
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
-radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:has(span.sponsored)
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
 rakentaja.fi##div[id=kauppa_hot]
@@ -1033,7 +1035,6 @@ viranomaisuutiset.fi#?#div[id|=polii]:has(br + br + div[id|=nm-300x300] + br + b
 voice.fi##.article-sponsored
 voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
-voice.fi#?#div.item:has(.sponsored)
 voima.fi##.voima-banneri-etusivulla
 voima.fi##.voima-jutun-sisalla-mobiili
 voima.fi#?#.voima-jutun-sisalla:has(.voima-adlabel)
