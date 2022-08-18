@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17August2022v4
+! Version: 18August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -461,7 +461,7 @@ irc-galleria.net##div[id^=open_]
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
 iskelma.fi#?#a.article-item:has(.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:has(span.sponsored)
-iskelma.fi,voice.fi#?#div.item:has(.sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#div.item:has(.sponsored)
 is.fi###kumppaneiden-tarjoukset
 is.fi##.advertorial-teaser
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
