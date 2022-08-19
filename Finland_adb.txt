@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 19August2022v3
+! Version: 19August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -249,6 +249,7 @@ edukas.fi##.compareGoogleCell
 ehandel.fi###div-leeadsFullpageAd
 ehandel.fi,tvmatsit.com##.annons
 ehandel.fi##.article-ad-container
+ehandel.fi##.commercial-row
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
