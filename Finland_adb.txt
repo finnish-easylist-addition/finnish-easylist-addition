@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 19August2022v2
+! Version: 19August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -246,6 +246,9 @@ demokraatti.fi##div[class^=OrderMagazinestyles__Container]
 download.fi##.ni_holder
 duunitori.fi##.js-fragment-web-lazy_carousel
 edukas.fi##.compareGoogleCell
+ehandel.fi###div-leeadsFullpageAd
+ehandel.fi,tvmatsit.com##.annons
+ehandel.fi##.article-ad-container
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
@@ -819,7 +822,6 @@ seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
 seiska.fi##.dre-item--skin-native
 seiska.fi##.tilaa-banner
-seiska.fi##div.article-ad-container
 seiska.fi##div[class*=AdAndCarousel__Wrapper]
 seiska.fi##div[class^=Ad__AdWrapper]
 seiska.fi#?##article-body > div[class]:has(.ad-container)
@@ -966,7 +968,6 @@ tori.fi##div[id=panorama_topmost]
 traktorpool.fi##.billboard
 tulikulma.fi##.slideshow
 tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
-tvmatsit.com##.annons
 tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 ulvilanseutu.fi###right-sidebar
