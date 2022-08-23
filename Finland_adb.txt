@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 23August2022v2
+! Version: 24August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -985,6 +985,8 @@ urjalansanomat.fi#?#.urjal-widget.main:has(a[href="https://ysiauto.fi/"])
 urjalansanomat.fi#?#.widget:has(> a[href="/lounaat"])
 uudenkaupunginsanomat.fi###auto-grid-container-5c40764673d19
 uusisuomi.fi##[data-test=mainTeaserColumn][href^="https://www.uusisuomi.fi/kumppanisisallot/"]
+uusisuomi.fi##aside [href^="https://track.adform.net/"]
+uusisuomi.fi##aside [href^="https://www.ilmarinen.fi/"]
 uusisuomi.fi#?#.lazyload-wrapper + section:has-text(Kaupallinen yhteistyö)
 uusisuomi.fi#?#.lazyload-wrapper:has(.eo-embed-announcements-container)
 uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:has-text(Kaupallinen yhteistyö)
@@ -1137,6 +1139,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||c1.hinta.fi^$third-party,script
 ||caravan-lehti.fi/media/Carado-matkailuauto.$image,domain=caravan-lehti.fi
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
+||cdn.bluebillywig.com/apps/player/$script,domain=gekkonen.net|hevosurheilu.fi
 ||celtra.com^$third-party
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
