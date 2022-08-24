@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 24August2022v3
+! Version: 24August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1377,8 +1377,3 @@ tuntopalvelu.fi#@#.list-ads
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
 
-! https://github.com/easylist/easylist/pull/9343
-@@||almamedia.fi/almacmp/$script
-
-! https://github.com/finnish-easylist-addition/finnish-easylist-addition/commit/8bf469a005a552a6c6819ed8daa92aa1aa72da42
-! https://github.com/easylist/easylist/pull/11542
