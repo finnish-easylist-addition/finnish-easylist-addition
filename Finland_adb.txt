@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 24August2022v2
+! Version: 24August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1161,6 +1161,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
 ||is.fi/kampanjat/taloussanomat/startel_600x300px.jpg$image,domain=is.fi
+||fcdn.lauta.media/adform.js$~third-party
 ||kaasujalka.fi/assets/banners/$image,domain=kaasujalka.fi
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
@@ -1189,6 +1190,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
 ||no-cache.hubspot.com/cta/$image,domain=sijoittaja.fi
+||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
@@ -1200,6 +1202,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||seksitreffit.fi/banners/*$domain=seksitreffit.fi
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
+||strongbox.nostemedia.fi^$script,third-party
 ||superskills.fi/fi*?isIframe=true$subdocument
 ||telsu.fi/telsu_top
 ||testeri.fi/ext_telsu$subdocument
@@ -1212,7 +1215,6 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
-||fcdn.lauta.media/adform.js$~third-party
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
