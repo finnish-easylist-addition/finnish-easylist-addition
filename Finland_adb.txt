@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 24August2022v1
+! Version: 24August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -273,7 +273,10 @@ epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suup
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
 epari.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasalehti.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
+episodi.fi##.bg-elisa-dark
 episodi.fi#?#.main-article > div:has-text(Mainos)
+episodi.fi,inferno.fi#?#.px-4.py-2.bg-white.w-full:has(.poppartners)
+episodi.fi,inferno.fi,rumba.fi###tilt-ad-top-stay-away
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
@@ -456,8 +459,6 @@ impe.fi##[class^=mainospaikka]
 inarilainen.fi,sompio.fi##.paraati1
 inarilainen.fi,sompio.fi##.pikkusentteri1
 inarilainen.fi,sompio.fi##[href^="/ilmoitus/mainostajan-artikkeli"]
-inferno.fi,rumba.fi###tilt-ad-top-stay-away
-inferno.fi#?#.px-4.py-2.bg-white.w-full:has(.poppartners)
 inferno.fi#?#p:has([href^="https://track.adform.net/"])
 inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
