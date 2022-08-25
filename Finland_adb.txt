@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v1
+! Version: 25August2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -246,6 +246,10 @@ demokraatti.fi##div[class^=AdStyles__Wrapper]
 demokraatti.fi##div[class^=OrderMagazinestyles__Container]
 download.fi##.ni_holder
 duunitori.fi##.js-fragment-web-lazy_carousel
+edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv
+edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
+edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
+edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
 ehandel.fi###div-leeadsFullpageAd
 ehandel.fi,tvmatsit.com##.annons
@@ -496,6 +500,10 @@ kaasujalka.fi#?#.widget-container:has([class^=ad_])
 kaksplus.fi##.ad-mob_description
 kaksplus.fi##.placeholder
 kaksplus.fi#?#.owl-item:has(.portal__commercial)
+kalamies.com##.custom_banners_big_linkbefore-content
+kalamies.com##.custom_banners_big_linkwidget
+kalamies.com##[class^=custom_banners_big_linkcontent]
+kalamies.com#?#.widget:has-text(Mainos):not(:has([href="https://kalamies.com/tilaa/"]))
 kaleva.fi###puff-container
 kaleva.fi##.right-now-widget__item--commercial
 kaleva.fi##div[class=lyta-lazy-load]
