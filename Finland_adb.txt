@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v4
+! Version: 25August2022v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -246,9 +246,11 @@ demokraatti.fi##div[class^=AdStyles__Wrapper]
 demokraatti.fi##div[class^=OrderMagazinestyles__Container]
 download.fi##.ni_holder
 duunitori.fi##.js-fragment-web-lazy_carousel
+edgeski.fi##._ning_outer
+edgeski.fi#?#.widget_text:has-text(Mainos)
 edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
+edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
 ehandel.fi###div-leeadsFullpageAd
