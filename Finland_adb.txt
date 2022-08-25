@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v5
+! Version: 25August2022v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -702,6 +702,7 @@ mikrobitti.fi#?#div[class]:has(> [width] > [id|="almad"]:not([id|="almad-mobileP
 mikrobitti.fi#?#div[class][width]:has([id|="almad-mobileParade"])
 mikrobitti.fi#?#div[style="margin-bottom:0"]:has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 mikrobitti.fi#?#section > div:has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
+misssuomi.fi##.elementor-widget-container > a[href^="https://sortter.fi/"]
 mma.fi#?#.commercial__content:has-text(Kumppanilta)
 mobiili.fi###header_ad33
 mobiili.fi###ostoHint
