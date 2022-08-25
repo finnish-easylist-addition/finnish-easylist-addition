@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v3
+! Version: 25August2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -416,6 +416,7 @@ heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,y
 helsinginuutiset.fi,vihdinuutiset.fi##div[class*=lyads]
 helsinkitimes.fi##.banneritem
 helsinkitimes.fi#?#.module:has(.bannergroup)
+hevosurheilu.fi##[data-test-id="ad"]
 hidastaelamaa.fi###banner-top
 hidastaelamaa.fi#?#.feature:has([href$="/mainosyhteistyo/"])
 hifimaailma.fi##.any-commercial
@@ -619,7 +620,7 @@ lauttakyla.fi##.hasordercontent.orange-bg
 lauttakyla.fi##.mainbanner
 lauttakyla.fi#?#.fullwidth-banner:has(> a[href="https://www.lauttakyla.fi/tilaa/"])
 lbaanijakuva.fi##.adremark
-leffatykki.com##.ads
+leffatykki.com,lumipallo.fi##.ads
 leffatykki.com###ad-300x150
 leffatykki.com###ad-300x300
 leffatykki.com##div[class="ad230x90"]
@@ -645,6 +646,7 @@ ls24.fi#?#.js-article-block:has(span[class$=commercial-label])
 ls24.fi#?#.js-article-block:has(span[class$=commercial-label]) + .article-blocks-2022-divider
 ls24.fi#?#article[class].article-block:has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
 ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(Kaupallinen yhteistyö)
+lumipallo.fi#?#div.row:not(:has(article)):has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
 luukku.com##.banner.content
 m.facebook.com#?#article:has(> * header > * span:has-text(Sponsoroitu))
