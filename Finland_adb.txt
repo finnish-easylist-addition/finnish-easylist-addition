@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v2
+! Version: 25August2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -504,6 +504,8 @@ kalamies.com##.custom_banners_big_linkbefore-content
 kalamies.com##.custom_banners_big_linkwidget
 kalamies.com##[class^=custom_banners_big_linkcontent]
 kalamies.com#?#.widget:has-text(Mainos):not(:has([href="https://kalamies.com/tilaa/"]))
+kalastus.com###mini-panel-autodoc_150x50
+kalastus.com##.gam-holder
 kaleva.fi###puff-container
 kaleva.fi##.right-now-widget__item--commercial
 kaleva.fi##div[class=lyta-lazy-load]
@@ -565,6 +567,7 @@ kodinviilennys.fi#?#.wp-block-image:has-text(mainos)
 koeajolle.com##.block-mainos
 koeajolle.com##.blog-wrapper .code-block
 koeajolle.com#?#.post p:has-text(Mainos:)
+kohokohta.com#?#.text-center:has-text(loadAd)
 kokemaenjokilaakso.fi#?#.ai-attributes:has-text(Mainos)
 kokemaenjokilaakso.fi#?#p:has([alt^=Mainos])
 kokemakelainen.net###text-81
