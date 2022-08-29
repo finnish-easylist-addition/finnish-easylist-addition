@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25August2022v6
+! Version: 29August2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -307,6 +307,7 @@ feissarimokat.com###logopal
 feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
+fel.gg###fel-ad-banner
 fillaritori.com###fillaritori_mobileheader
 fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
@@ -375,6 +376,7 @@ glu.fi#?#li:has(.adsbygoogle)
 glu.fi#?#ul.link:has(a[href^="http://clk.tradedoubler.com/"])
 gogolf.fi##.is-advertorial
 gogolf.fi##div[id|="div-gpt-ad"]
+gogolf.fi#?#.has-background:has-text(mainos)
 gogolf.fi#?#.is-sidebar > .has-background:has(a[href*="utm_medium=banner"])
 gogolf.fi#?#.is-sidebar > .has-background:has(.is-advertorial)
 gogolf.fi#?#.js-tabpanel > ol > li:has(.is-advertorial)
