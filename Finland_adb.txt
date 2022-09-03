@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 29August2022v1
+! Version: 03September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1123,6 +1123,7 @@ ykkoslohja.fi#?#.widget:has([href^="http://pizza-online.fi/tt/"])
 ykkoslohja.fi#?#.widget:has([href^="https://tc.tradetracker.net/"])
 ykkoslohja.fi#?#.widget:has([href^="https://track.adtraction.com/"])
 ykkoslohja.fi#?#.widget:has([href^="https://www.awin1.com/"])
+ykkoslohja.fi#?#.widget:has([href^="https://www.kahvivertailu.fi"])
 ykkoslohja.fi#?#.widget:has([src^="https://track.adtraction.com/"])
 ykkoslohja.fi#?#.widget:has(h2:only-child):has(+ .widget [href^="https://c.trackmytarget.com?"])
 ykkoslohja.fi#?#.widget:has(h2:only-child):has(+ .widget [href^="https://www.awin1.com/"])
