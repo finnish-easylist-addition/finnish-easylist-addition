@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 04September2022v1
+! Version: 04September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -7,7 +7,7 @@
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
-! email (noreply): suomilista@fire.fundersclub.com
+! Email (noreply): suomilista@fire.fundersclub.com
 !#include Finland_adb_uBO_extras.txt
 
 ! -----GENERAL FILTERS-----
@@ -151,6 +151,7 @@ alandstidningen.ax###block-marknadenmobileteaser
 alandstidningen.ax###block-stickyannons
 alandstidningen.ax###block-views-block-company-ads-block-1
 alandstidningen.ax###block-views-block-bilwebben-block-1
+alandstidningen.ax##.editorial-ad
 alandstidningen.ax#?#.views-element-container:-abp-has(a[href^="https://www.marknaden.ax/annons"])
 alandstidningen.ax#?#.views-element-container:has-text(Annonsnytt)
 alandstidningen.ax##div[id|=block-googleadmaincontent]
