@@ -51,6 +51,7 @@ karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: 
 gamereactor.fi##^.ad_top
 kokemaenjokilaakso.fi##^[alt^=Mainos]
 muropaketti.com##^article.grid__item_1:-abp-has(.nativead)
+mobiili.fi##^.fullarticle:has-text(Sponsoroitu)
 mobiili.fi##^.fullarticle:-abp-has([data-lazy-src="https://mobiili.fi/aaa.png"])
 tamperelainen.fi##^.display-ad
 !#endif
