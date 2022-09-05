@@ -9,6 +9,8 @@ finder.fi##.SearchResultList__Row--advertisement, .Profile__TopCard--advertiseme
 finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
 fin.afterdawn.com###nm-980x400-fb:style(min-height: unset !important)
 fin.afterdawn.com###nm-300x300-fb:style(min-height: 30px !important)
+fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)
+fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:not(+ .boxes):style(margin: -10px auto !important)
 golfpiste.com##.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
