@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 05September2022v1
+! Version: 05September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -568,6 +568,7 @@ kiinteistolehti.fi##.mpc-row.vc_custom_1515749959295.vc_row-fluid.wpb_row.vc_row
 kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
 kiinteistoposti.fi##.kiint-adlabel
 kiinteistoposti.fi##.kiint-widget
+kiinteistoposti.fi#?#.featuredpost:-abp-has(.gb-post-grid-section-title:has-text(Kaupallinen yhteistyö))
 kilipailut.fi##.bannerlink
 kinuskikissa.fi##app-ad
 klangi.fi,paakallo.fi##.banner
@@ -821,6 +822,7 @@ poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widge
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
+projektiuutiset.fi##.proje-widget
 pt-media.org##[href^="https://kasinopartio.com/"]
 pt-media.org#?#section:-abp-has(> a[href="https://nocompromiseclothing.com/"])
 puheenaiheet.fi##div[class=wpb_wrapper]
