@@ -42,8 +42,6 @@ www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[wi
 www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 
 ! Trick to overcome flickering issues caused by a slow procedural
-ampparit.com##[class="sidebox-header"]
-ampparit.com##.sidebox-header:not(:has-text(/Nettiauto|Nettix|Etuovi.com/)):style(display: flex !important)
 karjalainen.fi#@#.breaking-news-container:has-text(mainos:)
 karjalainen.fi##.breaking-news-container
 karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: flex !important)
