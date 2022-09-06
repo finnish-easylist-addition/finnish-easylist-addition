@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 05September2022v3
+! Version: 06September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -334,6 +334,10 @@ foreca.fi##div[id|=inline-banner-mobi]
 foreigner.fi#?#article:has-text(SPONSORED)
 forssanlehti.fi#?#.herald-sidebar > .widget_text:-abp-has(script)
 forssanlehti.fi#?#.herald_posts_widget:-abp-has(a[href^="https://www.forssanlehti.fi/kaupallinen-yhteistyo/"])
+fuengirola.fi##.elementor-element-228d8bca
+fuengirola.fi##.elementor-element-24aa8e2
+fuengirola.fi##.elementor-element-9e2ec43
+fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.fi/"]
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
