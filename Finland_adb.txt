@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 06September2022v3
+! Version: 06September2022v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -170,15 +170,8 @@ alypaa.com##.banner-slot-box
 alypaa.com#?#.section-inner:-abp-has(> .banner-slot)
 alypaa.com#?#.section-inner:-abp-has(> div[style] > .sanoma-ad-banner)
 alypaa.com##[class^=banner-slot-preroll]
-ampparit.com##.ad-nettiauto
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
-ampparit.com##.time-label_nettixbanner
-ampparit.com##div.ad-nettixbanner
-ampparit.com##div[class*=ad-mob-]
-ampparit.com##div[class*=ticker]
-ampparit.com##div[class=nettiauto-newslist-banner]
-ampparit.com#?#.sidebox:-abp-has(> .nettixbanner-sidebox-container)
 ampparit.com,iijokiseutu.fi,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,koillissanomat.fi,kuntalehti.fi,lapinkansa.fi,luukku.com,mtvuutiset.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,seiska.fi,siikajokilaakso.fi,studio55.fi,styleroom.fi##.ad-container
 anna.fi##.kaupalliset
 anna.fi##div.grid__item_tn-1-2
