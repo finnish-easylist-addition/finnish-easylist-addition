@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 07September2022v1
+! Version: 08September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -587,10 +587,8 @@ kotikokki.net###partners-container-big
 kotikokki.net##[id=content][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
 kotilappi.fi,kuhmolainen.fi,sotkamolehti.fi,ylakainuu.fi##.banner--top
 kotiliesi.fi##.article-continues
-kotiliesi.fi##.nativecarousel.widget
-kotiliesi.fi##.widget_google-ad-manager
-kotiliesi.fi##body.category .placeholder
-kotiliesi.fi#?#article[class^="grid__item_"]:-abp-has(.template-item_nativead)
+kotiliesi.fi##.wp-block-otavamedia-google-ad-slot
+kotiliesi.fi#?#.wp-block-otavamedia-section-management li:-abp-has([id^=dfp__])
 kotimaa.fi#?#div[class=" "] > .rendered_board_widget:-abp-has(.kotimaa-adform-widget)
 kotimaatutuksi.fi###nmbc
 kotimaatutuksi.fi##.artikkelim-jatkuu
@@ -1368,7 +1366,7 @@ gamereactor.fi##.wrapper
 gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
-kotiliesi.fi##.placeholder
+kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
 !#endif
 
 ! -----UNSORTED END-----
