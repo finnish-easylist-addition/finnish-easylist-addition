@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 08September2022v1
+! Version: 09September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -695,6 +695,12 @@ meillakotona.fi,terve.fi##div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
+metsalehti.fi##.advertisement
+metsalehti.fi##.aprofit
+metsalehti.fi##.section--native-left
+metsalehti.fi##.teaser-top-banner--partner
+metsalehti.fi##.teaser--partner
+metsalehti.fi##[data-set="main-ad"]
 mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
