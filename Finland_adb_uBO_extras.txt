@@ -21,6 +21,7 @@ kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
 kodinkoneopas.com##.oxy-modal-backdrop
 kodinkoneopas.com##body.oxy-modal-active:style(overflow: auto !important; position: initial !important)
+kotiliesi.fi##.article-card-grid li:-abp-has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 mobiili.fi###headermob:style(position: static !important)
 mobiili.fi###show_merkki:style(margin-top: 2em !important)
