@@ -84,3 +84,9 @@ iltalehti.fi##.double-column > a[href]:-abp-has(.article-container:has-text(Kaup
 ! https://github.com/easylist/easylist/pull/8317
 pelaaja.fi##+js(aopr, ga)
 ||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
+
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1242981211
+uusisuomi.fi#@?#body:not(.is-style-kumppanisisallot) main > div[class]:has-text(Kaupallinen yhteistyö)
+uusisuomi.fi#@?#[width]:-abp-has(.lazyload-wrapper):not(aside)
+uusisuomi.fi##body:not(.is-style-kumppanisisallot) main > div[class]:has-text(Kaupallinen yhteistyö)
+uusisuomi.fi##[width]:-abp-has(.lazyload-wrapper):not(aside)
