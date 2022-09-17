@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17September2022v1
+! Version: 17September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -483,7 +483,7 @@ is.fi##a[href="https://www.startel.fi/?infront"]
 is.fi##article[class*=native-ad]
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
-jaatama.fi,maastohiihto.com##.advert
+jaatama.fi,maastohiihto.com,retkilehti.fi##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
@@ -834,9 +834,8 @@ ratkojat.fi###adslot_bottom
 ratkojat.fi###adslot_search
 ratkojat.fi###topslot
 ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
-retkilehti.fi##.advert
 retkilehti.fi##.category-mainos
-retkilehti.fi##div[id|=retki]:has(img[src*="Calazo_Banner_"]) + .wp-block-separator
+retkilehti.fi#?#div[id|=retki]:-abp-has(img[src*="Calazo_Banner_"]) + .wp-block-separator
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##a[rel^="sponsored"]
@@ -1120,6 +1119,7 @@ ykkoslohja.fi#?#.widget:-abp-has([href^="https://tc.tradetracker.net/"])
 ykkoslohja.fi#?#.widget:-abp-has([href^="https://track.adtraction.com/"])
 ykkoslohja.fi#?#.widget:-abp-has([href^="https://www.awin1.com/"])
 ykkoslohja.fi#?#.widget:-abp-has([href^="https://www.kahvivertailu.fi"])
+ykkoslohja.fi#?#.widget:-abp-has([rel="sponsored"])
 ykkoslohja.fi#?#.widget:-abp-has([src^="https://track.adtraction.com/"])
 ykkoslohja.fi#?#.widget:-abp-has(h2:only-child):-abp-has(+ .widget [href^="https://c.trackmytarget.com?"])
 ykkoslohja.fi#?#.widget:-abp-has(h2:only-child):-abp-has(+ .widget [href^="https://www.awin1.com/"])
