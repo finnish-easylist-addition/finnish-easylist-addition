@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18September2022v1
+! Version: 19September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -211,6 +211,7 @@ bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
+blogbook.fi#?#.sidebar-block:-abp-has([id^="adsivupalkki_"])
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb0
 bomber.fi###rt-sidebar-b
@@ -624,7 +625,7 @@ leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net#?#li:-abp-has([href^="https://track.adtraction.com/"])
 liberolehti.fi#?#[id|=etusivu-bottom-full]:-abp-has(.mainos)
-listafriikki.com#?#.widget_custom_html:-abp-has([data-ad-unit])
+listafriikki.com##.mvp-post-ad-wrap
 livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
