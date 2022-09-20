@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 20September2022v1
+! Version: 20September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -866,6 +866,8 @@ seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
 seura.fi#?#section[class=entry-body] > p:has-text(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
 sijoittaja.fi##.a-281.g-single
+sijoittaja.fi#?#body.home .container > div[style]:-abp-has(.g-single > .hs-cta-wrapper)
+sijoittaja.fi#?#body.single-post .container[style]:-abp-has(.g-single > .hs-cta-wrapper)
 sijoitustieto.fi##.view-2019-ajankohtaiset-tarjoukset
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
 sijoitustieto.fi#?#p > em > strong:has-text(Kaupallinen yhteistyö:)
