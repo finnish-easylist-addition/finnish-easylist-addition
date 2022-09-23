@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 20September2022v2
+! Version: 23September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -749,17 +749,16 @@ mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net##[href="https://www.halvinlaina.fi/"]
-mvlehti.net##[href^="https://www.kasinot.org/"]
 mvlehti.net##a[href*="tarjousproffa.com"]
-mvlehti.net##a[href="https://kasinot.org"]
 mvlehti.net##a[href="https://lainaa.com/"]
 mvlehti.net##a[href="https://loistehammasharja.com/"]
+mvlehti.net##a[href^="https://kasino"]
+mvlehti.net##a[href^="https://www.kasino"]
 mvlehti.net##a[href^="https://www.kippis.net/"]
 mvlehti.net#?#.aligncenter:-abp-has(a[href*="tarjousproffa.com"])
 mvlehti.net#?#.entry-content > h3:has-text(kasino)
 mvlehti.net#?#.sidebar-element > p[style="text-align: center;"]:-abp-has(a[href="https://mvlehti.net/umv-kasinot/"])
 mvlehti.net#?#.wp-block-image:-abp-has(a[href*="casino.com"])
-mvlehti.net#?#.wp-block-image:-abp-has(a[href*=kasino])
 mvlehti.net#?#[class|=featured-post]:has-text(/rahapeli|kasino/i):-abp-has(a[href*="/202"])
 mvlehti.net#?#li:-abp-has(a[href*="/202"]):-abp-has(a[href*="nettikasino"])
 mvlehti.net#?#p[style="text-align: center;"]:-abp-has(> a[href^="https://kasino"])
