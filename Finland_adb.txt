@@ -7,7 +7,7 @@
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
-! Email (noreply): suomilista@fire.fundersclub.com
+! Email (noreply): suomilista (at) fire.fundersclub.com
 !#include Finland_adb_uBO_extras.txt
 
 ! -----GENERAL FILTERS-----
