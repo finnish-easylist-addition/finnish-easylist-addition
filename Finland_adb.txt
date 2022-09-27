@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 23September2022v1
+! Version: 27September2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -625,7 +625,7 @@ leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net#?#li:-abp-has([href^="https://track.adtraction.com/"])
 liberolehti.fi#?#[id|=etusivu-bottom-full]:-abp-has(.mainos)
-listafriikki.com##.mvp-post-ad-wrap
+listafriikki.com,tanssiin.fi##.mvp-post-ad-wrap
 livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
@@ -1224,6 +1224,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
+||popmedia.bbvms.com/a/pop_media_episodi_fi_inarticle.js$script,domain=episodi.fi
 ||rantapallo.fi^$third-party
 ||recommendations.asunnot.oikotie.fi^$domain=is.fi
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
