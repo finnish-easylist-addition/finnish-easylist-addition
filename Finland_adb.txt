@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 27September2022v1
+! Version: 27September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -484,7 +484,7 @@ is.fi##a[href="https://www.startel.fi/?infront"]
 is.fi##article[class*=native-ad]
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
-jaatama.fi,maastohiihto.com,retkilehti.fi##.advert
+jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
@@ -836,7 +836,8 @@ ratkojat.fi###adslot_search
 ratkojat.fi###topslot
 ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
 retkilehti.fi##.category-mainos
-retkilehti.fi#?#div[id|=retki]:-abp-has(img[src*="Calazo_Banner_"]) + .wp-block-separator
+retkilehti.fi,riistalehti.fi##.gutenberg-content [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"])
+retkilehti.fi,riistalehti.fi##body.home [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"]) + .wp-block-separator
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##a[rel^="sponsored"]
@@ -1231,6 +1232,8 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||revimages.motouutiset.fi^$third-party
 ||ridemedia.fi/aspbanner$domain=ridemedia.fi
 ||riemurasia.net/js/ads.js$script
+||riistalehti.fi^*/Haix-Nature-Camo-$image,domain=riistalehti.fi
+||riistalehti.fi^*_Banner_Retki_Nature_Camo_$image,domain=riistalehti.fi
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||seksitreffit.fi/banners/*$domain=seksitreffit.fi
