@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 29September2022v1
+! Version: 29September2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -293,6 +293,7 @@ facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] > [role
 facebook.com#?#div[role="feed"] > div:-abp-has(a[class][href][role][tabindex]:has-text(Sponsoroitu))
 facebook.com#?#div[role="feed"] > div:-abp-has(div[class][role="button"][tabindex]:has-text(Sponsoroitu))
 facebook.com#?#div[role="feed"] > span:-abp-has(a[class][href][role][tabindex]:has-text(Sponsoroitu))
+facebook.com#?#span#ssrb_feed_start + div > div[class]:-abp-has(span[class][dir="auto"] > span[id]:has-text(Sponsoroitu))
 feedi.fi,tanssiin.fi##.alp-advert
 feissarimokat.com###billboard
 feissarimokat.com###logopal
