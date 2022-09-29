@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 29September2022v2
+! Version: 29September2022v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -7,7 +7,7 @@
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
-! Email (noreply): suomilista (at) fire.fundersclub.com
+! Email (noreply): mainosesto (at-sign) fire.fundersclub.com
 !#include Finland_adb_uBO_extras.txt
 
 ! -----GENERAL FILTERS-----
