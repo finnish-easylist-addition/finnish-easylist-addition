@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 05October2022v1
+! Version: 05October2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -161,7 +161,7 @@ alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
 alibi.fi#?#.article__body > p:has-text(/^\xA0$/)
 alibi.fi#?#.sidebar-block:-abp-has(img.awpo-lazy)
-alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotilaakari.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^=dfp__]
+alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,nettivuokraus.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi,venelehti.fi##div[id^=dfp__]
 alibi.fi,hymy.fi##[href*="paratiisi.fi"]
 alueviesti.fi###front_after_menu
 alueviesti.fi##.latest_sima
@@ -738,12 +738,6 @@ mtvuutiset.fi##.component-soniaincontent
 mtvuutiset.fi#?#.latest-listing > .listing-items > li:has-text(Mainos)
 mtvuutiset.fi##.leaderboard
 mtvuutiset.fi##.sonia-container
-murobbs.muropaketti.com###hintaopas_top_product_block
-murobbs.muropaketti.com##IFRAME[id=hintaopas_box]
-murobbs.muropaketti.com##IFRAME[src="https://murobbs.muropaketti.com/aulis/muro-monster-feed.html"]
-murobbs.muropaketti.com##a[href*=emediate]
-murobbs.muropaketti.com##div[class=funboxWrapper]
-murobbs.muropaketti.com##div[class=om-container]
 muropaketti.com##.widget_hintaopasbestprice
 muropaketti.com##.widget_ads_carousel
 muropaketti.com##SECTION[id*=hintaopaspopular]
