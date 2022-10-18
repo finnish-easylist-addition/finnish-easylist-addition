@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 10October2022v1
+! Version: 18October2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -336,13 +336,14 @@ fuengirola.fi##.elementor-element-9e2ec43
 fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.fi/"]
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.adv-link
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://casinogorilla.com/fi/nettikasinot/"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://bonuspanda.com/fi/"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://pussit.com"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://www.halvinlaina.fi"]
-futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever ~ div:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
 futisforum2.org###div-ff2-top
@@ -406,7 +407,7 @@ hardelli.com##.td-a-rec-id-sidebar
 hardelli.com#?#div[class=wpb_wrapper][style^="width: 324px;"] > div[data-td-block-uid]:has-text(PELIT)
 hardware.fi##.adsbygoogle + script + br
 hardware.fi#?#br:-abp-has(+ .adsbygoogle)
-hardware.fi,kaksplus.fi##.advertisement
+hardware.fi,kaksplus.fi,metsalehti.fi,uutisankka.com##.advertisement
 hattulaan.fi,reska.fi##.content.single-banner
 hattulaan.fi,reska.fi##.top.panorama.banner
 hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
@@ -691,7 +692,6 @@ meillakotona.fi,terve.fi##div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
 metropoli.net#?#.block-box.news-post:-abp-has(a[href^="https://www.metropoli.net/rahapelit/"])
-metsalehti.fi##.advertisement
 metsalehti.fi##.aprofit
 metsalehti.fi##.section--native-left
 metsalehti.fi##.teaser-top-banner--partner
@@ -1146,8 +1146,11 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
 /*-mainos-$image,domain=futisfani.com|kiekkofani.com|omalahio.fi|penkkiurheilu.com|uutisankka.com
+/macro.adnami.io/macro/hosts/adsm.macro$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
 /prerolls/*.mp4$domain=gamereactor.fi
+/Pussit_300x3001.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
+/Pussit_Vape_300x300_new.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /telsu\.fi\/[\w!.,:;\-*%åäö${@€|]{20,}$/$image,domain=telsu.fi
 /telsu\.fi\/s\/[\w\d]{30,40}$/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
