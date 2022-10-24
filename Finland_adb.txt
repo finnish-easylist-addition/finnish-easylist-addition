@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 22October2022v1
+! Version: 24October2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -852,7 +852,9 @@ satakunnanviikko.fi##.panoraama_etus
 seiska.fi###inhouse_ad
 seiska.fi##.ad-inhouse-desktop
 seiska.fi##.category-container--commercial.category-container.container-fluid
+seiska.fi##.dicCCM
 seiska.fi##.dre-item--skin-native
+seiska.fi##.hcAuCH
 seiska.fi##.tilaa-banner
 seiska.fi##div[class*=AdAndCarousel__Wrapper]
 seiska.fi##div[class^=Ad__AdWrapper]
@@ -979,6 +981,8 @@ tiketti.fi#?#.itemwide:-abp-has([href="https://www.nextory.fi/partner-collaborat
 ticketmaster.fi##div[id^=ad-slot-]
 ticketmaster.fi#?#div:-abp-has(> [id|=ad-slot])
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
+tiendeo.fi###header-standard-container
+tiendeo.fi##[data-testid^="div-gpt-ad-"]
 tilannehuone.fi#?##cnt_lista tr:-abp-has(.mainosinline) + tr:-abp-has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):-abp-has(+ tr:-abp-has(.mainosinline))
 tilannehuone.fi##[class^=mainos]:not(:only-child)
@@ -1143,9 +1147,10 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ! -----SPECIFIC FILTERS END-----
 ! -----NETWORK FILTERS-----
 
+/HalvinLaina_300x300_fin.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
 /*-mainos-$image,domain=futisfani.com|kiekkofani.com|omalahio.fi|penkkiurheilu.com|uutisankka.com
-/macro.adnami.io/macro/hosts/adsm.macro$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
+/macro.adnami.io$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
 /prerolls/*.mp4$domain=gamereactor.fi
 /Pussit_300x3001.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
