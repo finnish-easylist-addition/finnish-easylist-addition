@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 25October2022v2
+! Version: 27October2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -219,6 +219,8 @@ blogbook.fi#?#.sidebar-block:-abp-has([id^="adsivupalkki_"])
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb
 blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb0
 bomber.fi###rt-sidebar-b
+boy.fi##.advs
+boy.fi#?#.moduletable:-abp-has(.advs)
 brbikers.com##a[href*="tema.fi"]
 caravan-lehti.fi##.ad-wrapper
 caravan-lehti.fi##.widget_caravanlehti-ad
@@ -241,6 +243,7 @@ dawn.fi#?#div[style="text-align: center; font-size: 0.7em;margin-bottom:15px"]:h
 deitti.net##.ad-article
 demokraatti.fi##div[class^=AdStyles__Wrapper]
 demokraatti.fi##div[class^=OrderMagazinestyles__Container]
+digi-kuva.fi##[data-banner-horseshoe]
 download.fi##.ni_holder
 duunitori.fi##.js-fragment-web-lazy_carousel
 edgeski.fi##._ning_outer
@@ -307,7 +310,8 @@ feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
 fel.gg###fel-ad-banner
 fiksukuluttaja.fi##.thirstylinkimg
-fiksukuluttaja.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
+fiksukuluttaja.fi,lehtikeidas.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
+fillarifoorumi.fi###ad_global_below_navbar
 fillaritori.com###fillaritori_mobileheader
 fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
@@ -636,6 +640,7 @@ leffatykki.com###ad-300x150
 leffatykki.com###ad-300x300
 leffatykki.com##div[class="ad230x90"]
 leffatykki.com,lumipallo.fi##.ads
+lehtikeidas.fi##.header-widget [href^="https://aslinkhub.com/"]
 leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net#?#li:-abp-has([href^="https://track.adtraction.com/"])
@@ -816,6 +821,7 @@ pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
 pietarsaarensanomat.fi##.ad-list-read-all
 pirkkalainen.com#?#.custom:-abp-has(img[src="/images/mainospaikat/3.jpg"])
 pkank.fi##.ad-assigned.panoraamabanneri
+playpilot.com#?#.search-preview .side:has-text(Mainos)
 pointti.fi##.after-ad
 pointti.fi##.before-ad
 pointti.fi##.jattiboksi
@@ -956,6 +962,9 @@ talouselama.fi#?#div[width]:-abp-has(.lazyload-wrapper)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
 tanssiin.fi##a[href="https://sinitaivas.com/kauppa/"]
+teatteritanssi.fi##.siteHeader-widgetArea
+teatteritanssi.fi##.widget [href^="https://www.autodoc.fi/"]
+teatteritanssi.fi##.widget [href^="https://www.topautoosat.fi/"]
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.node-promoted.node-teaser
@@ -1003,6 +1012,7 @@ tiketti.fi#?#.itemwide:-abp-has([href="https://www.nextory.fi/partner-collaborat
 tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilannehuone.fi#?##cnt_lista tr:-abp-has(.mainosinline) + tr:-abp-has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):-abp-has(+ tr:-abp-has(.mainosinline))
+tilisanomat.fi##.ctaad
 tilt.fi##.lazyloading
 tilt.fi#?#div[class="w-full bg-black border-gray-200 border-b"]:-abp-has(a[href^="http://pubads.g.doubleclick.net/"])
 tinderinparhaat.com##.adf-placement-top
