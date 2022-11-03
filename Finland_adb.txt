@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 02November2022v1
+! Version: 03November2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -499,6 +499,7 @@ iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(
 iskelma.fi,radionova.fi,voice.fi#?#div.item:-abp-has(.sponsored)
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
+jahtimedia.fi#?#.latest-post-link:-abp-has(.mainos)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
 jp-kunnallissanomat.fi#?#a[href^="/artikkeli-"]:has-text(MAINOS)
@@ -714,6 +715,8 @@ metsalehti.fi##.section--native-left
 metsalehti.fi##.teaser--partner
 metsalehti.fi##.teaser-top-banner--partner
 metsalehti.fi##[data-set="main-ad"]
+metsastajaliitto.fi#?#.frontpage-ad-item:not(:-abp-has([href^="https://metsastajaliitto.fi/"]))
+metsastajaliitto.fi#?#.view-id-jahtimedia_latest .list-item:-abp-has([href^="https://jahtimedia.fi/mainokset/"])
 mikrobitti,talouselama.fi##div[id|=almad]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
@@ -842,6 +845,9 @@ raahenseutu.fi##div[id=outstream]
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
+rakennusmaailma.fi,tekniikanmaailma.fi##.Article_native-ads
+rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
+rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 rakentaja.fi##div[id=kauppa_hot]
 rakentaja.fi##div[id^=banner]
 rakentaja.fi##img[id=js_ad]
@@ -971,12 +977,9 @@ tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##.ad
 teknavi.fi##[class|=adform]
-tekniikanmaailma.fi##.Article_native-ads
 tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
-tekniikanmaailma.fi##.FrontPage_native-ads
 tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
 tekniikanmaailma.fi##.PriceGuide_price-guide
-tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
 tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
