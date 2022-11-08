@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 07November2022v1
+! Version: 08November2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -233,7 +233,8 @@ como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recomm
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.border-bottom.row:-abp-has(.poppartners)
 como.fi,tilt.fi#?#body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:-abp-has(a[href*=".fi/advertoriaali/"])
 como.fi,tilt.fi#?#div[class="w-full bg-white border-gray-200 border-b py-2 px-4"]:-abp-has([id*="_smart_boksi"])
-como.fi,tilt.fi#?#div[style^="min-height:"]:-abp-has([id*="_smart_paraati"])
+como.fi##.px-4.py-2.border-b.border-gray-200.bg-white.w-full
+como.fi##div[class="flex flex-wrap md:flex-nowrap lg:flex-nowrap gap-x-4"][style="min-height:500px;"]
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 250px;"]
 dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 300px;"]
@@ -282,7 +283,7 @@ epari.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaas
 episodi.fi##.bg-elisa-dark
 episodi.fi#?#.main-article > div:has-text(Mainos)
 episodi.fi,inferno.fi#?#.px-4.py-2.bg-white.w-full:-abp-has(.poppartners)
-episodi.fi,inferno.fi,rumba.fi###tilt-ad-top-stay-away
+episodi.fi,inferno.fi,rumba.fi,tilt.fi###tilt-ad-top-stay-away
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##.box.ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##article[class="article-preview content-marketing box"]
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div.section:nth-of-type(2) > .row > .show-for-large.columns.xxlarge-6.xlarge-7.large-8.sidebar
@@ -874,17 +875,9 @@ satakunnankansa.fi##div[class=s-ryhma-carousel-wrapper]
 satakunnankansa.fi##div[class^=adContainer]
 satakunnankansa.fi#?#article.list:has-text(Mainokset)
 satakunnanviikko.fi##.panoraama_etus
-seiska.fi###inhouse_ad
-seiska.fi##.ad-inhouse-desktop
-seiska.fi##.category-container--commercial.category-container.container-fluid
-seiska.fi##.dicCCM
-seiska.fi##.dre-item--skin-native
-seiska.fi##.hcAuCH
-seiska.fi##.tilaa-banner
-seiska.fi##div[class*=AdAndCarousel__Wrapper]
-seiska.fi##div[class^=Ad__AdWrapper]
 seiska.fi#?##article-body > div[class]:-abp-has(.ad-container)
-seiska.fi#?#article:-abp-has(a[href=""][rel="no-index,no-follow"])
+seiska.fi#?##article-body > div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
+seiska.fi#?#div[data-testid="article-body"] > div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
 selanne-lehti.fi##.ad-list-read-all
 selanne-lehti.fi##.mainospalsta
 seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
