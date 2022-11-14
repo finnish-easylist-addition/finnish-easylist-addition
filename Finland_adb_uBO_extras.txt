@@ -77,7 +77,7 @@ finder.fi##+js(rc, SearchResultList--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList__Row--advertisement, , stay)
 findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
-iltalehti.fi##.double-column > a[href]:-abp-has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
+iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
 
 ! -----SCRIPTS END-----
 
