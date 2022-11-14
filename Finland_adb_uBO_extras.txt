@@ -10,9 +10,9 @@ finder.fi##.SearchResultList__Row--advertisement, .Profile__TopCard--advertiseme
 finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
 fin.afterdawn.com###nm-980x400-fb:style(min-height: unset !important)
 fin.afterdawn.com###nm-300x300-fb:style(min-height: 30px !important)
-fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)
+fin.afterdawn.com#?#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)
 fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:not(+ .boxes):style(margin: -10px auto !important)
-golfpiste.com##.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
+golfpiste.com#?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
@@ -21,7 +21,7 @@ kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
 kodinkoneopas.com##.oxy-modal-backdrop
 kodinkoneopas.com##body.oxy-modal-active:style(overflow: auto !important; position: initial !important)
-kotiliesi.fi##.article-card-grid li:-abp-has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
+kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 mobiili.fi###headermob:style(position: static !important)
 mobiili.fi###show_merkki:style(margin-top: 2em !important)
@@ -29,7 +29,7 @@ mobiili.fi##.header_ad, important
 mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
 mvlehti.net##.featured-row-small:style(background-color: white !important)
 nyan.ax##.widget_adrotate_widgets:remove()
-nyan.ax##.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner']):remove()
+nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner']):remove()
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 telsu.fi###head:style(margin-bottom: 2px !important)
@@ -37,7 +37,7 @@ tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"]:style(padding-left: 0px !important)
-www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:-abp-has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
+www.suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:-abp-has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
 www.suomi24.fi##div[width="100%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div:style(border-right: none !important; border-left: 1px solid lightgray !important)
 www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"] > div:style(padding-left: 15px !important)
