@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 14November2022v2
+! Version: 17November2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -345,6 +345,7 @@ fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.f
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.adv-link
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
@@ -422,8 +423,8 @@ hattulaan.fi,reska.fi##a[rel="lightbox[palvelut]"]
 hattulaan.fi,reska.fi#?#[class|=ml-adverts]:not(:-abp-has(a[href="https://reska.fi/lounasreska/"]))
 hauskimmat.fi##.td-a-rec-id-content_inline
 hauskimmat.fi##.ylapala
-hbl.fi##.bg-advertorial
-hbl.fi##.dre-item--feature-advertorial
+hbl.fi,ostnyland.fi,vastranyland.fi##.bg-advertorial
+hbl.fi,ostnyland.fi,vastranyland.fi##.dre-item--feature-advertorial
 heili.fi###sp-alabanneri
 heili.fi##.autoboksi.moduletable
 heili.fi,outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,prsanomat.fi,ylakarjala.fi##.jattiboksi.moduletable
@@ -531,6 +532,7 @@ kaleva.fi#?#.media-site__widget-container:-abp-has( * .media-widget__title:has-t
 kaleva.fi#?#aside.sidebar__column-container:-abp-has(.-ad)
 kaleva.fi,lapinkansa.fi###outstream-container
 kamera-lehti.fi###sidebar .simple-image > [href]:not([href^="https://kamera-lehti.fi"])
+kamera-lehti.fi###sidebar .widget[id|="custom_html"]
 kamera-lehti.fi#?#.etusivu-mainos:not(:-abp-has([href^="https://kamera-lehti.fi"]))
 kangasalansanomat.fi##.kaupallinen-general
 kangasalansanomat.fi##.ksnote
@@ -558,6 +560,11 @@ kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test]
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
 kauppalehti.fi,mediuutiset.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
 kauppalehti.fi,talouselama.fi#?#div[class]:-abp-has(> .lazyload-wrapper > .etua-react-embed)
+kauppojen-aukioloajat.fi###search-top-wide-ad
+kauppojen-aukioloajat.fi###specific-bottom-wide-ad
+kauppojen-aukioloajat.fi###specific-bottom-rectangle-ad
+kauppojen-aukioloajat.fi###specific-openinghours-rectangle-ad
+kauppojen-aukioloajat.fi###specific-top-wide-ad
 keskipohjanmaa.fi#?#.col-xs-12.col-sm-6.col-md-12:has-text(mainosartikkelit)
 keskustelu.afterdawn.com###div-ad-below-message
 keskustelu.afterdawn.com##.pageWidth > div[style="min-height:90px;text-align:center;margin:auto;"]
@@ -792,6 +799,7 @@ napsu.fi###banneriwrapper
 napsu.fi##.mobilead
 navigatormagazine.fi##.mob_panorama
 navigatormagazine.fi,promaintlehti.fi##.panorama
+nelonen.fi#?#.chakra-container + div[class]:-abp-has(> div[class] > [data-adfscript^="track.adform.net/"])
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
@@ -852,6 +860,7 @@ rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 rakentaja.fi##div[id=kauppa_hot]
 rakentaja.fi##div[id^=banner]
 rakentaja.fi##img[id=js_ad]
+rakentaja.fi#?##dimScreenAll:-abp-has([data-category="DisplayAD"])
 rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.ad-empty
 rantapallo.fi##.recommended.lomakone-results-row
@@ -1191,6 +1200,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=www.telsu.fi
 /telsu\.fi\/img\/(?!cloudcity|mindmax|navibg|prg|tvohjelmat)/$image,domain=telsu.fi
 /wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image,domain=alibi.fi|hymy.fi
+/wp-content/uploads/pum/*$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
@@ -1263,6 +1273,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||otavamedia.fi/ad/$script
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
 ||popmedia.bbvms.com/a/pop_media_episodi_fi_inarticle$script,domain=episodi.fi
+||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
 ||recommendations.asunnot.oikotie.fi^$domain=is.fi
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
