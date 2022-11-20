@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18November2022v1
+! Version: 20November2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1122,6 +1122,7 @@ wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="-nostokuva"])
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="Ad-otsikko"])
+www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="mainos"])
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="natiivi-otsikko"])
 www.io-tech.fi#?#.view-full.uutinen:-abp-has(a[href="https://www.io-tech.fi/category/mainos/"])
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeBottomBoxBanner
