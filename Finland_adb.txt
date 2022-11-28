@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 20November2022v1
+! Version: 28November2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -232,6 +232,7 @@ como.fi,episodi.fi,fum.fi,inferno.fi,kaaoszine.fi,rumba.fi,soundi.fi,tilt.fi#?#d
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi##.poppartners
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##div[data-recommendation-type=ad]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi#?#.border-bottom.row:-abp-has(.poppartners)
+como.fi,episodi.fi,inferno.fi,rumba.fi,tilt.fi##.md\:bg-gray-200.md\:max-w-full.md\:px-4.md\:py-4
 como.fi,tilt.fi#?#body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:-abp-has(a[href*=".fi/advertoriaali/"])
 como.fi,tilt.fi#?#div[class="w-full bg-white border-gray-200 border-b py-2 px-4"]:-abp-has([id*="_smart_boksi"])
 como.fi##.px-4.py-2.border-b.border-gray-200.bg-white.w-full
@@ -384,6 +385,7 @@ gekkonen.net#?#.td_block_wrap.td_block_text_with_title:-abp-has(a[href^="https:/
 gekkonen.net#?#.td_block_wrap.td_block_text_with_title:has-text(/kasino/i)
 gekkonen.net#?#.widget:-abp-has(.adsbygoogle)
 gekkonen.net#?#.widget:-abp-has([rel^="https://affmore.com/"])
+glu.fi#?#.box:has-text(Mainos:)
 glu.fi#?#li:-abp-has(.adsbygoogle)
 glu.fi#?#ul.link:-abp-has(a[href^="http://clk.tradedoubler.com/"])
 gogolf.fi##.is-advertorial
