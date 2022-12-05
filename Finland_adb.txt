@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 01December2022v1
+! Version: 05December2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -884,6 +884,7 @@ riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 riemurasia.net##a[rel^="sponsored"]
 ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
+rumba.fi#?#.listing-container:-abp-has(> [href^="https://www.rumba.fi/advertoriaali/"])
 ruuhkavuodet.fi##div[class|="g g"]
 ruuhkavuodet.fi#?#.widget_block:-abp-has(#nm-300x600-300x300)
 sammysatv.com##a[href*=banner]
