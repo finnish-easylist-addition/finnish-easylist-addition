@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 05December2022v3
+! Version: 10December2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -806,6 +806,7 @@ navigatormagazine.fi##.mob_panorama
 navigatormagazine.fi,promaintlehti.fi##.panorama
 nelonen.fi#?#.chakra-container + div[class]:-abp-has(> div[class] > [data-adfscript^="track.adform.net/"])
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
+nettitrendi.fi##.node__content .block[class$="kampanja"]
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
 nyan.ax##.mobileads
