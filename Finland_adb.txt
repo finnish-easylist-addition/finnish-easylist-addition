@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 10December2022v1
+! Version: 14December2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -350,6 +350,7 @@ fuengirola.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.pum-overlay
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://bonuspanda.com/fi/"]
@@ -875,7 +876,9 @@ rantapallo.fi##div[id|=almad]
 ratkojat.fi###adslot_bottom
 ratkojat.fi###adslot_search
 ratkojat.fi###topslot
+ratkojat.fi##.adslot_right
 ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
+redfoxsanakirja.fi##.ad-container-wide
 retkilehti.fi##.category-mainos
 retkilehti.fi,riistalehti.fi##.gutenberg-content [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"])
 retkilehti.fi,riistalehti.fi##body.home [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"]) + .wp-block-separator
@@ -1115,7 +1118,9 @@ viranomaisuutiset.fi##.td-a-rec
 viranomaisuutiset.fi##[href^="https://in.matsmart.fi/t/"]
 viranomaisuutiset.fi##[href^="https://track.adtraction.com/"]
 viranomaisuutiset.fi##div[id|=nm-300x300]
-viranomaisuutiset.fi#?#div[id|=polii]:-abp-has(br + br + div[id|=nm-300x300] + br + br)
+viranomaisuutiset.fi#?#.td-footer-wrap .td_block_title:-abp-has(+ .td-a-rec)
+viranomaisuutiset.fi#?#.td-footer-wrap .td-block-row:has-text(-Yhteistyössä-)
+viranomaisuutiset.fi#?#div[id|=polii]:-abp-has([id|=nm-300x300] + br + br)
 voice.fi##.article-sponsored
 voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
@@ -1235,6 +1240,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
 ||deals.innocode.no/api/public/v1/widgets$domain=aland.com|alandstidningen.ax|enontekionsanomat.fi|inarilainen.fi|kainuunsanomat.fi|kittilalehti.fi|kotilappi.fi|kuhmolainen.fi|luoteis-lappi.fi|saariselansanomat.fi|sompio.fi|sotkamolehti.fi|ylakainuu.fi
+||deals.kledjut.com^$domain=viranomaisuutiset.fi
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
