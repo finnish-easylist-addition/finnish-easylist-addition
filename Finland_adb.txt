@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 14December2022v1
+! Version: 20December2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -186,6 +186,7 @@ app.mtvuutiset.fi##.ppas
 app.mtvuutiset.fi##div[data-testid="endorsement"]
 apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:has-text(MAINOS (TEKSTI JATKUU ALLA))
+apu.fi#?#div[class*="PageBlock__ContentContainer"]:-abp-has(div[class*="ContentSpotlightBlock__AdLabel"])
 apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 arcticinsider.com##a[href*=bannerTrack]
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,tinderinparhaat.com,valioliiga.com,viikonloppu.com##.pnad-container
@@ -256,6 +257,8 @@ edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
 edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
+eeva.fi#?#div[class^="EmbeddedArticle__Container"]:-abp-has(div[class*="CommercialLabelContainer"])
+eeva.fi#?#div[class^="ContentFlowBlock__CardContainer"]:-abp-has(div[class*="ContentCard__AdLabel"])
 ehandel.fi###div-leeadsFullpageAd
 ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
@@ -719,7 +722,9 @@ mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisi
 mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:-abp-has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 mediuutiset.fi#?#div[class]:-abp-has(> a[href="/kumppanisisaltoa"])
 mediuutiset.fi#?#div[width]:-abp-has([id|="almad"]:not([id|="almad-mobileParade"]))
+meillakotona.fi##div[class^="pageFeed__topAdSlot"]
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
+meillakotona.fi#?#div[class^="transitionSlot__component"]:-abp-has(div[class^="feedItem__commercial"])
 meillakotona.fi,terve.fi##div[class*=feed__adSlot]
 metropoli.net##.ads-desktop
 metropoli.net##.ads-mobile
@@ -833,7 +838,9 @@ pelikone.fi##.preroll-text
 pelikone.fi##.text-ad-container
 pelit.fi##a[href="/category/mainos/"]
 pelit.fi#?#li[class="wa@s"]:-abp-has([alt^="MAINOS:"])
+pienimatkaopas.com###adiniframe_oikealaita_container
 pienimatkaopas.com###bookingnostokuvasarjassa
+pienimatkaopas.com###mainos .ilmoitus
 pienimatkaopas.com###pm_mp_kotisivu
 pienimatkaopas.com##[id^=pm_mp_tekstissa]
 pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
@@ -1252,6 +1259,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
 ||honestpartners.com^$third-party
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
+||hymy.fi/wp-content/uploads/2022/11/nicorette_hymy.jpg$image
 ||ig.fi/bannerit/koronabanneri.png$image
 ||improveads.fi^$third-party
 ||io-tech.fi/images/*_290x290px.png$image
