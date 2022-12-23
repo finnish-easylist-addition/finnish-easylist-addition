@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 20December2022v1
+! Version: 23December2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -257,6 +257,7 @@ edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
 edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
+eeva.fi#?#.swiper-slide:-abp-has(div[class*="ContentCard__AdLabel"])
 eeva.fi#?#div[class^="EmbeddedArticle__Container"]:-abp-has(div[class*="CommercialLabelContainer"])
 eeva.fi#?#div[class^="ContentFlowBlock__CardContainer"]:-abp-has(div[class*="ContentCard__AdLabel"])
 ehandel.fi###div-leeadsFullpageAd
@@ -529,6 +530,7 @@ kaksplus.fi#?#.owl-item:-abp-has(.portal__commercial)
 kalamies.com##.custom_banners_big_linkbefore-content
 kalamies.com##.custom_banners_big_linkwidget
 kalamies.com##[class^=custom_banners_big_linkcontent]
+kalamies.com##[id^="_ning_zone_"]
 kalamies.com#?#.widget:has-text(Mainos):not(:-abp-has([href="https://kalamies.com/tilaa/"]))
 kalastus.com###mini-panel-autodoc_150x50
 kalastus.com##.gam-holder
@@ -1062,6 +1064,7 @@ tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
 turuntienoo.fi###main > .ads
 tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
+tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
 ulvilanseutu.fi##.adsanity-single
 ulvilanseutu.fi##.top-bar
@@ -1269,6 +1272,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
+||kalamies.com/?_dnid=$subdocument,domain=kalamies.com
 ||karjalainen.fi/images/banners/kiinnostuitko$image,domain=karjalainen.fi
 ||kelkkalehti.com/bannerit/$image,domain=kelkkalehti.com
 ||keskustelu.pakkotoisto.com/bannerit/$image,domain=keskustelu.pakkotoisto.com
