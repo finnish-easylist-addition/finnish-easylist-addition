@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 02January2023v1
+! Version: 04January2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -498,13 +498,7 @@ inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:-abp-has([class$=lazy-load-active])
 irc-galleria.net##div[id^=open_]
 irc-galleria.net,tilannehuone.fi##div[id^=Nostemedia_Desktop]
-is.fi###kumppaneiden-tarjoukset
-is.fi##.advertorial-teaser
-is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
-is.fi##.is-advertorial.external.full-width.teaser
-is.fi##.ticker-promo-10
-is.fi##a[href="https://www.startel.fi/?infront"]
-is.fi##article[class*=native-ad]
+is.fi##.teaser-ad__background
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
