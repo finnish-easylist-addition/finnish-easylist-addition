@@ -1012,6 +1012,7 @@ telsu.fi###prg img:not(.ch img)
 telsu.fi##.footer > .pb1
 telsu.fi##.footer > .pb100
 telsu.fi##.pop img:not(.cd img)
+telsu.fi##a[href="/dlk?next"][style^="font-size:3vw;padding:"][style$="0px;display:block;font-weight:600;line-height:3vw;"]
 telsu.fi##a[href^="/"][target=blank] > img[src^="/"]
 telsu.fi##img:not(#foot1 img, #foot2 img, #prg img, .data img, .pop img, .stat img, img[src^="/img/"], .chnsbox[rel="suosikit"] img)
 telsu.fi#?#.ch:-abp-has(em>a)
