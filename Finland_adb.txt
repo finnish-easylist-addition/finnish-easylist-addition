@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 17January2023v1
+! Version: 18January2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -343,6 +343,7 @@ fonecta.fi##.map-ad
 fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
 fontanka.fi##.widget_custom_html
+foorumi.eu,foorumimme.com,juttelu.com,keskustelu.info,munfoorumi.com,munpalsta.net###page-body > div[style="width:728px; margin:0 auto; padding:10px 0;"]
 foreca.fi##div[id|=inline-banner-mobi]
 foreigner.fi#?#article:has-text(SPONSORED)
 forssanlehti.fi#?#.herald-sidebar > .widget_text:-abp-has(script)
