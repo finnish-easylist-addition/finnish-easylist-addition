@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18January2023v2
+! Version: 18January2023v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1430,7 +1430,7 @@ dawn.fi#?#.ui-body-inherit.ui-li-static:-abp-has(#dawn_mobile-content)
 gamereactor.fi###ad_sticky
 gamereactor.fi##.ad_interscroller
 gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
-gamereactor.fi##.wrapper 
+gamereactor.fi##.wrapper
 gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
