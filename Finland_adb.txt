@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18January2023v3
+! Version: 19January2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1274,7 +1274,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||koeajolle.com/wp-content/uploads/*/blue-rect-*.jpg$image,domain=koeajolle.com
 ||koeajolle.com/wp-content/uploads/*/pop-vakuutus-alennuskoodi.png$image,domain=koeajolle.com
 ||kotikarjala.fi/eneo?tem=ndap_ilmoitus&$xmlhttprequest,domain=kotikarjala.fi
-||kotiliesi.fi/upotukset/hintaopas/*$domain=tekniikanmaailma.fi
+||kotiliesi.fi/upotukset/hintaopas/$domain=tekniikanmaailma.fi
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||laitilansanomat.fi^*/gallery/mainos*/$image,domain=laitilansanomat.fi
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
@@ -1304,7 +1304,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||riistalehti.fi^*_Banner_Retki_Nature_Camo_$image,domain=riistalehti.fi
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
-||seksitreffit.fi/banners/*$domain=seksitreffit.fi
+||seksitreffit.fi/banners/$domain=seksitreffit.fi
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
 ||strongbox.nostemedia.fi^$script,third-party
 ||superskills.fi/fi*?isIframe=true$subdocument
@@ -1314,7 +1314,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||tiketti.fi/tiedostot/*/Tiketti*_Paraati_$image,domain=tiketti.fi
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tokentube.net/f_scripts/shared/videojs/ads.vast.js$script
-||tokentube.net/vast?t=vjs&v=*$xmlhttprequest
+||tokentube.net/vast?t=vjs&v=$xmlhttprequest
 ||ts.fi/adframe.js$script,domain=ts.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
@@ -1453,7 +1453,7 @@ kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 
 ! To fix the opening of dna.fi product links on hinta.fi
-@@||track.adform.net/*dna.fi/*$document,domain=track.adform.net
+@@||track.adform.net/*dna.fi/$document,domain=track.adform.net
 
 ! Unbreak netstat.ayy.fi
 @@||netstat.ayy.fi^
