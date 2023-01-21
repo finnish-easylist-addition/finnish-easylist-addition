@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v2
+! Version: 21January2023v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -675,7 +675,6 @@ ls24.fi#?#.article-block__list-article:-abp-has(a[href^="https://ls24.fi/kaupall
 ls24.fi#?#.article-list--article:has-text(Kaupallinen yhteistyö)
 ls24.fi#?#.js-article-block:-abp-has(span[class$=commercial-label])
 ls24.fi#?#.js-article-block:-abp-has(span[class$=commercial-label]) + .article-blocks-2022-divider
-ls24.fi#?#article[class].article-block:-abp-has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
 ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(Kaupallinen yhteistyö)
 lumipallo.fi#?#div.row:not(:-abp-has(article)):-abp-has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
