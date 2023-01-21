@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v8
+! Version: 21January2023v9
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -460,7 +460,6 @@ hintaopas.fi##.outsider-ads
 hintaseuranta.fi##.header-container__ad-container
 hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
-historianet.fi##div[id=stickyFooter]
 hs.fi##.aldente-wrapper
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
