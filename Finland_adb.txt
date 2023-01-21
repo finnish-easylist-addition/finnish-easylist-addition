@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v5
+! Version: 21January2023v6
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -104,12 +104,12 @@ _mainosnappi.
 ##a[href="https://kasinoseta.com/"]
 ##a[href^="https://app.readpeak.com/ads"]
 ##a[href^="https://www.kumiukko.fi/ostos?tt="]
+##div#commercial-carousel
 ##div[class*=element--nativead]
 ##div[class*=newsFrontAd]
 ##div[class="ad container-right"]
 ##div[class=AgAdCarousel_Container]
 ##div[class=AgAdCarousel_LightBox]
-##div[id=commercial-carousel]
 ##div[id^=ads-content-bottom]
 ~nettimokki.com##div[id*=AdContainer]
 
