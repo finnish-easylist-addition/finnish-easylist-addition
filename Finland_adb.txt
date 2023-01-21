@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v7
+! Version: 21January2023v8
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1045,7 +1045,7 @@ tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div#banner_panorama_topmost
 tori.fi##div#panorama_top
-tori.fi##div#id=panorama_topmost
+tori.fi##div#panorama_topmost
 traktorpool.fi##.billboard
 tulikulma.fi##.slideshow
 tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
