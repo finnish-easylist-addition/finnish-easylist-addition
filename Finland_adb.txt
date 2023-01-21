@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v3
+! Version: 21January2023v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -214,7 +214,7 @@ avainlehti.fi##.teaser--ad
 avecmedia.fi##.front-page-ad-padding
 avecmedia.fi##.front-page-advertisement
 avplus.fi#?#.widget:-abp-has(.widget_advads_ad_widget)
-bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
+bbs.io-tech.fi##.structItem--thread[data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
