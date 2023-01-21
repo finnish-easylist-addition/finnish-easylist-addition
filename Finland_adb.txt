@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v6
+! Version: 21January2023v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -911,7 +911,7 @@ sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 sportti.com##[href^="http://ads.leovegas.com/"]
 sportti.com##[href^="http://www.primeslots.com/"]
-sportti.com##div[id=panorama_container]
+sportti.com##div#panorama_container
 sportti.com##div[style="font-size:14px;line-height:21px;padding-top:6px;"]
 sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + [type="text/javascript"] + div
 sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + table[width="468"] + div
@@ -1043,9 +1043,9 @@ tokentube.net##a[data-content-piece$="_files_right_top"]
 tokentube.net##a[data-content-piece="view_files_payer_bottom1"]
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
-tori.fi##div[id=banner_panorama_topmost]
-tori.fi##div[id=panorama_top]
-tori.fi##div[id=panorama_topmost]
+tori.fi##div#banner_panorama_topmost
+tori.fi##div#panorama_top
+tori.fi##div#id=panorama_topmost
 traktorpool.fi##.billboard
 tulikulma.fi##.slideshow
 tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
