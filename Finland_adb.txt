@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21January2023v4
+! Version: 21January2023v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -610,7 +610,6 @@ koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 koneviesti.fi,maaseuduntulevaisuus.fi#?#.row .col-small-12.col-medium-12.col-large-12:has-text(Mainos:)
 konsolifin.net##.konsolifin-vaakamainos
 kotikokki.net###partners-container-big
-kotikokki.net##[id=content][class="content hrecipe"] ~ [style="float: left; width: 100%; height: 200px; padding-left:20px; padding-right:20px; box-sizing:border-box; background-color:#fff;"]
 kotilappi.fi,kuhmolainen.fi,sotkamolehti.fi,ylakainuu.fi##.banner--top
 kotiliesi.fi##.article-continues
 kotiliesi.fi##.card--is-sponsored
@@ -858,7 +857,6 @@ puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.partner-blog-list
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*=commercial-blog-card]
 puskaradio.net##.all-adds
-raahenseutu.fi##div[id=outstream]
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
