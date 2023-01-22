@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 22January2023v1
+! Version: 22January2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -877,8 +877,8 @@ ratkojat.fi##.adslot_right
 ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
 redfoxsanakirja.fi##.ad-container-wide
 retkilehti.fi##.category-mainos
-retkilehti.fi,riistalehti.fi##.gutenberg-content [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"])
-retkilehti.fi,riistalehti.fi##body.home [style^="margin-left: auto; margin-right: auto; text-align: center;"]:is([id|="retki"], [id|="riist"]) + .wp-block-separator
+retkilehti.fi,riistalehti.fi##div[style^="margin-left: auto; margin-right: auto; text-align: center;"] .is-external-link
+retkilehti.fi,riistalehti.fi##body.home div[style^="margin-left: auto; margin-right: auto; text-align: center;"] + .wp-block-separator
 riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
