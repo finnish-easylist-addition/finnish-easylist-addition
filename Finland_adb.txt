@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 01February2023v1
+! Version: 01February2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -688,7 +688,7 @@ m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.netti
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com##[class*=pt][class*=pb][style*="border-top:1px solid #b3b3b3"]
 m.nettimarkkina.com,m.nettimokki.com##.itemlist > li:not(.block_list_li)
 m.tori.fi##.appnexus-container
-maalampofoorumi.fi##div[id=sponsor]
+maalampofoorumi.fi##div#sponsor
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
 maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
@@ -864,9 +864,9 @@ rahakirstu.com##.adv_ads_ad_unit
 rakennusmaailma.fi,tekniikanmaailma.fi##.Article_native-ads
 rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
 rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
-rakentaja.fi##div[id=kauppa_hot]
+rakentaja.fi##div#kauppa_hot
 rakentaja.fi##div[id^=banner]
-rakentaja.fi##img[id=js_ad]
+rakentaja.fi##img#js_ad
 rakentaja.fi#?##dimScreenAll:-abp-has([data-category="DisplayAD"])
 rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.ad-empty
@@ -966,7 +966,7 @@ superlehti.fi##.ad-banner-lift
 svl.fi##.mainos_banner1
 svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
 taisto.org###mw-data-after-content > div
-taisto.org##a[id=top] ~ [id=siteNotice][class=mw-body-content]
+taisto.org##a#top ~ #siteNotice.mw-body-content
 talouselama.fi##body:not(.is-style-kumppanisisallot) a[href^="https://www.talouselama.fi/kumppanisisallot/"]:not(section > a)
 talouselama.fi#?#.lazyload-wrapper:-abp-has([id|=almad])
 talouselama.fi#?#[id|=podcasti]:has-text(Kaupallinen Yhteistyö)
@@ -1080,7 +1080,7 @@ vantaansanomat.fi##div.display-ad
 vapaasana.swedishforum.net###p0
 vapaasana.swedishforum.net##div#main-content > div:first-of-type[style="overflow:visible"]
 vapaasana.swedishforum.net##ul#picture_legend + div[style="overflow:visible"]
-vapaavuoro.uusisuomi.fi##div[id=etuoviVVAdPrototype]
+vapaavuoro.uusisuomi.fi##div#etuoviVVAdPrototype
 vasabladet.fi##.online-promotion-bar
 vastranyland.fi##.type-advertorial
 vau.fi##.sdaelem.td-block-span12
