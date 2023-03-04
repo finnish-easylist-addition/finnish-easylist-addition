@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 4March2023v1
+! Version: 4March2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -853,6 +853,9 @@ polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
 projektiuutiset.fi##.proje-widget
+pt-media.org###custom_html-63
+pt-media.org###text-32
+pt-media.org##[href="https://pt-media.org/pikakasinot/"]
 pt-media.org##[href^="https://kasinopartio.com/"]
 pt-media.org#?#section:-abp-has(> a[href="https://nocompromiseclothing.com/"])
 puheenaiheet.fi##div[class=wpb_wrapper]
