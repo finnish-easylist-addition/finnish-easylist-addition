@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 19February2023v1
+! Version: 4March2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -774,6 +774,7 @@ mtvuutiset.fi##.component-soniaincontent
 mtvuutiset.fi##.leaderboard
 mtvuutiset.fi##.sonia-container
 mtvuutiset.fi#?#.latest-listing > .listing-items > li:has-text(Mainos)
+murha.info##a[href="https://www.jurinet.fi"]
 muropaketti.com##.widget_ads_carousel
 muropaketti.com##.widget_hintaopasbestprice
 muropaketti.com##SECTION[id*=hintaopaspopular]
