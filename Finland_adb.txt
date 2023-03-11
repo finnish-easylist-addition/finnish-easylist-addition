@@ -462,6 +462,7 @@ hintaopas.fi##.outsider-ads
 hintaseuranta.fi##.header-container__ad-container
 hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
+hs.fi##.ab-test-metered-softwall
 hs.fi##.aldente-wrapper
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
@@ -774,6 +775,7 @@ mtvuutiset.fi##.component-soniaincontent
 mtvuutiset.fi##.leaderboard
 mtvuutiset.fi##.sonia-container
 mtvuutiset.fi#?#.latest-listing > .listing-items > li:has-text(Mainos)
+murha.info##a[href="https://www.jurinet.fi"]
 muropaketti.com##.widget_ads_carousel
 muropaketti.com##.widget_hintaopasbestprice
 muropaketti.com##SECTION[id*=hintaopaspopular]
@@ -806,6 +808,7 @@ napsu.fi##.mobilead
 navigatormagazine.fi##.mob_panorama
 navigatormagazine.fi,promaintlehti.fi##.panorama
 nelonen.fi#?#.chakra-container + div[class]:-abp-has(> div[class] > [data-adfscript^="track.adform.net/"])
+netti-tv.fi##div[style^="min-height:"][style$=";text-align:center"]
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
 nettitrendi.fi##.node__content .block[class$="kampanja"]
 nopeustesti.com###offer
@@ -852,6 +855,9 @@ polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
 projektiuutiset.fi##.proje-widget
+pt-media.org###custom_html-63
+pt-media.org###text-32
+pt-media.org##[href="https://pt-media.org/pikakasinot/"]
 pt-media.org##[href^="https://kasinopartio.com/"]
 pt-media.org#?#section:-abp-has(> a[href="https://nocompromiseclothing.com/"])
 puheenaiheet.fi##div[class=wpb_wrapper]
@@ -1305,7 +1311,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
 ||strongbox.nostemedia.fi^$script,third-party
 ||superskills.fi/fi*?isIframe=true$subdocument
-||telsu.fi/telsu_top
+||telsu.fi/telsu_pot_$xmlhttprequest,domain=telsu.fi
 ||testeri.fi/ext_telsu$subdocument
 ||testeri.fi/inc/museokortti.png$image
 ||tiketti.fi/tiedostot/*/Tiketti*_Paraati_$image,domain=tiketti.fi
@@ -1415,7 +1421,7 @@ iltalehti.fi#@#.ad-placement
 
 ! Redirect resources
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 
 ! appears when blocking ads:
