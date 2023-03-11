@@ -66,6 +66,7 @@ tamperelainen.fi##^.display-ad
 
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=puhekupla.com
 ||elisa.digital.nuance.com/tagserver/js/ads-blocking-detector.min.js$domain=elisa.fi
+||v.fwmrm.net/ad/g/1$removeparam=caid
 ||telsu.fi/x_abcheck$xhr,domain=telsu.fi
 
 ! -----NETWORK FILTERS END-----
@@ -87,6 +88,3 @@ iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kau
 ! https://github.com/easylist/easylist/pull/8317
 pelaaja.fi##+js(aopr, ga)
 ||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
-
-! Removes the caid parameter from Freewheel requests to clean up Sanoma websites from video/audio ads
-||7caa2.v.fwmrm.net/ad/g/1$removeparam=caid
