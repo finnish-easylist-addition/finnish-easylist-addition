@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 12March2023v1
+! Version: 12March2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -141,6 +141,7 @@ aijaa.com##div.text-center.col-sm-6 > a[rel$=nofollow]
 aitiydenihme.fi,askelterveyteen.com,mielenihmeet.fi,myanimals.com##.bc--grey-neutral-50
 aitiydenihme.fi,askelterveyteen.com,mielenihmeet.fi,myanimals.com##.card-article-ads
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi##.teivo-sidebar
+akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi#?#.feedraviraportit:-abp-has(.mainosfeedravi)
 akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
@@ -685,6 +686,7 @@ ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(K
 lumipallo.fi#?#div.row:not(:-abp-has(article)):-abp-has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
 luukku.com##.banner.content
+lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi###kokosisaltoid
 m.facebook.com#?#article:-abp-has(> * header > * span:has-text(Sponsoroitu))
 m.jaatama.fi##.c-box-space:not(.c-box)
 m.jaatama.fi#?#li:-abp-has(div[id|=div-gpt-ad])
@@ -703,12 +705,7 @@ maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 maastohiihto.com##.paid-content-wrapper
 markkinointiuutiset.fi##div[class|="ad-section"]
-marmai.fi##div#skyscraper-height-div > aside > div > div > a[href^="/kumppaniblogit/"]
-marmai.fi##div#skyscraper-height-div > section > div > a[href^="/kumppaniblogit/"]
-marmai.fi#?#div#skyscraper-height-div > aside > a[href^="https://studio.marmai.fi/"]:has-text(Kaupallinen yhteistyö)
-marmai.fi#?#div#skyscraper-height-div > div > aside > a[href^="https://studio.marmai.fi/"]:has-text(Kaupallinen yhteistyö)
-marmai.fi#?#div#skyscraper-height-div > div > section > div > div > div:has-text(Kaupallinen yhteistyö)
-marmai.fi,tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
+tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 matkabongaukset.fi#?#.widget_block:-abp-has(.matka-nostemedia-oikeapalsta)
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
 mbnet.fi##div#topbanner
@@ -831,7 +828,6 @@ opensubtitles.org#?#fieldset:has-text(Poista mainos)
 orimattilansanomat.fi#?#.textwidget:-abp-has(.orimad-adlabel)
 orivedensanomat.fi###sidebar [href="https://www.loytotex.fi/tarjoukset"]
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
-orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi###kokosisaltoid
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi#?#.sp-module:-abp-has(.tassaWidget)
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
