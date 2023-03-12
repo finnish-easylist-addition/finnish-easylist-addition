@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 12March2023v2
+! Version: 12March2023v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1448,6 +1448,11 @@ gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
+!#endif
+
+!#if ext_abp
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
+@@||www.googletagmanager.com/gtm.js$script,domain=muropaketti.com
 !#endif
 
 ! -----UNSORTED END-----
