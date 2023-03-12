@@ -88,3 +88,7 @@ iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kau
 ! https://github.com/easylist/easylist/pull/8317
 pelaaja.fi##+js(aopr, ga)
 ||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
+
+! Waiting for EP to support uBO filters as well
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
+muropaketti.com##body.noImages .content img:style(display: inline-block !important)
