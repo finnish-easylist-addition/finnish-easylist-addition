@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 14March2023v1
+! Version: 14March2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1231,11 +1231,12 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /prerolls/*.mp4$domain=gamereactor.fi
 /Pussit_300x3001.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /Pussit_Vape_300x300_new.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
-/telsu\.fi\/[\w!.,:;\-*%åäö${@€|]{20,}$/$image,domain=telsu.fi
-/telsu\.fi\/s\/[\w\d]{30,40}$/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
-/telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=www.telsu.fi
+/telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=telsu.fi
+/telsu\.fi\/[\w!.,:;\-*%åäö${@€|]{20,}$/$image,domain=telsu.fi
+/telsu\.fi\/[\w]+\?[\d]{9}/$xmlhttprequest,~third-party,domain=telsu.fi
 /telsu\.fi\/img\/(?!cloudcity|mindmax|navibg|prg|tvohjelmat)/$image,domain=telsu.fi
+/telsu\.fi\/s\/[\w\d]{30,40}$/$image,domain=telsu.fi
 /wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image,domain=alibi.fi|hymy.fi
 /wp-content/uploads/pum/*$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
@@ -1325,7 +1326,6 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
 ||strongbox.nostemedia.fi^$script,third-party
 ||superskills.fi/fi*?isIframe=true$subdocument
-||telsu.fi/telsu_pot_$xmlhttprequest,domain=telsu.fi
 ||testeri.fi/ext_telsu$subdocument
 ||testeri.fi/inc/museokortti.png$image
 ||tiketti.fi/tiedostot/*/Tiketti*_Paraati_$image,domain=tiketti.fi
