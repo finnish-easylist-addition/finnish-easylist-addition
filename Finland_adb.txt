@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 14March2023v2
+! Version: 15March2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1234,7 +1234,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=telsu.fi
 /telsu\.fi\/[\w!.,:;\-*%åäö${@€|]{20,}$/$image,domain=telsu.fi
-/telsu\.fi\/[\w]+\?[\d]{9}/$xmlhttprequest,~third-party,domain=telsu.fi
+/telsu\.fi\/[\w]+\?[\d]{3,9}/$xmlhttprequest,~third-party,domain=telsu.fi
 /telsu\.fi\/img\/(?!cloudcity|mindmax|navibg|prg|tvohjelmat)/$image,domain=telsu.fi
 /telsu\.fi\/s\/[\w\d]{30,40}$/$image,domain=telsu.fi
 /wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image,domain=alibi.fi|hymy.fi
