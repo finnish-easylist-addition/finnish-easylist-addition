@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18March2023v6
+! Version: 18March2023v7
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1273,6 +1273,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
 ||feed.etuovi.com/etuovi/html/*.html$subdocument
+||fundingchoicesmessages.google.com^$script,domain=telsu.fi
 ||gamereactor.fi^*/videojs.ads.js$script,domain=gamereactor.fi
 ||hifimaailma.fi/neodirect/static/*/karuselli$image
 ||hintaopas.fi^$third-party
