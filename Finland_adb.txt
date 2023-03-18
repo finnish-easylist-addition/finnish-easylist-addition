@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18March2023v3
+! Version: 18March2023v4
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -190,6 +190,7 @@ anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi,keskustelu.kaksplus.fi###native_text_wrapper
 app.mtvuutiset.fi##.ppas
 app.mtvuutiset.fi##div[data-testid="endorsement"]
+app.mtvuutiset.fi#?#section > ul > li > div:-abp-has(a[data-testid="ad-article-teaser-tag"])
 apteekkari.fi##.frontpage-banner
 apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:has-text(MAINOS (TEKSTI JATKUU ALLA))
