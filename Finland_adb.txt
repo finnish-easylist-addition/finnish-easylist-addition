@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18March2023v1
+! Version: 18March2023v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1071,6 +1071,14 @@ tori.fi##div#banner_panorama_topmost
 tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
 traktorpool.fi##.billboard
+ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
+ts.fi##[data-readpeakurl^="https://app.readpeak.com/ads/"]
+ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
+ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
+ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
+ts.fi#?#.tsv3-c-common-forum-threadviewer__messages__item:-abp-has(.smartad)
+ts.fi#?#.tsv3-c-common-twocolumnslayout:-abp-has(div[class*=element--nativead])
+ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:-abp-has(.noad-hideaction-self):not(:-abp-has(.tsv3-c-ts-newstip)):not(:-abp-has(.tsv3-c-common-forum-threadlist))
 tulikulma.fi##.slideshow
 tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
 turuntienoo.fi###main > .ads
@@ -1177,14 +1185,6 @@ www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
 www.suomi24.fi#?#div[class^="HomePage__RightColItem"]:-abp-has(> div[class^="AdLivewrapped__AdWrapper"])
 www.suomi24.fi#?#div[class^="HomePage__RightColItem"]:-abp-has(> div[class^="Lainavertailu__Container"])
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
-www.ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
-www.ts.fi##[data-readpeakurl^="https://app.readpeak.com/ads/"]
-www.ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
-www.ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
-www.ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
-www.ts.fi#?#.tsv3-c-common-forum-threadviewer__messages__item:-abp-has(.smartad)
-www.ts.fi#?#.tsv3-c-common-twocolumnslayout:-abp-has(div[class*=element--nativead])
-www.ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:-abp-has(.noad-hideaction-self):not(:-abp-has(.tsv3-c-ts-newstip)):not(:-abp-has(.tsv3-c-common-forum-threadlist))
 www.uusisuomi.fi#?#.lazyload-wrapper:-abp-has(.at-embed-container)
 www.uusisuomi.fi#?#aside > section:has-text(Kaupallinen yhteistyö)
 www.uusisuomi.fi#?#body:not(.is-style-kumppanisisallot) main > div[class]:has-text(Kaupallinen yhteistyö)
