@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 18March2023v7
+! Version: 20March2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1028,6 +1028,7 @@ telsu.fi###prg img:not(.ch img)
 telsu.fi##.footer > .pb1
 telsu.fi##.footer > .pb100
 telsu.fi##.pop img:not(.cd img)
+telsu.fi##a[href][style]
 telsu.fi##a[href][target="_blank"][style]
 telsu.fi##img:not(#foot1 img, #foot2 img, #prg img, .data img, .pop img, .stat img, img[src^="/img/"], .chnsbox[rel="suosikit"] img)
 telsu.fi#?#.ch:-abp-has(em>a)
