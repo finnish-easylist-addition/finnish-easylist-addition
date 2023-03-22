@@ -1,5 +1,5 @@
 [Adblock Plus 3.13]
-! Version: 21March2023v5
+! Version: 22March2023v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -1122,7 +1122,7 @@ vauva.fi##[href^="https://kampanjat.is.fi/"]
 vauva.fi##a[href$="vauvabanneri"]
 vauva.fi##div.cts-row-wrapper
 vauva.fi##div[id^=aldente-]
-vauva.fi#?#.pane-sbase-static-blocks-sbase-static-blocks-1:-abp-has(> h2 > a[https://www.is.fi/alennuskoodi/"])
+vauva.fi#?#.pane-sbase-static-blocks-sbase-static-blocks-1:-abp-has(> h2 > a[href="https://www.is.fi/alennuskoodi/"])
 venelehti.fi##.ads_carousel-2.widget
 verkkouutiset.fi##.page-ad__location
 verkkouutiset.fi##.vu-adlabel
@@ -1231,8 +1231,8 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /HalvinLaina_300x300_fin.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /a-ylabannerit$image,domain=apteekkari.fi
 /b-suurbannerit-uutisvirrassa$image,domain=apteekkari.fi
-/https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{3}\?[\d]{8}\+[\d]/$~third-party,domain=vauva.fi
-/https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{9}-[\w]{7}\?[\w]{4}\+[\w]{6}\+[\w]{9}\+[\w]{4}\+[\w]{5}\+[\w%\d]{19}/$~third-party,domain=vauva.fi
+/https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{3}\?[\d]{8}\+[\d]/$~third-party,xmlhttrequest
+/https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{9}-[\w]{7}\?[\w]{4}\+[\w]{6}\+[\w]{9}\+[\w]{4}\+[\w]{5}\+[\w%\d]{19}/$~third-party,xmlhttrequest
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
 /macro.adnami.io$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
