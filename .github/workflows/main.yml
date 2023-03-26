@@ -1,0 +1,51 @@
+name: Deploy to gh-pages branch
+
+on:
+  push:
+    branches:
+      - master
+
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    permissions:
+      contents: write  # for Git to git push
+    name: Publish lists
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone finnish-easylist-addition
+        uses: actions/checkout@v3
+        with:
+            ref: gh-pages
+      - name: Copy filter lists to gh-pages
+        run: |
+          TMPDIR=$(mktemp -d)
+          git clone --depth=1 https://github.com/finnish-easylist-addition/finnish-easylist-addition.git $TMPDIR
+          cp $TMPDIR/*.txt /
+      - name: Patch last-updated field
+        run: |
+          DATE=$(date -Ru)
+          for f in $(git diff --name-only); do
+            STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
+            if [[ -n $STAT ]]; then
+              sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\\1$DATE/" $f
+            else
+              git checkout -q $f
+            fi
+          done
+      - name: Commit changes (if any)
+        run: |
+          if [[ -n $(git diff) ]]; then
+            git config user.name "gitHub-actions bot"
+            git config user.email "<>"
+            git add -u annoyances/
+            git commit -m "Update modified filter lists"
+            git push origin gh-pages
+          fi
