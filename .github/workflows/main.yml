@@ -28,7 +28,7 @@ jobs:
         run: |
           TMPDIR=$(mktemp -d)
           git clone --depth=1 https://github.com/finnish-easylist-addition/finnish-easylist-addition.git $TMPDIR
-          cp $TMPDIR/Finland_adb.txt /
+          cp $TMPDIR/*.txt /
       - name: Patch last-updated field
         run: |
           DATE=$(date -Ru)
