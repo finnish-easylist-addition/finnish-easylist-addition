@@ -28,7 +28,7 @@ jobs:
         run: |
           TMPDIR=$(mktemp -d)
           git clone --depth=1 https://github.com/finnish-easylist-addition/finnish-easylist-addition.git $TMPDIR
-          cp $TMPDIR/*.txt /
+          cp $TMPDIR./*.txt ./
       - name: Patch last-updated field
         run: |
           DATE=$(date -Ru)
@@ -45,7 +45,7 @@ jobs:
           if [[ -n $(git diff) ]]; then
             git config user.name "gitHub-actions bot"
             git config user.email "<>"
-            git add -u /
+            git add -u ./
             git add -u annoyances/
             git commit -m "Update modified filter lists"
             git push origin gh-pages
