@@ -1,1 +1,93 @@
+[uBlock Origin]
+! -----SPECIFIC FILTERS-----
 
+afterdawn.com,download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
+ampparit.com##.ad-slot
+ap-cdn.sanomagames.com##.banner-slot-preroll
+etn.fi##tbody > tr > td[style="width:468px"][valign=top]:style(width: unset !important)
+feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 20px;"]
+finder.fi##.SearchResultList__Row--advertisement, .Profile__TopCard--advertisement, .SearchResultList--advertisement:style(width: 100% !important; min-height: unset !important; margin-right: unset !important; float: unset !important;)
+finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
+fin.afterdawn.com###nm-980x400-fb:style(min-height: unset !important)
+fin.afterdawn.com###nm-300x300-fb:style(min-height: 30px !important)
+fin.afterdawn.com#?#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)
+fin.afterdawn.com##:not(:matches-path(/^/$/)) .header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:style(margin: -10px auto !important)
+golfpiste.com#?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
+hardware.fi##.top-ad-space:style(min-height: 0 !important)
+hardware.fi#@#.top-ad-space
+ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
+kaaoszine.fi##article.post:has-text(Kaupallinen yhteistyö):style(height: 1px !important; width: 1px !important; margin-right: 0px !important)
+kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
+kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
+kodinkoneopas.com##.oxy-modal-backdrop
+kodinkoneopas.com##body.oxy-modal-active:style(overflow: auto !important; position: initial !important)
+kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
+metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
+mobiili.fi###headermob:style(position: static !important)
+mobiili.fi###show_merkki:style(margin-top: 2em !important)
+mobiili.fi##.header_ad, important
+mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
+mvlehti.net##.featured-row-small:style(background-color: white !important)
+nyan.ax##.widget_adrotate_widgets:remove()
+nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner']):remove()
+outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
+puhelinvertailu.com##.index-wrap:style(left: 0px !important)
+talouselama.fi##section hr:matches-css-before(content: /Mainos /):upward(1)
+telsu.fi###head:style(margin-bottom: 2px !important)
+tiketti.fi###front_big_event
+tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
+www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
+www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"]:style(padding-left: 0px !important)
+www.suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:-abp-has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
+www.suomi24.fi##div[width="100%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
+www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div:style(border-right: none !important; border-left: 1px solid lightgray !important)
+www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"] > div:style(padding-left: 15px !important)
+www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
+
+! Trick to overcome flickering issues caused by a slow procedural
+karjalainen.fi#@#.breaking-news-container:has-text(mainos:)
+karjalainen.fi##.breaking-news-container
+karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: flex !important)
+
+
+! HTML filters for browsers that support them e.g. Firefox
+!#if cap_html_filtering
+gamereactor.fi##^.ad_top
+kokemaenjokilaakso.fi##^[alt^=Mainos]
+muropaketti.com##^article.grid__item_1:has(.nativead)
+mobiili.fi##^.fullarticle:has-text(Sponsoroitu)
+mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
+tamperelainen.fi##^.display-ad
+!#endif
+
+! -----SPECIFIC FILTERS END-----
+
+! -----NETWORK FILTERS-----
+
+||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=puhekupla.com
+||elisa.digital.nuance.com/tagserver/js/ads-blocking-detector.min.js$domain=elisa.fi
+||v.fwmrm.net/ad/g/1$removeparam=caid
+
+! -----NETWORK FILTERS END-----
+
+! -----SCRIPTS-----
+
+afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
+ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
+finder.fi##+js(rc, Profile__TopCard--advertisement, , stay)
+finder.fi##+js(rc, SearchResultList--advertisement, , stay)
+finder.fi##+js(rc, SearchResultList__Row--advertisement, , stay)
+findit.fi##+js(acs, testPrebid)
+happypancake.fi##+js(aopr, Object.prototype.adUnits)
+iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
+
+! -----SCRIPTS END-----
+
+! to fix an issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
+! https://github.com/easylist/easylist/pull/8317
+pelaaja.fi##+js(aopr, ga)
+||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
+
+! Waiting for EP to support uBO filters as well
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
+muropaketti.com##body.noImages .content img:style(display: inline-block !important)
