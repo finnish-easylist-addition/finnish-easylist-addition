@@ -45,6 +45,7 @@ jobs:
           if [[ -n $(git diff) ]]; then
             git config user.name "gitHub-actions bot"
             git config user.email "<>"
+            git add -u /
             git add -u annoyances/
             git commit -m "Update modified filter lists"
             git push origin gh-pages
