@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 28 Mar 2023 14:37:41 +0000
+! Last modified: Wed, 29 Mar 2023 13:33:11 +0000
 ! Test
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -896,6 +896,8 @@ rakentaja.fi##img#js_ad
 rakentaja.fi#?##dimScreenAll:-abp-has([data-category="DisplayAD"])
 rantapallo.fi###lomakone-results-horizontal-ads-3
 rantapallo.fi##.ad-empty
+rantapallo.fi##.ad-info-bar
+rantapallo.fi##.front-page-box-ad
 rantapallo.fi##.recommended.lomakone-results-row
 rantapallo.fi##div[class=optin-monster-saas-overlay]
 ratkojat.fi###adslot_bottom
@@ -1004,6 +1006,7 @@ talouselama.fi#?#[id|=podcasti]:has-text(Kaupallinen Yhteistyö)
 talouselama.fi#?#body:not(.is-style-kumppanisisallot) [class]:-abp-has(> a[href^="https://www.talouselama.fi/kumppanisisallot/"]):not(section)
 talouselama.fi#?#div.article-body > div:-abp-has(> div.LazyLoad.is-visible)
 talouselama.fi#?#div[width]:-abp-has(.lazyload-wrapper)
+talouselama.fi#?#li:has-text(MAINOS)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
 tanssiin.fi##a[href="https://sinitaivas.com/kauppa/"]
@@ -1111,6 +1114,7 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:has-text(Kaupall
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
 uutisankka.com##.clever-core-ads
+v2.fi##img[src^="https://ads.v2.fi/"]:not([src$="discomainos.png"], [src$="facebookmainos.jpg"], [src$="instamainos.jpg"], [src$="twittermainos.jpg"], [src$="youtubemainos.jpg"])
 vaasalehti.fi#?#h2 > span:has-text(Mainos)
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
 valioliiga.com#?#.menu-item:-abp-has([href$="/vedonlyonti/"])
