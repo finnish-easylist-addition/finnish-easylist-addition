@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Wed, 29 Mar 2023 13:33:11 +0000
+! Last modified: Fri, 31 Mar 2023 21:03:56 +0000
 ! Test
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -1369,7 +1369,7 @@ iltalehti.fi##.card.eo-embed-container
 iltalehti.fi##.center.category-list-embed
 iltalehti.fi##.commercial-list-item
 iltalehti.fi##.etua-widget-container
-iltalehti.fi##.etuovi-embed-placeholder
+iltalehti.fi##.etuovi-react-embed
 iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
 iltalehti.fi##.parade-ad-container
 iltalehti.fi##.recommendation-carousel-svod.recommendation-carousel
