@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 31 Mar 2023 21:03:56 +0000
+! Last modified: Sat, 01 Apr 2023 11:10:55 +0000
 ! Test
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -1451,9 +1451,8 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,studio55.fi,msn.com##.mtv-player-ad-containe
 ! Adblock check
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
-@@||adform.net/banners/scripts/adx.js$xmlhttprequest,domain=fcdn.lauta.media
-! https://github.com/easylist/easylist/pull/9179
 iltalehti.fi#@#.ad-placement
+@@||adserve.adcoin.com/display/ad_block/$xmlhttprequest,domain=verkkouutiset.fi
 
 ! Redirect resources
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
