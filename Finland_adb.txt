@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 01 Apr 2023 11:10:55 +0000
+! Last modified: Sat, 01 Apr 2023 12:50:37 +0000
 ! Test
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -369,6 +369,7 @@ fuengirola.fi##.elementor-element-9e2ec43
 fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.fi/"]
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
+futisfani.com##.futis-sticky-footer[data-futis-trackbid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
@@ -397,6 +398,7 @@ gamereactor.fi##.sponsor
 gamereactor.fi##.videoAd
 gamereactor.fi##div[class^=ad_Bumper]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
+gamereactor.fi#?##videoContainer:-abp-has(source[id|="videoad"])
 gamereactor.fi#?#article.areview:has-text(Sponsoroitua sisältöä)
 gekkonen.net##.tdm-pricing-wrap
 gekkonen.net##.tdm_block_pricing
@@ -599,6 +601,7 @@ keskustelu.suomi24.fi##div[class*=HeaderAdWrapper]
 keskustelu.suomi24.fi##div[class*=__AdWrapper]
 keskustelu.suomi24.fi##div[class^=RightSidePanel__AdContainer]
 kiakkoradio.fi#?#[class|="wp-block-ultimate-post-post-list"]:-abp-has(.ultp-cat-mainos)
+kiekkofani.com##.kiekk-footer-sticky[data-kiekk-trackbid]
 kiekkofani.com,penkkiurheilu.com##[style^="text-align:center;margin-left:auto !important;margin-right:auto !important;height: 420px; margin-top:60px"]
 kiinteistolehti.fi###new-post-list-headings-17
 kiinteistolehti.fi##.mpc-row.vc_custom_1515749959295.vc_row-fluid.wpb_row.vc_row
@@ -1114,6 +1117,7 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:has-text(Kaupall
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
 uutisankka.com##.clever-core-ads
+uutisankka.com##.uutis-footer-sticky[data-uutis-trackbid]
 v2.fi##img[src^="https://ads.v2.fi/"]:not([src$="discomainos.png"], [src$="facebookmainos.jpg"], [src$="instamainos.jpg"], [src$="twittermainos.jpg"], [src$="youtubemainos.jpg"])
 vaasalehti.fi#?#h2 > span:has-text(Mainos)
 vagarena.fi###bodyarea td[width="100%"][valign="top"] + td[valign="top"]
@@ -1249,8 +1253,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
 /pop_media_*_fi_inarticle$script,domain=episodi.fi|rumba.fi|tilt.fi
 /prerolls/*.mp4$domain=gamereactor.fi
-/Pussit_300x3001.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
-/Pussit_Vape_300x300_new.mp4$domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
+/Pussit_*300x300$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
 /telsu\.fi\/(?![^>].*\.(jpg|png|svg|ico)$).+/$image,domain=telsu.fi
 /telsu\.fi\/[\w!.,:;\-*%åäö${@€|]{20,}$/$image,domain=telsu.fi
