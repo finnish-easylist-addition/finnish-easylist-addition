@@ -183,12 +183,9 @@ alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
 ampparit.com,iijokiseutu.fi,kaleva.fi,keskustelu.suomi24.fi,kirkkojakaupunki.fi,koillissanomat.fi,kuntalehti.fi,lapinkansa.fi,luukku.com,mtvuutiset.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,seiska.fi,siikajokilaakso.fi,studio55.fi,styleroom.fi,viinilehti.fi##.ad-container
-anna.fi##.kaupalliset
-anna.fi##div.grid__item_tn-1-2
 anna.fi#?#.grid__item_1:-abp-has(> [id^=dfp__native-card])
-anna.fi#?#article[class^="grid__item_"]:-abp-has(> .nativead)
+anna.fi#?#li:-abp-has([id^=dfp__native-card])
 anna.fi,kaksplus.fi##.widget_nativearticles
-anna.fi,keskustelu.kaksplus.fi###native_text_wrapper
 app.mtvuutiset.fi##.ppas
 app.mtvuutiset.fi##div[data-testid="endorsement"]
 app.mtvuutiset.fi#?#section > ul > li > div:-abp-has(a[data-testid="ad-article-teaser-tag"])
@@ -1153,6 +1150,7 @@ vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:-abp-has(> div > [id^=gpt-
 viikkopk.fi##.banner-mainos
 viikkopk.fi##.mobiiliylabanner
 viikkopk.fi##div[class*=artikkeliad]
+viikkopk.fi##div[class*=artikkelimainos]
 viikonloppu.com###text-8
 viikonloppu.com###text-9
 viikonloppu.com#?#.listing-item:-abp-has(> .item-inner > .native-title)
@@ -1160,6 +1158,9 @@ viisasraha.fi##.d-md-block.d-lg-block.d-none
 viisasraha.fi##.kumppani-artikkelit
 viisasraha.fi##div[class*=native-article] > div[class=ezrichtext-field] > p > a[href^="https://danskebank.fi/"]
 viisasraha.fi##div[class^=banner] > a[href="https://www.viisasraha.fi/Taloushaltuun"]
+viisitahtea.com#?#.widget--side:has-text(Mainos)
+viisitahtea.com###secondary a[href^="https://wihuri.metrotukku.fi/"]
+viisitahtea.com###secondary a[href^="https://diamondbeverages.fi/"]
 viranomaisuutiset.fi##.td-a-rec
 viranomaisuutiset.fi##[href^="https://in.matsmart.fi/t/"]
 viranomaisuutiset.fi##[href^="https://track.adtraction.com/"]
@@ -1171,8 +1172,7 @@ voice.fi##.article-sponsored
 voice.fi##a[class="article-item articlestream-item unloaded"][data-sponsored="1"]
 voice.fi##section[class^=sbsads] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
 voima.fi##.voima-banneri-etusivulla
-voima.fi##.voima-jutun-sisalla-mobiili
-voima.fi#?#.voima-jutun-sisalla:-abp-has(.voima-adlabel)
+voima.fi#?#div[class|=voima-jutun-sisalla]:-abp-has(.voima-adlabel)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
