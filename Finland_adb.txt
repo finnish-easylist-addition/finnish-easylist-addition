@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 14 Apr 2023 12:49:04 +0000
+! Last modified: Sat, 15 Apr 2023 12:37:16 +0000
 ! Test
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
@@ -855,7 +855,6 @@ pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
 pirkkalainen.fi##.omamainos-PIR
 pirkkalainen.fi#?#.ultp-block-wrapper:-abp-has(.ultp-cat-mainosartikkelit)
 pkank.fi##.ad-assigned.panoraamabanneri
-playpilot.com#?#.search-preview .side:has-text(Mainos)
 pointti.fi##.after-ad
 pointti.fi##.before-ad
 pointti.fi##.jattiboksi
