@@ -1,6 +1,4 @@
 [uBlock Origin]
-! Last modified: Sat, 01 Apr 2023 11:57:52 +0000
-! Test
 !
 ! -----SPECIFIC FILTERS-----
 
