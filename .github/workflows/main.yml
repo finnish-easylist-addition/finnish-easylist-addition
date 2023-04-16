@@ -36,7 +36,7 @@ jobs:
             STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
             if [[ -n $STAT ]]; then
               sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\\1$DATE/" Finland_adb.txt
-            break
+              break
             fi
           done
       - name: Commit changes (if any)
