@@ -1,6 +1,4 @@
 [uBlock Origin]
-! Last modified: %timestamp%
-! Test
 !
 ! -----SPECIFIC FILTERS-----
 
