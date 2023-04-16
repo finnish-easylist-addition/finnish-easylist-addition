@@ -32,10 +32,10 @@ jobs:
       - name: Patch last-updated field
         run: |
           DATE=$(date -Ru)
-          for f in $(git diff --name-only); do
+          for f in $(ls Finland_adb*.txt); do
             STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
             if [[ -n $STAT ]]; then
-              sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\\1$DATE/" $f
+              sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\\1$DATE/" Finland_adb.txt
             else
               git checkout -q $f
             fi
