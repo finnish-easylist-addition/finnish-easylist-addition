@@ -1,5 +1,4 @@
 [uBlock Origin]
-!
 ! -----SPECIFIC FILTERS-----
 
 afterdawn.com,download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
