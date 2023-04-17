@@ -31,7 +31,7 @@ jobs:
           cp $TMPDIR/*.txt ./
       - name: Patch last-updated field
         run: |
-          DATE=$(date +"+%a-+%d-+%b-+%Y-+%T-+%Z")
+          DATE=$(date -Ru)
           for f in $(ls Finland_adb*.txt); do
             STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
             if [[ -n $STAT ]]; then
