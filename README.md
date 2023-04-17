@@ -10,4 +10,3 @@ Direct URL to the list: https://raw.githubusercontent.com/finnish-easylist-addit
 * AdGuard's Annoyance List
 * Fanboy's Annoyance List
 * uBlock - Annoyances
-* 
