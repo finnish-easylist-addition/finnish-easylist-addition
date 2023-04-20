@@ -505,6 +505,9 @@ jahtimedia.fi#?#.latest-post-link:-abp-has(.mainos)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
 jp-kunnallissanomat.fi#?#a[href^="/artikkeli-"]:has-text(MAINOS)
+juoksufoorumi.fi###ipsLayout_sidebar .ipsBox:not([data-blocktitle="Member Subscriptions"])
+juoksufoorumi.fi##.ipsSpacer_both
+juoksufoorumi.fi##[data-role="sidebarAd"] + br
 jvg.fi##[href="https://www.nettikasinovertailu.info/"]
 kaaoszine.fi##.collab
 kaaoszine.fi##.collaboration
