@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 20 Apr 2023 10:30:17 +0000
+! Last modified: Thu, 20 Apr 2023 13:19:08 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -763,11 +763,11 @@ mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; 
 mobiili.fi#?#p:-abp-has(small:has-text(Mainos:))
 monster.fi##.block--monsterfi-ads
 monster.fi##.epiq-landing-row--frontpage-leaderboard-ad
+moottori.fi###tori.article-car-list
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.container.g-bg.ads.sidebar.item
 moottori.fi##.kumppaniartikkeli-sidebar.smallfeature
 moottori.fi##.narive-ad
-moottori.fi##div[class*=torifi_banner]
 moottori.fi##div[class|=ad-rotation]
 moottoripyora.org##a[href*=mst-yhtiot]
 motot.net##div.centered.motot-well-inverse.well[style^=padding-]
@@ -1348,7 +1348,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tokentube.net/f_scripts/shared/videojs/ads.vast.js$script
 ||tokentube.net/vast?t=vjs&v=$xmlhttprequest
-||tori.fi/templates/common/arrays_marketing_banner.js$script,domain=moottori.fi
+||tori.fi/*banner$domain=moottori.fi
 ||ts.fi/adframe.js$script,domain=ts.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
