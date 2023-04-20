@@ -268,8 +268,10 @@ edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
 eeva.fi#?#.swiper-slide:-abp-has(div[class*="ContentCard__AdLabel"])
 eeva.fi#?#a[class^="ContentCard__Card-"]:has-text(Mainos: )
+eeva.fi#?#div[class^="EmbeddedArticle__Container"]:-abp-has(.category:has-text(Mainos:))
 eeva.fi#?#div[class^="EmbeddedArticle__Container"]:-abp-has(div[class*="CommercialLabelContainer"])
 eeva.fi#?#div[class^="ContentFlowBlock__CardContainer"]:-abp-has(div[class*="ContentCard__AdLabel"])
+eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
 ehandel.fi###div-leeadsFullpageAd
 ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
@@ -581,6 +583,7 @@ keskustelu.afterdawn.com###div-ad-below-message
 keskustelu.afterdawn.com##.pageWidth > div[style="min-height:90px;text-align:center;margin:auto;"]
 keskustelu.afterdawn.com##.sidebar > div[style="min-height:250px;text-align:center;margin:auto;"]
 keskustelu.kaksplus.fi###native-list-wrapper
+keskustelu.kaksplus.fi###native_text_wrapper
 keskustelu.kaksplus.fi##.native.feed_box_container
 keskustelu.kauppalehti.fi##.blogi__nosto
 keskustelu.kauppalehti.fi##.kl-sima--blocks > [href^="https://www.kauppalehti.fi/kumppanisisallot/"]
@@ -839,7 +842,6 @@ palkkavertailu.com###nav + div[style="min-height:250px;text-align:center"]
 pelaaja.fi##div.views-injected-row.views-row
 pelaaja.fi##div[class="main-container header-container container-fluid"]
 pelaaja.fi#?#div.full-width-col.row:-abp-has(.ad-pane)
-pelaajalehti.com##.views-injected-row
 pelikone.fi,teknavi.fi##.ad
 pelikone.fi##.preroll-text
 pelikone.fi##.text-ad-container
@@ -1346,6 +1348,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tokentube.net/f_scripts/shared/videojs/ads.vast.js$script
 ||tokentube.net/vast?t=vjs&v=$xmlhttprequest
+||tori.fi/templates/common/arrays_marketing_banner.js$script,domain=moottori.fi
 ||ts.fi/adframe.js$script,domain=ts.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
