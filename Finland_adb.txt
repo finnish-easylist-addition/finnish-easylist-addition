@@ -818,6 +818,7 @@ pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pakkotoisto.com##.td-header-sp-recs
 palkkavertailu.com###nav + div[style="min-height:250px;text-align:center"]
+palloliitto.fi##[aria-label="Linkki mainokseen"]:not([href^="https://kauppa.palloliitto.fi/"])
 pelaaja.fi##div.views-injected-row.views-row
 pelaaja.fi##div[class="main-container header-container container-fluid"]
 pelaaja.fi#?#div.full-width-col.row:-abp-has(.ad-pane)
