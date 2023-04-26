@@ -202,6 +202,7 @@ arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
 assembly.org#?#div[class] + div[class] ~ div[class]:-abp-has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 audiovideo.fi##.head.the-wrap
+audiovideo.fi##[id|=bunyad-widget-ads]
 auto1.fi##.pb[lazied]
 auto1.fi#?#[id^=pb_cont].pb:-abp-has(> a[href^="/clk2?"])
 auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi###pb_bottom
@@ -719,6 +720,9 @@ metsalehti.fi##.teaser-top-banner--partner
 metsalehti.fi##[data-set="main-ad"]
 metsastajaliitto.fi#?#.frontpage-ad-item:not(:-abp-has([href^="https://metsastajaliitto.fi/"]))
 metsastajaliitto.fi#?#.view-id-jahtimedia_latest .list-item:-abp-has([href^="https://jahtimedia.fi/mainokset/"])
+metsastysjakalastus.fi##.Index_native-ads
+metsastysjakalastus.fi,rakennusmaailma.fi,tekniikanmaailma.fi##.Article_native-ads
+metsastysjakalastus.fi,rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 mikrobitti.fi#?#div[class]:-abp-has(> [width] > [id|="almad"]:not([id|="almad-mobileParade"]))
 mikrobitti.fi#?#div[class][width]:-abp-has([id|="almad-mobileParade"])
 mikrobitti.fi#?#div[style="margin-bottom:0"]:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
@@ -858,9 +862,7 @@ puskaradio.net##.all-adds
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
 rahakirstu.com##.adv_ads_ad_unit
-rakennusmaailma.fi,tekniikanmaailma.fi##.Article_native-ads
 rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
-rakennusmaailma.fi,tekniikanmaailma.fi##.in-text-ad-slot-wrapper
 rakentaja.fi##div#kauppa_hot
 rakentaja.fi##div[id^=banner]
 rakentaja.fi##img#js_ad
@@ -1028,6 +1030,7 @@ tiketti.fi#?#.itemwide:-abp-has([href="https://www.nextory.fi/partner-collaborat
 tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilannehuone.fi#?##cnt_lista tr:-abp-has(.mainosinline) + tr:-abp-has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):-abp-has(+ tr:-abp-has(.mainosinline))
+tilannehuone.fi#?#.contentti:-abp-has(> .mainos_yla:only-child)
 tilisanomat.fi##.ctaad
 tilt.fi##[data-mobile-ad-unit-id]
 tilt.fi#?#div[class="w-full bg-black border-gray-200 border-b"]:-abp-has(a[href^="http://pubads.g.doubleclick.net/"])
@@ -1195,7 +1198,10 @@ ykkoslohja.fi#?#.widget:-abp-has(h2:only-child):-abp-has(+ .widget [href^="https
 ykkoslohja.fi#?#.widget:-abp-has(h2:only-child):-abp-has(+ .widget [href^="https://www.awin1.com/"])
 ykkoslohja.fi#?#.widget:-abp-has(h2:only-child):-abp-has(+ .widget [src^="https://track.adtraction.com/"])
 ykkoslohja.fi#?#.widget:has-text(tradedoubler.com)
+ykkoslohja.fi#?#.widget_carousel_slider:has-text(tarjouksia tälle viikolle)
 ykkoslohja.fi#?#.wp-block-columns:-abp-has([href^="https://c.trackmytarget.com?"])
+ykkoslohja.fi#?#div[id|=block]:has-text(eToro)
+ykkoslohja.fi#?#div[id|=block]:has-text(/Lainavertailu/i)
 ylasatakunta.fi##.ad[class*=panorama]
 ylasatakunta.fi##.ad[class*=paraati]
 ylasatakunta.fi##.ad[class*=ylaboksi]
@@ -1234,6 +1240,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
 ||affiliate.guts.com^$third-party
+||affiliatesolution.se^$domain=ykkoslohja.fi
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
 ||alibi.fi/wp-content/uploads/2022/04/HymyAlibi_300x300_VAPPU.jpg$image
 ||ap-online.media.fi/scripts/eneo*.dll$script,domain=aamuposti.fi|helsinginuutiset.fi|karkkilantienoo.fi|keski-uusimaa.fi|lansi-uusimaa.fi|lansivayla.fi|lappeenrannanuutiset.fi|lopenlehti.fi|loviisansanomat.fi|mantsalanuutiset.fi|nurmijarvenuutiset.fi|pyhtaanlehti.fi|seinajoensanomat.fi|sipoonsanomat.fi|tamperelainen.fi|turkulainen.fi|uusimaa.fi|vantaansanomat.fi|vihdinuutiset.fi
@@ -1291,6 +1298,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
 ||m.riemurasia.net/reklaami.php$subdocument,domain=m.riemurasia.net
 ||matkaendurot.net/images/*banner,domain=matkaendurot.net
+||med.etoro.com^$domain=ykkoslohja.fi
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
 ||media.vuokraovi.com^$third-party
 ||menyt.azurewebsites.net/public/js/omamainos-widget$script,domain=akaanseutu.fi|lvs.fi|orivedensanomat.fi|radiosun.fi|shl.fi|ylojarvenuutiset.fi
