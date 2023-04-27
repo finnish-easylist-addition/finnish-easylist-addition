@@ -1030,6 +1030,7 @@ tiketti.fi#?#.itemwide:-abp-has([href="https://www.nextory.fi/partner-collaborat
 tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilannehuone.fi#?##cnt_lista tr:-abp-has(.mainosinline) + tr:-abp-has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):-abp-has(+ tr:-abp-has(.mainosinline))
+tilannehuone.fi#?#.contentti:-abp-has(> .mainos-mob:only-child)
 tilannehuone.fi#?#.contentti:-abp-has(> .mainos_yla:only-child)
 tilisanomat.fi##.ctaad
 tilt.fi##[data-mobile-ad-unit-id]
