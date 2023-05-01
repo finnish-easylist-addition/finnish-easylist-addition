@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 01 May 2023 11:49:43 +0000
+! Last modified: Mon, 01 May 2023 20:23:53 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1491,7 +1491,3 @@ tuntopalvelu.fi#@#.list-ads
 
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
-
-! https://github.com/easylist/easylist/pull/15739
-@@||spklw.com^$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
-@@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
