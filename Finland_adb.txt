@@ -1491,7 +1491,3 @@ tuntopalvelu.fi#@#.list-ads
 
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
-
-! https://github.com/easylist/easylist/pull/15739
-@@||spklw.com^$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
-@@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
