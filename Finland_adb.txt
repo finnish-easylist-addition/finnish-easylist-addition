@@ -1495,8 +1495,3 @@ tuntopalvelu.fi#@#.list-ads
 ! https://github.com/easylist/easylist/pull/15739
 @@||spklw.com^$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
-
-! https://github.com/easylist/easylist/pull/15740
-@@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=kauppahalli24.fi
-@@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
-@@||kauppahalli24_fi_api.frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
