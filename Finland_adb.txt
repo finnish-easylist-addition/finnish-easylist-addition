@@ -363,14 +363,14 @@ futisfani.com,kiekkofani.com,kiinteistoposti.fi,penkkiurheilu.com,uutisankka.com
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.pum-overlay
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.wp_rss_retriever[style^="background:#eefdf6;"]
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.wp_rss_retriever + div[style^="margin-top:"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://bonuspanda.com/fi/"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://casinogorilla.com/fi/nettikasinot/"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://pussit.com"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://www.halvinlaina.fi"]
-futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever ~ div:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
-futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com#?#.wp_rss_retriever:has-text(/BONUSPANDA.COM|CASINOGORILLA.COM/)
 futisforum2.org###div-ff2-top
 futisforum2.org#?#.windowbg3:-abp-has(#div-ff2-bottom)
 futissuomi.fi#?#.elementor-widget:-abp-has(img[data-image-title^="MAINOS"])
