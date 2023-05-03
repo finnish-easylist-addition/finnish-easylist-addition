@@ -887,6 +887,7 @@ riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 riemurasia.net##a[rel^="sponsored"]
+riistalehti.fi##.riist-content
 ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 ruuhkavuodet.fi##div[class|="g g"]
