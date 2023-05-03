@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Wed, 03 May 2023 12:43:17 +0000
+! Last modified: Wed, 03 May 2023 12:47:00 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -887,6 +887,7 @@ riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 riemurasia.net##a[rel^="sponsored"]
+riistalehti.fi##.riist-content
 ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 ruuhkavuodet.fi##div[class|="g g"]
