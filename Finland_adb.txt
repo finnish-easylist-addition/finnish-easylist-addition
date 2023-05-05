@@ -363,7 +363,7 @@ futisfani.com,kiekkofani.com,kiinteistoposti.fi,penkkiurheilu.com,uutisankka.com
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.pum-overlay
-futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.wp_rss_retriever[style^="background:#eefdf6;"]
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.wp_rss_retriever[style^="background:"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.wp_rss_retriever + div[style^="margin-top:"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[class^=top-banner-]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[data-advadstrackid]
@@ -1063,7 +1063,6 @@ ts.fi#?#.tsv3-c-common-forum-threadviewer__messages__item:-abp-has(.smartad)
 ts.fi#?#.tsv3-c-common-twocolumnslayout:-abp-has(div[class*=element--nativead])
 ts.fi#?#.tsv3-c-common-twocolumnslayout__row__right:-abp-has(.noad-hideaction-self):not(:-abp-has(.tsv3-c-ts-newstip)):not(:-abp-has(.tsv3-c-common-forum-threadlist))
 tulikulma.fi##.slideshow
-tuntopalvelu.fi##.list-ads > .iframe:not(.whyreview)
 turuntienoo.fi###main > .ads
 tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:-abp-has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
@@ -1487,7 +1486,6 @@ anna.fi,kaksplus.fi#@#.sponsored-content
 hs.fi,sokos.fi#@#.mainokset
 hs.fi,tilannehuone.fi#@#.mainos
 pienimatkaopas.com#@##mainos
-tuntopalvelu.fi#@#.list-ads
 
 ! -----UNBREAK END-----
 
