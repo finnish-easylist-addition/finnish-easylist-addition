@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 05 May 2023 13:21:05 +0000
+! Last modified: Sat, 06 May 2023 13:44:56 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1326,7 +1326,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
 ||seksitreffit.fi/*popunder.js$script,domain=seksitreffit.fi
 ||seksitreffit.fi/banners/$domain=seksitreffit.fi
-||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
+||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=10kysymysta.fi|alypaa.com
 ||strongbox.nostemedia.fi^$script,third-party
 ||superskills.fi/fi*?isIframe=true$subdocument
 ||testeri.fi/ext_telsu$subdocument
