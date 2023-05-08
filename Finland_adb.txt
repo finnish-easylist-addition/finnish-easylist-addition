@@ -1411,10 +1411,6 @@ mtvuutiset.fi,mtv.fi,suomiareena.fi,msn.com##.mtv-player-ad-container
 ||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js
 
-! Tori.fi ads
-##[src*="://ad.doubleclick.net/"]
-||cloudfront.net/banners/$domain=tori.fi
-
 ! Adblock check
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
