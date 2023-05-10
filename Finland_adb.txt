@@ -910,6 +910,8 @@ sijoittaja.fi#?#body.single-post .container[style]:-abp-has(.g-single > .hs-cta-
 sijoitustieto.fi##.view-2019-ajankohtaiset-tarjoukset
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
 sijoitustieto.fi#?#p > em > strong:has-text(Kaupallinen yhteistyö:)
+sjofart.ax##.elementor-location-header .topp
+sjofart.ax#?#.ae-bg-gallery-type-default.elementor-section-height-default.elementor-section-boxed.elementor-hidden-phone.has_ae_slider:-abp-has([src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"])
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 sportti.com##[href^="http://ads.leovegas.com/"]
