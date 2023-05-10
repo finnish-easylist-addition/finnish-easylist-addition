@@ -1211,8 +1211,10 @@ ylasatakunta.fi##.tarranurkka
 ylasatakunta.fi##a[href^="/artikkeli-kaupallinen-"]
 ylasatakunta.fi#?#.ad:not(:-abp-has(img[src*="doc_id=555723"])):not(:-abp-has(img[src*="doc_id=553464"]))
 ylojarvenuutiset.fi#?#.widget:-abp-has(.mainossidebar)
+yrittajat.fi##.b-area-ad-sidebar
 yrittajat.fi##.b-otavamedia-ads
 yrittajat.fi##.gb-otavamedia-ad
+yrittajat.fi##.s-area-ad-header
 yrittajat.fi##.wrap-top-ad
 yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 
