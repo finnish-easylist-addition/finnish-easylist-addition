@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Wed, 10 May 2023 15:02:16 +0000
+! Last modified: Wed, 10 May 2023 15:06:38 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1493,5 +1493,3 @@ pienimatkaopas.com#@##mainos
 
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
-
-! Long testing commit, with random text. Long testing commit, with random text. Long testing commit, with random text. Long testing commit, with random text.Long testing commit, with random text.
