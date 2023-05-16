@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 14 May 2023 11:28:14 +0000
+! Last modified: Tue, 16 May 2023 18:04:24 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -502,9 +502,9 @@ iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
 iskelma.fi#?#a.article-item:-abp-has(.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#div.item:-abp-has(.sponsored)
+jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
-jaakiekonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
 jahtimedia.fi#?#.latest-post-link:-abp-has(.mainos)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
@@ -962,8 +962,9 @@ suomi24.fi##div[class*=Ad__AdWrapper]
 suomi24.fi##div[class^=HomePage__HeaderAd]
 suomi24.fi##div[id^=viihdes24_desktop-sidebar]
 suomi24.fi#?#div[class^=ThreadGridItemWrapper__CardCol]:-abp-has([class^=AdLivewrapped__AdWrapper])
+suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com##[href$="/nettikasinot/"]
+suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com##[href$="/nettikasinot/"] + .dropdown-toggle
 suomif1.com,suomifutis.com,suomikiekko.com,valioliiga.com##[data-bottom-floater]
-suomifutis.com##[href$="/nettikasinot/"]
 suomifutis.com#?#.menu-item:-abp-has([href*="/veikkausvihjeet"])
 suomikiekko.com#?#.menu-item:-abp-has([href$="/pitkavetovihjeet/"])
 suomimobiili.fi##.artikkelimainos
