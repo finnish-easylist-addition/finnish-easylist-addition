@@ -411,6 +411,7 @@ gogolf.fi#?#.is-sidebar > .has-background:-abp-has(a[href*="utm_medium=banner"])
 gogolf.fi#?#.js-tabpanel > ol > li:-abp-has(.is-advertorial)
 gogolf.fi#?#.has-background:has-text(/MAINOS/i)
 golfpiste.com###gp-natives
+golfpiste.com##.ad-separatator
 golfpiste.com##.carousel-cell--native
 golfpiste.com##.content-continues-after-ad
 golfpiste.com##.golfliitto-articles__commercial
@@ -421,7 +422,6 @@ golfpiste.com##.section--ad__panorama
 golfpiste.com##.section--ad__rectangle
 golfpiste.com##.section-native-list
 golfpiste.com##body.bbpress > .content-wrapper .section--ad
-golfpiste.com,iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.ad-separator
 gti.fi#?#.wall-item__container:has-text(Mainos)
 haat.fi#?#.pad-small.col-md-4.col-sm-6.col-xs-12:-abp-has(.b2b-ad-list)
 halloota.com##.td_block_template_1.td-a-rec-id-custom-spot.td-a-rec.td-block
@@ -479,6 +479,7 @@ huuto.net#?#.grid-element-container:-abp-has(.hise-link[href^="https://"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##.sidebar-block > a[href^="http://pubads.g.doubleclick.net/gampad/clk"]
 hyvaterveys.fi##.pane-sbase-cts-native-native-front
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.ad-separator
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
