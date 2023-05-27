@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 26 May 2023 10:48:53 +0000
+! Last modified: Sat, 27 May 2023 09:24:14 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -480,11 +480,11 @@ hymy.fi##.grid--dfp-slots
 hymy.fi##.sidebar-block > a[href^="http://pubads.g.doubleclick.net/gampad/clk"]
 hyvaterveys.fi##.pane-sbase-cts-native-native-front
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.ad-separator
-iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
-iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
-iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
-iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-contentListItemThumb.-level-1:has-text(Mainos)
-iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-managedListing__column.-level-1:-abp-has(.-commercial)
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi###paraati-ad-grid
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.-ad1.-ad.sidebar__column-item
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-contentListItemThumb.-level-1:has-text(Mainos)
+iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-managedListing__column.-level-1:-abp-has(.-commercial)
 ilkkapohjalainen.fi##div[data-lazy-ad-unit-id]
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
