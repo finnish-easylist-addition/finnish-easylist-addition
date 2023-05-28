@@ -328,7 +328,7 @@ fel.gg###fel-ad-banner
 fiksukuluttaja.fi##.thirstylinkimg
 fiksukuluttaja.fi,lehtikeidas.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 fillarifoorumi.fi###ad_global_below_navbar
-fillaritori.com###fillaritori_mobileheader
+fillaritori.com##[data-nbenhadv]
 fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
 findance.com##div[id^=adslot_content]
