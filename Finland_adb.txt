@@ -904,9 +904,8 @@ rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 ruuhkavuodet.fi#?#.widget_block:-abp-has(#nm-300x600-300x300)
 sammysatv.com##a[href*=banner]
 satakunnanviikko.fi##.panoraama_etus
-seiska.fi#?##article-body > div[class]:-abp-has(.ad-container)
-seiska.fi#?##article-body > div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
-seiska.fi#?#div[data-testid="article-body"] > div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
+seiska.fi#?##article-body .article div[class]:-abp-has(> .ad-container)
+seiska.fi#?##article-body .article div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
 seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
 seura.fi#?#section[class=entry-body] > p:has-text(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
