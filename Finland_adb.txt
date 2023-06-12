@@ -501,8 +501,8 @@ is.fi##.teaser-ad__background
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
-iskelma.fi#?#a.article-item:-abp-has(.sponsored)
-iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems:-abp-has(.right-column-header + articles-container .article-item:only-child .sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#a.article-item:-abp-has(.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#div.item:-abp-has(.sponsored)
 jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
 jaatama.fi#?#.box--transparent:-abp-has(.advert)
@@ -892,6 +892,7 @@ ratkojat.fi##.adslot_right
 ratkojat.fi##[href="https://www.suomi24.fi/lainaa/yhdista-lainat/"]
 redfoxsanakirja.fi##.ad-container-wide
 retkilehti.fi##.category-mainos
+retkilehti.fi##div[id|=retki][style]
 retkilehti.fi,riistalehti.fi##div[style^="margin-left: auto; margin-right: auto; text-align: center;"] .is-external-link
 retkilehti.fi,riistalehti.fi##body.home div[style^="margin-left: auto; margin-right: auto; text-align: center;"] + .wp-block-separator
 riemurasia.net###PowerRectangle
