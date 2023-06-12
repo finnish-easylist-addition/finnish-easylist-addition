@@ -178,7 +178,7 @@ alypaa.com,pelikone.fi##.text-link[href*="&utm_medium=banner&utm_campaign="]
 alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
-ampparit.com,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
+ampparit.com,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
 anna.fi#?#.grid__item_1:-abp-has(> [id^=dfp__native-card])
 anna.fi#?#li:-abp-has([id^=dfp__native-card])
 anna.fi,kaksplus.fi##.widget_nativearticles
@@ -976,7 +976,7 @@ suomifutis.com#?#.menu-item:-abp-has([href*="/veikkausvihjeet"])
 suomikiekko.com#?#.menu-item:-abp-has([href$="/pitkavetovihjeet/"])
 suomimobiili.fi##.artikkelimainos
 suomimobiili.fi##.headermainos
-suomimobiili.fi#?#.article-content > p:has-text(MAINOS)
+suomimobiili.fi##.natiivilinkit
 suomimobiili.fi#?#.posts-list > .list-item:-abp-has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
 suomimobiili.fi#?#.posts-listing-list-alt-b:has-text(Artikkeleita kumppaneilta)
 superlehti.fi##.ad-banner-lift
@@ -1272,6 +1272,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||cdn.bluebillywig.com/apps/player/$script,domain=gekkonen.net|hevosurheilu.fi
 ||celtra.com^$third-party
+||cfapi.voikukka.fi/graphql?operationName=CitrusAd&$xmlhttprequest,domain=s-kaupat.fi
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script

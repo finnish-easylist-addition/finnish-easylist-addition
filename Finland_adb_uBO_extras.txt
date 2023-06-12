@@ -16,6 +16,7 @@ golfpiste.com#?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
+iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
 kaaoszine.fi##article.post:has-text(Kaupallinen yhteistyö):style(height: 1px !important; width: 1px !important; margin-right: 0px !important)
 kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
@@ -78,7 +79,7 @@ finder.fi##+js(rc, SearchResultList--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList__Row--advertisement, , stay)
 findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
-iltalehti.fi#?#.double-column > a[href]:-abp-has(.article-container:has-text(Kaupallinen yhteistyö)):remove()
+s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot)
 
 ! -----SCRIPTS END-----
 
