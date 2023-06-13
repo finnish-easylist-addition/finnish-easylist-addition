@@ -116,7 +116,6 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
-! telsu.fi##a[href][style]:not([rel], .sets, .ft-menu)
 2pos.life##.ad2
 aamulehti.fi#?#.lg\:hidden:has-text(Lue myös:):-abp-has(a[href^="/mainos/"])
 aamulehti.fi#?#article:-abp-has(> header > h2 > span:has-text(Mainokset))
