@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 13 Jun 2023 19:34:17 +0000
+! Last modified: Tue, 13 Jun 2023 19:35:04 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -116,7 +116,6 @@ _mainosnappi.
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 
-! telsu.fi##a[href][style]:not([rel], .sets, .ft-menu)
 2pos.life##.ad2
 aamulehti.fi#?#.lg\:hidden:has-text(Lue myös:):-abp-has(a[href^="/mainos/"])
 aamulehti.fi#?#article:-abp-has(> header > h2 > span:has-text(Mainokset))
