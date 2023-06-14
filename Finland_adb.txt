@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Wed, 14 Jun 2023 14:59:19 +0000
+! Last modified: Wed, 14 Jun 2023 15:25:56 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -243,11 +243,6 @@ como.fi,rumba.fi,soundi.fi,tilt.fi##div[style="min-height:450px;"]
 como.fi,tilt.fi#?#div[class="w-full bg-white border-gray-200 border-b py-2 px-4"]:-abp-has([id*="_smart_boksi"])
 como.fi,tilt.fi,rumba.fi#?#body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:-abp-has(a[href*=".fi/advertoriaali/"])
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
-dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 250px;"]
-dawn.fi##[style="margin:-15px -15px 15px -15px;text-align:center; min-height: 300px;"]
-dawn.fi#?#.ui-body-inherit.ui-li-static:has-text(loadAd)
-dawn.fi#?#center > b:has-text(Mainos:)
-dawn.fi#?#div[style="text-align: center; font-size: 0.7em;margin-bottom:15px"]:has-text(Mainos)
 deitti.net##.ad-article
 demokraatti.fi##div[class^=AdStyles__Wrapper]
 demokraatti.fi##div[class^=OrderMagazinestyles__Container]
@@ -1442,7 +1437,6 @@ iltalehti.fi#@#.ad-placement
 ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
-dawn.fi#?#.ui-body-inherit.ui-li-static:-abp-has(#dawn_mobile-content)
 gamereactor.fi###ad_sticky
 gamereactor.fi##.ad_interscroller
 gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
