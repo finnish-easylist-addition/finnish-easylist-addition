@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 19 Jun 2023 16:30:38 +0000
+! Last modified: Mon, 19 Jun 2023 17:15:39 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1450,7 +1450,7 @@ kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
 
 !#if ext_abp
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
-@@||www.googletagmanager.com/gtm.js$script,domain=muropaketti.com
+@@||googletagmanager.com/gtm.js$script,domain=muropaketti.com
 !#endif
 
 ! -----UNSORTED END-----
@@ -1488,6 +1488,8 @@ anna.fi,kaksplus.fi#@#.sponsored-content
 hs.fi,sokos.fi#@#.mainokset
 hs.fi,tilannehuone.fi#@#.mainos
 pienimatkaopas.com#@##mainos
+
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=telsu.fi
 
 ! -----UNBREAK END-----
 
