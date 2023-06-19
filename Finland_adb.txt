@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 19 Jun 2023 17:27:12 +0000
+! Last modified: Mon, 19 Jun 2023 21:53:49 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -767,24 +767,21 @@ muropaketti.com##SECTION[id*=hintaopaspopular]
 muropaketti.com#?#article.grid__item_1-2:-abp-has(> div.nativead)
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:has-text(Mainos)
 mutsimedia.fi##.add-banner
+mvlehti.net###ads-sidebar-top
+mvlehti.net###featured > figure[class] > a[href]
+mvlehti.net###left-float > figure[class].wp-block-image > a[href][target][rel] > img[class][src]
+mvlehti.net##.ad.content-center
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
-mvlehti.net##[href="https://www.cbdtukku.fi/"]
-mvlehti.net##[href="https://www.halvinlaina.fi/"]
-mvlehti.net##a[href*="tarjousproffa.com"]
-mvlehti.net##a[href="https://lainaa.com/"]
-mvlehti.net##a[href="https://loistehammasharja.com/"]
-mvlehti.net##a[href^="https://kasino"]
-mvlehti.net##a[href^="https://www.kasino"]
-mvlehti.net##a[href^="https://www.kippis.net/"]
-mvlehti.net#?#.aligncenter:-abp-has(a[href*="tarjousproffa.com"])
+mvlehti.net##.related-posts + figure[class].wp-block-image > a[href][target][rel] > img[class][src]
+mvlehti.net##.sidebar-element > .wp-block-image
+mvlehti.net##.social-post + div + figure[class].wp-block-image > a[href][target][rel] > img[class][src]
+mvlehti.net##.wp-block-image > figure[class] > a[href]
+mvlehti.net##section.post-single > figure[class].wp-block-image > a[href][target][rel] > img[class][src]
 mvlehti.net#?#.entry-content > h3:has-text(kasino)
-mvlehti.net#?#.sidebar-element > p[style="text-align: center;"]:-abp-has(a[href="https://mvlehti.net/umv-kasinot/"])
-mvlehti.net#?#.wp-block-image:-abp-has(a[href*="casino.com"])
 mvlehti.net#?#[class|=featured-post]:has-text(/rahapeli|kasino/i):-abp-has(a[href*="/202"])
-mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has(> a[href^="https://vk.com/"])):not(:-abp-has(> a[href^="https://uvmedia.org/"]))
+mvlehti.net#?#footer .quote:has(figure[class].wp-block-image > a[href])
 mvlehti.net#?#li:-abp-has(a[href*="/202"]):-abp-has(a[href*="nettikasino"])
-mvlehti.net#?#p[style="text-align: center;"]:-abp-has(> a[href^="https://kasino"])
 myheritage.fi##.promotional_banner_root
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
