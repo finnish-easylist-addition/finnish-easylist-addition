@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 19 Jun 2023 15:32:15 +0000
+! Last modified: Mon, 19 Jun 2023 16:21:28 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -200,9 +200,9 @@ audiovideo.fi##[id|=bunyad-widget-ads]
 auto1.fi##.pb[lazied]
 auto1.fi#?#[id^=pb_cont].pb:-abp-has(> a[href^="/clk2?"])
 auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi###pb_bottom
-auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi##.box_dt
-auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi##[href^="/clk"]
-auto1.fi,ilmainensanakirja.fi,telsu.fi,testeri.fi,blogit.fi###pb_top
+auto1.fi,ilmainensanakirja.fi,testeri.fi##.box_dt
+auto1.fi,ilmainensanakirja.fi,testeri.fi##[href^="/clk"]
+auto1.fi,ilmainensanakirja.fi,testeri.fi,blogit.fi###pb_top
 autobild.fi##div[class*=advertorial]
 autobild.fi#?#.red-the-latest-issue:has-text(Kaupallinen yhteistyö)
 autot.tori.fi##div[class*="adViewPage_maxWidthWrap"]:not(div[class^="adViewPage_adWrap"])
