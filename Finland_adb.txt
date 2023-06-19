@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 18 Jun 2023 15:36:40 +0000
+! Last modified: Mon, 19 Jun 2023 15:27:52 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -117,10 +117,7 @@ _mainosnappi.
 ! -----SPECIFIC FILTERS-----
 
 2pos.life##.ad2
-aamulehti.fi#?#.lg\:hidden:has-text(Lue myös:):-abp-has(a[href^="/mainos/"])
-aamulehti.fi#?#article:-abp-has(> header > h2 > span:has-text(Mainokset))
 aamulehti.fi#?#article[class]:-abp-has(> a[href^="https://tilaa.sanoma.fi/al-digi"][href$=etusivu_flash])
-aamulehti.fi,hs.fi###header ~ .xl\:pr-sideAdOffset.bg-softwall
 aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##.teaser-ad__background
 aamulehti.fi,hs.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi##article.ticker--promo-10
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#article[class="list bg-positive w-full mb-16"]:has-text(Mainos)
