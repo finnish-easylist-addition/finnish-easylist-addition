@@ -1350,7 +1350,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ! -----UNSORTED-----
 
 ! Iltalehti.fi ads
-iltalehti.fi###il-alekoodit-right-column-box
+iltalehti.fi##.alennuskoodi-column-embed
 iltalehti.fi##.article-list a[href] > .article-sponsored
 iltalehti.fi##.card.eo-embed-container
 iltalehti.fi##.center.category-list-embed
