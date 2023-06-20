@@ -1008,10 +1008,7 @@ tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:has-text(KAUPALL
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
-telsu.fi###pb_bottom3
 telsu.fi###prg img:not(.ch img)
-telsu.fi##.footer > .pb1
-telsu.fi##.footer > .pb100
 telsu.fi##.pop img:not(.cd img)
 telsu.fi##img:not(#foot1 img, #foot2 img, #prg img, .data img, .pop img, .stat img, img[src^="/img/"], .chnsbox[rel="suosikit"] img)
 telsu.fi#?#.ch:-abp-has(em>a)
