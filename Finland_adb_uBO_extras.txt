@@ -33,7 +33,6 @@ nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banne
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 talouselama.fi,tekniikkatalous.fi##section hr:matches-css-before(content: /Mainos /):upward(1)
-telsu.fi###head:style(margin-bottom: 2px !important)
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
