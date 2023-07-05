@@ -43,16 +43,8 @@ www.suomi24.fi##div[width="100%"] + div[width="50%"] + div[width="50%"] + div[wi
 www.suomi24.fi##div[width="50%"] + div[width="50%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 www.suomi24.fi#?#div[class^="ThreadGridItemWrapper__CardCol"][width="50%"]:-abp-has(+ div[class^="ThreadGridItemWrapper__CardCol"][width="100%"]):style(width:100% !important)
 
-! https://github.com/AdguardTeam/Scriptlets/issues/317 - AG waiting for this
-!#if !adguard
-telsu.fi##a[href^="/"]:matches-css(font-size: /^[2-9][\d][\.\d]*px$/):upward(div[class])
-telsu.fi###pb_top:style(position: absolute !important)
-telsu.fi##+js(spoof-css, #pb_top, position, static)
-telsu.fi###pb_bottom:style(position: absolute !important)
-telsu.fi##+js(spoof-css, #pb_bottom, position, static)
-telsu.fi##.pb:style(position: absolute !important)
-telsu.fi##+js(spoof-css, .pb, position, static)
-!#endif
+! telsu.fi##a[href^="/"]:matches-css(font-size: /^[2-9][\d][\.\d]*px$/):upward(div[class])
+telsu.fi##.pb_t:style(position: absolute !important)
 
 ! Trick to overcome flickering issues caused by a slow procedural
 karjalainen.fi#@#.breaking-news-container:has-text(mainos:)
