@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 08 Jul 2023 17:51:22 +0000
+! Last modified: Sun, 09 Jul 2023 08:36:29 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -492,7 +492,7 @@ is.fi##.teaser-ad__background
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
-iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems:-abp-has(.right-column-header + articles-container .article-item:only-child .sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems:-abp-has(.right-column-header + .articles-container .article-item:only-child .sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#a.article-item:-abp-has(.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#div.item:-abp-has(.sponsored)
 jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
