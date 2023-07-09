@@ -492,7 +492,7 @@ is.fi##.teaser-ad__background
 is.fi##div.sadblob-loading
 is.fi#?#article:-abp-has(> header > h2 span:has-text(Alennuskoodit))
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
-iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems:-abp-has(.right-column-header + articles-container .article-item:only-child .sponsored)
+iskelma.fi,radionova.fi,voice.fi#?#.sbs-articleitems:-abp-has(.right-column-header + .articles-container .article-item:only-child .sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#a.article-item:-abp-has(.sponsored)
 iskelma.fi,radionova.fi,voice.fi#?#div.item:-abp-has(.sponsored)
 jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
