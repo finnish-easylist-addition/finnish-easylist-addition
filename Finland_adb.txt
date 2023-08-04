@@ -1456,9 +1456,6 @@ kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
 ! Exception to Lowe's list - it removes some boxes
 @@||conductrics.com^$script,domain=elisa.fi
 
-! Sending a product review won't work, Lowe's list
-@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
-
 ! Lowe's list and Easyprivacy prevent opening thread replys via email
 @@||click.redditmail.com^$~third-party
 
