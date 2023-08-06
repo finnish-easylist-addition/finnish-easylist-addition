@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 05 Aug 2023 13:47:57 +0000
+! Last modified: Sun, 06 Aug 2023 17:08:53 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -821,7 +821,7 @@ outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi#?#.sp-mod
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pakkotoisto.com##.td-header-sp-recs
-palkkavertailu.com###nav + div[style="min-height:250px;text-align:center"]
+palkkavertailu.com###nav + div[style="text-align:center;min-height:280px"]
 palloliitto.fi##[aria-label="Linkki mainokseen"]:not([href^="https://kauppa.palloliitto.fi/"])
 pelaaja.fi##div.views-injected-row.views-row
 pelaaja.fi##div[class="main-container header-container container-fluid"]
