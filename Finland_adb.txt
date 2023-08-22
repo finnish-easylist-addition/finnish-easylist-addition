@@ -1219,6 +1219,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /*-mainos-$image,domain=futisfani.com|kiekkofani.com|omalahio.fi|penkkiurheilu.com|uutisankka.com
 /a-ylabannerit$image,domain=apteekkari.fi
 /b-suurbannerit-uutisvirrassa$image,domain=apteekkari.fi
+/common-column-ads$xmlhttprequest,domain=seutumajakka.fi
 /https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{3}\?[\d]{8}\+[\d]/$~third-party,xmlhttprequest
 /https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{9}-[\w]{7}\?[\w]{4}\+[\w]{6}\+[\w]{9}\+[\w]{4}\+[\w]{5}\+[\w%\d]{19}/$~third-party,xmlhttprequest
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
