@@ -936,21 +936,15 @@ sportti.com#?#tr:has-text(.loadAd)
 sss.fi#?#.td_block_wrap:-abp-has([href="https://www.sss.fi/category/mainos/"])
 sss.fi#?#aside.widget_text:has-text(MAINOS)
 styleroom.fi#?#.bg-box:-abp-has([id|=placement-ad-grid])
-suomela.fi##.banner-boksi1
-suomela.fi##a[href^="https://www.autonvaraosat24.fi/"]
-suomela.fi##article div[style="font-size: 10px !important; color: #000; background: #fff;font-size: 12px; text-align: center; margin-top: -.6rem; margin-bottom: .25rem;"]
-suomela.fi#?#.article-container:has-text(MAINOS)
-suomela.fi#?#.box:has-text(MAINOS)
-suomela.fi#?#h2:has-text(Remonttirahoitus)
-suomela.fi#?#hr:-abp-has(+ .centermobile > [data-adfscript])
-suomela.fi#?#hr:-abp-has(+ h2:has-text(Remonttirahoitus))
-suomela.fi#?#hr:-abp-has(+ p > a[href="https://www.autodoc.fi/"])
-suomela.fi#?#hr:-abp-has(+ p > a[href^="https://www.autonvaraosat24.fi/"])
-suomela.fi#?#p:-abp-has(a[href^="https://www.autodoc.fi/"])
-suomela.fi#?#p:-abp-has(a[href^="https://www.autodoc.fi/"]) + hr
-suomela.fi#?#p:-abp-has(a[href^="https://www.autonvaraosat24.fi/"])
-suomela.fi#?#p:-abp-has(a[href^="https://www.autonvaraosat24.fi/"]) + hr
-suomela.fi#?#p:-abp-has(a[href^="https://www.lainanvälittäjä.fi/"])
+suomela.fi##.ad
+suomela.fi##.has-ads
+suomela.fi##a[href^="http://www.lainanvalittaja.fi/"]
+suomela.fi##a[href^="https://autonvaraosat24.fi/"]
+suomela.fi##a[href^="https://www.autodoc.fi/"]
+suomela.fi##div[id$=paraati]
+suomela.fi##div[id|=banner]
+suomela.fi#?#.custom-title:has-text(Kaupalliset yhteistyöt)
+suomela.fi#?#.no-print.justify-center.flex:-abp-has([data-ad-unit-id])
 suomen118.fi###layout-banner-right
 suomenautolehti.fi##.banner_wide
 suomenautolehti.fi##.site-footer__banners
