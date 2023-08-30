@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 22 Aug 2023 18:52:14 +0000
+! Last modified: Wed, 30 Aug 2023 20:08:49 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1176,6 +1176,7 @@ www.uusisuomi.fi#?#body:not(.is-style-kumppanisisallot) main > div[class]:has-te
 www.uusisuomi.fi#?#div[width]:-abp-has(> [id|="almad-parade"])
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
+yhteishyva.fi##.advertisement-slot
 yhteishyva.fi##.commercial
 ykkoslohja.fi##.bfastmag-a-d-v
 ykkoslohja.fi##a[href="https://ostalohjalta.fi"]
