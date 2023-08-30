@@ -1176,6 +1176,7 @@ www.uusisuomi.fi#?#body:not(.is-style-kumppanisisallot) main > div[class]:has-te
 www.uusisuomi.fi#?#div[width]:-abp-has(> [id|="almad-parade"])
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
+yhteishyva.fi##.advertisement-slot
 yhteishyva.fi##.commercial
 ykkoslohja.fi##.bfastmag-a-d-v
 ykkoslohja.fi##a[href="https://ostalohjalta.fi"]
