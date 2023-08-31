@@ -125,7 +125,7 @@ aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi
 aamulehti.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kmvlehti.fi,merikarvialehti.fi,nokianuutiset.fi,rannikkoseutu.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,tyrvaansanomat.fi,valkeakoskensanomat.fi#?#div[class|="ab-test-laneitem"]:-abp-has(.list__heading:has-text(Mainos))
 aamuposti.fi,esaimaa.fi,ess.fi,forssanlehti.fi,hameensanomat.fi,hankasalmensanomat.fi,heinavedenlehti.fi,helsinginuutiset.fi,iisalmensanomat.fi,ita-savo.fi,itahame.fi,joroistenlehti.fi,joutsenolehti.fi,juvanlehti.fi,kaakonkulma.fi,kangasniemenlehti.fi,karkkilantienoo.fi,keski-hame.fi,keski-uusimaa.fi,keskilaakso.fi,koillis-savo.fi,kouvolansanomat.fi,ksml.fi,kymensanomat.fi,lansi-savo.fi,lansi-uusimaa.fi,lansisaimaa.fi,lansivayla.fi,lappeenrannanuutiset.fi,laukaa-konnevesi.fi,lopenlehti.fi,loviisansanomat.fi,luoteis-uusimaa.fi,luumaenlehti.fi,mantsalanuutiset.fi,mattijaliisa.fi,miilu.fi,mikkelinkaupunkilehti.fi,nurmijarvenuutiset.fi,pieksamaenlehti.fi,pielavesi-keitele.fi,pitajalainen.fi,pitajanuutiset.fi,puruvesi.net,pyhtaanlehti.fi,sampolehti.fi,savonsanomat.fi,seinajoensanomat.fi,seutuneloset.fi,sipoonsanomat.fi,sisa-savolehti.fi,sisasuomenlehti.fi,sjl.fi,soisalonseutu.fi,tamperelainen.fi,tollotin.fi,turkulainen.fi,uusilahti.fi,uusimaa.fi,uutis-jousi.fi,uutisvuoksi.fi,vantaansanomat.fi,viikkosavo.fi,viispiikkinen.fi,viitasaarenseutu.fi,warkaudenlehti.fi##[data-info-container-text^="MAINOS"]
 aamuset.fi##div[class$=nativead]
-aasiakas.net##div[style="width:970px;height:250px;margin:0 auto;margin-top:25px;"]
+aasiakas.net##.jp_adsense_ad_container
 adressit.com###petition_page_top_ad
 aijaa.com##[href^="https://tc.tradetracker.net/"]
 aijaa.com##div.text-center.col-sm-6 > a[rel$=nofollow]
@@ -1437,6 +1437,7 @@ gamereactor.fi##[class^=ad_mobileLeader]
 gamereactor.fi##[class^=ad_smartphbig]
 gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi#?#.article-card-grid li:-abp-has(div[id^=dfp__])
+tori.fi##.appnexus-container
 !#endif
 
 !#if ext_abp
