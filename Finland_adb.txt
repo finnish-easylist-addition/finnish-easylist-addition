@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Wed, 30 Aug 2023 20:08:49 +0000
+! Last modified: Fri, 01 Sep 2023 16:46:16 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -625,6 +625,7 @@ kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*=banner]
 kulutusluottovertailu.fi##.fusion-carousel
 kuntalehti.fi#?#.g:-abp-has(.gofollow)
+kuntatekniikka.fi##.g-1
 kuntsari.fi#?#.wpb_wrapper.wpb_text_column.td_block_wrap:-abp-has([auto-grid-data*="mainos"])
 kuvake.net###ticker
 kuvake.net,kuvaton.com##.addme
@@ -891,6 +892,7 @@ riemurasia.net###PowerRectangle
 riemurasia.net###PowerSkyscraper
 riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
 riemurasia.net##a[rel^="sponsored"]
+riimihaku.fi##.top-banner
 riistalehti.fi##.riist-content
 ristinvoitto.fi##a[href*="subaction=bannerredirect"]:not(a[href*="-rv-tilaus"])
 rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
