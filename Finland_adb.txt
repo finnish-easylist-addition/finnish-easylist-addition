@@ -1102,6 +1102,7 @@ vau.fi##h4:has-text(MAINOS)
 vau.fi##hr + h4:has-text(MAINOS) ~ hr
 vauva.fi##[href^="https://kampanjat.is.fi/"]
 vauva.fi##a[href$="vauvabanneri"]
+vauva.fi##a[href="https://www.is.fi/alennuskoodi/"]
 vauva.fi##div.cts-row-wrapper
 vauva.fi##div[id^=aldente-]
 vauva.fi#?#.pane-sbase-static-blocks-sbase-static-blocks-1:-abp-has(> h2 > a[href="https://www.is.fi/alennuskoodi/"])
