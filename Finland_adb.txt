@@ -899,6 +899,7 @@ rumba.fi#?#.bg-white.w-full.py-2.px-4:-abp-has(.poppartners)
 ruuhkavuodet.fi#?#.widget_block:-abp-has(#nm-300x600-300x300)
 sammysatv.com##a[href*=banner]
 satakunnanviikko.fi##.panoraama_etus
+seiska.fi##article[data-section="kaupallinen yhteistyö"]
 seiska.fi#?##article-body .article div[class]:-abp-has(> .ad-container)
 seiska.fi#?##article-body .article div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
 seura.fi#?#.grid__item_lg-1.grid__item_1:-abp-has(.dfp-advertisement)
