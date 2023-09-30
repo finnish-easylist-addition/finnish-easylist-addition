@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 23 Sep 2023 10:58:19 +0000
+! Last modified: Sat, 30 Sep 2023 11:30:45 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -204,7 +204,7 @@ auto1.fi#?#[id^=pb_cont].pb:-abp-has(> a[href^="/clk2?"])
 auto1.fi,ilmainensanakirja.fi,testeri.fi###pb_bottom
 auto1.fi,ilmainensanakirja.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,testeri.fi##[href^="/clk"]
-auto1.fi,ilmainensanakirja.fi,testeri.fi,blogit.fi###pb_top
+auto1.fi,ilmainensanakirja.fi,testeri.fi,blogit.fi##.pb_t
 autobild.fi##div[class*=advertorial]
 autobild.fi#?#.red-the-latest-issue:has-text(Kaupallinen yhteistyö)
 autot.tori.fi##div[class*="adViewPage_maxWidthWrap"]:not(div[class^="adViewPage_adWrap"])
@@ -219,8 +219,6 @@ bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
 blogbook.fi#?#.sidebar-block:-abp-has([id^="adsivupalkki_"])
-blogit.fi,ilmainensanakirja.fi##.pb
-blogit.fi,ilmainensanakirja.fi##.pb0
 bomber.fi###rt-sidebar-b
 boy.fi##.advs
 boy.fi#?#.moduletable:-abp-has(.advs)
