@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 30 Sep 2023 11:30:45 +0000
+! Last modified: Mon, 02 Oct 2023 14:47:01 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1267,6 +1267,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||deals.kledjut.com^$domain=viranomaisuutiset.fi
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||elmotv.com/wp-content/uploads/*/stake-banneri-$image,domain=elmotv.com
+||es.ylilauta.org^$domain=ylilauta.org
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
