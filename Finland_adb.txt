@@ -498,6 +498,7 @@ jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 jahtimedia.fi#?#.latest-post-link:-abp-has(.mainos)
 jatkoaika.com###cmorelink
+jatkoaika.com##.inline-txtad
 jatkoaika.com##div[class="block block-block"]
 jp-kunnallissanomat.fi#?#a[href^="/artikkeli-"]:has-text(MAINOS)
 juoksufoorumi.fi###ipsLayout_sidebar .ipsBox:not([data-blocktitle="Member Subscriptions"])
@@ -603,6 +604,7 @@ koneviesti.fi,maaseuduntulevaisuus.fi##.promo
 koneviesti.fi,maaseuduntulevaisuus.fi#?#.row .col-small-12.col-medium-12.col-large-12:has-text(Mainos:)
 konsolifin.net##.konsolifin-vaakamainos
 kotikokki.net###partners-container-big
+kotikokki.net##.kotikokki_ensighten_ad
 kotiliesi.fi##.article-continues
 kotiliesi.fi##.card--is-sponsored
 kotiliesi.fi#?#.wp-block-otavamedia-section-management li:-abp-has([id^=dfp__])
@@ -841,6 +843,7 @@ pienimatkaopas.com###mainos .ilmoitus
 pienimatkaopas.com###pm_mp_kotisivu
 pienimatkaopas.com##[id^=pm_mp_tekstissa]
 pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
+piipaa.info##[data-id="adsense"]
 pirkkalainen.fi##.omamainos-PIR
 pirkkalainen.fi#?#.ultp-block-wrapper:-abp-has(.ultp-cat-mainosartikkelit)
 pkank.fi##.ad-assigned.panoraamabanneri
