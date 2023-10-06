@@ -86,6 +86,12 @@ s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.
 
 ! -----SCRIPTS END-----
 
+! Test / quick fix
+@@||fi-mtv3.videoplaza.tv/proxy/distributor$domain=mtv.fi
+&browser=MozillaFirefox$xmlhttprequest,removeparam=browser,domain=mtv.fi
+mtv.fi##+js(xml-prune, MediaFile, , fi-mtv3.videoplaza.tv/proxy/distributor)
+mtv.fi##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
+
 ! to fix an issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
 ! https://github.com/easylist/easylist/pull/8317
 pelaaja.fi##+js(aopr, ga)
