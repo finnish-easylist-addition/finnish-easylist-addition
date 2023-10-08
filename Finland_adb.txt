@@ -1416,11 +1416,6 @@ arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniik
 ||freewheel-jitt.sanoma.fi^$media
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media
 
-! Prevent clicking video ads on MTV Oy
-mtvuutiset.fi,mtv.fi,suomiareena.fi,msn.com##.mtv-player-ad-container
-||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
-@@||fi-mtv3.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js
-
 ! Adblock check
 murha.info#@#.adsbygoogle
 murha.info#@#.adsbox
