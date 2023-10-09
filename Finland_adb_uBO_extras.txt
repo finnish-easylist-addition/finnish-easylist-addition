@@ -88,17 +88,17 @@ s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.
 
 ! Test / quick fix
 
-&browser=MozillaFirefox$xhr,removeparam=browser,domain=mtv.fi
+&browser=MozillaFirefox$xhr,removeparam=browser,domain=mtv.fi|mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/distributor$domain=mtv.fi|mtvuutiset.fi
-mtv.fi##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
-mtv.fi##+js(xml-prune, MediaFile, , fi-mtv3.videoplaza.tv/proxy/distributor)
-mtv.fi##.avod-web-player-csai:remove()
-mtv.fi##.avod-web-player-pause
-mtv.fi##.avod-web-player-skin > #skin-wrapper > div > div:has-text(Mainos)
-mtv.fi##.visit-advertiser-link
+mtv.fi,mtvuutiset.fi##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
+mtv.fi,mtvuutiset.fi##+js(xml-prune, MediaFile, , fi-mtv3.videoplaza.tv/proxy/distributor)
+mtv.fi,mtvuutiset.fi##.avod-web-player-csai:remove()
+mtv.fi,mtvuutiset.fi##.avod-web-player-pause
+mtv.fi,mtvuutiset.fi##.avod-web-player-skin > #skin-wrapper > div > div:has-text(Mainos)
+mtv.fi,mtvuutiset.fi##.visit-advertiser-link
 ||cloudfront.net/creatives/assets/$image,domain=mtv.fi|mtvuutiset.fi
-||cloudfront.net/creatives/assets/*.mp4$media,redirect=noop-0.1s.mp3,domain=mtv.fi
-||fi-mtv3.videoplaza.tv/proxy/distributor/*&xpb=1$xhr,important,domain=mtv.fi
+||cloudfront.net/creatives/assets/*.mp4$media,redirect=noop-0.1s.mp3,domain=mtv.fi|mtvuutiset.fi
+||fi-mtv3.videoplaza.tv/proxy/distributor/*&xpb=1$xhr,important,domain=mtv.fi|mtvuutiset.fi
 
 ! to fix an issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
 ! https://github.com/easylist/easylist/pull/8317
