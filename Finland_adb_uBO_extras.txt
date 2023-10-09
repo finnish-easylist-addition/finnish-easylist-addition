@@ -86,8 +86,7 @@ s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.
 
 ! -----SCRIPTS END-----
 
-! Test / quick fix
-
+! mtv.fi & mtvuutiset.fi
 &browser=MozillaFirefox$xhr,removeparam=browser,domain=mtv.fi|mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/distributor$domain=mtv.fi|mtvuutiset.fi
 mtv.fi,mtvuutiset.fi##+js(json-prune-fetch-response, bumpers, , propsToMatch, url:/playback2.a2d.tv\/play/)
