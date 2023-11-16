@@ -99,11 +99,6 @@ mtv.fi,mtvuutiset.fi##.visit-advertiser-link
 ||cloudfront.net/creatives/assets/*.mp4$media,redirect=noop-0.1s.mp3,domain=mtv.fi|mtvuutiset.fi
 ||fi-mtv3.videoplaza.tv/proxy/distributor/*&xpb=1$xhr,important,domain=mtv.fi|mtvuutiset.fi
 
-! to fix an issue https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/306
-! https://github.com/easylist/easylist/pull/8317
-pelaaja.fi##+js(aopr, ga)
-||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$important
-
 ! Waiting for EP to support uBO filters as well
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
 muropaketti.com##body.noImages .content img:style(display: inline-block !important)
