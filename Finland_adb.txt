@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 16 Nov 2023 10:14:06 +0000
+! Last modified: Fri, 24 Nov 2023 18:15:20 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -188,6 +188,7 @@ apteekkari.fi##.frontpage-banner
 apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:has-text(MAINOS (TEKSTI JATKUU ALLA))
 apu.fi#?#div[class*="PageBlock__ContentContainer"]:-abp-has(div[class*="ContentSpotlightBlock__AdLabel"])
+apu.fi#?#ul[class*="relatedContent__list"] > li:-abp-has([class*=ContentCard__AdLabel])
 apu.fi,eeva.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 apu.fi,eeva.fi,lily.fi,meillakotona.fi,terve.fi##[class^=Ad__AdRoot]
 arcticinsider.com##a[href*=bannerTrack]
