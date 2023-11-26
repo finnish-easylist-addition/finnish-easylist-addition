@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 26 Nov 2023 16:35:44 +0000
+! Last modified: Sun, 26 Nov 2023 16:41:17 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -516,13 +516,13 @@ kaaoszine.fi#?#.right-inner-section:-abp-has(#gpt-desktop-side)
 kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
 kaasujalka.fi#?#.widget-container:-abp-has([class^=ad_])
 kaksplus.fi##.ad-mob_description
-kaksplus.fi##.in-article.is-background-gray-light-3
 kaksplus.fi##.placeholder
 kaksplus.fi##.wp-block-otavamedia-google-ad-slot
 kaksplus.fi#?##huomiotekstiotsikko:has-text(Mainos)
 kaksplus.fi#?#.frosmo_popup:-abp-has(.popup_advertiser)
+kaksplus.fi#?#.is-background-gray-light-3:-abp-has([id^=dfp__])
 kaksplus.fi#?#.wp-block-otavamedia-section-management:has-text(Kaupallinen yhteistyö)
-kaksplus.fi#?#li.grid__item:-abp-has([id^="dfp__native-card"])
+kaksplus.fi#?#li.grid__item:-abp-has([id^=dfp__native-card])
 kalamies.com##.custom_banners_big_linkbefore-content
 kalamies.com##.custom_banners_big_linkwidget
 kalamies.com##[class^=custom_banners_big_linkcontent]
