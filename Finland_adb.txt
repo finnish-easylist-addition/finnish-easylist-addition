@@ -1152,6 +1152,7 @@ voima.fi#?#div[class|=voima-jutun-sisalla]:-abp-has(.voima-adlabel)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
+webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="-nostokuva"])
