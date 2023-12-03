@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 03 Dec 2023 16:32:33 +0000
+! Last modified: Sun, 03 Dec 2023 21:03:18 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -202,6 +202,10 @@ arvopaperi.fi#?#div#skyscraper-height-div > aside > div:-abp-has(a[href^="https:
 arvopaperi.fi,uusisuomi.fi#?#[width]:-abp-has(.lazyload-wrapper):not(aside)
 assembly.org#?#div[class] + div[class] ~ div[class]:-abp-has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
+asunnot.oikotie.fi##.building-campaign-element
+asunnot.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
+asunnot.oikotie.fi##[analytics-impression="insurance_link_impression"]
+asunnot.oikotie.fi##energy-promotion-building
 audiovideo.fi##.head.the-wrap
 audiovideo.fi##[id|=bunyad-widget-ads]
 auto1.fi##.pb[lazied]
@@ -1054,6 +1058,7 @@ tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:has-text(KAUPA
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 tivi.fi#?#section > .lazyload-wrapper + div[class]:-abp-has(> a[href^="https://tivi.fi/kumppanisisallot/"])
+toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div#banner_panorama_topmost
