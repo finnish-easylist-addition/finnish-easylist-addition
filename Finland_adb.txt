@@ -458,6 +458,7 @@ hs.fi##.aldente-wrapper
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
 hs.fi##.hs-ticker-sales
+hs.fi##.ticker--promo-20
 hs.fi##[id^=aldente-mobi]
 hs.fi##a.block[href*="/mainos"]
 hs.fi##article[class*=bg-native-ad]
