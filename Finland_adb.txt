@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 03 Dec 2023 21:03:18 +0000
+! Last modified: Sun, 03 Dec 2023 21:19:53 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -205,6 +205,7 @@ assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 asunnot.oikotie.fi##.building-campaign-element
 asunnot.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
 asunnot.oikotie.fi##[analytics-impression="insurance_link_impression"]
+asunnot.oikotie.fi##[analytics-impression="product_broadband_impression"]
 asunnot.oikotie.fi##energy-promotion-building
 audiovideo.fi##.head.the-wrap
 audiovideo.fi##[id|=bunyad-widget-ads]
