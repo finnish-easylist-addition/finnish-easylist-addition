@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 28 Nov 2023 18:00:04 +0000
+! Last modified: Sun, 03 Dec 2023 16:32:33 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -458,6 +458,7 @@ hs.fi##.aldente-wrapper
 hs.fi##.for-no-subscription.html-is-seuraa-myynti-bf.html-is-seuraa-myynti
 hs.fi##.hs-advertorial
 hs.fi##.hs-ticker-sales
+hs.fi##.ticker--promo-20
 hs.fi##[id^=aldente-mobi]
 hs.fi##a.block[href*="/mainos"]
 hs.fi##article[class*=bg-native-ad]
