@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 03 Dec 2023 21:19:53 +0000
+! Last modified: Mon, 04 Dec 2023 20:25:06 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1162,6 +1162,7 @@ vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
+www.io-tech.fi##aside.jimmx
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="-nostokuva"])
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="Ad-otsikko"])
 www.io-tech.fi#?#.artikkeli-slide:-abp-has(img[src*="mainos"])
