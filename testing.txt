@@ -1,3 +1,4 @@
 [uBlock Origin]
 ! Syntax testing
 example.com##+js(trusted-set-cookie, gravitoData, {"NonTCFVendors":[{"id":1\,"name":"Facebook"\,"consent":true}\,{"id":3\,"name":"Google"\,"consent":true}\,{"id":9\,"name":"Twitter"\,"consent":true}]}, 1year)
+racingnews365.com##+js(trusted-click-element, '#cmpwrapper >>> .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
