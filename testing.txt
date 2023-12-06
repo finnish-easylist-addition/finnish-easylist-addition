@@ -1,18 +1,10 @@
 [uBlock Origin]
 ! Syntax testing
 
-racingnews365.com##+js(trusted-click-element, '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+example.com##+js(trusted-set-cookie, CookieConsent, )
 
-racingnews365.com##+js("trusted-click-element", '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+example.com##+js(trusted-set-cookie, CookieConsent, true)
 
-racingnews365.com##+js('trusted-click-element', '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+example.com##+js(trusted-set-cookie, CookieConsent, true)
 
-racingnews365.com##+js(trusted-click-element, '#cmpwrapper, .cmptxt_btn_settings')
-
-racingnews365.com##+js(trusted-click-element, "#cmpwrapper, .cmptxt_btn_settings")
-
-ab.gr##+js(trusted-set-cookie, CookieConsent, 1.0.0.0.0)
-
-ab.gr##+js('trusted-set-cookie', 'CookieConsent', '1.0.0.0.0')
-
-ab.gr##+js('trusted-set-cookie', 'Cookie,Consent', '1.0.0.0.0')
+example.com##+js(trusted-set-cookie, ConsentChecked, '{"userHasSetCookies":true,"functionalityCookies":true,"statisticCookies":false,"marketingCookies":false}', , , reload, 1)
