@@ -14,3 +14,5 @@ racingnews365.com##+js(trusted-click-element, "#cmpwrapper, .cmptxt_btn_settings
 ab.gr##+js(trusted-set-cookie, CookieConsent, 1.0.0.0.0)
 
 ab.gr##+js('trusted-set-cookie', 'CookieConsent', '1.0.0.0.0')
+
+ab.gr##+js('trusted-set-cookie', 'Cookie,Consent', '1.0.0.0.0')
