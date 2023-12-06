@@ -1,12 +1,12 @@
 [uBlock Origin]
 ! Syntax testing
 
-racingnews365.com##+js(trusted-click-element, '#cmpwrapper >>> .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+racingnews365.com##+js(trusted-click-element, '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
 
-racingnews365.com##+js("trusted-click-element", '#cmpwrapper >>> .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+racingnews365.com##+js("trusted-click-element", '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
 
-racingnews365.com##+js('trusted-click-element', '#cmpwrapper >>> .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+racingnews365.com##+js('trusted-click-element', '#cmpwrapper, .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
 
-racingnews365.com##+js(trusted-click-element, '#cmpwrapper >>> .cmptxt_btn_settings')
+racingnews365.com##+js(trusted-click-element, '#cmpwrapper, .cmptxt_btn_settings')
 
-racingnews365.com##+js(trusted-click-element, "#cmpwrapper >>> .cmptxt_btn_settings")
+racingnews365.com##+js(trusted-click-element, "#cmpwrapper, .cmptxt_btn_settings")
