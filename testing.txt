@@ -1,1 +1,2 @@
-
+! Syntax testing
+example.com##+js(trusted-set-cookie, gravitoData, {"NonTCFVendors":[{"id":1\,"name":"Facebook"\,"consent":true}\,{"id":3\,"name":"Google"\,"consent":true}\,{"id":9\,"name":"Twitter"\,"consent":true}]}, 1year)
