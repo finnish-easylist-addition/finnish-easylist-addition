@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 07 Dec 2023 20:44:55 +0000
+! Last modified: Sat, 09 Dec 2023 19:27:51 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -870,6 +870,9 @@ pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
 projektiuutiset.fi##.proje-widget
 projektiuutiset.fi##.uusi-ylabanneri
+proshop.fi##a[data-action="campaignClick"][href="/Philips-Hue"]
+proshop.fi#?#.site-bannerCampaignElement:has(img[src^="/Images/PROSHOP-LIFESTYLE-FRONTPAGE-BANNER"])
+proshop.fi#?#.site-top-banner:has(a[data-action="campaignClick"][data-name$="Frontpage takeover"][href^="/Lego-Christmas"])
 pt-media.org###custom_html-63
 pt-media.org###text-32
 pt-media.org##[href="https://pt-media.org/pikakasinot/"]
@@ -1336,6 +1339,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
 ||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
+||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
 ||recommendations.asunnot.oikotie.fi^$domain=is.fi
