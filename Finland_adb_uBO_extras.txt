@@ -33,6 +33,7 @@ nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner']):
 outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 proshop.fi##body:style(background-image: unset !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
+seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
 talouselama.fi,tekniikkatalous.fi##section hr:matches-css-before(content: /Mainos /):upward(1)
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
