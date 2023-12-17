@@ -1179,16 +1179,20 @@ www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###homeTopBoxBanner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###huge_banner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###largeViewHouseBanner
-www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettivaraosa.com,www.nettivuokraus.com##.huge-banner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.inh_banner_nl
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.leftAdvDiv
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.listing:not([data-id]):not(.tricky_link_listing)
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.quick-search__banner
-www.nettimoto.com,www.nettivene.com##body > .huge-banner
+www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimarkkina.com,www.nettimokki.com,www.nettivaraosa.com,www.nettivuokraus.com##.huge-banner
 www.nettimarkkina.com##[class=center][style="padding-top:15px;"]
 www.nettimarkkina.com#?#.right_rpt_block:has(#vif_right_banner)
 www.nettimokki.com##div.nc_r_banner
 www.nettimoto.com###smallViewHouseBanner
+www.nettimoto.com#?#.article-blocks__item:has(> [id|="almad-post-content"])
+www.nettimoto.com#?#.grid-x.cell:has(> [id|="almad-content"])
+www.nettimoto.com,www.nettivene.com##body > .huge-banner
+www.nettivene.com#?#.article-blocks__item:has(> .block-row > [id|="almad-post-content"])
+www.nettivene.com#?#.grid-x.cell:has(> #banner-container-HomePageBanner > [id|="almad-content"])
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
 www.suomi24.fi#?#div[class^="HomePage__RightColItem"]:has(> div[class^="AdLivewrapped__AdWrapper"])
