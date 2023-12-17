@@ -37,6 +37,7 @@ seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.m
 talouselama.fi,tekniikkatalous.fi##section hr:matches-css-before(content: /Mainos /):upward(1)
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
+www.nettimoto.com,www.nettivene.com##.main-hero .huge-banner__wrapper:style(min-height: unset !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] > div[class^="ThreadGridItemWrapper__CardWrapper"]:style(padding-left: 0px !important)
 www.suomi24.fi##div[width="100%"] + [width="50%"] + div[class^="ThreadGridItemWrapper__CardCol"][width="50%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
