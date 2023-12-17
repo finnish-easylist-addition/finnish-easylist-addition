@@ -181,6 +181,7 @@ animelehti.fi,episodi.fi,inferno.fi,rumba.fi,tilt.fi#?#.px-4.py-2.bg-white.w-ful
 anna.fi#?#.grid__item_1:has(> [id^=dfp__native-card])
 anna.fi#?#li:has([id^=dfp__native-card])
 anna.fi,kaksplus.fi##.widget_nativearticles
+anna.fi,kotiliesi.fi###huomiotekstilinkki[href^="https://tilaus."]
 app.mtvuutiset.fi##.ppas
 app.mtvuutiset.fi##div[data-testid="endorsement"]
 app.mtvuutiset.fi#?#section > ul > li > div:has(a[data-testid="ad-article-teaser-tag"])
