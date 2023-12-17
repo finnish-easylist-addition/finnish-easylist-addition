@@ -12,6 +12,7 @@ feissarimokat.com##div[style="background: rgb(246, 66, 100) none repeat scroll 0
 finder.fi##.SearchResultList__Row--advertisement, .Profile__TopCard--advertisement, .SearchResultList--advertisement:style(width: 100% !important; min-height: unset !important; margin-right: unset !important; float: unset !important;)
 finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
 golfpiste.com#?#.section-wrapper > .has-ad-right:has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
+golfpiste.com##.section--ad__parade:style(margin: 20px !important)
 hardware.fi##.top-ad-space:style(min-height: 0 !important)
 hardware.fi#@#.top-ad-space
 ilkkapohjalainen.fi##.site__wrapper:style(margin-top: 0.5em !important)
