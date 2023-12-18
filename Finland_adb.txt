@@ -314,7 +314,7 @@ facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com##a[aria-label=Mainostaja]
 facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has([aria-label="Sponsoroitu"])
 facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has(div[class][role="button"][tabindex]:has-text(Sponsoroitu))
-facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] > [role="article"]:has(b[class]:has-text(Sponsoroitu))
+facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] [role="article"]:has(a[aria-label="Sponsoroitu"][href^="/ads/about/"])
 facebook.com#?#div[role=complementary] > div > div > div > div > div:not([class], [data-visualcompletion]) > span:has([aria-label=Mainostaja])
 facebook.com#?#span#ssrb_feed_start + div > div[class]:has(span[class][dir="auto"] > span[id]:has-text(Sponsoroitu))
 feedi.fi,tanssiin.fi##.alp-advert
