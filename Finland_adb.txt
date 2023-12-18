@@ -929,6 +929,8 @@ seiska.fi##article[data-section="kaupallinen yhteistyö"]
 seiska.fi#?##article-body .article div[class]:has(> .ad-container)
 seiska.fi#?##article-body .article div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
 seura.fi#?#.grid__item_lg-1.grid__item_1:has(.dfp-advertisement)
+seura.fi#?#.wp-block-column:has(> [id|="dfp__native-card"])
+seura.fi#?#li:has(> [id|="dfp__native-card"])
 seura.fi#?#section[class=entry-body] > p:has-text(/^\xA0$/)
 seurakuntalainen.fi##.article-item.column-mainospaikka
 seutumajakka.fi##.section--full-size-ad-carousel
