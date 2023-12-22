@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 19 Dec 2023 02:26:11 +0000
+! Last modified: Fri, 22 Dec 2023 18:35:17 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1131,7 +1131,7 @@ vau.fi##.vausda
 vau.fi#?#h4:has-text(MAINOS)
 vau.fi#?#hr + h4:has-text(MAINOS) ~ hr
 vauva.fi###block-isalennuskoodit
-vauva.fi##[href="http://pelikone.fi/out/84"]
+vauva.fi##[href^="http://pelikone.fi/out/"]
 vauva.fi#?#aside.sticky.bottom-0:has( > #block-isalennuskoodit:only-child)
 venelehti.fi##.ads_carousel-2.widget
 verkkouutiset.fi##.page-ad__location
