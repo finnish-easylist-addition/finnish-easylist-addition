@@ -1131,7 +1131,7 @@ vau.fi##.vausda
 vau.fi#?#h4:has-text(MAINOS)
 vau.fi#?#hr + h4:has-text(MAINOS) ~ hr
 vauva.fi###block-isalennuskoodit
-vauva.fi##[href="http://pelikone.fi/out/84"]
+vauva.fi##[href^="http://pelikone.fi/out/"]
 vauva.fi#?#aside.sticky.bottom-0:has( > #block-isalennuskoodit:only-child)
 venelehti.fi##.ads_carousel-2.widget
 verkkouutiset.fi##.page-ad__location
