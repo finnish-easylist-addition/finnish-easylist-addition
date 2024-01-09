@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 08 Jan 2024 14:32:59 +0000
+! Last modified: Tue, 09 Jan 2024 11:29:05 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1490,6 +1490,14 @@ tori.fi##.appnexus-container
 
 ! Lowe's list exception, cookie dialog won't open
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
+
+! Cookie dialog won't open when clicking "evästeasetukset" from a video
+! Example: https://www.vrtranspoint.fi/fi/vr-transpoint/linked/artikkeli/jattimuuntaja-matkasi-halki-suomen-301120201145/
+@@||/cookie-consent.min.js$script,domain=www.vrtranspoint.fi
+www.vrtranspoint.fi#@#div#cookie-popup
+
+! https://www.nettiauto.com/advSearch.php
+www.nettiauto.com#@##adv
 
 ! To fix the opening of dna.fi product links on hinta.fi
 @@||track.adform.net/*dna.fi/$document,domain=track.adform.net
