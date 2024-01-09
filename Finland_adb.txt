@@ -1499,6 +1499,11 @@ www.vrtranspoint.fi#@#div#cookie-popup
 ! https://www.nettiauto.com/advSearch.php
 www.nettiauto.com#@##adv
 
+! Unbreak Omaposti's service (EasyList – Chat Widgets)
+! https://oma.posti.fi/fi/contact-us
+@@||salesforceliveagent.com^$domain=oma.posti.fi
+@@||service.force.com^$domain=oma.posti.fi
+
 ! To fix the opening of dna.fi product links on hinta.fi
 @@||track.adform.net/*dna.fi/$document,domain=track.adform.net
 
