@@ -1542,6 +1542,9 @@ pienimatkaopas.com#@##mainos
 
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=telsu.fi
 
+! "RU Adlist" breaks the carousel showing own products of Netrauta
+@@||/media/banners/*$image,domain=www.netrauta.fi
+
 ! -----UNBREAK END-----
 
 
