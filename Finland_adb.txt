@@ -942,6 +942,7 @@ sijoittaja.fi#?#body.home .container > div[style="z-index:1800; margin-bottom:40
 sijoittaja.fi#?#body.single-post .container[style]:has(.g-single > .hs-cta-wrapper)
 sijoitustieto.fi##.view-2019-ajankohtaiset-tarjoukset
 sijoitustieto.fi##.view-banneripaikka-etusivuoikea1
+sijoitustieto.fi#?#.st-banneri-view:has-text(Mainos:) > div
 sijoitustieto.fi#?#p > em > strong:has-text(Kaupallinen yhteistyö:)
 sjofart.ax##.elementor-location-header .topp
 sjofart.ax#?#.ae-bg-gallery-type-default.elementor-section-height-default.elementor-section-boxed.elementor-hidden-phone.has_ae_slider:has([src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"])
@@ -1539,6 +1540,7 @@ anna.fi,kaksplus.fi#@#.sponsored-content
 hs.fi,sokos.fi#@#.mainokset
 hs.fi,tilannehuone.fi#@#.mainos
 pienimatkaopas.com#@##mainos
+netticaravan.fi#@#article.ad
 
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$script,domain=telsu.fi
 
