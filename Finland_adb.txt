@@ -1142,7 +1142,7 @@ verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi##section[id^="front-page-parade"]
 verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#.elementor-motion-effects-parent:has(.strossle-sidebar)
-verkkouutiset.fi#?#.elementor-section-height-default.elementor-section-boxed.elementor-element.elementor-top-section.elementor-section:has(.elementor-widget-shortcode:has(.vu-adlabel))
+verkkouutiset.fi#?#.elementor-widget-shortcode:has(.vu-adlabel)
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
