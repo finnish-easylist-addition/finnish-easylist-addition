@@ -380,6 +380,7 @@ gamereactor.fi###bigVideoAd_content
 gamereactor.fi###eventad
 gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
+gamereactor.fi##.ad_mobilebigwrap
 gamereactor.fi##.ad_video
 gamereactor.fi##.itsanad
 gamereactor.fi##.rwd.colthin > div
@@ -494,6 +495,7 @@ iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:has(> [id^=div-gpt-ad])
 impe.fi##[class^=mainospaikka]
 inferno.fi#?#p:has([href^="https://track.adform.net/"])
+inferno.fi,leffatykki.com,pelaaja.fi##.bg-white.mb-6:is(.p-3, .p-4):has([href*="/advertoriaali/"])
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:has([class$=lazy-load-active])
@@ -828,8 +830,10 @@ nettitrendi.fi#?#.block-block-content:has-text(Jatkuu mainoksen alla)
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
 nyan.ax##.mobileads
+nyan.ax##.panorama
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has([src$="adsbygoogle.js"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner'])
+nyan.ax#?#.wpb_content_element.wpb_text_column:has(div[class|="g g"])
 olutposti.fi##.advertoriaalit
 olutposti.fi#?#.aside.widget:has-text(Mainos)
 omalahio.fi##.mainos-top
