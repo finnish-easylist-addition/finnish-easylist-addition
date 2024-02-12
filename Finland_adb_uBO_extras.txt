@@ -87,6 +87,7 @@ finder.fi##+js(rc, SearchResultList__Row--advertisement, , stay)
 findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
+srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
 
 ! -----SCRIPTS END-----
 
