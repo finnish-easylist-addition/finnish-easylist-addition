@@ -1560,6 +1560,11 @@ netticaravan.fi#@#article.ad
 @@||consent.cookiebot.com/logconsent.ashx$domain=www.seurakuntalainen.fi
 www.seurakuntalainen.fi#@##CookieBanner
 
+! Unbreak cookie consent, however this doesn't hide it
+! https://srk.fi/fi/
+@@||srk.fi/*/cookielaw.js$script
+srk.fi#@##CookielawBanner
+
 ! -----UNBREAK END-----
 
 
