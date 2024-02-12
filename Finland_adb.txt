@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 09 Feb 2024 13:00:10 +0000
+! Last modified: Mon, 12 Feb 2024 10:55:59 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1552,6 +1552,13 @@ netticaravan.fi#@#article.ad
 
 ! "RU Adlist" breaks the carousel showing own products of Netrauta
 @@||/media/banners/*$image,domain=www.netrauta.fi
+
+! Allow opt-in in a cookieconsent-blocked element (for example, YouTube embeds)
+! Example page (YouTube embed): https://www.seurakuntalainen.fi/uutiset/jutta-urpilainen-arvotentissa-arvoni-pohjaavat-kristinuskoon-mutta-ovat-linjassa-sosiaalidemokratian-kanssa/
+@@||consent.cookiebot.com/uc.js$domain=www.seurakuntalainen.fi
+@@||consent.cookiebot.com/*/cc.js?renew=true$domain=www.seurakuntalainen.fi
+@@||consent.cookiebot.com/logconsent.ashx$domain=www.seurakuntalainen.fi
+www.seurakuntalainen.fi#@##CookieBanner
 
 ! -----UNBREAK END-----
 
