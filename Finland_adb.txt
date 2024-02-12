@@ -1561,6 +1561,7 @@ netticaravan.fi#@#article.ad
 www.seurakuntalainen.fi#@##CookieBanner
 
 ! Unbreak cookie consent, however this doesn't hide it
+! uBO extras has set-cookie to automatically set a cookie to hide it
 ! https://srk.fi/fi/
 @@||srk.fi/*/cookielaw.js$script
 srk.fi#@##CookielawBanner
