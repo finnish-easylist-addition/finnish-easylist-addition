@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 16 Feb 2024 05:03:34 +0000
+! Last modified: Fri, 16 Feb 2024 12:54:12 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -332,6 +332,7 @@ fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
 fillaritori.com##[data-nbenhadv]
 findance.com###findance_desktop-top
+findance.com###findance_mobile-top
 findance.com##div[id^=adslot_content]
 findance.com##div[id^=adslot_sidebar]
 finder.fi##.Advertisement__Box
