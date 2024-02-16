@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 12 Feb 2024 19:59:43 +0000
+! Last modified: Fri, 16 Feb 2024 05:03:34 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -313,7 +313,7 @@ etusuora.com#?#.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
 facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com##a[aria-label=Mainostaja]
-facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has([aria-label="Sponsoroitu"])
+! facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has([aria-label="Sponsoroitu"])
 facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has(div[class][role="button"][tabindex]:has-text(Sponsoroitu))
 facebook.com#?#div[aria-label="Hakutulokset"][role="main"] [role="feed"] [role="article"]:has(a[aria-label="Sponsoroitu"][href^="/ads/about/"])
 facebook.com#?#div[role=complementary] > div > div > div > div > div:not([class], [data-visualcompletion]) > span:has([aria-label=Mainostaja])
