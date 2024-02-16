@@ -332,6 +332,7 @@ fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
 fillaritori.com##[data-nbenhadv]
 findance.com###findance_desktop-top
+findance.com###findance_mobile-top
 findance.com##div[id^=adslot_content]
 findance.com##div[id^=adslot_sidebar]
 finder.fi##.Advertisement__Box

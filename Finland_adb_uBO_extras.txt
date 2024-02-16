@@ -79,7 +79,7 @@ tamperelainen.fi##^.display-ad
 
 ! -----SCRIPTS-----
 
-afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
+afterdawn.com,dawn.fi,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
 ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
 finder.fi##+js(rc, Profile__TopCard--advertisement, , stay)
 finder.fi##+js(rc, SearchResultList--advertisement, , stay)
