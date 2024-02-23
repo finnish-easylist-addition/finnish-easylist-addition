@@ -1503,11 +1503,6 @@ tori.fi##.appnexus-container
 ! Unbreak Danske Bank login when using "Dandelion Sprout's Annoying Banners and Overlays List" and "Staying On The Phone Browser"
 danskebank.fi#@#.app-banner:not(html, body)
 
-! Cookie dialog won't open when clicking "evästeasetukset" from a video
-! Example: https://www.vrtranspoint.fi/fi/vr-transpoint/linked/artikkeli/jattimuuntaja-matkasi-halki-suomen-301120201145/
-@@||/cookie-consent.min.js$script,domain=www.vrtranspoint.fi
-www.vrtranspoint.fi#@#div#cookie-popup
-
 ! https://www.nettiauto.com/advSearch.php
 www.nettiauto.com#@##adv
 
