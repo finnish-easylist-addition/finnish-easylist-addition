@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 23 Feb 2024 23:59:52 +0000
+! Last modified: Fri, 01 Mar 2024 22:28:53 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1149,7 +1149,9 @@ verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi##section[id^="front-page-parade"]
 verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#.elementor-motion-effects-parent:has(.strossle-sidebar)
+verkkouutiset.fi#?#.elementor-widget-shortcode:has(#QADY)
 verkkouutiset.fi#?#.elementor-widget-shortcode:has(.vu-adlabel)
+verkkouutiset.fi#?#.elementor-widget-shortcode:has([data-ad-unit-id])
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
