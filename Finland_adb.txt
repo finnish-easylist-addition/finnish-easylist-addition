@@ -273,6 +273,7 @@ ehandel.fi###div-leeadsFullpageAd
 ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
 ehandel.fi,tvmatsit.com##.annons
+ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
