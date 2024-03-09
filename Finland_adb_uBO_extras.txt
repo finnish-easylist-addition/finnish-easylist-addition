@@ -89,6 +89,14 @@ happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
 
+! Fix YouTube videos on www.aalto.fi
+! Example: https://www.aalto.fi/fi/koulutustarjonta/kiinteistotalous-ja-geoinformatiikka-tekniikan-kandidaatti-ja-diplomi-insinoori
+! When setting the cookie beforehand, not necessary to load the consent.cookiebot.com scripts required to consent
+aalto.fi##+js(set-cookie, cookiebot-consent--necessary, 1)
+aalto.fi##+js(set-cookie, cookiebot-consent--preferences, 1)
+aalto.fi##+js(set-cookie, cookiebot-consent--marketing, 0)
+aalto.fi##+js(set-cookie, cookiebot-consent--statistics, 0)
+
 ! -----SCRIPTS END-----
 
 ! mtv.fi & mtvuutiset.fi
