@@ -1311,7 +1311,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||deals.kledjut.com^$domain=viranomaisuutiset.fi
 ||dropbox.com/*usbanner.gif$image,domain=urbaanisanakirja.com
 ||elmotv.com/wp-content/uploads/*/stake-banneri-$image,domain=elmotv.com
-||es.ylilauta.org^$domain=ylilauta.org
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
