@@ -810,6 +810,7 @@ mvlehti.net##.social-post + div + figure[class].wp-block-image > a[href][target]
 mvlehti.net##.wp-block-image > figure[class] > a[href]
 mvlehti.net##section.post-single > figure[class].wp-block-image > a[href][target][rel] > img[class][src]
 mvlehti.net#?#.entry-content > h3:has-text(kasino)
+mvlehti.net#?#[aria-roledescription="Slideshow"][aria-label~="Banner"]:has(a[href][target="_blank"])
 mvlehti.net#?#[class|=featured-post]:has-text(/rahapeli|kasino/i):has(a[href*="/202"])
 mvlehti.net#?#footer .quote:has(figure[class].wp-block-image > a[href])
 mvlehti.net#?#li:has(a[href*="/202"]):has(a[href*="nettikasino"])
