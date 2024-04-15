@@ -111,6 +111,7 @@ mtv.fi,mtvuutiset.fi##.visit-advertiser-link
 ||cloudfront.net/creatives/assets/$image,domain=mtv.fi|mtvuutiset.fi
 ||cloudfront.net/creatives/assets/*.mp4$media,redirect=noop-0.1s.mp3,domain=mtv.fi|mtvuutiset.fi
 ||fi-mtv3.videoplaza.tv/proxy/distributor/*&xpb=1$xhr,important,domain=mtv.fi|mtvuutiset.fi
+@@||fwmrm.net/ad/g/*mtv$xhr,domain=mtv.fi|mtvuutiset.fi
 
 ! Waiting for EP to support uBO filters as well
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
