@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 11 Jun 2024 16:08:48 +0000
+! Last modified: Sat, 15 Jun 2024 11:18:39 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1531,6 +1531,8 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 
 ! To fix the opening of dna.fi product links on hinta.fi
 @@||track.adform.net/*dna.fi/$document,domain=track.adform.net
+! To fix the opening of cdon.fi product links on kivasiivous.fi
+@@||clk.tradedoubler.com/click*cdon.fi$document,domain=clk.tradedoubler.com
 
 ! Unbreak netstat.ayy.fi
 @@||netstat.ayy.fi^
