@@ -310,6 +310,7 @@ etlehti.fi,hyvaterveys.fi,soppa365.fi#?#.views-row:has(.is-commercial)
 etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
+etuovi.com###spotlight-container-id
 etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi##div[id|=almad]
 etusuora.com#?#.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
