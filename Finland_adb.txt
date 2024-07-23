@@ -1499,6 +1499,10 @@ tori.fi##.appnexus-container
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
 
+! Unbreak kampanjat.hs.fi, the breaking filter should be checked
+! https://kampanjat.hs.fi/opiskelijatilaukset/
+kampanjat.hs.fi#@#div[class] > a[href^="https://tilaa.sanoma.fi/"]
+
 ! Exception to Lowe's list - it removes some boxes
 @@||conductrics.com^$script,domain=elisa.fi
 
