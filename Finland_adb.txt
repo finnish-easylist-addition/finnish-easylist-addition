@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 23 Jul 2024 13:52:29 +0000
+! Last modified: Fri, 26 Jul 2024 11:22:22 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -888,9 +888,7 @@ pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
 projektiuutiset.fi##.proje-widget
 projektiuutiset.fi##.uusi-ylabanneri
-proshop.fi##a[data-action="campaignClick"][href="/Philips-Hue"]
-proshop.fi#?#.site-bannerCampaignElement:has(img[src^="/Images/PROSHOP-LIFESTYLE-FRONTPAGE-BANNER"])
-proshop.fi#?#.site-top-banner:has(a[data-action="campaignClick"][data-name$="Frontpage takeover"][href^="/Lego-Christmas"])
+proshop.fi##.site-background-cta[data-action="campaignClick"]
 pt-media.org###custom_html-63
 pt-media.org###text-32
 pt-media.org##[href="https://pt-media.org/pikakasinot/"]
