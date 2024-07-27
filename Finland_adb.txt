@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 26 Jul 2024 16:01:31 +0000
+! Last modified: Sat, 27 Jul 2024 10:23:18 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -467,6 +467,7 @@ hintaopas.fi##.outsider-ads
 hintaopas.fi##.pjra-relative.pjra-items-center:has(div[id^=fi-hintaopas-wde-section][id*="panorama"])
 hintaopas.fi##div[class^=AdPlacement]
 hintaopas.fi##div[class^=AdPlacement] + div[class|=EmptyCard]
+hintaopas.fi##div[class|=StyledAdPlacementWrapper]
 hintaseuranta.fi##.header-container__ad-container
 hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
