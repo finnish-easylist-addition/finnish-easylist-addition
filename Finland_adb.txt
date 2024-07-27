@@ -467,6 +467,7 @@ hintaopas.fi##.outsider-ads
 hintaopas.fi##.pjra-relative.pjra-items-center:has(div[id^=fi-hintaopas-wde-section][id*="panorama"])
 hintaopas.fi##div[class^=AdPlacement]
 hintaopas.fi##div[class^=AdPlacement] + div[class|=EmptyCard]
+hintaopas.fi##div[class|=StyledAdPlacementWrapper]
 hintaseuranta.fi##.header-container__ad-container
 hintaseuranta.fi##.page-index__adholder
 hintaseuranta.fi##tr.rahalaitos__desktop.rahalaitos
