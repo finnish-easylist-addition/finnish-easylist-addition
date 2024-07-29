@@ -1525,6 +1525,7 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 ! https://oma.posti.fi/fi/contact-us
 @@||salesforceliveagent.com^$domain=oma.posti.fi
 @@||service.force.com^$domain=oma.posti.fi
+@@||salesforceliveagent.com^$domain=service.force.com
 
 ! Unbreak Telia customer service
 @@||teliafi-chat.lekane.net
