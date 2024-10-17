@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! LIST NOT ACTIVELY MAINTAINED
-! Version: 13January2020v2
+! Version: 17October2024v1
 ! Title: Annoyance List for Finland
 ! Description: Finnish annoyance list
 ! Expires: 4 days
@@ -34,6 +34,10 @@
 
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
+
+www.iltalehti.fi##.pastime-column-embed.card
+www.iltalehti.fi##.telkku-column-embed
+www.is.fi##.widget-mainlane.weather-container
 
 aamulehti.fi###iltalehtiBox-1
 aamulehti.fi###iltalehtiBox-2
@@ -154,6 +158,12 @@ yle.fi##footer > .default.some
 
 ! -----SPECIFIC FILTERS END-----
 ! -----NETWORK FILTERS-----
+
+||ap-cdn.sanomagames.com/isfi-embeddings/index.html$subdocument
+||vg.is.fi/iltapulu-is-etusivu/$subdocument
+||vg.is.fi/iltapulu-moviepicks-is/$subdocument
+||kampanjat.is.fi/vauva-feed-box/$subdocument
+||www.10kysymysta.fi/textad.html$subdocument
 
 ||artiksdesign.fi*/Plumrocket_Newsletterpopup/
 ||blogit.fi/nosto_gen$subdocument

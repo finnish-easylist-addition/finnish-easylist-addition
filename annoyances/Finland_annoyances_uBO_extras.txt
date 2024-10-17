@@ -1,4 +1,7 @@
 [uBlock Origin]
+! iltalehti.fi - Uutiskirje
+www.iltalehti.fi##.column > div > .card:has-text(Tilaa päivän tärkeimmät uutiset sähköpostiisi!)
+
 ! LIST NOT ACTIVELY MAINTAINED
 
 ! is.fi - Sarjakuvat/Comics
@@ -40,6 +43,4 @@ maanmittauslaitos.fi##.dialog-off-canvas-main-canvas:style(padding-top: 0px !imp
 
 lehtodigital.fi##.fade
 lehtodigital.fi##html:style(overflow-y: auto !important)
-
-
 
