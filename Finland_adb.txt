@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 04 Nov 2024 15:33:40 +0000
+! Last modified: Wed, 20 Nov 2024 18:56:17 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1535,7 +1535,7 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 
 ! Unbreak Supla audio
 ! Examples: https://www.aamulehti.fi/ihmiset/art-2000009857224.html, https://www.is.fi/kotimaa/art-2000009867670.html
-@@||sf.nm-ovp.nelonenmedia.fi/logger/logger-ini.json$xhr
+@@||sf.nm-ovp.nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest
 
 ! EasyPrivacy - Unbreak Turva car insurance
 ! https://www.turva.fi/henkilo/vakuutukset/ajoneuvot/ -> "Laske hinta ja osta"
@@ -1577,7 +1577,7 @@ netticaravan.fi#@#article.ad
 
 ! 2024-04-23 https://elisa.fi/yhtiotieto/sijoittajille/
 ! "se: Frellwit's Swedish Filter" breaks this
-@@||publish.ne.cision.com/$xhr,domain=elisa.fi
+@@||publish.ne.cision.com/$xmlhttprequest,domain=elisa.fi
 
 ! Allow opt-in in a cookieconsent-blocked element (for example, YouTube embeds)
 ! Example page (YouTube embed): https://www.seurakuntalainen.fi/uutiset/jutta-urpilainen-arvotentissa-arvoni-pohjaavat-kristinuskoon-mutta-ovat-linjassa-sosiaalidemokratian-kanssa/
