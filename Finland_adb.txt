@@ -1044,6 +1044,7 @@ teknavi.fi##[class|=adform]
 tekniikanmaailma.fi##.CategoryPriceGuide_price-guide
 tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
 tekniikanmaailma.fi##.PriceGuide_price-guide
+tekniikanmaailma.fi##.TopRowAd_top-ad
 tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
 tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
