@@ -1014,7 +1014,7 @@ talouselama.fi##div[width]:has(.lazyload-wrapper)
 talouselama.fi#?#li:has-text(MAINOS)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
-tanssiin.fi##a[href="https://sinitaivas.com/kauppa/"]
+tanssiin.fi###wonderplugincarousel-container-1
 teatteritanssi.fi##.siteHeader-widgetArea
 teatteritanssi.fi##.widget [href^="https://www.autodoc.fi/"]
 teatteritanssi.fi##.widget [href^="https://www.topautoosat.fi/"]
