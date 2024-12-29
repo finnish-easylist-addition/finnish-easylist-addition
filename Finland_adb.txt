@@ -111,7 +111,6 @@ _mainosnappi.
 ##div[class=AgAdCarousel_Container]
 ##div[class=AgAdCarousel_LightBox]
 ##div[id^=ads-content-bottom]
-~nettimokki.com##div[id*=AdContainer]
 
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
