@@ -1081,6 +1081,7 @@ tori.fi##div#banner_panorama_topmost
 tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
 traktorpool.fi##.billboard
+treykalenteri.fi##.promotion-image
 ts.fi##[class="tsv3-c-common-article__contentad notloaded"]
 ts.fi##[data-readpeakurl^="https://app.readpeak.com/ads/"]
 ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
