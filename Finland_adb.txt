@@ -1063,6 +1063,7 @@ tilannehuone.fi###cnt_lista tr:has(.mainosinline) + tr:has(> .divid)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
 tilannehuone.fi##.contentti:has(> .mainos-mob:only-child)
 tilannehuone.fi##.contentti:has(> .mainos_yla:only-child)
+tilannemedia.fi##.tdc-row:not(.td-stretch-content):has([data-ad-unit-id]):not([itemtype="https://schema.org/Article"] .tdc-row)
 tilisanomat.fi##.ctaad
 tinderinparhaat.com##.adf-placement-top
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
