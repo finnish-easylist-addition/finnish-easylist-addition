@@ -1365,7 +1365,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
-||recommendations.asunnot.oikotie.fi^$domain=is.fi
+||recommendations.asunnot.oikotie.fi^$subdocument
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
 ||revimages.motouutiset.fi^$third-party
 ||ridemedia.fi/aspbanner$domain=ridemedia.fi
