@@ -743,7 +743,6 @@ misssuomi.fi##.elementor-widget-container > a[href^="https://sortter.fi/"]
 mma.fi#?#.commercial__content:has-text(Kumppanilta)
 mobiili.fi###header_ad33
 mobiili.fi###ostoHint
-mobiili.fi##.banner-ad
 mobiili.fi##.execphpwidget
 mobiili.fi##.headermob_ad
 mobiili.fi##.single-content-all > div[style^="float:left"][style*="width:100%"][style*="text-align:center"][style*="margin-bottom:17px"]
