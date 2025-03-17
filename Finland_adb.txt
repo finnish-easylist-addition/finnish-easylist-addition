@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:09:03 +0000
+! Last modified: Mon, 17 Mar 2025 18:10:36 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -364,7 +364,6 @@ futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://yr
 futisforum2.org###div-ff2-top
 futisforum2.org##.windowbg3:has(#div-ff2-bottom)
 futissuomi.fi##.elementor-widget:has(img[data-image-title^="MAINOS"])
-gamereactor.fi###ad_topScroller
 gamereactor.fi###bigVideoAd_content
 gamereactor.fi###eventad
 gamereactor.fi###sky2_1
