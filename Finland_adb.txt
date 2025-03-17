@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:06:23 +0000
+! Last modified: Mon, 17 Mar 2025 18:08:31 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -262,7 +262,6 @@ eeva.fi#?#div[class^="EmbeddedArticle__Container"]:has(.category:has-text(Mainos
 eeva.fi##div[class^="EmbeddedArticle__Container"]:has(div[class*="CommercialLabelContainer"])
 eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
 ehandel.fi###div-leeadsFullpageAd
-ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
 ehandel.fi,tvmatsit.com##.annons
 ei-toimi.fi##div[style="min-height:300px;"]
