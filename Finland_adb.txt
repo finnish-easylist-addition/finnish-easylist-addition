@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:10:36 +0000
+! Last modified: Mon, 17 Mar 2025 18:11:04 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -370,7 +370,6 @@ gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##.ad_mobilebigwrap
 gamereactor.fi##.ad_video
-gamereactor.fi##.itsanad
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##.sponsor
 gamereactor.fi##.videoAd
