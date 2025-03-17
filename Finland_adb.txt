@@ -370,7 +370,6 @@ gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi##.ad_mobilebigwrap
 gamereactor.fi##.ad_video
-gamereactor.fi##.itsanad
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##.sponsor
 gamereactor.fi##.videoAd
