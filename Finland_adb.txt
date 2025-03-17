@@ -669,7 +669,6 @@ lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net##li:has([href^="https://track.adtraction.com/"])
 liberolehti.fi##[id|=etusivu-bottom-full]:has(.mainos)
 lily.fi,meillakotona.fi,terve.fi##div[class^="FeedList__AdWrapper-"]
-listafriikki.com,tanssiin.fi##.mvp-post-ad-wrap
 livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
