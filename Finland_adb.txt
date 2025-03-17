@@ -734,8 +734,6 @@ meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=Cont
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
 meillakotona.fi,terve.fi##div[class*=feed__adSlot]
-metropoli.net##.ads-desktop
-metropoli.net##.ads-mobile
 metropoli.net##.block-box.news-post:has(a[href^="https://www.metropoli.net/rahapelit/"])
 metsalehti.fi##.aprofit
 metsalehti.fi##.section--native-left
