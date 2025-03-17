@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:15:58 +0000
+! Last modified: Mon, 17 Mar 2025 18:17:26 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1180,7 +1180,6 @@ www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,ww
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###huge_banner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com###largeViewHouseBanner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.inh_banner_nl
-www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.leftAdvDiv
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.listing:not([data-id]):not(.tricky_link_listing)
 ! www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com,www.nettivuokraus.com##.quick-search__banner
 ! www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettivaraosa.com,www.nettivuokraus.com##.huge-banner
