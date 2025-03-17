@@ -1390,7 +1390,6 @@ iltalehti.fi##.etua-widget-container
 iltalehti.fi##.etuovi-react-embed
 iltalehti.fi##.front-sponsored-ad
 iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
-iltalehti.fi##.parade-ad-container
 iltalehti.fi##.recommendation-carousel-svod.recommendation-carousel
 iltalehti.fi##.slider-content
 iltalehti.fi##.telkku-ads
