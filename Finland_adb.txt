@@ -225,7 +225,6 @@ avecmedia.fi##.front-page-ad-padding
 avecmedia.fi##.front-page-advertisement
 avplus.fi##.widget:has(.widget_advads_ad_widget)
 bbs.io-tech.fi##.structItem--thread[data-author=Mainos]
-bbs.io-tech.fi##[data-revive-zoneid]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
@@ -1180,7 +1179,6 @@ webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
 www.io-tech.fi##.widget.datatronic
-www.io-tech.fi##[data-revive-zoneid]
 www.io-tech.fi##aside.jimmx
 www.io-tech.fi##.artikkeli-slide:has(img[src*="-nostokuva"])
 www.io-tech.fi##.artikkeli-slide:has(img[src*="Ad-otsikko"])
