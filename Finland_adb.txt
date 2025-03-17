@@ -1083,7 +1083,6 @@ tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
-ulvilanseutu.fi##.adsanity-single
 ulvilanseutu.fi##.top-bar
 ulvilanseutu.fi#?#.elementor-widget-container:has-text(MAINOS)
 urjalansanomat.fi##.cat-kaupallinen-yhteistyo
