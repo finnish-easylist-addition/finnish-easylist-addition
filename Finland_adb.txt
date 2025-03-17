@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:00:20 +0000
+! Last modified: Mon, 17 Mar 2025 18:02:59 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -734,8 +734,6 @@ meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=Cont
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
 meillakotona.fi,terve.fi##div[class*=feed__adSlot]
-metropoli.net##.ads-desktop
-metropoli.net##.ads-mobile
 metropoli.net##.block-box.news-post:has(a[href^="https://www.metropoli.net/rahapelit/"])
 metsalehti.fi##.aprofit
 metsalehti.fi##.section--native-left
