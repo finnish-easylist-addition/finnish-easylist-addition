@@ -339,7 +339,6 @@ finnkino.fi##.in-list-ad-containers
 finnkino.fi##.content-article.h-container:has(#FKM-paraati)
 finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
 flashscore.fi##.detailLeaderboard
-fonecta.fi##.map-ad
 fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
 fontanka.fi##.widget_custom_html
