@@ -765,7 +765,6 @@ moottori.fi##.narive-ad
 moottori.fi##div[class|=ad-rotation]
 moottoripyora.org##a[href*=mst-yhtiot]
 motot.net##div.centered.motot-well-inverse.well[style^=padding-]
-motouutiset.fi##.ad-panorama
 motouutiset.fi##a[href*=revads]
 motouutiset.fi##div[class$=ad-giant]
 mtvuutiset.fi##.sonia-container
