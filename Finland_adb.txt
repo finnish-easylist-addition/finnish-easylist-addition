@@ -837,7 +837,6 @@ opensubtitles.org#?#fieldset:has-text(Poista mainos)
 orimattilansanomat.fi##.textwidget:has(.orimad-adlabel)
 orivedensanomat.fi###sidebar [href="https://www.loytotex.fi/tarjoukset"]
 orivedensanomat.fi##.CMAC_AdChangerWidget.widget
-osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-ad-container
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-teaser--advertorial
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi##.sp-module:has(.tassaWidget)
 paakallo.fi##.ad-above
