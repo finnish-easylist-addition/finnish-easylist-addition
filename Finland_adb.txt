@@ -1437,7 +1437,6 @@ arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniik
 
 ! Adblock check
 murha.info#@#.adsbygoogle
-iltalehti.fi#@#.ad-placement
 @@||adserve.adcoin.com/display/ad_block/$xmlhttprequest,domain=verkkouutiset.fi
 
 ! Redirect resources
