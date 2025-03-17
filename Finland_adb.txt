@@ -262,7 +262,6 @@ eeva.fi#?#div[class^="EmbeddedArticle__Container"]:has(.category:has-text(Mainos
 eeva.fi##div[class^="EmbeddedArticle__Container"]:has(div[class*="CommercialLabelContainer"])
 eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
 ehandel.fi###div-leeadsFullpageAd
-ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
 ehandel.fi,tvmatsit.com##.annons
 ei-toimi.fi##div[style="min-height:300px;"]
