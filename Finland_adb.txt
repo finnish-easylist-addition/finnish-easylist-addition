@@ -233,7 +233,6 @@ bomber.fi###rt-sidebar-b
 boy.fi##.advs
 boy.fi##.moduletable:has(.advs)
 brbikers.com##a[href*="tema.fi"]
-caravan-lehti.fi##.ad-wrapper
 caravan-lehti.fi##.widget_caravanlehti-ad
 caravan-lehti.fi##main section.block-notices
 cdon.fi##[id^=afscontainer]
