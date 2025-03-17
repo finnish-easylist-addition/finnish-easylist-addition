@@ -364,7 +364,6 @@ futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://yr
 futisforum2.org###div-ff2-top
 futisforum2.org##.windowbg3:has(#div-ff2-bottom)
 futissuomi.fi##.elementor-widget:has(img[data-image-title^="MAINOS"])
-gamereactor.fi###adContainer
 gamereactor.fi###ad_topScroller
 gamereactor.fi###bigVideoAd_content
 gamereactor.fi###eventad
