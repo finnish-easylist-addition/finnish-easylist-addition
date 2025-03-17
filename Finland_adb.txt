@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:15:35 +0000
+! Last modified: Mon, 17 Mar 2025 18:15:58 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1101,7 +1101,6 @@ uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:has-text(Ka
 uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:has-text(Kaupallinen yhteistyö)
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
-uutisankka.com##.clever-core-ads
 uutisankka.com##.uutis-footer-sticky[data-uutis-trackbid]
 v2.fi##img[src^="https://ads.v2.fi/"]:not([src$="discomainos.png"], [src$="facebookmainos.jpg"], [src$="instamainos.jpg"], [src$="twittermainos.jpg"], [src$="youtubemainos.jpg"])
 vaasalehti.fi#?#h2 > span:has-text(Mainos)
