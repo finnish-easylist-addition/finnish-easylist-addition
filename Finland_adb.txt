@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:13:28 +0000
+! Last modified: Mon, 17 Mar 2025 18:15:35 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1083,7 +1083,6 @@ tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
-ulvilanseutu.fi##.adsanity-single
 ulvilanseutu.fi##.top-bar
 ulvilanseutu.fi#?#.elementor-widget-container:has-text(MAINOS)
 urjalansanomat.fi##.cat-kaupallinen-yhteistyo
