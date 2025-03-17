@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Mar 2025 18:02:59 +0000
+! Last modified: Mon, 17 Mar 2025 18:03:45 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -339,7 +339,6 @@ finnkino.fi##.in-list-ad-containers
 finnkino.fi##.content-article.h-container:has(#FKM-paraati)
 finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
 flashscore.fi##.detailLeaderboard
-fonecta.fi##.map-ad
 fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
 fontanka.fi##.widget_custom_html
