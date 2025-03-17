@@ -600,7 +600,6 @@ kiinteistoposti.fi#?#.featuredpost:has(.gb-post-grid-section-title:has-text(Kaup
 kilipailut.fi##.bannerlink
 kilokalori.net##kc-ad
 kilokalori.net##.hidden-print.panel-default.panel:has(kc-ad)
-kinuskikissa.fi##app-ad
 klangi.fi,paakallo.fi,suomenautolehti.fi##.banner
 kodinviilennys.fi#?#.wp-block-image:has-text(mainos)
 koeajolle.com###secondary #block_widget-4
