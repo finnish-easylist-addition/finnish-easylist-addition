@@ -1481,9 +1481,6 @@ kampanjat.hs.fi#@#div[class] > a[href^="https://tilaa.sanoma.fi/"]
 ! Lowe's list exception, cookie dialog won't open
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 
-! Unbreak Danske Bank login when using "Dandelion Sprout's Annoying Banners and Overlays List" and "Staying On The Phone Browser"
-danskebank.fi#@#.app-banner:not(html, body)
-
 ! https://www.nettiauto.com/advSearch.php
 classic.nettiauto.com,www.nettiauto.com#@##adv
 
