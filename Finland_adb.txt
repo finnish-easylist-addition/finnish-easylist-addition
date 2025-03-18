@@ -31,7 +31,6 @@
 /mainoskaruselli/*
 /mainoskaruselli_yli
 /mainosmokkula/*$image
-/sivulaskuri
 /sponsorit.
 /sponsorit/*
 /sponsorit_
