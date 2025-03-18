@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 18 Mar 2025 15:28:50 +0000
+! Last modified: Tue, 18 Mar 2025 16:46:04 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -31,7 +31,6 @@
 /mainoskaruselli/*
 /mainoskaruselli_yli
 /mainosmokkula/*$image
-/sivulaskuri
 /sponsorit.
 /sponsorit/*
 /sponsorit_
