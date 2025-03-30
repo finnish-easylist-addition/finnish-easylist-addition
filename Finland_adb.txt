@@ -803,9 +803,10 @@ navigatormagazine.fi,promaintlehti.fi##.panorama
 nelonen.fi##.chakra-container + div[class]:has(> div[class] > [data-adfscript^="track.adform.net/"])
 netti-tv.fi##div[style^="min-height:"][style$=";text-align:center"]
 netti-tv.fi,synonyymit.fi##div[style^="min-height:"]
-nettiauto.com##.homepage-adspot
 nettiauto.com###art_right_banner:has(> [id|="almad"])
+nettiauto.com##.homepage-adspot
 nettiauto.com,nettikone.com###article_sh li:has(.homepage-adspot-list)
+nettiauto.com,nettimoto.com,nettivene.com##.huge-banner
 nettitrendi.fi##.node__content .block[class$="kampanja"]
 nettitrendi.fi##.topbar
 nettitrendi.fi##div[id^="block-credigo"]
@@ -1181,13 +1182,10 @@ www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,ww
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com###largeViewHouseBanner
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com##.inh_banner_nl
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com##.listing:not([data-id]):not(.tricky_link_listing)
-! www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com##.quick-search__banner
-! www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettivaraosa.com##.huge-banner
 www.nettimokki.com##div.nc_r_banner
 www.nettimoto.com###smallViewHouseBanner
 www.nettimoto.com##.article-blocks__item:has(> [id|="almad-post-content"])
 www.nettimoto.com##.grid-x.cell:has(> [id|="almad-content"])
-www.nettimoto.com,www.nettivene.com##body > .huge-banner
 www.nettivene.com##.article-blocks__item:has(> .block-row > [id|="almad-post-content"])
 www.nettivene.com##.grid-x.cell:has(> #banner-container-HomePageBanner > [id|="almad-content"])
 www.suomi24.fi##.asp
