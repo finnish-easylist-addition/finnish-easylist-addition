@@ -913,9 +913,7 @@ rumba.fi##.bg-white.w-full.py-2.px-4:has(.poppartners)
 ruuhkavuodet.fi##.widget_block:has(#nm-300x600-300x300)
 sammysatv.com##a[href*=banner]
 satakunnanviikko.fi##.panoraama_etus
-seiska.fi##article[data-section="kaupallinen yhteistyö"]
-seiska.fi###article-body .article div[class]:has(> .ad-container)
-seiska.fi#?##article-body .article div[class^="sc-"]:has-text(/Juttu jatkuu ilmoituksen jälkeen|ilmoitus päättyy/i)
+seiska.fi##div.box-border.after\:content-\[\'\'\].before\:bg-placeholder-gray.before\:content-\[\'\'\].text-placeholder-gray
 seura.fi##.grid__item_lg-1.grid__item_1:has(.dfp-advertisement)
 seura.fi##.wp-block-column:has(> [id|="dfp__native-card"])
 seura.fi##li:has(> [id|="dfp__native-card"])
