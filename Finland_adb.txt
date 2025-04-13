@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 13 Apr 2025 19:31:34 +0000
+! Last modified: Sun, 13 Apr 2025 19:59:39 +0000
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1389,11 +1389,13 @@ iltalehti.fi##div[class=iframe-container]
 iltalehti.fi#?#.card .recommendation:has-text(Kaupallinen yhteistyö)
 iltalehti.fi##.card:has(#il-rantapallo-right-column-box)
 iltalehti.fi##.card:has(.alennuskoodi-column-embed)
+iltalehti.fi##.card:has(.autotalli-box-embed)
 iltalehti.fi##.card:has(.etua-widget-container)
 iltalehti.fi##.card:has(.etuovi-react-embed)
 iltalehti.fi#?#.category-double-article-container:has(.half-article:nth-child(1):has-text(Kaupallinen yhteistyö) + .half-article:nth-child(2):has-text(Kaupallinen yhteistyö))
 iltalehti.fi##.embed-placeholder:has(> div > .eo-embed-announcements-container.card)
 iltalehti.fi#?#.related-articles-list > .link-container:has-text(/^Kaupallinen yhteistyö/)
+iltalehti.fi##.side-column-content .card:has(.autotalli-sponsored-content-text)
 iltalehti.fi##.side-column-content .card:has(.nettiauto-sponsored-content-text)
 iltalehti.fi##a.articles__list-item[href^="/telkku/"]:has(p.articles__sponsored-banner)
 iltalehti.fi#?#a.small-article:has-text(Kaupallinen yhteistyö)
