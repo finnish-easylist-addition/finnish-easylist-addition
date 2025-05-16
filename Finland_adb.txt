@@ -71,6 +71,7 @@ _mainosnappi.
 ##.dfpListNativeBanner
 ##.diks-display-ad
 ##.diks-native-ad
+##.etuovi-embed
 ##.keskimainos
 ##.mainokset
 ##.mainokset_oikea
