@@ -1065,6 +1065,7 @@ toimitilat.kauppalehti.fi##.inner.sp-article
 toimitilat.kauppalehti.fi##.sponsored-article.list-article
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
 toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
+tori.fi###banner-top-container
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
 tori.fi##div#banner_panorama_topmost
