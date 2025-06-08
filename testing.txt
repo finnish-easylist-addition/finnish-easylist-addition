@@ -1170,6 +1170,7 @@ vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto
 vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
+www.io-tech.fi##.artikkeli-slide:has(a[href="https://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
 www.io-tech.fi##.widget.datatronic
