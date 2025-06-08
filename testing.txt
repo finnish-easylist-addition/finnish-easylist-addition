@@ -307,6 +307,7 @@ etusuora.com##.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
 facebook.com##a[aria-label="Mainostajan linkki"]
 facebook.com##a[aria-label=Mainostaja]
+www.io-tech.fi##.artikkeli-slide:has(a[href="https://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 ! facebook.com##[role="feed"] [data-pagelet^="FeedUnit_"]:has([aria-label="Sponsoroitu"])
 facebook.com#?#div[data-pagelet^="FeedUnit_"] a[aria-label]:has-text(Sponsoroitu)
 facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has(div[class][role="button"][tabindex]:has-text(Sponsoroitu))
