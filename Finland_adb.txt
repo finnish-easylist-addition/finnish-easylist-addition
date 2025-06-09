@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 09 Jun 2025 21:13:26 +0300
+! Last modified: Mon, 09 Jun 2025 21:15:26 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1172,6 +1172,7 @@ vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
+www.io-tech.fi##.artikkeli-slide:has(a[href="https://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 www.io-tech.fi##.artikkeli-slide:has(img[src*="-nostokuva"])
 www.io-tech.fi##.artikkeli-slide:has(img[src*="Ad-otsikko"])
 www.io-tech.fi##.artikkeli-slide:has(img[src*="mainos"])
