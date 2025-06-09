@@ -1172,7 +1172,6 @@ vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
-www.io-tech.fi##.artikkeli-slide:has(a[href="https://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 www.io-tech.fi##.widget.datatronic
 www.io-tech.fi##aside.jimmx
 www.io-tech.fi##.artikkeli-slide:has(img[src*="-nostokuva"])
