@@ -649,6 +649,7 @@ kulutusluottovertailu.fi##.fusion-carousel
 kuntalehti.fi##.g:has(.gofollow)
 kuntatekniikka.fi##.g-1
 kuntsari.fi##.wpb_wrapper.wpb_text_column.td_block_wrap:has([auto-grid-data*="mainos"])
+kuulatori.fi##.col-md-12:has(#advlink)
 kuvake.net###ticker
 kuvake.net,kuvaton.com##.addme
 kuvaton.com,viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
