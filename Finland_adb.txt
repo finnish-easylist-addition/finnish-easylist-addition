@@ -1509,9 +1509,6 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 ! To fix the opening of kauppa.dna.fi product links on hintaseuranta.fi
 @@||track.adform.net^*https://kauppa.dna.fi/tuote/$popup,domain=hintaseuranta.fi
 
-! Unbreak netstat.ayy.fi
-@@||netstat.ayy.fi^
-
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||adservicemedia.dk/$image,domain=mobiili.fi
