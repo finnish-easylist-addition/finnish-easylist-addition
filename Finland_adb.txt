@@ -1256,6 +1256,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party
 ||ad.ilcdn.fi^$third-party
+||aff.carvertical.com/sdk.js$script,domain=koeajolle.com
 ||affiliate.guts.com^$third-party
 ||affiliatesolution.se^$domain=ykkoslohja.fi
 ||alibi.fi/wp-content/uploads/2018/03/AL_sivupalkin_myyntiviesti2.jpg$image
