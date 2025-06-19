@@ -1561,8 +1561,3 @@ srk.fi#@##CookielawBanner
 
 
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
-stadissa.fi##.banner > a[href="https://www.stadissa.fi/clickad.php?id=1480"]
-stadissa.fi##.banner > a[href="https://www.stadissa.fi/clickad.php?id=1337"]
-stadissa.fi##.banner > a[href="https://www.stadissa.fi/clickad.php?id=1513"]
-stadissa.fi##.banner > a[href="https://www.stadissa.fi/clickad.php?id=1264"]
-stadissa.fi##.banner > a[href="https://www.stadissa.fi/clickad.php?id=1016"]
