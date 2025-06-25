@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 01:30:17 +0300
+! Last modified: Thu, 26 Jun 2025 01:31:31 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -323,7 +323,7 @@ feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
 fiksukuluttaja.fi##.thirstylinkimg
-fiksukuluttaja.fi,lehtikeidas.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
+fiksukuluttaja.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 fillarifoorumi.fi###ad_global_below_navbar
 fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
