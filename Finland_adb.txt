@@ -875,7 +875,6 @@ puhelinvertailu.com##br:has(+ ins[class=adsbygoogle])
 puskaradio.net##.all-adds
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
-rahakirstu.com##.adv_ads_ad_unit
 rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
 rakentaja.fi###dimScreenAll:has([data-category="DisplayAD"])
 rakentaja.fi##div#kauppa_hot
