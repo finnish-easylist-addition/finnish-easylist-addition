@@ -8,3 +8,8 @@ domain.com#?#foo
 domain.jp,domain.net#?#dat
 domain.ax##.text-link[href^="https://clk.tradedoubler.com/"]
 gti.fi#?#.wall-item__container:has-text(Mainos)
+netticaravan.fi#@#article.ad
+||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
+/wp-content/uploads/*/HymyAlibi*_300x300_$image,domain=alibi.fi|hymy.fi
+@@||adserve.adcoin.com/display/ad_block/$xmlhttprequest,domain=verkkouutiset.fi
+||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
