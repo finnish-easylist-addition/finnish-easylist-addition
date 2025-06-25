@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 01:26:11 +0300
+! Last modified: Thu, 26 Jun 2025 01:27:13 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -151,8 +151,6 @@ alandstidningen.ax##.editorial-ad
 alandstidningen.ax##.views-element-container:has(a[href^="https://www.marknaden.ax/annons"])
 alandstidningen.ax##div[id|=block-googleadmaincontent]
 alandstidningen.ax#?#.views-element-container:has-text(Annonsnytt)
-alfatvuutiset.fi##.ugaam-archive-ad-wrapper
-alfatvuutiset.fi#?#.widget_text:has-text(Advertisement)
 alibi.fi###alibi-ad-popup
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
