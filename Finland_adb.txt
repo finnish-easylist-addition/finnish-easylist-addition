@@ -347,7 +347,6 @@ finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
 flashscore.fi##.detailLeaderboard
 fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
-fontanka.fi##.widget_custom_html
 foorumi.eu,foorumimme.com,juttelu.com,keskustelu.info,munfoorumi.com,munpalsta.net###page-body > div[style="width:728px; margin:0 auto; padding:10px 0;"]
 foreca.fi##div[id|=inline-banner-mobi]
 foreigner.fi#?#article:has-text(SPONSORED)
