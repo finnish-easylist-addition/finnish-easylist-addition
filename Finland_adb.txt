@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 01:28:24 +0300
+! Last modified: Thu, 26 Jun 2025 01:30:17 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1340,7 +1340,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||recommendations.asunnot.oikotie.fi^$subdocument
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
 ||revimages.motouutiset.fi^$third-party
-||ridemedia.fi/aspbanner$domain=ridemedia.fi
 ||riemurasia.net/js/ads.js$script
 ||riistalehti.fi^*/Haix-Nature-Camo-$image,domain=riistalehti.fi
 ||riistalehti.fi^*_Banner_Retki_Nature_Camo_$image,domain=riistalehti.fi
