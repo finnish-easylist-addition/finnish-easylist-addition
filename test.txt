@@ -1,0 +1,10 @@
+/sample.php
+/ads.
+_banner
+domain.fi##.filter
+domain.se##foo
+domain.dk###foo
+domain.com#?#foo
+domain.jp,domain.net#?#dat
+domain.ax##.text-link[href^="https://clk.tradedoubler.com/"]
+gti.fi#?#.wall-item__container:has-text(Mainos)
