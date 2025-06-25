@@ -1087,7 +1087,6 @@ ts.fi##[data-readpeakurl^="https://app.readpeak.com/ads/"]
 ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
 ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
-tulikulma.fi##.slideshow
 turuntienoo.fi###main > .ads
 tvmatsit.com##.panorama-wrapper
 twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
