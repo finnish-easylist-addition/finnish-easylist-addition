@@ -69,7 +69,6 @@ tamperelainen.fi##^.display-ad
 
 ||adservice.google.com/adsid/integrator.js$xhr,redirect=noop.txt,domain=telsu.fi
 ||doubleclick.net^$xmlhttprequest,redirect=nooptext,domain=puhekupla.com
-||elisa.digital.nuance.com/tagserver/js/ads-blocking-detector.min.js$domain=elisa.fi
 ||v.fwmrm.net/ad/g/1$removeparam=caid
 
 ! -----NETWORK FILTERS END-----
