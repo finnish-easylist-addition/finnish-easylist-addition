@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 01:27:13 +0300
+! Last modified: Thu, 26 Jun 2025 01:28:24 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -875,7 +875,6 @@ puhelinvertailu.com##br:has(+ ins[class=adsbygoogle])
 puskaradio.net##.all-adds
 radionova.fi##section.sbs-articleitems[data-module_position_id="640"]
 radiovoima.fi##.block-radiovoima-advertisements
-rahakirstu.com##.adv_ads_ad_unit
 rakennusmaailma.fi,tekniikanmaailma.fi##.FrontPage_native-ads
 rakentaja.fi###dimScreenAll:has([data-category="DisplayAD"])
 rakentaja.fi##div#kauppa_hot
