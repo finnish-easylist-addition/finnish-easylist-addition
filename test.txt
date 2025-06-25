@@ -3,6 +3,7 @@
 _banner
 domain.fi##.filter
 domain.se##foo
+domain.co.uk##foo
 domain.dk###foo
 domain.com#?#foo
 domain.jp,domain.net#?#dat
