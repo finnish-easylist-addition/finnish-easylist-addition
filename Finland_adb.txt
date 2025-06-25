@@ -324,7 +324,6 @@ feissarimokat.com###logopal
 feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
-fel.gg###fel-ad-banner
 fiksukuluttaja.fi##.thirstylinkimg
 fiksukuluttaja.fi,lehtikeidas.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 fillarifoorumi.fi###ad_global_below_navbar
