@@ -151,8 +151,6 @@ alandstidningen.ax##.editorial-ad
 alandstidningen.ax##.views-element-container:has(a[href^="https://www.marknaden.ax/annons"])
 alandstidningen.ax##div[id|=block-googleadmaincontent]
 alandstidningen.ax#?#.views-element-container:has-text(Annonsnytt)
-alfatvuutiset.fi##.ugaam-archive-ad-wrapper
-alfatvuutiset.fi#?#.widget_text:has-text(Advertisement)
 alibi.fi###alibi-ad-popup
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
