@@ -304,7 +304,7 @@ etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
-etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi##div[id|=almad]
+etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi,vuokraovi.com##div[id|=almad]
 etusuora.com##.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
 facebook.com##a[aria-label="Mainostajan linkki"]
