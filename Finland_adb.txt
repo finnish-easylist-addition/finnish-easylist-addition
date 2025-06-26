@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 19:04:55 +0300
+! Last modified: Thu, 26 Jun 2025 19:07:11 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -685,7 +685,6 @@ m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimokki.com,m.nettimot
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com##.topBannerMinHeight
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com##[class*=pt][class*=pb][style*="border-top:1px solid #b3b3b3"]
 m.nettimokki.com##.itemlist > li:not(.block_list_li)
-m.tori.fi##.appnexus-container
 maalampofoorumi.fi##div#sponsor
 maaseuduntulevaisuus.fi##[data-ad-unit-id]
 maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
