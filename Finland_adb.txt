@@ -1068,7 +1068,6 @@ ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme
 ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 turuntienoo.fi###main > .ads
 tvmatsit.com##.panorama-wrapper
-twitter.com#?#div:has(> div > div > div > h2 > div > span:has-text(Mainostettu twiitti))
 tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
 ulvilanseutu.fi##.top-bar
