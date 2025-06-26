@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 23:17:05 +0300
+! Last modified: Thu, 26 Jun 2025 23:22:04 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1403,9 +1403,6 @@ kampanjat.hs.fi#@#div[class] > a[href^="https://tilaa.sanoma.fi/"]
 
 ! Lowe's list exception, cookie dialog won't open
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
-
-! https://www.nettiauto.com/advSearch.php
-classic.nettiauto.com,www.nettiauto.com#@##adv
 
 ! Unbreak Omaposti's service (EasyList – Chat Widgets)
 ! https://oma.posti.fi/fi/contact-us
