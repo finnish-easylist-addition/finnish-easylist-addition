@@ -652,17 +652,6 @@ lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
 lottoarvonta.com###bottom-offer
 lounaspori.fi##.type-banner
-ls24.fi##.article-block__list-article:has(a[href^="https://ls24.fi/kaupallinen-yhteistyo/"])
-ls24.fi##.article-blocks-2022-divider:not(.article-block--2022 + .article-blocks-2022-divider)
-ls24.fi##.asuntorauma-promo
-ls24.fi##.js-article-block:has(span[class$=commercial-label])
-ls24.fi##.js-article-block:has(span[class$=commercial-label]) + .article-blocks-2022-divider
-ls24.fi##.page-section--commercial
-ls24.fi##.palvelupankki-banner
-ls24.fi##aside[class=sidebar] > [class^="advertisement ad advertisement"] + [class^="advertisement ad advertisement"] + section[class^=article-list]:last-of-type
-ls24.fi##div[class^=advertisement]
-ls24.fi#?#.article-list--article:has-text(Kaupallinen yhteistyö)
-ls24.fi#?#section[class="page-section page-section--no-main-article"]:has-text(Kaupallinen yhteistyö)
 lumipallo.fi##div.row:not(:has(article)):has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
 luukku.com##.banner.content
