@@ -883,10 +883,6 @@ retkilehti.fi##.category-mainos
 retkilehti.fi##div[id|=retki][style]
 retkilehti.fi,riistalehti.fi##body.home div[style^="margin-left: auto; margin-right: auto; text-align: center;"] + .wp-block-separator
 retkilehti.fi,riistalehti.fi##div[style^="margin-left: auto; margin-right: auto; text-align: center;"] .is-external-link
-riemurasia.net###PowerRectangle
-riemurasia.net###PowerSkyscraper
-riemurasia.net##[href^="https://tc.tradetracker%2Enet/"]
-riemurasia.net##a[rel^="sponsored"]
 riimihaku.fi##.top-banner
 riistalehti.fi##.riist-content
 riistalehti.fi##div[id|=riist][style*="text-align: center"]
@@ -1275,7 +1271,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||kuvake.net/js/bannerloader.js$script,domain=kuvake.net
 ||laitilansanomat.fi^*/gallery/mainos*/$image,domain=laitilansanomat.fi
 ||lbaanijakuva.fi/test/*?template=prisjakt$domain=lbaanijakuva.fi
-||m.riemurasia.net/reklaami.php$subdocument,domain=m.riemurasia.net
 ||matkaendurot.net/images/*banner$domain=matkaendurot.net
 ||med.etoro.com^$domain=ykkoslohja.fi
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
@@ -1290,14 +1285,12 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
-||pirkkalainen.com/images/mainospaikat/3.jpg$image,domain=pirkkalainen.com
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
 ||recommendations.asunnot.oikotie.fi^$subdocument
 ||retkilehti.fi^*/Calazo_Banner_$image,domain=retkilehti.fi
 ||revimages.motouutiset.fi^$third-party
-||riemurasia.net/js/ads.js$script
 ||riistalehti.fi^*/Haix-Nature-Camo-$image,domain=riistalehti.fi
 ||riistalehti.fi^*_Banner_Retki_Nature_Camo_$image,domain=riistalehti.fi
 ||script.ilcdn.fi/etua-lainalaskuri/etua-lainalaskuri.min.js$script,domain=iltalehti.fi
