@@ -1258,7 +1258,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||blogit.fi/ext/$image,domain=blogit.fi
 ||c1.hinta.fi^$third-party,script
 ||caravan-lehti.fi/media/Carado-matkailuauto.$image,domain=caravan-lehti.fi
-||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||cdn.bluebillywig.com/apps/player/$script,domain=gekkonen.net|hevosurheilu.fi
 ||celtra.com^$third-party
 ||cfapi.voikukka.fi/graphql?operationName=CitrusAd&$xmlhttprequest,domain=s-kaupat.fi
