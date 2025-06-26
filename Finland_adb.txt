@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: %timestamp%
+! Last modified: Thu, 26 Jun 2025 22:11:08 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -555,7 +555,7 @@ kauppalehti.fi###coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi
 kauppalehti.fi##div[class][width]:has(> .ad)
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) a[href^="https://www.kauppalehti.fi/kumppanisisallot/"][target="_self"]
-kauppalehti.fi,mediuutiset.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
+kauppalehti.fi##aside > div[class] > a[href*="/kumppanisisallot/"]
 kauppalehti.fi,talouselama.fi##div[class]:has(> .lazyload-wrapper > .etua-react-embed)
 kauppojen-aukioloajat.fi###search-top-wide-ad
 kauppojen-aukioloajat.fi###specific-bottom-rectangle-ad
@@ -697,11 +697,6 @@ mediaviikko.fi##a[href="https://mailapro.fi/"]
 mediaviikko.fi##a[href="https://urheilutuet.fi/"]
 mediaviikko.fi##a[href="https://vesikourut.fi/"]
 mediaviikko.fi##amp-layout[amp-access^="popups."][role=button]
-mediuutiset.fi##aside > div[class] > a[href="/kumppanisisaltoa"]
-mediuutiset.fi##div[class]:has(> a[href="/kumppanisisaltoa"])
-mediuutiset.fi##div[width]:has([id|="almad"]:not([id|="almad-mobileParade"]))
-mediuutiset.fi#?#body:not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) section > a[href^="https://www.mediuutiset.fi/kumppanisisallot"]
-mediuutiset.fi#?#body:not(.is-style-kumppanisisallot):not(#skyscraper-height-div > div > div:has-text(Kumppanisisältöä)) div[class]:has(> a[href^="https://www.mediuutiset.fi/kumppanisisallot/"]:not(a[class^=site-header]))
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=ContentCard__AdLabel])
 meillakotona.fi##div[class^=NativeAdSpotlight__Component]
@@ -739,8 +734,6 @@ mobiili.fi#?#.fullarticle:has-text(Sponsoroitu)
 mobiili.fi#?#.fullarticle:has-text(src="https://mobiili.fi/aaa.png")
 mobiili.fi#?#div[style="float:left; width:100%; text-align:center; padding:0px; margin-bottom:17px;"]:has-text(MAINOS)
 mobiili.fi#?#p:has(small:has-text(Mainos:))
-monster.fi##.block--monsterfi-ads
-monster.fi##.epiq-landing-row--frontpage-leaderboard-ad
 moottori.fi###tori.article-car-list
 moottori.fi##.category-kumppaniartikkeli.moottori_kumppani.smallfeature
 moottori.fi##.container.g-bg.ads.sidebar.item
@@ -1375,7 +1368,7 @@ iltalehti.fi#?#div.container:not(.sub-category-unikulma):not(.sub-category-rahap
 iltalehti.fi#?#div.layout:not(.sub-category-unikulma):not(.sub-category-rahapuhe):not(.sub-category-santander):not(.sub-category-miehen-terveys):not(.sub-category-kehon-hyvinvointi-ja-vitaepro):not(.sub-category-unijaterveys):not(.sub-category-huippukivaa-seksia):not(.sub-category-puhti):not(.sub-category-hyvinvointivinkit):not(.sub-category-hetki):not(.sub-category-kaalimato):not(.sub-category-oslo-skin-lab):not(.sub-category-kodin-siivousvinkit):not(.sub-category-qled-tv):not(.sub-category-jatevesiratkaisut):not(.sub-category-bluestep):not(.sub-category-sortter-reilua-lainavertailua):not(.sub-category-rahalaitos):not(.sub-category-aitien-keittiosta):not(.sub-category-koko-kansan-autokauppa):not(.sub-category-kuljetusten-kestava-kehitys):not(.sub-category-kestavat-liikkuvuusratkaisut):not(.sub-category-hintaopas):not(.sub-category-boltworks):not(.sub-category-samsung-tv):not(.sub-category-reseptit):not(.sub-category-terveystalo):not(.sub-category-etuafi-lainanottajan-asialla):not(.sub-category-vinkit-yrityslainaan) div.card:has(> .full-article:has-text(Kaupallinen yhteistyö))
 
 ! Temporal compatibility fixes for Vivaldi / Brave: https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/378
-arvopaperi.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
+arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
 
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
@@ -1427,7 +1420,7 @@ kampanjat.hs.fi#@#div[class] > a[href^="https://tilaa.sanoma.fi/"]
 @@||click.redditmail.com^$~third-party
 
 ! Lowe's list exception, cookie dialog won't open
-@@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
+@@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 
 ! https://www.nettiauto.com/advSearch.php
 classic.nettiauto.com,www.nettiauto.com#@##adv
