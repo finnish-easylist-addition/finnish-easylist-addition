@@ -582,7 +582,6 @@ kiekkofani.com,penkkiurheilu.com##[style^="text-align:center;margin-left:auto !i
 kiinteistoposti.fi##.kiint-adlabel
 kiinteistoposti.fi##.kiint-widget
 kiinteistoposti.fi#?#.featuredpost:has(.gb-post-grid-section-title:has-text(Kaupallinen yhteistyö))
-kilipailut.fi##.bannerlink
 kilokalori.net##.hidden-print.panel-default.panel:has(kc-ad)
 kilokalori.net##kc-ad
 klangi.fi,paakallo.fi,suomenautolehti.fi##.banner
