@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 23:11:57 +0300
+! Last modified: Thu, 26 Jun 2025 23:12:39 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -267,9 +267,6 @@ eeva.fi##div[class^="EmbeddedArticle__Container"]:has(div[class*="CommercialLabe
 eeva.fi#?#a[class^="ContentCard__Card-"]:has-text(Mainos: )
 eeva.fi#?#div[class^="EmbeddedArticle__Container"]:has(.category:has-text(Mainos:))
 eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
-ehandel.fi###div-leeadsFullpageAd
-ehandel.fi##.commercial-row
-ehandel.fi,tvmatsit.com##.annons
 ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
@@ -1027,6 +1024,7 @@ ts.fi##div[class*="tsv3-c-common-smart noad-hideaction"]
 ts.fi#?#.tsv3-c-common-elementcollection:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 ts.fi#?#.tsv3-c-common-elementlist--layout-mobiili_etusivu:has-text(/yhteistyö[\u00AD]kumppanimme artikkelit/)
 turuntienoo.fi###main > .ads
+tvmatsit.com##.annons
 tvmatsit.com##.panorama-wrapper
 tyyliniekka.fi#?#.tdc-row.stretch_row_1400.td-stretch-content:has-text(MAINOS:)
 ulvilanseutu.fi###right-sidebar
