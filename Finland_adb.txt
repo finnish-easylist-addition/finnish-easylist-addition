@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 22:16:49 +0300
+! Last modified: Thu, 26 Jun 2025 22:25:34 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -256,9 +256,9 @@ duodecimlehti.fi##.dl-fixed-banner
 duunitori.fi##.js-fragment-web-lazy_carousel
 edgeski.fi##._ning_outer
 edgeski.fi#?#.widget_text:has-text(Mainos)
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_content
-edgeski.fi,foregolf.fi,kalamies.com,rodeosnow.fi##.adv_side
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_content
+edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
 edukas.fi##.compareGoogleCell
 eeva.fi##.swiper-slide:has(div[class*="ContentCard__AdLabel"])
@@ -521,13 +521,10 @@ kaksplus.fi##li.grid__item:has([id^=dfp__native-card])
 kaksplus.fi#?##huomiotekstiotsikko:has-text(Mainos)
 kaksplus.fi#?#.wp-block-otavamedia-section-management:has-text(Kaupallinen yhteistyö)
 kaksplus.fi,metsalehti.fi,uutisankka.com##.advertisement
-kalamies.com##.custom_banners_big_linkbefore-content
-kalamies.com##.custom_banners_big_linkwidget
-kalamies.com##[class^=custom_banners_big_linkcontent]
-kalamies.com##[id^="_ning_zone_"]
-kalamies.com#?#.widget:has-text(Mainos):not(:has([href="https://kalamies.com/tilaa/"]))
 kalastus.com###mini-panel-autodoc_150x50
 kalastus.com##.gam-holder
+kalastuslehti.fi##._ning_outer
+kalastuslehti.fi#?#.widget_media_image:has-text(– Mainos –)
 kaleva.fi###puff-container
 kaleva.fi##.m-contentListItemThumb:has(> div > div > div[class^=m-contentListItemThumb__advertisement])
 kaleva.fi##.m-managedListing__column:has(> div > div > div > div[class^=m-contentListItem__advertisement])
@@ -1249,7 +1246,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||kake.fi^$third-party
 ||kaksplus.fi/upotukset/hintaopas^
 ||kaksplus.fi/wp-json/feeds/ad-feed$xmlhttprequest,domain=keskustelu.kaksplus.fi
-||kalamies.com/?_dnid=$subdocument,domain=kalamies.com
+||kalastuslehti.fi/?_dnid=$subdocument,domain=kalastuslehti.fi
 ||kampanjat.is.fi/alennuskoodit-promo/index.html$subdocument,domain=is.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image,domain=karjalainen.fi
 ||kelkkalehti.com/bannerit/$image,domain=kelkkalehti.com
