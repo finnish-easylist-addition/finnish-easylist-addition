@@ -322,7 +322,6 @@ feissarimokat.com##.flexibox
 feissarimokat.com##.shopster
 feissarimokat.com##div[class*=adbox]
 fiksukuluttaja.fi##.thirstylinkimg
-fiksukuluttaja.fi##[href^="https://online.adservicemedia.dk/cgi-bin/click.pl"]
 fillarifoorumi.fi###ad_global_below_navbar
 fillaritori.com###ipsLayout_mainArea > center
 fillaritori.com##.ipsLayout_sidebarright
@@ -1497,7 +1496,6 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
-@@||adservicemedia.dk/$image,domain=mobiili.fi
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 ! Redundant? Videos seem to work on gamereactor.fi
 ! @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
