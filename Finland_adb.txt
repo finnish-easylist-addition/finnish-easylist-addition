@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 19:04:10 +0300
+! Last modified: Thu, 26 Jun 2025 19:04:55 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -234,7 +234,6 @@ bbs.io-tech.fi##.structItem--thread[data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
-blogbook.fi##.sidebar-block:has([id^="adsivupalkki_"])
 bomber.fi###rt-sidebar-b
 boy.fi##.advs
 boy.fi##.moduletable:has(.advs)
