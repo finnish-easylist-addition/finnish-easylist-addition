@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 23:12:39 +0300
+! Last modified: Thu, 26 Jun 2025 23:17:05 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1433,12 +1433,9 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 ! To fix the opening of kauppa.dna.fi product links on hintaseuranta.fi
 @@||track.adform.net^*https://kauppa.dna.fi/tuote/$popup,domain=hintaseuranta.fi
 
-@@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
-@@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||googletagmanager.com/gtm.js?$third-party,domain=elisa.fi
 ! Redundant? Videos seem to work on gamereactor.fi
 ! @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gamereactor.fi
-@@||leiki.com$domain=etuovi.com|iltalehti.fi
 @@||power.fi/Umbraco/Api/Tracking/TrackOrder$xmlhttprequest,domain=power.fi
 @@||seiska.b-cdn.net/Mainos.mp4$media,domain=seiska.fi
 @@||tags.tiqcdn.com/utag/sanoma-fi/*/utag.js
