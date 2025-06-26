@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 23:08:40 +0300
+! Last modified: Thu, 26 Jun 2025 23:11:57 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -288,10 +288,7 @@ elmotv.com#?#[href]:has-text(LeoVegas)
 enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
 enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi##._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
-epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:has-text(Mainos päättyy)
-epari.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
+jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
 episodi.fi##.bg-viaplay-dark-gray
 eralehti.fi##.DfpAdSlot_dfp-ad-slot
 eralehti.fi##.Index_native-ads
@@ -472,6 +469,9 @@ iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhaj
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi##.right-now-widget__item--commercial
 iijokiseutu.fi,kaleva.fi,koillissanomat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi#?#.m-contentListItemThumb.-level-1:has-text(Mainos)
 ilkkapohjalainen.fi##div[data-lazy-ad-unit-id]
+ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:has-text(Mainos päättyy)
+ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi##._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
+ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##.newsbox:has(> [id^=div-gpt-ad])
 iltapulu.fi##div[class=footer-ylempi]
