@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 22:56:43 +0300
+! Last modified: Thu, 26 Jun 2025 23:04:56 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -651,7 +651,8 @@ livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
 lottoarvonta.com###bottom-offer
-lounaspori.fi##.type-banner
+! https://www.sv24.fi/lounaspori-6.322.bc78200a87 - Iframe ads
+lounaspori.fi##.lounaspori-ap-spot
 lumipallo.fi##div.row:not(:has(article)):has([src="//s1.adform.net/banners/scripts/adx.js"])
 luukku.com###banneri_yla
 luukku.com##.banner.content
