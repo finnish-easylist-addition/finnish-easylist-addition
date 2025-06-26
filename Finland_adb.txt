@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: %timestamp%
+! Last modified: Thu, 26 Jun 2025 21:28:15 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -582,7 +582,6 @@ kiekkofani.com,penkkiurheilu.com##[style^="text-align:center;margin-left:auto !i
 kiinteistoposti.fi##.kiint-adlabel
 kiinteistoposti.fi##.kiint-widget
 kiinteistoposti.fi#?#.featuredpost:has(.gb-post-grid-section-title:has-text(Kaupallinen yhteistyö))
-kilipailut.fi##.bannerlink
 kilokalori.net##.hidden-print.panel-default.panel:has(kc-ad)
 kilokalori.net##kc-ad
 klangi.fi,paakallo.fi,suomenautolehti.fi##.banner
