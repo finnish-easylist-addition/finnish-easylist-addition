@@ -344,7 +344,6 @@ fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
 foorumi.eu,foorumimme.com,juttelu.com,keskustelu.info,munfoorumi.com,munpalsta.net###page-body > div[style="width:728px; margin:0 auto; padding:10px 0;"]
 foreca.fi##div[id|=inline-banner-mobi]
-foreigner.fi#?#article:has-text(SPONSORED)
 fuengirola.fi##.elementor-element-228d8bca
 fuengirola.fi##.elementor-element-24aa8e2
 fuengirola.fi##.elementor-element-9e2ec43
