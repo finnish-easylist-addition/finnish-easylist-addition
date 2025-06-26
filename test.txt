@@ -14,3 +14,4 @@ netticaravan.fi#@#article.ad
 /wp-content/uploads/*/HymyAlibi*_300x300_$image,domain=alibi.fi|hymy.fi
 @@||adserve.adcoin.com/display/ad_block/$xmlhttprequest,domain=verkkouutiset.fi
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+liberolehti.fi
