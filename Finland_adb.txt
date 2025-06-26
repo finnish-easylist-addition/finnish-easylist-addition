@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 22:32:26 +0300
+! Last modified: Thu, 26 Jun 2025 22:44:23 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -351,7 +351,7 @@ fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.f
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
 futisfani.com##.futis-sticky-footer[data-futis-trackbid]
-futisfani.com,kiekkofani.com,kiinteistoposti.fi,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
+futisfani.com,kiekkofani.com,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.pum-overlay
@@ -575,9 +575,6 @@ keskustelu.suomi24.fi##div[class^=RightSidePanel__AdContainer]
 kiakkoradio.fi##[class|="wp-block-ultimate-post-post-list"]:has(.ultp-cat-mainos)
 kiekkofani.com##.kiekk-footer-sticky[data-kiekk-trackbid]
 kiekkofani.com,penkkiurheilu.com##[style^="text-align:center;margin-left:auto !important;margin-right:auto !important;height: 420px; margin-top:60px"]
-kiinteistoposti.fi##.kiint-adlabel
-kiinteistoposti.fi##.kiint-widget
-kiinteistoposti.fi#?#.featuredpost:has(.gb-post-grid-section-title:has-text(Kaupallinen yhteistyö))
 kilokalori.net##.hidden-print.panel-default.panel:has(kc-ad)
 kilokalori.net##kc-ad
 klangi.fi,paakallo.fi,suomenautolehti.fi##.banner
@@ -835,8 +832,9 @@ pointti.fi##.paraati
 polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pottupellossa.fi##.widget_media_image > a[href="http://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
+projektiuutiset.fi##.article-widgets:has(a[href^="https://projektiuutiset.fi/kaupallinen-yhteistyo"])
+projektiuutiset.fi##.nostoalue:has(a[href^="https://projektiuutiset.fi/kaupallinen-yhteistyo"])
 projektiuutiset.fi##.proje-widget
-projektiuutiset.fi##.uusi-ylabanneri
 proshop.fi##.site-background-cta[data-action="campaignClick"]
 pt-media.org###custom_html-63
 pt-media.org###text-32
@@ -1248,7 +1246,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||kalastuslehti.fi/?_dnid=$subdocument,domain=kalastuslehti.fi
 ||kampanjat.is.fi/alennuskoodit-promo/index.html$subdocument,domain=is.fi
 ||karjalainen.fi/images/banners/kiinnostuitko$image,domain=karjalainen.fi
-||kelkkalehti.com/bannerit/$image,domain=kelkkalehti.com
 ||keskustelu.pakkotoisto.com/bannerit/$image,domain=keskustelu.pakkotoisto.com
 ||kinuskikissa.fi/wp-content/uploads/*kumppani_*.gif$image,domain=kinuskikissa.fi
 ||kiuruvesilehti.fi/wp-content/uploads/*kampanja_banneri.png$image,domain=kiuruvesilehti.fi
@@ -1274,6 +1271,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
+||projektiuutiset.fi/*banner$image,domain=projektiuutiset.fi
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
 ||rantapallo.fi^$third-party
