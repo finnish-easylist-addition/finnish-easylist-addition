@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: %timestamp%
+! Last modified: Thu, 26 Jun 2025 20:10:05 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -243,8 +243,8 @@ caravan-lehti.fi##main section.block-notices
 cdon.fi##[id^=afscontainer]
 chat.suomi24.fi##.bannerTop.S24_banner
 como.fi##div[class="flex flex-wrap md:flex-nowrap lg:flex-nowrap gap-x-4"][style="min-height:500px;"]
-como.fi,episodi.fi,fum.fi,inferno.fi,pelaaja.fi,rumba.fi,soundi.fi##.poppartners
-como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##.border-bottom.row:has(.poppartners)
+como.fi,episodi.fi,inferno.fi,pelaaja.fi,rumba.fi,soundi.fi##.poppartners
+como.fi,episodi.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##.border-bottom.row:has(.poppartners)
 como.fi,tilt.fi,rumba.fi##body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:has(a[href*=".fi/advertoriaali/"])
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
 dawn.fi##.adsbygoogle + script + p > br
@@ -339,7 +339,7 @@ findit.fi##.banner-wrapper
 findit.fi##.banner_middle
 finnkino.fi##.content-article.h-container:has(#FKM-paraati)
 finnkino.fi##.in-list-ad-containers
-finnkino.fi,fum.fi,tilt.fi,vuokraovi.com##.advertising
+finnkino.fi,tilt.fi,vuokraovi.com##.advertising
 flashscore.fi##.detailLeaderboard
 fonecta.fi##[class*=adBox]
 fonecta.fi##div[class^=AdBlock_adContainer]
