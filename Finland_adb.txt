@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 19:07:11 +0300
+! Last modified: Thu, 26 Jun 2025 19:16:40 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1258,7 +1258,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||blogit.fi/ext/$image,domain=blogit.fi
 ||c1.hinta.fi^$third-party,script
 ||caravan-lehti.fi/media/Carado-matkailuauto.$image,domain=caravan-lehti.fi
-||carousel-prod-kaleva-fi.s3.amazonaws.com^$third-party
 ||cdn.bluebillywig.com/apps/player/$script,domain=gekkonen.net|hevosurheilu.fi
 ||celtra.com^$third-party
 ||cfapi.voikukka.fi/graphql?operationName=CitrusAd&$xmlhttprequest,domain=s-kaupat.fi
