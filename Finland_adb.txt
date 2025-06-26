@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 01:31:31 +0300
+! Last modified: Thu, 26 Jun 2025 17:34:01 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -397,13 +397,6 @@ gekkonen.net,viranomaisuutiset.fi##.code-block:has(ins[class="adsbygoogle"])
 glu.fi##li:has(.adsbygoogle)
 glu.fi##ul.link:has(a[href^="http://clk.tradedoubler.com/"])
 glu.fi#?#.box:has-text(Mainos:)
-gogolf.fi##.is-advertorial
-gogolf.fi##.is-sidebar > .has-background:has(.is-advertorial)
-gogolf.fi##.is-sidebar > .has-background:has(a[href*="utm_medium=banner"])
-gogolf.fi##.js-tabpanel > ol > li:has(.is-advertorial)
-gogolf.fi##div[id|="div-gpt-ad"]
-gogolf.fi#?#.has-background:has-text(/MAINOS/i)
-gogolf.fi#?#.has-background:has-text(mainos)
 golfpiste.com###gp-natives
 golfpiste.com##.ad-separatator
 golfpiste.com##.carousel-cell--native
