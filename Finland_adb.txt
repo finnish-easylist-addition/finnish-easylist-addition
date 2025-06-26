@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 26 Jun 2025 23:06:32 +0300
+! Last modified: Thu, 26 Jun 2025 23:08:40 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -285,8 +285,8 @@ elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
 elmotv.com#?#.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
 elmotv.com#?#[href]:has-text(LeoVegas)
-enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,kuusamonseutu.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
-enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,kuusamonseutu.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
+enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
+enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#article > div[class]:has-text(Mainos (sisältö jatkuu alla))
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi##._3GUme._1hdYd:has(a[href^="https://pointti.fi"])
