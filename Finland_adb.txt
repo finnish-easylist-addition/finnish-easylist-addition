@@ -1204,7 +1204,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /https:\/\/[www]{3}\.v{0}t{1}f{0}e{1}f{0}l{1}f{0}s{1}f{0}g{0}u{1}\.fi\/[\w]{9}-[\w]{7}\?[\w]{4}\+[\w]{6}\+[\w]{9}\+[\w]{4}\+[\w]{5}\+[\w%\d]{19}/$~third-party,xmlhttprequest
 /io-tech\.fi\/.*\/[0-9a-f]{32}\./$image,domain=io-tech.fi
 /macro.adnami.io$script,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
-/neoproxy.dll$xmlhttprequest,domain=pkank.fi
+/neoproxy.dll$domain=pkank.fi|sv24.fi|ulvilanseutu.fi|uutisrauma.fi
 /pop_media_*_fi_inarticle$script,domain=episodi.fi|rumba.fi|tilt.fi
 /prerolls/*.mp4$domain=gamereactor.fi
 ! /telsu\.fi\/(?![^>]*\.\w{3}$).+/$image,domain=telsu.fi
