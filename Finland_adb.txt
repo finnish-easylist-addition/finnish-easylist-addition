@@ -542,6 +542,7 @@ karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dt
 karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
 karjalainen.fi,sammysatv.com##center
+kaukokaipuumatkablogi.net#?#.row-container:has-text(MAINOS)
 kauppalehti.fi###coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi##div[class][width]:has(> .ad)
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
