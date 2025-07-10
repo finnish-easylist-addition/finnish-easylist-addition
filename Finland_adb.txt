@@ -1370,6 +1370,7 @@ murha.info#@#.adsbygoogle
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+/adverts/*.mp4$media,rewrite=abp-resource:blank-mp3,domain=totalvene.fi
 
 ! appears when blocking ads:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
