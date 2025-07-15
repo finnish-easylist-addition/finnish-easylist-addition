@@ -831,6 +831,8 @@ puheenaiheet.fi##div[class=wpb_wrapper]
 puheenvuoro.uusisuomi.fi##.partner-blog-list
 puheenvuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi##a[class*=commercial-blog-card]
+puheenvuoro.uusisuomi.fi###leaderboard-1-desktop
+puheenvuoro.uusisuomi.fi###leaderboard-1-mobile
 puhelinvertailu.com##br:has(+ br + ins[class=adsbygoogle])
 puhelinvertailu.com##br:has(+ ins[class=adsbygoogle])
 puskaradio.net##.all-adds
