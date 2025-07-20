@@ -479,6 +479,7 @@ inssinosingot.fi,koeajolle.com##.block-mainos
 irc-galleria.net##div[id^=open_]
 irc-galleria.net,tilannehuone.fi##div[id^=Nostemedia_Desktop]
 is.fi##[data-testid|="laneitem"] > article:has(a[href^="https://media.sanoma.fi/"])
+is.fi##[data-testid|="laneitem"]:has(a[href^="/mainos/"])
 is.fi##[href^="https://www.is.fi/tilaus/is-extra/"][href$="myyntitikkeri"]
 is.fi##div.sadblob-loading
 iskelma.fi##section.sbs-articleitems[data-module_position_id="814"]
