@@ -1107,6 +1107,7 @@ vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
+www.google.com###cnt > div[class]:has(#atvcap [title="Miksi tämä mainos?"])
 www.io-tech.fi##.widget.datatronic
 www.nettiauto.com###article_box li:has([id|="almad-post-content"])
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com###homeBottomBoxBanner
