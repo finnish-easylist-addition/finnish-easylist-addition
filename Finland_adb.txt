@@ -888,6 +888,7 @@ sjofart.ax##.ae-bg-gallery-type-default.elementor-section-height-default.element
 sjofart.ax##.elementor-location-header .topp
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
+soppa365.fi#?#.container.middle p:has-text(/^\xA0$/)
 sportti.com##[href^="http://ads.leovegas.com/"]
 sportti.com##[href^="http://www.primeslots.com/"]
 sportti.com##div#panorama_container
