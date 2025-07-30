@@ -913,6 +913,8 @@ stadissa.fi##.banner > a[href="/clickad.php?id=1264"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1337"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1480"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1513"]
+stadissa.fi##.banner > a[href="/clickad.php?id=1529"]
+stadissa.fi##.banner > a[href="/clickad.php?id=1532"]
 stadissa.fi##[class|="juhlaviikot"]
 styleroom.fi##.bg-box:has([id|=placement-ad-grid])
 suomen118.fi###layout-banner-right
