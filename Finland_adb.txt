@@ -999,6 +999,7 @@ tiketti.fi##.itemwide:has([href="https://www.nextory.fi/partner-collaboration/ti
 tilannehuone.fi###cnt_lista tr:has(.mainosinline) + tr:has(> .divid)
 tilannehuone.fi##.contentti:has(> .mainos-mob:only-child)
 tilannehuone.fi##.contentti:has(> .mainos_yla:only-child)
+tilannehuone.fi##.halytyslista tr:has(.mainosinline)
 tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
 tilannemedia.fi##.tdc-row:not(.td-stretch-content):has([data-ad-unit-id]):not([itemtype="https://schema.org/Article"] .tdc-row)
