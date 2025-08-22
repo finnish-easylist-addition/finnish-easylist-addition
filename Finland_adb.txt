@@ -770,6 +770,11 @@ nettitrendi.fi##.node__content .block[class$="kampanja"]
 nettitrendi.fi##.topbar
 nettitrendi.fi##div[id^="block-credigo"]
 nettitrendi.fi#?#.block-block-content:has-text(Jatkuu mainoksen alla)
+newsner.fi###ad-article-bottom
+newsner.fi##.article-sidebar-wide
+newsner.fi##[id^="ad-insider-article_dynamic"]
+newsner.fi##[id^="ad-panorama_dynamic"]
+newsner.fi##[id^="ad-widescreen-article_dynamic_"]
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
 nyan.ax##.mobileads
