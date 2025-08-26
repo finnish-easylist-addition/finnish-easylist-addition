@@ -813,6 +813,7 @@ pienimatkaopas.com###adiniframe_oikealaita_container
 pienimatkaopas.com###bookingnostokuvasarjassa
 pienimatkaopas.com###mainos .ilmoitus
 pienimatkaopas.com###pm_mp_kotisivu
+pienimatkaopas.com##.osa:has(> #mp_mainos_osia_osa_ylempana)
 pienimatkaopas.com##[id^=pm_mp_tekstissa]
 pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
 piipaa.info##[data-id="adsense"]
