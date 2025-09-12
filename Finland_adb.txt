@@ -172,8 +172,7 @@ alypaa.com##[class^=banner-slot-preroll]
 alypaa.com,pelikone.fi##.text-link[href*="&utm_medium=banner&utm_campaign="]
 alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.gtm-bottom-ticker
-ampparit.com##.gtm-navi-ticker:has([href^="https://www.iltalehti.fi/plus"])
-ampparit.com##.gtm-navi-ticker:has(a[href^="https://www.iltalehti.fi/pelit/"])
+ampparit.com##.gtm-navi-ticker:has(> a[href$="tikkeri"])
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
 ampparit.com,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
