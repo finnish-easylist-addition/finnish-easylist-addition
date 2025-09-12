@@ -32,6 +32,7 @@ proshop.fi##body:style(background-image: unset !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
 talouselama.fi,tekniikkatalous.fi##section hr:matches-css-before(content: /Mainos |Mainoksen /):upward(1)
+telsu.fi##.pb_t
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
 www.suomi24.fi##div[class^="ThreadGridItemWrapper__CardCol"][width="100%"] * div[class^="ThreadCardFooter__CardFooter"] > div[class^="ThreadCardFooter__ColumnContainer"]:style(padding-right: 15px !important)
@@ -82,6 +83,7 @@ findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
+telsu.fi##+js(spoof-css, #prg, x, x, _recty, 300)
 
 ! Fix YouTube videos on www.aalto.fi
 ! Example: https://www.aalto.fi/fi/koulutustarjonta/kiinteistotalous-ja-geoinformatiikka-tekniikan-kandidaatti-ja-diplomi-insinoori
