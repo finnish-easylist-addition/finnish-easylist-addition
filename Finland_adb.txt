@@ -990,6 +990,7 @@ tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:has-text(
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi##[width]:has(.lazyload-wrapper)
 telsu.fi##.ch:has(em>a)
+telsu.fi##.pb.pb_c1
 telsu.fi#?#.ch:has-text(/SP(O|0)NSOROITU/)
 telsu.fi#?#.ch:has-text(/SPON|SPONS|SPONSO|SPONSOR|SPONSORO|SPONSOROI|SPONSOROIT|SPONSOROITU/)
 tennis.fi##.ad-blocks
