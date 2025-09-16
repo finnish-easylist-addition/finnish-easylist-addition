@@ -2,16 +2,17 @@
 ! Title: Test list
 ! Description: Test list
 ! Expires: 4 days
-! Diff-Expires: 30 minutes
-! Diff-Path: patches/test-m-29300847-30.patch
-! Last modified: Tue, 16 Sep 2025 22:27:29 +0300
+! Diff-Expires: 300 minutes
+! Diff-Path: patches/test-m-29300850-300.patch
+! Last modified: Tue, 16 Sep 2025 22:30:01 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
 ||exle.net^
-example.net##.ad-banner
+example.net##.ad-bnner
 domain.fi##nner
-||exae.net^
-||example.edu^
+||exae.fit^
+||exple.edu^
 ||jeejee.net^
-||elidwopdjwwodjp.com^
+||elidwopdodjp.com^
+||daadaa.net
