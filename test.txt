@@ -7,9 +7,10 @@
 ! License: https://unlicense.org/
 
 ||exle.net^
-example.net##.ad-banner
+example.net##.ad-bnner
 domain.fi##nner
-||exae.net^
-||example.edu^
+||exae.fit^
+||exple.edu^
 ||jeejee.net^
-||elidwopdjwwodjp.com^
+||elidwopdodjp.com^
+||daadaa.net
