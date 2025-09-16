@@ -10,3 +10,4 @@
 ||example.org^$third-party
 example.net##.ad-banner
 domain.org###banner
+||example.net^
