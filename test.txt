@@ -5,12 +5,13 @@
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
-
+!
 ||exle.net^
 example.net##.ad-bnner
 domain.fi##nner
 ||exae.fit^
 ||exple.edu^
-||jeejee.net^
-||elidwopdodjp.com^
+||jee^
+||elidwop.com^
 ||daadaa.net
+!
