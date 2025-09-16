@@ -2,8 +2,10 @@ name: Deploy to gh-pages branch
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+    paths:
+      - 'Finland_adb.txt'
+      - 'Finland_adb_uBO_extras.txt'
 
 # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
 concurrency: 
@@ -28,7 +30,8 @@ jobs:
         run: |
           TMPDIR=$(mktemp -d)
           git clone --depth=1 https://github.com/finnish-easylist-addition/finnish-easylist-addition.git $TMPDIR
-          cp $TMPDIR/*.txt ./
+          cp "$TMPDIR/Finland_adb.txt" ./
+          cp "$TMPDIR/Finland_adb_uBO_extras.txt" ./
       - name: Patch last-updated field
         run: |
           DATE=$(TZ=Europe/Helsinki date -R)
