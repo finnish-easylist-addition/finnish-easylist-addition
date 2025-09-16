@@ -16,7 +16,7 @@ jobs:
       SITE_DIR: "site"         # gh-pages worktree
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
       DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "60"   # Diff-Expires uBO:lle ja nimen loppuun
+      DIFF_EXPIRES_MIN: "15"   # Diff-Expires uBO:lle ja nimen loppuun (testiä varten 15 min)
       LIST_FILE: "test.txt"    # vain tämä tiedosto
 
     steps:
@@ -32,12 +32,12 @@ jobs:
           git worktree add "${SITE_DIR}" gh-pages || git checkout gh-pages
           mkdir -p "${SITE_DIR}/${PATCH_DIR}"
 
-      - name: Compute timestamps
+      - name: Compute timestamps (RFC 2822, Europe/Helsinki)
         id: ts
         run: |
-          ISO_UTC=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          RFC2822=$(TZ=Europe/Helsinki date -R)
           EPOCH_MIN=$(( $(date -u +%s) / 60 ))
-          echo "iso=${ISO_UTC}"      >> $GITHUB_OUTPUT
+          echo "rfc2822=${RFC2822}"   >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
       - name: Build gh-pages version + RCS patch
@@ -57,18 +57,18 @@ jobs:
           # uusin master-versio
           cp "${SRC}" new_raw.txt
 
-          # 1) Korvaa "Last modified: %timestamp%" UTC-aikaleimalla (jos rivi on olemassa)
+          # 1) Korvaa "Last modified: %timestamp%" täsmälleen samalla formaatilla kuin main.yml
           if grep -qE '^! +Last modified:' new_raw.txt; then
-            sed -E "s/^! +Last modified:.*$/! Last modified: ${ISO}/" new_raw.txt > new.txt
+            sed -E "s/^! +Last modified:.*$/! Last modified: ${RFC2822}/" new_raw.txt > new.txt
           else
-            # jos puuttuu, lisää se Title/Descriptionin jälkeen järkevään kohtaan
-            awk -v lm="! Last modified: ${ISO}" '
+            # jos puuttuu, lisätään Description-rivin jälkeen
+            awk -v lm="! Last modified: ${RFC2822}" '
               {print}
               /^! Description:/ && !done {print lm; done=1}
             ' new_raw.txt > new.txt
           fi
 
-          # 2) Lisää tai päivitä Diff-Expires: <N> minutes (vain gh-pages-versioon)
+          # 2) Lisää/päivitä Diff-Expires gh-pages-versioon
           if grep -qE '^! +Diff-Expires:' new.txt; then
             sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_MIN} minutes/" new.txt
           else
@@ -98,7 +98,7 @@ jobs:
           # 5) Luo RCS-patch (old -> new)
           diff -n prev.txt new.txt > "${SITE_DIR}/${REL_PATCH_PATH}" || true
         env:
-          ISO: ${{ steps.ts.outputs.iso }}
+          RFC2822: ${{ steps.ts.outputs.rfc2822 }}
 
       - name: Commit & push gh-pages
         working-directory: ${{ env.SITE_DIR }}
