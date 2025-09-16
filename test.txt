@@ -11,3 +11,4 @@ example.net##.ad-banr
 domain.org###banner
 ||example.net^
 ||example.edu^
+||jeejee.net
