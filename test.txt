@@ -7,7 +7,7 @@
 ! License: https://unlicense.org/
 
 ||exle.net^
-example.net##.ad-banr
+example.net##.ad-banner
 domain.fi##banner
 ||exae.net^
 ||example.edu^
