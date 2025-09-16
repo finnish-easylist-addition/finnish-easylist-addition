@@ -16,7 +16,7 @@ jobs:
       SITE_DIR: "site"         # gh-pages worktree
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
       DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "15"   # Diff-Expires uBO:lle ja nimen loppuun (testiä varten 15 min)
+      DIFF_EXPIRES_MIN: "30"   # Diff-Expires uBO:lle ja nimen loppuun (testiä varten 15 min)
       LIST_FILE: "test.txt"    # vain tämä tiedosto
 
     steps:
