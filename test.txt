@@ -7,7 +7,6 @@
 ! License: https://unlicense.org/
 
 ||example.com^
-||example.org^$third-party
 example.net##.ad-banner
 domain.org###banner
 ||example.net^
