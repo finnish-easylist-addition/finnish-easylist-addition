@@ -13,11 +13,11 @@ jobs:
     env:
       GH_EMAIL: "actions@users.noreply.github.com"
       GH_NAME:  "github-actions[bot]"
-      SITE_DIR: "site"         # gh-pages worktree
-      PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
-      DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "30"   # Diff-Expires uBO:lle ja nimen loppuun (testiä varten 15 min)
-      LIST_FILE: "test.txt"    # vain tämä tiedosto
+      SITE_DIR: "site"
+      PATCH_DIR: "patches"
+      DIFF_RESOLUTION: "m"
+      DIFF_EXPIRES_MIN: "300"
+      LIST_FILE: "test.txt"
 
     steps:
       - name: Checkout master
