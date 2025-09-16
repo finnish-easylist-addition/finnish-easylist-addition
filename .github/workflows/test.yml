@@ -108,7 +108,7 @@ jobs:
           git config user.name  "${GH_NAME}"
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "Publish test.txt + diff (auto) at ${{ steps.ts.outputs.iso }}"
+            git commit -m "Update modified filter lists"
             git push origin HEAD:gh-pages
           else
             echo "No changes to publish."
