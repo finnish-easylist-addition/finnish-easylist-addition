@@ -8,4 +8,4 @@
 
 ||example.com^
 ||example.org^$third-party
-example.net##.ad-banner
+! example.net##.ad-banner
