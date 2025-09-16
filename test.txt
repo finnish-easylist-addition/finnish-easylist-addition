@@ -9,12 +9,5 @@
 ||exle.net^
 example.net##.ad-bnner
 domain.fi##nner
-||exae.fit^
-||exple.edu^
-||jee^
-||elidwop.com^
-||daadaa.net
-!
-!
 !
 random.domain.net
