@@ -117,5 +117,3 @@ mtv.fi,mtvuutiset.fi##.visit-advertiser-link
 ! Waiting for EP to support uBO filters as well
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
 muropaketti.com##body.noImages .content img:style(display: inline-block !important)
-
-! Test
