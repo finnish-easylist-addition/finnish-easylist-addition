@@ -1,0 +1,115 @@
+name: Publish test.txt with differential updates
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'test.txt'
+
+jobs:
+  publish-test:
+    runs-on: ubuntu-latest
+
+    env:
+      GH_EMAIL: "actions@users.noreply.github.com"
+      GH_NAME:  "github-actions[bot]"
+      SITE_DIR: "site"         # gh-pages worktree
+      PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
+      DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
+      DIFF_EXPIRES_MIN: "60"   # Diff-Expires uBO:lle ja nimen loppuun
+      LIST_FILE: "test.txt"    # vain tämä tiedosto
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Prepare gh-pages worktree
+        run: |
+          set -e
+          git fetch --depth=1 origin gh-pages:gh-pages || true
+          git worktree add "${SITE_DIR}" gh-pages || git checkout gh-pages
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}"
+
+      - name: Compute timestamps
+        id: ts
+        run: |
+          ISO_UTC=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          EPOCH_MIN=$(( $(date -u +%s) / 60 ))
+          echo "iso=${ISO_UTC}"      >> $GITHUB_OUTPUT
+          echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
+
+      - name: Build gh-pages version + RCS patch
+        run: |
+          set -euo pipefail
+
+          SRC="${LIST_FILE}"                  # master versio
+          DEST="${SITE_DIR}/${LIST_FILE}"     # gh-pages kohde
+
+          # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
+          if [[ -f "${DEST}" ]]; then
+            cp "${DEST}" prev.txt
+          else
+            touch prev.txt
+          fi
+
+          # uusin master-versio
+          cp "${SRC}" new_raw.txt
+
+          # 1) Korvaa "Last modified: %timestamp%" UTC-aikaleimalla (jos rivi on olemassa)
+          if grep -qE '^! +Last modified:' new_raw.txt; then
+            sed -E "s/^! +Last modified:.*$/! Last modified: ${ISO}/" new_raw.txt > new.txt
+          else
+            # jos puuttuu, lisää se Title/Descriptionin jälkeen järkevään kohtaan
+            awk -v lm="! Last modified: ${ISO}" '
+              {print}
+              /^! Description:/ && !done {print lm; done=1}
+            ' new_raw.txt > new.txt
+          fi
+
+          # 2) Lisää tai päivitä Diff-Expires: <N> minutes (vain gh-pages-versioon)
+          if grep -qE '^! +Diff-Expires:' new.txt; then
+            sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_MIN} minutes/" new.txt
+          else
+            awk -v d="! Diff-Expires: ${DIFF_EXPIRES_MIN} minutes" '
+              {print}
+              /^! Expires:/ && !done {print d; done=1}
+            ' new.txt > new.tmp && mv new.tmp new.txt
+          fi
+
+          # 3) Luo Diff-Path nimen speksin mukaan ja lisää/korvaa se
+          PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
+          REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
+
+          if grep -qE '^! +Diff-Path:' new.txt; then
+            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#" new.txt
+          else
+            awk -v p="! Diff-Path: ${REL_PATCH_PATH}" '
+              {print}
+              /^! Diff-Expires:/ && !done {print p; done=1}
+            ' new.txt > new.tmp && mv new.tmp new.txt
+          fi
+
+          # 4) Kirjoita gh-pages/test.txt
+          mkdir -p "$(dirname "${DEST}")"
+          cp new.txt "${DEST}"
+
+          # 5) Luo RCS-patch (old -> new)
+          diff -n prev.txt new.txt > "${SITE_DIR}/${REL_PATCH_PATH}" || true
+        env:
+          ISO: ${{ steps.ts.outputs.iso }}
+
+      - name: Commit & push gh-pages
+        working-directory: ${{ env.SITE_DIR }}
+        run: |
+          set -e
+          git config user.email "${GH_EMAIL}"
+          git config user.name  "${GH_NAME}"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish test.txt + diff (auto) at ${{ steps.ts.outputs.iso }}"
+            git push origin HEAD:gh-pages
+          else
+            echo "No changes to publish."
+          fi
