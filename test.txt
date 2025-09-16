@@ -7,6 +7,6 @@
 ! License: https://unlicense.org/
 
 ||example.com^
-example.net##.ad-banner
+example.net##.ad-banr
 domain.org###banner
 ||example.net^
