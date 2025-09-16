@@ -1507,6 +1507,3 @@ srk.fi#@##CookielawBanner
 @@/eu_cookie_compliance.min.js$script,domain=www.tek.fi
 
 ! -----UNBREAK END-----
-
-
-! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
