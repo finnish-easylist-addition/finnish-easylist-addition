@@ -8,7 +8,7 @@
 
 ||exle.net^
 example.net##.ad-banner
-domain.fi##banner
+domain.fi##nner
 ||exae.net^
 ||example.edu^
 ||jeejee.net^
