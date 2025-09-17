@@ -6,10 +6,10 @@
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 !
-||exle.net^
+||extgrgrle.net^
 example.net##.ad-bnner
-dodwdwdma##nner
+dma##nnerw
 !!!!
 random.domain.net
 !
-ddwdwdefesfe
+ddwdwdef
