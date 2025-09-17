@@ -7,7 +7,7 @@
 ! License: https://unlicense.org/
 !
 ||exle.net^
-example.net##.ad-bnnerdddddddddddd
-doma##nner
+example.net##.ad-bnner
+dodwdwdma##nner
 !
 random.domain.net
