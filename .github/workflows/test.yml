@@ -70,9 +70,9 @@ jobs:
 
           # 2) Lisää/päivitä Diff-Expires gh-pages-versioon
           if grep -qE '^! +Diff-Expires:' new.txt; then
-            sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_MIN} minutes/" new.txt
+            sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: 5 hours/" new.txt
           else
-            awk -v d="! Diff-Expires: ${DIFF_EXPIRES_MIN} minutes" '
+            awk -v d="! Diff-Expires: 5 hours" '
               {print}
               /^! Expires:/ && !done {print d; done=1}
             ' new.txt > new.tmp && mv new.tmp new.txt
