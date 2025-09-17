@@ -8,6 +8,6 @@
 !
 ||exle.net^
 example.net##.ad-bnner
-domain.fi##nner
+doma##nner
 !
 random.domain.net
