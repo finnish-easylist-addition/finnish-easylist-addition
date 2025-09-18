@@ -3,12 +3,11 @@
 ! Description: Test list
 ! Expires: 4 days
 ! Diff-Expires: 5 hours
-! Diff-Path: patches/test-m-29303775-300.patch
-! Last modified: Thu, 18 Sep 2025 23:15:22 +0300
+! Diff-Path: patches/test-m-29303779-300.patch
+! Last modified: Thu, 18 Sep 2025 23:19:48 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 !
 ||extgrgrle.net^wdwdw
-random.domain.netdaswdec
-||ipjdwpdjwipdw.net
-?!ddddaedfse
+random
+
