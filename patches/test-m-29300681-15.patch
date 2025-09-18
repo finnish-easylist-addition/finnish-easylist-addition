@@ -1,9 +1,0 @@
-d5 1
-a5 3
-! Diff-Expires: 15 minutes
-! Diff-Path: patches/test-m-29300681-15.patch
-! Last modified: Tue, 16 Sep 2025 19:41:21 +0300
-d11 1
-a11 2
-example.net##.ad-banner
-domain.org###banner
