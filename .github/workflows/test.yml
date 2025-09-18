@@ -13,11 +13,11 @@ jobs:
     env:
       GH_EMAIL: "actions@users.noreply.github.com"
       GH_NAME:  "github-actions[bot]"
-      SITE_DIR: "site"
-      PATCH_DIR: "patches"
-      DIFF_RESOLUTION: "m"
-      DIFF_EXPIRES_MIN: "300"
-      LIST_FILE: "test.txt"
+      SITE_DIR: "site"         # gh-pages worktree
+      PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
+      DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
+      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch
+      LIST_FILE: "test.txt"    # vain tämä tiedosto
 
     steps:
       - name: Checkout master
@@ -40,12 +40,12 @@ jobs:
           echo "rfc2822=${RFC2822}"   >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + RCS patch
+      - name: Build gh-pages version + RCS patch (absolute Diff-Path)
         run: |
           set -euo pipefail
 
-          SRC="${LIST_FILE}"                  # master versio
-          DEST="${SITE_DIR}/${LIST_FILE}"     # gh-pages kohde
+          SRC="${LIST_FILE}"                  # master-versio
+          DEST="${SITE_DIR}/${LIST_FILE}"     # gh-pages-kohde
 
           # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
           if [[ -f "${DEST}" ]]; then
@@ -57,18 +57,33 @@ jobs:
           # uusin master-versio
           cp "${SRC}" new_raw.txt
 
-          # 1) Korvaa "Last modified: %timestamp%" täsmälleen samalla formaatilla kuin main.yml
+          #
+          # 1) Päivitä/ lisää '! Last modified:' (täsmälleen RFC 2822, Europe/Helsinki)
+          #
           if grep -qE '^! +Last modified:' new_raw.txt; then
             sed -E "s/^! +Last modified:.*$/! Last modified: ${RFC2822}/" new_raw.txt > new.txt
           else
-            # jos puuttuu, lisätään Description-rivin jälkeen
-            awk -v lm="! Last modified: ${RFC2822}" '
-              {print}
-              /^! Description:/ && !done {print lm; done=1}
-            ' new_raw.txt > new.txt
+            # jos puuttuu, lisätään Description-rivin jälkeen; jos sitäkään ei ole, Title-rivin jälkeen; muussa tapauksessa alkuun
+            if grep -qE '^! +Description:' new_raw.txt; then
+              awk -v lm="! Last modified: ${RFC2822}" '
+                {print}
+                /^! Description:/ && !done {print lm; done=1}
+              ' new_raw.txt > new.txt
+            elif grep -qE '^! +Title:' new_raw.txt; then
+              awk -v lm="! Last modified: ${RFC2822}" '
+                {print}
+                /^! Title:/ && !done {print lm; done=1}
+              ' new_raw.txt > new.txt
+            else
+              printf '! Last modified: %s\n' "${RFC2822}" > new.txt
+              cat new_raw.txt >> new.txt
+            fi
           fi
 
-          # 2) Lisää/päivitä Diff-Expires gh-pages-versioon
+          #
+          # 2) Lisää/päivitä Diff-Expires (uBO:lle selkeästi tunneissa)
+          #    HUOM: emme koske '! Expires:'-riviin lainkaan.
+          #
           if grep -qE '^! +Diff-Expires:' new.txt; then
             sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: 5 hours/" new.txt
           else
@@ -78,24 +93,31 @@ jobs:
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # 3) Luo Diff-Path nimen speksin mukaan ja lisää/korvaa se
+          #
+          # 3) Luo patchin nimi ja ABSOLUUTTINEN Diff-Path (raw/gh-pages)
+          #
           PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
+          BASE_RAW="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/refs/heads/gh-pages"
+          ABS_PATCH_URL="${BASE_RAW}/${REL_PATCH_PATH}"
 
           if grep -qE '^! +Diff-Path:' new.txt; then
-            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#" new.txt
+            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${ABS_PATCH_URL}#" new.txt
           else
-            awk -v p="! Diff-Path: ${REL_PATCH_PATH}" '
+            awk -v p="! Diff-Path: ${ABS_PATCH_URL}" '
               {print}
               /^! Diff-Expires:/ && !done {print p; done=1}
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # 4) Kirjoita gh-pages/test.txt
+          # sanity check: Diff-Path viittaa juuri luotavaan patchiin
+          grep -qE "^! Diff-Path: ${ABS_PATCH_URL}$" new.txt || { echo "ERROR: Diff-Path mismatch"; echo "Expected: ${ABS_PATCH_URL}"; exit 1; }
+
+          #
+          # 4) Kirjoita gh-pages/test.txt ja generoi RCS-patch (old -> new)
+          #
           mkdir -p "$(dirname "${DEST}")"
           cp new.txt "${DEST}"
-
-          # 5) Luo RCS-patch (old -> new)
           diff -n prev.txt new.txt > "${SITE_DIR}/${REL_PATCH_PATH}" || true
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
