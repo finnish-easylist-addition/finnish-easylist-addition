@@ -1,0 +1,8 @@
+d6 2
+a7 2
+! Diff-Path: #patches/test-m-29305217-300.patch
+! Last modified: Fri, 19 Sep 2025 23:17:57 +0300
+d11 1
+a13 2
+blahblah^
+example.com
