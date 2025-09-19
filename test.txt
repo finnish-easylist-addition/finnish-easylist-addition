@@ -6,6 +6,7 @@
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 !
-||extgrgrle.net^wdwdw
 random
 ||et^
+blahblah^
+example.com
