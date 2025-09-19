@@ -37,10 +37,10 @@ jobs:
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
           EPOCH_MIN=$(( $(date -u +%s) / 60 ))
-          echo "rfc2822=${RFC2822}"   >> $GITHUB_OUTPUT
+          echo "rfc2822=${RFC2822}"    >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + RCS patch (relative Diff-Path)
+      - name: Build gh-pages version + RCS patch (hash-prefixed Diff-Path)
         run: |
           set -euo pipefail
 
@@ -94,22 +94,22 @@ jobs:
           fi
 
           #
-          # 3) Luo patchin nimi ja suhteellinen Diff-Path
+          # 3) Luo patchin nimi ja kirjoita Diff-Path hash-etuliitteellä (raw-yhteensopiva)
           #
           PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
           if grep -qE '^! +Diff-Path:' new.txt; then
-            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#" new.txt
+            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: #${REL_PATCH_PATH}#" new.txt
           else
-            awk -v p="! Diff-Path: ${REL_PATCH_PATH}" '
+            awk -v p="! Diff-Path: #${REL_PATCH_PATH}" '
               {print}
               /^! Diff-Expires:/ && !done {print p; done=1}
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # sanity check: Diff-Path viittaa juuri luotavaan patchiin (suhteellisena)
-          grep -qE "^! Diff-Path: ${REL_PATCH_PATH}$" new.txt || { echo "ERROR: Diff-Path mismatch"; echo "Expected: ${REL_PATCH_PATH}"; exit 1; }
+          # sanity check: Diff-Path viittaa juuri luotavaan patchiin
+          grep -qE "^! Diff-Path: #${REL_PATCH_PATH}$" new.txt || { echo "ERROR: Diff-Path mismatch"; echo "Expected: #${REL_PATCH_PATH}"; exit 1; }
 
           #
           # 4) Kirjoita gh-pages/test.txt ja generoi RCS-patch (old -> new)
