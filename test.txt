@@ -7,8 +7,4 @@
 ! License: https://unlicense.org/
 !
 randomrandom
-example.com
-!!!
-???
-ddd
-! ||iltalehti.fi^
+example.com^^^^^^^^
