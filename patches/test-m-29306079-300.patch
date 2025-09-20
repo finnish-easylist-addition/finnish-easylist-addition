@@ -1,0 +1,9 @@
+d3 1
+a3 1
+! Description: Test list A
+d6 2
+a7 2
+! Diff-Path: #patches/test-m-29306079-300.patch
+! Last modified: Sat, 20 Sep 2025 13:39:48 +0300
+a13 1
+ddd
