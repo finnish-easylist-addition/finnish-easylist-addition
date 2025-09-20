@@ -1,7 +1,0 @@
-diff name:test.txt checksum:ae801384191225f5864a2650e74caa826f36a6e2 lines:6
-d6 2
-a7 2
-! Diff-Path: patches/test-m-29306414-300.patch#test.txt
-! Last modified: Sat, 20 Sep 2025 19:14:29 +0300
-a12 1
-random.net.domain
