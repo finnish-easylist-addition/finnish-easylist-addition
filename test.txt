@@ -8,5 +8,4 @@
 !
 random
 ||et^
-blahblah^
 example.com
