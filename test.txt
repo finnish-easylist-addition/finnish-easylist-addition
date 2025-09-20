@@ -8,3 +8,4 @@
 !
 randomrandom
 example.com^^^^^^^^
+random.net.domain
