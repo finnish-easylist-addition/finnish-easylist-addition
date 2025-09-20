@@ -1,11 +1,12 @@
-diff name:test.txt checksum:9b66ceae4a7c7825e35fa871257111cf0003f4a4 lines:10
+diff name:test.txt checksum:dc67b0aaacf4372b71ee78f8583d431e3e263ec8 lines:11
 d6 2
 a7 2
 ! Diff-Path: patches/test-m-29306446-300.patch#test.txt
-! Last modified: Sat, 20 Sep 2025 19:46:17 +0300
+! Last modified: Sat, 20 Sep 2025 19:46:28 +0300
 d11 2
-a12 4
+a12 5
 random
 !!!!!
 example.com
-.foo.foo.foo
+.foo
+.daa
