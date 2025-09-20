@@ -10,4 +10,4 @@ randomrandom
 example.com
 !!!
 ddd
-||iltalehti.fi^
+! ||iltalehti.fi^
