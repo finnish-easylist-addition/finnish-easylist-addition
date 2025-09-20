@@ -1,4 +1,4 @@
-name: Publish test.txt with differential updates
+name: Publish test.txt with differential updates (uBO + AdGuard)
 
 on:
   push:
@@ -37,15 +37,15 @@ jobs:
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
           EPOCH_MIN=$(( $(date -u +%s) / 60 ))
-          echo "rfc2822=${RFC2822}"    >> $GITHUB_OUTPUT
+          echo "rfc2822=${RFC2822}"     >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + RCS patch (hash-prefixed Diff-Path)
+      - name: Build gh-pages version + BUNDLE RCS patch for uBO
         run: |
           set -euo pipefail
 
-          SRC="${LIST_FILE}"                  # master-versio
-          DEST="${SITE_DIR}/${LIST_FILE}"     # gh-pages-kohde
+          SRC="${LIST_FILE}"                      # master-versio (sis. %timestamp%)
+          DEST="${SITE_DIR}/${LIST_FILE}"         # gh-pages-kohde
 
           # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
           if [[ -f "${DEST}" ]]; then
@@ -54,16 +54,11 @@ jobs:
             touch prev.txt
           fi
 
-          # uusin master-versio
+          # kopioi uusin master-versio ja korvaa Last modified RFC 2822 -ajalla
           cp "${SRC}" new_raw.txt
-
-          #
-          # 1) Päivitä/ lisää '! Last modified:' (täsmälleen RFC 2822, Europe/Helsinki)
-          #
           if grep -qE '^! +Last modified:' new_raw.txt; then
             sed -E "s/^! +Last modified:.*$/! Last modified: ${RFC2822}/" new_raw.txt > new.txt
           else
-            # jos puuttuu, lisätään Description-rivin jälkeen; jos ei ole Descriptionia, Title-rivin jälkeen; muussa tapauksessa alkuun
             if grep -qE '^! +Description:' new_raw.txt; then
               awk -v lm="! Last modified: ${RFC2822}" '
                 {print}
@@ -80,10 +75,7 @@ jobs:
             fi
           fi
 
-          #
-          # 2) Lisää/päivitä Diff-Expires (uBO:lle selkeästi tunneissa)
-          #    HUOM: emme koske '! Expires:'-riviin lainkaan.
-          #
+          # lisää/päivitä Diff-Expires (uBO:lle selkeästi tunneissa) — Expires-riviin ei kosketa
           if grep -qE '^! +Diff-Expires:' new.txt; then
             sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: 5 hours/" new.txt
           else
@@ -93,30 +85,39 @@ jobs:
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          #
-          # 3) Luo patchin nimi ja kirjoita Diff-Path hash-etuliitteellä (raw-yhteensopiva)
-          #
+          # Luo patchin nimi ja suhteellinen polku
           PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
+          # päivitä/lisää Diff-Path suhteellisena + lohkonimi #test.txt (uBO bundle-valinta)
           if grep -qE '^! +Diff-Path:' new.txt; then
-            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: #${REL_PATCH_PATH}#" new.txt
+            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#test.txt#" new.txt
           else
-            awk -v p="! Diff-Path: #${REL_PATCH_PATH}" '
+            awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
               {print}
               /^! Diff-Expires:/ && !done {print p; done=1}
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # sanity check: Diff-Path viittaa juuri luotavaan patchiin
-          grep -qE "^! Diff-Path: #${REL_PATCH_PATH}$" new.txt || { echo "ERROR: Diff-Path mismatch"; echo "Expected: #${REL_PATCH_PATH}"; exit 1; }
+          # sanity check: Diff-Path vastaa juuri luotavaa patchia (+ lohkonimi)
+          grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; exit 1; }
 
-          #
-          # 4) Kirjoita gh-pages/test.txt ja generoi RCS-patch (old -> new)
-          #
+          # Kirjoita uusi gh-pages versio
           mkdir -p "$(dirname "${DEST}")"
           cp new.txt "${DEST}"
-          diff -n prev.txt new.txt > "${SITE_DIR}/${REL_PATCH_PATH}" || true
+
+          # RCS-diff (old -> new)
+          diff -n prev.txt new.txt > raw.patch || true
+
+          # Laske checksum (SHA1) uuden TIEDOSTON sisällöstä ja patch-rivien lukumäärä
+          SHA1_FULL=$(sha1sum new.txt | awk '{print $1}')
+          LINES=$(wc -l < raw.patch | tr -d ' ')
+
+          # Kirjoita BUNDLE-patch uBO:lle: header + RCS-runko
+          {
+            echo "diff name:test.txt checksum:${SHA1_FULL} lines:${LINES}"
+            cat raw.patch
+          } > "${SITE_DIR}/${REL_PATCH_PATH}"
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
 
