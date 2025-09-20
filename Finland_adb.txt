@@ -615,6 +615,10 @@ kotimikro.fi##.wg-banner
 koululainen.fi#?#.article__body > p:has-text(/^\xA0$/)
 kukasoitti.com##a[href*='adsrv']
 kukasoitti.com##div[class=main-bottom]
+kuka-soitti.fi##.text-center:has(> a[rel="nofollow noopener"][href])
+kuka-soitti.fi#?#body > .container:not(.mb-5, :has(.mb-5)):has-text(Mainos)
+kuka-soitti.fi#?#p.text-center:has-text(Mainos)
+kuka-soitti.fi#?#p.text-center:has-text(laina)
 kuljetusnet.fi###middle
 kuljetusnet.fi##div[class*=banner]
 kulutusluottovertailu.fi##.fusion-carousel
