@@ -9,4 +9,5 @@
 random
 !!!!!
 example.com
-.foo.foo.foo
+.foo
+.daa
