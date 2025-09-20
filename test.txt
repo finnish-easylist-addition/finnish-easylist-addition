@@ -7,5 +7,3 @@
 ! License: https://unlicense.org/
 !
 randomrandom
-example.com^^^^^^^^
-random.net.domain
