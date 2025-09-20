@@ -1,4 +1,4 @@
-name: Publish test.txt with differential updates (uBO + AdGuard)
+name: Publish test.txt with differential updates (uBO + AdGuard, catch-up)
 
 on:
   push:
@@ -15,9 +15,11 @@ jobs:
       GH_NAME:  "github-actions[bot]"
       SITE_DIR: "site"         # gh-pages worktree
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
+      BASES_DIR: "bases/test"  # snapshotit gh-pagesissa
       DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
       DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch (nimen osa)
-      LIST_FILE: "test.txt"    # vain tämä tiedosto
+      LIST_FILE: "test.txt"    # käsitellään vain tämä tiedosto
+      RETENTION_DAYS: "30"     # säilytä 30 päivää
 
     steps:
       - name: Checkout master
@@ -30,22 +32,24 @@ jobs:
           set -e
           git fetch --depth=1 origin gh-pages:gh-pages || true
           git worktree add "${SITE_DIR}" gh-pages || git checkout gh-pages
-          mkdir -p "${SITE_DIR}/${PATCH_DIR}"
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_DIR}"
 
       - name: Compute timestamps (RFC 2822, Europe/Helsinki)
         id: ts
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
           EPOCH_MIN=$(( $(date -u +%s) / 60 ))
-          echo "rfc2822=${RFC2822}"     >> $GITHUB_OUTPUT
-          echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
+          NOW_EPOCH=$(date -u +%s)
+          echo "rfc2822=${RFC2822}"      >> $GITHUB_OUTPUT
+          echo "epoch_min=${EPOCH_MIN}"  >> $GITHUB_OUTPUT
+          echo "now_epoch=${NOW_EPOCH}"  >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + BUNDLE RCS patch for uBO
+      - name: Build gh-pages version + regenerate ALL bundle patches (catch-up)
         run: |
           set -euo pipefail
 
           SRC="${LIST_FILE}"                      # master-versio (sis. %timestamp%)
-          DEST="${SITE_DIR}/${LIST_FILE}"         # gh-pages-kohde
+          DEST="${SITE_DIR}/${LIST_FILE}"         # gh-pages/test.txt
 
           # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
           if [[ -f "${DEST}" ]]; then
@@ -54,8 +58,10 @@ jobs:
             touch prev.txt
           fi
 
-          # kopioi uusin master-versio ja korvaa Last modified RFC 2822 -ajalla
+          # 1) Rakenna uusi gh-pages/test.txt: korvaa Last modified, lisää/korvaa Diff-Expires, Diff-Path (#test.txt)
           cp "${SRC}" new_raw.txt
+
+          # 1a) Last modified (RFC 2822, Europe/Helsinki)
           if grep -qE '^! +Last modified:' new_raw.txt; then
             sed -E "s/^! +Last modified:.*$/! Last modified: ${RFC2822}/" new_raw.txt > new.txt
           else
@@ -75,7 +81,7 @@ jobs:
             fi
           fi
 
-          # lisää/päivitä Diff-Expires (uBO:lle selkeästi tunneissa) — Expires-riviin ei kosketa
+          # 1b) Diff-Expires (älä koske ! Expires -riviin)
           if grep -qE '^! +Diff-Expires:' new.txt; then
             sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: 5 hours/" new.txt
           else
@@ -85,11 +91,10 @@ jobs:
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # Luo patchin nimi ja suhteellinen polku
+          # 1c) Luo tämän julkaisun patch-nimi ja Diff-Path (#test.txt)
           PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
-          # päivitä/lisää Diff-Path suhteellisena + lohkonimi #test.txt (uBO bundle-valinta)
           if grep -qE '^! +Diff-Path:' new.txt; then
             sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#test.txt#" new.txt
           else
@@ -99,25 +104,56 @@ jobs:
             ' new.txt > new.tmp && mv new.tmp new.txt
           fi
 
-          # sanity check: Diff-Path vastaa juuri luotavaa patchia (+ lohkonimi)
+          # sanity: Diff-Path on juuri luotava tiedosto + lohkonimi
           grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; exit 1; }
 
-          # Kirjoita uusi gh-pages versio
+          # 2) Kirjoita uusi gh-pages versio
           mkdir -p "$(dirname "${DEST}")"
           cp new.txt "${DEST}"
 
-          # RCS-diff (old -> new)
-          diff -n prev.txt new.txt > raw.patch || true
+          # 3) Tallenna SNAPSHOT nykyisestä versiosta tulevia catch-up patcheja varten
+          SNAP_BASE="${SITE_DIR}/${BASES_DIR}/test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          cp new.txt "${SNAP_BASE}"
 
-          # Laske checksum (SHA1) uuden TIEDOSTON sisällöstä ja patch-rivien lukumäärä
+          # 4) Regeneroi KAIKKI snapshotit -> NYKYINEN (bundle patch), ylikirjoita vastaavat patchit
+          NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
+          RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
           SHA1_FULL=$(sha1sum new.txt | awk '{print $1}')
-          LINES=$(wc -l < raw.patch | tr -d ' ')
 
-          # Kirjoita BUNDLE-patch uBO:lle: header + RCS-runko
-          {
-            echo "diff name:test.txt checksum:${SHA1_FULL} lines:${LINES}"
-            cat raw.patch
-          } > "${SITE_DIR}/${REL_PATCH_PATH}"
+          shopt -s nullglob
+          for BF in "${SITE_DIR}/${BASES_DIR}"/test-*-*.base.txt; do
+            BN=$(basename "$BF")                  # esim. test-m-29301234-300.base.txt
+            ID="${BN%.base.txt}"                  # test-m-29301234-300
+            # poimi epoch_min (= toinen numero väliviivojen välissä)
+            EPOCH_MIN=$(echo "$ID" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+$/\1/p' || true)
+
+            # jos nimi ei täsmää kaavaan, ohita
+            if [[ -z "${EPOCH_MIN}" ]]; then
+              echo "Skip unknown base filename: $BN"
+              continue
+            fi
+
+            AGE=$(( NOW_EPOCH - EPOCH_MIN * 60 ))
+
+            # Retention: poista liian vanhat snapshotit + patchit
+            if (( AGE > RETENTION_SEC )); then
+              echo "Prune >${RETENTION_DAYS}d: $BN"
+              rm -f "${BF}"
+              rm -f "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+              continue
+            fi
+
+            # Generoi RCS-diff (base -> new)
+            diff -n "$BF" new.txt > raw.patch || true
+            LINES=$(wc -l < raw.patch | tr -d ' ')
+
+            # Kirjoita bundle: diff header + RCS-runko (ylikirjoita vanha patch samalla nimellä)
+            {
+              echo "diff name:test.txt checksum:${SHA1_FULL} lines:${LINES}"
+              cat raw.patch
+            } > "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+          done
+          shopt -u nullglob
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
 
