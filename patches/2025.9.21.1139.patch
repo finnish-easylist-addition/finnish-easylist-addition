@@ -1,16 +1,12 @@
-diff name:test.txt checksum:5f60cb4fc2ee694feaaaecbead9f6394c4b34bdd lines:15
+diff name:test.txt checksum:ca6b7eb371171045f181944657a6b98d3a5dcded lines:11
 d6 2
 a7 2
-! Diff-Path: patches/2025.9.21.1172.patch#test.txt
-! Last modified: Sun, 21 Sep 2025 22:32:28 +0300
+! Diff-Path: patches/2025.9.21.1192.patch#test.txt
+! Last modified: Sun, 21 Sep 2025 22:52:14 +0300
 a10 1
-
+! ???
 a11 1
-
-d13 2
-a14 5
-!
-!
-
-!
-
+! ???
+d13 3
+a15 1
+! ???
