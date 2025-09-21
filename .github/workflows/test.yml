@@ -1,4 +1,4 @@
-name: Publish test.txt with differential updates (uBO + AdGuard, catch-up)
+name: Publish test.txt with differential updates (uBO + AdGuard, catch-up, date-based patch names)
 
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
       SITE_DIR: "site"         # gh-pages worktree
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
       BASES_DIR: "bases/test"  # snapshotit gh-pagesissa
-      DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch
       LIST_FILE: "test.txt"    # käsitellään vain tämä tiedosto
       RETENTION_DAYS: "30"     # säilytä 30 päivää
+      DIFF_EXPIRES_HUMAN: "5 hours"  # listan headeriin
+      DIFF_EXPIRES_MIN: "300"        # ei nimessä, mutta jää saataville tarvittaessa
 
     steps:
       - name: Checkout master
@@ -38,13 +38,14 @@ jobs:
         id: ts
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
-          EPOCH_MIN=$(( $(date -u +%s) / 60 ))
           NOW_EPOCH=$(date -u +%s)
-          echo "rfc2822=${RFC2822}"      >> $GITHUB_OUTPUT
-          echo "epoch_min=${EPOCH_MIN}"  >> $GITHUB_OUTPUT
-          echo "now_epoch=${NOW_EPOCH}"  >> $GITHUB_OUTPUT
+          # minuutit UNIX-epochista (helpottaa snapshot-ikälogiikkaa)
+          EPOCH_MIN=$(( NOW_EPOCH / 60 ))
+          echo "rfc2822=${RFC2822}"     >> $GITHUB_OUTPUT
+          echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
+          echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + regenerate ALL bundle patches (catch-up)
+      - name: Build gh-pages version + regenerate ALL bundle patches (catch-up, date-based names)
         run: |
           set -euo pipefail
 
@@ -58,13 +59,10 @@ jobs:
             touch prev.txt
           fi
 
-          # 1) Lataa master-versio ja päivitä headerit deterministisesti awkilla
+          # 1) Rakenna uusi gh-pages/test.txt deterministisesti awkilla
           cp "${SRC}" new_raw.txt
 
-          # Rakennetaan new.txt:
-          #  - päivitettään/ lisätään ! Last modified: <RFC2822>
-          #  - säilytetään kaikki rivit, mutta poistetaan mahdolliset vanhat '! Diff-Path:'-rivit
-          #  - varmistetaan '! Diff-Expires: 5 hours' ja lisätään se heti '! Expires:'-rivin jälkeen (jos puuttuu)
+          # 1a) Päivitä/ Lisää '! Last modified: …' (RFC 2822, Europe/Helsinki)
           awk -v lm="! Last modified: ${RFC2822}" '
             BEGIN{ done_lm=0 }
             {
@@ -72,7 +70,7 @@ jobs:
                 if (!done_lm) { print lm; done_lm=1 }
                 next
               }
-              if ($0 ~ /^! +Diff-Path:/) { next }   # poista vanha Diff-Path
+              if ($0 ~ /^! +Diff-Path:/) { next }   # poistetaan vanha Diff-Path aina
               print
             }
             END {
@@ -80,68 +78,64 @@ jobs:
             }
           ' new_raw.txt > tmp1.txt
 
-          # Lisää/korvaa Diff-Expires (=5 hours). Jos puuttuu, lisää heti Expires-rivin perään.
-          awk '
-            BEGIN{ added=0 }
-            {
-              print $0
-              if ($0 ~ /^! +Expires:/) {
-                exppos=NR
-              }
-            }
-            END {
-              # tarkista oliko Diff-Expires valmiina
-            }
-          ' tmp1.txt > tmp1a.txt
-
-          # Korvaa mahdollinen olemassa oleva Diff-Expires, tai lisää jos puuttuu
-          if grep -qE '^! +Diff-Expires:' tmp1a.txt; then
-            sed -E 's/^! +Diff-Expires:.*/! Diff-Expires: 5 hours/' tmp1a.txt > tmp2.txt
+          # 1b) Lisää/korvaa Diff-Expires (=5 hours). Jos puuttuu, lisää heti Expires-rivin jälkeen.
+          if grep -qE '^! +Diff-Expires:' tmp1.txt; then
+            sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" tmp1.txt > tmp2.txt
           else
-            awk '
+            awk -v d="! Diff-Expires: ${DIFF_EXPIRES_HUMAN}" '
               BEGIN{ added=0 }
               {
                 print
                 if ($0 ~ /^! +Expires:/ && !added) {
-                  print "! Diff-Expires: 5 hours"
+                  print d
                   added=1
                 }
               }
               END {
-                if (!added) print "! Diff-Expires: 5 hours"
+                if (!added) print d
               }
-            ' tmp1a.txt > tmp2.txt
+            ' tmp1.txt > tmp2.txt
           fi
 
-          # 1c) Laske tämän julkaisun patchin nimi ja lisää uusi Diff-Path REL + #test.txt
-          PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
+          # 1c) Laske TÄMÄN JULKAISUN patchin nimi uBO-heuristiikan mukaiseksi (YYYY.M.D.MINS.patch), UTC-ajasta
+          NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
+          Y=$(date -u -d "@${NOW_EPOCH}" +%Y)
+          M=$(date -u -d "@${NOW_EPOCH}" +%-m)     # ilman etunollaa
+          D=$(date -u -d "@${NOW_EPOCH}" +%-d)     # ilman etunollaa
+          H=$(date -u -d "@${NOW_EPOCH}" +%H)
+          Mi=$(date -u -d "@${NOW_EPOCH}" +%M)
+          MINS=$(( 10#${H} * 60 + 10#${Mi} ))
+          PATCH_STEM="${Y}.${M}.${D}.${MINS}"
+          PATCH_NAME="${PATCH_STEM}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
-          awk -v p="! Diff-Path: " -v v="${REL_PATCH_PATH}#test.txt" '
+          # 1d) Lisää uusi Diff-Path suhteellisena + fragmentti #test.txt
+          awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
             BEGIN{ inserted=0 }
             {
               print
               if ($0 ~ /^! +Diff-Expires:/ && !inserted) {
-                print p v
+                print p
                 inserted=1
               }
             }
             END {
-              if (!inserted) print p v
+              if (!inserted) print p
             }
           ' tmp2.txt > new.txt
 
-          # sanity: Diff-Path on juuri luotava tiedosto + lohkonimi
+          # sanity: Diff-Path on juuri muodostettu nimi + #test.txt
           grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; sed -n '1,40p' new.txt; exit 1; }
 
           # 2) Kirjoita uusi gh-pages versio
+          mkdir -p "$(dirname "${DEST}")"
           cp new.txt "${DEST}"
 
-          # 3) Tallenna snapshot nykyisestä versiosta catch-upia varten
-          SNAP_BASE="${SITE_DIR}/${BASES_DIR}/test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          # 3) SNAPSHOT nykyisestä versiosta catch-upia varten (käytämme epoch_min-tunnistetta retentioniin)
+          SNAP_BASE="${SITE_DIR}/${BASES_DIR}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
           cp new.txt "${SNAP_BASE}"
 
-          # 4) Regeneroi KAIKKI snapshotit -> NYKYINEN (bundle patch), ylikirjoita vastaavat patchit
+          # 4) Regeneroi KAIKKI snapshotit -> NYKYINEN (bundle patch), ylikirjoita vastaavat YYYY.M.D.MINS.patch -tiedostot
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
           SHA1_FULL=$(sha1sum new.txt | awk '{print $1}')
@@ -150,24 +144,41 @@ jobs:
           for BF in "${SITE_DIR}/${BASES_DIR}"/test-*-*.base.txt; do
             BN=$(basename "$BF")                  # esim. test-m-29301234-300.base.txt
             ID="${BN%.base.txt}"                  # test-m-29301234-300
+
             # poimi epoch_min (= toinen numero väliviivojen välissä)
             EPOCH_MIN=$(echo "$ID" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+$/\1/p' || true)
-
-            # jos nimi ei täsmää kaavaan, ohita
             if [[ -z "${EPOCH_MIN}" ]]; then
               echo "Skip unknown base filename: $BN"
               continue
             fi
+            BASE_EPOCH=$(( EPOCH_MIN * 60 ))
+            AGE=$(( NOW_EPOCH - BASE_EPOCH ))
 
-            AGE=$(( NOW_EPOCH - EPOCH_MIN * 60 ))
-
-            # Retention: poista liian vanhat snapshotit + patchit
+            # Retention: poista liian vanhat snapshotit + vastaavat patchit
             if (( AGE > RETENTION_SEC )); then
-              echo "Prune >${RETENTION_DAYS}d: $BN"
+              # Laske patchin nimi tälle snapshotille jotta voidaan poistaa myös patch
+              BY=$(date -u -d "@${BASE_EPOCH}" +%Y)
+              BM=$(date -u -d "@${BASE_EPOCH}" +%-m)
+              BD=$(date -u -d "@${BASE_EPOCH}" +%-d)
+              BH=$(date -u -d "@${BASE_EPOCH}" +%H)
+              BMi=$(date -u -d "@${BASE_EPOCH}" +%M)
+              BMINS=$(( 10#${BH} * 60 + 10#${BMi} ))
+              BPATCH_STEM="${BY}.${BM}.${BD}.${BMINS}"
+              echo "Prune >${RETENTION_DAYS}d: $BN and ${BPATCH_STEM}.patch"
               rm -f "${BF}"
-              rm -f "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+              rm -f "${SITE_DIR}/${PATCH_DIR}/${BPATCH_STEM}.patch"
               continue
             fi
+
+            # Muodosta TÄLLE SNAPSHOTILLE oikea patchin nimi YYYY.M.D.MINS.patch (snapshotin ajasta)
+            BY=$(date -u -d "@${BASE_EPOCH}" +%Y)
+            BM=$(date -u -d "@${BASE_EPOCH}" +%-m)
+            BD=$(date -u -d "@${BASE_EPOCH}" +%-d)
+            BH=$(date -u -d "@${BASE_EPOCH}" +%H)
+            BMi=$(date -u -d "@${BASE_EPOCH}" +%M)
+            BMINS=$(( 10#${BH} * 60 + 10#${BMi} ))
+            BPATCH_STEM="${BY}.${BM}.${BD}.${BMINS}"
+            BPATCH_PATH="${SITE_DIR}/${PATCH_DIR}/${BPATCH_STEM}.patch"
 
             # Generoi RCS-diff (base -> new)
             diff -n "$BF" new.txt > raw.patch || true
@@ -177,17 +188,17 @@ jobs:
             {
               echo "diff name:test.txt checksum:${SHA1_FULL} lines:${LINES}"
               cat raw.patch
-            } > "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+            } > "${BPATCH_PATH}"
           done
           shopt -u nullglob
 
-          # 5) Pieni debug-printti lokiin (helpottaa varmistusta)
-          echo "==== HEAD(test.txt) ===="
+          # 5) Debug: tulosta header ja yhden patchin alku lokiin
+          echo "==== HEAD (test.txt) ===="
           sed -n '1,20p' "${DEST}" || true
           echo "==== SAMPLE PATCH HEAD ===="
-          ls -1 "${SITE_DIR}/${PATCH_DIR}"/test-*.patch | head -n1 | while read -r P; do
+          ls -1 "${SITE_DIR}/${PATCH_DIR}"/*.patch | head -n1 | while read -r P; do
             echo "Patch file: ${P}"
-            sed -n '1,5p' "$P"
+            sed -n '1,8p' "$P"
           done
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
