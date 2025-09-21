@@ -1,1 +1,6 @@
-diff name:test.txt checksum:95243d885c9dbb65e14692c08a2ce65fc3705a58 lines:0
+diff name:test.txt checksum:1127a0ded0b54c55b2ddc0a287d99ce742d3b6cb lines:5
+d6 2
+a7 2
+! Diff-Path: patches/test-m-29307342-300.patch#test.txt
+! Last modified: Sun, 21 Sep 2025 10:42:43 +0300
+d13 4
