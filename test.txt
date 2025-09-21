@@ -7,10 +7,6 @@
 ! License: https://unlicense.org/
 !
 !!!!!
-
-example.com
-
-
-.foo
-.daa
-ehkä
+new
+test
+!
