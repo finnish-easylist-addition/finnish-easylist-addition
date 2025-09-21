@@ -1,6 +1,6 @@
 [Adblock Plus 3.13]
 ! Title: Test list
-! Description: Test list A
+! Description: Test list
 ! Expires: 4 days
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
@@ -8,3 +8,6 @@
 !
 example.net^
 example.org^
+example.net^
+example.org^
+!
