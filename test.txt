@@ -6,8 +6,13 @@
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 !
+
 example.net^
+
 example.org^
-example.net^
-example.org^
+!
+!
+
+!
+
 !
