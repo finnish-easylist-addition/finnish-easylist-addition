@@ -17,7 +17,7 @@ jobs:
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
       BASES_DIR: "bases/test"  # snapshotit gh-pagesissa
       DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch (nimen osa)
+      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch
       LIST_FILE: "test.txt"    # käsitellään vain tämä tiedosto
       RETENTION_DAYS: "30"     # säilytä 30 päivää
 
@@ -48,7 +48,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          SRC="${LIST_FILE}"                      # master-versio (sis. %timestamp%)
+          SRC="${LIST_FILE}"                      # master-versio
           DEST="${SITE_DIR}/${LIST_FILE}"         # gh-pages/test.txt
 
           # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
@@ -58,7 +58,7 @@ jobs:
             touch prev.txt
           fi
 
-          # 1) Rakenna uusi gh-pages/test.txt: korvaa Last modified, lisää/korvaa Diff-Expires, Diff-Path (#test.txt)
+          # 1) Rakenna uusi gh-pages/test.txt: Last modified, Diff-Expires, Diff-Path (#test.txt)
           cp "${SRC}" new_raw.txt
 
           # 1a) Last modified (RFC 2822, Europe/Helsinki)
@@ -96,7 +96,8 @@ jobs:
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
           if grep -qE '^! +Diff-Path:' new.txt; then
-            sed -i "s#^! \+Diff-Path:.*#! Diff-Path: ${REL_PATCH_PATH}#test.txt#" new.txt
+            # KÄYTÄ | erotinta ja escapetaan #, jotta fragmentti varmasti kirjoittuu
+            sed -i "s|^! \+Diff-Path:.*$|! Diff-Path: ${REL_PATCH_PATH}\#test.txt|" new.txt
           else
             awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
               {print}
