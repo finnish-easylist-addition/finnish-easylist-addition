@@ -17,7 +17,7 @@ jobs:
       PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
       BASES_DIR: "bases/test"  # snapshotit gh-pagesissa
       DIFF_RESOLUTION: "m"     # m = minutes (nimiin)
-      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch (nimen osa)
+      DIFF_EXPIRES_MIN: "300"  # 5 h minuutteina -> ...-300.patch
       LIST_FILE: "test.txt"    # käsitellään vain tämä tiedosto
       RETENTION_DAYS: "30"     # säilytä 30 päivää
 
@@ -48,8 +48,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          SRC="${LIST_FILE}"                      # master-versio (sis. %timestamp%)
-          DEST="${SITE_DIR}/${LIST_FILE}"         # gh-pages/test.txt
+          SRC="${LIST_FILE}"
+          DEST="${SITE_DIR}/${LIST_FILE}"
 
           # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
           if [[ -f "${DEST}" ]]; then
@@ -58,62 +58,86 @@ jobs:
             touch prev.txt
           fi
 
-          # 1) Rakenna uusi gh-pages/test.txt: korvaa Last modified, lisää/korvaa Diff-Expires, Diff-Path (#test.txt)
+          # 1) Lataa master-versio ja päivitä headerit deterministisesti awkilla
           cp "${SRC}" new_raw.txt
 
-          # 1a) Last modified (RFC 2822, Europe/Helsinki)
-          if grep -qE '^! +Last modified:' new_raw.txt; then
-            sed -E "s/^! +Last modified:.*$/! Last modified: ${RFC2822}/" new_raw.txt > new.txt
+          # Rakennetaan new.txt:
+          #  - päivitettään/ lisätään ! Last modified: <RFC2822>
+          #  - säilytetään kaikki rivit, mutta poistetaan mahdolliset vanhat '! Diff-Path:'-rivit
+          #  - varmistetaan '! Diff-Expires: 5 hours' ja lisätään se heti '! Expires:'-rivin jälkeen (jos puuttuu)
+          awk -v lm="! Last modified: ${RFC2822}" '
+            BEGIN{ done_lm=0 }
+            {
+              if ($0 ~ /^! +Last modified:/) {
+                if (!done_lm) { print lm; done_lm=1 }
+                next
+              }
+              if ($0 ~ /^! +Diff-Path:/) { next }   # poista vanha Diff-Path
+              print
+            }
+            END {
+              if (!done_lm) print lm
+            }
+          ' new_raw.txt > tmp1.txt
+
+          # Lisää/korvaa Diff-Expires (=5 hours). Jos puuttuu, lisää heti Expires-rivin perään.
+          awk '
+            BEGIN{ added=0 }
+            {
+              print $0
+              if ($0 ~ /^! +Expires:/) {
+                exppos=NR
+              }
+            }
+            END {
+              # tarkista oliko Diff-Expires valmiina
+            }
+          ' tmp1.txt > tmp1a.txt
+
+          # Korvaa mahdollinen olemassa oleva Diff-Expires, tai lisää jos puuttuu
+          if grep -qE '^! +Diff-Expires:' tmp1a.txt; then
+            sed -E 's/^! +Diff-Expires:.*/! Diff-Expires: 5 hours/' tmp1a.txt > tmp2.txt
           else
-            if grep -qE '^! +Description:' new_raw.txt; then
-              awk -v lm="! Last modified: ${RFC2822}" '
-                {print}
-                /^! Description:/ && !done {print lm; done=1}
-              ' new_raw.txt > new.txt
-            elif grep -qE '^! +Title:' new_raw.txt; then
-              awk -v lm="! Last modified: ${RFC2822}" '
-                {print}
-                /^! Title:/ && !done {print lm; done=1}
-              ' new_raw.txt > new.txt
-            else
-              printf '! Last modified: %s\n' "${RFC2822}" > new.txt
-              cat new_raw.txt >> new.txt
-            fi
+            awk '
+              BEGIN{ added=0 }
+              {
+                print
+                if ($0 ~ /^! +Expires:/ && !added) {
+                  print "! Diff-Expires: 5 hours"
+                  added=1
+                }
+              }
+              END {
+                if (!added) print "! Diff-Expires: 5 hours"
+              }
+            ' tmp1a.txt > tmp2.txt
           fi
 
-          # 1b) Diff-Expires (älä koske ! Expires -riviin)
-          if grep -qE '^! +Diff-Expires:' new.txt; then
-            sed -i "s/^! \+Diff-Expires:.*/! Diff-Expires: 5 hours/" new.txt
-          else
-            awk -v d="! Diff-Expires: 5 hours" '
-              {print}
-              /^! Expires:/ && !done {print d; done=1}
-            ' new.txt > new.tmp && mv new.tmp new.txt
-          fi
-
-          # 1c) Luo tämän julkaisun patch-nimi ja Diff-Path (#test.txt)
+          # 1c) Laske tämän julkaisun patchin nimi ja lisää uusi Diff-Path REL + #test.txt
           PATCH_NAME="test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
-          if grep -qE '^! +Diff-Path:' new.txt; then
-            # KÄYTÄ eri erotinta (|) ja escapeta #, jotta fragmentti kirjoittuu varmasti
-            sed -i "s|^! \+Diff-Path:.*$|! Diff-Path: ${REL_PATCH_PATH}\#test.txt|" new.txt
-          else
-            # awk:ssa # ei ole erikoismerkki -> ei tarvitse escapea
-            awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
-              {print}
-              /^! Diff-Expires:/ && !done {print p; done=1}
-            ' new.txt > new.tmp && mv new.tmp new.txt
-          fi
+          awk -v p="! Diff-Path: " -v v="${REL_PATCH_PATH}#test.txt" '
+            BEGIN{ inserted=0 }
+            {
+              print
+              if ($0 ~ /^! +Diff-Expires:/ && !inserted) {
+                print p v
+                inserted=1
+              }
+            }
+            END {
+              if (!inserted) print p v
+            }
+          ' tmp2.txt > new.txt
 
           # sanity: Diff-Path on juuri luotava tiedosto + lohkonimi
-          grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; exit 1; }
+          grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; sed -n '1,40p' new.txt; exit 1; }
 
           # 2) Kirjoita uusi gh-pages versio
-          mkdir -p "$(dirname "${DEST}")"
           cp new.txt "${DEST}"
 
-          # 3) Tallenna SNAPSHOT nykyisestä versiosta tulevia catch-up patcheja varten
+          # 3) Tallenna snapshot nykyisestä versiosta catch-upia varten
           SNAP_BASE="${SITE_DIR}/${BASES_DIR}/test-${DIFF_RESOLUTION}-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
           cp new.txt "${SNAP_BASE}"
 
@@ -156,6 +180,15 @@ jobs:
             } > "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
           done
           shopt -u nullglob
+
+          # 5) Pieni debug-printti lokiin (helpottaa varmistusta)
+          echo "==== HEAD(test.txt) ===="
+          sed -n '1,20p' "${DEST}" || true
+          echo "==== SAMPLE PATCH HEAD ===="
+          ls -1 "${SITE_DIR}/${PATCH_DIR}"/test-*.patch | head -n1 | while read -r P; do
+            echo "Patch file: ${P}"
+            sed -n '1,5p' "$P"
+          done
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
 
