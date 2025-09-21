@@ -96,9 +96,10 @@ jobs:
           REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
 
           if grep -qE '^! +Diff-Path:' new.txt; then
-            # KÄYTÄ eri erotinta ja escapeta #, jotta fragmentti todella kirjoittuu
+            # KÄYTÄ eri erotinta (|) ja escapeta #, jotta fragmentti kirjoittuu varmasti
             sed -i "s|^! \+Diff-Path:.*$|! Diff-Path: ${REL_PATCH_PATH}\#test.txt|" new.txt
           else
+            # awk:ssa # ei ole erikoismerkki -> ei tarvitse escapea
             awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
               {print}
               /^! Diff-Expires:/ && !done {print p; done=1}
