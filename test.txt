@@ -7,5 +7,4 @@
 ! License: https://unlicense.org/
 !
 example.net^
-example.net^
-example.net^
+example.org^
