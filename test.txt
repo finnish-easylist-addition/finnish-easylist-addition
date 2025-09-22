@@ -5,9 +5,5 @@
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
-!
-! ???
-example.net^
-! ???
-example.org^
-! ???
+
+! New test
