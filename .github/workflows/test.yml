@@ -1,4 +1,4 @@
-name: Publish test.txt with differential updates (uBO + AdGuard, catch-up)
+name: Publish test.txt → uBO + AdGuard (diff + catch-up)
 
 on:
   push:
@@ -7,19 +7,21 @@ on:
       - 'test.txt'
 
 jobs:
-  publish-test:
+  publish:
     runs-on: ubuntu-latest
-
     env:
       GH_EMAIL: "actions@users.noreply.github.com"
       GH_NAME:  "github-actions[bot]"
-      SITE_DIR: "site"         # gh-pages worktree
-      PATCH_DIR: "patches"     # patch-kansio gh-pagesissa
-      BASES_DIR: "bases/test"  # snapshotit gh-pagesissa
-      LIST_FILE: "test.txt"    # käsitellään vain tämä tiedosto
-      RETENTION_DAYS: "30"     # säilytä 30 päivää
-      DIFF_EXPIRES_HUMAN: "5 hours"  # listan headeriin
-      DIFF_EXPIRES_MIN: "300"        # AdGuardin vaatima numero tiedostonimeen
+      SITE_DIR: "site"                 # gh-pages worktree
+      PATCH_DIR: "patches"             # patchit gh-pagesissa
+      BASES_UBO: "bases/test-ubo"      # snapshotit (uBO)
+      BASES_AG:  "bases/testAG"        # snapshotit (AdGuard)
+      SRC_FILE:  "test.txt"            # masterissa
+      OUT_UBO:   "test.txt"            # gh-pages/uBO-lista
+      OUT_AG:    "testAG.txt"          # gh-pages/AdGuard-lista
+      RETENTION_DAYS: "30"
+      DIFF_EXPIRES_HUMAN: "5 hours"
+      DIFF_EXPIRES_MIN:   "300"        # AdGuard-nimen loppuosa
 
     steps:
       - name: Checkout master
@@ -32,149 +34,151 @@ jobs:
           set -e
           git fetch --depth=1 origin gh-pages:gh-pages || true
           git worktree add "${SITE_DIR}" gh-pages || git checkout gh-pages
-          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_DIR}"
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_UBO}" "${SITE_DIR}/${BASES_AG}"
 
-      - name: Compute timestamps (RFC 2822, Europe/Helsinki)
+      - name: Compute timestamps
         id: ts
         run: |
-          RFC2822=$(TZ=Europe/Helsinki date -R)
-          NOW_EPOCH=$(date -u +%s)
-          EPOCH_MIN=$(( NOW_EPOCH / 60 ))
+          RFC2822=$(TZ=Europe/Helsinki date -R)   # ihmisluettava
+          NOW_EPOCH=$(date -u +%s)                # s
+          EPOCH_MIN=$(( NOW_EPOCH / 60 ))         # min (AdGuard-nimen keskiosa)
           echo "rfc2822=${RFC2822}"     >> $GITHUB_OUTPUT
           echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages version + regenerate ALL bundle patches (catch-up)
+      - name: Build uBO + AdGuard lists (headers) from master/test.txt
         run: |
           set -euo pipefail
+          SRC="${SRC_FILE}"
+          DEST_UBO="${SITE_DIR}/${OUT_UBO}"
+          DEST_AG="${SITE_DIR}/${OUT_AG}"
 
-          SRC="${LIST_FILE}"
-          DEST="${SITE_DIR}/${LIST_FILE}"
+          cp "${SRC}" base_raw.txt
 
-          # edellinen julkaistu versio (jos ei ole, tyhjä tiedosto)
-          if [[ -f "${DEST}" ]]; then
-            cp "${DEST}" prev.txt
-          else
-            touch prev.txt
-          fi
-
-          # 1) Rakenna uusi gh-pages/test.txt deterministisesti awkilla
-          cp "${SRC}" new_raw.txt
-
-          # 1a) Päivitä/ Lisää '! Last modified: …' (RFC 2822, Europe/Helsinki) ja poista vanha Diff-Path
+          # --- Yleisheaderien päivitys (poista vanha Diff-Path; päivitä Last modified) ---
           awk -v lm="! Last modified: ${RFC2822}" '
             BEGIN{ done_lm=0 }
             {
-              if ($0 ~ /^! +Last modified:/) {
-                if (!done_lm) { print lm; done_lm=1 }
-                next
-              }
-              if ($0 ~ /^! +Diff-Path:/) { next }   # poistetaan vanha Diff-Path aina
+              if ($0 ~ /^! +Last modified:/) { if (!done_lm) { print lm; done_lm=1 }; next }
+              if ($0 ~ /^! +Diff-Path:/)     { next }  # poistetaan aina vanha Diff-Path
               print
             }
-            END {
-              if (!done_lm) print lm
-            }
-          ' new_raw.txt > tmp1.txt
+            END { if (!done_lm) print lm }
+          ' base_raw.txt > tmp_common.txt
 
-          # 1b) Lisää/korvaa Diff-Expires (=5 hours). Jos puuttuu, lisää heti Expires-rivin jälkeen.
-          if grep -qE '^! +Diff-Expires:' tmp1.txt; then
-            sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" tmp1.txt > tmp2.txt
+          # --- Diff-Expires: 5 hours (säilytä Expires koskematta) ---
+          if grep -qE '^! +Diff-Expires:' tmp_common.txt; then
+            sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" tmp_common.txt > tmp_common2.txt
           else
             awk -v d="! Diff-Expires: ${DIFF_EXPIRES_HUMAN}" '
               BEGIN{ added=0 }
-              {
-                print
-                if ($0 ~ /^! +Expires:/ && !added) {
-                  print d
-                  added=1
-                }
-              }
-              END {
-                if (!added) print d
-              }
-            ' tmp1.txt > tmp2.txt
+              { print; if ($0 ~ /^! +Expires:/ && !added) { print d; added=1 } }
+              END { if (!added) print d }
+            ' tmp_common.txt > tmp_common2.txt
           fi
 
-          # 1c) Laske TÄMÄN JULKAISUN patchin nimi AdGuard-muodossa: test-m-<epochMin>-<expires>.patch
-          PATCH_NAME="test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
-          REL_PATCH_PATH="${PATCH_DIR}/${PATCH_NAME}"
+          # === UBO-VERSIO (out: test.txt) ===
+          NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
+          Y=$(date -u -d "@${NOW_EPOCH}" +%Y)
+          M=$(date -u -d "@${NOW_EPOCH}" +%-m)
+          D=$(date -u -d "@${NOW_EPOCH}" +%-d)
+          H=$(date -u -d "@${NOW_EPOCH}" +%H)
+          Mi=$(date -u -d "@${NOW_EPOCH}" +%M)
+          MINS=$(( 10#${H}*60 + 10#${Mi} ))
+          PATCH_UBO_STEM="${Y}.${M}.${D}.${MINS}"
+          REL_PATCH_UBO="${PATCH_DIR}/${PATCH_UBO_STEM}.patch"
 
-          # 1d) Lisää uusi Diff-Path suhteellisena + fragmentti #test.txt (uBO:n lohkon valinta)
-          awk -v p="! Diff-Path: ${REL_PATCH_PATH}#test.txt" '
+          awk -v p="! Diff-Path: ${REL_PATCH_UBO}#test.txt" '
             BEGIN{ inserted=0 }
-            {
-              print
-              if ($0 ~ /^! +Diff-Expires:/ && !inserted) {
-                print p
-                inserted=1
-              }
-            }
-            END {
-              if (!inserted) print p
-            }
-          ' tmp2.txt > new.txt
+            { print; if ($0 ~ /^! +Diff-Expires:/ && !inserted) { print p; inserted=1 } }
+            END { if (!inserted) print p }
+          ' tmp_common2.txt > new_ubo.txt
 
-          # sanity: Diff-Path on juuri muodostettu nimi + #test.txt
-          grep -qE "^! Diff-Path: ${REL_PATCH_PATH}#test.txt$" new.txt || { echo "ERROR: Diff-Path mismatch"; sed -n '1,40p' new.txt; exit 1; }
+          grep -qE "^! Diff-Path: ${REL_PATCH_UBO}#test.txt$" new_ubo.txt || { echo "uBO Diff-Path mismatch"; sed -n '1,40p' new_ubo.txt; exit 1; }
+          cp new_ubo.txt "${DEST_UBO}"
 
-          # 2) Kirjoita uusi gh-pages versio
-          mkdir -p "$(dirname "${DEST}")"
-          cp new.txt "${DEST}"
+          # === ADGUARD-VERSIO (out: testAG.txt) ===
+          PATCH_AG_NAME="testAG-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
+          REL_PATCH_AG="${PATCH_DIR}/${PATCH_AG_NAME}"
 
-          # 3) SNAPSHOT nykyisestä versiosta catch-upia varten (epoch_min tunnisteena retentioniin)
-          SNAP_BASE="${SITE_DIR}/${BASES_DIR}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
-          cp new.txt "${SNAP_BASE}"
+          awk -v p="! Diff-Path: ${REL_PATCH_AG}#testAG.txt" '
+            BEGIN{ inserted=0 }
+            { print; if ($0 ~ /^! +Diff-Expires:/ && !inserted) { print p; inserted=1 } }
+            END { if (!inserted) print p }
+          ' tmp_common2.txt > new_ag.txt
 
-          # 4) Regeneroi KAIKKI snapshotit -> NYKYINEN (bundle patch), ylikirjoita vastaavat test-m-<epochMin>-<expires>.patch -tiedostot
+          grep -qE "^! Diff-Path: ${REL_PATCH_AG}#testAG.txt$" new_ag.txt || { echo "AG Diff-Path mismatch"; sed -n '1,40p' new_ag.txt; exit 1; }
+          cp new_ag.txt "${DEST_AG}"
+        env:
+          RFC2822: ${{ steps.ts.outputs.rfc2822 }}
+
+      - name: Snapshot current versions for catch-up (uBO + AG)
+        run: |
+          set -e
+          SNAP_UBO="${SITE_DIR}/${BASES_UBO}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          SNAP_AG="${SITE_DIR}/${BASES_AG}/testAG-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          cp "${SITE_DIR}/${OUT_UBO}" "${SNAP_UBO}"
+          cp "${SITE_DIR}/${OUT_AG}"  "${SNAP_AG}"
+
+      - name: Regenerate ALL patches (catch-up) and prune >${{ env.RETENTION_DAYS }}d
+        run: |
+          set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
-          SHA1_FULL=$(sha1sum new.txt | awk '{print $1}')
 
+          # --- UBO: regen all bases → patches/YYYY.M.D.DDD.patch (bundle name:test.txt) ---
           shopt -s nullglob
-          for BF in "${SITE_DIR}/${BASES_DIR}"/test-*-*.base.txt; do
-            BN=$(basename "$BF")                  # esim. test-m-29301234-300.base.txt
-            ID="${BN%.base.txt}"                  # test-m-29301234-300
-
-            # poimi epoch_min (= toinen numero väliviivojen välissä)
-            EPOCH_MIN=$(echo "$ID" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+$/\1/p' || true)
-            if [[ -z "${EPOCH_MIN}" ]]; then
-              echo "Skip unknown base filename: $BN"
-              continue
-            fi
+          SHA1_UBO=$(sha1sum "${SITE_DIR}/${OUT_UBO}" | awk '{print $1}')
+          for BF in "${SITE_DIR}/${BASES_UBO}"/test-*-*.base.txt; do
+            BN=$(basename "$BF")                 # test-m-29301234-300.base.txt
+            EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p')
+            [[ -z "$EPOCH_MIN" ]] && { echo "Skip uBO base: $BN"; continue; }
             BASE_EPOCH=$(( EPOCH_MIN * 60 ))
             AGE=$(( NOW_EPOCH - BASE_EPOCH ))
 
-            # Retention: poista liian vanhat snapshotit + vastaava patch
             if (( AGE > RETENTION_SEC )); then
-              echo "Prune >${RETENTION_DAYS}d: $BN and ${ID}.patch"
-              rm -f "${BF}"
-              rm -f "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+              Y=$(date -u -d "@${BASE_EPOCH}" +%Y); Mo=$(date -u -d "@${BASE_EPOCH}" +%-m)
+              D=$(date -u -d "@${BASE_EPOCH}" +%-d); H=$(date -u -d "@${BASE_EPOCH}" +%H)
+              Mi=$(date -u -d "@${BASE_EPOCH}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
+              STEM="${Y}.${Mo}.${D}.${MINS}"
+              rm -f "$BF" "${SITE_DIR}/${PATCH_DIR}/${STEM}.patch"
               continue
             fi
 
-            # Generoi RCS-diff (base -> new)
-            diff -n "$BF" new.txt > raw.patch || true
-            LINES=$(wc -l < raw.patch | tr -d ' ')
+            Y=$(date -u -d "@${BASE_EPOCH}" +%Y); Mo=$(date -u -d "@${BASE_EPOCH}" +%-m)
+            D=$(date -u -d "@${BASE_EPOCH}" +%-d); H=$(date -u -d "@${BASE_EPOCH}" +%H)
+            Mi=$(date -u -d "@${BASE_EPOCH}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
+            STEM="${Y}.${Mo}.${D}.${MINS}"
+            OUT="${SITE_DIR}/${PATCH_DIR}/${STEM}.patch"
 
-            # Kirjoita bundle: diff header + RCS-runko (ylikirjoita vanha patch samalla nimellä)
-            {
-              echo "diff name:test.txt checksum:${SHA1_FULL} lines:${LINES}"
-              cat raw.patch
-            } > "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+            diff -n "$BF" "${SITE_DIR}/${OUT_UBO}" > raw.patch || true
+            LINES=$(wc -l < raw.patch | tr -d ' ')
+            { echo "diff name:test.txt checksum:${SHA1_UBO} lines:${LINES}"; cat raw.patch; } > "${OUT}"
           done
           shopt -u nullglob
 
-          # 5) Debug: tulosta header ja yhden patchin alku lokiin
-          echo "==== HEAD (test.txt) ===="
-          sed -n '1,20p' "${DEST}" || true
-          echo "==== SAMPLE PATCH HEAD ===="
-          ls -1 "${SITE_DIR}/${PATCH_DIR}"/test-*.patch | head -n1 | while read -r P; do
-            echo "Patch file: ${P}"
-            sed -n '1,8p' "$P"
+          # --- ADGUARD: regen all bases → patches/testAG-m-<epoch>-<exp>.patch (bundle name:testAG.txt) ---
+          shopt -s nullglob
+          SHA1_AG=$(sha1sum "${SITE_DIR}/${OUT_AG}" | awk '{print $1}')
+          for BF in "${SITE_DIR}/${BASES_AG}"/testAG-*-*.base.txt; do
+            BN=$(basename "$BF")                 # testAG-m-29301234-300.base.txt
+            ID="${BN%.base.txt}"                 # testAG-m-29301234-300
+            EPOCH_MIN=$(echo "$ID" | sed -n 's/^testAG-m-\([0-9]\+\)-[0-9]\+$/\1/p')
+            [[ -z "$EPOCH_MIN" ]] && { echo "Skip AG base: $BN"; continue; }
+            BASE_EPOCH=$(( EPOCH_MIN * 60 ))
+            AGE=$(( NOW_EPOCH - BASE_EPOCH ))
+
+            if (( AGE > RETENTION_SEC )); then
+              rm -f "$BF" "${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+              continue
+            fi
+
+            OUT="${SITE_DIR}/${PATCH_DIR}/${ID}.patch"
+            diff -n "$BF" "${SITE_DIR}/${OUT_AG}" > raw.patch || true
+            LINES=$(wc -l < raw.patch | tr -d ' ')
+            { echo "diff name:testAG.txt checksum:${SHA1_AG} lines:${LINES}"; cat raw.patch; } > "${OUT}"
           done
-        env:
-          RFC2822: ${{ steps.ts.outputs.rfc2822 }}
+          shopt -u nullglob
 
       - name: Commit & push gh-pages
         working-directory: ${{ env.SITE_DIR }}
