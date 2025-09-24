@@ -1,9 +1,10 @@
-diff name:testAG.txt checksum:03324514dd74ed5e69a5d17de341a515c7499336 lines:8
+diff name:testAG.txt checksum:0f277df2212daba9a996c06022e997913cc0eb3b lines:9
 d6 2
 a7 2
-! Diff-Path: patches/testAG-m-29310923-300.patch#testAG.txt
-! Last modified: Tue, 23 Sep 2025 22:23:00 +0300
+! Diff-Path: patches/testAG-m-29312097-300.patch#testAG.txt
+! Last modified: Wed, 24 Sep 2025 17:57:08 +0300
 d11 1
-a11 2
+a11 3
 ! New test
 example.org^
+iltalehti.fi##.subnav-newsticker-container
