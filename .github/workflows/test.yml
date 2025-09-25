@@ -1,4 +1,4 @@
-name: Publish test lists (uBO + AdGuard, diff + catch-up, conditional)
+name: Publish test lists (uBO + AdGuard, per-file outputs, conditional diff + catch-up)
 
 on:
   push:
@@ -17,23 +17,30 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     env:
       GH_EMAIL: "actions@users.noreply.github.com"
       GH_NAME:  "github-actions[bot]"
       SITE_DIR: "site"                 # gh-pages worktree
       PATCH_DIR: "patches"
-      # snapshot-kansiot:
-      BASES_MAIN:  "bases/test-main"   # test.txt
-      BASES_EXTRA: "bases/test-extra"  # test_ubo_extras.txt
-      # master-lähteet:
-      LIST_MAIN:  "test.txt"
-      LIST_EXTRA: "test_ubo_extras.txt"
-      # gh-pages-ulostulot (samat nimet kuin masterissa):
-      OUT_MAIN:   "test.txt"
-      OUT_EXTRA:  "test_ubo_extras.txt"
+
+      # Master-lähteet
+      SRC_MAIN:   "test.txt"
+      SRC_EXTRA:  "test_ubo_extras.txt"
+
+      # gh-pages julkaisutiedostot (ERILLISET per lista ja per moottori)
+      OUT_UBO_MAIN:   "test.txt"
+      OUT_AG_MAIN:    "testAG.txt"
+      OUT_UBO_EXTRA:  "test_ubo_extras.txt"
+      OUT_AG_EXTRA:   "test_ubo_extrasAG.txt"
+
+      # Snapshot-kansiot (per master-lähde)
+      BASES_MAIN:   "bases/test-main"
+      BASES_EXTRA:  "bases/test-extra"
+
       RETENTION_DAYS: "30"
       DIFF_EXPIRES_HUMAN: "5 hours"
-      DIFF_EXPIRES_MIN:   "300"        # AdGuard-nimen loppuosa
+      DIFF_EXPIRES_MIN:   "300"        # AdGuardin nimen loppuosa
 
     steps:
       - name: Checkout master
@@ -42,30 +49,26 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - name: Detect changed files → decide which lists to rebuild
+      - name: Detect changed files (only rebuild what’s needed)
         id: detect
         run: |
           set -e
-          # Kun push-tapahtuma, head ja before saatavilla:
           BEFORE="${{ github.event.before }}"
           if [[ -z "$BEFORE" || "$BEFORE" == "0000000000000000000000000000000000000000" ]]; then
-            # fallback: jos unknown, käsitellään "molemmat"
+            # Ensimmäinen push tai epäselvä: rakenna molemmat parit
             echo "NEED_MAIN=1"  >> $GITHUB_ENV
             echo "NEED_EXTRA=1" >> $GITHUB_ENV
             exit 0
           fi
           CHANGED=$(git diff --name-only "$BEFORE" "${GITHUB_SHA}")
-          echo "Changed files:"
-          echo "${CHANGED}"
+          echo "Changed files:"; echo "$CHANGED"
 
-          NEED_MAIN=0
-          NEED_EXTRA=0
+          NEED_MAIN=0; NEED_EXTRA=0
           echo "$CHANGED" | grep -q '^test\.txt$' && NEED_MAIN=1
           echo "$CHANGED" | grep -q '^test_ubo_extras\.txt$' && NEED_EXTRA=1
 
           # Liiketoimintasääntö:
-          # - jos extras muuttui → päivitä AINA MOLEMPIA
-          # - jos vain main muuttui → päivitä vain main
+          # - jos extras muuttui → päivitä AINA myös main-pari
           if [[ "$NEED_EXTRA" == "1" ]]; then
             NEED_MAIN=1
           fi
@@ -81,7 +84,7 @@ jobs:
           git worktree add "${SITE_DIR}" gh-pages || git checkout gh-pages
           mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_MAIN}" "${SITE_DIR}/${BASES_EXTRA}"
 
-      - name: Compute timestamps (RFC 2822 Europe/Helsinki, UTC for names)
+      - name: Compute timestamps (Last modified: Europe/Helsinki; names: UTC)
         id: ts
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
@@ -91,7 +94,7 @@ jobs:
           echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build gh-pages headers (only needed files)
+      - name: Build headers for changed outputs
         run: |
           set -euo pipefail
 
@@ -109,7 +112,7 @@ jobs:
               END { if (!done_lm) print lm }
             ' raw.txt > t1.txt
 
-            # Lisää/korvaa Diff-Expires: 5 hours
+            # Lisää/korvaa Diff-Expires: 5 hours (älä koske ! Expires)
             if grep -qE '^! +Diff-Expires:' t1.txt; then
               sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" t1.txt > t2.txt
             else
@@ -123,25 +126,25 @@ jobs:
           }
 
           if [[ "${NEED_MAIN}" == "1" ]]; then
-            build_headers "${LIST_MAIN}"  "${SITE_DIR}/${OUT_MAIN}"
+            build_headers "${SRC_MAIN}"  "${SITE_DIR}/${OUT_UBO_MAIN}"  # uBO-julkaisu
+            build_headers "${SRC_MAIN}"  "${SITE_DIR}/${OUT_AG_MAIN}"   # AdGuard-julkaisu
           fi
           if [[ "${NEED_EXTRA}" == "1" ]]; then
-            build_headers "${LIST_EXTRA}" "${SITE_DIR}/${OUT_EXTRA}"
+            build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_UBO_EXTRA}" # uBO-julkaisu
+            build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_AG_EXTRA}"  # AdGuard-julkaisu
           fi
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
           NEED_MAIN:  ${{ env.NEED_MAIN }}
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
-      - name: Add Diff-Path(s) to updated files
+      - name: Add Diff-Path lines (point to correct patch names)
         run: |
           set -euo pipefail
-          # AdGuard-muotoinen bundle-nimi (shared): <prefix>-m-<epochMin>-<expires>.patch
-          PATCH_AG="testbundle-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.patch"
-          REL_AG="${PATCH_DIR}/${PATCH_AG}"
-
-          # uBO-heuristinen duplikaatti: YYYY.M.D.MINS.patch
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
+          EPOCH_MIN=${{ steps.ts.outputs.epoch_min }}
+
+          # uBO-heuristinen patchin nimi (yksi per ajokerta; sisältää 1–2 lohkoa)
           Y=$(date -u -d "@${NOW_EPOCH}" +%Y)
           Mo=$(date -u -d "@${NOW_EPOCH}" +%-m)
           D=$(date -u -d "@${NOW_EPOCH}" +%-d)
@@ -151,68 +154,78 @@ jobs:
           PATCH_UBO="${Y}.${Mo}.${D}.${MINS}.patch"
           REL_UBO="${PATCH_DIR}/${PATCH_UBO}"
 
+          # AdGuard-patchien nimet per julkaisu
+          PATCH_AG_MAIN="testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+          REL_AG_MAIN="${PATCH_DIR}/${PATCH_AG_MAIN}"
+          PATCH_AG_EXTRA="test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+          REL_AG_EXTRA="${PATCH_DIR}/${PATCH_AG_EXTRA}"
+
           add_path () {
-            local file="$1" frag="$2"
+            local file="$1" rel="$2" frag="$3"
             awk '!/^! +Diff-Path:/' "$file" > tmp && mv tmp "$file"
-            awk -v p="! Diff-Path: '"${REL_AG}"'#"'"${frag}"'" ' \
+            awk -v p="! Diff-Path: '"${rel}"'#"'"${frag}"'" ' \
                 'BEGIN{ins=0} { print; if ($0 ~ /^! +Diff-Expires:/ && !ins) { print p; ins=1 } } END{ if (!ins) print p }' \
                 "$file" > tmp && mv tmp "$file"
           }
 
           if [[ "${NEED_MAIN}" == "1" ]]; then
-            add_path "${SITE_DIR}/${OUT_MAIN}"  "test.txt"
-            grep -qE "^! Diff-Path: ${REL_AG}#test.txt$" "${SITE_DIR}/${OUT_MAIN}"  || { echo "Diff-Path main mismatch";  exit 1; }
+            add_path "${SITE_DIR}/${OUT_UBO_MAIN}"  "${REL_UBO}"    "test.txt"           # uBO
+            add_path "${SITE_DIR}/${OUT_AG_MAIN}"   "${REL_AG_MAIN}" "testAG.txt"        # AdGuard
           fi
           if [[ "${NEED_EXTRA}" == "1" ]]; then
-            add_path "${SITE_DIR}/${OUT_EXTRA}" "test_ubo_extras.txt"
-            grep -qE "^! Diff-Path: ${REL_AG}#test_ubo_extras.txt$" "${SITE_DIR}/${OUT_EXTRA}" || { echo "Diff-Path extra mismatch"; exit 1; }
+            add_path "${SITE_DIR}/${OUT_UBO_EXTRA}" "${REL_UBO}"     "test_ubo_extras.txt"   # uBO
+            add_path "${SITE_DIR}/${OUT_AG_EXTRA}"  "${REL_AG_EXTRA}" "test_ubo_extrasAG.txt" # AdGuard
           fi
-
-          # talteen patheja myöhempää käyttöä varten
-          echo "REL_AG=${REL_AG}"   >> $GITHUB_ENV
-          echo "REL_UBO=${REL_UBO}" >> $GITHUB_ENV
         env:
           NEED_MAIN:  ${{ env.NEED_MAIN }}
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
-      - name: Snapshot updated lists (only those that changed)
+      - name: Snapshot updated master sources
         run: |
           set -e
           if [[ "${NEED_MAIN}" == "1" ]]; then
-            cp "${SITE_DIR}/${OUT_MAIN}"  "${SITE_DIR}/${BASES_MAIN}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+            cp "${SITE_DIR}/${OUT_UBO_MAIN}"   "${SITE_DIR}/${BASES_MAIN}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
           fi
           if [[ "${NEED_EXTRA}" == "1" ]]; then
-            cp "${SITE_DIR}/${OUT_EXTRA}" "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+            cp "${SITE_DIR}/${OUT_UBO_EXTRA}"  "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
           fi
         env:
           NEED_MAIN:  ${{ env.NEED_MAIN }}
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
-      - name: Regenerate patches (catch-up) for what changed
+      - name: Regenerate patches (conditional catch-up)
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
 
-          OUT_MAIN="${SITE_DIR}/${OUT_MAIN}"
-          OUT_EXTRA="${SITE_DIR}/${OUT_EXTRA}"
-          SHA1_MAIN=$( [[ -f "${OUT_MAIN}"  ]] && sha1sum "${OUT_MAIN}"  | awk '{print $1}' || echo "" )
-          SHA1_EXTRA=$( [[ -f "${OUT_EXTRA}" ]] && sha1sum "${OUT_EXTRA}" | awk '{print $1}' || echo "" )
+          # Julkaisut (gh-pages)
+          UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
+          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"
+          UBO_EXTRA="${SITE_DIR}/${OUT_UBO_EXTRA}"
+          AG_EXTRA="${SITE_DIR}/${OUT_AG_EXTRA}"
 
-          # Helper: kirjoita bundle kahdella nimellä (AG+uBO)
-          write_bundle() {
-            local base_epoch="$1" content_file="$2"
+          # SHA1 julkaisuille (uBO/AG käyttävät own-content -checksumia)
+          SHA1_UBO_MAIN=$( [[ -f "${UBO_MAIN}"   ]] && sha1sum "${UBO_MAIN}"   | awk '{print $1}' || echo "" )
+          SHA1_UBO_EXTRA=$( [[ -f "${UBO_EXTRA}" ]] && sha1sum "${UBO_EXTRA}"  | awk '{print $1}' || echo "" )
+
+          # Helper: kirjoita bundle uBO-date-nimellä JA valinnaisella AdGuard-nimellä
+          write_bundle_pair() {
+            local base_epoch="$1" content_file="$2" ag_name="$3"
             Y=$(date -u -d "@${base_epoch}" +%Y); Mo=$(date -u -d "@${base_epoch}" +%-m)
             D=$(date -u -d "@${base_epoch}" +%-d); H=$(date -u -d "@${base_epoch}" +%H)
             Mi=$(date -u -d "@${base_epoch}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
-            AG="testbundle-m-$(( base_epoch/60 ))-${DIFF_EXPIRES_MIN}.patch"
+            # uBO-date
             UBO="${Y}.${Mo}.${D}.${MINS}.patch"
-            cat "${content_file}" > "${SITE_DIR}/${PATCH_DIR}/${AG}"
             cat "${content_file}" > "${SITE_DIR}/${PATCH_DIR}/${UBO}"
+            # AdGuard-nimi (jos annettu)
+            if [[ -n "$ag_name" ]]; then
+              cat "${content_file}" > "${SITE_DIR}/${PATCH_DIR}/${ag_name}"
+            fi
           }
 
-          # --- CASE A: vain MAIN muuttui → regeneroi VAIN MAIN-pohjaiset patchit, bundle sisältää vain MAIN-lohkon ---
-          if [[ "${NEED_MAIN}" == "1" && "${NEED_EXTRA}" == "0" ]]; then
+          # === CASE 1: EXTRA muuttui (→ myös MAIN mukaan). Tee YKSI yhdistetty bundle (2 lohkoa) ja kirjoita se kolmeen tiedostoon. ===
+          if [[ "${NEED_EXTRA}" == "1" ]]; then
             shopt -s nullglob
             for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
               BN=$(basename "$BF")  # test-m-29301234-300.base.txt
@@ -222,92 +235,88 @@ jobs:
               BASE_EPOCH=$(( EPOCH_MIN * 60 ))
               AGE=$(( NOW_EPOCH - BASE_EPOCH ))
 
-              # Retention
+              # Retention: poista snapshot + kaikki kyseiseen baseen liittyvät patchit (uBO-date + kaksi AG-nimeä)
               if (( AGE > RETENTION_SEC )); then
                 Y=$(date -u -d "@${BASE_EPOCH}" +%Y); Mo=$(date -u -d "@${BASE_EPOCH}" +%-m)
                 D=$(date -u -d "@${BASE_EPOCH}" +%-d); H=$(date -u -d "@${BASE_EPOCH}" +%H)
                 Mi=$(date -u -d "@${BASE_EPOCH}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
-                AG="testbundle-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-                UBO="${Y}.${Mo}.${D}.${MINS}.patch"
-                rm -f "$BF" "${SITE_DIR}/${PATCH_DIR}/${AG}" "${SITE_DIR}/${PATCH_DIR}/${UBO}"
-                continue
-              fi
-
-              diff -n "$BF" "${OUT_MAIN}" > raw_main.patch || true
-              L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
-
-              {
-                echo "diff name:test.txt checksum:${SHA1_MAIN} lines:${L_MAIN}"
-                cat raw_main.patch
-              } > bundle.patch
-
-              write_bundle "$BASE_EPOCH" bundle.patch
-            done
-            shopt -u nullglob
-          fi
-
-          # --- CASE B: EXTRA muuttui (→ myös MAIN päivittyy) → regeneroi MOLEMPIEN snapshotit, bundle sisältää KAKSI lohkoa ---
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            shopt -s nullglob
-            for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
-              BN=$(basename "$BF")
-              EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
-              [[ -z "$EPOCH_MIN" ]] && { echo "Skip MAIN base: $BN"; continue; }
-              BASE_EPOCH=$(( EPOCH_MIN * 60 ))
-              AGE=$(( NOW_EPOCH - BASE_EPOCH ))
-
-              # Retention
-              if (( AGE > RETENTION_SEC )); then
-                Y=$(date -u -d "@${BASE_EPOCH}" +%Y); Mo=$(date -u -d "@${BASE_EPOCH}" +%-m)
-                D=$(date -u -d "@${BASE_EPOCH}" +%-d); H=$(date -u -d "@${BASE_EPOCH}" +%H)
-                Mi=$(date -u -d "@${BASE_EPOCH}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
-                AG="testbundle-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-                UBO="${Y}.${Mo}.${D}.${MINS}.patch"
                 rm -f "$BF" \
                       "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.base.txt" \
-                      "${SITE_DIR}/${PATCH_DIR}/${AG}" "${SITE_DIR}/${PATCH_DIR}/${UBO}"
+                      "${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch" \
+                      "${SITE_DIR}/${PATCH_DIR}/testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch" \
+                      "${SITE_DIR}/${PATCH_DIR}/test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
                 continue
               fi
 
-              # Perusdiff MAIN
-              diff -n "$BF" "${OUT_MAIN}" > raw_main.patch || true
+              # Difffit base -> current (MAIN + EXTRA samalla base-hetkellä)
+              diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
               L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
 
-              # Yritä löytää samaan epochiin EXTRA-snapshot
               BF_EXTRA="${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.base.txt"
               if [[ -f "$BF_EXTRA" ]]; then
-                diff -n "$BF_EXTRA" "${OUT_EXTRA}" > raw_extra.patch || true
+                diff -n "$BF_EXTRA" "${UBO_EXTRA}" > raw_extra.patch || true
               else
                 : > raw_extra.patch
               fi
               L_EXTRA=$(wc -l < raw_extra.patch | tr -d ' ')
 
               {
-                echo "diff name:test.txt checksum:${SHA1_MAIN} lines:${L_MAIN}"
+                echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${L_MAIN}"
                 cat raw_main.patch
-                echo "diff name:test_ubo_extras.txt checksum:${SHA1_EXTRA} lines:${L_EXTRA}"
+                echo "diff name:test_ubo_extras.txt checksum:${SHA1_UBO_EXTRA} lines:${L_EXTRA}"
                 cat raw_extra.patch
               } > bundle.patch
 
-              write_bundle "$BASE_EPOCH" bundle.patch
+              # Kirjoita sama bundle kolmeen nimeen:
+              write_bundle_pair "$BASE_EPOCH" bundle.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+              # Lisäksi myös EXTRA:n AG-nimelle:
+              cat bundle.patch > "${SITE_DIR}/${PATCH_DIR}/test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
             done
             shopt -u nullglob
           fi
 
-          # Debug-otsikot
-          if [[ "${NEED_MAIN}" == "1" ]]; then
-            echo "==== HEAD (test.txt) ===="; sed -n '1,25p' "${OUT_MAIN}" || true
+          # === CASE 2: VAIN MAIN muuttui. Tee yhden lohkon bundle ja kirjoita uBO-date + testAG-m-... ===
+          if [[ "${NEED_MAIN}" == "1" && "${NEED_EXTRA}" == "0" ]]; then
+            shopt -s nullglob
+            for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
+              BN=$(basename "$BF")
+              EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
+              [[ -z "$EPOCH_MIN" ]] && { echo "Skip MAIN base: $BN"; continue; }
+
+              BASE_EPOCH=$(( EPOCH_MIN * 60 ))
+              AGE=$(( NOW_EPOCH - BASE_EPOCH ))
+
+              if (( AGE > RETENTION_SEC )); then
+                Y=$(date -u -d "@${BASE_EPOCH}" +%Y); Mo=$(date -u -d "@${BASE_EPOCH}" +%-m)
+                D=$(date -u -d "@${BASE_EPOCH}" +%-d); H=$(date -u -d "@${BASE_EPOCH}" +%H)
+                Mi=$(date -u -d "@${BASE_EPOCH}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
+                rm -f "$BF" \
+                      "${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch" \
+                      "${SITE_DIR}/${PATCH_DIR}/testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+                continue
+              fi
+
+              diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
+              LINES=$(wc -l < raw_main.patch | tr -d ' ')
+              {
+                echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${LINES}"
+                cat raw_main.patch
+              } > bundle_main.patch
+
+              write_bundle_pair "$BASE_EPOCH" bundle_main.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+            done
+            shopt -u nullglob
           fi
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            echo "==== HEAD (test_ubo_extras.txt) ===="; sed -n '1,25p' "${OUT_EXTRA}" || true
-          fi
-          echo "==== SAMPLE PATCH HEAD ===="
-          ls -1 "${SITE_DIR}/${PATCH_DIR}"/*.patch | head -n1 | while read -r P; do
-            echo "Patch file: ${P}"; sed -n '1,10p' "$P"
+
+          # Debug
+          echo "==== SAMPLE HEADS ===="
+          for f in "${UBO_MAIN}" "${AG_MAIN}" "${UBO_EXTRA}" "${AG_EXTRA}"; do
+            [[ -f "$f" ]] && { echo "-- $f"; sed -n '1,20p' "$f"; }
           done
-        env:
-          NEED_MAIN:  ${{ env.NEED_MAIN }}
-          NEED_EXTRA: ${{ env.NEED_EXTRA }}
+          echo "==== SAMPLE PATCH ===="
+          ls -1 "${SITE_DIR}/${PATCH_DIR}"/*.patch | head -n1 | while read -r P; do
+            echo "Patch: $P"; sed -n '1,10p' "$P"
+          done
 
       - name: Commit & push gh-pages
         working-directory: ${{ env.SITE_DIR }}
