@@ -1343,6 +1343,7 @@ iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
 iltalehti.fi##.recommendation-carousel-svod.recommendation-carousel
 iltalehti.fi##.slider-content
 iltalehti.fi##.telkku-ads
+iltalehti.fi##.wall-container
 iltalehti.fi##[class|="almad-mobile-parade"]
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
 iltalehti.fi##div[class=iframe-container]
