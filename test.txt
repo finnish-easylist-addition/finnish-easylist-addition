@@ -9,4 +9,4 @@
 
 ! New test
 example.org^
-iltalehti.fi##.subnav-newsticker-container
+iltalehti.fi##.header-il-container
