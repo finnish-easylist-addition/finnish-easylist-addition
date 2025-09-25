@@ -1,3 +1,3 @@
 [uBlock Origin]
 
-!gitlab.com^$all
+gitlab.com^$all
