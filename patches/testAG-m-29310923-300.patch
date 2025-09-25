@@ -1,7 +1,0 @@
-diff name:testAG.txt checksum:0f277df2212daba9a996c06022e997913cc0eb3b lines:6
-d6 2
-a7 2
-! Diff-Path: patches/testAG-m-29312097-300.patch#testAG.txt
-! Last modified: Wed, 24 Sep 2025 17:57:08 +0300
-a12 1
-iltalehti.fi##.subnav-newsticker-container
