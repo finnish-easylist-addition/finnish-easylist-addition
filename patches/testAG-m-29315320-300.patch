@@ -1,1 +1,6 @@
-diff name:test.txt checksum:38828c466665d68c495e85b88e942c90485c0847 lines:0
+diff name:test.txt checksum:32c9a881aa1eab04645cc687df3832e44b163cbc lines:4
+d6 2
+a7 2
+! Diff-Path: patches/2025.9.26.1241.patch#test.txt
+! Last modified: Fri, 26 Sep 2025 23:41:46 +0300
+diff name:test_ubo_extras.txt checksum:3a7747b173c9a17a2007c222a9d4f1d4bfa39cf7 lines:0
