@@ -139,6 +139,11 @@ jobs:
             build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_UBO_EXTRA}" # uBO julkaisu
             build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_AG_EXTRA}"  # AdGuard julkaisu
           fi
+        env:
+          RFC2822: ${{ steps.ts.outputs.rfc2822 }}   # <<< KRIITTINEN LISÄYS
+          DIFF_EXPIRES_HUMAN: ${{ env.DIFF_EXPIRES_HUMAN }}
+          NEED_MAIN:  ${{ env.NEED_MAIN }}
+          NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
       - name: Add Diff-Path (per output file)
         shell: bash
@@ -179,6 +184,10 @@ jobs:
             add_path "${SITE_DIR}/${OUT_UBO_EXTRA}" "${REL_UBO}"      "test_ubo_extras.txt"
             add_path "${SITE_DIR}/${OUT_AG_EXTRA}"  "${REL_AG_EXTRA}" "test_ubo_extrasAG.txt"
           fi
+        env:
+          NEED_MAIN:  ${{ env.NEED_MAIN }}
+          NEED_EXTRA: ${{ env.NEED_EXTRA }}
+          DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
 
       - name: Snapshot updated sources (for catch-up)
         shell: bash
@@ -190,6 +199,10 @@ jobs:
           if [[ "${NEED_EXTRA}" == "1" ]]; then
             cp "${SITE_DIR}/${OUT_UBO_EXTRA}" "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
           fi
+        env:
+          NEED_MAIN:  ${{ env.NEED_MAIN }}
+          NEED_EXTRA: ${{ env.NEED_EXTRA }}
+          DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
 
       - name: Regenerate patches (conditional catch-up)
         shell: bash
