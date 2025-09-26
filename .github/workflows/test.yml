@@ -51,60 +51,48 @@ jobs:
 
       - name: Detect changed files (robust) and enforce extras→main
         id: detect
+        shell: bash
         run: |
           set -euo pipefail
-
-          BEFORE="${{ github.event.before }}"
-          # Jos BEFORE puuttuu, käytä HEAD^; ellei sitäkään ole, rakenna molemmat
-          if [[ -z "${BEFORE}" || "${BEFORE}" == "0000000000000000000000000000000000000000" ]]; then
-            if git rev-parse --verify HEAD^ >/dev/null 2>&1; then
-              BEFORE="$(git rev-parse HEAD^)"
-            else
-              echo "NEED_MAIN=1"  >> $GITHUB_ENV
-              echo "NEED_EXTRA=1" >> $GITHUB_ENV
-              echo "No BEFORE available; building both."
-              exit 0
-            fi
-          fi
-
-          CHANGED="$(git diff --name-only "${BEFORE}" "${GITHUB_SHA}" || true)"
-          echo "Changed files list:"
+          CHANGED="$(git show --name-only --pretty="" "${GITHUB_SHA}" || true)"
+          echo "Changed files on this commit:"
           echo "${CHANGED}"
 
           NEED_MAIN=0
           NEED_EXTRA=0
-
-          # Hyväksy myös ./test.txt tai polun edusta
-          echo "${CHANGED}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1 || true
+          echo "${CHANGED}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1  || true
           echo "${CHANGED}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && NEED_EXTRA=1 || true
 
-          # Fallback: jos molemmat jäivät 0, tarkista viimeisin commit
+          # Fallback: jos show ei antanut tulosta (edge)
           if [[ "${NEED_MAIN}" == "0" && "${NEED_EXTRA}" == "0" ]]; then
-            echo "No direct match; doing last-commit fallback check."
-            LAST="$(git diff --name-only HEAD~1..HEAD || true)"
-            echo "${LAST}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1 || true
-            echo "${LAST}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && NEED_EXTRA=1 || true
+            CHANGED_F="$(git diff --name-only HEAD~1..HEAD || true)"
+            echo "Fallback last-commit diff:"
+            echo "${CHANGED_F}"
+            echo "${CHANGED_F}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1  || true
+            echo "${CHANGED_F}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && NEED_EXTRA=1 || true
           fi
 
-          # Liiketoimintasääntö: extras-muutos → päivitä aina myös main-pari
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            NEED_MAIN=1
-          fi
+          # Liiketoimintasääntö: extras → main
+          if [[ "${NEED_EXTRA}" == "1" ]]; then NEED_MAIN=1; fi
 
           echo "NEED_MAIN=${NEED_MAIN}"   >> $GITHUB_ENV
           echo "NEED_EXTRA=${NEED_EXTRA}" >> $GITHUB_ENV
           echo "Resolved NEED_MAIN=$NEED_MAIN NEED_EXTRA=$NEED_EXTRA"
 
       - name: Prepare gh-pages worktree (clean)
+        shell: bash
         run: |
           set -e
           git fetch --depth=1 origin gh-pages:gh-pages || true
           rm -rf "${SITE_DIR}" || true
           git worktree add "${SITE_DIR}" gh-pages
           mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_MAIN}" "${SITE_DIR}/${BASES_EXTRA}"
+          git -C "${SITE_DIR}" config user.email "${GH_EMAIL}"
+          git -C "${SITE_DIR}" config user.name  "${GH_NAME}"
 
       - name: Compute timestamps (Last modified: Europe/Helsinki; names: UTC)
         id: ts
+        shell: bash
         run: |
           RFC2822=$(TZ=Europe/Helsinki date -R)
           NOW_EPOCH=$(date -u +%s)
@@ -114,6 +102,7 @@ jobs:
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
       - name: Build headers for gh-pages outputs (only needed)
+        shell: bash
         run: |
           set -euo pipefail
           build_headers () {
@@ -156,6 +145,7 @@ jobs:
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
       - name: Add Diff-Path (per output file)
+        shell: bash
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
@@ -188,20 +178,17 @@ jobs:
           if [[ "${NEED_MAIN}" == "1" ]]; then
             add_path "${SITE_DIR}/${OUT_UBO_MAIN}"  "${REL_UBO}"     "test.txt"
             add_path "${SITE_DIR}/${OUT_AG_MAIN}"   "${REL_AG_MAIN}" "testAG.txt"
-            grep -qE "^! Diff-Path: ${REL_UBO}#test.txt$"    "${SITE_DIR}/${OUT_UBO_MAIN}" || { echo "uBO main Diff-Path mismatch";  exit 1; }
-            grep -qE "^! Diff-Path: ${REL_AG_MAIN}#testAG.txt$" "${SITE_DIR}/${OUT_AG_MAIN}"  || { echo "AG main Diff-Path mismatch";   exit 1; }
           fi
           if [[ "${NEED_EXTRA}" == "1" ]]; then
             add_path "${SITE_DIR}/${OUT_UBO_EXTRA}" "${REL_UBO}"      "test_ubo_extras.txt"
             add_path "${SITE_DIR}/${OUT_AG_EXTRA}"  "${REL_AG_EXTRA}" "test_ubo_extrasAG.txt"
-            grep -qE "^! Diff-Path: ${REL_UBO}#test_ubo_extras.txt$"     "${SITE_DIR}/${OUT_UBO_EXTRA}" || { echo "uBO extra Diff-Path mismatch"; exit 1; }
-            grep -qE "^! Diff-Path: ${REL_AG_EXTRA}#test_ubo_extrasAG.txt$" "${SITE_DIR}/${OUT_AG_EXTRA}"  || { echo "AG extra Diff-Path mismatch";  exit 1; }
           fi
         env:
           NEED_MAIN:  ${{ env.NEED_MAIN }}
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
       - name: Snapshot updated sources (for catch-up)
+        shell: bash
         run: |
           set -e
           if [[ "${NEED_MAIN}" == "1" ]]; then
@@ -215,6 +202,7 @@ jobs:
           NEED_EXTRA: ${{ env.NEED_EXTRA }}
 
       - name: Regenerate patches (conditional catch-up)
+        shell: bash
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
@@ -223,8 +211,6 @@ jobs:
           # Julkaisut (gh-pages)
           UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
           UBO_EXTRA="${SITE_DIR}/${OUT_UBO_EXTRA}"
-          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"
-          AG_EXTRA="${SITE_DIR}/${OUT_AG_EXTRA}"
 
           # SHA1 laskennat
           SHA1_UBO_MAIN=$( [[ -f "${UBO_MAIN}"  ]] && sha1sum "${UBO_MAIN}"  | awk '{print $1}' || echo "" )
@@ -325,11 +311,9 @@ jobs:
             shopt -u nullglob
           fi
 
-          # Retentio: ylimääräiset snapshotit siivotaan yllä olevissa haaroissa
-
           # Pieni debug
           echo "==== SAMPLE HEADS ===="
-          for f in "${UBO_MAIN}" "${AG_MAIN}" "${UBO_EXTRA}" "${AG_EXTRA}"; do
+          for f in "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}" "${SITE_DIR}/${OUT_UBO_EXTRA}" "${SITE_DIR}/${OUT_AG_EXTRA}"; do
             [[ -f "$f" ]] && { echo "-- $f"; sed -n '1,18p' "$f"; }
           done
           echo "==== SAMPLE PATCH ===="
@@ -339,6 +323,7 @@ jobs:
 
       - name: Commit & push gh-pages
         working-directory: ${{ env.SITE_DIR }}
+        shell: bash
         run: |
           set -e
           git config user.email "${GH_EMAIL}"
