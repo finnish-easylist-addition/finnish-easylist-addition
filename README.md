@@ -4,6 +4,8 @@ Finnish Easylist addition. Works with all ad blockers, though uBlock Origin/AdGu
 
 If you use AdBlock or Adblock Plus, we recommend disabling "Show acceptable ads" or any similar option, so that all the ads will get blocked.
 
+Generally, self-promo won't be blocked. But we leave room for consideration if self-promo is aggressive or annoying.
+
 Direct URL to the list: https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/gh-pages/Finland_adb.txt
 
 ### Other recommended lists:
