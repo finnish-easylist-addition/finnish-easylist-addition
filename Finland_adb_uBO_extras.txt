@@ -83,6 +83,7 @@ happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
 telsu.fi##+js(spoof-css, #prg, x, x, _recty, 300)
+vauva.fi##+js(rmnt, script, async-hide)
 
 ! Fix YouTube videos on www.aalto.fi
 ! Example: https://www.aalto.fi/fi/koulutustarjonta/kiinteistotalous-ja-geoinformatiikka-tekniikan-kandidaatti-ja-diplomi-insinoori
