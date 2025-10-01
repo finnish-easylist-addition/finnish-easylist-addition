@@ -62,6 +62,7 @@ muropaketti.com##^article.grid__item_1:has(.nativead)
 mobiili.fi##^.fullarticle:has-text(Sponsoroitu)
 mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
 tamperelainen.fi##^.display-ad
+ykkoslohja.fi##^.owl-carousel
 !#endif
 
 ! -----SPECIFIC FILTERS END-----
