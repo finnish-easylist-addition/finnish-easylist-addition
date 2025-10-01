@@ -1,12 +1,12 @@
-diff name:test.txt checksum:ac92f04c54c03278e99d7d2a64a002168502bc93 lines:11
+diff name:test.txt checksum:0b0276e61427b83693048a053fc5e895c2a6c7bb lines:11
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.1.1067.patch#test.txt
-! Last modified: Wed, 01 Oct 2025 20:47:42 +0300
+! Diff-Path: patches/2025.10.1.1081.patch#test.txt
+! Last modified: Wed, 01 Oct 2025 21:01:57 +0300
 a9 1
 
 a11 1
 !
-d19 1
+d18 2
 a19 1
-testtestet
+||assets.ilcdn.fi/17c60c069da2de51c6778b82bd7af4117bc782eadb26284072b6305097ed77dc.svg
