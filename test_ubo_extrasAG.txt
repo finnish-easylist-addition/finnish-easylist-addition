@@ -1,6 +1,8 @@
 [uBlock Origin]
 
-!gitlab.com^$all !
-! Last modified: Fri, 26 Sep 2025 23:41:46 +0300
+example.net^
+donedone.net^
+example.org##+js(rmnt, script, ads)
+! Last modified: Wed, 01 Oct 2025 18:01:22 +0300
 ! Diff-Expires: 5 hours
-! Diff-Path: patches/test_ubo_extrasAG-m-29315321-300.patch#test_ubo_extrasAG.txt
+! Diff-Path: patches/test_ubo_extrasAG-m-29322181-300.patch#test_ubo_extrasAG.txt
