@@ -1,3 +1,5 @@
 [uBlock Origin]
 
-!gitlab.com^$all !
+example.net^
+donedone.net^
+example.org##+js(rmnt, script, ads)
