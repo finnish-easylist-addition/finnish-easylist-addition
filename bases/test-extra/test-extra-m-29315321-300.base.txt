@@ -1,6 +1,0 @@
-[uBlock Origin]
-
-!gitlab.com^$all !
-! Last modified: Fri, 26 Sep 2025 23:41:46 +0300
-! Diff-Expires: 5 hours
-! Diff-Path: patches/2025.9.26.1241.patch#test_ubo_extras.txt
