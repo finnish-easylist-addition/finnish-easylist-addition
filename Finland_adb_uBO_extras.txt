@@ -52,6 +52,7 @@ karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: 
 
 ! HTML filters for browsers that support them e.g. Firefox
 !#if cap_html_filtering
+iltalehti.fi##^.parade-ad-container
 kokemaenjokilaakso.fi##^[alt^=Mainos]
 kotikokki.net##^.kotikokki_ensighten_ad
 kuka-soitti.fi##^body > .container:not(.mb-5, :has(.mb-5)):has-text(Mainos)
