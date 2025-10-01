@@ -1,1 +1,8 @@
-diff name:test.txt checksum:028ed3c04c19234fd55176f7c8eb11ff0edfce00 lines:0
+diff name:test.txt checksum:ac92f04c54c03278e99d7d2a64a002168502bc93 lines:7
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.1.1067.patch#test.txt
+! Last modified: Wed, 01 Oct 2025 20:47:42 +0300
+d16 1
+a16 1
+example.org##+js(rmnt, script, ads)
