@@ -66,9 +66,9 @@ jobs:
             echo "${CHANGED_F}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && EXTRA_CHANGED=1 || true
           fi
 
-          # Päälistat (uBO/AG) pitää julkaista jos joko main TAI extras muuttui (koska inlinetus)
+          # uBO/AG julkaisut tehdään jos joko main TAI extras muuttui (koska inlinetus)
           NEED_PUBLISH_MAIN=$(( MAIN_CHANGED == 1 || EXTRA_CHANGED == 1 ? 1 : 0 ))
-          # ABP päivitetään VAIN jos main muuttui (extras ei vaikuta ABP:hen)
+          # ABP päivitetään vain jos main muuttui
           NEED_PUBLISH_ABP=$(( MAIN_CHANGED == 1 ? 1 : 0 ))
 
           {
@@ -142,7 +142,8 @@ jobs:
             local dest="$1" extras_src="$2"
             local tmp_before="__before.tmp"
             local tmp_after="__after.tmp"
-            # Poista include-rivi ja ota sen kohta talteen (ennen/jälkeen) → istuta extras siihen väliin
+
+            # Pilko: ennen includea -> __before.tmp, includen jälkeen -> __after.tmp
             awk '
               BEGIN{found=0}
               {
@@ -150,22 +151,31 @@ jobs:
                 print > (found ? "'$tmp_after'" : "'$tmp_before'")
               }
             ' "$dest"
+
             if [[ -f "$extras_src" ]]; then
+              # Kirjoita "before"-osa kohteeseen
               cat "$tmp_before" > "$dest"
-              # Liitä extras SELLaisenaan (ei metoja)
-              cat "$extras_src" >> "$dest"
+
+              # Lisää täsmälleen yksi tyhjä välirivi meta-osion ja extrasin väliin
+              printf '\n' >> "$dest"
+
+              # Liitä extras SELLaisenaan, mutta pudota mahdolliset johtavat tyhjät rivit
+              awk 'NF{seen=1} seen{print}' "$extras_src" >> "$dest"
+
+              # Jatka loppuosa
               cat "$tmp_after" >> "$dest"
             else
               # Ei extras-lähdettä → käytä vain before+aftera ilman includea
               cat "$tmp_before" "$tmp_after" > "$dest"
             fi
+
             rm -f "$tmp_before" "$tmp_after"
           }
 
           # Rakenna uBO/AG julkaisut masterin test.txt:stä…
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_UBO_MAIN}"
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"
-          # …ja inlinea extras SELLaisenaan molempiin
+          # …ja inlinea extras SELLaisenaan molempiin (välissä yksi tyhjä rivi)
           inline_extras_into "${SITE_DIR}/${OUT_UBO_MAIN}" "${SRC_EXTRA}"
           inline_extras_into "${SITE_DIR}/${OUT_AG_MAIN}"  "${SRC_EXTRA}"
 
