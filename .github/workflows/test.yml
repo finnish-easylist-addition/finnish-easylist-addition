@@ -1,4 +1,4 @@
-name: Publish test lists (uBO and AdGuard)
+name: Publish test lists (uBO/AdGuard with inline extras, ABP no-inline)
 
 on:
   push:
@@ -27,17 +27,15 @@ jobs:
       SRC_MAIN: test.txt
       SRC_EXTRA: test_ubo_extras.txt
 
-      OUT_UBO_MAIN: test.txt
-      OUT_AG_MAIN: testAG.txt
-      OUT_UBO_EXTRA: test_ubo_extras.txt
-      OUT_AG_EXTRA: test_ubo_extrasAG.txt
+      OUT_UBO_MAIN: test.txt          # uBO julkaisu (inline extras)
+      OUT_AG_MAIN:  testAG.txt        # AdGuard julkaisu (inline extras)
+      OUT_ABP_MAIN: testABP.txt       # ABP julkaisu (EI inline, EI diff)
 
       BASES_MAIN: bases/test-main
-      BASES_EXTRA: bases/test-extra
 
       RETENTION_DAYS: "30"
       DIFF_EXPIRES_HUMAN: "5 hours"
-      DIFF_EXPIRES_MIN: "300"
+      DIFF_EXPIRES_MIN:   "300"
 
     steps:
       - name: Checkout master
@@ -46,7 +44,7 @@ jobs:
           ref: master
           fetch-depth: 0
 
-      - name: Detect changed files and enforce extras->main
+      - name: Detect changed files (separate main vs extras)
         id: detect
         shell: bash
         run: |
@@ -55,24 +53,33 @@ jobs:
           echo "Changed files:"
           echo "${CHANGED}"
 
-          NEED_MAIN=0
-          NEED_EXTRA=0
-          echo "${CHANGED}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1  || true
-          echo "${CHANGED}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && NEED_EXTRA=1 || true
+          MAIN_CHANGED=0
+          EXTRA_CHANGED=0
+          echo "${CHANGED}" | grep -E '(^|/)test\.txt$'            >/dev/null && MAIN_CHANGED=1  || true
+          echo "${CHANGED}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && EXTRA_CHANGED=1 || true
 
-          if [[ "${NEED_MAIN}" == "0" && "${NEED_EXTRA}" == "0" ]]; then
+          if [[ "${MAIN_CHANGED}" == "0" && "${EXTRA_CHANGED}" == "0" ]]; then
             CHANGED_F="$(git diff --name-only HEAD~1..HEAD || true)"
-            echo "Fallback last-commit diff:"
+            echo "Fallback diff:"
             echo "${CHANGED_F}"
-            echo "${CHANGED_F}" | grep -E '(^|/)test\.txt$'            >/dev/null && NEED_MAIN=1  || true
-            echo "${CHANGED_F}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && NEED_EXTRA=1 || true
+            echo "${CHANGED_F}" | grep -E '(^|/)test\.txt$'            >/dev/null && MAIN_CHANGED=1  || true
+            echo "${CHANGED_F}" | grep -E '(^|/)test_ubo_extras\.txt$' >/dev/null && EXTRA_CHANGED=1 || true
           fi
 
-          if [[ "${NEED_EXTRA}" == "1" ]]; then NEED_MAIN=1; fi
+          # Päälistat (uBO/AG) pitää julkaista jos joko main TAI extras muuttui (koska inlinetus)
+          NEED_PUBLISH_MAIN=$(( MAIN_CHANGED == 1 || EXTRA_CHANGED == 1 ? 1 : 0 ))
+          # ABP päivitetään VAIN jos main muuttui (extras ei vaikuta ABP:hen)
+          NEED_PUBLISH_ABP=$(( MAIN_CHANGED == 1 ? 1 : 0 ))
 
-          echo "NEED_MAIN=${NEED_MAIN}"   >> $GITHUB_ENV
-          echo "NEED_EXTRA=${NEED_EXTRA}" >> $GITHUB_ENV
-          echo "Resolved NEED_MAIN=$NEED_MAIN NEED_EXTRA=$NEED_EXTRA"
+          {
+            echo "MAIN_CHANGED=${MAIN_CHANGED}"
+            echo "EXTRA_CHANGED=${EXTRA_CHANGED}"
+            echo "NEED_PUBLISH_MAIN=${NEED_PUBLISH_MAIN}"
+            echo "NEED_PUBLISH_ABP=${NEED_PUBLISH_ABP}"
+          } >> "$GITHUB_ENV"
+
+          echo "Resolved MAIN_CHANGED=$MAIN_CHANGED EXTRA_CHANGED=$EXTRA_CHANGED"
+          echo "Publish uBO/AG=$NEED_PUBLISH_MAIN, ABP=$NEED_PUBLISH_ABP"
 
       - name: Prepare gh-pages worktree
         shell: bash
@@ -81,7 +88,7 @@ jobs:
           git fetch --depth=1 origin gh-pages:gh-pages || true
           rm -rf "${SITE_DIR}" || true
           git worktree add "${SITE_DIR}" gh-pages
-          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_MAIN}" "${SITE_DIR}/${BASES_EXTRA}"
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_MAIN}"
           git -C "${SITE_DIR}" config user.email "${GH_EMAIL}"
           git -C "${SITE_DIR}" config user.name  "${GH_NAME}"
 
@@ -96,18 +103,19 @@ jobs:
           echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build headers (only needed)
+      - name: Build uBO/AG headers and inline extras (only if needed)
+        if: env.NEED_PUBLISH_MAIN == '1'
         shell: bash
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
           DIFF_EXPIRES_HUMAN: ${{ env.DIFF_EXPIRES_HUMAN }}
-          NEED_MAIN: ${{ env.NEED_MAIN }}
-          NEED_EXTRA: ${{ env.NEED_EXTRA }}
         run: |
           set -euo pipefail
+
           build_headers () {
             local src="$1" dest="$2"
             if [[ -f "${src}" ]]; then cp "${src}" raw.txt; else : > raw.txt; fi
+            # Päivitä Last modified, poista vanhat Diff-Path-rivit
             awk -v lm="! Last modified: ${RFC2822}" '
               BEGIN{ done_lm=0 }
               {
@@ -117,6 +125,7 @@ jobs:
               }
               END { if (!done_lm) print lm }
             ' raw.txt > t1.txt
+            # Lisää/korvaa Diff-Expires: 5 hours
             if grep -qE '^! +Diff-Expires:' t1.txt; then
               sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" t1.txt > t2.txt
             else
@@ -129,20 +138,62 @@ jobs:
             cp t2.txt "${dest}"
           }
 
-          if [[ "${NEED_MAIN}" == "1" ]]; then
-            build_headers "${SRC_MAIN}"  "${SITE_DIR}/${OUT_UBO_MAIN}"
-            build_headers "${SRC_MAIN}"  "${SITE_DIR}/${OUT_AG_MAIN}"
-          fi
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_UBO_EXTRA}"
-            build_headers "${SRC_EXTRA}" "${SITE_DIR}/${OUT_AG_EXTRA}"
-          fi
+          inline_extras_into () {
+            local dest="$1" extras_src="$2"
+            local tmp_before="__before.tmp"
+            local tmp_after="__after.tmp"
+            # Poista include-rivi ja ota sen kohta talteen (ennen/jälkeen) → istuta extras siihen väliin
+            awk '
+              BEGIN{found=0}
+              {
+                if ($0 ~ /^!#include[[:space:]]+test_ubo_extras\.txt[[:space:]]*$/) { found=1; next }
+                print > (found ? "'$tmp_after'" : "'$tmp_before'")
+              }
+            ' "$dest"
+            if [[ -f "$extras_src" ]]; then
+              cat "$tmp_before" > "$dest"
+              # Liitä extras SELLaisenaan (ei metoja)
+              cat "$extras_src" >> "$dest"
+              cat "$tmp_after" >> "$dest"
+            else
+              # Ei extras-lähdettä → käytä vain before+aftera ilman includea
+              cat "$tmp_before" "$tmp_after" > "$dest"
+            fi
+            rm -f "$tmp_before" "$tmp_after"
+          }
 
-      - name: Add Diff-Path
+          # Rakenna uBO/AG julkaisut masterin test.txt:stä…
+          build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_UBO_MAIN}"
+          build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"
+          # …ja inlinea extras SELLaisenaan molempiin
+          inline_extras_into "${SITE_DIR}/${OUT_UBO_MAIN}" "${SRC_EXTRA}"
+          inline_extras_into "${SITE_DIR}/${OUT_AG_MAIN}"  "${SRC_EXTRA}"
+
+      - name: Build ABP (no diff, no extras) only if main changed
+        if: env.NEED_PUBLISH_ABP == '1'
         shell: bash
         env:
-          NEED_MAIN: ${{ env.NEED_MAIN }}
-          NEED_EXTRA: ${{ env.NEED_EXTRA }}
+          RFC2822: ${{ steps.ts.outputs.rfc2822 }}
+        run: |
+          set -euo pipefail
+          # ABP: pelkkä Last modified, EI Diff-Path/Expires, EI inlinea
+          if [[ -f "${SRC_MAIN}" ]]; then cp "${SRC_MAIN}" raw.txt; else : > raw.txt; fi
+          awk -v lm="! Last modified: ${RFC2822}" '
+            BEGIN{ done_lm=0 }
+            {
+              if ($0 ~ /^! +Last modified:/) { if (!done_lm) { print lm; done_lm=1 }; next }
+              if ($0 ~ /^! +Diff-Path:/)     { next }
+              if ($0 ~ /^! +Diff-Expires:/)  { next }
+              if ($0 ~ /^!#include[[:space:]]+test_ubo_extras\.txt[[:space:]]*$/) { next }
+              print
+            }
+            END { if (!done_lm) print lm }
+          ' raw.txt > "${SITE_DIR}/${OUT_ABP_MAIN}"
+
+      - name: Add Diff-Path for uBO/AG (only if needed)
+        if: env.NEED_PUBLISH_MAIN == '1'
+        shell: bash
+        env:
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -euo pipefail
@@ -160,12 +211,11 @@ jobs:
 
           PATCH_AG_MAIN="testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
           REL_AG_MAIN="${PATCH_DIR}/${PATCH_AG_MAIN}"
-          PATCH_AG_EXTRA="test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-          REL_AG_EXTRA="${PATCH_DIR}/${PATCH_AG_EXTRA}"
 
           add_path () {
             local file="$1" rel="$2" frag="$3"
             local line="! Diff-Path: ${rel}#${frag}"
+            # Poista vanhat Diff-Path -rivit ja aseta uusi Diff-Expires -rivin jälkeen (tai loppuun)
             grep -vE '^! +Diff-Path:' "$file" > tmp && mv tmp "$file"
             awk -v p="$line" '
               BEGIN{ins=0}
@@ -174,47 +224,31 @@ jobs:
             ' "$file" > tmp && mv tmp "$file"
           }
 
-          if [[ "${NEED_MAIN}" == "1" ]]; then
-            add_path "${SITE_DIR}/${OUT_UBO_MAIN}"  "${REL_UBO}"     "test.txt"
-            add_path "${SITE_DIR}/${OUT_AG_MAIN}"   "${REL_AG_MAIN}" "testAG.txt"
-          fi
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            add_path "${SITE_DIR}/${OUT_UBO_EXTRA}" "${REL_UBO}"      "test_ubo_extras.txt"
-            add_path "${SITE_DIR}/${OUT_AG_EXTRA}"  "${REL_AG_EXTRA}" "test_ubo_extrasAG.txt"
-          fi
+          add_path "${SITE_DIR}/${OUT_UBO_MAIN}" "${REL_UBO}"    "test.txt"
+          add_path "${SITE_DIR}/${OUT_AG_MAIN}"  "${REL_AG_MAIN}" "testAG.txt"
 
-      - name: Snapshot sources
+      - name: Snapshot composed main (for catch-up)
+        if: env.NEED_PUBLISH_MAIN == '1'
         shell: bash
         env:
-          NEED_MAIN: ${{ env.NEED_MAIN }}
-          NEED_EXTRA: ${{ env.NEED_EXTRA }}
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -e
-          if [[ "${NEED_MAIN}" == "1" ]]; then
-            cp "${SITE_DIR}/${OUT_UBO_MAIN}"  "${SITE_DIR}/${BASES_MAIN}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
-          fi
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            cp "${SITE_DIR}/${OUT_UBO_EXTRA}" "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
-          fi
+          cp "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${BASES_MAIN}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
 
-      - name: Regenerate patches (catch-up)
+      - name: Regenerate patches (catch-up for composed main)
+        if: env.NEED_PUBLISH_MAIN == '1'
         shell: bash
         env:
           RETENTION_DAYS: ${{ env.RETENTION_DAYS }}
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
-          NEED_MAIN: ${{ env.NEED_MAIN }}
-          NEED_EXTRA: ${{ env.NEED_EXTRA }}
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
 
           UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
-          UBO_EXTRA="${SITE_DIR}/${OUT_UBO_EXTRA}"
-
-          SHA1_UBO_MAIN=$( [[ -f "${UBO_MAIN}"  ]] && sha1sum "${UBO_MAIN}"  | awk '{print $1}' || echo "" )
-          SHA1_UBO_EXTRA=$( [[ -f "${UBO_EXTRA}" ]] && sha1sum "${UBO_EXTRA}" | awk '{print $1}' || echo "" )
+          SHA1_UBO_MAIN=$(sha1sum "${UBO_MAIN}" | awk '{print $1}')
 
           write_bundle_pair() {
             local base_epoch="$1" content_file="$2" ag_name="$3"
@@ -237,72 +271,32 @@ jobs:
             [[ -n "$ag_name" ]] && rm -f "${SITE_DIR}/${PATCH_DIR}/${ag_name}"
           }
 
-          if [[ "${NEED_EXTRA}" == "1" ]]; then
-            shopt -s nullglob
-            for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
-              BN=$(basename "$BF")
-              EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
-              [[ -z "$EPOCH_MIN" ]] && { echo "Skip MAIN base: $BN"; continue; }
-              BASE_EPOCH=$(( EPOCH_MIN * 60 ))
-              AGE=$(( NOW_EPOCH - BASE_EPOCH ))
-              if (( AGE > RETENTION_SEC )); then
-                rm -f "$BF" "${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.base.txt"
-                prune_for_epoch "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-                prune_for_epoch "$BASE_EPOCH" "test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-                continue
-              fi
+          shopt -s nullglob
+          for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
+            BN=$(basename "$BF")
+            EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
+            [[ -z "$EPOCH_MIN" ]] && { echo "Skip base: $BN"; continue; }
+            BASE_EPOCH=$(( EPOCH_MIN * 60 ))
+            AGE=$(( NOW_EPOCH - BASE_EPOCH ))
 
-              diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
-              L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
+            if (( AGE > RETENTION_SEC )); then
+              rm -f "$BF"
+              prune_for_epoch "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+              continue
+            fi
 
-              BF_EXTRA="${SITE_DIR}/${BASES_EXTRA}/test-extra-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.base.txt"
-              if [[ -f "$BF_EXTRA" ]]; then
-                diff -n "$BF_EXTRA" "${UBO_EXTRA}" > raw_extra.patch || true
-              else
-                : > raw_extra.patch
-              fi
-              L_EXTRA=$(wc -l < raw_extra.patch | tr -d ' ')
+            diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
+            L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
+            {
+              echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${L_MAIN}"
+              cat raw_main.patch
+            } > bundle_main.patch
 
-              {
-                echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${L_MAIN}"
-                cat raw_main.patch
-                echo "diff name:test_ubo_extras.txt checksum:${SHA1_UBO_EXTRA} lines:${L_EXTRA}"
-                cat raw_extra.patch
-              } > bundle.patch
+            write_bundle_pair "$BASE_EPOCH" bundle_main.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+          done
+          shopt -u nullglob
 
-              write_bundle_pair "$BASE_EPOCH" bundle.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-              cat bundle.patch > "${SITE_DIR}/${PATCH_DIR}/test_ubo_extrasAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-            done
-            shopt -u nullglob
-          fi
-
-          if [[ "${NEED_MAIN}" == "1" && "${NEED_EXTRA}" == "0" ]]; then
-            shopt -s nullglob
-            for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
-              BN=$(basename "$BF")
-              EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
-              [[ -z "$EPOCH_MIN" ]] && { echo "Skip MAIN base: $BN"; continue; }
-              BASE_EPOCH=$(( EPOCH_MIN * 60 ))
-              AGE=$(( NOW_EPOCH - BASE_EPOCH ))
-              if (( AGE > RETENTION_SEC )); then
-                rm -f "$BF"
-                prune_for_epoch "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-                continue
-              fi
-
-              diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
-              L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
-              {
-                echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${L_MAIN}"
-                cat raw_main.patch
-              } > bundle_main.patch
-
-              write_bundle_pair "$BASE_EPOCH" bundle_main.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-            done
-            shopt -u nullglob
-          fi
-
-      - name: Commit and push gh-pages
+      - name: Commit & push gh-pages
         working-directory: ${{ env.SITE_DIR }}
         shell: bash
         run: |
