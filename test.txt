@@ -9,5 +9,5 @@
 
 ! New test
 example.org^
-||assets.ilcdn.fi/17c60c069da2de51c6778b82bd7af4117bc782eadb26284072b6305097ed77dc.svg
+||assets.ilcdn.fi/17c60c0692b6305097ed77dc.svg
 !!!
