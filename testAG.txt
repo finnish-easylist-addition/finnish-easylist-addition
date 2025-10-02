@@ -3,8 +3,8 @@
 ! Description: Test list
 ! Expires: 4 days
 ! Diff-Expires: 1 minute
-! Diff-Path: patches/testAG-m-29324006-1.patch
-! Last modified: Fri, 03 Oct 2025 00:26:58 +0300
+! Diff-Path: patches/testAG-m-29324011-1.patch
+! Last modified: Fri, 03 Oct 2025 00:31:16 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
@@ -12,8 +12,8 @@
 
 !
 donedone.net^
-donedone.net^
 example.org##+js(rmnt, script, ads)
+!
 
 ! New test
 example.org^
