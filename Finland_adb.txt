@@ -984,6 +984,7 @@ tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
 tekniikanmaailma.fi##.PriceGuide_price-guide
 tekniikanmaailma.fi##.TopRowAd_top-ad
 tekniikanmaailma.fi##div.Article_nettix-embed-container
+tekniikkatalous.fi##[width="mobile"]:has(> [width] > [id|="almad-content"])
 tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
 tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
@@ -1028,6 +1029,7 @@ tinderinparhaat.com##.adf-placement-top
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi##section > .lazyload-wrapper + div[class]:has(> a[href^="https://tivi.fi/kumppanisisallot/"])
 tivi.fi##section > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
+tivi.fi#?#a[href^="https://koulutus.almatalent.fi/"] + section:has-text(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#aside:has(> div > span:has-text(KAUPALLINEN YHTEISTYÖ))
 tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
