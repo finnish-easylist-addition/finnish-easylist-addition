@@ -9,5 +9,5 @@
 
 ! New test
 example.org^
-||assets.ilcdn.fi/17c60cxxxxxxxxxxxxxxxxxxxx.svg
+||assets.ilcdn.fi/17c60cxxxxxxx.svg
 !!!
