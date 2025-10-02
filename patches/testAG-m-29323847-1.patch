@@ -1,1 +1,8 @@
-diff name:test.txt checksum:6e3dd69ad8cb6937217cf95ef31b9a514d761891 lines:0
+diff name:test.txt checksum:ad685a9a732f4d776e0a06a213785ac8d5a99325 lines:7
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.2.1198.patch#test.txt
+! Last modified: Thu, 02 Oct 2025 22:58:56 +0300
+d20 1
+a20 1
+||assets.ilcdn.fi/17c60cxxxxxxxxxxxxxxxxxxxx.svg
