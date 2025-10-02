@@ -1,14 +1,16 @@
-diff name:test.txt checksum:4970e847f0251d3181b42eb67ddb0cfd389f9f3c lines:14
+diff name:test.txt checksum:9c808a59dbf1d932c3cbdd69ea102969d55363c3 lines:16
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.2.842.patch#test.txt
-! Last modified: Thu, 02 Oct 2025 17:02:11 +0300
+! Diff-Path: patches/2025.10.2.907.patch#test.txt
+! Last modified: Thu, 02 Oct 2025 18:07:47 +0300
 a9 1
 
 a11 1
 !
-a13 2
+a12 4
+!
 donedone.net^
+!
 donedone.net^
 d18 2
 a19 1
