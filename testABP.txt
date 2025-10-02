@@ -1,0 +1,12 @@
+[Adblock Plus 3.13]
+! Title: Test list
+! Description: Test list
+! Expires: 4 days
+! Last modified: Thu, 02 Oct 2025 21:33:35 +0300
+! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
+! License: https://unlicense.org/
+
+! New test
+example.org^
+||assets.ilcdn.fi/17c60c069da2de51c6778b82bd7af4117bc782eadb26284072b6305097ed77dc.svg
+!!!
