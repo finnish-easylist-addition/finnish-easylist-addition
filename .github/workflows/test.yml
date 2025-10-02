@@ -34,8 +34,8 @@ jobs:
       BASES_MAIN: bases/test-main
 
       RETENTION_DAYS: "30"
-      DIFF_EXPIRES_HUMAN: "1 minute"  # <-- minimi testiin
-      DIFF_EXPIRES_MIN:   "1"         # <-- minimi testiin
+      DIFF_EXPIRES_HUMAN: "1 minute"  # nopea testisyklin arvo
+      DIFF_EXPIRES_MIN:   "1"
 
     steps:
       - name: Checkout master
@@ -210,6 +210,7 @@ jobs:
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           EPOCH_MIN=${{ steps.ts.outputs.epoch_min }}
 
+          # uBO: YYYY.M.D.MINS.patch + fragment (#test.txt)
           Y=$(date -u -d "@${NOW_EPOCH}" +%Y)
           Mo=$(date -u -d "@${NOW_EPOCH}" +%-m)
           D=$(date -u -d "@${NOW_EPOCH}" +%-d)
@@ -219,12 +220,18 @@ jobs:
           PATCH_UBO="${Y}.${Mo}.${D}.${MINS}.patch"
           REL_UBO="${PATCH_DIR}/${PATCH_UBO}"
 
+          # AdGuard: testAG-m-<epochMin>-<ttl>.patch (EI fragmenttia)
           PATCH_AG_MAIN="testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
           REL_AG_MAIN="${PATCH_DIR}/${PATCH_AG_MAIN}"
 
           add_path () {
             local file="$1" rel="$2" frag="$3"
-            local line="! Diff-Path: ${rel}#${frag}"
+            local line
+            if [[ -n "$frag" ]]; then
+              line="! Diff-Path: ${rel}#${frag}"
+            else
+              line="! Diff-Path: ${rel}"
+            fi
             # Poista vanhat Diff-Path -rivit ja aseta uusi Diff-Expires -rivin jälkeen (tai loppuun)
             grep -vE '^! +Diff-Path:' "$file" > tmp && mv tmp "$file"
             awk -v p="$line" '
@@ -235,7 +242,7 @@ jobs:
           }
 
           add_path "${SITE_DIR}/${OUT_UBO_MAIN}" "${REL_UBO}"    "test.txt"
-          add_path "${SITE_DIR}/${OUT_AG_MAIN}"  "${REL_AG_MAIN}" "testAG.txt"
+          add_path "${SITE_DIR}/${OUT_AG_MAIN}"  "${REL_AG_MAIN}" ""
 
       - name: Snapshot composed main (for catch-up)
         if: env.NEED_PUBLISH_MAIN == '1'
@@ -257,22 +264,43 @@ jobs:
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
 
-          UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
-          SHA1_UBO_MAIN=$(sha1sum "${UBO_MAIN}" | awk '{print $1}')
+          UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"    # gh-pages/test.txt (koostettu)
+          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"      # gh-pages/testAG.txt (koostettu)
+          SHA1_UBO=$(sha1sum "${UBO_MAIN}" | awk '{print $1}')
+          SHA1_AG=$(sha1sum "${AG_MAIN}" | awk '{print $1}')
 
-          write_bundle_pair() {
-            local base_epoch="$1" content_file="$2" ag_name="$3"
-            Y=$(date -u -d "@${base_epoch}" +%Y); Mo=$(date -u -d "@${base_epoch}" +%-m)
-            D=$(date -u -d "@${base_epoch}" +%-d); H=$(date -u -d "@${base_epoch}" +%H)
-            Mi=$(date -u -d "@${base_epoch}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
-            UBO="${Y}.${Mo}.${D}.${MINS}.patch"
-            cat "${content_file}" > "${SITE_DIR}/${PATCH_DIR}/${UBO}"
-            if [[ -n "$ag_name" ]]; then
-              cat "${content_file}" > "${SITE_DIR}/${PATCH_DIR}/${ag_name}"
+          write_pair() {
+            local base_epoch="$1" diff_file="$2" name_ubo="$3" name_ag="$4" ag_name="$5"
+
+            # uBO-tiedoston nimi YYYY.M.D.MINS.patch (heuristiikka)
+            Y=$(date -u -d "@${base_epoch}" +%Y)
+            Mo=$(date -u -d "@${base_epoch}" +%-m)
+            D=$(date -u -d "@${base_epoch}" +%-d)
+            H=$(date -u -d "@${base_epoch}" +%H)
+            Mi=$(date -u -d "@${base_epoch}" +%M)
+            MINS=$(( 10#${H}*60 + 10#${Mi} ))
+            UBO_FILE="${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch"
+
+            # Laske rivimäärä kerran
+            LINES=$(wc -l < "${diff_file}" | tr -d ' ')
+
+            # uBO‑bundle: nimi = test.txt, checksum = SHA1_UBO
+            {
+              echo "diff name:${name_ubo} checksum:${SHA1_UBO} lines:${LINES}"
+              cat "${diff_file}"
+            } > "${UBO_FILE}"
+
+            # AG‑bundle: nimi = testAG.txt, checksum = SHA1_AG
+            if [[ -n "${ag_name}" ]]; then
+              AG_FILE="${SITE_DIR}/${PATCH_DIR}/${ag_name}"
+              {
+                echo "diff name:${name_ag} checksum:${SHA1_AG} lines:${LINES}"
+                cat "${diff_file}"
+              } > "${AG_FILE}"
             fi
           }
 
-          prune_for_epoch() {
+          prune_pair() {
             local base_epoch="$1" ag_name="$2"
             Y=$(date -u -d "@${base_epoch}" +%Y); Mo=$(date -u -d "@${base_epoch}" +%-m)
             D=$(date -u -d "@${base_epoch}" +%-d); H=$(date -u -d "@${base_epoch}" +%H)
@@ -291,18 +319,15 @@ jobs:
 
             if (( AGE > RETENTION_SEC )); then
               rm -f "$BF"
-              prune_for_epoch "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+              prune_pair "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
               continue
             fi
 
-            diff -n "$BF" "${UBO_MAIN}" > raw_main.patch || true
-            L_MAIN=$(wc -l < raw_main.patch | tr -d ' ')
-            {
-              echo "diff name:test.txt checksum:${SHA1_UBO_MAIN} lines:${L_MAIN}"
-              cat raw_main.patch
-            } > bundle_main.patch
+            # Sama diff molemmille (koostetusta uBO-mainista),
+            # mutta nimi+checksum eroavat kohteittain headerissa
+            diff -n "$BF" "${UBO_MAIN}" > diff_raw.patch || true
 
-            write_bundle_pair "$BASE_EPOCH" bundle_main.patch "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+            write_pair "$BASE_EPOCH" diff_raw.patch "test.txt" "testAG.txt" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
           done
           shopt -u nullglob
 
