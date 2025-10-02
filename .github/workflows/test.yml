@@ -34,8 +34,8 @@ jobs:
       BASES_MAIN: bases/test-main
 
       RETENTION_DAYS: "30"
-      DIFF_EXPIRES_HUMAN: "5 hours"
-      DIFF_EXPIRES_MIN:   "300"
+      DIFF_EXPIRES_HUMAN: "1 minute"  # <-- minimi testiin
+      DIFF_EXPIRES_MIN:   "1"         # <-- minimi testiin
 
     steps:
       - name: Checkout master
@@ -125,7 +125,7 @@ jobs:
               }
               END { if (!done_lm) print lm }
             ' raw.txt > t1.txt
-            # Lisää/korvaa Diff-Expires: 5 hours
+            # Lisää/korvaa Diff-Expires
             if grep -qE '^! +Diff-Expires:' t1.txt; then
               sed -E "s/^! +Diff-Expires:.*/! Diff-Expires: ${DIFF_EXPIRES_HUMAN}/" t1.txt > t2.txt
             else
