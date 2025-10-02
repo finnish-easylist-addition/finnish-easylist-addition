@@ -1,10 +1,6 @@
 [uBlock Origin]
 
 !
-example.net^
-!
-donedone.net^
-!
 donedone.net^
 donedone.net^
 example.org##+js(rmnt, script, ads)
