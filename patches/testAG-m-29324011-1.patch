@@ -1,1 +1,10 @@
-diff name:testAG.txt checksum:c409576019360532e7c2345bfcaac2b9368e7114 lines:0
+diff name:testAG.txt checksum:ca2b7ed06ac532f6cb248733c1a787f32bf26690 lines:9
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.3.855.patch#test.txt
+! Last modified: Fri, 03 Oct 2025 17:15:43 +0300
+d20 1
+a20 1
+||assets.ilcdn.fi/17c60cwdwdwadawfeafawex.svg
+a21 1
+!
