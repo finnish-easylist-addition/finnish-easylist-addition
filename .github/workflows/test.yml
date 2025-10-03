@@ -31,10 +31,11 @@ jobs:
       OUT_AG_MAIN:  testAG.txt        # AdGuard julkaisu (inline extras)
       OUT_ABP_MAIN: testABP.txt       # ABP julkaisu (EI inline, EI diff)
 
-      BASES_MAIN: bases/test-main
+      BASES_UBO: bases/test-main-ubo
+      BASES_AG:  bases/test-main-ag
 
       RETENTION_DAYS: "30"
-      DIFF_EXPIRES_HUMAN: "1 minute"  # nopea testisyklin arvo
+      DIFF_EXPIRES_HUMAN: "1 minute"  # testisyklin minimi
       DIFF_EXPIRES_MIN:   "1"
 
     steps:
@@ -88,7 +89,7 @@ jobs:
           git fetch --depth=1 origin gh-pages:gh-pages || true
           rm -rf "${SITE_DIR}" || true
           git worktree add "${SITE_DIR}" gh-pages
-          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_MAIN}"
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_UBO}" "${SITE_DIR}/${BASES_AG}"
           git -C "${SITE_DIR}" config user.email "${GH_EMAIL}"
           git -C "${SITE_DIR}" config user.name  "${GH_NAME}"
 
@@ -153,19 +154,15 @@ jobs:
             ' "$dest"
 
             if [[ -f "$extras_src" ]]; then
-              # Kirjoita "before"-osa kohteeseen
+              # "before" osuus
               cat "$tmp_before" > "$dest"
-
-              # Lisää täsmälleen yksi tyhjä välirivi meta-osion ja extrasin väliin
+              # yksi tyhjä rivi meta-osion ja extrasin väliin
               printf '\n' >> "$dest"
-
-              # Liitä extras SELLaisenaan, mutta pudota mahdolliset johtavat tyhjät rivit
+              # extras sellaisenaan (pudota johtavat tyhjät rivit)
               awk 'NF{seen=1} seen{print}' "$extras_src" >> "$dest"
-
-              # Jatka loppuosa
+              # loppuosa
               cat "$tmp_after" >> "$dest"
             else
-              # Ei extras-lähdettä → käytä vain before+aftera ilman includea
               cat "$tmp_before" "$tmp_after" > "$dest"
             fi
 
@@ -178,6 +175,10 @@ jobs:
           # …ja inlinea extras SELLaisenaan molempiin (välissä yksi tyhjä rivi)
           inline_extras_into "${SITE_DIR}/${OUT_UBO_MAIN}" "${SRC_EXTRA}"
           inline_extras_into "${SITE_DIR}/${OUT_AG_MAIN}"  "${SRC_EXTRA}"
+
+          # Normalisoi rivinvaihdot (LF) ennen hashia/snapshotteja
+          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_UBO_MAIN}"
+          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_AG_MAIN}"
 
       - name: Build ABP (no diff, no extras) only if main changed
         if: env.NEED_PUBLISH_ABP == '1'
@@ -220,7 +221,7 @@ jobs:
           PATCH_UBO="${Y}.${Mo}.${D}.${MINS}.patch"
           REL_UBO="${PATCH_DIR}/${PATCH_UBO}"
 
-          # AdGuard: testAG-m-<epochMin>-<ttl>.patch (EI fragmenttia)
+          # AdGuard: testAG-m-<epochMin>-<ttl>.patch (ei fragmenttia)
           PATCH_AG_MAIN="testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
           REL_AG_MAIN="${PATCH_DIR}/${PATCH_AG_MAIN}"
 
@@ -244,16 +245,17 @@ jobs:
           add_path "${SITE_DIR}/${OUT_UBO_MAIN}" "${REL_UBO}"    "test.txt"
           add_path "${SITE_DIR}/${OUT_AG_MAIN}"  "${REL_AG_MAIN}" ""
 
-      - name: Snapshot composed main (for catch-up)
+      - name: Snapshot composed mains (for catch-up)
         if: env.NEED_PUBLISH_MAIN == '1'
         shell: bash
         env:
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -e
-          cp "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${BASES_MAIN}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          cp "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${BASES_UBO}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
+          cp "${SITE_DIR}/${OUT_AG_MAIN}"  "${SITE_DIR}/${BASES_AG}/testAG-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
 
-      - name: Regenerate patches (catch-up for composed main)
+      - name: Regenerate patches (separate uBO and AdGuard)
         if: env.NEED_PUBLISH_MAIN == '1'
         shell: bash
         env:
@@ -264,70 +266,83 @@ jobs:
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
 
-          UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"    # gh-pages/test.txt (koostettu)
-          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"      # gh-pages/testAG.txt (koostettu)
+          UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
+          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"
           SHA1_UBO=$(sha1sum "${UBO_MAIN}" | awk '{print $1}')
           SHA1_AG=$(sha1sum "${AG_MAIN}" | awk '{print $1}')
 
-          write_pair() {
-            local base_epoch="$1" diff_file="$2" name_ubo="$3" name_ag="$4" ag_name="$5"
-
-            # uBO-tiedoston nimi YYYY.M.D.MINS.patch (heuristiikka)
+          # --- uBO-patchit (oma diff uBO:sta) ---
+          write_ubo_bundle() {
+            local base_epoch="$1" diff_file="$2"
             Y=$(date -u -d "@${base_epoch}" +%Y)
             Mo=$(date -u -d "@${base_epoch}" +%-m)
             D=$(date -u -d "@${base_epoch}" +%-d)
             H=$(date -u -d "@${base_epoch}" +%H)
             Mi=$(date -u -d "@${base_epoch}" +%M)
             MINS=$(( 10#${H}*60 + 10#${Mi} ))
-            UBO_FILE="${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch"
-
-            # Laske rivimäärä kerran
-            LINES=$(wc -l < "${diff_file}" | tr -d ' ')
-
-            # uBO‑bundle: nimi = test.txt, checksum = SHA1_UBO
-            {
-              echo "diff name:${name_ubo} checksum:${SHA1_UBO} lines:${LINES}"
-              cat "${diff_file}"
-            } > "${UBO_FILE}"
-
-            # AG‑bundle: nimi = testAG.txt, checksum = SHA1_AG
-            if [[ -n "${ag_name}" ]]; then
-              AG_FILE="${SITE_DIR}/${PATCH_DIR}/${ag_name}"
-              {
-                echo "diff name:${name_ag} checksum:${SHA1_AG} lines:${LINES}"
-                cat "${diff_file}"
-              } > "${AG_FILE}"
-            fi
+            local ubo_path="${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch"
+            local lines=$(wc -l < "${diff_file}" | tr -d ' ')
+            { echo "diff name:test.txt checksum:${SHA1_UBO} lines:${lines}"; cat "${diff_file}"; } > "${ubo_path}"
           }
 
-          prune_pair() {
-            local base_epoch="$1" ag_name="$2"
+          prune_ubo_for_epoch() {
+            local base_epoch="$1"
             Y=$(date -u -d "@${base_epoch}" +%Y); Mo=$(date -u -d "@${base_epoch}" +%-m)
             D=$(date -u -d "@${base_epoch}" +%-d); H=$(date -u -d "@${base_epoch}" +%H)
             Mi=$(date -u -d "@${base_epoch}" +%M); MINS=$(( 10#${H}*60 + 10#${Mi} ))
             rm -f "${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch"
-            [[ -n "$ag_name" ]] && rm -f "${SITE_DIR}/${PATCH_DIR}/${ag_name}"
           }
 
+          # --- AdGuard-patchit (oma diff AG:stä) ---
+          write_ag_bundle() {
+            local epoch_min="$1" diff_file="$2"
+            local ag_name="testAG-m-${epoch_min}-${DIFF_EXPIRES_MIN}.patch"
+            local ag_path="${SITE_DIR}/${PATCH_DIR}/${ag_name}"
+            local lines=$(wc -l < "${diff_file}" | tr -d ' ')
+            { echo "diff name:testAG.txt checksum:${SHA1_AG} lines:${lines}"; cat "${diff_file}"; } > "${ag_path}"
+          }
+
+          prune_ag_for_epoch() {
+            local epoch_min="$1"
+            rm -f "${SITE_DIR}/${PATCH_DIR}/testAG-m-${epoch_min}-${DIFF_EXPIRES_MIN}.patch"
+          }
+
+          # --- uBO catch-up: laske uBO-diff uBO-baseista ---
           shopt -s nullglob
-          for BF in "${SITE_DIR}/${BASES_MAIN}"/test-*-*.base.txt; do
+          for BF in "${SITE_DIR}/${BASES_UBO}"/test-*-*.base.txt; do
             BN=$(basename "$BF")
             EPOCH_MIN=$(echo "$BN" | sed -n 's/^test-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
-            [[ -z "$EPOCH_MIN" ]] && { echo "Skip base: $BN"; continue; }
+            [[ -z "$EPOCH_MIN" ]] && { echo "Skip uBO base: $BN"; continue; }
             BASE_EPOCH=$(( EPOCH_MIN * 60 ))
             AGE=$(( NOW_EPOCH - BASE_EPOCH ))
 
             if (( AGE > RETENTION_SEC )); then
               rm -f "$BF"
-              prune_pair "$BASE_EPOCH" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+              prune_ubo_for_epoch "$BASE_EPOCH"
               continue
             fi
 
-            # Sama diff molemmille (koostetusta uBO-mainista),
-            # mutta nimi+checksum eroavat kohteittain headerissa
-            diff -n "$BF" "${UBO_MAIN}" > diff_raw.patch || true
+            diff -n "$BF" "${UBO_MAIN}" > diff_ubo.patch || true
+            write_ubo_bundle "$BASE_EPOCH" diff_ubo.patch
+          done
+          shopt -u nullglob
 
-            write_pair "$BASE_EPOCH" diff_raw.patch "test.txt" "testAG.txt" "testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
+          # --- AdGuard catch-up: laske AG-diff AG-baseista ---
+          shopt -s nullglob
+          for BF in "${SITE_DIR}/${BASES_AG}"/testAG-*-*.base.txt; do
+            BN=$(basename "$BF")
+            EPOCH_MIN=$(echo "$BN" | sed -n 's/^testAG-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
+            [[ -z "$EPOCH_MIN" ]] && { echo "Skip AG base: $BN"; continue; }
+            AGE=$(( NOW_EPOCH - EPOCH_MIN*60 ))
+
+            if (( AGE > RETENTION_SEC )); then
+              rm -f "$BF"
+              prune_ag_for_epoch "$EPOCH_MIN"
+              continue
+            fi
+
+            diff -n "$BF" "${AG_MAIN}" > diff_ag.patch || true
+            write_ag_bundle "$EPOCH_MIN" diff_ag.patch
           done
           shopt -u nullglob
 
