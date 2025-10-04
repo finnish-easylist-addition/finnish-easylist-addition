@@ -12,3 +12,4 @@ example.org^
 ||assets.ilcdn.fi/17c60.svg
 !!!
 !
+iltalehti.fi##.alma-links
