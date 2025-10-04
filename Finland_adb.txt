@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 04 Oct 2025 13:09:17 +0300
+! Last modified: Sat, 04 Oct 2025 14:11:15 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1325,6 +1325,7 @@ iltalehti.fi##.card:has(.alennuskoodi-column-embed)
 iltalehti.fi##.card:has(.autotalli-box-embed)
 iltalehti.fi##.card:has(.etua-widget-container)
 iltalehti.fi##.card:has(.etuovi-react-embed)
+iltalehti.fi##.card:has(> .full-article .front-sponsored-heading)
 iltalehti.fi##.center.category-list-embed
 iltalehti.fi##.commercial-list-item
 iltalehti.fi##.embed-placeholder:has(> div > .eo-embed-announcements-container.card)
@@ -1341,16 +1342,6 @@ iltalehti.fi##.wall-container
 iltalehti.fi##[id|="almad"].ad
 iltalehti.fi##a.articles__list-item[href^="/telkku/"]:has(p.articles__sponsored-banner)
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
-iltalehti.fi##div.fp-container.card:has([href*=clark-taloutesi-tukena])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src*=KAUPALLINEN][src*=YHTEISTY])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src*=kaupallinenyht i])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src*=kyi_ i])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src*=mainos i])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src^=ky- i])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi"][src^=ky_ i])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/Nauha_Rantapallo"])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/asuminen_vattenfall_palkki"])
-iltalehti.fi##div.fp-container.card:has([src*="ilcdn.fi/kuvat/nauhat/nauha_terveys_specsavers"])
 iltalehti.fi##div[class="card "]:has(.block > a[class=nakoislehti][href^="https://plus.iltalehti.fi/nakoislehti/"])
 iltalehti.fi##div[class=iframe-container]
 iltalehti.fi#?#.card .recommendation:has-text(Kaupallinen yhteistyö)
