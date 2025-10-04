@@ -1,9 +1,12 @@
-diff name:testAG.txt checksum:9b8feb9d9ce5ed19f5046925131be32eff5be096 lines:8
+diff name:testAG.txt checksum:7d777d2dfada3e6a9df58ebdf2c9afc5d6e4609e lines:11
 d6 2
 a7 2
-! Diff-Path: patches/testAG-m-29326751-1.patch
-! Last modified: Sat, 04 Oct 2025 22:11:58 +0300
+! Diff-Path: patches/testAG-m-29326796-1.patch
+! Last modified: Sat, 04 Oct 2025 22:56:27 +0300
 a14 1
 !
+a16 2
+!
+! donedone
 a22 1
 iltalehti.fi##.alma-links

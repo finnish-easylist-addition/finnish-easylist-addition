@@ -1,10 +1,13 @@
-diff name:test.txt checksum:6041eba05f1dff1dbfdc9ecfc814b3ac72f1eabb lines:9
+diff name:test.txt checksum:f4105222e746e38e8de46bb0e6e9b17516bd4786 lines:12
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.4.1151.patch#test.txt
-! Last modified: Sat, 04 Oct 2025 22:11:58 +0300
+! Diff-Path: patches/2025.10.4.1196.patch#test.txt
+! Last modified: Sat, 04 Oct 2025 22:56:27 +0300
 a14 1
 !
 d17 1
+a17 2
+!
+! donedone
 a23 1
 iltalehti.fi##.alma-links
