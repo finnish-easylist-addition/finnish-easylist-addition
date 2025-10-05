@@ -1,9 +1,9 @@
-diff name:testAG.txt checksum:facade65b631c9948ead92442dd207fd67c8206d lines:14
+diff name:testAG.txt checksum:f2601b956c17726a6bd1e8fffa823798e37b2a9b lines:14
 d6 2
 a7 2
-! Diff-Path: patches/testAG-m-29327646-1.patch
-! Last modified: Sun, 05 Oct 2025 13:06:19 +0300
-d11 1
+! Diff-Path: patches/testAG-m-29327724-1.patch
+! Last modified: Sun, 05 Oct 2025 14:24:44 +0300
+d11 2
 a14 1
 !
 a15 2
@@ -12,4 +12,4 @@ example.net##+js(set, ads, noopFunc)
 a16 1
 testtestetsteste3st
 a22 1
-iltalehti.fi##.alma-links
+iltalehti.fi##.container-max-width.il-header
