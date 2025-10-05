@@ -10,6 +10,4 @@
 ! New test
 example.org^
 ||assets.ilcdn.fi/17c60.svg
-!!!
-!
-! iltalehti.fi##.container-max-width.il-header
+iltalehti.fi##.container-max-width.il-header
