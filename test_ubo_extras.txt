@@ -4,6 +4,4 @@
 donedone.net^
 !
 example.org##+js(rmnt, script, ads)
-!
-!
-! donedone
+example.net##+js(set, ads, noopFunc)
