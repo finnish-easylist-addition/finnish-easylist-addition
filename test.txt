@@ -9,5 +9,6 @@
 
 ! New test
 example.org^
+ecammple.org^
 ||assets.ilcdn.fi/17c60.svg
 iltalehti.fi##.container-max-width.il-header
