@@ -12,4 +12,4 @@ example.org^
 ||assets.ilcdn.fi/17c60.svg
 !!!
 !
-iltalehti.fi##.alma-links
+iltalehti.fi##.container-max-width.il-header
