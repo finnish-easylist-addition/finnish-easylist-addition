@@ -1,1 +1,8 @@
-diff name:testAG.txt checksum:7d777d2dfada3e6a9df58ebdf2c9afc5d6e4609e lines:0
+diff name:testAG.txt checksum:ce57921fb23563ca16077459585b092b5a789de5 lines:7
+d6 2
+a7 2
+! Diff-Path: patches/testAG-m-29327460-1.patch
+! Last modified: Sun, 05 Oct 2025 10:00:04 +0300
+d17 3
+a19 1
+example.net##+js(set, ads, noopFunc)

@@ -1,13 +1,12 @@
-diff name:test.txt checksum:f4105222e746e38e8de46bb0e6e9b17516bd4786 lines:12
+diff name:test.txt checksum:b7a4e3b6a1b7bc2c6b38454dc294263a6928f310 lines:11
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.4.1196.patch#test.txt
-! Last modified: Sat, 04 Oct 2025 22:56:27 +0300
-a14 1
-!
+! Diff-Path: patches/2025.10.5.420.patch#test.txt
+! Last modified: Sun, 05 Oct 2025 10:00:04 +0300
+d15 1
 d17 1
 a17 2
-!
-! donedone
+example.org##+js(rmnt, script, ads)
+example.net##+js(set, ads, noopFunc)
 a23 1
 iltalehti.fi##.alma-links

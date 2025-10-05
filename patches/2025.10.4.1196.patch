@@ -1,1 +1,8 @@
-diff name:test.txt checksum:f4105222e746e38e8de46bb0e6e9b17516bd4786 lines:0
+diff name:test.txt checksum:b7a4e3b6a1b7bc2c6b38454dc294263a6928f310 lines:7
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.5.420.patch#test.txt
+! Last modified: Sun, 05 Oct 2025 10:00:04 +0300
+d17 3
+a19 1
+example.net##+js(set, ads, noopFunc)
