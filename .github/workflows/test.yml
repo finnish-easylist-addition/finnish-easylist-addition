@@ -157,9 +157,6 @@ jobs:
               # Kirjoita "before"-osa kohteeseen
               cat "$tmp_before" > "$dest"
 
-              # Yksi tyhjä väli meta-osion ja extrasin väliin
-              printf '\n' >> "$dest"
-
               # Liitä extras SELLaisenaan, mutta:
               #  - poista johtavat tyhjät rivit
               #  - jos ensimmäinen ei-tyhjä rivi on täsmälleen "[uBlock Origin]", pudota se pois
@@ -189,7 +186,7 @@ jobs:
           # Rakenna uBO/AG julkaisut masterin test.txt:stä…
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_UBO_MAIN}"
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"
-          # …ja inlinea extras SELLaisenaan molempiin (välissä yksi tyhjä rivi, ja extrasin alun [uBlock Origin] pudotus)
+          # …ja inlinea extras SELLaisenaan molempiin (ilman pakotettua tyhjää väliä, ja extrasin alun [uBlock Origin] pudotus)
           inline_extras_into "${SITE_DIR}/${OUT_UBO_MAIN}" "${SRC_EXTRA}"
           inline_extras_into "${SITE_DIR}/${OUT_AG_MAIN}"  "${SRC_EXTRA}"
 
@@ -352,7 +349,7 @@ jobs:
             [[ -z "$EPOCH_MIN" ]] && { echo "Skip AG base: $BN"; continue; }
             AGE=$(( NOW_EPOCH - EPOCH_MIN*60 ))
 
-            if (( AGE > RETENTION_SEC )); then
+            if (( AGE > RETENTION_SEC )) ; then
               rm -f "$BF"
               prune_ag_for_epoch "$EPOCH_MIN"
               continue
