@@ -1,1 +1,6 @@
-diff name:test.txt checksum:0ceb0f3771570362c3197c948a0b052cadfd88fe lines:0
+diff name:test.txt checksum:e809ef7c14705c0d4fde71d56c605feadde56ced lines:5
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.6.526.patch#test.txt
+! Last modified: Mon, 06 Oct 2025 11:46:52 +0300
+d15 1
