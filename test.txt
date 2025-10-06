@@ -6,6 +6,15 @@
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
+! -----uBO/AG ONLY-----
+!
+donedone.net^
+!
+example.org##+js(rmnt, script, ads)
+!
+!
+! -----uBO/AG ONLY END-----
+
 ! New test
 example.org^
 ecammple.org^
