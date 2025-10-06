@@ -1,0 +1,21 @@
+[Adblock Plus 3.13]
+! Title: Test list
+! Description: Test list
+! Expires: 4 days
+! Diff-Expires: 1 minute
+! Diff-Path: patches/2025.10.6.1249.patch#test.txt
+! Last modified: Mon, 06 Oct 2025 23:49:52 +0300
+! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
+! License: https://unlicense.org/
+
+
+donedone.net^
+example.org##+js(rmnt, script, ads)
+exdwdample.org##+js(rmnt, script, ads)
+
+
+! New test
+example.org^
+ecammple.org^
+||assets.ilcdn.fi/17c60.svg
+iltalehti.fi##.container-max-width.il-header
