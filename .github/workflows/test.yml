@@ -123,7 +123,7 @@ jobs:
           perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_UBO_MAIN}"
           perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_AG_MAIN}"
 
-      - name: Build ABP (prune only the exact marked block; no Diff-*)
+      - name: Build ABP candidate (prune marked block incl. preceding blanks; no Diff-*)
         shell: bash
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
@@ -131,13 +131,22 @@ jobs:
           set -euo pipefail
           if [[ -f "${SRC_MAIN}" ]]; then cp "${SRC_MAIN}" raw.txt; else : > raw.txt; fi
 
-          # Poista vain markeriväli BEGIN..END, jätä muu koskemattomaksi
+          # Poista markeriväli ja myös markeria VÄLITTÖMÄSTI EDELTÄVÄT tyhjät rivit.
+          # Toteutus: viivästetään tyhjän rivin tulostus kunnes nähdään onko seuraava rivi BEGIN-marker.
           awk '
-            BEGIN{ drop=0 }
-            /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { drop=1; next }
-            /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ { drop=0; next }
-            drop==1 { next }
-            { print }
+            BEGIN{ drop=0; pending_blank=0 }
+            function is_begin(line){ return (line ~ /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/) }
+            function is_end(line){   return (line ~ /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/) }
+            {
+              line=$0
+              if (is_begin(line)) { drop=1; pending_blank=0; next }
+              if (is_end(line))   { drop=0; next }
+              if (drop) next
+              if (line ~ /^[[:space:]]*$/) { pending_blank=1; next }
+              if (pending_blank) { print ""; pending_blank=0 }
+              print line
+            }
+            END { if (pending_blank) print "" }
           ' raw.txt > t0.txt
 
           # Päivitä Last modified, poista mahdolliset Diff-Path/Expires -rivit
@@ -150,9 +159,30 @@ jobs:
               print
             }
             END { if (!done_lm) print lm }
-          ' t0.txt > "${SITE_DIR}/${OUT_ABP_MAIN}"
+          ' t0.txt > "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
 
-          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_ABP_MAIN}"
+          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
+
+      - name: Skip ABP publish if only uBO/AG block changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Jos ABP:n "runko" (ilman Last modified -riviä) on identtinen nykyiseen julkaisuun,
+          # älä koske ABP-tiedostoon -> ABP ei päivity turhaan.
+          strip_lm() { grep -v -E '^! +Last modified:' "$1" || true; }
+
+          if [[ -f "${SITE_DIR}/${OUT_ABP_MAIN}" ]]; then
+            diff -q \
+              <(strip_lm "${SITE_DIR}/${OUT_ABP_MAIN}") \
+              <(strip_lm "${SITE_DIR}/${OUT_ABP_MAIN}.candidate") >/dev/null && {
+                echo "ABP content unchanged → skipping ABP update"
+                rm -f "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
+                exit 0
+              }
+          fi
+
+          # Muuten otetaan candidate käyttöön
+          mv -f "${SITE_DIR}/${OUT_ABP_MAIN}.candidate" "${SITE_DIR}/${OUT_ABP_MAIN}"
 
       - name: Add Diff-Path for uBO/AG
         shell: bash
