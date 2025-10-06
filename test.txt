@@ -10,6 +10,8 @@
 
 donedone.net^
 example.org##+js(rmnt, script, ads)
+exfgrfeample.org##+js(rmnt, script, ads)
+
 ! Testtestestest
 
 ! -----uBO/AG ONLY END-----
