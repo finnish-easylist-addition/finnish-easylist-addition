@@ -1,1 +1,7 @@
-diff name:testAG.txt checksum:3e34c0608f55e40af75f2fff02f1ead8c21a8de2 lines:0
+diff name:testAG.txt checksum:cb97724f7e301dff13d2578e1137b9655267d69c lines:6
+d6 2
+a7 2
+! Diff-Path: patches/testAG-m-29329751-1.patch
+! Last modified: Tue, 07 Oct 2025 00:11:33 +0300
+d11 1
+d14 2
