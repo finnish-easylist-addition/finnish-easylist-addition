@@ -17,3 +17,4 @@ example.org##+js(rmnt, script, ads)
 ! New test
 ecammple.org^
 iltalehti.fi##.container-max-width.il-header
+iltalehti.fi##.navigation
