@@ -65,7 +65,7 @@ jobs:
           echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build uBO/AG publications (remove only marker lines)
+      - name: Build uBO/AG publications (remove only marker lines; drop trailing blank after marker)
         shell: bash
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
@@ -103,13 +103,19 @@ jobs:
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_UBO_MAIN}"
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"
 
-          # 2) uBO/AG: Poista vain markeririvit, mutta jätä markerivälin sisältö koskemattomaksi
-          #    Markerit: täsmälleen nämä kaksi riviä (sallitaan ympärillä whitespace)
+          # 2) uBO/AG: Poista VAIN markeririvit, ja jos markerin jälkeen on tyhjä rivi, poista sekin
           for f in "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"; do
             awk '
-              /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { next }
-              /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ { next }
-              { print }
+              BEGIN { skip_blank = 0 }
+              /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { skip_blank=1; next }
+              /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ { skip_blank=1; next }
+              {
+                if (skip_blank) {
+                  if ($0 ~ /^[[:space:]]*$/) { skip_blank=0; next }  # ohita yksi tyhjä rivi markkerin jälkeen
+                  skip_blank=0
+                }
+                print
+              }
             ' "$f" > "$f.__tmp" && mv "$f.__tmp" "$f"
           done
 
@@ -125,7 +131,7 @@ jobs:
           set -euo pipefail
           if [[ -f "${SRC_MAIN}" ]]; then cp "${SRC_MAIN}" raw.txt; else : > raw.txt; fi
 
-          # Poista vain markeriväli BEGIN..END, mutta jätä kaikki muu (myös mahdolliset muut markerit) koskemattomaksi
+          # Poista vain markeriväli BEGIN..END, jätä muu koskemattomaksi
           awk '
             BEGIN{ drop=0 }
             /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { drop=1; next }
