@@ -1,1 +1,7 @@
-diff name:test.txt checksum:27078180200329ad4824d0393a0d9c41d7e69a50 lines:0
+diff name:test.txt checksum:e036e2d0e6eddf4a1a6a99b336948df39e415782 lines:6
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.6.1300.patch#test.txt
+! Last modified: Tue, 07 Oct 2025 00:40:29 +0300
+a17 1
+iltalehti.fi##.navigation

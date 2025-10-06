@@ -1,1 +1,7 @@
-diff name:testAG.txt checksum:552db8f8ca49c2611a474646e5a32d5ef72808b2 lines:0
+diff name:testAG.txt checksum:ec6de29c4ee79b921256a611cc03019c53e551a2 lines:6
+d6 2
+a7 2
+! Diff-Path: patches/testAG-m-29329780-1.patch
+! Last modified: Tue, 07 Oct 2025 00:40:29 +0300
+a17 1
+iltalehti.fi##.navigation
