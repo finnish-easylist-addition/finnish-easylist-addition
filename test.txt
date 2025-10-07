@@ -9,6 +9,7 @@
 ! -----uBO/AG ONLY-----
 
 ||sdk.privacy-center.org^$3p,important
+||daadaa.net^
 
 ! -----uBO/AG ONLY END-----
 
