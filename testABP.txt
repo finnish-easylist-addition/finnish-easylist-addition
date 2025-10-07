@@ -2,11 +2,8 @@
 ! Title: Test list
 ! Description: Test list
 ! Expires: 4 days
-! Last modified: Tue, 07 Oct 2025 00:40:29 +0300
+! Last modified: Tue, 07 Oct 2025 19:26:18 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
-! New test
-ecammple.org^
-iltalehti.fi##.container-max-width.il-header
-iltalehti.fi##.navigation
+ampparit.com##div.sidebox > .sidebox-header

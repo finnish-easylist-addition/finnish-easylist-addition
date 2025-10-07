@@ -1,12 +1,11 @@
-diff name:test.txt checksum:b61a2af3fccfb3b848c33f329381de7f4e0bc34c lines:11
+diff name:test.txt checksum:369b18429c296d0de707e9faf428ec31c74f39cb lines:10
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.7.373.patch#test.txt
-! Last modified: Tue, 07 Oct 2025 09:13:58 +0300
-d12 1
-a12 3
-exfgrfeample.org##+js(rmnt, script, ads)
-lskjfoeuifhwoerifhewoi
-
+! Diff-Path: patches/2025.10.7.986.patch#test.txt
+! Last modified: Tue, 07 Oct 2025 19:26:18 +0300
+d11 3
+a13 1
+||sdk.privacy-center.org^$3p,important
+d15 3
 a17 1
-iltalehti.fi##.navigation
+ampparit.com##div.sidebox > .sidebox-header

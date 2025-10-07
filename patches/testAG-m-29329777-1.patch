@@ -1,12 +1,11 @@
-diff name:testAG.txt checksum:93b790385a6d484cfa06890c3cae496928579fb2 lines:11
+diff name:testAG.txt checksum:8b5c29887759d866df45ab81029c74381fad7d2a lines:10
 d6 2
 a7 2
-! Diff-Path: patches/testAG-m-29330293-1.patch
-! Last modified: Tue, 07 Oct 2025 09:13:58 +0300
-d12 1
-a12 3
-exfgrfeample.org##+js(rmnt, script, ads)
-lskjfoeuifhwoerifhewoi
-
+! Diff-Path: patches/testAG-m-29330906-1.patch
+! Last modified: Tue, 07 Oct 2025 19:26:18 +0300
+d11 3
+a13 1
+||sdk.privacy-center.org^$3p,important
+d15 3
 a17 1
-iltalehti.fi##.navigation
+ampparit.com##div.sidebox > .sidebox-header
