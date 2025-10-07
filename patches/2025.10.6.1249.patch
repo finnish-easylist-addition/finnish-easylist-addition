@@ -1,12 +1,13 @@
-diff name:test.txt checksum:d07949a9686f60cfd4fe079b64f09d2875302327 lines:14
+diff name:test.txt checksum:b61a2af3fccfb3b848c33f329381de7f4e0bc34c lines:15
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.6.1337.patch#test.txt
-! Last modified: Tue, 07 Oct 2025 01:17:45 +0300
+! Diff-Path: patches/2025.10.7.373.patch#test.txt
+! Last modified: Tue, 07 Oct 2025 09:13:58 +0300
 d11 1
-d14 1
-a14 1
+d13 2
+a14 2
 exfgrfeample.org##+js(rmnt, script, ads)
+lskjfoeuifhwoerifhewoi
 a15 1
 ! Testtestestest
 d18 1
