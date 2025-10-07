@@ -1,4 +1,4 @@
-name: Publish test lists (uBO/AdGuard with markers kept, ABP prunes block)
+name: Publish test lists (uBO only; ABP conditional)
 
 on:
   push:
@@ -25,12 +25,10 @@ jobs:
 
       SRC_MAIN: test.txt
 
-      OUT_UBO_MAIN: test.txt          # uBO julkaisu
-      OUT_AG_MAIN:  testAG.txt        # AdGuard julkaisu
-      OUT_ABP_MAIN: testABP.txt       # ABP julkaisu
+      OUT_UBO_MAIN: test.txt        # uBO julkaisu (diff käytössä)
+      OUT_ABP_MAIN: testABP.txt     # ABP julkaisu (ei diffiä)
 
       BASES_UBO: bases/test-main-ubo
-      BASES_AG:  bases/test-main-ag
 
       RETENTION_DAYS: "30"
       DIFF_EXPIRES_HUMAN: "1 minute"  # testisyklin minimi
@@ -50,7 +48,7 @@ jobs:
           git fetch --depth=1 origin gh-pages:gh-pages || true
           rm -rf "${SITE_DIR}" || true
           git worktree add "${SITE_DIR}" gh-pages
-          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_UBO}" "${SITE_DIR}/${BASES_AG}"
+          mkdir -p "${SITE_DIR}/${PATCH_DIR}" "${SITE_DIR}/${BASES_UBO}"
           git -C "${SITE_DIR}" config user.email "${GH_EMAIL}"
           git -C "${SITE_DIR}" config user.name  "${GH_NAME}"
 
@@ -65,7 +63,7 @@ jobs:
           echo "now_epoch=${NOW_EPOCH}" >> $GITHUB_OUTPUT
           echo "epoch_min=${EPOCH_MIN}" >> $GITHUB_OUTPUT
 
-      - name: Build uBO/AG publications (remove only marker lines; drop trailing blank after marker)
+      - name: Build uBO publication (remove only marker lines; drop trailing blank after marker)
         shell: bash
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
@@ -76,7 +74,7 @@ jobs:
           build_headers () {
             local src="$1" dest="$2"
             if [[ -f "${src}" ]]; then cp "${src}" raw.txt; else : > raw.txt; fi
-            # Päivitä Last modified, poista mahdolliset vanhat Diff-Path -rivit
+            # Päivitä Last modified, poista vanhat Diff-Path -rivit
             awk -v lm="! Last modified: ${RFC2822}" '
               BEGIN{ done_lm=0 }
               {
@@ -99,31 +97,28 @@ jobs:
             cp t2.txt "${dest}"
           }
 
-          # 1) Rakenna pohjat uBO/AG:lle masterin sisällöstä
+          # 1) Rakenna uBO-pohja masterin sisällöstä
           build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_UBO_MAIN}"
-          build_headers "${SRC_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"
 
-          # 2) uBO/AG: Poista VAIN markeririvit, ja jos markerin jälkeen on tyhjä rivi, poista sekin
-          for f in "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${OUT_AG_MAIN}"; do
-            awk '
-              BEGIN { skip_blank = 0 }
-              /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { skip_blank=1; next }
-              /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ { skip_blank=1; next }
-              {
-                if (skip_blank) {
-                  if ($0 ~ /^[[:space:]]*$/) { skip_blank=0; next }  # ohita yksi tyhjä rivi markkerin jälkeen
-                  skip_blank=0
-                }
-                print
+          # 2) uBO: Poista VAIN markeririvit, ja jos markerin jälkeen on tyhjä rivi, poista sekin
+          f="${SITE_DIR}/${OUT_UBO_MAIN}"
+          awk '
+            BEGIN { skip_blank = 0 }
+            /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/     { skip_blank=1; next }
+            /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ { skip_blank=1; next }
+            {
+              if (skip_blank) {
+                if ($0 ~ /^[[:space:]]*$/) { skip_blank=0; next }  # ohita yksi tyhjä rivi markkerin jälkeen
+                skip_blank=0
               }
-            ' "$f" > "$f.__tmp" && mv "$f.__tmp" "$f"
-          done
+              print
+            }
+          ' "$f" > "$f.__tmp" && mv "$f.__tmp" "$f"
 
           # 3) Normalisoi rivinvaihdot (LF) ennen hashia/diffiä
           perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_UBO_MAIN}"
-          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_AG_MAIN}"
 
-      - name: Build ABP candidate (prune marked block incl. preceding blanks; no Diff-*)
+      - name: Build ABP conditionally (prune marker block; drop blanks BEFORE block; no Diff-*)
         shell: bash
         env:
           RFC2822: ${{ steps.ts.outputs.rfc2822 }}
@@ -131,67 +126,63 @@ jobs:
           set -euo pipefail
           if [[ -f "${SRC_MAIN}" ]]; then cp "${SRC_MAIN}" raw.txt; else : > raw.txt; fi
 
-          # Poista markeriväli ja myös markeria VÄLITTÖMÄSTI EDELTÄVÄT tyhjät rivit.
-          # Toteutus: viivästetään tyhjän rivin tulostus kunnes nähdään onko seuraava rivi BEGIN-marker.
+          # 1) Poista markeriväli kokonaan JA poista markeria edeltävät tyhjät rivit
           awk '
-            BEGIN{ drop=0; pending_blank=0 }
-            function is_begin(line){ return (line ~ /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/) }
-            function is_end(line){   return (line ~ /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/) }
-            {
-              line=$0
-              if (is_begin(line)) { drop=1; pending_blank=0; next }
-              if (is_end(line))   { drop=0; next }
-              if (drop) next
-              if (line ~ /^[[:space:]]*$/) { pending_blank=1; next }
-              if (pending_blank) { print ""; pending_blank=0 }
-              print line
+            function is_blank(s){ return s ~ /^[[:space:]]*$/ }
+            function flush_all(){ for(i=1;i<=n;i++) print buf[i]; n=0 }
+            function flush_trim(){ last=n; while(last>=1 && is_blank(buf[last])) last--; for(i=1;i<=last;i++) print buf[i]; n=0 }
+            BEGIN{ drop=0; n=0 }
+            /^[[:space:]]*! -----uBO\/AG ONLY-----[[:space:]]*$/ {
+              drop=1; flush_trim(); next
             }
-            END { if (pending_blank) print "" }
-          ' raw.txt > t0.txt
-
-          # Päivitä Last modified, poista mahdolliset Diff-Path/Expires -rivit
-          awk -v lm="! Last modified: ${RFC2822}" '
-            BEGIN{ done_lm=0 }
-            {
-              if ($0 ~ /^! +Last modified:/) { if (!done_lm) { print lm; done_lm=1 }; next }
-              if ($0 ~ /^! +Diff-Path:/)     { next }
-              if ($0 ~ /^! +Diff-Expires:/)  { next }
-              print
+            /^[[:space:]]*! -----uBO\/AG ONLY END-----[[:space:]]*$/ {
+              drop=0; next
             }
-            END { if (!done_lm) print lm }
-          ' t0.txt > "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
+            drop==1 { next }
+            {
+              if (n<16) { n++; buf[n]=$0 }
+              else { print buf[1]; for(i=1;i<n;i++) buf[i]=buf[i+1]; buf[n]=$0 }
+            }
+            END{ flush_all() }
+          ' raw.txt > abp_body.txt
 
-          perl -pe 's/\r\n|\r/\n/g' -i "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
+          # 2) Normalisoi EOL ja poista mahdolliset Diff-* rivit rungosta varmuuden vuoksi
+          perl -pe 's/\r\n|\r/\n/g' -i abp_body.txt
+          grep -vE '^! +Diff-(Path|Expires):' abp_body.txt > abp_body_nodiff.txt || true
 
-      - name: Skip ABP publish if only uBO/AG block changed
-        shell: bash
-        run: |
-          set -euo pipefail
-          # Jos ABP:n "runko" (ilman Last modified -riviä) on identtinen nykyiseen julkaisuun,
-          # älä koske ABP-tiedostoon -> ABP ei päivity turhaan.
-          strip_lm() { grep -v -E '^! +Last modified:' "$1" || true; }
-
+          # 3) Vertaile aiempaan ABP-julkaisuun (ilman Last modified -riviä)
+          ABP_CHANGED=1
           if [[ -f "${SITE_DIR}/${OUT_ABP_MAIN}" ]]; then
-            diff -q \
-              <(strip_lm "${SITE_DIR}/${OUT_ABP_MAIN}") \
-              <(strip_lm "${SITE_DIR}/${OUT_ABP_MAIN}.candidate") >/dev/null && {
-                echo "ABP content unchanged → skipping ABP update"
-                rm -f "${SITE_DIR}/${OUT_ABP_MAIN}.candidate"
-                exit 0
-              }
+            cp "${SITE_DIR}/${OUT_ABP_MAIN}" prev_abp.txt
+            perl -pe 's/\r\n|\r/\n/g' -i prev_abp.txt
+            grep -vE '^! +Last modified:' prev_abp.txt > prev_abp_body.txt || true
+            if cmp -s prev_abp_body.txt abp_body_nodiff.txt; then
+              ABP_CHANGED=0
+              echo "ABP-visible content unchanged -> skip rebuilding ABP."
+            fi
           fi
 
-          # Muuten otetaan candidate käyttöön
-          mv -f "${SITE_DIR}/${OUT_ABP_MAIN}.candidate" "${SITE_DIR}/${OUT_ABP_MAIN}"
+          if [[ "${ABP_CHANGED}" == "1" ]]; then
+            # 4) Rakenna ABP: lisää vain Last modified, EI Diff-*
+            awk -v lm="! Last modified: ${RFC2822}" '
+              BEGIN{ done_lm=0 }
+              {
+                if ($0 ~ /^! +Last modified:/) { if (!done_lm) { print lm; done_lm=1 }; next }
+                print
+              }
+              END { if (!done_lm) print lm }
+            ' abp_body_nodiff.txt > "${SITE_DIR}/${OUT_ABP_MAIN}"
+          fi
 
-      - name: Add Diff-Path for uBO/AG
+          echo "ABP_CHANGED=${ABP_CHANGED}" >> "$GITHUB_ENV"
+
+      - name: Add Diff-Path for uBO
         shell: bash
         env:
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
-          EPOCH_MIN=${{ steps.ts.outputs.epoch_min }}
 
           # uBO: YYYY.M.D.MINS.patch + fragment (#test.txt)
           Y=$(date -u -d "@${NOW_EPOCH}" +%Y)
@@ -202,10 +193,6 @@ jobs:
           MINS=$(( 10#${H}*60 + 10#${Mi} ))
           PATCH_UBO="${Y}.${Mo}.${D}.${MINS}.patch"
           REL_UBO="${PATCH_DIR}/${PATCH_UBO}"
-
-          # AdGuard: testAG-m-<epochMin>-<ttl>.patch
-          PATCH_AG_MAIN="testAG-m-${EPOCH_MIN}-${DIFF_EXPIRES_MIN}.patch"
-          REL_AG_MAIN="${PATCH_DIR}/${PATCH_AG_MAIN}"
 
           add_path () {
             local file="$1" rel="$2" frag="$3"
@@ -224,32 +211,27 @@ jobs:
             ' "$file" > tmp && mv tmp "$file"
           }
 
-          add_path "${SITE_DIR}/${OUT_UBO_MAIN}" "${REL_UBO}"    "test.txt"
-          add_path "${SITE_DIR}/${OUT_AG_MAIN}"  "${REL_AG_MAIN}" ""
+          add_path "${SITE_DIR}/${OUT_UBO_MAIN}" "${REL_UBO}" "test.txt"
 
-      - name: Snapshot composed mains (for catch-up)
+      - name: Snapshot composed main (for catch-up)
         shell: bash
         env:
           DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -e
           cp "${SITE_DIR}/${OUT_UBO_MAIN}" "${SITE_DIR}/${BASES_UBO}/test-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
-          cp "${SITE_DIR}/${OUT_AG_MAIN}"  "${SITE_DIR}/${BASES_AG}/testAG-m-${{ steps.ts.outputs.epoch_min }}-${DIFF_EXPIRES_MIN}.base.txt"
 
-      - name: Regenerate patches (separate uBO and AdGuard)
+      - name: Regenerate uBO patches (catch-up)
         shell: bash
         env:
           RETENTION_DAYS: ${{ env.RETENTION_DAYS }}
-          DIFF_EXPIRES_MIN: ${{ env.DIFF_EXPIRES_MIN }}
         run: |
           set -euo pipefail
           NOW_EPOCH=${{ steps.ts.outputs.now_epoch }}
           RETENTION_SEC=$(( ${RETENTION_DAYS} * 24 * 3600 ))
 
           UBO_MAIN="${SITE_DIR}/${OUT_UBO_MAIN}"
-          AG_MAIN="${SITE_DIR}/${OUT_AG_MAIN}"
           SHA1_UBO=$(sha1sum "${UBO_MAIN}" | awk '{print $1}')
-          SHA1_AG=$(sha1sum "${AG_MAIN}" | awk '{print $1}')
 
           # --- uBO-patchit (bundle header + RCS-ed runko) ---
           write_ubo_bundle() {
@@ -272,19 +254,6 @@ jobs:
             rm -f "${SITE_DIR}/${PATCH_DIR}/${Y}.${Mo}.${D}.${MINS}.patch"
           }
 
-          # --- AdGuard-patchit (bundle header + RCS-ed runko) ---
-          write_ag_bundle() {
-            local epoch_min="$1" diff_file="$2"
-            local ag_name="testAG-m-${epoch_min}-${DIFF_EXPIRES_MIN}.patch"
-            local ag_path="${SITE_DIR}/${PATCH_DIR}/${ag_name}"
-            local lines=$(wc -l < "${diff_file}" | tr -d ' ')
-            { echo "diff name:testAG.txt checksum:${SHA1_AG} lines:${lines}"; cat "${diff_file}"; } > "${ag_path}"
-          }
-          prune_ag_for_epoch() {
-            local epoch_min="$1"
-            rm -f "${SITE_DIR}/${PATCH_DIR}/testAG-m-${epoch_min}-${DIFF_EXPIRES_MIN}.patch"
-          }
-
           # --- uBO catch-up ---
           shopt -s nullglob
           for BF in "${SITE_DIR}/${BASES_UBO}"/test-*-*.base.txt; do
@@ -300,23 +269,6 @@ jobs:
             fi
             diff -n "$BF" "${UBO_MAIN}" > diff_ubo.patch || true
             write_ubo_bundle "$BASE_EPOCH" diff_ubo.patch
-          done
-          shopt -u nullglob
-
-          # --- AdGuard catch-up ---
-          shopt -s nullglob
-          for BF in "${SITE_DIR}/${BASES_AG}"/testAG-*-*.base.txt; do
-            BN=$(basename "$BF")
-            EPOCH_MIN=$(echo "$BN" | sed -n 's/^testAG-m-\([0-9]\+\)-[0-9]\+\.base\.txt$/\1/p') || true
-            [[ -z "$EPOCH_MIN" ]] && { echo "Skip AG base: $BN"; continue; }
-            AGE=$(( NOW_EPOCH - EPOCH_MIN*60 ))
-            if (( AGE > RETENTION_SEC )) ; then
-              rm -f "$BF"
-              prune_ag_for_epoch "$EPOCH_MIN"
-              continue
-            fi
-            diff -n "$BF" "${AG_MAIN}" > diff_ag.patch || true
-            write_ag_bundle "$EPOCH_MIN" diff_ag.patch
           done
           shopt -u nullglob
 
