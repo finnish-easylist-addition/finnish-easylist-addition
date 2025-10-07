@@ -8,15 +8,8 @@
 
 ! -----uBO/AG ONLY-----
 
-donedone.net^
-exfgrfeample.org##+js(rmnt, script, ads)
-lskjfoeuifhwoerifhewoi
-
-! Testtestestest
+||sdk.privacy-center.org^$3p,important
 
 ! -----uBO/AG ONLY END-----
 
-! New test
-ecammple.org^
-iltalehti.fi##.container-max-width.il-header
-iltalehti.fi##.navigation
+ampparit.com##div.sidebox > .sidebox-header
