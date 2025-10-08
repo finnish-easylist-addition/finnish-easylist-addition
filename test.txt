@@ -9,9 +9,9 @@
 ! -----uBO/AG ONLY-----
 
 ||sdk.privacy-center.org^$3p,important
-||daadaa.net^
+||daa.net^
 
 ! -----uBO/AG ONLY END-----
 
 ampparit.com##div.sidebox > .sidebox-header
-ampparit.com##.ampparit-feedback-link > .button
+ampparit.com##.ampparit-feedb
