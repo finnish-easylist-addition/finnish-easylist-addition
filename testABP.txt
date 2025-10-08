@@ -2,7 +2,7 @@
 ! Title: Test list
 ! Description: Test list
 ! Expires: 4 days
-! Last modified: Wed, 08 Oct 2025 20:31:42 +0300
+! Last modified: Wed, 08 Oct 2025 23:34:46 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
@@ -1472,6 +1472,7 @@ www.seurakuntalainen.fi#@##CookieBanner
 ! https://srk.fi/fi/
 @@||srk.fi/*/cookielaw.js$script
 srk.fi#@##CookielawBanner
+! test test
 
 ! Lowe's list exception, chat needs cookies to be accepted
 @@||googletagmanager.com/gtm.js$domain=pohjanmaanhyvinvointi.fi

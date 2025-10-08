@@ -1,13 +1,13 @@
-diff name:test.txt checksum:bb171fb5d4993ce472154329723544ae5a6aa064 lines:1602
+diff name:test.txt checksum:d60f9e71bda6fa2f2df944718b51b2d506d8ef82 lines:1604
 d6 2
 a7 2
-! Diff-Path: patches/2025.10.8.1051.patch#test.txt
-! Last modified: Wed, 08 Oct 2025 20:31:42 +0300
+! Diff-Path: patches/2025.10.8.1234.patch#test.txt
+! Last modified: Wed, 08 Oct 2025 23:34:46 +0300
 d11 2
 a12 1
 ! -----SPECIFIC FILTERS-----
 d14 1
-a14 1593
+a14 1595
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
 dawn.fi###nm-300x300-fb:style(min-height: 30px !important)
@@ -127,6 +127,7 @@ mtv.fi,mtvuutiset.fi##.visit-advertiser-link
 ! Waiting for EP to support uBO filters as well
 ! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/433
 muropaketti.com##body.noImages .content img:style(display: inline-block !important)
+
 ! -----GENERAL FILTERS-----
 
 /bannerCounter.php
@@ -1593,6 +1594,7 @@ www.seurakuntalainen.fi#@##CookieBanner
 ! https://srk.fi/fi/
 @@||srk.fi/*/cookielaw.js$script
 srk.fi#@##CookielawBanner
+! test test
 
 ! Lowe's list exception, chat needs cookies to be accepted
 @@||googletagmanager.com/gtm.js$domain=pohjanmaanhyvinvointi.fi
