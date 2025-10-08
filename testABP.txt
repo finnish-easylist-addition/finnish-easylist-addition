@@ -2,9 +2,9 @@
 ! Title: Test list
 ! Description: Test list
 ! Expires: 4 days
-! Last modified: Wed, 08 Oct 2025 01:15:48 +0300
+! Last modified: Wed, 08 Oct 2025 19:03:48 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 
 ampparit.com##div.sidebox > .sidebox-header
-ampparit.com##.ampparit-feedback-link > .button
+ampparit.com##.ampparit-feedb

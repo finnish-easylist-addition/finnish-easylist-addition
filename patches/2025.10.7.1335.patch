@@ -1,1 +1,11 @@
-diff name:test.txt checksum:e732adfb308fc3e5e6f7eeebbe2444ff31d8c9dd lines:0
+diff name:test.txt checksum:24493db64b83eb10113420c75e8ecd155d3c5e0e lines:10
+d6 2
+a7 2
+! Diff-Path: patches/2025.10.8.963.patch#test.txt
+! Last modified: Wed, 08 Oct 2025 19:03:48 +0300
+d12 1
+a12 1
+||daa.net^
+d15 1
+a15 1
+ampparit.com##.ampparit-feedb
