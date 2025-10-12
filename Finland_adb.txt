@@ -797,6 +797,8 @@ orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-teaser--advertorial
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi##.sp-module:has(.tassaWidget)
 paakallo.fi##.ad-above
+paivyri.fi##.footer-mainos
+paivyri.fi##.header-mainos
 pakkotoisto.com##.samBannerUnit
 pakkotoisto.com##.samCodeUnit
 pakkotoisto.com##.td-header-sp-recs
