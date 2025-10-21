@@ -1046,6 +1046,7 @@ tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:has-text(KAUPA
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 toimitilat.kauppalehti.fi##.inner.sp-article
+toimitilat.kauppalehti.fi##.justify-content-center:has(> #almad-leaderboard-1)
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
 toimitilat.kauppalehti.fi##.sponsored-article.list-article
 toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
