@@ -498,9 +498,10 @@ jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
 jaatama.fi##.box--transparent:has(.advert)
 jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 jahtimedia.fi##.latest-post-link:has(.mainos)
+jarviseudunsanomat.fi##.gb-container.no-lazy
+jarviseudunsanomat.fi##.gb-container:has(> .jss-artikkelin-loppu)
 jarviseudunsanomat.fi##.jss-etusivu-boksi
 jarviseudunsanomat.fi##.jss-keskella-artikkelia
-jarviseudunsanomat.fi##.gb-container.no-lazy
 jatkoaika.com###cmorelink
 jatkoaika.com##.inline-txtad
 jatkoaika.com##div[class="block block-block"]
