@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: %timestamp%
+! Last modified: Sun, 09 Nov 2025 12:35:33 +0200
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -306,6 +306,7 @@ etn.fi###RIGHT
 etn.fi###V_ad1
 etn.fi###annonsspalt
 etn.fi###leaderboard
+etn.fi###marg5
 etn.fi###vspace0
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
@@ -1252,6 +1253,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||dropbox.com/*usbanner.gif$image,domain=urbaanisanakirja.com
 ||elmotv.com/wp-content/uploads/*/stake-banneri-$image,domain=elmotv.com
 ||etn.fi//images/banners/$image
+||etn.fi/images/banners/$image
 ||etuovi.com^$third-party,xmlhttprequest
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
