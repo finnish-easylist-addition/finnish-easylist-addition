@@ -306,6 +306,7 @@ etn.fi###RIGHT
 etn.fi###V_ad1
 etn.fi###annonsspalt
 etn.fi###leaderboard
+etn.fi###marg5
 etn.fi###vspace0
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
@@ -1252,6 +1253,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||dropbox.com/*usbanner.gif$image,domain=urbaanisanakirja.com
 ||elmotv.com/wp-content/uploads/*/stake-banneri-$image,domain=elmotv.com
 ||etn.fi//images/banners/$image
+||etn.fi/images/banners/$image
 ||etuovi.com^$third-party,xmlhttprequest
 ||expekt.com^$third-party
 ||feed.autotalli.com/bannerdata/html/*.html$subdocument
