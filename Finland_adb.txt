@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 11 Dec 2025 21:33:42 +0200
+! Last modified: Thu, 11 Dec 2025 22:07:44 +0200
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -187,7 +187,8 @@ animelehti.fi##.listing-container:has(a[href^="https://www.animelehti.fi/adverto
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,meteli.net,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi,voice.fi##div[class][style]:has([data-desktop-ad-unit-id])
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,meteli.net,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi,voice.fi##div[class][style]:has([data-mobile-ad-unit-id])
 animelehti.fi,episodi.fi,inferno.fi##.px-4.py-2.bg-white.w-full:has(.poppartners)
-animelehti.fi,episodi.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi###tilt-ad-top-stay-awayanna.fi##.grid__item_1:has(> [id^=dfp__native-card])
+animelehti.fi,episodi.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi###tilt-ad-top-stay-away
+anna.fi##.grid__item_1:has(> [id^=dfp__native-card])
 anna.fi##li:has([id^=dfp__native-card])
 anna.fi,kaksplus.fi##.widget_nativearticles
 anna.fi,kotiliesi.fi###huomiotekstilinkki[href^="https://tilaus."]
