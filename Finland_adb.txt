@@ -983,6 +983,7 @@ suomimobiili.fi##.natiivilinkit
 suomimobiili.fi##.posts-list > .list-item:has([href="https://suomimobiili.fi/kategoria/sponsoroitu/"])
 suomimobiili.fi#?#.posts-listing-list-alt-b:has-text(Artikkeleita kumppaneilta)
 superlehti.fi##.ad-banner-lift
+superpesis.fi##.grid-breakable:has([class*="AdServerPlaceholder"])
 supla.fi##[data-element-type="CardDefault"] div[class^=CardBg]:has(> a[href^="https://kampanjat.mainos.sanoma.fi/"])
 svl.fi##.mainos_banner1
 svl.fi##.widget > a[href^="https://www.nettikirjakauppa.com/"]
