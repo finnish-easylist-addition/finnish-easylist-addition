@@ -1021,6 +1021,7 @@ telsu.fi##.dp
 telsu.fi##.pb
 telsu.fi#?#.ch:has-text(/SP(O|0)NSOROITU/)
 telsu.fi#?#.ch:has-text(/SPON|SPONS|SPONSO|SPONSOR|SPONSORO|SPONSOROI|SPONSOROIT|SPONSOROITU/)
+temu.com##.EKDT7a3v:has([aria-label="Mainos"])
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi##.article-container.shadow-sm.col:has(img[alt^="Oma tilausmainos"])
