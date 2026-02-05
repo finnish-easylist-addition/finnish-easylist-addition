@@ -101,10 +101,6 @@ aalto.fi##+js(set-cookie, cookiebot-consent--preferences, 1)
 aalto.fi##+js(set-cookie, cookiebot-consent--marketing, 0)
 aalto.fi##+js(set-cookie, cookiebot-consent--statistics, 0)
 
-! https://www.tek.fi/fi/palvelut-ja-edut/palkka/tilaa-palkkatietoa
-www.tek.fi##+js(set-cookie, tek-cookie-agreed, 2)
-!www.tek.fi##+js(set-cookie, tek-cookie-agreed-version, "1.0.0")
-
 ! -----SCRIPTS END-----
 
 ! mtv.fi & mtvuutiset.fi
