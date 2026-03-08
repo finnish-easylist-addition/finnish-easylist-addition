@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 08 Mar 2026 22:10:48 +0200
+! Last modified: Sun, 08 Mar 2026 22:11:22 +0200
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -691,7 +691,6 @@ maalampofoorumi.fi##div#sponsor
 maaseuduntulevaisuus.fi##[data-ad-unit-id]
 maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
 maaseuduntulevaisuus.fi##div[class^=MainLane_laneItem]:has(div[class^=ArticleBanner_advertorial])
-maaseuduntulevaisuus.fi###rscontent > [data-ad-container="true"]
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 maastohiihto.com##.paid-content-wrapper
