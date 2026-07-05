@@ -1371,7 +1371,6 @@ iltalehti.fi##.side-column-content .card:has(.autotalli-sponsored-content-text)
 iltalehti.fi##.side-column-content .card:has(.nettiauto-sponsored-content-text)
 iltalehti.fi##.slider-content
 iltalehti.fi##.telkku-ads
-iltalehti.fi##.wall-container
 iltalehti.fi##[id|="almad"].ad
 iltalehti.fi##a.articles__list-item[href^="/telkku/"]:has(p.articles__sponsored-banner)
 iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
