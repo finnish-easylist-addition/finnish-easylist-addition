@@ -1495,13 +1495,6 @@ netticaravan.fi#@#article.ad
 ! "se: Frellwit's Swedish Filter" breaks this
 @@||publish.ne.cision.com/$xmlhttprequest,domain=elisa.fi
 
-! Allow opt-in in a cookieconsent-blocked element (for example, YouTube embeds)
-! Example page (YouTube embed): https://www.seurakuntalainen.fi/uutiset/jutta-urpilainen-arvotentissa-arvoni-pohjaavat-kristinuskoon-mutta-ovat-linjassa-sosiaalidemokratian-kanssa/
-@@||consent.cookiebot.com/uc.js$domain=www.seurakuntalainen.fi
-@@||consent.cookiebot.com/*/cc.js?renew=true$domain=www.seurakuntalainen.fi
-@@||consent.cookiebot.com/logconsent.ashx$domain=www.seurakuntalainen.fi
-www.seurakuntalainen.fi#@##CookieBanner
-
 ! Unbreak cookie consent, however this doesn't hide it
 ! uBO extras has set-cookie to automatically set a cookie to hide it
 ! https://srk.fi/fi/
