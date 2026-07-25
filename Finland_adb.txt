@@ -1073,6 +1073,7 @@ toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impr
 tori.fi###banner-top-container
 tori.fi###banner_panorama_bottom
 tori.fi###footer_partner_links
+tori.fi##.retail-media-ad-wrapper
 tori.fi##div#banner_panorama_topmost
 tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
