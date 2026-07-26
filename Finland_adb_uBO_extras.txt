@@ -86,6 +86,8 @@ findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
+telsu.fi##+js(aost, Element.prototype.animate, /\/js\/t\.js/)
+telsu.fi##+js(norafif, /_0x[\da-f]+=_0x[\da-f]+\(\)-_0x[\da-f]+;if\([\s\S]*?return;\}window\[_0x[\da-f]+\(/)
 telsu.fi##+js(nostif, /\[(?:_0x[\da-f]+\x2C){3}(?:_0x[\da-f]+\x2C)*_0x[\da-f]+\];for\(let[\s\S]*?return;/, 3000)
 vauva.fi##+js(rmnt, script, async-hide)
 
