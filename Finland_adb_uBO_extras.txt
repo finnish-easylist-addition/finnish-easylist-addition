@@ -87,9 +87,9 @@ happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
 telsu.fi##+js(aeld, transitionend, , elements, div[style*="-9999px"][style*="outline-offset"])
-telsu.fi##+js(aost, Animation.prototype.finished, /\/js\/t\.js/)
+telsu.fi##+js(aost, Animation.prototype.finished, /telsu\.fi\/js\/[a-z\d]+\.js\?v=\d+/)
 telsu.fi##+js(norafif, /_0x[\da-f]+=_0x[\da-f]+\(\)-_0x[\da-f]+;if\([\s\S]*?return;\}window\[_0x[\da-f]+\(/)
-telsu.fi##+js(nostif, /\[(?:_0x[\da-f]+\x2C){3}(?:_0x[\da-f]+\x2C)*_0x[\da-f]+\];for\(let[\s\S]*?return;/, 3000)
+telsu.fi##+js(nostif, /\[(?:_0x[\da-f]+\x2C){3}(?:_0x[\da-f]+\x2C)*_0x[\da-f]+\];for\(let[\s\S]*?return;/, 2600-3399)
 vauva.fi##+js(rmnt, script, async-hide)
 
 ! Fix YouTube videos on www.aalto.fi
