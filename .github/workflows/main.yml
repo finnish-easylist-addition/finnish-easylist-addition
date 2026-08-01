@@ -2,13 +2,13 @@ name: Deploy to gh-pages branch
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
     paths:
       - 'Finland_adb.txt'
       - 'Finland_adb_uBO_extras.txt'
 
-# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
-concurrency: 
+concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
@@ -17,37 +17,69 @@ permissions:
 
 jobs:
   publish:
-    permissions:
-      contents: write  # for Git to git push
     name: Publish lists
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - name: Clone finnish-easylist-addition
-        uses: actions/checkout@v3
+      - name: Checkout gh-pages
+        uses: actions/checkout@v6
         with:
-            ref: gh-pages
-      - name: Copy filter lists to gh-pages
+          ref: gh-pages
+          fetch-depth: 1
+
+      - name: Copy filter lists from master
+        shell: bash
         run: |
-          TMPDIR=$(mktemp -d)
-          git clone --depth=1 https://github.com/finnish-easylist-addition/finnish-easylist-addition.git $TMPDIR
-          cp "$TMPDIR/Finland_adb.txt" ./
-          cp "$TMPDIR/Finland_adb_uBO_extras.txt" ./
-      - name: Patch last-updated field
+          set -euo pipefail
+
+          git fetch --depth=1 origin master
+
+          git show FETCH_HEAD:Finland_adb.txt > Finland_adb.txt
+          git show FETCH_HEAD:Finland_adb_uBO_extras.txt > Finland_adb_uBO_extras.txt
+
+      - name: Update last-modified field
+        shell: bash
         run: |
-          DATE=$(TZ=Europe/Helsinki date -R)
-          for f in $(ls Finland_adb*.txt); do
-            STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
-            if [[ -n $STAT ]]; then
-              sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\1$DATE/" Finland_adb.txt
-              break
-            fi
-          done
-      - name: Commit changes (if any)
-        run: |
-          if [[ -n $(git diff) ]]; then
-            git config user.name "gitHub-actions bot"
-            git config user.email "<>"
-            git add -u ./
-            git commit -m "Update modified filter lists"
-            git push origin gh-pages
+          set -euo pipefail
+
+          DATE=$(LC_ALL=C TZ=Europe/Helsinki date -R)
+
+          TIMESTAMP_LINES=$(grep -c '^! Last modified:' Finland_adb.txt || true)
+
+          if [[ "$TIMESTAMP_LINES" -ne 1 ]]; then
+            echo "::error file=Finland_adb.txt::Tiedostossa pitää olla täsmälleen yksi '! Last modified:' -rivi."
+            exit 1
           fi
+
+          sed -i \
+            "0,/^! Last modified:/s|^! Last modified:.*$|! Last modified: ${DATE}|" \
+            Finland_adb.txt
+
+          echo "Asetettu aikaleima:"
+          grep '^! Last modified:' Finland_adb.txt
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- \
+            Finland_adb.txt \
+            Finland_adb_uBO_extras.txt
+          then
+            echo "Ei julkaistavia muutoksia."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            Finland_adb.txt \
+            Finland_adb_uBO_extras.txt
+
+          git commit -m "Update modified filter lists"
+          git push origin HEAD:gh-pages
