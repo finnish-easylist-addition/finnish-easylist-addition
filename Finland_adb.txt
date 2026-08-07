@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 07 Aug 2026 19:55:08 +0300
+! Last modified: Fri, 07 Aug 2026 19:57:01 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -946,6 +946,7 @@ sportti.com#?#tr:has-text(.loadAd)
 sss.fi##.td_block_wrap:has([href="https://www.sss.fi/category/mainos/"])
 sss.fi##aside.widget_text:has([id^="sas_"])
 sss.fi#?#aside.widget_text:has-text(MAINOS)
+stadissa.fi##.article-video-ad
 stadissa.fi##[class|="juhlaviikot"]
 stadissa.fi##a[href^="/clickad.php?id="]:not(.rightbarTextLiftLink)
 styleroom.fi##.bg-box:has([id|=placement-ad-grid])
