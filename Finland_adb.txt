@@ -1015,6 +1015,7 @@ telsu.fi##.ch:has(em > a)
 telsu.fi##.dp
 telsu.fi##.pb
 telsu.fi##.pb_t {remove:true;}
+telsu.fi##i.pw {remove:true;}
 telsu.fi#?#.ch:has-text(/SP(O|0)NSOROITU/)
 telsu.fi#?#.ch:has-text(/SPON|SPONS|SPONSO|SPONSOR|SPONSORO|SPONSOROI|SPONSOROIT|SPONSOROITU/)
 temu.com##.EKDT7a3v:has([aria-label="Mainos"])
