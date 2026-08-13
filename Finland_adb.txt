@@ -1042,6 +1042,7 @@ tilannehuone.fi##.contentti:has(> .mainos_yla:only-child)
 tilannehuone.fi##.halytyslista tr:has(.mainosinline)
 tilannehuone.fi##[class^=mainos]:not(:only-child)
 tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
+tilannemedia.fi##.tilan-mobiilimainos-600
 tilisanomat.fi##.ctaad
 tinderinparhaat.com##.adf-placement-top
 tivi.fi##.kFYbNM
