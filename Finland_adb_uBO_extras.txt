@@ -104,6 +104,7 @@ aalto.fi##+js(set-cookie, cookiebot-consent--statistics, 0)
 ! mtv.fi & mtvuutiset.fi
 @@||fi-mtv3.videoplaza.tv/proxy/distributor$domain=mtv.fi|mtvuutiset.fi
 mtv.fi,mtvuutiset.fi##+js(json-prune-fetch-response, bumpers playbackItem.isStitched, , propsToMatch, a2d.tv/play/)
+mtv.fi,mtvuutiset.fi##+js(xml-prune, Ad, , /fwmrm.net\/ad\/g/)
 mtv.fi,mtvuutiset.fi##+js(xml-prune, MediaFile, , fi-mtv3.videoplaza.tv/proxy/distributor)
 mtv.fi,mtvuutiset.fi##.avod-web-player-csai:remove()
 mtv.fi,mtvuutiset.fi##.avod-web-player-pause
