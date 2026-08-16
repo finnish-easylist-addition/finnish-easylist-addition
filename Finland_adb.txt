@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 17 Aug 2026 00:39:59 +0300
+! Last modified: Mon, 17 Aug 2026 01:08:52 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1070,6 +1070,7 @@ tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
 totalvene.fi##.banner-content:has([data-ad-client])
 totalvene.fi##.moduletable:has(.advert)
+totalvene.fi##.tv-container > .banner-wrapper
 totalvene.fi##.videoparaati
 totalvene.fi#?#.banner-group-header:has-text(Mainos)
 traktorpool.fi##.billboard
