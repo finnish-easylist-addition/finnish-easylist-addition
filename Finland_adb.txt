@@ -1070,6 +1070,7 @@ tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
 totalvene.fi##.banner-content:has([data-ad-client])
 totalvene.fi##.moduletable:has(.advert)
+totalvene.fi##.tv-container > .banner-wrapper
 totalvene.fi##.videoparaati
 totalvene.fi#?#.banner-group-header:has-text(Mainos)
 traktorpool.fi##.billboard
