@@ -1402,6 +1402,7 @@ murha.info#@#.adsbygoogle
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 /adverts/*.mp4$media,rewrite=abp-resource:blank-mp3,domain=totalvene.fi
+||adsdk.bing.net/ast/ast.js$script,rewrite=abp-resource:blank-js,domain=iltalehti.fi
 
 ! appears when blocking ads:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
