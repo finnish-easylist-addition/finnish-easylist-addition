@@ -502,7 +502,6 @@ iskelma.fi,radionova.fi##.sbs-articleitems:has(.right-column-header + .articles-
 iskelma.fi,radionova.fi##a.article-item:has(.sponsored)
 iskelma.fi,radionova.fi##div.item:has(.sponsored)
 jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
-maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 jahtimedia.fi##.latest-post-link:has(.mainos)
 jarviseudunsanomat.fi##.gb-container.no-lazy
 jarviseudunsanomat.fi##.gb-container:has(> .jss-artikkelin-loppu)
@@ -692,6 +691,7 @@ maaseuduntulevaisuus.fi##div[class^=MainLane_laneItem]:has(div[class^=ArticleBan
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
 maastohiihto.com##.paid-content-wrapper
+maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 markkinointiuutiset.fi##div[class|="ad-section"]
 matkabongaukset.fi##.widget_block:has(.matka-nostemedia-oikeapalsta)
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
