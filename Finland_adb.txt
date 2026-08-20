@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 20 Aug 2026 20:16:03 +0300
+! Last modified: Thu, 20 Aug 2026 21:33:51 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -631,8 +631,6 @@ kotimikro.fi##.campaign-teaser-show
 kotimikro.fi##.gtm-banner
 kotimikro.fi##.wg-banner
 koululainen.fi#?#.article__body > p:has-text(/^\xA0$/)
-kukasoitti.com##a[href*='adsrv']
-kukasoitti.com##div[class=main-bottom]
 kuka-soitti.fi##.text-center:has(> a[rel="nofollow noopener"][href])
 kuka-soitti.fi#?#body > .container:not(.mb-5, :has(.mb-5)):has-text(Mainos)
 kuka-soitti.fi#?#p.text-center:has-text(Mainos)
