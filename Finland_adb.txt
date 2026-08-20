@@ -502,8 +502,7 @@ iskelma.fi,radionova.fi##.sbs-articleitems:has(.right-column-header + .articles-
 iskelma.fi,radionova.fi##a.article-item:has(.sponsored)
 iskelma.fi,radionova.fi##div.item:has(.sponsored)
 jaakiekonmmkisat.com,jalkapallonmmkisat.com,ruuhkavuodet.fi##div[class|="g g"]
-jaatama.fi##.box--transparent:has(.advert)
-jaatama.fi,maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
+maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 jahtimedia.fi##.latest-post-link:has(.mainos)
 jarviseudunsanomat.fi##.gb-container.no-lazy
 jarviseudunsanomat.fi##.gb-container:has(> .jss-artikkelin-loppu)
@@ -682,8 +681,6 @@ luukku.com###banneri_yla
 luukku.com##.banner.content
 lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi###kokosisaltoid
 m.facebook.com#?#article:has(> * header > * span:has-text(Sponsoroitu))
-m.jaatama.fi##.c-box-space:not(.c-box)
-m.jaatama.fi##li:has(div[id|=div-gpt-ad])
 m.nettikaravaani.com,m.nettikone.com,m.nettivaraosa.com###banner_area
 m.nettikaravaani.com,m.nettikone.com,m.nettivaraosa.com##.lazyLoadInhouseBanner
 m.nettikaravaani.com,m.nettikone.com,m.nettivaraosa.com##.topBannerMinHeight
