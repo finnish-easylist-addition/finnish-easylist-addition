@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Thu, 20 Aug 2026 21:33:51 +0300
+! Last modified: Thu, 20 Aug 2026 21:42:19 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -693,11 +693,6 @@ maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 markkinointiuutiset.fi##div[class|="ad-section"]
 matkabongaukset.fi##.widget_block:has(.matka-nostemedia-oikeapalsta)
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
-mediaviikko.fi##.wp-block-column:has(aside figure > a[href="https://www.hopealanka.fi"])
-mediaviikko.fi##a[href="https://mailapro.fi/"]
-mediaviikko.fi##a[href="https://urheilutuet.fi/"]
-mediaviikko.fi##a[href="https://vesikourut.fi/"]
-mediaviikko.fi##amp-layout[amp-access^="popups."][role=button]
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=ContentCard__AdLabel])
 meillakotona.fi##div[class^=NativeAdSpotlight__Component]
