@@ -693,11 +693,6 @@ maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 markkinointiuutiset.fi##div[class|="ad-section"]
 matkabongaukset.fi##.widget_block:has(.matka-nostemedia-oikeapalsta)
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
-mediaviikko.fi##.wp-block-column:has(aside figure > a[href="https://www.hopealanka.fi"])
-mediaviikko.fi##a[href="https://mailapro.fi/"]
-mediaviikko.fi##a[href="https://urheilutuet.fi/"]
-mediaviikko.fi##a[href="https://vesikourut.fi/"]
-mediaviikko.fi##amp-layout[amp-access^="popups."][role=button]
 meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
 meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=ContentCard__AdLabel])
 meillakotona.fi##div[class^=NativeAdSpotlight__Component]
