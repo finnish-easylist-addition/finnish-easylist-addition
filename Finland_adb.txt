@@ -355,7 +355,7 @@ fuengirola.fi##.elementor-element-24aa8e2
 fuengirola.fi##.elementor-element-9e2ec43
 fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.fi/"]
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
-fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi,puheenaiheet.fi##.gofollow
+fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi##.gofollow
 futisfani.com##.futis-sticky-footer[data-futis-trackbid]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.advr_box
@@ -861,7 +861,6 @@ pt-media.org###text-32
 pt-media.org##[href="https://pt-media.org/pikakasinot/"]
 pt-media.org##[href^="https://kasinopartio.com/"]
 pt-media.org##section:has(> a[href="https://nocompromiseclothing.com/"])
-puheenaiheet.fi##div[class=wpb_wrapper]
 puheenvuoro.uusisuomi.fi###leaderboard-1-desktop
 puheenvuoro.uusisuomi.fi###leaderboard-1-mobile
 puheenvuoro.uusisuomi.fi##.partner-blog-list
