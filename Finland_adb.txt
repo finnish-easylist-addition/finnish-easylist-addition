@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 23 Aug 2026 19:37:31 +0300
+! Last modified: Sun, 23 Aug 2026 20:14:06 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -275,20 +275,9 @@ eeva.fi#?#a[class^="ContentCard__Card-"]:has-text(Mainos: )
 eeva.fi#?#div[class^="EmbeddedArticle__Container"]:has(.category:has-text(Mainos:))
 eeva.fi#?#div[class^="StripeBannerBlock__StripeBannerContainer"]:has-text(Mainos:)
 ei-toimi.fi##div[style="min-height:300px;"]
-elmotv.com##.affilistaukset
+elmotv.com##.artikkeli_body > p:has(> em > strong > a[href])
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
-elmotv.com##a[href^="https://ads.expekt.se/"]
-elmotv.com##a[href^="https://ads.mrgreen.com/"]
-elmotv.com##a[href^="https://promo.leovegas.com/"]
-elmotv.com##a[href^="https://stake.com/"]
-elmotv.com##a[href^="https://www.expekt.com/"]
-elmotv.com##a[href^="https://www.leovegas.com/"]
-elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
-elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
-elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
-elmotv.com#?#.luelisaa > .solu:has-text(Kaupallinen yhteistyö)
-elmotv.com#?#[href]:has-text(LeoVegas)
 enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##div[id^=article-ad]
 enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajokilaakso.fi,kalajokiseutu.fi,keskipohjanmaa.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,lestijoki.fi,levinyt.fi,luoteis-lappi.fi,meantornionlaakso.fi,nivala-lehti.fi,perhonjokilaakso.fi,pietarsaarensanomat.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi#?#.widget_text:has([data-ad-unit-id])
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
@@ -1290,6 +1279,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner*.php$subdocument,domain=ampparit.com
 ||no-cache.hubspot.com/cta/$image,domain=sijoittaja.fi
+||noste-cdn.relevant-digital.com^$script,domain=elmotv.com
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
