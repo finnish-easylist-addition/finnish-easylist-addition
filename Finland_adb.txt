@@ -334,6 +334,7 @@ findance.com###findance_desktop-top
 findance.com###findance_mobile-top
 findance.com##div[id^=adslot_content]
 findance.com##div[id^=adslot_sidebar]
+finder.fi##.MuiBox-root:has([data-ad-unit-id])
 findit.fi##.banner-wrapper
 findit.fi##.banner_middle
 finnkino.fi##.content-article.h-container:has(#FKM-paraati)
