@@ -145,17 +145,6 @@ aland.com###block-local-offers-widget-front
 aland.com##.optionset-imported-ads
 aland.com##.revive-block
 aland.com##.view-imported-ad-ams
-alandstidningen.ax###block-annonsblockx6
-alandstidningen.ax###block-bilwebbenmobileteaser
-alandstidningen.ax###block-googleaddesktopinsider
-alandstidningen.ax###block-marknadenmobileteaser
-alandstidningen.ax###block-stickyannons
-alandstidningen.ax###block-views-block-bilwebben-block-1
-alandstidningen.ax###block-views-block-company-ads-block-1
-alandstidningen.ax##.editorial-ad
-alandstidningen.ax##.views-element-container:has(a[href^="https://www.marknaden.ax/annons"])
-alandstidningen.ax##div[id|=block-googleadmaincontent]
-alandstidningen.ax#?#.views-element-container:has-text(Annonsnytt)
 alibi.fi###alibi-ad-popup
 alibi.fi##.box--full.grid__container.clearfix
 alibi.fi##.magazineorderwidget__content
