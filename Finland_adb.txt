@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 23 Aug 2026 20:42:49 +0300
+! Last modified: Sun, 23 Aug 2026 21:06:36 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -158,13 +158,6 @@ alueviesti.fi###front_after_menu
 alueviesti.fi##.latest_sima
 alueviesti.fi##.soliloquy-link
 alueviesti.fi##.widget.sima
-alypaa.com##.ad.right-col-box
-alypaa.com##.banner-slot-box
-alypaa.com##.section-inner:has(> .banner-slot)
-alypaa.com##.section-inner:has(> div[style] > .sanoma-ad-banner)
-alypaa.com##[class^=banner-slot-preroll]
-alypaa.com,pelikone.fi##.text-link[href*="&utm_medium=banner&utm_campaign="]
-alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.gtm-bottom-ticker
 ampparit.com##.gtm-navi-ticker:has(> a[href$="tikkeri"])
 ampparit.com##.mobile-leaderboard-container
@@ -808,7 +801,6 @@ pelaajat.com##a[href^="https://www.freelaskutus.fi/"]
 pelaajat.com##div[style="background:white;max-width:320px;padding:10px;margin-top:10px;"]:has([id^=pelaajatcom-boksi])
 pelaajat.com#?#.social-media-links + p:has-text(/^ $/):has(+ div[data-ad-unit-id])
 pelikone.fi##.preroll-text
-pelikone.fi##.text-ad-container
 pelikone.fi,teknavi.fi##.ad
 pelit.fi##a[href="/category/mainos/"]
 pelit.fi##li[class="wa@s"]:has([alt^="MAINOS:"])
