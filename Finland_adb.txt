@@ -451,6 +451,14 @@ iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.f
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.sidebar__column-container:has(.-ad)
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##[data-placement-id]:has([data-ad-unit-id])
 ilmastointilaitteet.com##.boxi
+iltalehti.fi##.card:has(.etua-widget-container)
+iltalehti.fi##.card:has(> .full-article .front-sponsored-heading)
+iltalehti.fi##.center.category-list-embed
+iltalehti.fi##.etua-widget-container
+iltalehti.fi##[id|="almad"].ad
+iltalehti.fi#?#div.fp-container.card:has-text(Kaupallinen yhteistyö)
+iltalehti.fi#?#.category-list:has([class$="-article"]:not(:has-text(Kaupallinen yhteistyö))) [class$="-article"]:has-text(Kaupallinen yhteistyö)
+iltalehti.fi#?#.article-list:has(.article-container:not(:has-text(Kaupallinen yhteistyö))) .article-container:has-text(Kaupallinen yhteistyö)
 iltapulu.fi##.newsbox:has(> [id^=div-gpt-ad])
 iltapulu.fi##div[class=footer-ylempi]
 impe.fi##[class^=mainospaikka]
@@ -1312,46 +1320,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 
 ! -----NETWORK FILTERS END-----
 ! -----UNSORTED-----
-
-! Iltalehti.fi ads
-iltalehti.fi##.alennuskoodi-column-embed
-iltalehti.fi##.article-list a[href] > .article-sponsored
-iltalehti.fi##.card.eo-embed-container
-iltalehti.fi##.card:has(#il-rantapallo-right-column-box)
-iltalehti.fi##.card:has(.alennuskoodi-column-embed)
-iltalehti.fi##.card:has(.autotalli-box-embed)
-iltalehti.fi##.card:has(.etua-widget-container)
-iltalehti.fi##.card:has(.etuovi-react-embed)
-iltalehti.fi##.card:has(> .full-article .front-sponsored-heading)
-iltalehti.fi##.center.category-list-embed
-iltalehti.fi##.commercial-list-item
-iltalehti.fi##.embed-placeholder:has(> div > .eo-embed-announcements-container.card)
-iltalehti.fi##.etua-widget-container
-iltalehti.fi##.etuovi-react-embed
-iltalehti.fi##.front-sponsored-ad
-iltalehti.fi##.leiki-container-markkinapaikka2.leiki-container
-iltalehti.fi##.recommendation-carousel-svod.recommendation-carousel
-iltalehti.fi##.side-column-content .card:has(.autotalli-sponsored-content-text)
-iltalehti.fi##.side-column-content .card:has(.nettiauto-sponsored-content-text)
-iltalehti.fi##.slider-content
-iltalehti.fi##.telkku-ads
-iltalehti.fi##[id|="almad"].ad
-iltalehti.fi##a.articles__list-item[href^="/telkku/"]:has(p.articles__sponsored-banner)
-iltalehti.fi##div.footer-wrapper__item.is-visible.LazyLoad
-iltalehti.fi##div[class="card "]:has(.block > a[class=nakoislehti][href^="https://plus.iltalehti.fi/nakoislehti/"])
-iltalehti.fi##div[class=iframe-container]
-iltalehti.fi#?#.card .recommendation:has-text(Kaupallinen yhteistyö)
-iltalehti.fi#?#.related-articles-list > .link-container:has-text(/^Kaupallinen yhteistyö/)
-iltalehti.fi#?#a.small-article:has-text(Kaupallinen yhteistyö)
-iltalehti.fi#?#div.card:has-text(Mainos:)
-iltalehti.fi#?#div.fp-container.card:has-text(Kaupallinen yhteistyö)
-iltalehti.fi#?#div.is-visible.LazyLoad:has-text(kaupallinen yhteistyö)
-iltalehti.fi#?#div[class="card "]:has(> .block > div[class=content-router-wrapper]:has-text(kaupallinen yhteistyö))
-iltalehti.fi#?#.category-list:has([class$="-article"]:not(:has-text(Kaupallinen yhteistyö))) [class$="-article"]:has-text(Kaupallinen yhteistyö)
-iltalehti.fi#?#.article-list:has(.article-container:not(:has-text(Kaupallinen yhteistyö))) .article-container:has-text(Kaupallinen yhteistyö)
-
-! Temporal compatibility fixes for Vivaldi / Brave: https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues/378
-arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##[class*="p2m385-"]
 
 ! Sanoma Oyj video ads
 ||com-wakedynamite-production-publish.s3.amazonaws.com/publish/$media
