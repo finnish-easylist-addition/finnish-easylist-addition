@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 23 Aug 2026 21:06:36 +0300
+! Last modified: Sun, 23 Aug 2026 23:09:15 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -895,21 +895,7 @@ sjofart.ax##.elementor-location-header .topp
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 soppa365.fi#?#.container.middle p:has-text(/^\xA0$/)
-sportti.com##[href^="http://ads.leovegas.com/"]
-sportti.com##[href^="http://www.primeslots.com/"]
-sportti.com##div#panorama_container
-sportti.com##div[style="font-size:14px;line-height:21px;padding-top:6px;"]
-sportti.com##div[style="padding-bottom:10px;border-bottom:1px solid gray;margin-bottom:6px;"]:has(script[type="text/javascript"])
-sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + [type="text/javascript"] + div
-sportti.com##div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"] + table[width="468"] + div
-sportti.com##script[src^="http://adserving.unibet.com/ad.aspx"] + div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"]
-sportti.com##table[width="468"]
-sportti.com##table[width]:has(script[class=teads]):not(:has(.category_story_unit))
-sportti.com##tr:has(+ tr:has(script))
-sportti.com#?#div[style="padding-bottom:10px;border-bottom:1px solid gray;margin-bottom:6px;"]:has-text(Mainos:)
-sportti.com#?#div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"]:has(+ [style="font-size:14px;line-height:21px;padding-top:6px;"]:has-text(MAINOS))
-sportti.com#?#div[style="padding-bottom:10px;margin-bottom:6px;border-top:1px solid gray;margin-top:6px;"]:has-text(MAINOS)
-sportti.com#?#tr:has-text(.loadAd)
+sportti.com##[id|="banner-atf"]
 sss.fi##.td_block_wrap:has([href="https://www.sss.fi/category/mainos/"])
 sss.fi##aside.widget_text:has([id^="sas_"])
 sss.fi#?#aside.widget_text:has-text(MAINOS)
