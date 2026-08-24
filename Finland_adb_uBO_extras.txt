@@ -41,11 +41,6 @@ www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapp
 www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"] > [class^="ThreadGridItemWrapper__CardWrapper"] > *:style(position:static!important;transform:none!important;left:auto!important;right:auto!important;width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;word-break:break-word!important)
 www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"] > [class^="ThreadGridItemWrapper__CardWrapper"]:style(border-right: none !important)
 
-! Trick to overcome flickering issues caused by a slow procedural
-karjalainen.fi#@#.breaking-news-container:has-text(mainos:)
-karjalainen.fi##.breaking-news-container
-karjalainen.fi##.breaking-news-container:not(:has-text(mainos:)):style(display: flex !important)
-
 ! HTML filters for browsers that support them e.g. Firefox
 !#if cap_html_filtering
 foreca.fi##^#ad-top
