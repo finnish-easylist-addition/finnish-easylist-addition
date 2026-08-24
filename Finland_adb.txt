@@ -771,13 +771,8 @@ pelikone.fi##.preroll-text
 pelikone.fi,teknavi.fi##.ad
 pelit.fi##a[href="/category/mainos/"]
 pelit.fi##li[class="wa@s"]:has([alt^="MAINOS:"])
-pienimatkaopas.com###adiniframe_oikealaita_container
-pienimatkaopas.com###bookingnostokuvasarjassa
-pienimatkaopas.com###mainos .ilmoitus
-pienimatkaopas.com###pm_mp_kotisivu
-pienimatkaopas.com##.osa:has(> #mp_mainos_osia_osa_ylempana)
+pienimatkaopas.com##.ad
 pienimatkaopas.com##[id^=pm_mp_tekstissa]
-pienimatkaopas.com#?##mainos .otsikko:has-text(Lue myös) + div ~ *
 piipaa.info##[data-id="adsense"]
 pirkkalainen.fi##.omamainos-PIR
 pirkkalainen.fi##.ultp-block-wrapper:has(.ultp-cat-mainosartikkelit)
