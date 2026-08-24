@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 23 Aug 2026 23:09:15 +0300
+! Last modified: Mon, 24 Aug 2026 18:31:18 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -351,16 +351,6 @@ gamereactor.fi##.videoAd
 gamereactor.fi##div[class^=ad_Bumper]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
 gamereactor.fi#?#article.areview:has-text(Sponsoroitua sisältöä)
-gekkonen.net##.td_block_wrap.td-pb-border-top.td_flex_block:has(a[href="https://gekkonen.net/nettikasinot/"])
-gekkonen.net##.td_block_wrap.td_block_text_with_title:has(a[href^="https://affmore.com/"])
-gekkonen.net##.tdm-pricing-wrap
-gekkonen.net##.tdm_block_pricing
-gekkonen.net##.widget:has(.adsbygoogle)
-gekkonen.net##.widget:has([rel^="https://affmore.com/"])
-gekkonen.net##.wpforo-ad
-gekkonen.net##a[href^="https://affmore.com/"]
-gekkonen.net##a[href^="https://record.njordaffiliates.com/"]
-gekkonen.net#?#.td_block_wrap.td_block_text_with_title:has-text(/kasino/i)
 gekkonen.net##.code-block:has(ins[class="adsbygoogle"])
 glu.fi##li:has(.adsbygoogle)
 glu.fi##ul.link:has(a[href^="http://clk.tradedoubler.com/"])
