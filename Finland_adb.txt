@@ -321,19 +321,14 @@ futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://ww
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://yrityslaina.com"]
 futisforum2.org###div-ff2-top
 futisforum2.org##.windowbg3:has(#div-ff2-bottom)
-gamereactor.fi###bigVideoAd_content
-gamereactor.fi###eventad
+gamereactor.fi###mobileLeftMainLogo
 gamereactor.fi###sky2_1
 gamereactor.fi###sky2_2
 gamereactor.fi###videoContainer:has(source[id|="videoad"])
-gamereactor.fi##.ad_mobilebigwrap
-gamereactor.fi##.ad_video
 gamereactor.fi##.rwd.colthin > div
 gamereactor.fi##.sponsor
-gamereactor.fi##.videoAd
 gamereactor.fi##div[class^=ad_Bumper]
 gamereactor.fi##section.artistyle3.rightbox:nth-of-type(1)
-gamereactor.fi#?#article.areview:has-text(Sponsoroitua sisältöä)
 gekkonen.net##.code-block:has(ins[class="adsbygoogle"])
 glu.fi##li:has(.adsbygoogle)
 glu.fi##ul.link:has(a[href^="http://clk.tradedoubler.com/"])
