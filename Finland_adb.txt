@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 19:29:13 +0300
+! Last modified: Mon, 24 Aug 2026 19:34:14 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -948,16 +948,7 @@ tilannehuone.fi#?##cnt_lista tr:has-text(/^\s$/):has(+ tr:has(.mainosinline))
 tilannemedia.fi##.tilan-mobiilimainos-600
 tilisanomat.fi##.ctaad
 tinderinparhaat.com##.adf-placement-top
-tivi.fi##.kFYbNM
-tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
-tivi.fi##section > .lazyload-wrapper + div[class]:has(> a[href^="https://tivi.fi/kumppanisisallot/"])
-tivi.fi##[width]:has(.lazyload-wrapper)
-tivi.fi##section > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi#?#a[href^="https://koulutus.almatalent.fi/"] + section:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#aside:has(> div > span:has-text(KAUPALLINEN YHTEISTYÖ))
-tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:has-text(KAUPALLINEN YHTEISTYÖ)
-tivi.fi#?#div#skyscraper-height-div > section > div > a > div:has-text(Kaupallinen yhteistyö)
 toimitilat.kauppalehti.fi##.inner.sp-article
 toimitilat.kauppalehti.fi##.justify-content-center:has(> #almad-leaderboard-1)
 toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
