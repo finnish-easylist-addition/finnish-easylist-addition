@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 19:25:15 +0300
+! Last modified: Mon, 24 Aug 2026 19:29:13 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -913,17 +913,7 @@ tekniikanmaailma.fi##.NativeAdHolder_native-ad-holder
 tekniikanmaailma.fi##.PriceGuide_price-guide
 tekniikanmaailma.fi##.TopRowAd_top-ad
 tekniikanmaailma.fi##div.Article_nettix-embed-container
-tekniikkatalous.fi##[width="mobile"]:has(> [width] > [id|="almad-content"])
-tekniikkatalous.fi##a[href^="/tyopaikat/kumppanisisalto-tyopaikat/"]
-tekniikkatalous.fi##aside > div[class] > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot"]
-tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
-tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
 tekniikkatalous.fi##div[class][width="980"]
-tekniikkatalous.fi##section > div > a[href^="https://www.tekniikkatalous.fi/kumppanisisallot/"]
-tekniikkatalous.fi#?#.article-body > div[class]:has(> span:has-text(KAUPALLINEN YHTEISTYÖ) + a[href^="https://koulutus.almatalent.fi/"])
-tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:has-text(Kaupallinen yhteistyö)
-tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:has-text(Kaupallinen yhteistyö)
-tekniikkatalous.fi,tivi.fi##[width]:has(.lazyload-wrapper)
 telsu.fi##.ch:has(em > a)
 telsu.fi##.dp
 telsu.fi##.pb
@@ -961,6 +951,7 @@ tinderinparhaat.com##.adf-placement-top
 tivi.fi##.kFYbNM
 tivi.fi##aside > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi##section > .lazyload-wrapper + div[class]:has(> a[href^="https://tivi.fi/kumppanisisallot/"])
+tivi.fi##[width]:has(.lazyload-wrapper)
 tivi.fi##section > div[class] > a[href^="https://www.tivi.fi/kumppanisisallot/"]
 tivi.fi#?#a[href^="https://koulutus.almatalent.fi/"] + section:has-text(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#aside:has(> div > span:has-text(KAUPALLINEN YHTEISTYÖ))
