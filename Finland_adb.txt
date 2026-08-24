@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 22:28:09 +0300
+! Last modified: Mon, 24 Aug 2026 22:31:03 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1247,13 +1247,6 @@ murha.info#@#.adsbygoogle
 ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
-gamereactor.fi###ad_sticky
-gamereactor.fi##.ad_interscroller
-gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
-gamereactor.fi##.wrapper
-gamereactor.fi##[class^=ad_mobileLeader]
-gamereactor.fi##[class^=ad_smartphbig]
-gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi##.article-card-grid li:has(div[id^=dfp__])
 tori.fi##.appnexus-container
 !#endif
