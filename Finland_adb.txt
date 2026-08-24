@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 22:31:03 +0300
+! Last modified: Mon, 24 Aug 2026 22:59:50 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -149,7 +149,7 @@ alibi.fi##.magazineorderwidget__content
 alibi.fi##.sidebar-block:has(img.awpo-lazy)
 alibi.fi##[href="https://alibi.fi/tilaa-lehti/"]
 alibi.fi#?#.article__body > p:has-text(/^\xA0$/)
-alibi.fi,ampparit.com,anna.fi,eralehti.fi,golfpiste.com,hymy.fi,kaksplus.fi,kipparilehti.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi##div[id^=dfp__]
+alibi.fi,ampparit.com,anna.fi,eralehti.fi,hymy.fi,kaksplus.fi,kipparilehti.fi,kotiliesi.fi,koululainen.fi,muropaketti.com,nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivaraosa.com,nettivene.com,rakennusmaailma.fi,seura.fi,suomenkuvalehti.fi,tekniikanmaailma.fi##div[id^=dfp__]
 alibi.fi,hymy.fi##.sidebar-block > a[href^="http://pubads.g.doubleclick.net/gampad/clk"]
 alibi.fi,hymy.fi##[href*="paratiisi.fi"]
 alueviesti.fi###front_after_menu
@@ -175,9 +175,9 @@ app.mtvuutiset.fi##div[data-testid="endorsement"]
 app.mtvuutiset.fi##section > ul > li > div:has(a[data-testid="ad-article-teaser-tag"])
 apteekkari.fi##.em-ad-notification-wrapper
 apu.fi##div[class*="PageBlock__ContentContainer"]:has(div[class*="ContentSpotlightBlock__AdLabel"])
-apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
-apu.fi,lily.fi,meillakotona.fi,terve.fi##[class^=Ad__AdRoot]
-apu.fi,meillakotona.fi#?#ul[class*="relatedContent__list"] > li:has([class*=ContentCard__AdLabel])
+apu.fi,lily.fi,terve.fi##[class*=ad__component]
+apu.fi,lily.fi,terve.fi##[class^=Ad__AdRoot]
+apu.fi#?#ul[class*="relatedContent__list"] > li:has([class*=ContentCard__AdLabel])
 arcticinsider.com##a[href*=bannerTrack]
 arvokisat.com,eurheilu.org,herkkusuut.com,huuhkajat.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,tinderinparhaat.com,valioliiga.com,viikonloppu.com###outstream
 arvokisat.com,eurheilu.org,herkkusuut.com,huuhkajat.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,tinderinparhaat.com,valioliiga.com,viikonloppu.com##.pnad-container
@@ -333,18 +333,12 @@ gekkonen.net##.code-block:has(ins[class="adsbygoogle"])
 glu.fi##li:has(.adsbygoogle)
 glu.fi##ul.link:has(a[href^="http://clk.tradedoubler.com/"])
 glu.fi#?#.box:has-text(Mainos:)
-golfpiste.com###gp-natives
-golfpiste.com##.ad-separatator
 golfpiste.com##.carousel-cell--native
-golfpiste.com##.content-continues-after-ad
-golfpiste.com##.golfliitto-articles__commercial
-golfpiste.com##.main-native
-golfpiste.com##.native-carousel
-golfpiste.com##.search-results > .section--ad__mob
+golfpiste.com##.intervention--ad
+golfpiste.com##.section--ad__mob
 golfpiste.com##.section--ad__panorama
 golfpiste.com##.section--ad__rectangle
 golfpiste.com##.section-native-list
-golfpiste.com##body.bbpress > .content-wrapper .section--ad
 golfpiste.com##div:has(> #gp-native-1)
 gti.fi#?#.wall-item__container:has-text(Mainos)
 haat.fi##.pad-small.col-md-4.col-sm-6.col-xs-12:has(.b2b-ad-list)
@@ -601,7 +595,7 @@ leijonat.com,suomikiekko.com##.pnadg-container
 leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net##li:has([href^="https://track.adtraction.com/"])
-lily.fi,meillakotona.fi,terve.fi##div[class^="FeedList__AdWrapper-"]
+lily.fi,terve.fi##div[class^="FeedList__AdWrapper-"]
 livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
@@ -628,12 +622,7 @@ maastohiihto.com,retkilehti.fi,riistalehti.fi##.advert
 markkinointiuutiset.fi##div[class|="ad-section"]
 matkabongaukset.fi##.widget_block:has(.matka-nostemedia-oikeapalsta)
 matkapuhelinfoorumi.fi##div.structItem.is-prefix53
-meillakotona.fi##div[class^="transitionSlot__component"]:has(div[class^="feedItem__commercial"])
-meillakotona.fi##div[class^=ContentFlowBlock__CardContainer]:has(div[class*=ContentCard__AdLabel])
-meillakotona.fi##div[class^=NativeAdSpotlight__Component]
-meillakotona.fi##div[class^=pageFeed__topAdSlot]
-meillakotona.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(MAINOS)
-meillakotona.fi,terve.fi##div[class*=feed__adSlot]
+meillakotona.fi##[class|="card"]:has(.is-commercial)
 metropoli.net##.block-box.news-post:has(a[href^="https://www.metropoli.net/rahapelit/"])
 metsalehti.fi##.aprofit
 metsalehti.fi##.section--native-left
@@ -910,6 +899,7 @@ temu.com##.EKDT7a3v:has([aria-label="Mainos"])
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi##.article-container.shadow-sm.col:has(img[alt^="Oma tilausmainos"])
+terve.fi##div[class*=feed__adSlot]
 terve.fi##div[class|=ProductRecommendationCarousel__CarouselContainer]
 terve.fi#?#div[class^=PageElementFeedItem__Container]:has-text(Mainos)
 terve.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(KAUPALLINEN YHTEISTYÖ)
