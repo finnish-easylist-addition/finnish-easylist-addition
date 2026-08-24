@@ -504,11 +504,6 @@ kansalainen.fi##.herald-module:has([href^="https://revoltnoir.fi/"])
 kansalainen.fi##a[href="https://www.kielletytkirjat.com/"]
 kansalainen.fi##a[href^="https://revoltnoir.com"]
 kansalainen.fi##div[id^=ads]
-karjalainen.fi##a[href*=kiinnostuitko]:has([alt=banneri])
-karjalainen.fi##a[href="https://punamustamedia.portal.worldoftulo.com/v2/shop/dtabkaiku"]
-karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
-karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
-karjalainen.fi##center
 kaukokaipuumatkablogi.net#?#.row-container:has-text(MAINOS)
 kauppalehti.fi###coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi##div[class][width]:has(> .ad)
