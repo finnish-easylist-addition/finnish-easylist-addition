@@ -20,10 +20,6 @@ kaaoszine.fi#@#article.post:has-text(Kaupallinen yhteistyö)
 kaksplus.fi##body.home #section-0 article:nth-child(1), body.category #om_commercialpostlisting-1 article:nth-child(1):style(margin-bottom: unset !important;)
 kotiliesi.fi#?#.article-card-grid li:has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
-mobiili.fi###headermob:style(position: static !important)
-mobiili.fi###show_merkki:style(margin-top: 2em !important)
-mobiili.fi##.header_ad, important
-mobiili.fi##.mainbody.extended:style(margin-top: 2em !important)
 mvlehti.net##.featured-row-small:style(background-color: white !important)
 nyan.ax##.widget_adrotate_widgets:remove()
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner']):remove()
