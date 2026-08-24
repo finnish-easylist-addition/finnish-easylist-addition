@@ -1247,13 +1247,6 @@ murha.info#@#.adsbygoogle
 ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
-gamereactor.fi###ad_sticky
-gamereactor.fi##.ad_interscroller
-gamereactor.fi##.rwd_row + [style="position: relative;margin: 2em auto;width: 320px;height: 480px;"]
-gamereactor.fi##.wrapper
-gamereactor.fi##[class^=ad_mobileLeader]
-gamereactor.fi##[class^=ad_smartphbig]
-gamereactor.fi##div[style$="color: lightgrey; font-size: 11px; text-transform: uppercase;"]
 kotiliesi.fi##.article-card-grid li:has(div[id^=dfp__])
 tori.fi##.appnexus-container
 !#endif
