@@ -316,7 +316,7 @@ fuengirola.fi##.elementor-element-9e2ec43
 fuengirola.fi##.elementor-widget-container > [href^="https://northernmarketing.fi/"]
 fuengirola.fi#?#.elementor-widget-divider.elementor-widget.elementor-widget-divider--element-align-center.elementor-widget-divider--view-line_text.elementor-element:has-text(Mainos)
 fuengirola.fi,kaaoszine.fi,mesta.net,paakallo.fi##.gofollow
-futisfani.com,kiekkofani.com,penkkiurheilu.com,projektiuutiset.fi,uutisankka.com##.adv-link
+futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.adv-link
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##.mvp-side-widget.widget_text
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://pussit.com"]
 futisfani.com,kiekkofani.com,penkkiurheilu.com,uutisankka.com##[href="https://www.halvinlaina.fi"]
