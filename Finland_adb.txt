@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Mon, 24 Aug 2026 19:34:14 +0300
+! Last modified: Mon, 24 Aug 2026 19:43:51 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1021,17 +1021,9 @@ vau.fi#?#hr + h4:has-text(MAINOS) ~ hr
 vauva.fi###block-isalennuskoodit
 vauva.fi##[href^="http://pelikone.fi/out/"]
 vauva.fi##aside.sticky.bottom-0:has( > #block-isalennuskoodit:only-child)
-verkkouutiset.fi##.elementor-motion-effects-parent:has(.strossle-sidebar)
-verkkouutiset.fi##.elementor-widget-shortcode:has(#QADY)
 verkkouutiset.fi##.elementor-widget-shortcode:has(.vu-adlabel)
 verkkouutiset.fi##.elementor-widget-shortcode:has([data-ad-unit-id])
-verkkouutiset.fi##.page-ad__location
 verkkouutiset.fi##.vu-adlabel
-verkkouutiset.fi##.vu-content-injected-middle
-verkkouutiset.fi##article.rp-lift.featured-post
-verkkouutiset.fi##section[id^="front-page-parade"]
-verkkouutiset.fi##section[id^="front_page_parade"]
-verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi##li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
 viikkopk.fi##.banner-mainos
