@@ -668,6 +668,8 @@ mikrobitti.fi##div[style="margin-bottom:0"]:has(a[href^="https://www.mikrobitti.
 misssuomi.fi##.elementor-widget-container > a[href^="https://sortter.fi/"]
 mma.fi#?#.commercial__content:has-text(Kumppanilta)
 mobiili.fi###header_ad33
+mobiili.fi###headermob { position: static !important }
+mobiili.fi##.mainbody.extended {margin-top: 2em !important }
 mobiili.fi##.single-content-all > div[style^="float:left"][style*="width:100%"][style*="text-align:center"][style*="margin-bottom:17px"]
 mobiili.fi##.singlehinta.header_ad
 mobiili.fi##body.category > div .header_ad
