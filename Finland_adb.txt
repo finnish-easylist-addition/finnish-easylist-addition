@@ -127,16 +127,10 @@ aasiakas.net##.jp_adsense_ad_container
 adressit.com###petition_page_top_ad
 aitiydenihme.fi,askelterveyteen.com,mielenihmeet.fi,myanimals.com##.bc--grey-neutral-50
 akaanseutu.fi##.kaupungin-tiedotteetsidebar:has(.mainossidebar)
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi##.teivo-sidebar
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.custom-category-posts-container:has(> .mainos-item)
-akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.feedraviraportit:has(.mainosfeedravi)
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-product-xl
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-products
 akaanseutu.fi,lvs.fi,orivedensanomat.fi,pirkkalainen.fi,shl.fi,ylojarvenuutiset.fi##.omamainos-responsive
-akaanseutu.fi,lvs.fi,shl.fi,ylojarvenuutiset.fi##[href="/tilaa-lehti"]
 lvs.fi##.lempaalan-kunta-tiedotteetsidebar:has(.lempaalan-kunta-mainossidebar)
-orivedensanomat.fi##figure.wp-block-image:has(> a[href^="https"]:not([href^="https://orivedensanomat.fi"]))
-orivedensanomat.fi##figure.wp-block-image:has(> a[href^="https"]:not([href^="https://orivedensanomat.fi"])) + .wp-block-spacer
 aksa.fi##.vaihtuvamainos
 aksa.fi##div[class="w-full md:w-2/5 pt-6 md:pt-0 pl-0 md:pl-8"]
 aland.com###block-local-offers-widget-front
@@ -712,8 +706,6 @@ nyan.ax##.wpb_content_element.wpb_text_column:has(div[class|="g g"])
 omalahio.fi##.mainos-top
 opensubtitles.org#?#fieldset:has-text(Poista mainos)
 orimattilansanomat.fi##.textwidget:has(.orimad-adlabel)
-orivedensanomat.fi###sidebar [href="https://www.loytotex.fi/tarjoukset"]
-orivedensanomat.fi##.CMAC_AdChangerWidget.widget
 osterbottenstidning.fi,sydin.fi,vasabladet.fi##.online-teaser--advertorial
 outokummunseutu.fi,pielisjokiseutu.fi,pogostansanomat.fi,ylakarjala.fi##.sp-module:has(.tassaWidget)
 paakallo.fi##.ad-above
