@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 25 Aug 2026 17:09:41 +0300
+! Last modified: Tue, 25 Aug 2026 17:20:51 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -673,21 +673,11 @@ muropaketti.com##article.grid__item_1-2:has(> div.nativead)
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:has-text(Mainos)
 mutsimedia.fi##.add-banner
 mvlehti.net###ads-sidebar-top
-mvlehti.net###featured > figure[class] > a[href]
-mvlehti.net###left-float > figure[class].wp-block-image > a[href][target][rel] > img[class][src]
 mvlehti.net##.ad.content-center
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
-mvlehti.net##.related-posts + figure[class].wp-block-image > a[href][target][rel] > img[class][src]
-mvlehti.net##.sidebar-element > .wp-block-image
-mvlehti.net##.social-post + div + figure[class].wp-block-image > a[href][target][rel] > img[class][src]
-mvlehti.net##.wp-block-image > figure[class] > a[href]
 mvlehti.net##[aria-roledescription="Slideshow"][aria-label~="Banner"]:has(a[href][target="_blank"])
 mvlehti.net##footer .quote:has(figure[class].wp-block-image > a[href])
-mvlehti.net##li:has(a[href*="/202"]):has(a[href*="nettikasino"])
-mvlehti.net##section.post-single > figure[class].wp-block-image > a[href][target][rel] > img[class][src]
-mvlehti.net#?#.entry-content > h3:has-text(kasino)
-mvlehti.net#?#[class|=featured-post]:has-text(/rahapeli|kasino/i):has(a[href*="/202"])
 myheritage.fi##.promotional_banner_root
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
