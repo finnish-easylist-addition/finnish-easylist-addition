@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 25 Aug 2026 17:57:03 +0300
+! Last modified: Tue, 25 Aug 2026 17:59:44 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -169,8 +169,8 @@ app.mtvuutiset.fi##div[data-testid="endorsement"]
 app.mtvuutiset.fi##section > ul > li > div:has(a[data-testid="ad-article-teaser-tag"])
 apteekkari.fi##.em-ad-notification-wrapper
 apu.fi##div[class*="PageBlock__ContentContainer"]:has(div[class*="ContentSpotlightBlock__AdLabel"])
-apu.fi,lily.fi,terve.fi##[class*=ad__component]
-apu.fi,lily.fi,terve.fi##[class^=Ad__AdRoot]
+apu.fi,lily.fi##[class*=ad__component]
+apu.fi,lily.fi##[class^=Ad__AdRoot]
 apu.fi#?#ul[class*="relatedContent__list"] > li:has([class*=ContentCard__AdLabel])
 arcticinsider.com##a[href*=bannerTrack]
 arvokisat.com,eurheilu.org,herkkusuut.com,huuhkajat.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,tinderinparhaat.com,valioliiga.com,viikonloppu.com###outstream
@@ -589,7 +589,7 @@ leijonat.com,suomikiekko.com##.pnadg-container
 leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lennot.rantapallo.fi#?#.flights.type-provider:has-text(Mainos)
 lentopallo.info,murtopallo.net##li:has([href^="https://track.adtraction.com/"])
-lily.fi,terve.fi##div[class^="FeedList__AdWrapper-"]
+lily.fi##div[class^="FeedList__AdWrapper-"]
 livetaajuus.fi##.middle-ad-container
 lomamatkalle.fi##.ennensisaltoa
 lomamatkalle.fi##.lmbanner
@@ -869,10 +869,6 @@ temu.com##.EKDT7a3v:has([aria-label="Mainos"])
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi##.article-container.shadow-sm.col:has(img[alt^="Oma tilausmainos"])
-terve.fi##div[class*=feed__adSlot]
-terve.fi##div[class|=ProductRecommendationCarousel__CarouselContainer]
-terve.fi#?#div[class^=PageElementFeedItem__Container]:has-text(Mainos)
-terve.fi#?#div[class^=transitionSlot__component][class*=layout__container]:has-text(KAUPALLINEN YHTEISTYÖ)
 terveydenasialla.com##a[href^="https://on.vallila.fi/"]
 terveydenasialla.com##p a[href^="https://related.iittala.com/"]
 terveydenasialla.com##p:has(strong):has(a[href="http://www.curaofsweden.com/fi"])
