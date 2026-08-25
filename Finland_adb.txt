@@ -879,12 +879,8 @@ toimitilat.kauppalehti.fi##.list-article:has(.sp-tag)
 toimitilat.kauppalehti.fi##.sponsored-article.list-article
 toimitilat.oikotie.fi##[analytics-impression="energy-promotion_listing-page_impression"]
 tori.fi###banner-top-container
-tori.fi###banner_panorama_bottom
-tori.fi###footer_partner_links
+tori.fi##.page-container > div[style]:has(> advt-component)
 tori.fi##.retail-media-ad-wrapper
-tori.fi##div#banner_panorama_topmost
-tori.fi##div#panorama_top
-tori.fi##div#panorama_topmost
 totalvene.fi##.articlebanner
 totalvene.fi##.banner-content:has([data-ad-client])
 totalvene.fi##.banner-wrapper
@@ -1170,7 +1166,6 @@ ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
 kotiliesi.fi##.article-card-grid li:has(div[id^=dfp__])
-tori.fi##.appnexus-container
 !#endif
 
 !#if ext_abp
