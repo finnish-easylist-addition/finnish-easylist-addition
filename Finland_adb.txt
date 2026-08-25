@@ -188,7 +188,7 @@ arvopaperi.fi##a[href^="https://www.arvopaperi.fi/kumppanisisallot/"][target="_s
 arvopaperi.fi##div#skyscraper-height-div > aside > div:has(a[href^="https://www.arvopaperi.fi/kumppanisisallot/"])
 arvopaperi.fi,talouselama.fi,tivi.fi,uusisuomi.fi##div[class][width="300"]
 arvopaperi.fi,talouselama.fi,tivi.fi,uusisuomi.fi##div[class][width="980"]
-arvopaperi.fi,uusisuomi.fi##[width]:has(.lazyload-wrapper):not(aside)
+arvopaperi.fi##[width]:has(.lazyload-wrapper):not(aside)
 assembly.org##div[class] + div[class] ~ div[class]:has(> .lazyload-wrapper [data-adfscript])
 assembly.org#?#section:not(section[id], section[class]):has-text(Mainos)
 asunnot.oikotie.fi##.building-campaign-element
@@ -968,15 +968,6 @@ urjalansanomat.fi##.urjal-widget.main:has(a[href="https://urjalansanomat.fi/verk
 urjalansanomat.fi##.urjal-widget.main:has(a[href="https://ysiauto.fi/"])
 urjalansanomat.fi##.widget:has(> a[href="/lounaat"])
 uudenkaupunginsanomat.fi###auto-grid-container-5c40764673d19
-uusisuomi.fi##.lazyload-wrapper:has(.eo-embed-announcements-container)
-uusisuomi.fi##[data-test=mainTeaserColumn][href^="https://www.uusisuomi.fi/kumppanisisallot/"]
-uusisuomi.fi##aside [data-test="tabs"] [href^="https://www.uusisuomi.fi/kumppanisisallot"]
-uusisuomi.fi##aside [href^="https://track.adform.net/"]
-uusisuomi.fi##aside [href^="https://www.ilmarinen.fi/"]
-uusisuomi.fi##aside a[data-ga-teaser-name="PartnerContentTeaser"]
-uusisuomi.fi#?#.lazyload-wrapper + section:has-text(Kaupallinen yhteistyö)
-uusisuomi.fi#?#div#skyscraper-height-div > div > aside > section > a:has-text(Kaupallinen yhteistyö)
-uusisuomi.fi#?#div#skyscraper-height-div > div > main > div > a:has-text(Kaupallinen yhteistyö)
 uusiteknologia.fi##.widget_block
 uutisankka.com###mvp-leader-wrap
 uutisankka.com##.uutis-footer-sticky[data-uutis-trackbid]
@@ -1042,10 +1033,6 @@ www.suomi24.fi##div[class^="HomePage__RightColItem"]:has(> div[class^="AdLivewra
 www.suomi24.fi##div[class^="HomePage__RightColItem"]:has(> div[class^="Lainavertailu__Container"])
 www.suomi24.fi##div[class^=Vaalikone__HeaderAdWrapper]
 www.suomi24.fi##p:has(+ p + .asp)
-www.uusisuomi.fi##.lazyload-wrapper:has(.at-embed-container)
-www.uusisuomi.fi##div[width]:has(> [id|="almad-parade"])
-www.uusisuomi.fi#?#aside > section:has-text(Kaupallinen yhteistyö)
-www.uusisuomi.fi#?#body:not(.is-style-kumppanisisallot) main > div[class]:has-text(Kaupallinen yhteistyö)
 x2.fi##.mobile-top-ad
 xracing.fi##.adBanner
 yhteishyva.fi##.advertisement-slot
