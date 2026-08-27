@@ -3,7 +3,6 @@
 
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
-download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
 etn.fi###papperet:style(max-width: none !important; width: max-content !important)
 finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
 golfpiste.com#?#.section-wrapper > .has-ad-right:has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
