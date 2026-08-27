@@ -3,9 +3,6 @@
 
 ampparit.com##.ad-slot
 ap-cdn.sanomagames.com##.banner-slot-preroll
-dawn.fi###nm-300x300-fb:style(min-height: 30px !important)
-dawn.fi###nm-980x400-fb:style(min-height: unset !important)
-dawn.fi##:not(:matches-path(/^/$/)) .header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:style(margin: -10px auto !important)
 download.fi,edukas.fi###ad-top-banner-placeholder:style(min-height: 0px !important)
 etn.fi###papperet:style(max-width: none !important; width: max-content !important)
 finnkino.fi###layout-left.with-right-side:style(width: 100% !important)
