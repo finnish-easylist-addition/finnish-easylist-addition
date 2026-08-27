@@ -246,6 +246,7 @@ edgeski.fi,foregolf.fi,rodeosnow.fi##.adv
 edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_content
 edgeski.fi,foregolf.fi,rodeosnow.fi##.adv_side
 edgeski.fi,foregolf.fi,rodeosnow.fi##[id|=adni_widgets]
+edukas.fi###ad-top-banner-placeholder { min-height: 0px !important }
 edukas.fi##.compareGoogleCell
 ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.artikkeli_body > p:has(> em > strong > a[href])
