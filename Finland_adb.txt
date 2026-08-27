@@ -340,9 +340,9 @@ glu.fi#?#.box:has-text(Mainos:)
 golfpiste.com##.carousel-cell--native
 golfpiste.com##.intervention--ad
 golfpiste.com##.section--ad__mob
+golfpiste.com##.has-ad-right { width: 100% !important; }
 golfpiste.com##.section--ad__panorama
 golfpiste.com##.section--ad__rectangle
-golfpiste.com##.section-native-list
 golfpiste.com##div:has(> #gp-native-1)
 gti.fi#?#.wall-item__container:has-text(Mainos)
 haat.fi##.pad-small.col-md-4.col-sm-6.col-xs-12:has(.b2b-ad-list)
@@ -1257,5 +1257,7 @@ srk.fi#@##CookielawBanner
 bittimittari.fi,kyberturvallisuuskeskus.fi,saavutettavuusvaatimukset.fi,traficom.fi##html { height:auto !important }
 bittimittari.fi,kyberturvallisuuskeskus.fi,saavutettavuusvaatimukset.fi,traficom.fi##body.layout-root { height:auto !important }
 
+! Site issue, layout shifting
+golfpiste.com##html { scrollbar-gutter: stable !important; scrollbar-width: thin !important; }
 
 ! -----UNBREAK END-----
