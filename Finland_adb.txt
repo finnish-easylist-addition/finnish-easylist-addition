@@ -661,6 +661,7 @@ muropaketti.com##.widget_adwidget
 muropaketti.com##.widget_hintaopasbestprice
 muropaketti.com##SECTION[id*=hintaopaspopular]
 muropaketti.com##article.grid__item_1-2:has(> div.nativead)
+muropaketti.com##body.noImages .content img { display: inline-block !important }
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:has-text(Mainos)
 mutsimedia.fi##.add-banner
 mvlehti.net###ads-sidebar-top
