@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 28 Aug 2026 00:46:51 +0300
+! Last modified: Fri, 28 Aug 2026 00:47:42 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -661,6 +661,7 @@ muropaketti.com##.widget_adwidget
 muropaketti.com##.widget_hintaopasbestprice
 muropaketti.com##SECTION[id*=hintaopaspopular]
 muropaketti.com##article.grid__item_1-2:has(> div.nativead)
+muropaketti.com##body.noImages .content img { display: inline-block !important }
 muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:has-text(Mainos)
 mutsimedia.fi##.add-banner
 mvlehti.net###ads-sidebar-top
