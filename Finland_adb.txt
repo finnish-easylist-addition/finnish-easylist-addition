@@ -265,11 +265,13 @@ eralehti.fi,metsastysjakalastus.fi,rakennusmaailma.fi##.Article_native-ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^=ad]
 esports.pallomeri.net##.cb-banneri-uusi
 etlehti.fi,hyvaterveys.fi,soppa365.fi##.views-row:has(.is-commercial)
+etn.fi###ETNfrontpage { margin-top: -56px !important; }
 etn.fi###RIGHT
 etn.fi###V_ad1
 etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi###marg5
+etn.fi###papperet { max-width: none !important; width: max-content !important }
 etn.fi###vspace0
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
