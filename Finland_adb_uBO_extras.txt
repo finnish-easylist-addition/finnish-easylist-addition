@@ -20,11 +20,6 @@ puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
-www.suomi24.fi##[data-gtm-label="threadGridView"]:style(display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-auto-flow:row!important;column-gap:0!important;row-gap:16px!important;align-items:stretch!important)
-www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"]:style(grid-column:1/-1!important;width:auto!important;max-width:none!important;min-width:0!important;justify-self:stretch!important;box-sizing:border-box!important)
-www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"] > [class^="ThreadGridItemWrapper__CardWrapper"]:style(width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important;margin:0!important;padding-left:0!important;padding-right:0!important;transform:none!important;left:auto!important;right:auto!important;top:auto!important)
-www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"] > [class^="ThreadGridItemWrapper__CardWrapper"] > *:style(position:static!important;transform:none!important;left:auto!important;right:auto!important;width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;word-break:break-word!important)
-www.suomi24.fi##[data-gtm-label="threadGridView"] > [class^="ThreadGridItemWrapper__CardCol"] > [class^="ThreadGridItemWrapper__CardWrapper"]:style(border-right: none !important)
 
 ! HTML filters for browsers that support them e.g. Firefox
 !#if cap_html_filtering
