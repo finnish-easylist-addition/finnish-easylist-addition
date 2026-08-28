@@ -18,7 +18,7 @@
 /mainokset.
 /mainokset/*
 /mainokset_
-/mainos.
+/mainos.$domain=~mainos.lol
 /mainos/*
 /mainos_
 /mainosbanneri.
