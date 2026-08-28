@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 28 Aug 2026 22:28:03 +0300
+! Last modified: Fri, 28 Aug 2026 22:29:34 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -694,11 +694,7 @@ newsner.fi##[id^="ad-panorama_dynamic"]
 newsner.fi##[id^="ad-widescreen-article_dynamic_"]
 nopeustesti.com###offer
 nopeustesti.com###tulos-etu
-nyan.ax##.mobileads
 nyan.ax##.panorama
-nyan.ax##.videoad_container
-nyan.ax##.wpb_column.vc_column_container.td-pb-span8:has([src$="adsbygoogle.js"])
-nyan.ax##.wpb_column.vc_column_container.td-pb-span8:has(a[onclick*='banner'])
 nyan.ax##.wpb_content_element.wpb_text_column:has(div[class|="g g"])
 omalahio.fi##.mainos-top
 opensubtitles.org#?#fieldset:has-text(Poista mainos)
