@@ -450,10 +450,6 @@ juoksufoorumi.fi##[data-role="sidebarAd"] + br
 juoksufoorumi.fi#?#.ipsWidget:has-text((affiliatelinkki))
 juomaposti.fi##div[class*=advads_ad_widget]
 jvg.fi##[href="https://www.nettikasinovertailu.info/"]
-kaaoszine.fi##.collab
-kaaoszine.fi##.collaboration
-kaaoszine.fi##.content-section > .g:has([id^="gpt-desktop-inside-article"])
-kaaoszine.fi##.emp-ad
 kaaoszine.fi##.right-inner-section:has(#gpt-desktop-side)
 kaasujalka.fi##.widget-container:has([class^=ad_])
 kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
