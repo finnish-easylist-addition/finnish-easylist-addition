@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 28 Aug 2026 21:17:26 +0300
+! Last modified: Fri, 28 Aug 2026 21:54:28 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -265,11 +265,13 @@ eralehti.fi,metsastysjakalastus.fi,rakennusmaailma.fi##.Article_native-ads
 esaimaa.fi,ita-savo.fi,kouvolansanomat.fi,kymensanomat.fi,lansi-savo.fi,uutisvuoksi.fi##div[class^=ad]
 esports.pallomeri.net##.cb-banneri-uusi
 etlehti.fi,hyvaterveys.fi,soppa365.fi##.views-row:has(.is-commercial)
+etn.fi###ETNfrontpage { margin-top: -56px !important; }
 etn.fi###RIGHT
 etn.fi###V_ad1
 etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi###marg5
+etn.fi###papperet { max-width: none !important; width: max-content !important }
 etn.fi###vspace0
 etn.fi##.annonspekare
 etuovi.com###spotlight-container-id
