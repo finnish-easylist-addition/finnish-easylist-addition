@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 28 Aug 2026 23:06:20 +0300
+! Last modified: Fri, 28 Aug 2026 23:25:58 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -450,10 +450,6 @@ juoksufoorumi.fi##[data-role="sidebarAd"] + br
 juoksufoorumi.fi#?#.ipsWidget:has-text((affiliatelinkki))
 juomaposti.fi##div[class*=advads_ad_widget]
 jvg.fi##[href="https://www.nettikasinovertailu.info/"]
-kaaoszine.fi##.collab
-kaaoszine.fi##.collaboration
-kaaoszine.fi##.content-section > .g:has([id^="gpt-desktop-inside-article"])
-kaaoszine.fi##.emp-ad
 kaaoszine.fi##.right-inner-section:has(#gpt-desktop-side)
 kaasujalka.fi##.widget-container:has([class^=ad_])
 kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
