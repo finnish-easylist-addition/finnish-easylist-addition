@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 29 Aug 2026 00:16:09 +0300
+! Last modified: Sat, 29 Aug 2026 00:29:24 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -455,14 +455,11 @@ kaaoszine.fi##.right-inner-section:has(#gpt-desktop-side)
 kaasujalka.fi##.widget-container:has([class^=ad_])
 kaasujalka.fi##[src^="https://kaasujalka.fi/assets/banners"]
 kaksplus.fi##.ad-mob_description
-kaksplus.fi##.frosmo_popup:has(.popup_advertiser)
 kaksplus.fi##.is-background-gray-light-3:has([id^=dfp__])
 kaksplus.fi##.placeholder
 kaksplus.fi##.wp-block-otavamedia-google-ad-slot
 kaksplus.fi##li.grid__item:has([id^=dfp__native-card])
-kaksplus.fi#?##huomiotekstiotsikko:has-text(Mainos)
 kaksplus.fi#?#.wp-block-otavamedia-section-management:has-text(Kaupallinen yhteistyö)
-kaksplus.fi,metsalehti.fi,uutisankka.com##.advertisement
 kalastus.com###mini-panel-autodoc_150x50
 kalastus.com##.gam-holder
 kalastuslehti.fi##._ning_outer
@@ -618,6 +615,7 @@ metsalehti.fi##.section--native-left
 metsalehti.fi##.teaser--partner
 metsalehti.fi##.teaser-top-banner--partner
 metsalehti.fi##[data-set="main-ad"]
+metsalehti.fi,uutisankka.com##.advertisement
 metsastajaliitto.fi##.frontpage-ad-item:not(:has([href^="https://metsastajaliitto.fi/"]))
 metsastajaliitto.fi##.view-id-jahtimedia_latest .list-item:has([href^="https://jahtimedia.fi/mainokset/"])
 metsastysjakalastus.fi##.DfpAdSlot_dfp-ad-slot
