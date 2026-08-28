@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 29 Aug 2026 00:14:17 +0300
+! Last modified: Sat, 29 Aug 2026 00:16:09 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -861,8 +861,9 @@ ticketmaster.fi##div[id^=ad-slot-]
 tiedonantaja.fi##[class*="block-boxes-ad-300x250"]
 tiendeo.fi###header-standard-container
 tiendeo.fi##[data-testid^="div-gpt-ad-"]
+tiketti.fi###front_big_event
 tiketti.fi###front_big_event > span
-tiketti.fi##.itemwide:has([href="https://www.nextory.fi/partner-collaboration/tiketti/"])
+tiketti.fi###tik_fixed.with-ebanner { top: 0 !important }
 tilannehuone.fi###cnt_lista tr:has(.mainosinline) + tr:has(> .divid)
 tilannehuone.fi##.contentti:has(> .mainos-mob:only-child)
 tilannehuone.fi##.contentti:has(> .mainos_yla:only-child)
