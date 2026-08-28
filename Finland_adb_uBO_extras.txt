@@ -21,7 +21,6 @@ proshop.fi##.container.site-container.hasTopBanner:style(top: 5px !important)
 proshop.fi##.site-container-fullwidth:style(background-image: none !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
-talouselama.fi,tekniikkatalous.fi##section hr:matches-css-before(content: /Mainos |Mainoksen /):upward(1)
 tiketti.fi###front_big_event
 tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
 www.suomi24.fi##[data-gtm-label="threadGridView"]:style(display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-auto-flow:row!important;column-gap:0!important;row-gap:16px!important;align-items:stretch!important)
