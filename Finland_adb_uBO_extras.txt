@@ -16,8 +16,6 @@ proshop.fi##.container.site-container.hasTopBanner:style(top: 5px !important)
 proshop.fi##.site-container-fullwidth:style(background-image: none !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
-tiketti.fi###front_big_event
-tiketti.fi###tik_fixed.with-ebanner:style(top: 0 !important)
 
 ! HTML filters for browsers that support them e.g. Firefox
 !#if cap_html_filtering
