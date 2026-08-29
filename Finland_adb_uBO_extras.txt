@@ -10,7 +10,6 @@ iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.f
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.mdc-layout-grid__cell:has(+ .sidebar__column-container) img[sizes]:remove-attr(sizes)
 kotiliesi.fi#?#.article-card-grid li:has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
-outlook.live.com##div[aria-label=Siirtymisruutu] ~ div[data-max-width="2400"] + div[class]
 proshop.fi##.container.site-container.hasTopBanner:style(top: 5px !important)
 proshop.fi##.site-container-fullwidth:style(background-image: none !important)
 puhelinvertailu.com##.index-wrap:style(left: 0px !important)
