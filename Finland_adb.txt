@@ -1132,6 +1132,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||vauva.fi/modules/custom/vauva_cts/modules/vauva_cts_native/js/vauva_cts_native.js$script,domain=vauva.fi
 ||vertaa.fi^*/showads.js$script,domain=vertaa.fi
 ||vg.is.fi/autotie-is-*/$subdocument
+||visx.net^$third-party
 ||ykkoslohja.fi/wp-content/uploads/*/ksupermarket$image
 ||ykkoslohja.fi/wp-content/uploads/*/lainaaverkossa$image
 
