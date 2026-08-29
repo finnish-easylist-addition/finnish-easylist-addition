@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sat, 29 Aug 2026 21:27:12 +0300
+! Last modified: Sat, 29 Aug 2026 21:39:10 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -747,6 +747,8 @@ puheenvuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi##a[class*=commercial-blog-card]
 puheenvuoro.uusisuomi.fi#?##leaderboard-1-desktop {remove: true}
 puheenvuoro.uusisuomi.fi#?##leaderboard-1-mobile {remove: true}
+puhelinvertailu.com##.advertisements
+puhelinvertailu.com##.index-wrap { left: 0px !important }
 puhelinvertailu.com##br:has(+ br + ins[class=adsbygoogle])
 puhelinvertailu.com##br:has(+ ins[class=adsbygoogle])
 puskaradio.net##.all-adds
@@ -1152,6 +1154,7 @@ murha.info#@#.adsbygoogle
 @@||adform.net^$xmlhttprequest,domain=telsu.fi
 !#endif
 ||adform.net$xmlhttprequest,rewrite=abp-resource:blank-js,domain=telsu.fi
+@@||puhelinvertailu.com^$generichide
 
 
 ! Redirect resources
