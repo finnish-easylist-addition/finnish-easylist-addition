@@ -11,7 +11,6 @@ kotiliesi.fi#?#.article-card-grid li:has(div[id^=dfp__]:not([id^=dfp__desk-1_1])
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 proshop.fi##.container.site-container.hasTopBanner:style(top: 5px !important)
 proshop.fi##.site-container-fullwidth:style(background-image: none !important)
-puhelinvertailu.com##.index-wrap:style(left: 0px !important)
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
 
 ! HTML filters for browsers that support them e.g. Firefox
