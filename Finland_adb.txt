@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 30 Aug 2026 17:41:57 +0300
+! Last modified: Sun, 30 Aug 2026 17:45:54 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -150,6 +150,7 @@ alueviesti.fi###front_after_menu
 alueviesti.fi##.latest_sima
 alueviesti.fi##.soliloquy-link
 alueviesti.fi##.widget.sima
+alypaa.com##.leaderboard
 ampparit.com##.gtm-bottom-ticker
 ampparit.com##.gtm-navi-ticker:has(> a[href$="tikkeri"])
 ampparit.com##.mobile-leaderboard-container
@@ -1095,6 +1096,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||nostemedia.bbvms.com^$script,third-party
 ||nyt.tassa.fi/ctxwidget/ipCtxWidget.js$script,domain=ilkkapohjalainen.fi
 ||otavamedia.fi/ad/$script
+||pelikone.fi/provider/media?gid=$xmlhttprequest,domain=pelikone.fi
 ||projektiuutiset.fi/*banner$image,domain=projektiuutiset.fi
 ||proshop.fi/Content/*/leadFamly.bundle.js$script,domain=proshop.fi
 ||rakentaja.fi/kuvat/esitykset/bannerit/*_Keittiomaailma-schibsted-*-kampanja$image,domain=rakentaja.fi
