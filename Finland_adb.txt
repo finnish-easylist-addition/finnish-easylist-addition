@@ -784,7 +784,7 @@ seura.fi##.grid__item_lg-1.grid__item_1:has(.dfp-advertisement)
 seura.fi##.wp-block-column:has(> [id|="dfp__native-card"])
 seura.fi##li:has(> [id|="dfp__native-card"])
 seura.fi#?#section[class=entry-body] > p:has-text(/^\xA0$/)
-seurakuntalainen.fi##.article-item.column-mainospaikka
+seurakuntalainen.fi##.valu-large-ad
 seutumajakka.fi##.section--full-size-ad-carousel
 sevendays.vasabladet.fi##.AutomaticDfpWidget
 sevendays.vasabladet.fi##.DfpWidget
