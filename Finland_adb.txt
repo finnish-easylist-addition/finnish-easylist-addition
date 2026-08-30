@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 30 Aug 2026 16:20:32 +0300
+! Last modified: Sun, 30 Aug 2026 16:51:43 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -228,6 +228,7 @@ como.fi,episodi.fi,inferno.fi,pelaaja.fi,rumba.fi,soundi.fi##.poppartners
 como.fi,episodi.fi,inferno.fi,rumba.fi,soundi.fi,tilt.fi##.border-bottom.row:has(.poppartners)
 como.fi,tilt.fi,rumba.fi##body:not(.post-type-archive-advertoriaali) .bg-white.p-3.mb-6:has(a[href*=".fi/advertoriaali/"])
 dailyfinland.fi##.wrepper.mx-auto > .row[style="margin-bottom:20px"]
+dawn.fi##.ad-300
 dawn.fi##.ad-generic { min-height: 0 !important; padding: 0 !important; margin: 0 !important; visibility: hidden !important; overflow: hidden !important; }
 dawn.fi##.adsbygoogle + script + p > br
 dawn.fi##.container.archive > .ad-generic { height: 30px !important; }
@@ -620,8 +621,10 @@ mikrobitti.fi##div[class][width]:has([id|="almad-mobileParade"])
 mikrobitti.fi##div[style="margin-bottom:0"]:has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 misssuomi.fi##.elementor-widget-container > a[href^="https://sortter.fi/"]
 mma.fi#?#.commercial__content:has-text(Kumppanilta)
+mobiili.fi###header_ad22
 mobiili.fi###header_ad33
 mobiili.fi###headermob { position: static !important }
+mobiili.fi##.header_ad
 mobiili.fi##.mainbody.extended {margin-top: 2em !important }
 mobiili.fi##.single-content-all > div[style^="float:left"][style*="width:100%"][style*="text-align:center"][style*="margin-bottom:17px"]
 mobiili.fi##.singlehinta.header_ad
@@ -1083,7 +1086,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||media.power-cdn.net/images/pages/orderpage/*-power-huippudiili-*.jpg$image
 ||media.toimitilat.kauppalehti.fi/Image.aspx?f=/banners/$image
 ||menyt.azurewebsites.net/public/js/omamainos-widget$script,domain=akaanseutu.fi|lvs.fi|orivedensanomat.fi|radiosun.fi|shl.fi|ylojarvenuutiset.fi
-||mobiili.fi/wp-content/uploads/2019/08/bms_2019_980x120.jpg$image,domain=mobiili.fi
 ||mvlehti.net/image/adv.jpg$image,domain=mvlehti.net
 ||mvlehti.net/uploads/2021/06/Halvinlaina-Otsikko.jpg$image,domain=mvlehti.net
 ||nayadaya.com^$third-party
@@ -1156,10 +1158,6 @@ murha.info#@#.adsbygoogle
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 /adverts/*.mp4$media,rewrite=abp-resource:blank-mp3,domain=totalvene.fi
 ||adsdk.bing.net/ast/ast.js$script,rewrite=abp-resource:blank-js,domain=iltalehti.fi
-
-! appears when blocking ads:
-||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
-ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
 
 !#if env_mobile
 kotiliesi.fi##.article-card-grid li:has(div[id^=dfp__])
