@@ -2,7 +2,6 @@
 ! -----SPECIFIC FILTERS-----
 
 ampparit.com##.ad-slot
-ap-cdn.sanomagames.com##.banner-slot-preroll
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.m-managedListing__column:has(.m-contentListItem__advertisement):remove()
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.m-managedListing__row.-cols-2 > .m-managedListing__column.-cols-2:only-child img:remove-attr(sizes)
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.mdc-layout-grid__cell:has(+ .sidebar__column-container) img[sizes]:remove-attr(sizes)
@@ -38,7 +37,6 @@ ylojarvenuutiset.fi##^.omamainos-responsive
 ! -----SCRIPTS-----
 
 afterdawn.com,dawn.fi,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
-ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)
 findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
