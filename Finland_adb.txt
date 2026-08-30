@@ -288,11 +288,7 @@ facebook.com#?#[role="feed"] [data-pagelet^="FeedUnit_"]:has(div[class][role="bu
 facebook.com#?#div[data-pagelet^="FeedUnit_"] a[aria-label]:has-text(Sponsoroitu)
 facebook.com#?#span#ssrb_feed_start + div > div[class]:has(span[class][dir="auto"] > span[id]:has-text(Sponsoroitu))
 feedi.fi,tanssiin.fi##.alp-advert
-feissarimokat.com###billboard
-feissarimokat.com###logopal
 feissarimokat.com##.flexibox
-feissarimokat.com##.shopster
-feissarimokat.com##div[class*=adbox]
 fiksukuluttaja.fi##.thirstylinkimg
 fillarifoorumi.fi###ad_global_below_navbar
 fillaritori.com###ipsLayout_mainArea > center
