@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Sun, 30 Aug 2026 00:33:52 +0300
+! Last modified: Sun, 30 Aug 2026 16:12:51 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -1143,7 +1143,6 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||freewheel-jitt.sanoma.fi^$media
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media
 
-! Adblock check
 murha.info#@#.adsbygoogle
 @@||adserve.adcoin.com/display/ad_block/$xmlhttprequest,domain=verkkouutiset.fi
 !#if ext_abp
@@ -1151,7 +1150,7 @@ murha.info#@#.adsbygoogle
 !#endif
 ||adform.net$xmlhttprequest,rewrite=abp-resource:blank-js,domain=telsu.fi
 @@||puhelinvertailu.com^$generichide
-
+@@||dawn.fi^$generichide
 
 ! Redirect resources
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
