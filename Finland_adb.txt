@@ -841,6 +841,7 @@ tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##[class|=adform]
 telsu.fi##.ch:has(em > a)
+telsu.fi##.dets.pop > .pb_d
 telsu.fi##.dp
 telsu.fi##.pb
 telsu.fi##.pb_t {remove:true;}
