@@ -157,6 +157,7 @@ ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
 ampparit.com,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
 animelehti.fi##.listing-container:has(a[href^="https://www.animelehti.fi/advertoriaali/mainos"])
+animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,meteli.net,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi,voice.fi##.w-full.bg-white:has(> [data-desktop-ad-unit-id])
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,meteli.net,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi,voice.fi##div[class][style]:has([data-desktop-ad-unit-id])
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,meteli.net,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi,voice.fi##div[class][style]:has([data-mobile-ad-unit-id])
 animelehti.fi,episodi.fi,inferno.fi##.px-4.py-2.bg-white.w-full:has(.poppartners)
