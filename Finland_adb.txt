@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Tue, 01 Sep 2026 19:20:42 +0300
+! Last modified: Tue, 01 Sep 2026 19:36:05 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -626,6 +626,7 @@ mma.fi#?#.commercial__content:has-text(Kumppanilta)
 mobiili.fi###header_ad22
 mobiili.fi###header_ad33
 mobiili.fi###headermob { position: static !important }
+mobiili.fi##.banner-ad
 mobiili.fi##.header_ad
 mobiili.fi##.mainbody.extended {margin-top: 2em !important }
 mobiili.fi##.single-content-all > div[style^="float:left"][style*="width:100%"][style*="text-align:center"][style*="margin-bottom:17px"]
