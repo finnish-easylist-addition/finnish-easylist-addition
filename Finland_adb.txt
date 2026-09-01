@@ -949,6 +949,7 @@ viisasraha.fi##div[class^=banner] > a[href="https://www.viisasraha.fi/Taloushalt
 viisitahtea.com###secondary a[href^="https://diamondbeverages.fi/"]
 viisitahtea.com###secondary a[href^="https://wihuri.metrotukku.fi/"]
 viisitahtea.com#?#.widget--side:has-text(Mainos)
+voice.fi##.min-h-\[450px\]
 voima.fi##.voima-banneri-etusivulla
 voima.fi##div[class|=voima-jutun-sisalla]:has(.voima-adlabel)
 vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
