@@ -844,7 +844,6 @@ tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##[class|=adform]
 telsu.fi##.ch.katsomo { position: absolute !important; left: -10000px !important; }
-telsu.fi##.ch.katsomo {remove:true;}
 telsu.fi##.dets.pop > .pb_d
 telsu.fi##.dp
 telsu.fi##.pb
