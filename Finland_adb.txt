@@ -843,15 +843,10 @@ tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##[class|=adform]
-telsu.fi##[id="prg"] > [class~="katsomo"] { position:absolute!important; top:0!important; left:0!important; width:300px!important; min-width:300px!important; max-width:300px!important; box-sizing:border-box!important; padding-right:300px!important; background-clip:content-box!important; overflow:visible!important; pointer-events:none!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a:has(> img + span) { position:relative!important; width:300px!important; height:52px!important; overflow:hidden!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a:has(> img + span) > * { position:absolute!important; left:100%!important; top:0!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a.item { position:relative!important; box-sizing:border-box!important; width:240px!important; min-width:240px!important; height:204px!important; min-height:150px!important; padding-left:240px!important; overflow:hidden!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a.item > * { position:absolute!important; left:100%!important; top:0!important; width:240px!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a.item > img { height:135.2px!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > a.item > b { height:16px!important; top:135.2px!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > em { position:relative!important; width:240px!important; height:48px!important; overflow:hidden!important; }
-telsu.fi##[id="prg"] > [class~="katsomo"] > em > a { position:absolute!important; left:100%!important; top:0!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] { position:absolute!important; top:0!important; left:0!important; width:300px!important; background-clip:text!important; -webkit-background-clip:text!important; font-size-adjust:0!important; pointer-events:none!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] img { object-fit:none!important; object-position:calc(100% + 100vw) calc(100% + 100vh)!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] > a:has(> img + span) > span { display:inline-block!important; min-width:8em!important; min-height:1em!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] > em > a { background-clip:text!important; -webkit-background-clip:text!important; }
 telsu.fi##.dets.pop > .pb_d
 telsu.fi##.dp
 telsu.fi##.pb
