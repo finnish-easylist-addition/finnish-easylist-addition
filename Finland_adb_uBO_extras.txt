@@ -13,6 +13,7 @@ tilannemedia.fi##.tm-home3-layout:matches-media((min-width: 1019px)):style(width
 !#if cap_html_filtering
 foreca.fi##^#ad-top
 foreca.fi##^[id|=inline-banner-mobi]
+keskustelu.suomi24.fi##^[class*="3ColumnLayout__HeaderAdWrapper"]
 kokemaenjokilaakso.fi##^[alt^=Mainos]
 kotikokki.net##^.kotikokki_ensighten_ad
 kuka-soitti.fi##^body > .container:not(.mb-5, :has(.mb-5)):has-text(Mainos)
@@ -39,7 +40,7 @@ ylojarvenuutiset.fi##^.omamainos-responsive
 afterdawn.com,dawn.fi,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
 findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
-keskustelu.suomi24.fi##+js(ra, class, div[class*="3ColumnLayout__HeaderAdWrapper"], asap stay)
+keskustelu.suomi24.fi##+js(set, Object.prototype.useAds, false, runAt, loading)
 s-kaupat.fi##+js(json-prune, props.pageProps.contentfulState.frontPage.sections.[].fields.hasCitrusAdSlot props.pageProps.contentfulState.frontPage.sections.[].fields.isCitrusAdGrid)
 srk.fi##+js(set-cookie, cookielaw_accepted, 1, , reload, 1)
 telsu.fi##+js(aeld, transitionend, , elements, div[style*="-9999px"][style*="outline-offset"])
