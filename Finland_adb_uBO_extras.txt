@@ -8,6 +8,7 @@ iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.f
 kotiliesi.fi#?#.article-card-grid li:has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
+tilannemedia.fi##.tm-home3-layout:matches-media((min-width: 1019px)):style(width: 1068px !important; grid-template-columns: 710px 338px !important; gap: 20px !important; margin-inline: auto !important;)
 
 ! HTML filters for browsers that support them e.g. Firefox
 !#if cap_html_filtering
