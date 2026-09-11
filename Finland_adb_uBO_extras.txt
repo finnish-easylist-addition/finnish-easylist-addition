@@ -5,7 +5,6 @@ ampparit.com##.ad-slot
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.m-managedListing__column:has(.m-contentListItem__advertisement):remove()
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.m-managedListing__row.-cols-2 > .m-managedListing__column.-cols-2:only-child img:remove-attr(sizes)
 iijokiseutu.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,kaleva.fi,koillissanomat.fi,komiat.fi,lapinkansa.fi,pohjoisenpolut.fi,pyhajokiseutu.fi,raahenseutu.fi,rantalakeus.fi,siikajokilaakso.fi,suupohjansanomat.fi,viiskunta.fi##.mdc-layout-grid__cell:has(+ .sidebar__column-container) img[sizes]:remove-attr(sizes)
-kotiliesi.fi#?#.article-card-grid li:has(div[id^=dfp__]:not([id^=dfp__desk-1_1])):remove()
 metsastysjakalastus.fi,tekniikanmaailma.fi##.NoAdBlocker_main
 seiska.fi##.jwplayer.column:has(.jw-video[src="https://seiska.b-cdn.net/Mainos.mp4"]):remove()
 tilannemedia.fi##.tm-home3-layout:matches-media((min-width: 1019px)):style(width: 1068px !important; grid-template-columns: 710px 338px !important; gap: 20px !important; margin-inline: auto !important;)
