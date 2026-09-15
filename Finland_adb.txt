@@ -844,7 +844,8 @@ tehylehti.fi##.commercial_wrapper
 tehylehti.fi##.node-promoted.node-teaser
 tehylehti.fi##.paragraph--type-ad
 teknavi.fi##[class|=adform]
-telsu.fi##[id="prg"] > [class~="katsomo"] { position:fixed!important; top:calc(100vh - 1px)!important; left:calc(100vw - 1px)!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] { position:fixed!important; top:2px!important; left:0!important; width:300px!important; min-width:300px!important; max-width:300px!important; height:52px!important; min-height:52px!important; max-height:52px!important; overflow:visible!important; }
+telsu.fi##[id="prg"] > [class~="katsomo"] * { position:absolute!important; top:0!important; left:0!important; box-sizing:border-box!important; width:100%!important; height:52px!important; min-height:52px!important; max-height:52px!important; margin:0!important; padding:0!important; overflow:visible!important; }
 telsu.fi##.dets.pop > .pb_d
 telsu.fi##.dp
 telsu.fi##.pb
