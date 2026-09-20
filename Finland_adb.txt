@@ -935,6 +935,8 @@ vau.fi#?#hr + h4:has-text(MAINOS) ~ hr
 vauva.fi###block-isalennuskoodit
 vauva.fi##[href^="http://pelikone.fi/out/"]
 vauva.fi##aside.sticky.bottom-0:has( > #block-isalennuskoodit:only-child)
+verkkosanomat.com###primary.content-area { margin-top: 0 !important; margin-bottom: 0 !important }
+verkkosanomat.com##.code-block:has(.adsbygoogle)
 verkkouutiset.fi##.elementor-widget-shortcode:has(.vu-adlabel)
 verkkouutiset.fi##.elementor-widget-shortcode:has([data-ad-unit-id])
 verkkouutiset.fi##.vu-adlabel
