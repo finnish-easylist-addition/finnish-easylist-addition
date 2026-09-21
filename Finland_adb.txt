@@ -389,8 +389,7 @@ hs.fi##a.block[href*="/mainos"]
 hs.fi##div[class*=ad-container]
 huoltovalikko.com##A[href="http://www.satshop.fi"]
 huonoaiti.fi#?#.col.article-card.item:has-text(Kaupallinen yhteistyö, yhteistyössä)
-huuto.net###hise-items-container
-huuto.net##.grid-element-container:has(.hise-link[href^="https://"])
+huuto.net##.my-8.flex.justify-center:has(a[rel~="sponsored"])
 hymy.fi##.grid--dfp-slots
 hymy.fi##.sidebar-block a[href^="https://seura.fi/mainos/"]
 hymy.fi##.sidebar-block a[href^="https://tekniikanmaailma.fi/mainoslehti/"]
@@ -1065,6 +1064,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||hintaopas.fi^$third-party
 ||hintaseuranta.fi/*/tripsteri_boxes/$subdocument
 ||honestpartners.com^$third-party
+||huuto.net/data/house-ads$xmlhttprequest,domain=huuto.net
 ||hymy.fi/wp-content/uploads/2018/03/HY_sivupalkin_myyntiviesti2.jpg$image
 ||hymy.fi/wp-content/uploads/2022/11/nicorette_hymy.jpg$image
 ||hymy.fi/wp-content/uploads/2023/05/Nicorette2023_4_300x300.jpg$image,domain=hymy.fi
