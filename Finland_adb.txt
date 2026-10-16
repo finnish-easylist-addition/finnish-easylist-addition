@@ -263,6 +263,7 @@ enontekionsanomat.fi,haapavesi-lehti.fi,inarilainen.fi,kainuunsanomat.fi,kalajok
 enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
 jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,viiskunta.fi#?#div[class] > div[id^="sas_"] + div:has-text(Mainos)
 episodi.fi##.bg-viaplay-dark-gray
+episodi.fi#?#.w-full.border-gray-800:has-text(Mainos)
 eralehti.fi##.DfpAdSlot_dfp-ad-slot
 eralehti.fi##.Index_native-ads
 eralehti.fi,metsastysjakalastus.fi,rakennusmaailma.fi##.Article_native-ads
