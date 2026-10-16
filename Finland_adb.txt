@@ -2,7 +2,7 @@
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
-! Last modified: Fri, 16 Oct 2026 18:03:47 +0300
+! Last modified: Fri, 16 Oct 2026 20:38:23 +0300
 ! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -500,6 +500,7 @@ keskustelu.kauppalehti.fi##.kl-sima--blocks > [href^="https://www.kauppalehti.fi
 keskustelu.pakkotoisto.com##.js-notices.notices--block.notices
 keskustelu.pakkotoisto.com##.samTextUnit
 keskustelu.suomi24.fi##.infeed-ad
+keskustelu.suomi24.fi##.thread-contenttop-ad
 keskustelu.suomi24.fi##div[class*=FooterAdWrapper]
 keskustelu.suomi24.fi##div[class*=HeaderAdWrapper]
 keskustelu.suomi24.fi##div[class*=__AdWrapper]
