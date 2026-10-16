@@ -500,6 +500,7 @@ keskustelu.kauppalehti.fi##.kl-sima--blocks > [href^="https://www.kauppalehti.fi
 keskustelu.pakkotoisto.com##.js-notices.notices--block.notices
 keskustelu.pakkotoisto.com##.samTextUnit
 keskustelu.suomi24.fi##.infeed-ad
+keskustelu.suomi24.fi##.thread-contenttop-ad
 keskustelu.suomi24.fi##div[class*=FooterAdWrapper]
 keskustelu.suomi24.fi##div[class*=HeaderAdWrapper]
 keskustelu.suomi24.fi##div[class*=__AdWrapper]
