@@ -48,6 +48,9 @@ telsu.fi##+js(aost, Animation.prototype.finished, /telsu\.fi\/js\/[a-z\d]+\.js\?
 telsu.fi##+js(norafif, /const\s+([$\w]+)=[$\w]+\(\)-[$\w]+;if\(\1>=[\s\S]*?\x2C\1>=[\s\S]*?\)\{[$\w]+\(\);return;\}window\[[^\]]+\]\([$\w]+\);/)
 telsu.fi##+js(nostif, /const\s+([$\w]+)=\[(?:[$\w]+\x2C){3}[$\w]+\];for\(let\s+([$\w]+)=[^;]+;\2<\1\[[^\]]+\];\2\+\+\)if\(!\1\[\2\]\)return;[$\w]+\(\);/, 2600-3399)
 vauva.fi##+js(rmnt, script, async-hide)
+aamulehti.fi,almamedia.fi,ampparit.com,arvopaperi.fi,hs.fi,il.fi,iltalehti.fi,iltasanomat.fi,is.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kauppalehti.fi,kmvlehti.fi,koneporssi.com,merikarvialehti.fi,mikrobitti.fi,nokianuutiset.fi,rannikkoseutu.fi,sanoma.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,tyrvaansanomat.fi,uusisuomi.fi,valkeakoskensanomat.fi##+js(rc, sp-message-open, html, stay)
+aamulehti.fi,almamedia.fi,ampparit.com,arvopaperi.fi,hs.fi,il.fi,iltalehti.fi,iltasanomat.fi,is.fi,jamsanseutu.fi,janakkalansanomat.fi,kankaanpaanseutu.fi,kauppalehti.fi,kmvlehti.fi,koneporssi.com,merikarvialehti.fi,mikrobitti.fi,nokianuutiset.fi,rannikkoseutu.fi,sanoma.fi,satakunnankansa.fi,suurkeuruu.fi,sydansatakunta.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,tyrvaansanomat.fi,uusisuomi.fi,valkeakoskensanomat.fi##+js(rc, sp-message-open, body, stay)
+
 
 ! Fix YouTube videos on www.aalto.fi
 ! Example: https://www.aalto.fi/fi/koulutustarjonta/kiinteistotalous-ja-geoinformatiikka-tekniikan-kandidaatti-ja-diplomi-insinoori
